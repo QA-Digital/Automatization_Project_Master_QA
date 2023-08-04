@@ -9,8 +9,9 @@ from generalized_test_functions import *
 ##global
 terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"
 terminyAcenyTabXpath_old = "//*[@class='f_bar-item f_tabBar']//*[contains(text(),'Termíny a ceny')]"
-terminyAcenyTabXpath = "//*[@class='f_menu f_menu--inline f_menu--sticky']//*[contains(text(),'Warunki i ceny')]"
+terminyAcenyTabXpath = "(//*[contains(text(), 'Terminy i ceny')][1])"
 potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
+
 
 #meal filter
 stravovaniBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--forkSpoon js-selector--catering']"
@@ -93,7 +94,8 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
-            celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
+            celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
+            celkovaCenaVterminechINT = int(float(celkovaCena))
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
         print(celkoveCenyList)
@@ -142,7 +144,8 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
-            celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
+            celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
+            celkovaCenaVterminechINT = int(float(celkovaCena))
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
         print(celkoveCenyList)

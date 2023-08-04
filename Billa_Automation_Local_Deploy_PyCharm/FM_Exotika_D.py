@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from Billa_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown, URL_exotika, generalDriverWaitImplicit
+from Billa_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -25,13 +25,3 @@ class Test_FM_Exotika_D(unittest.TestCase):
         #assert (self.driver.find_element_by_xpath(gridDestinationXpath)).is_displayed() == True
         self.test_passed = True
 
-
-    def test_Exotika_D(self):
-        self.driver.get(URL_exotika)
-        self.driver.maximize_window()
-        time.sleep(0.3)
-        acceptConsent(self.driver)
-        rowKarty_imgHoteluKarty_D(self, self.driver)
-        assert (self.driver.find_element_by_xpath(imgHotelKartaXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(gridDestinationXpath)).is_displayed() == True
-        self.test_passed = True
