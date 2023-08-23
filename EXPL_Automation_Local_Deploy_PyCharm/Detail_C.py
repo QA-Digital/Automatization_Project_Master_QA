@@ -4,7 +4,7 @@ from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeE
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from generalized_test_functions import *
+from generalized_test_functions_EXPL import *
 
 ##global
 terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Terminy i ceny')]"

@@ -2,7 +2,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
 import time
 import unittest
-from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, \
+from generalized_test_functions_EXPL import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, \
     generalized_list_string_sorter, generalized_detail_departure_check, \
     generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail
 

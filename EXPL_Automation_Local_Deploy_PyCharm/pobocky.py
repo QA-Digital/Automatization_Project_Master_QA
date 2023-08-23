@@ -33,7 +33,7 @@ class TestPobocky_C(unittest.TestCase):
 
         mapaKolecka = self.driver.find_elements_by_xpath("//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
         y=0
-        for y in mapaKolecka:
+        for _ in mapaKolecka:
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
 
             y=y+1
