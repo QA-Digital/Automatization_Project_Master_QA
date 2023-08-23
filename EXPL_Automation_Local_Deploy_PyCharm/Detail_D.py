@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,URL_detail, sendEmail, setUp, tearDown
+from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,URL_detail, sendEmail, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -10,7 +10,7 @@ import unittest
 def detail_D(self, driver):
     wait = WebDriverWait(self.driver, 12)
     driver.implicitly_wait(10)
-    detailWrapperXpath = "//*[@class='grd-row']"
+    detailWrapperXpath = "//div[contains(@class,'grayBox')]"
     try:
         detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
         wait.until(EC.visibility_of(detailWrapper))

@@ -7,18 +7,12 @@ import unittest
 from generalized_test_functions import *
 
 ##global
-terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"
-terminyAcenyTabXpath_old = "//*[@class='f_bar-item f_tabBar']//*[contains(text(),'Termíny a ceny')]"
-terminyAcenyTabXpath = "(//*[contains(text(), 'Terminy i ceny')][1])"
+terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Terminy i ceny')]"
 potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 
-
 #meal filter
-stravovaniBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--forkSpoon js-selector--catering']"
 stravovaniBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--cutlery']"
 
-valueToFilterStravaAllIncXpath_V1 = "//*[@id='filtr-stravy-detail']//*[contains(text(),'All inclusive')]"
-#valueToFilterStravaAllIncXpath = "//*[@class='f_holder']//*[contains(text(),'All inclusive')]"
 valueToFilterStravaAllIncXpath = "//*[@class='f_input--checkbox f_input']//*[@value=5]"
 
 zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']//*[@class='f_button-text f_text--highlighted']"
@@ -26,10 +20,7 @@ zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']
 stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 
 #airport filter
-dopravaBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--plane js-selector--travel']"
-dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
-##dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@class='f_input--checkbox f_input']"
-dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='3850']"
+dopravaWarszawaXpath = "(//input[@value='3850'])[2]"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
 class TestDetailHotelu_C(unittest.TestCase):
@@ -74,16 +65,6 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         celkovaCenaSorterElement.click()
         time.sleep(4)
-       #celkovaCenaSorterAfterOneClickXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
-       #celkovaCenaSorterAfterOneClickElement = driver.find_element_by_xpath(celkovaCenaSorterAfterOneClickXpath)
-
-       #celkovaCenaSorterAfterOneClickElement.click()
-        time.sleep(5)
-        ##at this point kliknuto na sorter, need to take all of them and sort and compare lists / values
-
-        ##elemenet vypada jako "41 276 Kč"
-        ##odstranit menu na konci (parametr def by culture how long it is) + normalize space = should be int
-        "38 764 Kč"
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
         pocetTerminuElements = driver.find_elements_by_xpath(pocetTerminuXpath)
@@ -115,7 +96,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
-        terminyAcenyElement.click()
+        driver.execute_script("arguments[0].click();", terminyAcenyElement)
         boxTerminyXpath = "//*[@class='f_holder']"
         boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
@@ -193,7 +174,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
                                                                         stravovaniBoxXpath,
-                                                                        valueToFilterStravaAllIncXpath, False)
+                                                                        valueToFilterStravaAllIncXpath, True)
         time.sleep(1.2)
 
         zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
@@ -209,17 +190,15 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(1)
         acceptConsent(self.driver)
-
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
-                                                                        dopravaBoxXpath, dopravaBrnoXpath, True)
+                                                                        dopravaBoxXpath, dopravaWarszawaXpath, True)
         time.sleep(4)
         pocetZobrazenychTerminuXpath = "//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "warsaw"
+        departureToCompareTo = "Warszawa"
 
         time.sleep(5)
-        generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath,
-                                           departureToCompareTo, True)
+        generalized_detail_departure_check_EXPL(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
 
         time.sleep(0.2)
         self.test_passed = True

@@ -1,20 +1,15 @@
 from selenium.common.exceptions import NoSuchElementException
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from to_import_master import queryListOptimizedMonitor
-querySDO = ["Zanzibar", "Řecko", "Turecko", "Egypt", "Kapverdy", "Oman" , "Maledivy", "Dubaj", "Mallorca", "Bulharsko", "Chorvatsko", "Kefalonia", "Attika" ]
-queryCommon = ["pojištění",  "parkování", "covid", "Funtazie" ]
-queryHotely = ["Mirage bay", "mitsis", "Prima life", "Prima life makadi", "Pegasos", "Pickalbatros", "Titanic", "mirage", "Domes Aulüs", "Bay & Mare",  "A for Art",
-               "Porto Skala 7", "Costa Azzurra", "La Cite", "Naftilos", "Stefanos", "Magnolia",  "White Gold", "King Tut Resort", "Blue Waters",
-               "Primasol", "Doubletree"]
-#queryList = querySDO+queryCommon+queryHotely
 
-queryList = queryListOptimizedMonitor
-#queryList = ["covid"]
+querySDO = ["Grecja", "Turcja", "Egipt", "Oman", "Malediwy", "Dubaj", "Bulgaria", "Chorwacja", "Portugalia"]
+queryHotely = ["Falcon hills", "Aprilis hotel", "Prima life makadi resort", "Myrto hotel", "Cocoon maldives", "Titanic palace"]
+queryList = querySDO+queryHotely
+
 class Test_Fulltext_C(unittest.TestCase):
     def setUp(self):
         setUp(self)
@@ -38,10 +33,8 @@ class Test_Fulltext_C(unittest.TestCase):
             FTlupa = self.driver.find_element_by_xpath("//*[@class='f_anchor f_icon f_icon--magnifier']")
             FTlupa.click()
             inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
-            #inputBox.send_keys(queryList[poziceQueryItem])
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
-            # inputBox.send_keys(Keys.ENTER)
             print(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem+1
 
@@ -53,14 +46,11 @@ class Test_Fulltext_C(unittest.TestCase):
                 wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")))
                 try:
 
-                    #hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
                     hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")  ##work around na EW
-                    #wait.until(EC.visibility_of(hotelDlazdice)).click()
                     hotelDlazdice.click()
-                    #hotelDlazdice.click()
                     currentUrl = self.driver.current_url
                     time.sleep(0.5)
-                    print("hote dlazdice klik")
+                    print("hotel dlazdice klik")
                     assert currentUrl != "https://www.eximtours.cz/"
                     testOK_asserted = True
                 except NoSuchElementException:
@@ -73,10 +63,7 @@ class Test_Fulltext_C(unittest.TestCase):
 
             if testOK_asserted == False:
                 try:
-                    #prvniItem = self.driver.find_elements_by_xpath("//*[@class='f_item']")
                     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
-                    #wait.until(EC.visibility_of(prvniItem[0])).click()
-                    #prvniItem[0].click()
                     print("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != "https://www.eximtours.cz/"
@@ -88,7 +75,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     pass
                 time.sleep(0.5)
                 currentUrl = self.driver.current_url
-                assert currentUrl != "https://www.eximtours.cz/"
+                assert currentUrl != "https://www.exim.pl/"
             else:
                 pass
 
@@ -111,7 +98,6 @@ class Test_Fulltext_C(unittest.TestCase):
             linksToCheckList = []
             try:
                 vysledkyDlazdiceHotelu = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
-               # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
                     linksToCheckList.append(vysledkyDlazdiceHotelu[x].get_attribute("href"))
@@ -120,16 +106,13 @@ class Test_Fulltext_C(unittest.TestCase):
                 pass
             vysledkyTextItems = driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
             vysledkyTextItemsSingle = driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            #wait.until(EC.visibility_of(vysledkyTextItems[0]))
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0
             for _ in vysledkyTextItems:
                     linksToCheckList.append(vysledkyTextItems[0].text)
                     z = z + 1
 
-            #print(linksToCheckList)
             poziceQueryItem=poziceQueryItem+1
-            #print(len(linksToCheckList))
             assert len(linksToCheckList) > 0        ## check if there are any result, length > 0
             y = 0
             #for _ in linksToCheckList:
@@ -137,14 +120,9 @@ class Test_Fulltext_C(unittest.TestCase):
                 for i in range(5):
                     response = requests.get(linksToCheckList[y])
                     assert response.status_code == 200
-                    #print(response.status_code)
-                    #print(response.status_code == 200)
-
                     y = y + 1
             else:
                 for _ in linksToCheckList:
-                    #print(response.status_code)
-                    #print(response.status_code == 200)
                     assert response.status_code == 200
                     y = y + 1
 
