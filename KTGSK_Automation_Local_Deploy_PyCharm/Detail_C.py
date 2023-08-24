@@ -5,7 +5,7 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
-from generalized_test_functions_EXPL import *
+from generalized_test_functions import *
 
 ##global
 terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"

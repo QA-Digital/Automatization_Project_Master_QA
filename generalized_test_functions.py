@@ -233,63 +233,63 @@ def generalized_SRL_price_sorter(driver, sorter_Xpath, hotelyKartyXpath, cenaZaj
         assert cenaZajezduAllListSorted == cenaZajezduAllList
 def generalized_detail_departure_check(driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, v2 ):
 
-            try:
-                pocetZobrazenychTerminu = driver.find_elements_by_xpath(pocetZobrazenychTerminuXpath)  ##locator jen na pocet odletu alokuje vic veci nez je actual terminu tak
-            except NoSuchElementException:
-                url = driver.current_url
-                msg = "pocetZobrazenychTerminu, filtrovani dle letu detail hotelu, mozna jen nema odlety na X, NoSuchElementException " + url
-                sendEmail(msg)
+        try:
+            pocetZobrazenychTerminu = driver.find_elements_by_xpath(pocetZobrazenychTerminuXpath)  ##locator jen na pocet odletu alokuje vic veci nez je actual terminu tak
+        except NoSuchElementException:
+            url = driver.current_url
+            msg = "pocetZobrazenychTerminu, filtrovani dle letu detail hotelu, mozna jen nema odlety na X, NoSuchElementException " + url
+            sendEmail(msg)
 
-            try:
-                odletyTerminy = driver.find_elements_by_xpath(odletyTerminyXpath)  ##prvni locator je "odlet" takze zacnu na pozici jedna, vyloopuje se to podle
-                ##poctu terminu, should be ok
-            except NoSuchElementException:
-                url = driver.current_url
-                msg = "odletyTerminy, nejsou odlety na brno, most likely not a bad thing, NoSuchElementException " + url
-                sendEmail(msg)
+        try:
+            odletyTerminy = driver.find_elements_by_xpath(odletyTerminyXpath)  ##prvni locator je "odlet" takze zacnu na pozici jedna, vyloopuje se to podle
+            ##poctu terminu, should be ok
+        except NoSuchElementException:
+            url = driver.current_url
+            msg = "odletyTerminy, nejsou odlety na brno, most likely not a bad thing, NoSuchElementException " + url
+            sendEmail(msg)
 
-            #assert odletyTerminy[y].text.lower() == departureToCompareTo
-            #v2=True
+        #assert odletyTerminy[y].text.lower() == departureToCompareTo
+        #v2=True
 
-            time.sleep(5)
-            poziceTerminu = 1
-            if v2==True:
-                #for _ in pocetZobrazenychTerminu:
-                forInLoopZobrazeneTerminy = len(pocetZobrazenychTerminu)-2
-                #print(forInLoopZobrazeneTerminy )
-                #for _ in range(len(pocetZobrazenychTerminu)):
-                for _ in range(forInLoopZobrazeneTerminy):
-                    #print(poziceTerminu)
-                    #print(odletyTerminy[poziceTerminu].text.lower())
-                    if odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo:
-                        print("equal to " + departureToCompareTo)
-                        poziceTerminu = poziceTerminu+1
-                        assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
-                    else:
-                        url = driver.current_url
-                        msg = "na detailu jsem vyfiltroval odlet na brno ale pry to nesedi říká python " + url
-                        sendEmail(msg)
-                        #poziceTerminu = poziceTerminu + 1
-                        print("else trigger")
-                        assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
+        time.sleep(5)
+        poziceTerminu = 1
+        if v2==True:
+            #for _ in pocetZobrazenychTerminu:
+            forInLoopZobrazeneTerminy = len(pocetZobrazenychTerminu)-2
+            #print(forInLoopZobrazeneTerminy )
+            #for _ in range(len(pocetZobrazenychTerminu)):
+            for _ in range(forInLoopZobrazeneTerminy):
+                #print(poziceTerminu)
+                #print(odletyTerminy[poziceTerminu].text.lower())
+                if odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo:
+                    print("equal to " + departureToCompareTo)
+                    poziceTerminu = poziceTerminu+1
                     assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
+                else:
+                    url = driver.current_url
+                    msg = "na detailu jsem vyfiltroval odlet na brno ale pry to nesedi říká python " + url
+                    sendEmail(msg)
+                    #poziceTerminu = poziceTerminu + 1
+                    print("else trigger")
+                    assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
+                assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
 
 
 
-            if not v2==True:
-                y = 1
-                for _ in pocetZobrazenychTerminu:
-                    assert odletyTerminy[y].text.lower() == departureToCompareTo
-                    if odletyTerminy[y].text.lower() == departureToCompareTo:  ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
-                        ##je "odlet"), kazdy sudy cislo je mezera/blank space for some reason
-                        print(odletyTerminy[y].text.lower())
-                        y = y + 2
-                    else:
-                        url = driver.current_url
-                        print(odletyTerminy[y].text.lower())
-                        msg = "na detailu jsem vyfiltroval odlet na brno ale pry to nesedi říká python " + url
-                        sendEmail(msg)
-                        y = y + 2
+        if not v2==True:
+            y = 1
+            for _ in pocetZobrazenychTerminu:
+                assert odletyTerminy[y].text.lower() == departureToCompareTo
+                if odletyTerminy[y].text.lower() == departureToCompareTo:  ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
+                    ##je "odlet"), kazdy sudy cislo je mezera/blank space for some reason
+                    print(odletyTerminy[y].text.lower())
+                    y = y + 2
+                else:
+                    url = driver.current_url
+                    print(odletyTerminy[y].text.lower())
+                    msg = "na detailu jsem vyfiltroval odlet na brno ale pry to nesedi říká python " + url
+                    sendEmail(msg)
+                    y = y + 2
 def generalized_EW_like_top_nabidka_URL_status_check(driver, topNabidkaLinkXpath):
 
     links_to_check = []

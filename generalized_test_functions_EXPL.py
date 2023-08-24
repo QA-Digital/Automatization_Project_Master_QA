@@ -337,7 +337,7 @@ def generalized_detail_departure_check_EXPL(driver, pocetZobrazenychTerminuXpath
         for _ in pocetZobrazenychTerminu:
             assert odletyTerminy[y].text.lower() == departureToCompareTo
             if odletyTerminy[
-                y].text.lower() == departureToCompareTo:  ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
+                y].text.lower() == departureToCompareTo:   ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
                 ##je "odlet"), kazdy sudy cislo je mezera/blank space for some reason
                 print(odletyTerminy[y].text.lower())
                 y = y + 2

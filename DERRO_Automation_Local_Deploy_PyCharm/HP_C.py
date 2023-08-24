@@ -59,17 +59,51 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         self.driver.find_element_by_xpath(kamPojedeteButtonXpath).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakEgiptDestinaceXpath).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpath).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep2).click()
+        time.sleep(0.5)
         self.driver.execute_script("arguments[0].scrollIntoView();", zlutakPokracovatButtonXpathStep2)
-        time.sleep(5)
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakZima2024Xpath).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep3).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakObsazenost2plus1Xpath).click()
+        time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakPotvrditAvyhledatXpath).click()
 
         SRL_D(self, self.driver)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL(self):
+        self.driver.get(URL)
+        wait = WebDriverWait(self.driver, 300)
+        self.driver.maximize_window()
+        time.sleep(0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(kamPojedeteButtonXpath))).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakEgiptDestinaceXpath))).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakPokracovatButtonXpath))).click()
+        time.sleep(1.5)
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep2))).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakZima2024Xpath))).click()
+        time.sleep(1)
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep3))).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakObsazenost2plus1Xpath))).click()
+
+        time.sleep(1)
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zlutakPotvrditAvyhledatXpath))).click()
+        time.sleep(1)
+        SRL_D(self, self.driver)
+
         self.test_passed = True
 
 
