@@ -5,6 +5,8 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import pyautogui as p
+from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble
+
 
 p.FAILSAFE = False
 totalPriceXpath = "//*[@class='price-amount']"
@@ -16,8 +18,6 @@ detailHoteluCross = "//*[@class='f_icon f_icon--cross']"
 chatCrossXpath = "//*[@id='daktela-web-greeting-close']"
 #SDO_Strava_row_karta_hotelu_Xpath = "//*[@class='c_row'][2]"
 SDO_Strava_row_karta_hotelu_Xpath = "//*[@class='c_row']/span/i"
-
-from generalized_test_functions_EXPL import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble
 
 returnLocatorForMealHotelKarty(1)
 class Test_SRL_C(unittest.TestCase):

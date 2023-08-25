@@ -1,7 +1,7 @@
 import time
 from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown
 from FW_Automation_Local_Deploy_PyCharm.poznavacky import proklik_kostkaHotelu_toDetail_check_sedivka
-from generalized_test_functions_EXPL import generalized_list_of_url_checker
+from generalized_test_functions import generalized_list_of_url_checker
 import unittest
 
 from sedivka_check import sedivka_check_assert

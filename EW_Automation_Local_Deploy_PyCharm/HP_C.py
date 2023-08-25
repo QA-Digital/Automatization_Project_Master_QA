@@ -10,7 +10,7 @@ import time
 from EW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
 from FW_Automation_Local_Deploy_PyCharm.HP_C import hp_zlutak_to_SRL
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
-from generalized_test_functions_EXPL import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
+from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 
 URL_deploying_web = URL
 URL_prod_public = "https://www.eximtours.cz/"

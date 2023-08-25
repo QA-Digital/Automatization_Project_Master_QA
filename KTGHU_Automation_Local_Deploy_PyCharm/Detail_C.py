@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 ##global
-from generalized_test_functions_EXPL import generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail, \
+from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail, \
     generalized_list_string_sorter, generalized_detail_departure_check
 
 #terminyAcenyTabXpath = "//*[@id='terminyaceny-tab']"
