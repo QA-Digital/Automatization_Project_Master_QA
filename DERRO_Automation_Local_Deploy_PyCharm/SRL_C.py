@@ -1,15 +1,15 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from generalized_test_functions_EXPL import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
+from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 cenaZajezduXpath = "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']"
-sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'Ceny rosnąco')]"
-sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'Ceny malejąco')]"
+sorterCheapXpath = "(//span[contains(text(),'de la cele mai ieftine')])[1]"
+sorterExpensiveXpath = "(//span[contains(text(),'de la cele mai scumpe')])[1]"
 totalPriceXpath = "//*[@class='price-amount']"
 
 class Test_SRL_C(unittest.TestCase):
@@ -23,7 +23,7 @@ class Test_SRL_C(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get(URL_SRL)
         wait = WebDriverWait(self.driver, 150)
-        time.sleep(2)
+        time.sleep(5)
         acceptConsent(self.driver)
         time.sleep(4)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterCheapXpath))).click()
@@ -33,10 +33,8 @@ class Test_SRL_C(unittest.TestCase):
         poziceHotelu = 0
         for WebElement in cenaZajezduAll:
             cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
-            cenaZajezduAllString = ''.join(cenaZajezduAllString.split())  ##delete spaces
-            cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
-            cenaZajezduAllString = 'PLN'.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = int(float(cenaZajezduAllString))
+            cenaZajezduAllString = cenaZajezduAllString.replace(".", "")
+            cenaZajezduAllString = int(cenaZajezduAllString)
             poziceHotelu = poziceHotelu + 1
             cenaZajezduAllList.append(cenaZajezduAllString)
             cenaZajezduAllListSorted.append(cenaZajezduAllString)
@@ -53,26 +51,22 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_sort_expensive(self):
-        self.driver.get(URL_SRL)
-        wait = WebDriverWait(self.driver, 1500)
-        self.driver.maximize_window()
-        acceptConsent(self.driver)
-        time.sleep(3)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterExpensiveXpath))).click()
-        time.sleep(4.5)
 
+        self.driver.maximize_window()
+        self.driver.get(URL_SRL)
+        wait = WebDriverWait(self.driver, 150)
+        time.sleep(5)
+        acceptConsent(self.driver)
+        time.sleep(4)
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterExpensiveXpath))).click()
         cenaZajezduAllList = []
         cenaZajezduAllListSorted = []
         cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-
         poziceHotelu = 0
-
         for WebElement in cenaZajezduAll:
             cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
-            cenaZajezduAllString = ''.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
-            cenaZajezduAllString = 'PLN'.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = int(float(cenaZajezduAllString))
+            cenaZajezduAllString = cenaZajezduAllString.replace(".", "")
+            cenaZajezduAllString = int(cenaZajezduAllString)
             poziceHotelu = poziceHotelu + 1
             cenaZajezduAllList.append(cenaZajezduAllString)
             cenaZajezduAllListSorted.append(cenaZajezduAllString)
@@ -116,10 +110,10 @@ class Test_SRL_C(unittest.TestCase):
         driver.maximize_window()
         driver.get(URL_SRL)
 
-        time.sleep(2)
+        time.sleep(5)
         acceptConsent(driver)
         time.sleep(2)
-        stravaMenuXpath = "(//span[contains(text(),'All inclusive')])[2]"
+        stravaMenuXpath = "(//span[contains(text(),'All inclusive')])[1]"
         generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath)
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"

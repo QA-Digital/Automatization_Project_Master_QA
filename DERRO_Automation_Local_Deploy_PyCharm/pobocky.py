@@ -1,11 +1,11 @@
 from webdriver_manager.chrome import ChromeDriverManager
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
+from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 
-warszawaAnchorOblibeneVolbyXpath = "(//span[contains(text(),'Warszawa')])[1]"
-pobockaBoxXpath = "//*[@data-branch-id='519']"
-detailPobockyXpath = pobockaBoxXpath + "//*[contains(text(), 'Szczegóły oddziału')]"
+BucurestOblibeneVolbyXpath = "(//span[normalize-space()='Bucuresti'])[1]"
+pobockaBoxXpath = "(//div[contains(text(),'Agentia din Alba Iulia Avram Iancu')])[1]"
+detailPobockyXpath = pobockaBoxXpath + "(//span[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight'][normalize-space()='Detalii agentie'])[1]"
 
 class TestPobocky_C(unittest.TestCase):
     def setUp(self):

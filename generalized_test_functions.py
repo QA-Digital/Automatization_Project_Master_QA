@@ -136,10 +136,8 @@ def generalized_list_string_sorter(driver, web_elements_Xpath, variable_to_asser
     else:
         list_web_elements_Position = 0
 
-
     print(list_web_elements_Position)
     web_elements = driver.find_elements_by_xpath(web_elements_Xpath)
-
 
     list_web_elements = []
 

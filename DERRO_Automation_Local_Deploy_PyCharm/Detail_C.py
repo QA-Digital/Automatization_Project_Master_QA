@@ -173,10 +173,10 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
                                                                         stravovaniBoxXpath,
-                                                                        valueToFilterStravaAllIncXpath, True)
+                                                                        valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element_by_xpath(stravaVterminechXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         print(zvolenaStravaVboxuString)
 
