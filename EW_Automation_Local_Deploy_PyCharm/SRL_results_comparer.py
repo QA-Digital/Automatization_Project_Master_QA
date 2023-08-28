@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 from EW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
-from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results_EW
+from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 
 URL_public_prod = "https://eximtours.cz"
 URL_SRL_EW1 = "/vysledky-vyhledavani?ac1=2&d=63258|63294|63337|63443&dd=2023-07-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1"

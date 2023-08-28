@@ -86,7 +86,7 @@ URL_DERRO20 = "/rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|634
 
 URL_dev_List_DERRO = [URL_DERRO1, URL_DERRO2, URL_DERRO3, URL_DERRO4, URL_DERRO5, URL_DERRO6, URL_DERRO7, URL_DERRO8, URL_DERRO9, URL_DERRO10, URL_DERRO11, URL_DERRO12, URL_DERRO13, URL_DERRO14, URL_DERRO15, URL_DERRO16, URL_DERRO17, URL_DERRO18, URL_DERRO19, URL_DERRO20]
 
-def list_SRL_number_of_results_EW(driver, URL_default, URL_dev ,URL_parameters_list):
+def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list):
     driver.get(URL_default)
     time.sleep(1)
     driver.maximize_window()
