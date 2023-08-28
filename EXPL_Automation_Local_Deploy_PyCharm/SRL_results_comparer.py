@@ -4,7 +4,7 @@ from EXPL_Automation_Local_Deploy_PyCharm.to_import import URL, acceptConsent, c
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results_EXPL
+from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 
 URL_public_prod_EXPL = "https://www.exim.pl"
 URL_SRL_EXPL1 = "/wyszukanie?ac1=2&d=63484|63483|64419|64420|64425&dd=2023-11-01&nn=6|7|8|9|10|11|12|13|14&rd=2023-11-30&tt=1"
@@ -38,7 +38,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
         tearDown(self)
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results_EXPL(self.driver, URL, URL_public_prod_EXPL, URL_SRL_list_EXPL)
+        list_SRL_number_of_results(self.driver, URL, URL_public_prod_EXPL, URL_SRL_list_EXPL)
 
 
         self.test_passed = True

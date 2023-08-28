@@ -4,7 +4,7 @@ from DERRO_Automation_Local_Deploy_PyCharm.to_import import URL, acceptConsent, 
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results_DERRO
+from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 
 URL_public_prod_DERRO = "https://www.dertour.ro/"
 URL_SRL_DERRO1 = "/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&nn=7|8|9|10|11|12|13&rd=2024-01-01&sortby=PriceTotal&sortorder=1&tt=1"
@@ -38,7 +38,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
         tearDown(self)
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results_DERRO(self.driver, URL, URL_public_prod_DERRO, URL_SRL_list_DERRO)
+        list_SRL_number_of_results(self.driver, URL, URL_public_prod_DERRO, URL_SRL_list_DERRO)
 
 
         self.test_passed = True
