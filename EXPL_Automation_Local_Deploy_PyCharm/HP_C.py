@@ -1,7 +1,7 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from EXPL_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, URL_vlastniDoprava, setUp, tearDown,URL_leto, URL_zima, URL_egzotyka, URL_allInclusive, generalDriverWaitImplicit
+from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, acceptLetak, URL, URL_vlastniDoprava, setUp, tearDown,URL_leto, URL_zima, URL_egzotyka, URL_allInclusive, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 from EXPL_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
