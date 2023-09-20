@@ -1,13 +1,14 @@
 from selenium.common.exceptions import NoSuchElementException
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-querySDO = ["Grecja", "Turcja", "Egipt", "Oman", "Malediwy", "Dubaj", "Bulgaria", "Chorwacja", "Portugalia"]
-queryHotely = ["Falcon hills", "Aprilis hotel", "Prima life makadi resort", "Myrto hotel", "Cocoon maldives", "Titanic palace"]
+querySDO = ["Chorvatsko", "Italie", "Rakousko", "Slovensko", "Francie", "Maďarsko", "Španělsko"]
+queryHotely = ["Aparthotel Der Brückenwirt", "Apartmánový dům Dick", "Landgasthof Dorferwirt", "Gasthof Lukashansl", "Hotel Heitzmann", "Spa Resort Sanssouci", "SPA Hotel Děvín", "Wellness Hotel Astra", "Apt. dům Strobl",  "Residence Silvia",
+               "Active Hotel Rosat", "Hotel Trunka Lunka", "Bungalovy Club Tihany", "Hotel Magistern", "Hotel Club Tihany",  "Hotel Zenit", "Hotel Pelion", "Hotel Aphrodite"]
 queryList = querySDO+queryHotely
 
 class Test_Fulltext_C(unittest.TestCase):
@@ -39,24 +40,23 @@ class Test_Fulltext_C(unittest.TestCase):
             poziceQueryItem = poziceQueryItem+1
 
 
-            #if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
-            #if hotelDlazdice != 0:
-
             try:
                 wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")))
                 try:
 
-                    hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")  ##work around na EW
+                    hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")
                     hotelDlazdice.click()
                     currentUrl = self.driver.current_url
                     time.sleep(0.5)
-                    print("hotel dlazdice klik")
-                    assert currentUrl != "https://www.eximtours.cz/"
+                    print("hote dlazdice klik")
+                    assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
                     testOK_asserted = True
+
                 except NoSuchElementException:
                     print("first no such ele except")
                     testOK_asserted = False
                     pass
+
             except NoSuchElementException:
                 testOK_asserted = False
                 pass
@@ -66,7 +66,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
                     print("last no such ele except")
                     currentUrl = self.driver.current_url
-                    assert currentUrl != "https://www.eximtours.cz/"
+                    assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
                     response = requests.get(currentUrl)
                     assert response.status_code == 200
 
@@ -75,7 +75,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     pass
                 time.sleep(0.5)
                 currentUrl = self.driver.current_url
-                assert currentUrl != "https://www.exim.pl/"
+                assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
             else:
                 pass
 
@@ -96,8 +96,10 @@ class Test_Fulltext_C(unittest.TestCase):
             print(queryList[poziceQueryItem].upper())
             time.sleep(0.6)
             linksToCheckList = []
+
             try:
                 vysledkyDlazdiceHotelu = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
+               # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
                     linksToCheckList.append(vysledkyDlazdiceHotelu[x].get_attribute("href"))
@@ -115,7 +117,6 @@ class Test_Fulltext_C(unittest.TestCase):
             poziceQueryItem=poziceQueryItem+1
             assert len(linksToCheckList) > 0        ## check if there are any result, length > 0
             y = 0
-            #for _ in linksToCheckList:
             if len(linksToCheckList) > 5:
                 for i in range(5):
                     response = requests.get(linksToCheckList[y])

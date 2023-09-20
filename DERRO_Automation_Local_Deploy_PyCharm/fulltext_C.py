@@ -1,13 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-querySDO = ["Grecja", "Turcja", "Egipt", "Oman", "Malediwy", "Dubaj", "Bulgaria", "Chorwacja", "Portugalia"]
-queryHotely = ["Falcon hills", "Aprilis hotel", "Prima life makadi resort", "Myrto hotel", "Cocoon maldives", "Titanic palace"]
+querySDO = ["Grecia", "Turcia", "Egipt", "Oman", "Maldive", "Dubai", "Mexic", "Cipru", "Panama"]
+queryHotely = ["La Rosa Waves", "Xoria Deluxe", "Beach Resort Salalah", "RIU Plaza Panama", "Cora Cora Maldives", "Bahia Principe Luxury Aumal"]
 queryList = querySDO+queryHotely
 
 class Test_Fulltext_C(unittest.TestCase):

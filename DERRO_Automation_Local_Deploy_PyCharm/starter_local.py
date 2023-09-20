@@ -1,19 +1,19 @@
-from EXPL_Automation_Local_Deploy_PyCharm.pobocky import *
-from EXPL_Automation_Local_Deploy_PyCharm.Detail_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.Detail_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.HP_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.HP_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.LM_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.SDO_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.pobocky import *
+from DERRO_Automation_Local_Deploy_PyCharm.Detail_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.Detail_C import *
+from DERRO_Automation_Local_Deploy_PyCharm.fulltext_C import *
+from DERRO_Automation_Local_Deploy_PyCharm.groupsearch_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.HP_C import *
+from DERRO_Automation_Local_Deploy_PyCharm.HP_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.LM_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.SDO_D import *
+from DERRO_Automation_Local_Deploy_PyCharm.SRL_C import *
+from DERRO_Automation_Local_Deploy_PyCharm.SRL_D import *
 #import HtmlTestRunner
 import HTMLTestRunner
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from DERRO_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
 
-def suite_EXPL_full():
+def suite_DERRO_full():
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D"))
 
@@ -58,10 +58,6 @@ def suite_EXPL_full():
     suite.addTest(Test_HP_C('test_zimaDestination_isDisplayed'))
     suite.addTest(Test_HP_C('test_egzotykaDestination_isDisplayed'))
     suite.addTest(Test_HP_C('test_allInclusiveDestination_isDisplayed'))
-    suite.addTest(Test_Vlastni_Doprava("test_Homepage_bannery"))
-    suite.addTest(Test_Vlastni_Doprava("test_Destination_isDisplayed"))
-    suite.addTest(Test_Vlastni_Doprava("test_zlutak_to_groupsearch"))
-    suite.addTest(Test_Vlastni_Doprava("test_zlutak_to_SRL"))
 
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
 
@@ -98,11 +94,12 @@ def SRL_suite_full():
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
     suite.addTest(Test_SRL_C('test_srl_C'))
     return suite
+
 from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
     runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
-    web_brand = "EXIM PL"
-    runner_tests_generalized(suite_EXPL_full, web_brand, "hotifx", URL)
+    web_brand = "DERRO"
+    runner_tests_generalized(suite_DERRO_full, web_brand, "hotifx", URL)
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)

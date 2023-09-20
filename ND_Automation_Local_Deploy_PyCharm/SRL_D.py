@@ -1,12 +1,12 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown, generalDriverWaitImplicit
+from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL_leto,URL_SRL_zima, setUp, tearDown, generalDriverWaitImplicit
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import time
 
-SRLhotelyKartyXpath ="//*[@class='f_searchResult-content-item relative']"
-SRLcenyHoteluXpath = "//*[@class='f_price']"
+SRLhotelyKartyXpath ="//*[@class='f_searchResult-content-item relative flex !mt-0']"
+SRLcenyHoteluXpath = "//*[@class='leading-tight text-xl']"
 SRLfotkaHoteluXpath = "//*[@class='f_tileGallery']"
 
 def SRL_D(self, driver):
@@ -27,16 +27,15 @@ def SRL_D(self, driver):
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
+
                 else:
                     url = self.driver.current_url
                     msg = " Problem s hotely v searchi - hotelCard " + url
                     sendEmail(msg)
-
     except NoSuchElementException:
         url = self.driver.current_url
         msg = "Problem s hotely v searchi - hotelCard " + url
         sendEmail(msg)
-
     generalDriverWaitImplicit(self.driver)
     assert hotelySingle.is_displayed() == True
 
@@ -75,10 +74,12 @@ def SRL_D(self, driver):
                 if jdouvidet == True:
                     print("ceny")
                     pass
+
                 else:
                     url = self.driver.current_url
                     msg = " Problem s cenami hotelu v searchi " + url
                     sendEmail(msg)
+
 
     except NoSuchElementException:
         url = self.driver.current_url
@@ -94,7 +95,7 @@ def SRL_D(self, driver):
             "//*[@class='splide__spinner']")  ##loading classa obrazku, jestli tam je = not gud
         if loadingImgSingle.is_displayed():
             url = self.driver.current_url
-            msg = " Problem s načítáním fotek v SRL  //*[@class='splide__spinner']" + url
+            msg = " Problem s načítáná fotek v SRL  //*[@class='splide__spinner']" + url
             sendEmail(msg)
             #assert 1 == 2
     except NoSuchElementException:
@@ -111,7 +112,7 @@ class TestSRL_D(unittest.TestCase):
     def test_SRL_D(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        self.driver.get(URL_SRL_zima)
 
         time.sleep(0.44)
         acceptConsent(self.driver)

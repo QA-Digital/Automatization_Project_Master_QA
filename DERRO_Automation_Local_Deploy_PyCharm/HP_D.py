@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown, generalDriverWaitImplicit
+from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -13,7 +13,7 @@ class TestHP_D(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def test_homePage_D(self):
+    def test_homePage_banners(self):
         wait = WebDriverWait(self.driver, 150)
         self.driver.get(URL)
         self.driver.maximize_window()
@@ -43,9 +43,19 @@ class TestHP_D(unittest.TestCase):
         assert bannerSingle.is_displayed() == True
         time.sleep(1.5)
 
+    def test_HP_LMnabidky(self):
+        wait = WebDriverWait(self.driver, 150)
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(2.5)
+        acceptConsent(self.driver)
+        generalDriverWaitImplicit(self.driver)
+
         try:
-            nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='f_tourTable-tour']")
-            nejnabidkyLMall = self.driver.find_elements_by_xpath("//*[@class='f_tourTable-tour']")
+            nejnabidkyLMsingle = self.driver.find_element_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
+            self.driver.execute_script("arguments[0].scrollIntoView();", nejnabidkyLMsingle)
+            time.sleep(3)
+            nejnabidkyLMall = self.driver.find_elements_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
             wait.until(EC.visibility_of(nejnabidkyLMsingle))
             if nejnabidkyLMsingle.is_displayed():
                 for WebElement in nejnabidkyLMall:
@@ -53,7 +63,6 @@ class TestHP_D(unittest.TestCase):
                     assert jdouvidet == True
                     if jdouvidet == True:
                         pass
-
                     else:
                         url = self.driver.current_url
                         msg = "Problem na HP s nej. nabidky LM " + url
@@ -64,7 +73,7 @@ class TestHP_D(unittest.TestCase):
             msg = "Problem na HP s nej. nabidky LM " + url
             sendEmail(msg)
 
-        nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='f_tourTable-tour']")
+        nejnabidkyLMsingle = self.driver.find_element_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
         assert nejnabidkyLMsingle.is_displayed() == True
 
         self.test_passed = True

@@ -12,7 +12,7 @@ from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
 
 
-brand_name_project = "EXIM"
+brand_name_project = "DERRO"
 
 desired_cap = {
 "os" : "Windows",
@@ -35,22 +35,19 @@ def setUp(self):
   self.test_passed = False
 
 
-#URL = "https://www.exim.pl/"
-#URL = "https://eximpl.stg.dtweb.cz/"
-URL = "http://eximpl.web11.dtweb.cz/"
-URL_pobocky = URL+"punkty-sprzedazy"
-URL_detail = URL +"/egipt/hurghada/hurghada/la-rosa-waves-resort?KEY=2887754714&DS=1024&GIATA=1272734&D=64419|64420|64425&HID=149477&MT=5&RT=0&NN=4&DF=2024-01-23|2024-02-17&RD=2024-02-03&DD=2024-01-30&ERM=0&AC1=2&KC1=0&IC1=0&DP=298&MNN=4&NNM=4&TT=1&TTM=0&PID=382005&DPR=EXIM%20TOURS%20POLAND"
-URL_leto = URL+"lato"
-URL_zima = URL+"zima"
+#URL = "https://www.dertour.ro/"
+#URL = "https://dertourro.stg.dtweb.cz/"
+URL = "https://dertourro.web11.dtweb.cz/"
+URL_pobocky = URL+"agentii-dertour"
+URL_detail = URL +"egipt/hurghada/makadi-bay/prima-life-makadi-spa?DS=2048&GIATA=77592&D=64421|64422|64426|64424|64423|64419|64420|64425&HID=9193&MT=5&NN=7&DF=2024-01-31|2024-04-01&RD=2024-02-11&DD=2024-02-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=2691&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14|15&TT=1&TTM=1&PID=HRG20068&DPR=DER%20Touristik%20RO%20ATCOM&ILM=0&IFM=0"
 URL_faq = URL+"faq"
 URL_lm = URL+"last-minute"
-URL_egzotyka = URL+"egzotyka"
+URL_exotika = URL+"exotice"
 URL_allInclusive = URL+"all-inclusive"
-URL_stat = URL+"kierunki/egipt"
-URL_groupsearch = URL+"wyszukanie?ac1=2&dd=2023-12-16&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-01-07&tt=1"
-URL_FT_results = URL+"wyniki-wyszukiwania?q="
-URL_SRL= URL+"wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1"
-URL_vlastniDoprava = URL + "dojazd-wlasny"
+URL_stat = URL+"egipt"
+URL_groupsearch = URL+"rezultatele-cautarii?ac1=2&dd=2023-11-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-01-01&tt=1"
+URL_FT_results = URL+"rezultate-cautare?q="
+URL_SRL = URL+"rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1"
 
 
 
@@ -93,14 +90,6 @@ def acceptConsent(driver):
   else:
     print("consent pass")
     pass
-
-def acceptLetak(driver):
-  time.sleep(5)
-  # driver.switch_to.frame(1)
-  iframe = driver.find_element_by_class("bhr-ip__b")
-  driver.switch_to.frame(iframe)
-  driver.find_element_by_xpath("//a[@class='bhr-ip__c__a']").click()
-  driver.switch_to.default_content()
 
 
 def closeExponeaBanner(driver):

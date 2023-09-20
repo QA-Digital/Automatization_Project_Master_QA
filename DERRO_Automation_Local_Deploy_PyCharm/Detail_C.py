@@ -1,26 +1,26 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, acceptLetak, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from generalized_test_functions_EXPL import *
+from generalized_test_functions import *
 
 ##global
-terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Terminy i ceny')]"
+terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Date si tarife')]"
 potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 
 #meal filter
 stravovaniBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--cutlery']"
 
-valueToFilterStravaAllIncXpath = "//*[@class='f_input--checkbox f_input']//*[@value=5]"
+valueToFilterStravaAllIncXpath = "(//span[@class='f_input-label'])[3]"
 
 zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']//*[@class='f_button-text f_text--highlighted']"
 
 stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 
 #airport filter
-dopravaWarszawaXpath = "(//input[@value='3850'])[2]"
+dopravaSibiuXpath = "(//span)[2437]"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
 class TestDetailHotelu_C(unittest.TestCase):
@@ -48,6 +48,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         acceptConsent(driver)
 
+
         terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
@@ -73,9 +74,9 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
-            celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
-            celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
-            celkovaCenaVterminechINT = int(float(celkovaCena))
+            celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(".", "")
+            #cenaZajezduAllString = '.'.join(cenaZajezduAllString.split())
+            celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
         print(celkoveCenyList)
@@ -123,9 +124,8 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
-            celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
-            celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
-            celkovaCenaVterminechINT = int(float(celkovaCena))
+            celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(".", "")
+            celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
         print(celkoveCenyList)
@@ -173,10 +173,10 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
                                                                         stravovaniBoxXpath,
-                                                                        valueToFilterStravaAllIncXpath, True)
+                                                                        valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element_by_xpath(stravaVterminechXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         print(zvolenaStravaVboxuString)
 
@@ -190,14 +190,14 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(1)
         acceptConsent(self.driver)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
-                                                                        dopravaBoxXpath, dopravaWarszawaXpath, True)
+                                                                        dopravaBoxXpath, dopravaSibiuXpath, True)
         time.sleep(4)
         pocetZobrazenychTerminuXpath = "//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "Warszawa"
+        departureToCompareTo = "Sibiu"
 
         time.sleep(5)
-        generalized_detail_departure_check_EXPL(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
+        generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
 
         time.sleep(0.2)
         self.test_passed = True

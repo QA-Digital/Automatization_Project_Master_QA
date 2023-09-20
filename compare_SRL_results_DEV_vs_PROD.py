@@ -54,6 +54,55 @@ URL24 = "poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=1133|606|860|870|1098|77
 URL_List = [URL1,URL2, URL3, URL4, URL5,URL6, URL7,URL8,URL9,URL10,URL11,URL12,URL13, URL14, URL15, URL16, URL17, URL18, URL19, URL20, URL21, URL22, URL23, URL24]
 #URL_List = [URL1,URL2]
 
+URL_dev_EXPL = "https://eximpl.web11.dtweb.cz/"
+URL_PL1 = "/wyszukanie?ac1=2&d=63484|63483|64419|64420|64425&dd=2023-11-01&nn=6|7|8|9|10|11|12|13|14&rd=2023-11-30&tt=1"
+URL_PL2 = "/wyszukanie?ac1=2&d=63448|63288&dd=2024-01-15&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1"
+URL_PL3 = "/wyszukanie?ac1=2&d=63252|63447&dd=2024-01-15&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1"
+URL_PL4 = "/wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL5 = "/wyszukanie?ac1=2&d=63580|63581&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL6 = "/wyszukanie?ac1=2&d=63738&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL7 = "/wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL8 = "/wyszukanie?ac1=2&d=64076&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL9 = "/wyszukanie?ac1=2&d=63252&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL10 = "/wyszukanie?ac1=2&d=63864|63865&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL11 = "/wyszukanie?ac1=2&d=64246&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL12 = "/wyszukanie?ac1=2&d=63757|63758|63759&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1"
+URL_PL13 = "/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1"
+URL_PL14 = "/wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1"
+URL_PL15 = "/wyszukanie?ac1=2&d=63707|63710&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1"
+URL_PL16 = "/wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1"
+URL_PL17 = "/wyszukanie?ac1=2&d=63252&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1"
+URL_PL18 = "/wyszukanie?ac1=2&d=63343|63348&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1"
+URL_PL19 = "/wyszukanie?ac1=2&d=63982&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1"
+URL_PL20 = "/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1"
+
+URL_dev_List_PL = [URL_PL1, URL_PL2, URL_PL3, URL_PL4, URL_PL5, URL_PL6, URL_PL7, URL_PL8, URL_PL9, URL_PL10, URL_PL11, URL_PL12, URL_PL13, URL_PL14, URL_PL15, URL_PL16, URL_PL17, URL_PL18, URL_PL19, URL_PL20]
+
+URL_dev_DERRO = "https://dertourro.web11.dtweb.cz/"
+URL_DERRO1 = "/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&nn=7|8|9|10|11|12|13&rd=2024-01-01&sortby=PriceTotal&sortorder=1&tt=1"
+URL_DERRO2 = "/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-01-01&tt=1"
+URL_DERRO3 = "/rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO4 = "/rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO5 = "/rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO6 = "rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO7 = "/rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO8 = "/rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO9 = "/rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO10 = "/rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO11 = "/rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO12 = "/rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO13 = "/rezultatele-cautarii?ac1=2&d=64102|64099&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO14 = "/rezultatele-cautarii?ac1=2&d=63992|63994|63995|75728|75729|63993|75730|77252|75731|77253&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO15 = "/rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-05-01&nn=7|8|9|10|11|12|13&rd=2024-06-30&tt=1"
+URL_DERRO16 = "/rezultatele-cautarii?ac1=2&d=63763|63764|63767|63766|63765&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO17 = "/rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO18 = "/rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO19 = "/rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+URL_DERRO20 = "/rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1"
+
+URL_dev_List_DERRO = [URL_DERRO1, URL_DERRO2, URL_DERRO3, URL_DERRO4, URL_DERRO5, URL_DERRO6, URL_DERRO7, URL_DERRO8, URL_DERRO9, URL_DERRO10, URL_DERRO11, URL_DERRO12, URL_DERRO13, URL_DERRO14, URL_DERRO15, URL_DERRO16, URL_DERRO17, URL_DERRO18, URL_DERRO19, URL_DERRO20]
+
+
 def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list):
     driver.get(URL_default)
     time.sleep(1)

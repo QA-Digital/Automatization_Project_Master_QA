@@ -12,12 +12,12 @@ from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
 
 
-brand_name_project = "EXIM"
+brand_name_project = "NevDama"
 
 desired_cap = {
 "os" : "Windows",
 "os_version" : "11",
-"browser" : "Chrome",
+"browser" : "Edge",
 "browser_version" : "latest",
 "resolution" : "1680x1050",
 "project" : brand_name_project,
@@ -35,22 +35,33 @@ def setUp(self):
   self.test_passed = False
 
 
-#URL = "https://www.exim.pl/"
-#URL = "https://eximpl.stg.dtweb.cz/"
-URL = "http://eximpl.web11.dtweb.cz/"
-URL_pobocky = URL+"punkty-sprzedazy"
-URL_detail = URL +"/egipt/hurghada/hurghada/la-rosa-waves-resort?KEY=2887754714&DS=1024&GIATA=1272734&D=64419|64420|64425&HID=149477&MT=5&RT=0&NN=4&DF=2024-01-23|2024-02-17&RD=2024-02-03&DD=2024-01-30&ERM=0&AC1=2&KC1=0&IC1=0&DP=298&MNN=4&NNM=4&TT=1&TTM=0&PID=382005&DPR=EXIM%20TOURS%20POLAND"
-URL_leto = URL+"lato"
-URL_zima = URL+"zima"
-URL_faq = URL+"faq"
-URL_lm = URL+"last-minute"
-URL_egzotyka = URL+"egzotyka"
-URL_allInclusive = URL+"all-inclusive"
-URL_stat = URL+"kierunki/egipt"
-URL_groupsearch = URL+"wyszukanie?ac1=2&dd=2023-12-16&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-01-07&tt=1"
-URL_FT_results = URL+"wyniki-wyszukiwania?q="
-URL_SRL= URL+"wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1"
-URL_vlastniDoprava = URL + "dojazd-wlasny"
+#URL = "https://www.eximtours.cz/"
+#URL = "https://nev-dama.web11.dtweb.cz/"
+URL = "https://nev-dama.uat.dtweb.cz"
+URL_pobocky = URL +"/kontakty/seznam-pobocek"
+URL_detail = URL + "/zima/rakousko/korutany/gerlitzen/gasthof-zur-post?KEY=29849&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=3514&MT=-1&NN=4&DF=2024-02-01|2024-02-29&RD=2024-02-29&DD=2024-02-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=4&NNM=4&TT=3&TTM=3&PID=3514&DPR=NevDama&ILM=0&IFM=0"
+URL_faq = URL +"/faq"
+URL_FT_results = URL +"/hledani-vysledky?q="
+URL_LM = URL + "/last-minute"
+URL_stat_zima = URL + "/rakousko"
+
+URL_zima = "https://nev-dama.uat.dtweb.cz/zima"
+
+URL_SRL_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&d=85383|85385|85394|85407|85413|108815|85434|85436&dd=2023-08-31&nn=2|3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&tt=0"
+URL_FM_zima = URL +"/first-minute"
+URL_lm_zima = URL_zima +"/last-minute"
+URL_stat_zima = URL_zima +"/rakousko"
+URL_groupsearch_zima = URL_zima +"/vysledky-vyhledavani?ac1=2&dd=2023-08-31&nn=2|3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&tt=0"
+URL_stat_zima = URL_zima + "/rakousko"
+
+URL_leto = "https://nev-dama.uat.dtweb.cz/leto"
+
+URL_SRL_leto = URL_leto + "/vysledky-vyhledavani?ac1=2&d=108939|108938|108941|109497|108940|108942&dd=2023-08-31&nn=2|3|4|5|6|7|8|9&rd=2023-10-31&tt=0"
+URL_FM_leto = URL +"/first-minute-leto"
+URL_lm_leto = URL_leto +"/last-minute"
+URL_stat_leto = URL_leto +"/chorvatsko"
+URL_groupsearch_leto = URL_leto +"/vysledky-vyhledavani?ac1=2&dd=2023-08-31&nn=2|3|4|5|6|7|8|9&rd=2023-10-31&tt=0"
+URL_stat_leto = URL_leto + "/chorvatsko"
 
 
 
@@ -93,14 +104,6 @@ def acceptConsent(driver):
   else:
     print("consent pass")
     pass
-
-def acceptLetak(driver):
-  time.sleep(5)
-  # driver.switch_to.frame(1)
-  iframe = driver.find_element_by_class("bhr-ip__b")
-  driver.switch_to.frame(iframe)
-  driver.find_element_by_xpath("//a[@class='bhr-ip__c__a']").click()
-  driver.switch_to.default_content()
 
 
 def closeExponeaBanner(driver):

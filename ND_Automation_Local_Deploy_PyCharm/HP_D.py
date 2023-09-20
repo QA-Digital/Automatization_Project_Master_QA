@@ -1,11 +1,12 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown, generalDriverWaitImplicit
+from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_LM, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
-HPbanneryXpath = "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']"
+HPbanneryXpath = "//*[@class='f_teaser-item']"
+
 class TestHP_D(unittest.TestCase):
     def setUp(self):
         setUp(self)
@@ -43,6 +44,14 @@ class TestHP_D(unittest.TestCase):
         assert bannerSingle.is_displayed() == True
         time.sleep(1.5)
 
+    def test_HP_LMnabidky(self):
+        wait = WebDriverWait(self.driver, 150)
+        self.driver.get(URL_LM)
+        self.driver.maximize_window()
+        time.sleep(2.5)
+        acceptConsent(self.driver)
+        generalDriverWaitImplicit(self.driver)
+
         try:
             nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='f_tourTable-tour']")
             nejnabidkyLMall = self.driver.find_elements_by_xpath("//*[@class='f_tourTable-tour']")
@@ -53,7 +62,6 @@ class TestHP_D(unittest.TestCase):
                     assert jdouvidet == True
                     if jdouvidet == True:
                         pass
-
                     else:
                         url = self.driver.current_url
                         msg = "Problem na HP s nej. nabidky LM " + url
