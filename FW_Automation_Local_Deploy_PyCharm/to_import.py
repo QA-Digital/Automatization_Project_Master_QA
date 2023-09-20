@@ -33,7 +33,7 @@ def setUp(self):
 
 
 #URL = "https://www.fischer.cz/"
-URL = "https://fischer.web3.dtweb.cz/"
+URL = "https://fischer.web2.dtweb.cz/"
 
 #URL = "https://www.fischer.cz/"
 #URL = "http://fischer.stg.dtweb.cz/"
