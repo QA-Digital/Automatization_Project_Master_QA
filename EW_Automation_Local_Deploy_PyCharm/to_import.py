@@ -36,8 +36,8 @@ def setUp(self):
 
 
 #URL = "https://www.eximtours.cz/"
-URL = "https://exim.web12.dtweb.cz/"
-#URL = "http://exim.stg.dtweb.cz/"
+#URL = "https://exim.web11.dtweb.cz/"
+URL = "http://exim2.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"
 #URL = "http://exim.uat.dtweb.cz/"
