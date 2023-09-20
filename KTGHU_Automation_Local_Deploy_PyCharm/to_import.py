@@ -5,8 +5,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
-#URL = "https://kartagohu.stg.dtweb.cz/"
-URL = "https://www.kartagotours.hu/"
+URL = "https://kartagohu.web1.dtweb.cz/"
+#URL = "https://www.kartagotours.hu/"
 URL_pobocky = URL+"irodaink"
 #URL_detail = URL + "/egyesult-arab-emirsegek/ras-al-khaimah/ras-al-khaimah/bin-majid-beach-hotel-ai?KEY=2324196473&DS=32768&GIATA=42262&D=64089|64091|64087&HID=128559&MT=5&MMT=5&RT=15&NN=7&RD=2022-08-30&DD=2022-08-23&DP=489&TO=489|4371&MNN=7&TT=1&PID=346971&DPR=KARTAGO-HU&TTM=1&TOM=489|4371&DF=2022-08-23|2022-09-23&ERM=0&NNM=7|8|9&ac1=2&kc1=1&ka1=8&ic1=0"
 #URL_detail = URL+"spanielsko/costa-almeria/roquetas-de-mar/ar-almerimar?KEY=2207812211&DS=32768&GIATA=0&D=63350|211764&HID=142164&MT=2&RT=15&NN=7&RD=2022-08-01&DD=2022-07-25&DP=483&TO=483|1837|2933|3437&MNN=7&TT=1&PID=359709&DPR=KARTAGO-SK&TTM=1&DF=2022-07-25|2022-08-25&ERM=0&NNM=7|8|9|10|11|12|13&ac1=2&kc1=1&ka1=6&ic1=0#/prehled"

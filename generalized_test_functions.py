@@ -196,7 +196,7 @@ def generalized_SRL_price_sorter(driver, sorter_Xpath, hotelyKartyXpath, cenaZaj
             if web_language == None:
                 cenaZajezduAllString = cenaZajezduAllString[:-2]
             if web_language == "SK":
-                cenaZajezduAllString = cenaZajezduAllString[:-5]
+                cenaZajezduAllString = cenaZajezduAllString[:-2]
 
             cenaZajezduAllString = ''.join(cenaZajezduAllString.split())        ##delete spaces
             cenaZajezduAllString = int(cenaZajezduAllString)        ##convert to int to do sort easily
