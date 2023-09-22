@@ -37,7 +37,7 @@ def setUp(self):
 
 #URL = "https://www.eximtours.cz/"
 #URL = "https://exim.web11.dtweb.cz/"
-URL = "http://exim2.stg.dtweb.cz/"
+URL = "http://exim.web11.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"
 #URL = "http://exim.uat.dtweb.cz/"
@@ -48,8 +48,7 @@ URL_poznavacky_zazitky = URL+"poznavaci-zajezdy#rodiny"
 URL_pobocky = URL+"kontakty/nase-pobocky"
 URL_kluby = URL+"informace-pro-klienty/mango-club"
 #URL_detail = URL+"/egypt/hurghada/hurghada/hawaii-caesar-palace-egypt-2?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2023-06-06&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=411448&HID=9198&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90006&RD=2023-06-13&TO=4305&acm1=2&df=2023-06-01|2023-06-30&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/prehled"
-URL_detail = URL + "/turecko/turecka-riviera/avsallar/incekum-su?D=63260|63288|63448|64152|64153|64154|64157|211801|211814&DD=2023-08-28&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=59394&HID=374&MNN=7&MT=5&NN=7&PID=AYT19071&RD=2023-09-04&TO=4305&df=2023-08-21|2023-09-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled"
-#URL_SRL = URL+"vysledky-vyhledavani?d=826|1225|623|741|735|618|619|624|973|993|595|972|648|620|746|1126|1129|1124|1128|1059|1118|1119|1121|625|1127|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|1131|614|1123|1093|1198|1114|1122&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ka1=5&kc1=1&ac1=2"
+URL_detail = URL + "/egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&tt=1&ttm=1#/prehled"
 #URL_SRL = URL+"vysledky-vyhledavani?d=653|819|724&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ac1=2"
 #URL_SRL = URL+"vysledky-vyhledavani?d=1009|680|953|1108|592|611|610|612|1010|590|726|609|621|622|669|1086|1194|670|978|594|675|683&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ac1=2"
 #URL_SRL = URL+"vysledky-vyhledavani?d=1009|680|953|1108|592|611|610|612|1010|590|726|609|621|622|669|1086|1194|670|978|594|675|683&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ka1=7&kc1=1&ac1=2"

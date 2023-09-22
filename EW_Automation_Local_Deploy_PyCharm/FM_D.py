@@ -17,7 +17,7 @@ class TestFM_D(unittest.TestCase):
 
     def test_FM_D(self):
         self.driver.get(URL_FM)
-        wait = WebDriverWait(self.driver, 1500)
+        wait = WebDriverWait(self.driver, 150)
         self.driver.maximize_window()
         time.sleep(2)
         acceptConsent(self.driver)
@@ -75,12 +75,12 @@ class TestFM_D(unittest.TestCase):
 
         assert teaserItems[0].is_displayed() == True
 
-        self.driver.implicitly_wait(100)
+        self.driver.implicitly_wait(10)
         #not rly benefit items anymore but 2lazy to update var name
         benefitItemsAll = self.driver.find_elements_by_xpath(
-            "//*[@class='f_faq-item-answer']")
+            "//*[@class='in_teaser-wrapper']")
         benefitItemsSingle = self.driver.find_element_by_xpath(
-            "//*[@class='f_faq-item-answer']")
+            "//*[@class='in_teaser-wrapper']")
         try:
             wait.until(EC.visibility_of(benefitItemsSingle))
             for WebElement in benefitItemsAll:
