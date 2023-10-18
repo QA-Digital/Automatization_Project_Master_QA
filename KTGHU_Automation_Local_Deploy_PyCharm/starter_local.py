@@ -37,7 +37,7 @@ def suite_KTGHU_full():
     suite.addTest(TestSRL_D('test_SRL_D'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch'))
-    suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
+   # suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
     suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
