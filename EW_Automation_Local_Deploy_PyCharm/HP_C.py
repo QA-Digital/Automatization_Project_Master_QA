@@ -41,7 +41,7 @@ HPzlutakPokracovatButtonXpathStep3 ="/html/body/header/div/div[2]/div/div/div/di
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
-HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2023')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'First minute - Léto 2024')]"
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):
@@ -189,7 +189,7 @@ class Test_HP_C(unittest.TestCase):
         #lyzeVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--snowFlake segmentation-list-anchor']"
         # lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben  2023')]"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2024')]"
         destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
         time.sleep(3)
 
