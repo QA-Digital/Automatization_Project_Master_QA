@@ -100,7 +100,7 @@ def SRL_suite_full():
     return suite
 from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
+    #runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
     web_brand = "EXIM"
     runner_tests_generalized(suite_EW_full, web_brand, "hotifx", URL)

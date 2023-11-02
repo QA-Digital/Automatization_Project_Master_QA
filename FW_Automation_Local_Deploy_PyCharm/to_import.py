@@ -26,17 +26,22 @@ from selenium.webdriver.edge.service import Service as EdgeService
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   self.driver = webdriver.Chrome(ChromeDriverManager().install())
+
+ # chrome_options = webdriver.ChromeOptions()
+ # chrome_options.add_argument('--headless')
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-  #self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+ # self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
   self.test_passed = False
 
 
 #URL = "https://www.fischer.cz/"
-URL = "https://fischer.web1.dtweb.cz/"
+#URL = "https://fischer.web1.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
-#URL = "http://fischer.stg.dtweb.cz/"
+URL = "https://www.fischer.cz/"
+#URL = "http://fischer.web3.dtweb.cz/"
 
 #URL = "https://fischer.stg.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"

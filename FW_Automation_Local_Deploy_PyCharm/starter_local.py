@@ -97,7 +97,7 @@ def SRL_suite_full():
 
 from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
+   # runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
     web_brand = "FISCHER"
     version = "atcom online sputestni"

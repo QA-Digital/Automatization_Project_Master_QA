@@ -31,12 +31,14 @@ desired_cap = {
 }
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
+
+
   self.driver = webdriver.Chrome(ChromeDriverManager().install())
   self.test_passed = False
 
 
-#URL = "https://www.eximtours.cz/"
-URL = "https://exim.web11.dtweb.cz/"
+URL = "https://www.eximtours.cz/"
+#URL = "https://exim.web13.dtweb.cz/"
 #URL = "http://exim.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"
