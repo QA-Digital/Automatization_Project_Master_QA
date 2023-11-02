@@ -12,9 +12,11 @@ def groupSearch_D(self, driver):
     #driver.implicitly_wait(100)
     generalDriverWaitImplicit(driver)
     groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
-    wait.until(EC.visibility_of(groupSearchDlazdiceXpath))
-
     teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+
+    wait.until(EC.visibility_of(teaserItems[0]))
+
+
     try:
         for WebElement in teaserItems:
             ##print(len(teaserItems))

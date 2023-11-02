@@ -26,6 +26,8 @@ from selenium.webdriver.edge.service import Service as EdgeService
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  # chrome_version = "118.0.5993"  # Replace this with your Chrome version
+  # self.driver = webdriver.Chrome(ChromeDriverManager(version=chrome_version).install())
 
  # chrome_options = webdriver.ChromeOptions()
  # chrome_options.add_argument('--headless')
