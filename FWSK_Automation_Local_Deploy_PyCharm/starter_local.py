@@ -60,8 +60,7 @@ def suite2():
 
 from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    web_brand = "KARTAGO SK"
-    version = "2023/11/06"
     outfile = open("results.html", "w")
-
+    web_brand = "FISCHER SK "
+    version = "2023 11 06"
     runner_tests_generalized(suite_FWSK_full, web_brand, version, URL)
