@@ -1,14 +1,15 @@
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
 from selenium.webdriver.support import expected_conditions as EC
-import unittest
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium import webdriver
 import time
 SRLhotelyKartyXpath= "//*[@class='f_searchResult-content-item relative']"
 SRLfotkyKartyXpath = "//*[@class='f_searchResult-content'and not(@style='display: none;')]//*[@class='f_tileGallery']"
 SRLcenaKartyXpath = "//*[@class='f_price']"
-
-
+driver = webdriver.Chrome(ChromeDriverManager().install())
+URL = "https://fischer.cz"
 def SRL_D(self, driver):
     wait = WebDriverWait(self.driver, 15)
     driver.implicitly_wait(100)
@@ -112,18 +113,34 @@ def SRL_D(self, driver):
             assert 1 == 2
     except NoSuchElementException:
         pass
+def acceptConsent(driver):
 
-class TestSRL_D(unittest.TestCase):
-    def setUp(self):
-        setUp(self)
+  time.sleep(3)
+  try:
+    element = driver.execute_script(
+      """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
+    # print(element)
+  except NoSuchElementException:
+    # print("NOSUCH")
+    pass
 
-    def tearDown(self):
-        tearDown(self)
+  except TimeoutException:
+    pass
 
-    def test_SRL_D(self):
-        self.driver.maximize_window()
-        self.driver.get(URL_SRL)
-        time.sleep(0.4)
-        acceptConsent(self.driver)
-        SRL_D(self, self.driver)
-        self.test_passed = True
+  if element != None:
+    element.click()
+
+  else:
+    # print("consent pass")
+    pass
+
+tourTableXpath = "//*[@class='f_tourTable-tour']"
+
+driver.get(URL)
+time.sleep(1)
+driver.maximize_window()
+acceptConsent(driver)
+time.sleep(15)
+driver.find_element_by_xpath(tourTableXpath).click()
+SRL_D(driver)
+

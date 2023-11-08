@@ -31,12 +31,13 @@ desired_cap = {
 }
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
+
+
   self.driver = webdriver.Chrome(ChromeDriverManager().install())
   self.test_passed = False
 
-
-#URL = "https://www.eximtours.cz/"
-URL = "https://exim.web11.dtweb.cz/"
+URL = "https://www.eximtours.cz/"
+#URL = "https://exim.web13.dtweb.cz/"
 #URL = "http://exim.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"
@@ -46,7 +47,7 @@ URL_poznavacky_vikendy = URL+"poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = URL+"poznavaci-zajezdy#rodiny"
 URL_poznavacky_zazitky = URL+"poznavaci-zajezdy#rodiny"
 URL_pobocky = URL+"kontakty/nase-pobocky"
-URL_kluby = URL+"informace-pro-klienty/mango-club"
+URL_kluby = URL+"/kluby/mango-leto"
 #URL_detail = URL+"/egypt/hurghada/hurghada/hawaii-caesar-palace-egypt-2?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2023-06-06&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=411448&HID=9198&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90006&RD=2023-06-13&TO=4305&acm1=2&df=2023-06-01|2023-06-30&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/prehled"
 URL_detail = URL + "/egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"
 #URL_SRL = URL+"vysledky-vyhledavani?d=653|819|724&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ac1=2"

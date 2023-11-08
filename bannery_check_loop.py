@@ -23,18 +23,22 @@ def sendEmailv2(msg, recipient):
   server.quit()
 
 
-while True:
+URL_FW = "https://www.fischer.cz"
+banneryXpath_FW = "//*[@class='f_teaser-item']/a"
+nenasliCoJsteHledaliString = "Nenašli jste, co jste hledali?"
+
+def check_banners_have_SRL_results(URL, banneryXpath, nenasliCoJsteHledaliString):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    driver = webdriver.Chrome(ChromeDriverManager().install())
-    URL = "https://www.fischer.cz"
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
     driver.get(URL)
     time.sleep(1)
     driver.maximize_window()
     acceptConsent(driver)
     time.sleep(15)
-    banneryXpath_FW = "//*[@class='f_teaser-item']/a"
-    banneryAll = driver.find_elements_by_xpath(banneryXpath_FW)
+
+    banneryAll = driver.find_elements_by_xpath(banneryXpath)
     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
     x = 0
     pocetNalezenychZajezduElementList_PROD = []
@@ -64,7 +68,7 @@ while True:
     print( pocetNalezenychZajezduElementList_PROD)
     print(bannerLinksList_PROD)
 
-    nenasliCoJsteHledaliString = "Nenašli jste, co jste hledali?"
+
 
 
     y = 0
@@ -73,6 +77,7 @@ while True:
             print(pocetNalezenychZajezduElementList_PROD[y])
             print("spatny")
             sendEmailv2(bannerLinksList_PROD[y] , "ondrej.kadoun@fischer.cz")
+            sendEmailv2(bannerLinksList_PROD[y], "ondrej.kadoun@fischer.cz")
 
         else:
             print(pocetNalezenychZajezduElementList_PROD[y])
@@ -87,4 +92,6 @@ while True:
         #print(y)
 
     driver.quit()
-    time.sleep(3600)
+    #time.sleep(3600)
+
+check_banners_have_SRL_results(URL, banneryXpath_FW, nenasliCoJsteHledaliString)

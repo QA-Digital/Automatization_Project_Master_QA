@@ -54,6 +54,7 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_map(self):
         driver = self.driver
         driver.maximize_window()
+        time.sleep(1)
         driver.get(URL_SRL)
 
         wait = WebDriverWait(driver, 15)
@@ -78,6 +79,8 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_filtr_strava(self):
         driver = self.driver
         driver.maximize_window()
+        time.sleep(1)
+
         driver.get(URL_SRL)
         time.sleep(2)
         acceptConsent(driver)

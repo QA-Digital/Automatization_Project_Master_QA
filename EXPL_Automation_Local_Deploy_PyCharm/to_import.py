@@ -36,8 +36,8 @@ def setUp(self):
 
 
 #URL = "https://www.exim.pl/"
-#URL = "https://eximpl.stg.dtweb.cz/"
-URL = "http://eximpl.web11.dtweb.cz/"
+URL = "https://eximpl.stg.dtweb.cz/"
+#URL = "http://eximpl.web11.dtweb.cz/"
 URL_pobocky = URL+"punkty-sprzedazy"
 URL_detail = URL +"/egipt/hurghada/hurghada/la-rosa-waves-resort?KEY=2887754714&DS=1024&GIATA=1272734&D=64419|64420|64425&HID=149477&MT=5&RT=0&NN=4&DF=2024-01-23|2024-02-17&RD=2024-02-03&DD=2024-01-30&ERM=0&AC1=2&KC1=0&IC1=0&DP=298&MNN=4&NNM=4&TT=1&TTM=0&PID=382005&DPR=EXIM%20TOURS%20POLAND"
 URL_leto = URL+"lato"

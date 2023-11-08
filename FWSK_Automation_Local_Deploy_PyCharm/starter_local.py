@@ -58,9 +58,9 @@ def suite2():
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     return suite
 
+from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
-    runner = HtmlTestRunner.HTMLTestRunner(log=True, verbosity=2, output='report', title='FISCHER SK WEB Suite Report', report_name='FISCHER SK WEB Suite Report STG',                                           open_in_browser=True, description="FISCHER SK WEB Suite Report")
-    #runner.run(suite2())
-    runner.run(suite_FWSK_full())
+    web_brand = "FISCHER SK "
+    version = "2023 11 06"
+    runner_tests_generalized(suite_FWSK_full, web_brand, version, URL)

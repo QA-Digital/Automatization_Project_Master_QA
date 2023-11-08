@@ -26,17 +26,24 @@ from selenium.webdriver.edge.service import Service as EdgeService
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  # chrome_version = "118.0.5993"  # Replace this with your Chrome version
+  # self.driver = webdriver.Chrome(ChromeDriverManager(version=chrome_version).install())
+
+ # chrome_options = webdriver.ChromeOptions()
+ # chrome_options.add_argument('--headless')
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-  #self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+ # self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
   self.test_passed = False
 
 
 #URL = "https://www.fischer.cz/"
-URL = "https://fischer.web1.dtweb.cz/"
+#URL = "https://fischer.web1.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
-#URL = "http://fischer.stg.dtweb.cz/"
+URL = "https://www.fischer.cz/"
+#URL = "http://fischer.web3.dtweb.cz/"
 
 #URL = "https://fischer.stg.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"
@@ -44,7 +51,6 @@ URL_poznavacky_vikendy = URL+"poznavaci-zajezdy/prodlouzene-vikendy"
 URL_poznavacky_rodiny = URL+"poznavaci-zajezdy/pro-rodiny"
 URL_poznavacky_zazitky = URL+"poznavaci-zajezdy/zazitkove"
 URL_pobocky = URL+"kontakty/seznam-pobocek"
-URL_kluby = URL+"dovolena-animacni-kluby"
 #URL_detail = "https://fischer2.stg.dtweb.cz/recko/kreta-heraklion/gouves/kalia-beach?AC1=2&D=1225|623|741|735|618|619|624|973|993|595|972|648|620|746|1126|1129|826|1124|1128|1059|1118|1119|1121|625|1127|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|1131|614|1123|1093|1198|1114|1122&DD=2022-10-09&DI=13&DP=4312&DPR=Fischer&DS=1&GIATA=892&HID=524301&IC1=0&KC1=0&KEY=0xA43A619349C9BBE09C5EFE3E55B5AD9B1F302538&MNN=7&MT=5&NN=7&PID=KKAL&RD=2022-10-16&RT=15&TO=4305|4309|2682|4308|4312&acm1=2&df=2022-10-01|2022-11-30&nnm=7&tom=4309&tt=1&ttm=1"
 #URL_detail = URL+"recko/rhodos/kalithea/amira?KEY=0xAC636C6ABB1245F78140DDD5CD0B0EAADE97E193&DS=1&GIATA=19462&D=826|1225|623|741|735|618|619|624|973|993|595|972|648|620|746|1126|1129|1124|1128|1059|1118|1119|1121|625|1127|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|1131|614|1123|1093|1198|1114|1122&HID=65023&MT=2&DI=47&RT=15&NN=7&RD=2022-09-11&DD=2022-09-04&DP=4305&TO=4305&MNN=7&TT=1&PID=RPRI&DPR=Fischer&TTM=1&DF=2022-09-01|2022-09-18&ERM=0&NNM=7|8|9|10|11|12|13|17&ac1=2&kc1=1&ka1=7&ic1=0#/prehled"
 #URL_detail= URL + "egypt/egypt-hurghada/hurghada/la-rosa-waves?D=653|819&DD=2023-03-18&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=1272734&HID=128528&MMT=5&MNN=7&MT=5&NN=7&PID=HRG90011&RD=2023-03-25&TO=4305&ac1=2&acm1=2&df=2023-03-18|2023-04-18&ic1=0&kc1=0&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled"
@@ -79,7 +85,7 @@ URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1
 #URL_SRL = URL + "/dovolena-na-horach/vysledky-vyhledavani?ac1=2&d=1085|1083&dd=2023-03-01&ds=0&ea=356&ifm=0&ilm=0&nn=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21&rd=2023-04-30&sc=skiing&to=4312|4305|2682|4308&tt=3"
 
 URL_covidInfo = URL+"covid-info"
-URL_kluby = URL+"dovolena-animacni-kluby"
+URL_kluby = URL+"/kluby/funtazie-leto"
 URL_fmExotika = URL+"first-minute/exotika-zima"
 URL_faq = URL+"faq"
 URL_lm = URL+"last-minute"

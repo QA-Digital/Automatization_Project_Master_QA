@@ -57,10 +57,12 @@ def suite2():
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     return suite
 
+from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
+    web_brand = "KARTAGO SK"
+    version = "2023-11-06"
     outfile = open("results.html", "w")
-    runner = HtmlTestRunner.HTMLTestRunner(log=True, verbosity=2, output='report', title='KARTAGOSK Web Suite test', report_name='KARTAGOSK Web Suite test',
-                            open_in_browser=True, description="KARTAGOSK Web Suite WEB1")
-    runner.run(suite_KTGSK_full())
+
+    runner_tests_generalized(suite_KTGSK_full, web_brand, version, URL)
+
     #runner.run(suite2())
