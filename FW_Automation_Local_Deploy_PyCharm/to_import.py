@@ -85,7 +85,7 @@ URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1
 #URL_SRL = URL + "/dovolena-na-horach/vysledky-vyhledavani?ac1=2&d=1085|1083&dd=2023-03-01&ds=0&ea=356&ifm=0&ilm=0&nn=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21&rd=2023-04-30&sc=skiing&to=4312|4305|2682|4308&tt=3"
 
 URL_covidInfo = URL+"covid-info"
-URL_kluby = URL+"/kluby/funtazie"
+URL_kluby = URL+"/kluby/funtazie-leto"
 URL_fmExotika = URL+"first-minute/exotika-zima"
 URL_faq = URL+"faq"
 URL_lm = URL+"last-minute"
