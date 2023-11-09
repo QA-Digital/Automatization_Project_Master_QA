@@ -31,6 +31,9 @@ dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
 dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='4305']"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
+celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
+
+
 class TestDetailHotelu_C(unittest.TestCase):
     def setUp(self):
         setUp(self)
@@ -89,7 +92,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
+
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
@@ -138,7 +141,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
+
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
