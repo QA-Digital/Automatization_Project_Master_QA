@@ -45,18 +45,11 @@ URL_deploying_web = URL
 HPvyhledatZajezdyButtonXpath = "//*[@class='f_button f_button--forFilter']"
 HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam pojedete?')]"
 #HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//*[contains(text(),'Španělsko')]"
-HPzlutakReckoDestinaceXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/span/label/span/span"
-#HPzlutakReckoDestinaceXpath =  "//*[@class='f_filterMainSearch']//*[@class='f_column']//*[@class='f_input f_input--checkbox']//*[contains(text(),'Španělsko')]"
-#HPzlutakReckoDestinaceXpath ="//*[@class='f_input-wrapper']//*[@value='st67']"
-#HPzlutakReckoDestinaceXpath = " //*[@class='f_filterMainSearch']//*[@class='f_column']//*[@class='f_input f_input--checkbox']//*[@value='st67']"
+HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Španělsko']"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
-#HPzlutakPokracovatButtonXpathStep2 = "/html/body[@id='homepage']/header[@class='f_pageHeader js_header f_set--filterOpened']/div[@class='f_pageHeader-content']/div[@class='f_pageHeader-item f_pageHeader-item--holder']/div/div[@class='f_filterMainSearch']/div/div[2]/span/div[@class='f_filterHolder f_set--active']/div[@class='f_filterHolder-footer js_filter-footer']/div[@class='f_filterHolder-footer-item'][2]/a[@class='f_button f_button--common']/span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right']"
-#HPzlutakPokracovatButtonXpathStep2 ="/html/body/header/div/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
-HPzlutakPokracovatButtonXpathStep2 = "/html/body/header/div/div[2]/div/div/div/div[3]/div[2]/div[3]/div[2]/a/span"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
+HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 
-
-
-HPzlutakPokracovatButtonXpathStep3 ="/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
 
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
@@ -136,7 +129,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3.5)
         #poznavackyVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--pinMap segmentation-list-anchor']"
         # poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-        destinaceEgyptXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[3]/div/span/label/span/span"
+        destinaceEgyptXpath = "//*[@class='f_input-wrapper']//img[@alt='Egypt']"
 
         self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
 
