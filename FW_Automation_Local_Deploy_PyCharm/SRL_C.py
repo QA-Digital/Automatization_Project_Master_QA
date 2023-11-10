@@ -118,7 +118,7 @@ class Test_SRL_C(unittest.TestCase):
 
         #for WebElement in hotelyAllKarty:
         #for _ in range(9):
-        for _ in range(6):
+        for _ in range(12):
             print("|||||HOTEL CISLO|||||||" )
             print(x+1)
             print(x + 1)
@@ -152,7 +152,7 @@ class Test_SRL_C(unittest.TestCase):
             #print(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
-            self.driver.switch_to.window(self.driver.window_handles[windowHandle])
+            self.driver.switch_to.window(self.driver.window_handles[1])
             self.driver.get(linkDetailActualUrl)
 
             closeExponeaBanner(self.driver)
@@ -164,7 +164,7 @@ class Test_SRL_C(unittest.TestCase):
 
 
             try:
-                detailStravaSedivka = self.driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
+                detailStravaSedivka = self.driver.find_element_by_xpath("//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
             except NoSuchElementException:
 
                 try:
@@ -198,6 +198,8 @@ class Test_SRL_C(unittest.TestCase):
                 pass
             #assert detailPokojSedivkaString == pokojZajezduString
             assert pokojZajezduString in detailPokojSedivkaString ##cuz v SRL je kratsi nazev?
+
+            self.driver.close()
             if detailPokojSedivkaString == pokojZajezduString:
                 print("pokoje sedi srl vs detail")
             else:
