@@ -5,20 +5,42 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 import time
+from email.mime.text import MIMEText
+import smtplib
+
+
 SRLhotelyKartyXpath= "//*[@class='f_searchResult-content-item relative']"
 SRLfotkyKartyXpath = "//*[@class='f_searchResult-content'and not(@style='display: none;')]//*[@class='f_tileGallery']"
 SRLcenaKartyXpath = "//*[@class='f_price']"
 driver = webdriver.Chrome(ChromeDriverManager().install())
 URL = "https://fischer.cz"
-def SRL_D(self, driver):
-    wait = WebDriverWait(self.driver, 15)
+
+def sendEmailv2(msg, recipient):
+  fromx = 'alertserverproblem@gmail.com'
+  to = recipient
+  msg = MIMEText(msg)
+  msg['Subject'] = "HP CHECK"
+  msg['From'] = fromx
+  msg['To'] = to
+
+  server = smtplib.SMTP('smtp.gmail.com:587')
+  server.starttls()
+  server.ehlo()
+  server.login("alertserverproblem@gmail.com", emailPass)
+  server.sendmail(fromx, to, msg.as_string())
+  server.quit()
+
+filip="Filip.RYTYCH@dertouristik.cz"
+ondraOsobniMail = "ooo.kadoun@gmail.com"
+
+def SRL_D(driver):
+    wait = WebDriverWait(driver, 15)
     driver.implicitly_wait(100)
-    hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
+    hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
-        hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
+        hotelyAll = driver.find_elements_by_xpath(SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
-        ##print(hotelyAll)
         if hotelySingle.is_displayed():
             for WebElement in hotelyAll:
                 jdouvidet = WebElement.is_displayed()
@@ -26,24 +48,24 @@ def SRL_D(self, driver):
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
-
                 else:
-                    url = self.driver.current_url
+                    url = driver.current_url
                     msg = " Problem s hotely v searchi - hotelCard " + url
-                    sendEmail(msg)
+                    sendEmail(msg, filip)
+                    sendEmail(msg, ondraOsobniMail)
     except NoSuchElementException:
-        url = self.driver.current_url
+        url = driver.current_url
         msg = "Problem s hotely v searchi - hotelCard " + url
-        sendEmail(msg)
+        sendEmail(msg, filip)
+        sendEmail(msg, ondraOsobniMail)
 
     assert hotelySingle.is_displayed() == True
 
     try:
-        self.driver.implicitly_wait(15)
-        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKartyXpath)  ##
-        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKartyXpath)
+        driver.implicitly_wait(15)
+        fotkyAll = driver.find_elements_by_xpath(SRLfotkyKartyXpath)
+        fotkaSingle = driver.find_element_by_xpath(SRLfotkyKartyXpath)
         wait.until(EC.visibility_of(fotkaSingle))
-        ##print(fotkaSingle)
         if fotkaSingle.is_displayed():
             for WebElement in fotkyAll:
                 jdouvidet = WebElement.is_displayed()
@@ -52,21 +74,21 @@ def SRL_D(self, driver):
                 if jdouvidet == True:
                     pass
                 else:
-                    url = self.driver.current_url
+                    url = driver.current_url
                     msg = " Problem s fotkami hotelu v searchi " + url
-                    sendEmail(msg)
+                    sendEmail(msg, filip)
+                    sendEmail(msg, ondraOsobniMail)
 
     except NoSuchElementException:
-        url = self.driver.current_url
+        url = driver.current_url
         msg = " Problem s fotkami hotelu v searchi " + url
-        sendEmail(msg)
-
-
+        sendEmail(msg, filip)
+        sendEmail(msg, ondraOsobniMail)
 
     try:
-        self.driver.implicitly_wait(100)
-        cenaAll = self.driver.find_elements_by_xpath(SRLcenaKartyXpath)  ##
-        cenaSingle = self.driver.find_element_by_xpath(SRLcenaKartyXpath)
+        driver.implicitly_wait(100)
+        cenaAll = driver.find_elements_by_xpath(SRLcenaKartyXpath)
+        cenaSingle = driver.find_element_by_xpath(SRLcenaKartyXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:
@@ -75,44 +97,46 @@ def SRL_D(self, driver):
                 if jdouvidet == True:
                     print("ceny")
                     pass
-
                 else:
-                    url = self.driver.current_url
+                    url = driver.current_url
                     msg = " Problem s cenami hotelu v searchi " + url
-                    sendEmail(msg)
-
+                    sendEmail(msg, filip)
+                    sendEmail(msg, ondraOsobniMail)
 
     except NoSuchElementException:
-        url = self.driver.current_url
+        url = driver.current_url
         msg = "Problem s cenami hotelu v searchi " + url
-        sendEmail(msg)
+        sendEmail(msg, filip)
+        sendEmail(msg, ondraOsobniMail)
 
     assert cenaAll[0].is_displayed() == True
 
     verticalFilterXpath = "//*[@class='f_additionalFilter']"
     try:
-        self.driver.implicitly_wait(100)
-        verticalFilterElement = self.driver.find_element_by_xpath(verticalFilterXpath)
+        driver.implicitly_wait(100)
+        verticalFilterElement = driver.find_element_by_xpath(verticalFilterXpath)
         wait.until(EC.visibility_of(verticalFilterElement))
         assert verticalFilterElement.is_displayed() == True
 
-
-
     except NoSuchElementException:
-        url = self.driver.current_url
+        url = driver.current_url
         msg = "Problem s cenami hotelu v searchi " + url
-        sendEmail(msg)
+        sendEmail(msg, filip)
+        sendEmail(msg, ondraOsobniMail)
 
     try:
-        loadingImgSingle = self.driver.find_element_by_xpath(
+        loadingImgSingle = driver.find_element_by_xpath(
             "//*[@class='splide__spinner']")  ##loading classa obrazku, jestli tam je = not gud
         if loadingImgSingle.is_displayed():
-            url = self.driver.current_url
+            url = driver.current_url
             msg = " Problem s načítáná fotek v SRL  //*[@class='splide__spinner']" + url
-            sendEmail(msg)
+            sendEmail(msg, filip)
+            sendEmail(msg, ondraOsobniMail)
             assert 1 == 2
     except NoSuchElementException:
         pass
+
+
 def acceptConsent(driver):
 
   time.sleep(3)
@@ -134,13 +158,17 @@ def acceptConsent(driver):
     # print("consent pass")
     pass
 
-tourTableXpath = "//*[@class='f_tourTable-tour']"
+tourTableXpath = "//*[@class='f_tourTable-tour-item f_tourTable-tour-item--date']"
 
 driver.get(URL)
 time.sleep(1)
 driver.maximize_window()
 acceptConsent(driver)
 time.sleep(15)
-driver.find_element_by_xpath(tourTableXpath).click()
+tourTablesElement = driver.find_element_by_xpath(tourTableXpath)
+
+driver.execute_script("arguments[0].scrollIntoView(true);", tourTablesElement)
+#tourTablesElement.click()
+driver.execute_script("arguments[0].click();", tourTablesElement)
 SRL_D(driver)
 
