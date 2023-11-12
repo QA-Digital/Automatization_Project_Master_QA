@@ -12,6 +12,7 @@ from FW_Automation_Local_Deploy_PyCharm.HP_C import hp_zlutak_to_SRL
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 
+
 URL_deploying_web = URL
 URL_prod_public = "https://www.eximtours.cz/"
 banneryXpath_EW = "//*[@class='f_teaser-item']/a"
@@ -44,6 +45,14 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'First minute - Léto 2024')]"
+letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
+
+def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
+    letenekySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
+    pozice = 0
+    for i in letenekySRLresultsElements:
+        assert letenekySRLresultsElements[pozice].is_displayed() == True
+        pozice = pozice + 1
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):
@@ -268,4 +277,40 @@ class Test_HP_C(unittest.TestCase):
             pozice = pozice + 1
 
         generalized_list_of_url_checker(linksToCheck_List)
+
+    def test_HP_zlutak_to_SRL_letenky(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        destinaceEgyptXpath = "//*[@class='f_input-wrapper']//img[@alt='Tunisko']"
+
+        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+        letenkySrlResultsXpath = "//*[@class='f_searchResult-content-item relative']"
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+
+
+        SRL_D_letenky(self.driver, letenkySrlResultsXpath)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_groupsearch_letenky(self):
+        self.driver.get(URL)
+        wait = WebDriverWait(self.driver, 300)
+        self.driver.maximize_window()
+        time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        time.sleep(2.5)     ##time sleep not the best not pog but it works =)
+        groupSearch_D(self, self.driver)
+        self.test_passed = True
 

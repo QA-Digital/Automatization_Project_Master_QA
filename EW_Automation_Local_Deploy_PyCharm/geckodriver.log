@@ -424,3 +424,38 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1699799945362	geckodriver	INFO	Listening on 127.0.0.1:63645
+1699799948391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\KDK\\AppData\\Local\\Temp\\rust_mozprofilepBFtaU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699799949007	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699799949636	Marionette	INFO	Listening on port 63657
+Read port: 63657
+1699799949841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699799974613	Marionette	INFO	Stopped listening on port 63657
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1699800102664	geckodriver	INFO	Listening on 127.0.0.1:63867
+1699800105678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\KDK\\AppData\\Local\\Temp\\rust_mozprofileDlLJrF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699800106341	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699800106895	Marionette	INFO	Listening on port 63881
+Read port: 63881
+1699800107103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699800109399	Marionette	INFO	Stopped listening on port 63881
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1699800124814	geckodriver	INFO	Listening on 127.0.0.1:63914
+1699800127840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\KDK\\AppData\\Local\\Temp\\rust_mozprofileDUicEV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699800128407	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699800129022	Marionette	INFO	Listening on port 63928
+Read port: 63928
+1699800129255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1699800138181	Marionette	INFO	Stopped listening on port 63928
+Dynamically enable window occlusion 1

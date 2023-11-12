@@ -34,18 +34,18 @@ from webdriver_manager.firefox import GeckoDriverManager
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
 
-
+  self.driver = webdriver.Chrome(ChromeDriverManager().install())
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
   # options = webdriver.ChromeOptions()
   # options.add_argument("--headless")
   # self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-  self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+  #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
   #self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
 
   self.test_passed = False
 
-#URL = "https://www.eximtours.cz/"
-URL = "https://exim.web12.dtweb.cz/"
+URL = "https://www.eximtours.cz/"
+#URL = "https://exim.web12.dtweb.cz/"
 #URL = "http://exim.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"

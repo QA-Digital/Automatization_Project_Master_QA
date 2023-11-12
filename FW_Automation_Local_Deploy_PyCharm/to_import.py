@@ -25,8 +25,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.edge.service import Service as EdgeService
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
- # self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  self. driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  #self. driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
   #options = webdriver.ChromeOptions()
   #options.add_argument("--headless")
   #self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
@@ -56,8 +56,8 @@ def setUp(self):
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
-URL = "http://fischer.web2.dtweb.cz/"
+URL = "https://www.fischer.cz/"
+#URL = "http://fischer.web2.dtweb.cz/"
 
 #URL = "https://fischer.stg.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"
