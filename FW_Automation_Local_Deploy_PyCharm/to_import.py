@@ -21,14 +21,15 @@ desired_cap = {
 "browserstack.selenium_version" : "3.5.2"
 
 }
-
+from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.edge.service import Service as EdgeService
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
-  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  options = webdriver.ChromeOptions()
-  options.add_argument("--headless")
-  self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+ # self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  self. driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+  #options = webdriver.ChromeOptions()
+  #options.add_argument("--headless")
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
 
 
