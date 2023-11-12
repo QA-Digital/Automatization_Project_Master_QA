@@ -4,6 +4,7 @@ from FW_Automation_Local_Deploy_PyCharm.HP_C import *
 from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
 import time
 import unittest
+from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
 
 class TestSDO_C(unittest.TestCase):
     def setUp(self):
@@ -99,4 +100,5 @@ class TestSDO_C(unittest.TestCase):
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath, 2, True)
 
-        SRL_D(self, self.driver)
+        #SRL_D(self, self.driver)
+        groupSearch_D(self, self.driver)
