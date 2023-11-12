@@ -133,15 +133,15 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3.5)
         #poznavackyVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--pinMap segmentation-list-anchor']"
         # poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-        destinaceEgyptXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div/span/label/span/span"
-
+        destinacetXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
+        HPzlutakObsazenost2Xpath = "//*[contains(text(), 'Pár')]"
         self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
 
         time.sleep(5)
 
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinacetXpath,
                          HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
-                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         , HPzlutakPokracovatButtonXpathStep3,  HPzlutakObsazenost2Xpath,
                          HPzlutakPotvrditAvyhledatXpath)
         SRL_D(self, self.driver)
         self.test_passed = True
@@ -157,7 +157,7 @@ class Test_HP_C(unittest.TestCase):
         # lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2024')]"
-        destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
+        destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
@@ -252,8 +252,6 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-
-
     def test_HP_top_nabidka_status(self):
         self.driver.maximize_window()
         self.driver.get(URL)
@@ -307,6 +305,7 @@ class Test_HP_C(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
+        time.sleep(1.3)
         self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
 
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()

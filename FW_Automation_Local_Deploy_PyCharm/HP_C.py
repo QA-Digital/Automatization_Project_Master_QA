@@ -285,6 +285,7 @@ class Test_HP_C(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
+        time.sleep(1.3)
         self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
 
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
