@@ -160,8 +160,9 @@ class Test_HP_C(unittest.TestCase):
         #lyzeVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--snowFlake segmentation-list-anchor']"
 
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben  2023')]"
-        destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2024')]"
+        #destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
+        destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Rakousko']"
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,

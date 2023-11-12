@@ -150,12 +150,14 @@ class Test_HP_C(unittest.TestCase):
         self.driver.get(URL)
         self.driver.maximize_window()
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
         #lyzeVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--snowFlake segmentation-list-anchor']"
         # lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        lyzeVeFiltruSwitchElement =  self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath)
+
+        self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2024')]"
         destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
         time.sleep(3)
