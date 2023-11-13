@@ -14,6 +14,7 @@ from generalized_banners_compare_to_deploy_web import banner_check_public_prod_V
 def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatBtn2, termin, pokracovatBtn3, obsazenost,
                      potvrditAvyhledat, generalTimeSleep=1.5, skipObsazenostSetting=False):
     wait = WebDriverWait(driver, 300)
+    time.sleep(generalTimeSleep)
     wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedete))).click()
 
     wait.until(EC.visibility_of(driver.find_element_by_xpath(destinace))).click()
