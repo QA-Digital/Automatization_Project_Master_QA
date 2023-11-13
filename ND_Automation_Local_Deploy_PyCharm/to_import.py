@@ -37,7 +37,8 @@ def setUp(self):
 
 #URL = "https://www.eximtours.cz/"
 #URL = "https://nev-dama.web11.dtweb.cz/"
-URL = "https://nev-dama.stg.dtweb.cz"
+#URL = "https://nev-dama.stg.dtweb.cz"
+URL = "https://new.nev-dama.cz/"
 URL_pobocky = URL +"/kontakty/seznam-pobocek"
 URL_detail = URL + "/zima/rakousko/korutany/gerlitzen/gasthof-zur-post?KEY=29849&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=3514&MT=-1&NN=4&DF=2024-02-01|2024-02-29&RD=2024-02-29&DD=2024-02-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=4&NNM=4&TT=3&TTM=3&PID=3514&DPR=NevDama&ILM=0&IFM=0"
 URL_faq = URL +"/faq"
