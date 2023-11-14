@@ -189,7 +189,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(1)
         self.driver.get(URL_detail)
 
-        time.sleep(1)
+        time.sleep(5)
         acceptConsent(self.driver)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
                                                                         stravovaniBoxXpath,
