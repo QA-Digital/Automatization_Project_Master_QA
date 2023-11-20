@@ -23,14 +23,16 @@ HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko'
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
 HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
+HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
+HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
+HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdit a vyhledat')]"
+
 
 
 HPzlutakPokracovatVyberTerminuXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
 
 
-HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
-HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
-HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdit a vyhledat')]"
+
 HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 # HPtopNabidkaXpath = "//*[@class='js-ajaxPlaceholder--widgetContent']"

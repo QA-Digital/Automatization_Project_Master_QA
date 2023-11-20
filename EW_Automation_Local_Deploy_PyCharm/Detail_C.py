@@ -13,24 +13,25 @@ terminyAcenyTabXpath = "//*[@class='f_menu f_menu--inline f_menu--sticky']//*[co
 potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 
 #meal filter
-stravovaniBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--forkSpoon js-selector--catering']"
-stravovaniBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--cutlery']"
+
+
 
 valueToFilterStravaAllIncXpath_V1 = "//*[@id='filtr-stravy-detail']//*[contains(text(),'All inclusive')]"
 #valueToFilterStravaAllIncXpath = "//*[@class='f_holder']//*[contains(text(),'All inclusive')]"
 valueToFilterStravaAllIncXpath = "//*[@class='f_input--checkbox f_input']//*[@value=5]"
 
-zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']//*[@class='f_button-text f_text--highlighted']"
 
-stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
+
+
 
 #airport filter
 dopravaBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--plane js-selector--travel']"
-dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
-##dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@class='f_input--checkbox f_input']"
+stravovaniBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--cutlery']"
+stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
+
 dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='4305']"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
-
+zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']//*[@class='f_button-text f_text--highlighted']"
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
 
 
