@@ -10,7 +10,7 @@ import time
 from DERRO_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 
-URL_deploying_web = "https://dertourro.web11.dtweb.cz/"
+URL_deploying_web = URL
 URL_prod_public = "https://www.dertour.ro/"
 banneryXpath = "//*[@class='f_teaser-item']/a"
 
@@ -19,7 +19,7 @@ kamPojedeteButtonXpath = "//div[@class='f_button-title' and contains(text(), 'De
 zlutakEgiptDestinaceXpath= "//body[1]/header[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]/label[1]/span[2]/span[1]"
 zlutakPokracovatButtonXpath = "(//span[contains(text(),'Continua')])[1]"
 zlutakPokracovatButtonXpathStep2 ="(//a[@class='f_button f_button--common'])[2]"
-zlutakVyberTerminuXpath = "//div[contains(text(),'Perioada')]"
+zlutakVyberTerminuXpath = "//*[contains(text(),'Paste 2024')]"
 zlutakZima2024Xpath = "//span[contains(text(), 'calatorie de iarna 2024')]"
 zlutakPokracovatButtonXpathStep3 ="(//span[contains(text(),'Continua')])[3]"
 zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Familie 2+1')]"
@@ -29,7 +29,7 @@ nejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 VyletyEgipt = "(//span[contains(text(),'Descopera')])[4]"
 VyletyThailanda = "(//span[contains(text(),'Descopera')])[5]"
 VyletyDubai = "(//span[contains(text(),'Descopera')])[6]"
-
+dlazdiceXpath = "//*[@class='f_searchResult-content'])"
 
 
 class Test_HP_C(unittest.TestCase):
@@ -62,13 +62,13 @@ class Test_HP_C(unittest.TestCase):
         self.driver.find_element_by_xpath(kamPojedeteButtonXpath).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakEgiptDestinaceXpath).click()
-        time.sleep(0.5)
+        time.sleep(1.5)
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpath).click()
         time.sleep(0.5)
         self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep2).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakZima2024Xpath).click()
+        self.driver.find_element_by_xpath(zlutakVyberTerminuXpath).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep3).click()
         time.sleep(0.5)
@@ -131,7 +131,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath("(//div[@class='f_searchResult-content'])[1]")
+            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:
@@ -153,7 +153,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath("(//div[@class='f_searchResult-content'])[1]")
+            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:
@@ -176,7 +176,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath("(//div[@class='f_searchResult-content'])[1]")
+            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:

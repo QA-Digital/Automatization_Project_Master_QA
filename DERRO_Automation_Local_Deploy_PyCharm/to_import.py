@@ -35,8 +35,8 @@ def setUp(self):
   self.test_passed = False
 
 
-#URL = "https://www.dertour.ro/"
-URL = "https://dertourro.stg.dtweb.cz/"
+URL = "https://www.dertour.ro/"
+#URL = "https://dertourro.stg.dtweb.cz/"
 #URL = "https://dertourro.web11.dtweb.cz/"
 URL_pobocky = URL+"agentii-dertour"
 URL_detail = URL +"egipt/hurghada/makadi-bay/prima-life-makadi-spa?DS=2048&GIATA=77592&D=64421|64422|64426|64424|64423|64419|64420|64425&HID=9193&MT=5&NN=7&DF=2024-01-31|2024-04-01&RD=2024-02-11&DD=2024-02-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=2691&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14|15&TT=1&TTM=1&PID=HRG20068&DPR=DER%20Touristik%20RO%20ATCOM&ILM=0&IFM=0"
