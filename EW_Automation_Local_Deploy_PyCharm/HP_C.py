@@ -130,9 +130,9 @@ class Test_HP_C(unittest.TestCase):
         self.driver.get(URL)
         self.driver.maximize_window()
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        time.sleep(3.5)
+        time.sleep(6.5)
         #poznavackyVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--pinMap segmentation-list-anchor']"
         # poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
         destinacetXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
@@ -307,9 +307,9 @@ class Test_HP_C(unittest.TestCase):
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
-        time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        time.sleep(3.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        time.sleep(1.3)
+        time.sleep(3.3)
         self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
 
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
