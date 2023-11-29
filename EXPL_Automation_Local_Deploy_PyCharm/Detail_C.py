@@ -57,12 +57,14 @@ class TestDetailHotelu_C(unittest.TestCase):
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
-        celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
+        celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
         celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
 
         celkovaCenaSorterElement.click()
+        time.sleep(4)
+        driver.find_element_by_xpath("//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']").click()
         time.sleep(4)
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
@@ -101,12 +103,12 @@ class TestDetailHotelu_C(unittest.TestCase):
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(4)
 
-    #   celkovaCenaSorterXpath ="//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
-    #   celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
+        celkovaCenaSorterXpath ="//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
+        celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
 
-    #   celkovaCenaSorterElement.click()
+        celkovaCenaSorterElement.click()
         time.sleep(5)
 
         ##at this point kliknuto na sorter, need to take all of them and sort and compare lists / values
@@ -194,7 +196,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         pocetZobrazenychTerminuXpath = "//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "Warszawa"
+        departureToCompareTo = "warszawa"
 
         time.sleep(5)
         generalized_detail_departure_check_EXPL(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
