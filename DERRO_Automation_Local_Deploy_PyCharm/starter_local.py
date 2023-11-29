@@ -28,7 +28,7 @@ def suite_DERRO_full():
 
     suite.addTest(Test_Groupsearch_D("test_groupsearch_D"))
 
-    suite.addTest(TestHP_D("test_homePage_D"))
+    #suite.addTest(TestHP_D("test_homePage_D"))
 
     suite.addTest(TestLM_D("test_lM_isDisplayed"))
 
@@ -50,9 +50,10 @@ def suite_DERRO_full():
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))  ###
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     #suite.addTest(Test_HP_C('test_HP_nabidka_Podroze_marzen'))
-    suite.addTest(Test_HP_C('test_HP_vyletyPoznan'))
-    suite.addTest(Test_HP_C('test_HP_vyletyLublin'))
-    suite.addTest(Test_HP_C('test_HP_vyletyGdansk'))
+    suite.addTest(Test_HP_C('test_HP_vyletyDubai'))
+    suite.addTest(Test_HP_C('test_HP_vyletyEgipt'))
+    suite.addTest(Test_HP_C('test_HP_vyletyThajsko'))
+    suite.addTest(Test_HP_C('test_HP_top_hotely'))
 
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
 
