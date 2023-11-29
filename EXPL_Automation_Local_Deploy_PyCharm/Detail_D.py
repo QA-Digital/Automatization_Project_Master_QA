@@ -10,7 +10,7 @@ import unittest
 def detail_D(self, driver):
     wait = WebDriverWait(self.driver, 12)
     driver.implicitly_wait(10)
-    detailWrapperXpath = "//div[contains(@class,'grayBox')]"
+    detailWrapperXpath = "//*[@class='f_box h-full flex flex-col']"
     try:
         detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
         wait.until(EC.visibility_of(detailWrapper))

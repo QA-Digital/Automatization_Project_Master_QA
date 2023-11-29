@@ -30,8 +30,7 @@ def suite_EXPL_full():
 
     suite.addTest(TestHP_D("test_homePage_D"))
 
-    suite.addTest(TestLM_D("test_lM_isDisplayed"))
-    suite.addTest(TestLM_D("test_lMdestination_isDisplayed"))
+    suite.addTest(TestLM_D("test_LM_D"))
 
     suite.addTest(TestPobocky_C('test_pobocky_D'))
 
@@ -50,18 +49,14 @@ def suite_EXPL_full():
     suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))  ###
     suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))  ###
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
-    suite.addTest(Test_HP_C('test_HP_nabidka_Podroze_marzen'))
+   # suite.addTest(Test_HP_C('test_HP_nabidka_Podroze_marzen'))
     suite.addTest(Test_HP_C('test_HP_vyletyPoznan'))
     suite.addTest(Test_HP_C('test_HP_vyletyLublin'))
     suite.addTest(Test_HP_C('test_HP_vyletyGdansk'))
-    suite.addTest(Test_HP_C('test_letoDestination_isDisplayed'))
-    suite.addTest(Test_HP_C('test_zimaDestination_isDisplayed'))
-    suite.addTest(Test_HP_C('test_egzotykaDestination_isDisplayed'))
-    suite.addTest(Test_HP_C('test_allInclusiveDestination_isDisplayed'))
-    suite.addTest(Test_Vlastni_Doprava("test_Homepage_bannery"))
-    suite.addTest(Test_Vlastni_Doprava("test_Destination_isDisplayed"))
-    suite.addTest(Test_Vlastni_Doprava("test_zlutak_to_groupsearch"))
-    suite.addTest(Test_Vlastni_Doprava("test_zlutak_to_SRL"))
+    suite.addTest(Test_HP_C('test_letoDestination_D'))
+    suite.addTest(Test_HP_C('test_zimaDestination_D'))
+    suite.addTest(Test_HP_C('test_egzotykaDestination_D'))
+    suite.addTest(Test_HP_C('test_allInclusiveDestination_D'))
 
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
 

@@ -26,65 +26,21 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(4)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterCheapXpath))).click()
-        cenaZajezduAllList = []
-        cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-        poziceHotelu = 0
-        for WebElement in cenaZajezduAll:
-            cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
-            cenaZajezduAllString = ''.join(cenaZajezduAllString.split())  ##delete spaces
-            cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
-            cenaZajezduAllString = 'PLN'.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = int(float(cenaZajezduAllString))
-            poziceHotelu = poziceHotelu + 1
-            cenaZajezduAllList.append(cenaZajezduAllString)
-            cenaZajezduAllListSorted.append(cenaZajezduAllString)
+        typeOfSort = "cheap"
 
-        cenaZajezduAllListSorted.sort()
-
-        if cenaZajezduAllListSorted == cenaZajezduAllList:
-            print("Razeni od nejlevnejsiho je OK")
-        else:
-            print("Razeni od nejlevnejsiho je spatne")
-
-        assert cenaZajezduAllListSorted == cenaZajezduAllList
+        generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, "PL")
 
         self.test_passed = True
 
     def test_SRL_sort_expensive(self):
+        self.driver.maximize_window()
         self.driver.get(URL_SRL)
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.maximize_window()
+
         acceptConsent(self.driver)
         time.sleep(3)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterExpensiveXpath))).click()
-        time.sleep(4.5)
 
-        cenaZajezduAllList = []
-        cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-
-        poziceHotelu = 0
-
-        for WebElement in cenaZajezduAll:
-            cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
-            cenaZajezduAllString = ''.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
-            cenaZajezduAllString = 'PLN'.join(cenaZajezduAllString.split())
-            cenaZajezduAllString = int(float(cenaZajezduAllString))
-            poziceHotelu = poziceHotelu + 1
-            cenaZajezduAllList.append(cenaZajezduAllString)
-            cenaZajezduAllListSorted.append(cenaZajezduAllString)
-
-        cenaZajezduAllListSorted.sort(reverse=True)
-
-        if cenaZajezduAllListSorted == cenaZajezduAllList:
-            print("Razeni od nejdrazsiho je OK")
-        else:
-            print("Razeni od nejdrazsiho je spatne")
-
-        assert cenaZajezduAllListSorted == cenaZajezduAllList
+        generalized_SRL_price_sorter(self.driver, sorterExpensiveXpath, hotelyKartyXpath, cenaZajezduXpath, "expensive", "PL")
 
         self.test_passed = True
 
@@ -181,7 +137,7 @@ class Test_SRL_C(unittest.TestCase):
             # print(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
-            self.driver.switch_to.window(self.driver.window_handles[windowHandle])
+            self.driver.switch_to.window(self.driver.window_handles[1])
             self.driver.get(linkDetailActualUrl)
 
             closeExponeaBanner(self.driver)
@@ -243,10 +199,11 @@ class Test_SRL_C(unittest.TestCase):
                 print(" cena adult sedi srl vs detail")
             else:
                 print("cena adult NESEDÍ srl vs detail")
-
+            self.driver.close()
             self.driver.switch_to.window(
                 self.driver.window_handles[0])  ##this gotta be adjusted based on what test is executed
             ##for daily test needs to be set on 1 so it gets on the SRL
+
 
             x = x + 1
             print(x)

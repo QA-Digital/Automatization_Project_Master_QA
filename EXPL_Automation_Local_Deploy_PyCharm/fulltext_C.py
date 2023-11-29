@@ -66,7 +66,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
                     print("last no such ele except")
                     currentUrl = self.driver.current_url
-                    assert currentUrl != "https://www.eximtours.cz/"
+                    assert currentUrl != URL
                     response = requests.get(currentUrl)
                     assert response.status_code == 200
 
@@ -75,7 +75,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     pass
                 time.sleep(0.5)
                 currentUrl = self.driver.current_url
-                assert currentUrl != "https://www.exim.pl/"
+                assert currentUrl != URL
             else:
                 pass
 
