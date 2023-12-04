@@ -41,10 +41,11 @@ zlutakPolskoDestinaceXpath= "(//span[@class='font-bold'][normalize-space()='Pols
 zlutakPokracovatButtonXpath = "(//span[contains(text(),'Kontynuuj')])[1]"
 zlutakPokracovatButtonXpathStep2 ="(//span[contains(text(),'Kontynuuj')])[2]"
 zlutakPokracovatVyberTerminuXpath = "//div[contains(text(),'Termin')]"
-zlutakZima2024Xpath = "//span[contains(text(), 'Ferie zimowe 2024')]"
+HPzlutakLetniPrazdninyXpath = "//span[contains(text(), 'Ferie zimowe 2024')]"
 zlutakPokracovatButtonXpathStep3 ="(//span[contains(text(),'Kontynuuj')])[3]"
 zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Rodzina 2+1')]"
 zlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potwierdź i wyszukaj')]"
+from FW_Automation_Local_Deploy_PyCharm.HP_C import hp_zlutak_to_SRL
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):
@@ -61,6 +62,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
+        time.sleep(5)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
 
@@ -69,20 +71,22 @@ class Test_HP_C(unittest.TestCase):
         self.test_passed = True
 
     def test_HP_zlutak_to_SRL_pobyt(self):
-        self.driver.get(URL)
+
+
         self.driver.maximize_window()
+        self.driver.get(URL)
+        HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
         time.sleep(
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        time.sleep(3.5)
-        self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath).click()
-        self.driver.find_element_by_xpath(HPzlutakTurcjaDestinaceXpath).click()
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath).click()
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2).click()
-        self.driver.find_element_by_xpath(HPzlutakZima2024Xpath).click()
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep3).click()
-        self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath).click()
-        self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath).click()
+
+        time.sleep(8.5)
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+        SRL_D(self, self.driver)
+        self.test_passed = True
 
         SRL_D(self, self.driver)
         self.test_passed = True

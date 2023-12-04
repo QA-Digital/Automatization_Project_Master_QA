@@ -185,7 +185,7 @@ def generalized_SRL_price_sorter(driver,sorter_Xpath, hotelyKartyXpath, cenaZaje
         time.sleep(6)
         hotelyKarty = driver.find_element_by_xpath(hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
-        #time.sleep(4)
+        time.sleep(4)
         list_web_elements_Position = 0
         cenaZajezduAll = driver.find_elements_by_xpath(cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))

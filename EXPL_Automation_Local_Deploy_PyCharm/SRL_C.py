@@ -4,7 +4,7 @@ from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeE
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from generalized_test_functions_EXPL import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
+from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 cenaZajezduXpath = "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']"
@@ -36,9 +36,9 @@ class Test_SRL_C(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get(URL_SRL)
         wait = WebDriverWait(self.driver, 1500)
-
-        acceptConsent(self.driver)
         time.sleep(3)
+        acceptConsent(self.driver)
+        time.sleep(6)
 
         generalized_SRL_price_sorter(self.driver, sorterExpensiveXpath, hotelyKartyXpath, cenaZajezduXpath, "expensive", "PL")
 
@@ -146,7 +146,7 @@ class Test_SRL_C(unittest.TestCase):
 
             try:
                 detailStravaSedivka = self.driver.find_element_by_xpath(
-                    "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/span")
+                    "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
             except NoSuchElementException:
                 try:
                     detailStravaSedivka = self.driver.find_element_by_xpath(

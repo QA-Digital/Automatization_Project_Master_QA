@@ -4,7 +4,7 @@ from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, accept
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from generalized_test_functions_EXPL import *
+from generalized_test_functions import *
 
 ##global
 terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Terminy i ceny')]"
@@ -23,23 +23,15 @@ stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 dopravaWarszawaXpath = "(//input[@value='3850'])[2]"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
+celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
+
+
 class TestDetailHotelu_C(unittest.TestCase):
     def setUp(self):
         setUp(self)
 
     def tearDown(self):
         tearDown(self)
-
-    def omlouvamese_paragraph(self):
-        time.sleep(1)
-        try:
-            omlouvameParagraph = self.driver.find_element_by_xpath(
-                "//*[@class='fshr-paragraph fshr-paragraph--centered']")
-            if omlouvameParagraph.is_displayed():
-                return
-
-        except NoSuchElementException:
-            pass
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
@@ -72,7 +64,6 @@ class TestDetailHotelu_C(unittest.TestCase):
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
@@ -122,7 +113,6 @@ class TestDetailHotelu_C(unittest.TestCase):
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 xlg:pl-0']"
             celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
             kcIndex = 3
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
@@ -199,7 +189,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         departureToCompareTo = "warszawa"
 
         time.sleep(5)
-        generalized_detail_departure_check_EXPL(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
+        generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
 
         time.sleep(0.2)
         self.test_passed = True
