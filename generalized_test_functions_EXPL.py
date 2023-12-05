@@ -168,7 +168,7 @@ def generalized_list_string_sorter(driver, web_elements_Xpath, variable_to_asser
 #gets all prices
 ##typeOfSort = cheap or expensive
 
-def generalized_SRL_price_sorter(driver, URL_SRL, sorter_Xpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, web_language=None):
+def generalized_SRL_price_sorter(driver,sorter_Xpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, web_language=None):
         if web_language == None:
             pass
         else:
@@ -185,7 +185,7 @@ def generalized_SRL_price_sorter(driver, URL_SRL, sorter_Xpath, hotelyKartyXpath
         time.sleep(6)
         hotelyKarty = driver.find_element_by_xpath(hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
-        #time.sleep(4)
+        time.sleep(4)
         list_web_elements_Position = 0
         cenaZajezduAll = driver.find_elements_by_xpath(cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
@@ -197,15 +197,17 @@ def generalized_SRL_price_sorter(driver, URL_SRL, sorter_Xpath, hotelyKartyXpath
                 cenaZajezduAllString = cenaZajezduAllString[:-2]
             if web_language == "SK":
                 cenaZajezduAllString = cenaZajezduAllString[:-5]
+            if web_language == "PL":
+                cenaZajezduAllString = ''.join(str(cenaZajezduAllString).split())  # Delete spaces
+                cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
+                numeric_part = ''.join(filter(str.isdigit, cenaZajezduAllString))
+                cenaZajezduAllString = int(numeric_part)
+                cenaZajezduAllString = ''.join(str(cenaZajezduAllString).split())
+                cenaZajezduAllString = cenaZajezduAllString[:-2]
 
             cenaZajezduAllString = ''.join(cenaZajezduAllString.split())   ##delete spaces
+            cenaZajezduAllString = int(cenaZajezduAllString)
 
-            if "exim.pl" in URL_SRL:
-                cenaZajezduAllString = cenaZajezduAllString.replace(",", ".")
-                cenaZajezduAllString = 'PLN'.join(cenaZajezduAllString.split())
-                cenaZajezduAllString = int(float(cenaZajezduAllString))
-            else:
-                cenaZajezduAllString = int(cenaZajezduAllString)  ##convert to int to do sort easily
 
             list_web_elements_Position = list_web_elements_Position + 1
             cenaZajezduAllList.append(cenaZajezduAllString)

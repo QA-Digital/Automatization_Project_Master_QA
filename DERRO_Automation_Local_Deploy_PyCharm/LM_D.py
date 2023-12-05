@@ -12,7 +12,7 @@ class TestLM_D(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def test_lMdestination_isDisplayed(self):
+    def test_lM_isDisplayed(self):
         wait = WebDriverWait(self.driver, 1500)
         self.driver.get(URL_lm)
         self.driver.maximize_window()

@@ -45,7 +45,7 @@ def suite_FW_full():
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
     suite.addTest(Test_SRL_C('test_srl_C'))
     suite.addTest(TestSRL_D('test_SRL_D'))
-    #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
+    suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
     suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     ############################
@@ -58,13 +58,15 @@ def suite_FW_full():
     suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_C'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
-    #suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+   # suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
     #suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))
     suite.addTest(TestSDO_C('test_SDO_zlutak_to_SRL_R'))
     suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check'))
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky'))
 
     return suite
 

@@ -10,7 +10,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
-
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from selenium.webdriver.edge.service import Service
 
 brand_name_project = "EXIM"
 
@@ -29,15 +30,27 @@ desired_cap = {
 "browserstack.selenium_version" : "3.5.2"
 
 }
+from webdriver_manager.firefox import GeckoDriverManager
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
 
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
-  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  # options = webdriver.ChromeOptions()
+  # options.add_argument("--headless")
+  # self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+  #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+  #self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+
   self.test_passed = False
 
-URL = "https://www.eximtours.cz/"
-#URL = "https://exim.web13.dtweb.cz/"
+#URL = "https://www.eximtours.cz/"
+URL = "https://exim.web11.dtweb.cz/"
 #URL = "http://exim.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"

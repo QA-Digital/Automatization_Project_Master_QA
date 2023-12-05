@@ -14,6 +14,7 @@ from generalized_banners_compare_to_deploy_web import banner_check_public_prod_V
 def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatBtn2, termin, pokracovatBtn3, obsazenost,
                      potvrditAvyhledat, generalTimeSleep=1.5, skipObsazenostSetting=False):
     wait = WebDriverWait(driver, 300)
+    time.sleep(generalTimeSleep)
     wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedete))).click()
 
     wait.until(EC.visibility_of(driver.find_element_by_xpath(destinace))).click()
@@ -35,6 +36,13 @@ def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatB
     time.sleep(4)
 
 
+def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
+    letenekySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
+    pozice = 0
+    for i in letenekySRLresultsElements:
+        assert letenekySRLresultsElements[pozice].is_displayed() == True
+        pozice = pozice + 1
+
 #banneryXpath_FW = "//*[@class='f_teaser-item js-priceLoading']/a"
 #banneryXpath_FW = "//*[@data-pricecheck-type='banner']/a"
 banneryXpath_FW = "//*[@class='f_teaser-item']/a"
@@ -45,18 +53,11 @@ URL_deploying_web = URL
 HPvyhledatZajezdyButtonXpath = "//*[@class='f_button f_button--forFilter']"
 HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam pojedete?')]"
 #HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//*[contains(text(),'Španělsko')]"
-HPzlutakReckoDestinaceXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/div[1]/span/label/span/span"
-#HPzlutakReckoDestinaceXpath =  "//*[@class='f_filterMainSearch']//*[@class='f_column']//*[@class='f_input f_input--checkbox']//*[contains(text(),'Španělsko')]"
-#HPzlutakReckoDestinaceXpath ="//*[@class='f_input-wrapper']//*[@value='st67']"
-#HPzlutakReckoDestinaceXpath = " //*[@class='f_filterMainSearch']//*[@class='f_column']//*[@class='f_input f_input--checkbox']//*[@value='st67']"
+HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Španělsko']"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
-#HPzlutakPokracovatButtonXpathStep2 = "/html/body[@id='homepage']/header[@class='f_pageHeader js_header f_set--filterOpened']/div[@class='f_pageHeader-content']/div[@class='f_pageHeader-item f_pageHeader-item--holder']/div/div[@class='f_filterMainSearch']/div/div[2]/span/div[@class='f_filterHolder f_set--active']/div[@class='f_filterHolder-footer js_filter-footer']/div[@class='f_filterHolder-footer-item'][2]/a[@class='f_button f_button--common']/span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right']"
-#HPzlutakPokracovatButtonXpathStep2 ="/html/body/header/div/div[2]/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
-HPzlutakPokracovatButtonXpathStep2 = "/html/body/header/div/div[2]/div/div/div/div[3]/div[2]/div[3]/div[2]/a/span"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
+HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 
-
-
-HPzlutakPokracovatButtonXpathStep3 ="/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
 
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
@@ -69,6 +70,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 HPzlutakLetniPrazdninyXpath = "//span[contains(text(),'First minute - Léto 2024')]"
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
+letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):
@@ -136,7 +138,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3.5)
         #poznavackyVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--pinMap segmentation-list-anchor']"
         # poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-        destinaceEgyptXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[3]/div/span/label/span/span"
+        destinaceEgyptXpath = "//*[@class='f_input-wrapper']//img[@alt='Egypt']"
 
         self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
 
@@ -159,8 +161,9 @@ class Test_HP_C(unittest.TestCase):
         #lyzeVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--snowFlake segmentation-list-anchor']"
 
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben  2023')]"
-        destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2024')]"
+        #destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
+        destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Rakousko']"
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
@@ -254,3 +257,41 @@ class Test_HP_C(unittest.TestCase):
         banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, URL_deploying_web, banneryXpath_FW)
 
         self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_letenky(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        destinaceEgyptXpath = "//*[@class='f_input-wrapper']//img[@alt='Řecko']"
+
+        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+        letenkySrlResultsXpath = "//*[@class='f_searchResult-content-item relative']"
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+
+
+        SRL_D_letenky(self.driver, letenkySrlResultsXpath)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_groupsearch_letenky(self):
+        self.driver.get(URL)
+        wait = WebDriverWait(self.driver, 300)
+        self.driver.maximize_window()
+        time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(1.3)
+        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        time.sleep(2.5)     ##time sleep not the best not pog but it works =)
+        groupSearch_D(self, self.driver)
+        self.test_passed = True
+

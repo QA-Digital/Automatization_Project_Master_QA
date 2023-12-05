@@ -51,8 +51,10 @@ class Test_SRL_C(unittest.TestCase):
 
     def test_SRL_map(self):
         driver = self.driver
-        driver.get(URL_SRL)
         driver.maximize_window()
+
+        driver.get(URL_SRL)
+
         acceptConsent(driver)
         time.sleep(2)
         generalDriverWaitImplicit(self.driver)
@@ -139,7 +141,7 @@ class Test_SRL_C(unittest.TestCase):
             print(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
-            self.driver.switch_to.window(self.driver.window_handles[windowHandle])
+            self.driver.switch_to.window(self.driver.window_handles[1])
             self.driver.get(linkDetailActualUrl)
 
             closeExponeaBanner(self.driver)
@@ -155,7 +157,7 @@ class Test_SRL_C(unittest.TestCase):
 
             try:
                 detailStravaSedivka = self.driver.find_element_by_xpath(
-                    "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/span")
+                    "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
             except NoSuchElementException:
                 try:
                     detailStravaSedivka = self.driver.find_element_by_xpath(
@@ -202,6 +204,7 @@ class Test_SRL_C(unittest.TestCase):
 
 
             assert detailPokojSedivkaString == pokojZajezduString
+            self.driver.close()
 
             if detailPokojSedivkaString == pokojZajezduString:
                 print("pokoje sedi srl vs detail")

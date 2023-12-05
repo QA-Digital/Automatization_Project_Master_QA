@@ -29,7 +29,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         except NoSuchElementException:
             pass
 
-    def test_detail_terminy(self):
+    def test_detail_terminy_D(self):
         self.driver.maximize_window()
         self.driver.get(URL_detail)
         driver = self.driver
@@ -59,7 +59,6 @@ class TestDetailHotelu_C(unittest.TestCase):
             pass
 
         assert zobrazeneTerminy[0].is_displayed() == True
-        driver.implicitly_wait(100)
         time.sleep(3)
 
 

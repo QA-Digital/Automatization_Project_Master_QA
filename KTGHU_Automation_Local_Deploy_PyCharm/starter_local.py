@@ -54,12 +54,12 @@ def suite_SRL_C():
 
 from starter_master_browserstack import  runner_tests_generalized
 
+from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
-    #runner = HTMLTestRunner.HTMLTestRunner(log=True, verbosity=2, output='report',title='KARTAGOHU Web Suite test', report_name='KARTAGOHU Web Suite test',open_in_browser=True, description="KARTAGOHU Web Suite- public")
     web_brand = "KTGHU"
-    version = "hotfix"
+    version = "releaseCandidate-20231107"
     runner_tests_generalized(suite_KTGHU_full, web_brand, version, URL)
+
     #runner_tests_generalized(suite_SRL_C, web_brand, version, URL)
     #runner.run(suite2())

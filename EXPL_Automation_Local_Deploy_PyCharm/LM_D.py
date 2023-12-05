@@ -12,38 +12,7 @@ class TestLM_D(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def test_lMdestination_isDisplayed(self):
-        wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_lm)
-        self.driver.maximize_window()
-        time.sleep(2.5)
-        acceptConsent(self.driver)
-
-        try:
-            destinationLM = self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")
-            self.driver.execute_script("arguments[0].scrollIntoView();", destinationLM)
-            destinationLMall = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
-            wait.until(EC.visibility_of(destinationLM))
-            if destinationLM.is_displayed():
-                for WebElement in destinationLMall:
-                    jdouvidet = WebElement.is_displayed()
-                    assert jdouvidet == True
-                    if jdouvidet == True:
-                        pass
-
-                    else:
-                        url = self.driver.current_url
-                        msg = "Problem s LM, destinace se nezobrazuji " + url
-                        sendEmail(msg)
-
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "Problem s LM, destinace se nezobrazuji " + url
-            sendEmail(msg)
-
-        assert destinationLM.is_displayed() == True
-
-    def test_lM_isDisplayed(self):
+    def test_LM_D(self):
         wait = WebDriverWait(self.driver, 1500)
         self.driver.get(URL_lm)
         self.driver.maximize_window()
@@ -101,6 +70,30 @@ class TestLM_D(unittest.TestCase):
             sendEmail(msg)
 
         assert rozbalenyZajezd.is_displayed() == True
+
+        try:
+            destinationLM = self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", destinationLM)
+            destinationLMall = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+            wait.until(EC.visibility_of(destinationLM))
+            if destinationLM.is_displayed():
+                for WebElement in destinationLMall:
+                    jdouvidet = WebElement.is_displayed()
+                    assert jdouvidet == True
+                    if jdouvidet == True:
+                        pass
+
+                    else:
+                        url = self.driver.current_url
+                        msg = "Problem s LM, destinace se nezobrazuji " + url
+                        sendEmail(msg)
+
+        except NoSuchElementException:
+            url = self.driver.current_url
+            msg = "Problem s LM, destinace se nezobrazuji " + url
+            sendEmail(msg)
+
+        assert destinationLM.is_displayed() == True
 
         self.test_passed = True
 
