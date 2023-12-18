@@ -17,6 +17,7 @@ from FW_Automation_Local_Deploy_PyCharm.HP_C import *
 #import HtmlTestRunner
 #import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
 from FW_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from FW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
 
 def suite_FW_full():
     suite = unittest.TestSuite()
@@ -67,6 +68,10 @@ def suite_FW_full():
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky'))
+
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy'))
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani'))
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase'))
 
     return suite
 
