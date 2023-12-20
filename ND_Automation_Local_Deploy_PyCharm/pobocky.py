@@ -4,9 +4,9 @@ import time
 import unittest
 from FW_Automation_Local_Deploy_PyCharm.pobocky import open_pobocka_box_to_detail_open_popup_navstevy
 
-brnoAnchorOblibeneVolbyXpath = "(//span[contains(text(),'Brno')])[1]"
-pobockaBoxXpath = "//*[@data-branch-id='262']"
-detailPobockyXpath = pobockaBoxXpath + "//*[contains(text(), 'Detail pobočky')]"
+brnoAnchorOblibeneVolbyXpath = "//span[contains(text(),'Brno')]"
+pobockaBoxXpath = "//div[@class='f_list f_list--branch']//div[1]//div[1]//div[1]//div[2]//div[1]//div[1]//div[1]"
+detailPobockyXpath = "(//span[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight'][contains(text(),'Detail pobočky')])[1]"
 objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWindow--show js-gtm-eventClick']"
 popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
 

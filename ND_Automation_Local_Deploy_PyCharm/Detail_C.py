@@ -45,7 +45,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
-        zobrazeneTerminy = driver.find_elements_by_xpath("//*[@class='font-bold text-brand-secondary text-sm md:text-xl']")
+        zobrazeneTerminy = driver.find_elements_by_xpath("//*[@class='font-bold text-[--secondary] text-sm md:text-xl']")
 
         try:
             for WebElement in zobrazeneTerminy:
