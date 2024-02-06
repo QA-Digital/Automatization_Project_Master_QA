@@ -1,8 +1,9 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException
 
 from ND_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
+from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 from ND_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
@@ -12,14 +13,14 @@ from generalized_banners_compare_to_deploy_web import banner_check_public_prod_V
 from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 
 URL_deploying_web = URL
-URL_prod_public = "https://nev-dama.uat.dtweb.cz"
+URL_prod_public = "https://new.nev-dama.cz/"
 banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 
-HPvyhledatZajezdyButtonXpath = "//*[@class='f_filterMainSearch']//*[contains(text(), 'Vyhledat dovolenou')]"
-HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam se chystáte?')]"
-HPzlutakRakouskoDestinaceXpath = "(//span[@class='!flex gap-2 items-center'])[35]"
+HPvyhledatZajezdyButtonXpath = "//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Vyhledat dovolenou']"
+HPkamPojedeteButtonXpath = "//div[normalize-space()='Kam se chystáte?']"
+HPzlutakRakouskoDestinaceXpath = "(//span[@class='!flex gap-2 items-center'])[71]"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
-HPzlutakPokracovatButtonXpathStep2 = "(//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right' and contains(text(),'Pokračovat')])[2]"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 HPzlutakPokracovatVyberTerminuXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
@@ -70,7 +71,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.5)
         #self.driver.execute_script("window.scrollBy(0, arguments[0]);",HPzlutakPokracovatButtonXpathStep2)
         #self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        self.driver.execute_script("arguments[0].scrollIntoView();", HPzlutakPokracovatButtonXpathStep2)
+        #self.driver.execute_script("arguments[0].scrollIntoView();", HPzlutakPokracovatButtonXpathStep2)
         self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2).click()
         time.sleep(0.5)
         #self.driver.find_element_by_xpath(HPzlutakZima2024Xpath).click()
@@ -85,7 +86,7 @@ class Test_HP_C(unittest.TestCase):
         self.test_passed = True
 
 
-    def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):
+    def test_HP_nejlepsi_nabidky_vypis_btn_switch(self): #momentálně tato komponenta na ND není)
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
@@ -124,7 +125,7 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-    def test_HP_slider_click_detail_hotelu(self):
+    def test_HP_slider_click_detail_hotelu(self): #momentálně tato komponenta na ND není
         self.driver.maximize_window()
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
@@ -170,8 +171,6 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-
-
     def test_HP_top_nabidka_status(self):
         self.driver.maximize_window()
         self.driver.get(URL)
@@ -179,7 +178,6 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(2.5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(1)
-        #HPtopNabidkaXpath = "//*[@class='page-widget js-ajaxPlaceholder--widget fshr-widget f_tileGrid-item']//*[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight']"
         HPtopNabidkaXpath= "//*[@class='js-ajaxPlaceholder--widgetContent']/a"
         HPtopNabidkaElements = self.driver.find_elements_by_xpath(HPtopNabidkaXpath)
         HPtopNabidkaElement = HPtopNabidkaElements[0]
@@ -189,10 +187,40 @@ class Test_HP_C(unittest.TestCase):
         pozice = 0
         for _ in HPtopNabidkaElements:
             odkazLink = HPtopNabidkaElements[pozice].get_attribute("href")
-            #odkazLink = HPtopNabidkaElements[pozice].get_attribute("a")
             linksToCheck_List.append(odkazLink)
             print(odkazLink)
             pozice = pozice + 1
 
         generalized_list_of_url_checker(linksToCheck_List)
+
+    def test_oblibene_destinace(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        wait = WebDriverWait(self.driver, 1500)
+        time.sleep(2.5)
+        acceptConsent(self.driver)
+        time.sleep(1)
+
+        oblibeneDestinaceXpath = "//*[@data-id-country]"
+        try:
+            oblibeneDestinace = self.driver.find_element_by_xpath(oblibeneDestinaceXpath)
+            oblibeneDestinaceAll = self.driver.find_elements_by_xpath(oblibeneDestinaceXpath)
+            wait.until(EC.visibility_of(oblibeneDestinace))
+            if oblibeneDestinace.is_displayed():
+                for WebElement in oblibeneDestinaceAll:
+                    jdouVidet = WebElement.is_displayed()
+                    assert jdouVidet == True
+                    if jdouVidet == True:
+                        pass
+
+                    else:
+                        url = self.driver.current_url
+                        msg = "Problem s destinacemi, nezobrazuji se " + url
+                        sendEmail(msg)
+
+        except NoSuchElementException:
+            url = self.driver.current_url
+            msg = "Problem s destinacemi, nezobrazuji se " + url
+            sendEmail(msg)
+        assert oblibeneDestinace.is_displayed() == True
 

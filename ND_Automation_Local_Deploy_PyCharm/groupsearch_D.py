@@ -80,7 +80,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(2.5)
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element_by_xpath('//span[@class="f_button-text"]').click()
 
         groupSearch_D(self, driver)
         self.test_passed = True

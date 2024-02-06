@@ -1,4 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver import ActionChains
+from ND_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
 from selenium.webdriver.support.wait import WebDriverWait
 from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_LM, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -6,6 +8,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 HPbanneryXpath = "//*[@class='f_teaser-item']"
+HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
+HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
 class TestHP_D(unittest.TestCase):
     def setUp(self):
@@ -52,27 +56,30 @@ class TestHP_D(unittest.TestCase):
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
 
-        try:
-            nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='f_tourTable-tour']")
-            nejnabidkyLMall = self.driver.find_elements_by_xpath("//*[@class='f_tourTable-tour']")
-            wait.until(EC.visibility_of(nejnabidkyLMsingle))
-            if nejnabidkyLMsingle.is_displayed():
-                for WebElement in nejnabidkyLMall:
-                    jdouvidet = WebElement.is_displayed()
-                    assert jdouvidet == True
-                    if jdouvidet == True:
-                        pass
-                    else:
-                        url = self.driver.current_url
-                        msg = "Problem na HP s nej. nabidky LM " + url
-                        sendEmail(msg)
-
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "Problem na HP s nej. nabidky LM " + url
-            sendEmail(msg)
-
-        nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='f_tourTable-tour']")
-        assert nejnabidkyLMsingle.is_displayed() == True
+        HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
+        self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
+        time.sleep(3)
+        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        time.sleep(0.3)
+        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        HPnextkartaHoteluSlider = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        time.sleep(1)
+        self.driver.execute_script("arguments[0].click();", HPnextkartaHoteluSlider)
+        action = ActionChains(self.driver)
+        HPkartaHoteluSliderElement = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        self.driver.execute_script("arguments[0].scrollIntoView();", HPkartaHoteluSliderElement)
+        action.move_to_element(HPkartaHoteluSliderElement).click().perform()
+        self.driver.implicitly_wait(100)
+        time.sleep(0.3)
+        # HPkartaHoteluSliderElement.click()
+        time.sleep(1)
+        self.driver.switch_to.window(self.driver.window_handles[1])
+        detail_D(self, self.driver)
 
         self.test_passed = True
