@@ -71,7 +71,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.5)
         #self.driver.execute_script("window.scrollBy(0, arguments[0]);",HPzlutakPokracovatButtonXpathStep2)
         #self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        self.driver.execute_script("arguments[0].scrollIntoView();", HPzlutakPokracovatButtonXpathStep2)
+        #self.driver.execute_script("arguments[0].scrollIntoView();", HPzlutakPokracovatButtonXpathStep2)
         self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2).click()
         time.sleep(0.5)
         #self.driver.find_element_by_xpath(HPzlutakZima2024Xpath).click()
@@ -171,14 +171,13 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-    def test_HP_top_nabidka_status(self): #- momentálně tato komponenta na HP není
+    def test_HP_top_nabidka_status(self):
         self.driver.maximize_window()
         self.driver.get(URL)
 
         time.sleep(2.5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(1)
-        #HPtopNabidkaXpath = "//*[@class='page-widget js-ajaxPlaceholder--widget fshr-widget f_tileGrid-item']//*[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight']"
         HPtopNabidkaXpath= "//*[@class='js-ajaxPlaceholder--widgetContent']/a"
         HPtopNabidkaElements = self.driver.find_elements_by_xpath(HPtopNabidkaXpath)
         HPtopNabidkaElement = HPtopNabidkaElements[0]
@@ -188,7 +187,6 @@ class Test_HP_C(unittest.TestCase):
         pozice = 0
         for _ in HPtopNabidkaElements:
             odkazLink = HPtopNabidkaElements[pozice].get_attribute("href")
-            #odkazLink = HPtopNabidkaElements[pozice].get_attribute("a")
             linksToCheck_List.append(odkazLink)
             print(odkazLink)
             pozice = pozice + 1
@@ -206,7 +204,7 @@ class Test_HP_C(unittest.TestCase):
         oblibeneDestinaceXpath = "//*[@data-id-country]"
         try:
             oblibeneDestinace = self.driver.find_element_by_xpath(oblibeneDestinaceXpath)
-            oblibeneDestinaceAll = self.driver.find_element_by_xpath(oblibeneDestinaceXpath)
+            oblibeneDestinaceAll = self.driver.find_elements_by_xpath(oblibeneDestinaceXpath)
             wait.until(EC.visibility_of(oblibeneDestinace))
             if oblibeneDestinace.is_displayed():
                 for WebElement in oblibeneDestinaceAll:
