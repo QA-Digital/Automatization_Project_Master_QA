@@ -54,8 +54,8 @@ def setUp(self):
   self.test_passed = False
 
 
-URL = "https://www.fischer.cz/"
-#URL = "https://fischer.web3.dtweb.cz/"
+#URL = "https://www.fischer.cz/"
+URL = "https://fischer.web1.dtweb.cz/"
 
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.stg.dtweb.cz/"
