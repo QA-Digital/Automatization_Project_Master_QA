@@ -120,6 +120,8 @@ class Test_Fulltext_C(unittest.TestCase):
             if len(linksToCheckList) > 5:
                 for i in range(5):
                     response = requests.get(linksToCheckList[y])
+                    print(linksToCheckList[y])
+                    print(response)
                     assert response.status_code == 200
                     y = y + 1
             else:
