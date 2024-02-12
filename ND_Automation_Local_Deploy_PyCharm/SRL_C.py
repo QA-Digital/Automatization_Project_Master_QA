@@ -191,8 +191,6 @@ class Test_SRL_C_Zima(unittest.TestCase):
             print(x + 1)
 
             terminZajezdu = self.driver.find_elements_by_xpath("(//span[@class='font-bold'])")
-            #terminZajezduSingle = self.driver.find_element_by_xpath("(//span[@class='font-bold'])")
-            #wait.until(EC.visibility_of(terminZajezduSingle))
             print(terminZajezdu[x].text)
 
             linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_button f_button--important']")
@@ -201,7 +199,7 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
             cenaZajezduAll = self.driver.find_elements_by_xpath("//*[@class='whitespace-nowrap text-[--primary] font-bold']")
             cenaZajezduAllString = cenaZajezduAll[x].text
-            ##print(cenaZajezduAllString)
+            #print(cenaZajezduAllString)
 
             self.driver.execute_script("window.open("");")
             self.driver.switch_to.window(self.driver.window_handles[1])
@@ -212,16 +210,9 @@ class Test_SRL_C_Zima(unittest.TestCase):
             time.sleep(2.5)  ##natvrdo aby se to neposralo
 
 
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            detailCenaAll = self.driver.find_element_by_xpath("//span[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
             print(detailCenaAllString)
-            try:
-                detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
-                detailCenaAdultString = detailCenaAdult.text
-                print(detailCenaAdultString)
-
-            except NoSuchElementException:
-                pass
 
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
