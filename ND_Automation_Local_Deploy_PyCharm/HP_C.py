@@ -16,13 +16,12 @@ URL_deploying_web = URL
 URL_prod_public = "https://new.nev-dama.cz/"
 banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 
-HPvyhledatZajezdyButtonXpath = "//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Vyhledat dovolenou']"
-HPkamPojedeteButtonXpath = "//div[normalize-space()='Kam se chystáte?']"
+HPvyhledatZajezdyButtonXpath = "//div[@class='f_filterMainSearch-content']//div[6]"
+HPkamPojedeteButtonXpath = "//div[normalize-space()='Destinace']"
 HPzlutakRakouskoDestinaceXpath = "(//span[@class='!flex gap-2 items-center'])[71]"
-HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
-HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
-HPzlutakPokracovatVyberTerminuXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
-HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
+HPzlutakPokracovatButtonXpath = "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
+HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
+HPzlutakStravovaniPokracovat = "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
 HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdit a vyhledat')]"
 HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
@@ -30,7 +29,6 @@ HPnejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-HPzlutakPokracovatButtonXpathStep3 ="/html/body/header/div/div[2]/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
 
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2023')]"
@@ -46,8 +44,7 @@ class Test_HP_C(unittest.TestCase):
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
-        time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        time.sleep(5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
@@ -60,23 +57,21 @@ class Test_HP_C(unittest.TestCase):
     def test_HP_zlutak_to_SRL_pobyt(self):
         self.driver.get(URL)
         self.driver.maximize_window()
-        time.sleep( 0.3)
+        time.sleep(0.3)
         acceptConsent(self.driver)
-        time.sleep(3.5)
+        time.sleep(8)
         self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(HPzlutakRakouskoDestinaceXpath).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath).click()
+        time.sleep(5)
+        element = self.driver.find_element_by_xpath("//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']")
+        self.driver.execute_script("arguments[0].click();", element)
         time.sleep(0.5)
-        #self.driver.execute_script("window.scrollBy(0, arguments[0]);",HPzlutakPokracovatButtonXpathStep2)
-        #self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        #self.driver.execute_script("arguments[0].scrollIntoView();", HPzlutakPokracovatButtonXpathStep2)
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2).click()
-        time.sleep(0.5)
-        #self.driver.find_element_by_xpath(HPzlutakZima2024Xpath).click()
-        #time.sleep(0.5)
         self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep3).click()
+        time.sleep(0.5)
+        self.driver.find_element_by_xpath(HPzlutakStravovaniPokracovat).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath).click()
         time.sleep(0.5)
@@ -171,7 +166,7 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-    def test_HP_top_nabidka_status(self):
+    def test_HP_top_nabidka_status(self): #momentálně tato komponenta na ND není
         self.driver.maximize_window()
         self.driver.get(URL)
 

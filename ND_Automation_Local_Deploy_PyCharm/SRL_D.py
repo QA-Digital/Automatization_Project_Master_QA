@@ -16,7 +16,7 @@ def SRL_D(self, driver):
     acceptConsent(self.driver)
     hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
+        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
         hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         ##print(hotelyAll)
