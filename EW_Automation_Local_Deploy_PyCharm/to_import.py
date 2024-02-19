@@ -34,10 +34,16 @@ from webdriver_manager.firefox import GeckoDriverManager
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
 
-   self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
-   # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-   # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+
+   # self.driver = webdriver.Chrome(ChromeDriverManager().install())
+
+   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+
+
 
 
 #  self.driver = webdriver.Chrome(ChromeDriverManager().install())
