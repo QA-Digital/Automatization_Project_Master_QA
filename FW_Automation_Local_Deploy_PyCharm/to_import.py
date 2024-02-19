@@ -55,10 +55,10 @@ def setUp(self):
 
 
 #URL = "https://www.fischer.cz/"
-URL = "https://fischer.web1.dtweb.cz/"
+#URL = "https://fischer.web1.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
-#URL = "https://fischer.stg.dtweb.cz/"
+URL = "https://www.fischer.cz/"
+#URL = "https://fischer.web1.dtweb.cz/"
 #URL = "http://fischer.web1.dtweb.cz/"
 
 #URL = "https://fischer.stg.dtweb.cz/"
