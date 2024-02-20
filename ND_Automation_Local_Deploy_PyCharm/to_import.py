@@ -35,8 +35,8 @@ def setUp(self):
   self.test_passed = False
 
 
-#URL = "https://www.eximtours.cz/"
-#URL = "https://nev-dama.web11.dtweb.cz/"
+
+#URL = "https://nev-dama.web12.dtweb.cz/"
 #URL = "https://nev-dama.stg.dtweb.cz"
 URL = "https://new.nev-dama.cz/"
 URL_pobocky = URL +"/pobocky"
@@ -53,7 +53,7 @@ URL_FM_zima = URL + "/first-minute"
 URL_lm_zima = URL_zima + "/last-minute"
 URL_stat_zima = URL_zima + "/rakousko"
 URL_groupsearch_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&dd=2024-08-31&nn=2|3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-31&tt=0"
-URL_stat_zima = URL_zima + "/rakousko"
+
 
 URL_leto = URL + "leto"
 
@@ -62,7 +62,7 @@ URL_FM_leto = URL + "/first-minute-leto"
 URL_lm_leto = URL_leto + "/last-minute"
 URL_stat_leto = URL_leto + "/chorvatsko"
 URL_groupsearch_leto = URL_leto + "/vysledky-vyhledavani?ac1=2&dd=2024-08-31&nn=2|3|4|5|6|7|8|9&rd=2024-10-31&tt=0"
-URL_stat_leto = URL_leto + "/chorvatsko"
+
 
 
 
