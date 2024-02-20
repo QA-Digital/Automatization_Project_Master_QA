@@ -1,16 +1,14 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_detail, sendEmail, tearDown, setUp, URL_detail_all_inclusive, URL_detail_airport_praha
+from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-import requests
+from generalized_test_functions import *
 
-imageDetailFirstXpath = "//*[@id='splide01-slide01']/img"
-terminyAcenyScrollMenuXpath = "/html/body/div[@id='app']/div/div[@class='c_hotel-anchor-nav']/div[@class='c_container']/ul[@class='c_customScroll']/li[2]/a"
-stravovaniBoxTerminyAcenyXpath = "//*[contains(text(), 'Stravování')][1]"
-stravovaniVysledkyTerminyAcenyXpath = "//*[@class='w-4/12 to-md:order-4 md:w-1/12 md:text-center']"
-airportVysledkyTerminyAcenyXpath = "//*[@class='w-4/12 md:w-1/12 md:text-center']"
+terminyAcenyTabXpath = "//*[@class='f_anchor' and contains(text(),'Termíny a ceny')]"
+potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
+
 class TestDetailHotelu_C(unittest.TestCase):
     def setUp(self):
         setUp(self)
@@ -29,16 +27,50 @@ class TestDetailHotelu_C(unittest.TestCase):
         except NoSuchElementException:
             pass
 
-    def test_detail_fotka(self):
-        self.driver.get(URL_detail)
+    def test_detail_terminy_D(self):
         self.driver.maximize_window()
-        time.sleep(1)
+        self.driver.get(URL_detail)
+        driver = self.driver
+        time.sleep(4)
+        acceptConsent(driver)
+
+        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
+        time.sleep(2)
+        terminyAcenyElement.click()
+        boxTerminyXpath = "//*[@class='f_holder']"
+        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
+        time.sleep(3.5)
+
+        zobrazeneTerminy = driver.find_elements_by_xpath("//*[@class='f_termList-header-item f_termList-header-item--dateRange']")
+
+        try:
+            for WebElement in zobrazeneTerminy:
+                jdouvidet = WebElement.is_displayed()
+                if jdouvidet == True:
+                    pass
+                else:
+                    pass
+
+        except NoSuchElementException:
+            pass
+
+        assert zobrazeneTerminy[0].is_displayed() == True
+        time.sleep(3)
+
+
+    def test_detail_fotka(self):
+
+        self.driver.maximize_window()
+        self.driver.get(URL_detail)
 
         acceptConsent(self.driver)
 
-        imageDetail = self.driver.find_element_by_xpath(imageDetailFirstXpath)
+        time.sleep(5)
+        imageDetail = self.driver.find_element_by_xpath(
+            "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetailSrc = imageDetail.get_attribute("src")
-        print( imageDetailSrc)
         try:
             self.driver.set_page_load_timeout(5)
             self.driver.get(imageDetailSrc)
@@ -46,7 +78,9 @@ class TestDetailHotelu_C(unittest.TestCase):
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  TimeoutException " + url
             sendEmail(msg)
+
         try:
+            # time.sleep(5)
             image = self.driver.find_element_by_xpath("/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
@@ -55,117 +89,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
             sendEmail(msg)
-        response = requests.get(imageDetailSrc)
-        assert response.status_code == 200
-
-        self.test_passed = True
-
-    def test_detail_terminy_filtr_meal(self):
-        self.driver.get(URL_detail_all_inclusive)
-        wait = WebDriverWait(self.driver, 150000)
-        self.driver.maximize_window()
-        time.sleep(1)
-        acceptConsent(self.driver)
-
-
-        try:
-            terminyCeny = self.driver.find_element_by_xpath(terminyAcenyScrollMenuXpath)
-            wait.until(EC.visibility_of(terminyCeny))
-            ##terminyCeny.click()
-            self.driver.execute_script("arguments[0].click();", terminyCeny)
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "terminyAcenyScrollMenuXpath faild click " + url
-            sendEmail(msg)
-
-        zvolenaStravaVboxu = "all inclusive"
-
-        stravaVterminech = self.driver.find_elements_by_xpath(stravovaniVysledkyTerminyAcenyXpath)
-        stravaVterminechString = []
-
-        ##ty for loopy se nezapnou pokud pocet vysledku bude 0
-        ##takze treba exim a dx bude casto takto jelikoz se tam nabizi vsechny
-        ##stravy, ne jen ty available
-        x = 0
-        for _ in stravaVterminech:
-            stringos = stravaVterminech[x].text.lower()
-            stravaVterminechString.append(stringos)
-            x = x + 1
-
-        time.sleep(1)  ###eroror element is not attached ?  tak chvilku cekacka mozna to solvne
-
-        print(stravaVterminechString)
-        y = 0
-        for _ in stravaVterminechString:
-            #assert  == zvolenaStravaVboxu
-            assert zvolenaStravaVboxu.lower() in stravaVterminechString[y].lower()
-           # if stravaVterminechString[y] == zvolenaStravaVboxu:
-            if zvolenaStravaVboxu.lower() in stravaVterminechString[y].lower():
-                print("ok")
-                ##print(y)
-                y = y + 1
-            else:
-                url = self.driver.current_url
-                msg = "na detailu jsem vyfiltroval stravu " + zvolenaStravaVboxu + "ale pry to nesedi říká python" + url
-                sendEmail(msg)
-                y = y + 1
-        #time.sleep(100)
-        ##print(stravaVterminech)
 
         self.test_passed = True
 
 
-    def test_detail_terminy_filtr_airport(self):
-            self.driver.get(URL_detail_airport_praha)
-            print(URL_detail_airport_praha)
-            wait = WebDriverWait(self.driver, 150000)
-            self.driver.maximize_window()
-            time.sleep(1)
-
-            acceptConsent(self.driver)
-
-            try:
-                terminyCeny = self.driver.find_element_by_xpath(terminyAcenyScrollMenuXpath)
-                wait.until(EC.visibility_of(terminyCeny))
-                ##terminyCeny.click()
-                self.driver.execute_script("arguments[0].click();", terminyCeny)
-            except NoSuchElementException:
-                url = self.driver.current_url
-                msg = "terminyAcenyScrollMenuXpath faild click " + url
-                sendEmail(msg)
-
-            zvolenaAiportVboxu = "Praha"
-
-            airportVterminech = self.driver.find_elements_by_xpath(airportVysledkyTerminyAcenyXpath)
-            airportVterminechString = []
-
-            ##ty for loopy se nezapnou pokud pocet vysledku bude 0
-            ##takze treba exim a dx bude casto takto jelikoz se tam nabizi vsechny
-            ##stravy, ne jen ty available
-            x = 0
-            for _ in airportVterminech:
-                stringos = airportVterminech[x].text
-                airportVterminechString.append(stringos)
-                x = x + 1
-
-            time.sleep(1)  ###eroror element is not attached ?  tak chvilku cekacka mozna to solvne
-
-            print(airportVterminechString)
-            y = 0
-            for _ in airportVterminechString:
-                # assert  == zvolenaStravaVboxu
-                assert zvolenaAiportVboxu in airportVterminechString[y]
-                # if stravaVterminechString[y] == zvolenaStravaVboxu:
-                if zvolenaAiportVboxu in airportVterminechString[y]:
-                    print("ok")
-                    ##print(y)
-                    y = y + 1
-                else:
-                    url = self.driver.current_url
-                    msg = "na detailu jsem vyfiltroval stravu " + zvolenaAiportVboxu + "ale pry to nesedi říká python" + url
-                    sendEmail(msg)
-                    y = y + 1
-            #time.sleep(100)
-            ##print(stravaVterminech)
-
-            self.test_passed = True

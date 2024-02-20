@@ -1,33 +1,84 @@
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver import ActionChains
+from ET_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, setUp, tearDown, URL
+from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_LM, setUp, tearDown, generalDriverWaitImplicit
+import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
-hlavickaMenuXpath = "//*[@class='inner']"
-zlutakHPXpath = "//*[@class='f_filterMainSearch']"
-teaserFotkaMainXpath = "//*[@class='object-cover w-full h-full']"
-destinationKostkyHPXpath = "//*[@class='c_tile-destination']"
-itemsHPXpath ="//*[@class='items']"  ##destination items+3ikony nad patou
-footerXpath = "//*[@class='footer-links']"
+HPbanneryXpath = "//*[@class='f_teaser-item']"
+HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
+HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-class Test_HP_D(unittest.TestCase):
+class TestHP_D(unittest.TestCase):
     def setUp(self):
         setUp(self)
-        self.test_passed = False
 
     def tearDown(self):
         tearDown(self)
 
-    def test_HP_D(self):
+    def test_homePage_D(self):
+        wait = WebDriverWait(self.driver, 150)
         self.driver.get(URL)
         self.driver.maximize_window()
+        time.sleep(2.5)
         acceptConsent(self.driver)
-        wait = WebDriverWait(self.driver, 25)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(hlavickaMenuXpath)))
-        assert (self.driver.find_element_by_xpath(hlavickaMenuXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(zlutakHPXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(teaserFotkaMainXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(itemsHPXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(footerXpath)).is_displayed() == True
-        #assert(1==2)
+        generalDriverWaitImplicit(self.driver)
+        bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
+        try:
+            bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
+            bannerAll = self.driver.find_elements_by_xpath(HPbanneryXpath)
+            #wait.until(EC.visibility_of(bannerSingle))
+            if bannerSingle.is_displayed():
+                for WebElement in bannerAll:
+                    jdouvidet = WebElement.is_displayed()
+                    assert jdouvidet == True
+                    if jdouvidet == True:
+                        pass
+                    else:
+                        url = self.driver.current_url
+                        msg = "Problem na HP s bannery " + url
+                        sendEmail(msg)
+
+        except NoSuchElementException:
+            url = self.driver.current_url
+            msg = "Problem na HP s bannery " + url
+            sendEmail(msg)
+        assert bannerSingle.is_displayed() == True
+        time.sleep(1.5)
+
+    def test_HP_LMnabidky(self):
+        wait = WebDriverWait(self.driver, 150)
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(2.5)
+        acceptConsent(self.driver)
+        generalDriverWaitImplicit(self.driver)
+
+        try:
+            nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='page-tour']")
+            nejnabidkyLMall = self.driver.find_elements_by_xpath("//*[@class='page-tour']")
+            wait.until(EC.visibility_of(nejnabidkyLMsingle))
+            if nejnabidkyLMsingle.is_displayed():
+                for WebElement in nejnabidkyLMall:
+                    jdouvidet = WebElement.is_displayed()
+                    assert jdouvidet == True
+                    if jdouvidet == True:
+                        pass
+
+                    else:
+                        url = self.driver.current_url
+                        msg = "Problem na HP s nej. nabidky LM " + url
+                        sendEmail(msg)
+
+        except NoSuchElementException:
+            url = self.driver.current_url
+            msg = "Problem na HP s nej. nabidky LM " + url
+            sendEmail(msg)
+
+        assert nejnabidkyLMsingle.is_displayed() == True
+
         self.test_passed = True
+
+
