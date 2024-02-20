@@ -1,25 +1,22 @@
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
-from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, returnLocatorForMealHotelKarty, generalDriverWaitImplicit
-import time
+from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown, generalDriverWaitImplicit
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-import pyautogui as p
+import time
 
-
-SRLhotelyKartyXpath = "//*[@class='flex']"
-#SRLfotkaHoteluXpath = "//*[@class='img-wrap']"
-SRLfotkaHoteluXpath= "//*[@class='splide__slide is-active is-visible']"
-totalPriceXpath = "//*[@class='price-amount']"
+SRLhotelyKartyXpath ="//*[@class='f_searchResult-content-item relative']"
+SRLcenyHoteluXpath = "//*[@class='f_tile-priceDetail-content']"
+SRLfotkaHoteluXpath = "//*[@class='f_tileGallery']"
 
 def SRL_D(self, driver):
-    self.driver.implicitly_wait(100)
-    generalDriverWaitImplicit(self.driver)
     wait = WebDriverWait(self.driver, 150)
+    generalDriverWaitImplicit(self.driver)
+    time.sleep(6)
+    acceptConsent(self.driver)
     hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
+        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
         hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         ##print(hotelyAll)
@@ -67,8 +64,8 @@ def SRL_D(self, driver):
 
     try:
         self.driver.implicitly_wait(100)
-        cenaAll = self.driver.find_elements_by_xpath(totalPriceXpath)  ##
-        cenaSingle = self.driver.find_element_by_xpath(totalPriceXpath)
+        cenaAll = self.driver.find_elements_by_xpath(SRLcenyHoteluXpath)  ##
+        cenaSingle = self.driver.find_element_by_xpath(SRLcenyHoteluXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:
@@ -91,6 +88,18 @@ def SRL_D(self, driver):
 
     assert cenaAll[0].is_displayed() == True
 
+    try:
+        self.driver.implicitly_wait(
+            5)  ##5 should be enough to get imgs loaded, if this is located = IMGS still loading = bad
+        loadingImgSingle = self.driver.find_element_by_xpath(
+            "//*[@class='splide__spinner']")  ##loading classa obrazku, jestli tam je = not gud
+        if loadingImgSingle.is_displayed():
+            url = self.driver.current_url
+            msg = " Problem s načítáná fotek v SRL  //*[@class='splide__spinner']" + url
+            sendEmail(msg)
+            #assert 1 == 2
+    except NoSuchElementException:
+        pass
 
 
 class TestSRL_D(unittest.TestCase):
@@ -101,12 +110,14 @@ class TestSRL_D(unittest.TestCase):
         tearDown(self)
 
     def test_SRL_D(self):
-        wait = WebDriverWait(self.driver, 150)
+
         self.driver.maximize_window()
         self.driver.get(URL_SRL)
 
         time.sleep(0.44)
         acceptConsent(self.driver)
 
+        self.driver.implicitly_wait(100)
         SRL_D(self, self.driver)
+
         self.test_passed = True

@@ -1,53 +1,82 @@
-from ET_Automation_Local_Deploy_PyCharm.Detail_C import TestDetailHotelu_C
-from ET_Automation_Local_Deploy_PyCharm.FM_Exotika_D import Test_FM_Exotika_D
-from ET_Automation_Local_Deploy_PyCharm.fulltext_C import Test_Fulltext_C
-from ET_Automation_Local_Deploy_PyCharm.groupsearch_D import Test_Groupsearch_D
-from ET_Automation_Local_Deploy_PyCharm.HP_D import Test_HP_D
-from ET_Automation_Local_Deploy_PyCharm.LM_D import Test_LM_D
-from ET_Automation_Local_Deploy_PyCharm.SDO_D import TestSDO_D
-from ET_Automation_Local_Deploy_PyCharm.SRL_C import Test_SRL_C
-from ET_Automation_Local_Deploy_PyCharm.SRL_D import TestSRL_D
-from ET_Automation_Local_Deploy_PyCharm.HP_C import Test_HP_C
-import HtmlTestRunner
-import unittest
-from starter_master_browserstack import  runner_tests_generalized
-from ET_Automation_Local_Deploy_PyCharm.to_import import URL
+from ND_Automation_Local_Deploy_PyCharm.pobocky import *
+from ND_Automation_Local_Deploy_PyCharm.Detail_D import *
+from ND_Automation_Local_Deploy_PyCharm.Detail_C import *
+from ND_Automation_Local_Deploy_PyCharm.FM_D import *
+from ND_Automation_Local_Deploy_PyCharm.fulltext_C import *
+from ND_Automation_Local_Deploy_PyCharm.groupsearch_D import *
+from ND_Automation_Local_Deploy_PyCharm.HP_C import *
+from ND_Automation_Local_Deploy_PyCharm.HP_D import *
+from ND_Automation_Local_Deploy_PyCharm.LM_D import *
+from ND_Automation_Local_Deploy_PyCharm.SDO_D import *
+from ND_Automation_Local_Deploy_PyCharm.SRL_C import *
+from ND_Automation_Local_Deploy_PyCharm.SRL_D import *
+from ND_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+#import HtmlTestRunner
+import HTMLTestRunner
 
-
-def suite_ET_full():
+def suite_ND_full():
     suite = unittest.TestSuite()
-    #suite.addTest(TestDetailHotelu_D("test_detail_D"))
+    suite.addTest(TestDetailHotelu_D("test_detail_D"))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport"))
-    suite.addTest(Test_FM_Exotika_D("test_FM_D"))
-    suite.addTest(Test_FM_Exotika_D("test_Exotika_D"))
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_D"))
     suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac"))
     suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check"))
     suite.addTest(Test_Groupsearch_D("test_groupsearch_D"))
-    suite.addTest(Test_HP_D("test_HP_D"))
-    suite.addTest(Test_LM_D("test_LM_D"))
+    suite.addTest(Test_HP_C('test_HP_bannery_check'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
+    suite.addTest(Test_HP_C('test_oblibene_destinace'))
+    suite.addTest(TestHP_D("test_homePage_D"))
+    suite.addTest(TestLM_D("test_HP_LMnabidky"))
+    suite.addTest(TestPobocky_C('test_pobocky_D'))
+    suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check'))
     suite.addTest(TestSDO_D('test_SDO_D'))
-    suite.addTest(Test_SRL_C('test_SRL_sort_cheapest'))
-    suite.addTest(Test_SRL_C('test_SRL_sort_expensive'))
-    suite.addTest(Test_SRL_C('test_SRL_map'))
-    suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
-    suite.addTest(Test_SRL_C('test_srl_C'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_sort_cheapest'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_sort_expensive'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_map'))
+    suite.addTest(Test_SRL_C_Zima('test_srl_C'))
     suite.addTest(TestSRL_D('test_SRL_D'))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL'))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch'))
-    suite.addTest(Test_HP_C('test_HP_banner_destination_to_SDO'))
+    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
+
     return suite
 
 def suite2():
     suite = unittest.TestSuite()
-    suite.addTest(Test_FM_Exotika_D("test_FM_D"))
+
+    suite.addTest(TestDetailHotelu_D("test_detail_D"))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_filtr_strava'))
+    suite.addTest(Test_SRL_C_Zima('test_srl_C'))
+    suite.addTest(Test_HP_C('test_HP_bannery_check'))
     return suite
 
-web_brand = "ETRAVEL"
-#runner_tests_generalized(suite_ET_full, web_brand, "123", URL)
-runner_tests_generalized(suite_ET_full, web_brand, "0", URL)
+def suite3():
+    suite = unittest.TestSuite()
 
+    suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac"))
+    suite.addTest(TestPobocky_C('test_pobocky_D'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_sort_cheapest'))
+    suite.addTest(Test_HP_C('test_HP_bannery_check'))
 
+    return suite
 
+def suite4():
+    suite = unittest.TestSuite()
+    suite.addTest(Test_HP_C('test_HP_bannery_check'))
+    return suite
 
+def SRL_suite_full():
+    suite = unittest.TestSuite()
+    suite.addTest(Test_SRL_C_Zima('test_SRL_sort_cheapest'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_sort_expensive'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_map'))
+    suite.addTest(Test_SRL_C_Zima('test_SRL_filtr_strava'))
+    suite.addTest(Test_SRL_C_Zima('test_srl_C'))
+    return suite
+from starter_master_browserstack import  runner_tests_generalized
+if __name__ == '__main__':
+    runner = unittest.TextTestRunner()
+    outfile = open("results.html", "w")
+    web_brand = "EXIM"
+    runner_tests_generalized(suite_ND_full, web_brand, "hotifx", URL)
+    #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
+    #runner_tests_generalized(suite4, web_brand, "220718.1", URL)

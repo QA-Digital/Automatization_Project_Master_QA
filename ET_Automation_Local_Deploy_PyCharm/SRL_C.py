@@ -1,59 +1,78 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_SRL, sendEmail, setUp, tearDown, returnLocatorForMealHotelKarty, generalDriverWaitImplicit, URL_SRL_all_inclusive
+from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL_zima, URL_SRL_leto, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-import pyautogui as p
+from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 
-p.FAILSAFE = False
-totalPriceXpath = "//*[@class='price-amount']"
-odNejdrazsihoSorterXpath = "//*[contains(text(), 'od nejdražšího')]"
-zobrazitNaMapeXpath = "//*[@class='c_btn white']"
-detailHoteluButtonXpath = "//*[@class='c_btn inline ellipsis green']"
-detailHoteluCenaAllXpath = "//*[@class='text-h3 text-green font-bold']"
-detailHoteluCross = "//*[@class='f_icon f_icon--cross']"
-chatCrossXpath = "//*[@id='daktela-web-greeting-close']"
-#SDO_Strava_row_karta_hotelu_Xpath = "//*[@class='c_row'][2]"
-SDO_Strava_row_karta_hotelu_Xpath = "//*[@class='c_row']/span/i"
 
-from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble
+hotelyKartyXpath = "//*[@class='f_searchResult-content f_searchResult-content--grid']"
+cenaZajezduXpath = "//*[@class='leading-tight text-xl']"
+sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejlevnějšího')]"
+sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
-returnLocatorForMealHotelKarty(1)
-class Test_SRL_C(unittest.TestCase):
+
+class Test_SRL_C_Zima(unittest.TestCase):
     def setUp(self):
         setUp(self)
     def tearDown(self):
         tearDown(self)
+
     def test_SRL_sort_cheapest(self):
+
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
-        wait = WebDriverWait(self.driver, 150)
+        self.driver.get(URL_SRL_zima)
+        wait = WebDriverWait(self.driver, 5)
+
         time.sleep(2)
         acceptConsent(self.driver)
-        time.sleep(4)
+        time.sleep(1.5)
+
+        typeOfSort = "cheap"
+
         cenaZajezduAllList = []  ##one list that takes prices from the srl
-        cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-        poziceHotelu =0
+        cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
+        time.sleep(3)
+        sorter_Element = self.driver.find_element_by_xpath(sorterCheapXpath)
+        wait.until(EC.visibility_of(sorter_Element))
+        sorter_Element.click()
+        time.sleep(6)
+        hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
+        wait.until(EC.visibility_of(hotelyKarty))
+        # time.sleep(4)
+        list_web_elements_Position = 0
+        cenaZajezduAll = self.driver.find_elements_by_xpath(cenaZajezduXpath)
+        wait.until(EC.visibility_of(cenaZajezduAll[0]))
+
         for WebElement in cenaZajezduAll:
-            cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
-            #cenaZajezduAllString = cenaZajezduAllString[:-3]
+            cenaZajezduAllString = cenaZajezduAll[list_web_elements_Position].text
+            cenaZajezduAllString = cenaZajezduAllString
             cenaZajezduAllString = ''.join(cenaZajezduAllString.split())  ##delete spaces
             cenaZajezduAllString = int(cenaZajezduAllString)  ##convert to int to do sort easily
-            poziceHotelu = poziceHotelu + 1
+            list_web_elements_Position = list_web_elements_Position + 1
             cenaZajezduAllList.append(cenaZajezduAllString)
             cenaZajezduAllListSorted.append(cenaZajezduAllString)
 
-        cenaZajezduAllListSorted.sort()  ##sorting second list low to high
+        if typeOfSort == "cheap":
+            cenaZajezduAllListSorted.sort()  ##sorting second list low to high
 
-        if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
-            print("Razeni od nejlevnejsiho je OK")
+            if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
+                print("Cheap sorter is OK")
+            else:
+                print("Cheap sorter is NOT OK")
 
-        else:
-            print("Razeni od nejlevnejsiho je spatne")
+        if typeOfSort == "expensive":
+            cenaZajezduAllListSorted.sort(reverse=True)
 
+            if cenaZajezduAllListSorted == cenaZajezduAllList:
+                print("Expensive sorter is OK")
+            else:
+                print("Expensive sorter is NOT OK")
+
+        print("LIST FROM WEB:")
         print(cenaZajezduAllList)
+        print("CORRECTLY SORTED LIST")
         print(cenaZajezduAllListSorted)
 
         assert cenaZajezduAllListSorted == cenaZajezduAllList
@@ -61,237 +80,153 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_sort_expensive(self):
-        self.driver.get(URL_SRL)
-        wait = WebDriverWait(self.driver, 1500)
+
         self.driver.maximize_window()
+        self.driver.get(URL_SRL_leto)
+        wait = WebDriverWait(self.driver, 5)
+
+        time.sleep(2)
         acceptConsent(self.driver)
-        time.sleep(3)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(odNejdrazsihoSorterXpath))).click()
-        time.sleep(4.5)   ##waits not working, for now just time sleep
+        time.sleep(1.5)
 
-        #wait.until(EC.visibility_of(self.driver.find_element_by_xpath(totalPriceXpath)))
+        typeOfSort = "expensive"
+
         cenaZajezduAllList = []  ##one list that takes prices from the srl
-        cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-
-
-        poziceHotelu = 0
+        cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
+        time.sleep(3)
+        sorter_Element = self.driver.find_element_by_xpath(sorterExpensiveXpath)
+        wait.until(EC.visibility_of(sorter_Element))
+        sorter_Element.click()
+        time.sleep(6)
+        hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
+        wait.until(EC.visibility_of(hotelyKarty))
+        # time.sleep(4)
+        list_web_elements_Position = 0
+        cenaZajezduAll = self.driver.find_elements_by_xpath(cenaZajezduXpath)
+        wait.until(EC.visibility_of(cenaZajezduAll[0]))
 
         for WebElement in cenaZajezduAll:
-            cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
+            cenaZajezduAllString = cenaZajezduAll[list_web_elements_Position].text
+            cenaZajezduAllString = cenaZajezduAllString
             cenaZajezduAllString = ''.join(cenaZajezduAllString.split())  ##delete spaces
             cenaZajezduAllString = int(cenaZajezduAllString)  ##convert to int to do sort easily
-            poziceHotelu = poziceHotelu + 1
+            list_web_elements_Position = list_web_elements_Position + 1
             cenaZajezduAllList.append(cenaZajezduAllString)
             cenaZajezduAllListSorted.append(cenaZajezduAllString)
 
-        cenaZajezduAllListSorted.sort(reverse=True)
+        if typeOfSort == "cheap":
+            cenaZajezduAllListSorted.sort()  ##sorting second list low to high
 
-        if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
-            print("Razeni od nejdrazsiho je OK")
+            if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
+                print("Cheap sorter is OK")
+            else:
+                print("Cheap sorter is NOT OK")
 
-        else:
-            print("Razeni od nejdrazsiho je spatne")
+        if typeOfSort == "expensive":
+            cenaZajezduAllListSorted.sort(reverse=True)
 
+            if cenaZajezduAllListSorted == cenaZajezduAllList:
+                print("Expensive sorter is OK")
+            else:
+                print("Expensive sorter is NOT OK")
+
+        print("LIST FROM WEB:")
         print(cenaZajezduAllList)
+        print("CORRECTLY SORTED LIST")
         print(cenaZajezduAllListSorted)
 
         assert cenaZajezduAllListSorted == cenaZajezduAllList
 
         self.test_passed = True
 
+
     def test_SRL_map(self):
         driver = self.driver
-        driver.get(URL_SRL)
-        wait = WebDriverWait(driver, 12)
-        time.sleep(5)
-        self.driver.maximize_window()
-        acceptConsent(driver)
-        time.sleep(10)
-        #wait.until(EC.visibility_of(self.driver.find_element_by_xpath(zobrazitNaMapeXpath))).click()
-        generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
-        time.sleep(3)
-
-        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
-
-
-        #assert (self.driver.current_url) != URL_SRL
-        self.driver.switch_to.window(self.driver.window_handles[1]) ##gotta switch to new window
-        currentUrl = self.driver.current_url
-        print(currentUrl)
-        print(URL_SRL)
-        assert currentUrl != URL_SRL
-
-        self.test_passed = True
-
-    def test_SRL_filtr_strava(self):
-        driver = self.driver
-        driver.get(URL_SRL_all_inclusive)
-        #driver.get(URL_SRL)
-        wait = WebDriverWait(driver, 12)
-        time.sleep(5)
-        self.driver.maximize_window()
+        driver.maximize_window()
+        driver.get(URL_SRL_zima)
+        time.sleep(2)
         acceptConsent(driver)
         time.sleep(2)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(SDO_Strava_row_karta_hotelu_Xpath)))
-        SDOstravaRowKartaElement = self.driver.find_elements_by_xpath(SDO_Strava_row_karta_hotelu_Xpath)
-        x=1
-        time.sleep(5)
-        #for _ in SDOstravaRowKartaElement:
-        #for _ in (self.driver.find_elements_by_xpath(detailHoteluCenaAllXpath)):
-        for i in range(19):
-            stravaHoteluXpathCreator = returnLocatorForMealHotelKarty(x)
-            #print(stravaHoteluXpathCreator)
-            stravaHoteluVkarte = self.driver.find_elements_by_xpath(stravaHoteluXpathCreator)
+        generalDriverWaitImplicit(self.driver)
+        zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
+        #zobrazitNaMape.click()
+        generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
+        time.sleep(2.5)
 
-            stravaHoteluVkarteAssertValue = stravaHoteluVkarte[0].text.lower()
-            #print(stravaHoteluVkarteAssertValue)
-            #assert stravaHoteluVkarteAssertValue == "all inclusive"
-            assert("all inclusive" in stravaHoteluVkarteAssertValue)
-            #print(stravaHoteluVkarte[0])
-            #print(SDOstravaRowKartaElement[x].text)
-            x=x+1
+        generalized_map_test_click_on_pin_and_hotel_bubble(driver)
+        time.sleep(3)
 
+        self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
+        currentUrl = self.driver.current_url
+        print(currentUrl)
+        print(URL_SRL_zima)
+        assert currentUrl != URL_SRL_zima
 
         self.test_passed = True
 
     def test_srl_C(self):
+        x = 0  ##variable for taking the first hotel, starting at 0
+        windowHandle = 1  ##variable for handling windows, gotta start on 1
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
-        #wait = WebDriverWait(self.driver, 150000)
-        wait = WebDriverWait(self.driver, 20)
-
-
-        time.sleep(3)
-
+        self.driver.get(URL_SRL_zima)
+        wait = WebDriverWait(self.driver, 25)
+        time.sleep(2)
         acceptConsent(self.driver)
+        time.sleep(1)
 
-        #wait.until(EC.visibility_of(self.driver.find_element_by_xpath(chatCrossXpath)).click())
-        generalDriverWaitImplicit(self.driver)
-        #self.driver.find_element_by_xpath(chatCrossXpath).click()
-        #wait.until(EC.visibility_of(self.driver.find_element_by_xpath(chatCrossXpath))).click()
-        time.sleep(6)
         try:
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(totalPriceXpath)[1]))
+            hotelyAllKarty = self.driver.find_elements_by_xpath("//*[@class='f_searchResult-content f_searchResult-content--grid']")
+            wait.until(EC.visibility_of(hotelyAllKarty[0]))
+
         except NoSuchElementException:
             url = self.driver.current_url
             msg = " Problem SRL hotelyAllKarty" + url
             sendEmail(msg)
-        x = 0
-        #for WebElement in self.driver.find_elements_by_xpath(totalPriceXpath):
-        for i in range(3):
+
+        # for WebElement in hotelyAllKarty:
+        for _ in range(6):
             print("|||||HOTEL CISLO|||||||")
             print(x + 1)
             print(x + 1)
             print(x + 1)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(totalPriceXpath)[0]))
-            cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
+
+            terminZajezdu = self.driver.find_elements_by_xpath("(//span[@class='font-bold'])")
+            print(terminZajezdu[x].text)
+
+            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_button f_button--important']")
+            linkDetailActualUrl = linkDetail[x].get_attribute("href")
+            print(linkDetailActualUrl)
+
+            cenaZajezduAll = self.driver.find_elements_by_xpath("//*[@class='whitespace-nowrap text-[--primary] font-bold']")
             cenaZajezduAllString = cenaZajezduAll[x].text
-            print(cenaZajezduAllString)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(detailHoteluButtonXpath)[x])).click()
-            time.sleep(5)
-            detailCenaAll = self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)))
+            #print(cenaZajezduAllString)
+
+            self.driver.execute_script("window.open("");")
+            self.driver.switch_to.window(self.driver.window_handles[1])
+            self.driver.get(linkDetailActualUrl)
+
+            closeExponeaBanner(self.driver)
+
+            time.sleep(2.5)  ##natvrdo aby se to neposralo
+
+
+            detailCenaAll = self.driver.find_element_by_xpath("//span[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
-            detailCenaAllString = detailCenaAllString[:-3]
             print(detailCenaAllString)
+
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
                 print("ceny all sedi srl vs detail")
             else:
                 print("ceny all NESEDÍ srl vs detail")
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCross))).click()
+
+            self.driver.switch_to.window(
+                self.driver.window_handles[0])  ##this gotta be adjusted based on what test is executed
+            ##for daily test needs to be set on 1 so it gets on the SRL
+
             x = x + 1
             print(x)
+            windowHandle = windowHandle + 1
+            print(windowHandle)
 
-        #p.press("pagedown")
-        detailHoteluButtonElement = self.driver.find_elements_by_xpath(detailHoteluButtonXpath)
-        self.driver.execute_script("arguments[0].scrollIntoView();", detailHoteluButtonElement[x])
-
-        time.sleep(3.5)
-        x=5
-        for i in range(4):
-            print("|||||HOTEL CISLO|||||||")
-            print(x + 1)
-            print(x + 1)
-            print(x + 1)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(totalPriceXpath)[0]))
-            cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-            cenaZajezduAllString = cenaZajezduAll[x].text
-            print(cenaZajezduAllString)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(detailHoteluButtonXpath)[x])).click()
-            time.sleep(5)
-            detailCenaAll = self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)))
-            detailCenaAllString = detailCenaAll.text
-            detailCenaAllString = detailCenaAllString[:-3]
-            print(detailCenaAllString)
-            assert detailCenaAllString == cenaZajezduAllString
-            if detailCenaAllString == cenaZajezduAllString:
-                print("ceny all sedi srl vs detail")
-            else:
-                print("ceny all NESEDÍ srl vs detail")
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCross))).click()
-            x = x + 1
-            print(x)
-
-
-
-        time.sleep(1)
-        x = 10
-        for i in range(3):
-            print("|||||HOTEL CISLO|||||||")
-            print(x + 1)
-            print(x + 1)
-            print(x + 1)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(totalPriceXpath)[0]))
-            cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-            cenaZajezduAllString = cenaZajezduAll[x].text
-            print(cenaZajezduAllString)
-            wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(detailHoteluButtonXpath)[x])).click()
-            time.sleep(5)
-            detailCenaAll = self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)))
-            detailCenaAllString = detailCenaAll.text
-            detailCenaAllString = detailCenaAllString[:-3]
-            print(detailCenaAllString)
-            assert detailCenaAllString == cenaZajezduAllString
-            if detailCenaAllString == cenaZajezduAllString:
-                print("ceny all sedi srl vs detail")
-            else:
-                print("ceny all NESEDÍ srl vs detail")
-            wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCross))).click()
-            x = x + 1
-            print(x)
-
-        #p.press("pagedown")
-        # detailHoteluButtonElement = self.driver.find_elements_by_xpath(detailHoteluButtonXpath)
-        # self.driver.execute_script("arguments[0].scrollIntoView();", detailHoteluButtonElement[x])
-        # time.sleep(1)
-        # x = 15
-        # for i in range(4):
-        #     print("|||||HOTEL CISLO|||||||")
-        #     print(x + 1)
-        #     print(x + 1)
-        #     print(x + 1)
-        #     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(totalPriceXpath)[0]))
-        #     cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
-        #     cenaZajezduAllString = cenaZajezduAll[x].text
-        #     print(cenaZajezduAllString)
-        #     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(detailHoteluButtonXpath)[x])).click()
-        #     time.sleep(5)
-        #     detailCenaAll = self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)
-        #     wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCenaAllXpath)))
-        #     detailCenaAllString = detailCenaAll.text
-        #     detailCenaAllString = detailCenaAllString[:-3]
-        #     print(detailCenaAllString)
-        #     assert detailCenaAllString == cenaZajezduAllString
-        #     if detailCenaAllString == cenaZajezduAllString:
-        #         print("ceny all sedi srl vs detail")
-        #     else:
-        #         print("ceny all NESEDÍ srl vs detail")
-        #     wait.until(EC.visibility_of(self.driver.find_element_by_xpath(detailHoteluCross))).click()
-        #     x = x + 1
-        #     print(x)
-
-        self.test_passed = True
+            self.test_passed = True
