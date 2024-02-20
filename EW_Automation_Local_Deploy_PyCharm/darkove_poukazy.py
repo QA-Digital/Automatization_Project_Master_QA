@@ -24,10 +24,10 @@ prijmeniInputXpath = "//*[@id='input-text-2']"
 telefonInputXpath = "//*[@id='input-phoneNumber-3']"
 emailInputXpath = "//*[@id='input-email-4']"
 checkboxAgreementXpath = "(//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[var(--input-checkbox-rounding)] transition-all border-[var(--neutral-300)] text-[var(--white)]'])[410]"
-objednatXpath = "//*[@class='uppercase whitespace-nowrap overflow-ellipsis overflow-hidden']"
+objednatXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Objednat a zaplatit']"
 
 platebniKartouXpath = "//*[@class='flex flex-col gap-1 grow items-start']"
-zaplatitXpath = "//div[@class='uppercase whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Zaplatit']"
+zaplatitXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Zaplatit']"
 
 class Test_darkove_poukazy(unittest.TestCase):
     def setUp(self):
