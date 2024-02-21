@@ -139,7 +139,7 @@ class Test_SRL_C(unittest.TestCase):
             print(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
-            self.driver.switch_to.window(self.driver.window_handles[windowHandle])
+            self.driver.switch_to.window(self.driver.window_handles[1])
             self.driver.get(linkDetailActualUrl)
 
             closeExponeaBanner(self.driver)
@@ -149,15 +149,18 @@ class Test_SRL_C(unittest.TestCase):
             #detailTerminSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title']")
             ##print(detailTerminSedivka.text)
 
-            try:
-                detailStravaSedivka = self.driver.find_element_by_xpath(
-                    "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/span")
-            except NoSuchElementException:
-                try:
-                    detailStravaSedivka = self.driver.find_element_by_xpath(
-                        "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
-                except NoSuchElementException:
-                    pass
+            # try:
+            #     detailStravaSedivka = self.driver.find_element_by_xpath(
+            #         "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[3]/div[2]/span")
+            # except NoSuchElementException:
+            #     try:
+            #         detailStravaSedivka = self.driver.find_element_by_xpath(
+            #             "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
+            #     except NoSuchElementException:
+            #         pass
+
+            detailStravaSedivkaXpath = "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']"
+            detailStravaSedivka = self.driver.find_element_by_xpath(detailStravaSedivkaXpath)
             detailStravaSedivkaString = detailStravaSedivka.text
 
             detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='f_box-item f_icon f_icon--bed']//strong")
@@ -181,6 +184,7 @@ class Test_SRL_C(unittest.TestCase):
 
 
             assert detailPokojSedivkaString == pokojZajezduString
+            self.driver.close()
 
             if detailPokojSedivkaString == pokojZajezduString:
                 print("pokoje sedi srl vs detail")
