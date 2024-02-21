@@ -110,7 +110,7 @@ class Test_SRL_C(unittest.TestCase):
             sendEmail(msg)
 
         #for WebElement in hotelyAllKarty:
-        for _ in range(6):
+        for _ in range(12):
 
             print("|||||HOTEL CISLO|||||||" )
             print(x+1)
@@ -146,7 +146,7 @@ class Test_SRL_C(unittest.TestCase):
             #print(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
-            self.driver.switch_to.window(self.driver.window_handles[windowHandle])
+            self.driver.switch_to.window(self.driver.window_handles[1])
             self.driver.get(linkDetailActualUrl)
 
             closeExponeaBanner(self.driver)
@@ -156,8 +156,9 @@ class Test_SRL_C(unittest.TestCase):
             #detailTerminSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title']")
             ##print(detailTerminSedivka.text)
 
-            detailStravaSedivka = self.driver.find_element_by_xpath(
-                "/html/body/div[1]/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
+            detailStravaSedivkaXpath = "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']"
+            detailStravaSedivka = self.driver.find_element_by_xpath(detailStravaSedivkaXpath)
+
             # detailStravaSedivkaString = detailStravaSedivka[1].text  ##gottaa be 1 cuz thats how its set up (multiple locators are attached to this locator so position 1 is always gonna be strava hopefully
             detailStravaSedivkaString = detailStravaSedivka.text
             print(detailStravaSedivkaString)
@@ -182,6 +183,8 @@ class Test_SRL_C(unittest.TestCase):
 
 
             assert detailPokojSedivkaString == pokojZajezduString
+
+            self.driver.close()
 
             if detailPokojSedivkaString == pokojZajezduString:
                 print("pokoje sedi srl vs detail")
