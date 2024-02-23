@@ -39,7 +39,7 @@ def setUp(self):
 URL = "https://eximpl.web11.dtweb.cz/"
 #URL = "http://eximpl.web11.dtweb.cz/"
 URL_pobocky = URL+"punkty-sprzedazy"
-URL_detail = URL +"/kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"
+URL_detail = URL +"/kierunki/egipt/marsa-alam/marsa-alam/jaz-amara?AC1=2&D=64419|64420|64425&DD=2024-10-19&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1376500&HID=152967&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=MTIyMDMzNnw4NjgxMTgzNjF8NjI3ODIx&MNN=7&MT=5&NN=7&PID=386344&RD=2024-10-26&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=6|7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"
 URL_leto = URL+"lato"
 URL_zima = URL+"zima"
 URL_faq = URL+"faq"
@@ -49,7 +49,7 @@ URL_allInclusive = URL+"all-inclusive"
 URL_stat = URL+"kierunki/egipt"
 URL_groupsearch = URL+"wyszukanie?ac1=2&dd=2023-12-16&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-01-07&tt=1"
 URL_FT_results = URL+"wyniki-wyszukiwania?q="
-URL_SRL= URL+"wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1"
+URL_SRL= URL+"wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1"
 URL_vlastniDoprava = URL + "dojazd-wlasny"
 
 
