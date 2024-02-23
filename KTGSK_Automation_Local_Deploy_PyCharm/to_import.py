@@ -6,7 +6,7 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
 #URL = "https://www.kartago.sk/"
-URL = "https://kartagosk.stg.dtweb.cz/"
+URL = "https://kartagosk.web1.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy"
 URL_poznavacky_vikendy = URL+"poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = URL+"poznavaci-zajezdy#rodiny"
