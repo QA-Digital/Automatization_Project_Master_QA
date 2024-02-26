@@ -22,7 +22,7 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
     detailPobockyElement = driver.find_element_by_xpath(detailPobockyXpath)
     driver.execute_script("arguments[0].scrollIntoView();", detailPobockyElement)
     detailPobockyElement.click()
-
+    time.sleep(2)
     objednatSchuzkuBtnElement = driver.find_element_by_xpath(objednatSchuzkuBtnXpath)
     objednatSchuzkuBtnElement.click()
 

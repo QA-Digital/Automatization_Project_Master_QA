@@ -17,7 +17,7 @@ class TestCovidInfo_D(unittest.TestCase):
         self.driver.get(URL_covidInfo)
         time.sleep(1)
         acceptConsent(self.driver)
-        time.sleep(1)
+        time.sleep(3.5)
         closeExponeaBanner(self.driver)
 
         wholeGridsAll = self.driver.find_elements_by_xpath("//*[@class='flex justify-between shadow-lg box-border text-sm bg-white p-4 flex-col']")

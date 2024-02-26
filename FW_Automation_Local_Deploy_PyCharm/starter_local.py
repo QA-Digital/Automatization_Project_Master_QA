@@ -38,7 +38,7 @@ def suite_FW_full():
     suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_D'))
     suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_D'))
     suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_D'))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D'))
+   # suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D'))
     suite.addTest(TestSDO_C('test_SDO_D'))
     suite.addTest(Test_SRL_C('test_SRL_sort_cheapest'))
     suite.addTest(Test_SRL_C('test_SRL_sort_expensive'))
@@ -56,7 +56,7 @@ def suite_FW_full():
     suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_C'))
     suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_C'))
     suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_C'))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_C'))
+   # suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_C')) ##zazitky uz nejsou na webu dele, vzdy testy padaji
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
    # suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
