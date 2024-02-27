@@ -11,7 +11,7 @@ import time
 from ET_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 
-URL_deploying_web = URL
+URL_deploying_web = "https://etravel.stg.dtweb.cz/"
 URL_prod_public = "https://www.etravel.cz/"
 banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 

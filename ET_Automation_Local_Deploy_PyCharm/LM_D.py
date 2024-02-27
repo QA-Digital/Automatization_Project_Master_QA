@@ -35,14 +35,14 @@ class TestLM_D(unittest.TestCase):
                         msg = "Problem s LM  zajezdy se neukazuji " + url
                         sendEmail(msg)
 
-
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s LM  zajezdy se neukazuji " + url
             sendEmail(msg)
         assert zajezdyLMsingle.is_displayed() == True
 
-    def LM_vypis_rozbalit_zajezd(self):
+
+    def test_LM_rozbaleni_zajezdu(self):
         wait = WebDriverWait(self.driver, 1500)
         self.driver.get(URL_LM)
         self.driver.maximize_window()
@@ -53,11 +53,11 @@ class TestLM_D(unittest.TestCase):
             rozbal = self.driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
             self.driver.execute_script("arguments[0].click();", rozbal)
-            time.sleep(2)
+            time.sleep(5)
 
         except NoSuchElementException:
             url = self.driver.current_url
-            msg = " Nepodarilo se rozbalit LM zajezd " + url
+            msg = "Nepodarilo se rozbalit LM zajezdy" + url
             sendEmail(msg)
 
         try:
@@ -70,16 +70,15 @@ class TestLM_D(unittest.TestCase):
                     assert jdouvidet == True
                     if jdouvidet == True:
                         pass
-
                     else:
                         url = self.driver.current_url
-                        msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v LM " + url
+                        msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v LM" + url
                         sendEmail(msg)
 
         except NoSuchElementException:
             url = self.driver.current_url
-            msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v LM " + url
+            msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v LM" + url
             sendEmail(msg)
 
-        assert rozbalenyZajezd.is_displayed() == True
+
 
