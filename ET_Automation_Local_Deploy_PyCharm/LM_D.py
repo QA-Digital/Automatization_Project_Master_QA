@@ -57,7 +57,7 @@ class TestLM_D(unittest.TestCase):
 
         except NoSuchElementException:
             url = self.driver.current_url
-            msg = "Nepodarilo se rozbalit LM zajezdy" + url
+            msg = " Nepodarilo se rozbalit LM zajezdy " + url
             sendEmail(msg)
 
         try:
@@ -79,6 +79,8 @@ class TestLM_D(unittest.TestCase):
             url = self.driver.current_url
             msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v LM" + url
             sendEmail(msg)
+
+        assert rozbalenyZajezd.is_displayed() == True
 
 
 
