@@ -9,7 +9,7 @@ from generalized_test_functions import generalized_map_test_click_through_circle
 
 hotelyKartyXpath = "//*[@class='f_searchResult-content f_searchResult-content--grid']"
 cenaZajezduXpath = "//*[@class='leading-tight text-xl']"
-sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejlevnějšího')]"
+sorterCheapXpath = "//*[@class='f_tabBar-item f_set--active']"
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
 
@@ -34,9 +34,8 @@ class Test_SRL_C_Zima(unittest.TestCase):
         cenaZajezduAllList = []  ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
         time.sleep(3)
-        sorter_Element = self.driver.find_element_by_xpath(sorterCheapXpath)
-        wait.until(EC.visibility_of(sorter_Element))
-        sorter_Element.click()
+        element = self.driver.find_element_by_xpath("//*[@class='f_tabBar-item f_set--active']")
+        self.driver.execute_script("arguments[0].click();", element)
         time.sleep(6)
         hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
@@ -87,20 +86,18 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
         time.sleep(2)
         acceptConsent(self.driver)
-        time.sleep(1.5)
+        time.sleep(5)
 
         typeOfSort = "expensive"
 
         cenaZajezduAllList = []  ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
-        time.sleep(3)
-        sorter_Element = self.driver.find_element_by_xpath(sorterExpensiveXpath)
-        wait.until(EC.visibility_of(sorter_Element))
-        sorter_Element.click()
+        element = self.driver.find_element_by_xpath("//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]")
+        self.driver.execute_script("arguments[0].click();", element)
         time.sleep(6)
         hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
-        # time.sleep(4)
+        time.sleep(4)
         list_web_elements_Position = 0
         cenaZajezduAll = self.driver.find_elements_by_xpath(cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
@@ -144,17 +141,16 @@ class Test_SRL_C_Zima(unittest.TestCase):
         driver = self.driver
         driver.maximize_window()
         driver.get(URL_SRL_zima)
-        time.sleep(2)
+        time.sleep(3)
         acceptConsent(driver)
-        time.sleep(2)
+        time.sleep(3)
         generalDriverWaitImplicit(self.driver)
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        #zobrazitNaMape.click()
         generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
-        time.sleep(2.5)
+        time.sleep(5)
 
         generalized_map_test_click_on_pin_and_hotel_bubble(driver)
-        time.sleep(3)
+        time.sleep(5)
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
         currentUrl = self.driver.current_url

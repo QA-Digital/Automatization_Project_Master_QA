@@ -6,7 +6,7 @@ from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmai
 import time
 import unittest
 
-HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
+HPnextArrowXpath = "//*[@class='slick-list draggable']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
 class TestLM_D(unittest.TestCase):

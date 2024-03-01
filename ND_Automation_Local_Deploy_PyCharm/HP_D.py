@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 HPbanneryXpath = "//*[@class='f_teaser-item']"
-HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
+HPnextArrowXpath = "//*[@class='slick-list draggable']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
 class TestHP_D(unittest.TestCase):
