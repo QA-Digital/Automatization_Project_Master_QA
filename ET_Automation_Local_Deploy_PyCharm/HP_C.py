@@ -18,16 +18,48 @@ banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 HPvyhledatZajezdyButtonXpath = "//a[@class='f_button f_button--forFilter']"
 HPkamPojedeteButtonXpath = "//div[normalize-space()='Kam se chystáte?']"
 HPzlutakEgyptDestinaceXpath = "(//span[@class='!flex gap-2 items-center'])[26]"
+HPzlutakReckoDestinaceXpath = "(//span[@class='font-bold'])[10]"
 HPzlutakPokracovatButtonXpath = "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
+HPzlutakObsazenostParXpath = "//div[normalize-space()='Pár']"
 HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdit a vyhledat')]"
 HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
+HPzlutakLetniPrazdninyXpath = "//span[contains(text(),'First minute - Léto 2024')]"
+poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
+mestaVikendyVeFiltruSwitchXpath = "//span[contains(text(),'Města/Víkendy')]"
+lyzeVeFiltruSwitchXpath = "//span[contains(text(),'Lyžování')]"
+plavbyVeFiltruSwitchXpath = "//span[normalize-space()='Plavby']"
+
+
+def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatBtn2, termin, pokracovatBtn3, obsazenost,
+                     potvrditAvyhledat, generalTimeSleep=1.5, skipObsazenostSetting=False):
+    wait = WebDriverWait(driver, 300)
+    time.sleep(generalTimeSleep)
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedete))).click()
+
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(destinace))).click()
+
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn1))).click()
+    time.sleep(generalTimeSleep)
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn2))).click()
+
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(termin))).click()
+    time.sleep(generalTimeSleep)
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn3))).click()
+
+    if skipObsazenostSetting == False:
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(obsazenost))).click()
+
+
+    time.sleep(generalTimeSleep)
+    wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledat))).click()
+    time.sleep(4)
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):
@@ -142,3 +174,82 @@ class Test_HP_C(unittest.TestCase):
             sendEmail(msg)
         assert oblibeneDestinace.is_displayed() == True
 
+    def test_HP_zlutak_to_SRL_poznavacky(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(3)
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+
+        destinaceReckoXpath = "(//span[@class='font-bold'])[10]"
+
+        self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceReckoXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenostParXpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+        SRL_D(self, self.driver)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_MestaVikendy(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(3)
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+
+        destinaceFrancieXpath = "(//label)[21]"
+
+        self.driver.find_element_by_xpath(mestaVikendyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceFrancieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenostParXpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+        SRL_D(self, self.driver)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_lyze(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(0.3)
+
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+
+        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2024')]"
+        destinaceItalieXpath = "(//label)[18]"
+        time.sleep(3)
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+        SRL_D(self, self.driver)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_plavby(self):
+        self.driver.get(URL)
+        self.driver.maximize_window()
+        time.sleep(3)
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+
+        destinaceItalieXpath = "(//label)[4]"
+
+        self.driver.find_element_by_xpath(plavbyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+
+        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenostParXpath,
+                         HPzlutakPotvrditAvyhledatXpath)
+        SRL_D(self, self.driver)
+        self.test_passed = True
