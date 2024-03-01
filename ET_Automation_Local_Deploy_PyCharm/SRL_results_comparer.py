@@ -1,44 +1,44 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ND_Automation_Local_Deploy_PyCharm.to_import import URL, closeExponeaBanner, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from ET_Automation_Local_Deploy_PyCharm.to_import import URL, closeExponeaBanner, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 
-URL_public_prod = "https://new.nev-dama.cz/"
-URL_SRL_ND1 = "/zima/vysledky-vyhledavani?ac1=2&d=86544|213248|86560|213249|213250|213251|213253|213252|213247|213255|86549|86550|86551|198035|213258|86547|86552|86553|213266|86557|86558|217571|86546|213254&dd=2023-12-20&nn=6|7|8&rd=2024-02-19&tt=3"
+URL_public_prod = "https://www.etravel.cz/"
+URL_SRL_ET1 = "/vysledky-vyhledavani?ac1=2&d=64419|64420|64425|64422|64423&dd=2024-06-01&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND2 = "/zima/vysledky-vyhledavani?ac1=2&d=86544|213248|86560|213249|213250|213251|213253|213252|213247|213255|86549|86550|86551|198035|213258|86547|86552|86553|213266|86557|86558|217571|86546|213254&dd=2024-03-01&nn=4|5|6|7&rd=2024-04-30&tt=3"
+URL_SRL_ET2 = "/vysledky-vyhledavani?ac1=2&d=64419|64420|64425|64422|64423&dd=2024-10-01&nn=7|8|9|10|11|12|13|14&rd=2024-11-30&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND3 = "/zima/vysledky-vyhledavani?ac1=2&d=86544|213248|86560|213249|213250|213251|213253|213252|213247|213255|86549|86550|86551|198035|213258|86547|86552|86553|213266|86557|86558|217571|86546|213254&dd=2024-03-01&ic1=1&ka1=5&kc1=1&nn=4|5|6|7&rd=2024-04-30&tt=3"
+URL_SRL_ET3 = "/vysledky-vyhledavani?ac1=2&d=64419|64420|64425|64422|64423&dd=2024-10-01&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-11-30&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND4 = "/zima/vysledky-vyhledavani?ac1=2&d=85305|85311|85336|85350|85372|85377|85324|85333|85367|85369|85374&dd=2024-03-01&ic1=1&ka1=5&kc1=1&nn=4|5|6|7&rd=2024-04-30&tt=3"
+URL_SRL_ET4 = "/vysledky-vyhledavani?ac1=2&d=63252|63447|63260|63448|63288|64154|64152|64153|64157&dd=2024-10-31&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13|14&rd=1970-01-01&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND5 = "/zima/vysledky-vyhledavani?ac1=2&d=85383|85385|85394|85407|85413|108815|85434|85436&dd=2024-03-01&ic1=1&ka1=5&kc1=1&nn=4|5|6|7&rd=2024-04-30&tt=3"
+URL_SRL_ET5 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=64087|64094|64089|64090|64091|64092|64095|64086|64096|64093&dd=2024-09-01&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND6 = "/zima/vysledky-vyhledavani?ac1=2&d=213243|213244|86483|213242|85199|85202&dd=2024-04-01&ic1=1&ka1=5&kc1=1&nn=4|5|6|7&rd=2024-05-31&tt=3"
+URL_SRL_ET6 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=63865|63862|63863|63866|63864&dd=2024-09-01&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND7 = "/zima/vysledky-vyhledavani?ac1=2&d=85272|85278|85294|85298|85301|85268|85226|85286&dd=2024-04-01&ic1=1&ka1=5&kc1=1&nn=4|5|6|7&rd=2024-05-31&tt=3"
+URL_SRL_ET7 = "/vysledky-vyhledavani?ac1=2&d=63865|63862|63863|63866|63864&dd=2024-09-01&ic1=1&ka1=8&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND8 = "/leto/vysledky-vyhledavani?ac1=2&d=217142|217071|217093|217098|217101|217136|217127|217085|217106|217110|217146|217112|217117|217074|217125|217528|217525|217530|217134&dd=2024-06-01&ic1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET8 = "/vysledky-vyhledavani?ac1=2&d=63220|63281|63311|63314|63316|63319|63324|63333|63373|63390|63402|63408|63409|63442|63471|63219|63341|63428|63472&dd=2024-09-01&ic1=1&ka1=8&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND9 = "/leto/vysledky-vyhledavani?ac1=2&d=108939|108938|108941|109497|108940|108942&dd=2024-06-01&ic1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET9 = "/vysledky-vyhledavani?ac1=2&d=63232|63247|63249|63250|63251|63280|63289|63528|63325|63326|77802|63527|63345|63361|63381|63526|63401|63450|77804|63461|63470&dd=2024-09-01&ic1=1&ka1=8&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND10 = "/leto/vysledky-vyhledavani?ac1=2&d=109011&dd=2024-06-01&ic1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET10 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=63720|63719|63716&dd=2024-09-01&ic1=1&ka1=8&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND11 = "/leto/vysledky-vyhledavani?ac1=2&d=217207|217192|217211|217200|217230|217220|217222|217213|217216&dd=2024-06-01&ic1=1&ka1=5&kc1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET11 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=63720|63719|63716&dd=2024-09-01&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND12 = "/leto/vysledky-vyhledavani?ac1=2&d=108905|108908|108911|217152&dd=2024-06-01&ic1=1&ka1=5&kc1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET12 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=63213|63226|63241|63267|74459|74460|63284|74464|63350|63354|63360|74465|63216|63242|63244|74462|63313|74461|74463|63349|63455&dd=2024-09-01&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND13 = "/leto/vysledky-vyhledavani?ac1=2&d=108914|108916|108918|217161|108915|108917|217189&dd=2024-06-01&ic1=1&ka1=5&kc1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET13 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=63972|63973|63974|63975|63976|63977|63978|63979|63980|63981|63982|63983|63984|63985|63986|63987|63988|64037&dd=2024-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13|14&rd=2024-12-31&sc=residential&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND14 = "/leto/vysledky-vyhledavani?ac1=2&d=217238|217317|217314&dd=2024-06-01&ic1=1&ka1=5&kc1=1&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET14 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=64077&dd=2024-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13|14&rd=2024-12-31&sc=residential&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRL_ND15 = "/leto/vysledky-vyhledavani?ac1=2&d=217238|217317|217314&dd=2024-06-01&nn=6|7|8&rd=2024-07-31&tt=0"
+URL_SRL_ET15 = "/vysledky-vyhledavani?ac1=2&ac2=2&d=64075|64076|64447&dd=2024-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13|14&rd=2024-12-31&sc=residential&to=4312|4305|2682|4308|4309&tt=1"
 
-URL_SRLs_list_ND = [URL_SRL_ND1, URL_SRL_ND2, URL_SRL_ND3, URL_SRL_ND4, URL_SRL_ND5, URL_SRL_ND6, URL_SRL_ND7, URL_SRL_ND8, URL_SRL_ND9, URL_SRL_ND10, URL_SRL_ND11, URL_SRL_ND12, URL_SRL_ND13, URL_SRL_ND14, URL_SRL_ND15]
+URL_SRLs_list_ET = [URL_SRL_ET1, URL_SRL_ET2, URL_SRL_ET3, URL_SRL_ET4, URL_SRL_ET5, URL_SRL_ET6, URL_SRL_ET7, URL_SRL_ET8, URL_SRL_ET9, URL_SRL_ET10, URL_SRL_ET11, URL_SRL_ET12, URL_SRL_ET13, URL_SRL_ET14, URL_SRL_ET15]
 
 class Test_SRL_C_comparer(unittest.TestCase):
     def setUp(self):
@@ -50,7 +50,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, URL, URL_public_prod, URL_SRLs_list_ND)
+        list_SRL_number_of_results(self.driver, URL, URL_public_prod, URL_SRLs_list_ET)
 
 
 

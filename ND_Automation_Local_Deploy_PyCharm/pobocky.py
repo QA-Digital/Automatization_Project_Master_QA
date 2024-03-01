@@ -6,7 +6,7 @@ from FW_Automation_Local_Deploy_PyCharm.pobocky import open_pobocka_box_to_detai
 
 brnoAnchorOblibeneVolbyXpath = "//span[contains(text(),'Brno')]"
 pobockaBoxXpath = "//div[@class='f_list f_list--branch']//div[1]//div[1]//div[1]//div[2]//div[1]//div[1]//div[1]"
-detailPobockyXpath = "(//span[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight'][contains(text(),'Detail pobočky')])[1]"
+detailPobockyXpath = "//a[@href='/pobocky/brno-centrum']//span[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight'][contains(text(),'Detail pobočky')]"
 objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWindow--show js-gtm-eventClick']"
 popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
 
@@ -21,10 +21,10 @@ class TestPobocky_C(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get(URL_pobocky)
 
-        time.sleep(6)
+        time.sleep(4)
         acceptConsent(self.driver)
 
-        time.sleep(2)
+        time.sleep(10)
         mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
 
         mapaDisplayed = mapa.is_displayed()
@@ -70,9 +70,9 @@ class TestPobocky_C(unittest.TestCase):
     def test_pobocky_C_click_to_detail_popup_check(self):
         self.driver.maximize_window()
         self.driver.get(URL_pobocky)
-        time.sleep(3.5)
+        time.sleep(4)
         acceptConsent(self.driver)
-        time.sleep(3.5)
+        time.sleep(10)
 
         AnchorOblibeneVolbyElement = self.driver.find_element_by_xpath(brnoAnchorOblibeneVolbyXpath)
         AnchorOblibeneVolbyElement.click()
@@ -82,9 +82,8 @@ class TestPobocky_C(unittest.TestCase):
         pobockaBoxElement = self.driver.find_element_by_xpath(pobockaBoxXpath)
         pobockaBoxElement.click()
 
-        detailPobockyElement = self.driver.find_element_by_xpath(detailPobockyXpath)
-        self.driver.execute_script("arguments[0].scrollIntoView();", detailPobockyElement)
-        detailPobockyElement.click()
+        element = self.driver.find_element_by_xpath("//a[@href='/pobocky/brno-centrum']//span[@class='f_button-text f_icon f_icon_set--right f_icon--chevronRight'][contains(text(),'Detail pobočky')]")
+        self.driver.execute_script("arguments[0].click();", element)
 
 
         self.test_passed = True

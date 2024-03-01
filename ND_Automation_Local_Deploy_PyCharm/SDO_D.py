@@ -2,6 +2,8 @@ from selenium.common.exceptions import NoSuchElementException
 from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_stat_zima, URL_stat_leto, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
+from selenium.webdriver.common.action_chains import ActionChains
+
 
 class TestSDO_D(unittest.TestCase):
     def setUp(self):
@@ -14,15 +16,16 @@ class TestSDO_D(unittest.TestCase):
         driver = self.driver
         self.driver.get(URL_stat_zima)
         self.driver.maximize_window()
-        time.sleep(2.5)
+        time.sleep(5)
         acceptConsent(self.driver)
         time.sleep(5)
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-[500px] md:max-w-full mx-auto gap-4']")
-            #self.driver.execute_script("arguments[0].scrollIntoView();", oblastiAll)
-            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-[500px] md:max-w-full mx-auto gap-4']")
+            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            element = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
             if oblastiSingle.is_displayed():
                 for WebElement in oblastiAll:
                     jdouvidet = WebElement.is_displayed()
@@ -42,10 +45,13 @@ class TestSDO_D(unittest.TestCase):
         assert oblastiAll[0].is_displayed() == True
         print("Oblasti se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols-1 gap-4 md:grid-cols-2']")
-            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols-1 gap-4 md:grid-cols-2']")
+            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
+            element = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
             if strediskaSingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -64,10 +70,13 @@ class TestSDO_D(unittest.TestCase):
         assert strediskaAll[0].is_displayed() == True
         print("Strediska se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 min-w-[320px] max-w-[500px] md:max-w-full mx-auto gap-4']")
-            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 min-w-[320px] max-w-[500px] md:max-w-full mx-auto gap-4']")
+            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            element = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             if oblHotelySingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -86,10 +95,13 @@ class TestSDO_D(unittest.TestCase):
         assert oblHotelyAll[0].is_displayed() == True
         print("Oblibene hotely se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide__track splide__track--loop splide__track--ltr splide__track--draggable']")
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide__track splide__track--loop splide__track--ltr splide__track--draggable']")
+            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            element = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()
@@ -118,9 +130,10 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-[500px] md:max-w-full mx-auto gap-4']")
-            #self.driver.execute_script("arguments[0].scrollIntoView();", oblastiAll)
-            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 max-w-[500px] md:max-w-full mx-auto gap-4']")
+            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            element = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
             if oblastiSingle.is_displayed():
                 for WebElement in oblastiAll:
                     jdouvidet = WebElement.is_displayed()
@@ -140,10 +153,13 @@ class TestSDO_D(unittest.TestCase):
         assert oblastiAll[0].is_displayed() == True
         print("Oblasti se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3']")
-            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3']")
+            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='border border-neutral-200']")
+            element = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200']")
             if strediskaSingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -162,10 +178,13 @@ class TestSDO_D(unittest.TestCase):
         assert strediskaAll[0].is_displayed() == True
         print("Strediska se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 min-w-[320px] max-w-[500px] md:max-w-full mx-auto gap-4']")
-            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='grid grid-cols md:grid-cols-2 lg:grid-cols-3 min-w-[320px] max-w-[500px] md:max-w-full mx-auto gap-4']")
+            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            element = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             if oblHotelySingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -184,10 +203,13 @@ class TestSDO_D(unittest.TestCase):
         assert oblHotelyAll[0].is_displayed() == True
         print("Oblibene hotely se zobrazuji")
 
+        time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide__track splide__track--loop splide__track--ltr splide__track--draggable']")
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide__track splide__track--loop splide__track--ltr splide__track--draggable']")
+            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            element = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            self.driver.execute_script("arguments[0].scrollIntoView();", element)
+            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()

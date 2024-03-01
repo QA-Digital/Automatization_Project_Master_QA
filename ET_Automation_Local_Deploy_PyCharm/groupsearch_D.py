@@ -67,7 +67,7 @@ class Test_Groupsearch_D(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def test_groupsearch(self):
+    def test_groupsearch_D(self):
         driver = self.driver
         self.driver.maximize_window()
         self.driver.get(URL_groupsearch)

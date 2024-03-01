@@ -32,7 +32,6 @@ def groupSearch_D(self, driver):
                 ##emailfunciton
 
 
-
     except NoSuchElementException:
         pass
         ##print("no such")
@@ -64,8 +63,6 @@ def groupSearch_D(self, driver):
     assert srlItems[0].is_displayed() == True
 
 
-
-
 class Test_Groupsearch_D(unittest.TestCase):
     def setUp(self):
         setUp(self)
@@ -77,9 +74,9 @@ class Test_Groupsearch_D(unittest.TestCase):
         driver = self.driver
         self.driver.maximize_window()
         self.driver.get(URL_groupsearch_zima)
-        time.sleep(2.5)
+        time.sleep(10)
         acceptConsent(self.driver)
-        time.sleep(2.5)
+        time.sleep(13)
         self.driver.find_element_by_xpath('//span[@class="f_button-text"]').click()
 
         groupSearch_D(self, driver)
@@ -89,9 +86,9 @@ class Test_Groupsearch_D(unittest.TestCase):
         driver = self.driver
         self.driver.maximize_window()
         self.driver.get(URL_groupsearch_leto)
-        time.sleep(5)
-        acceptConsent(self.driver)
         time.sleep(10)
+        acceptConsent(self.driver)
+        time.sleep(13)
         self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
 
         groupSearch_D(self, driver)
