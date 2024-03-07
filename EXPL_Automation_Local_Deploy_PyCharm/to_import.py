@@ -36,7 +36,7 @@ def setUp(self):
 
 
 #URL = "https://www.exim.pl/"
-URL = "https://eximpl.web11.dtweb.cz/"
+URL = "https://eximpl.stg.dtweb.cz/"
 #URL = "http://eximpl.web11.dtweb.cz/"
 URL_pobocky = URL+"punkty-sprzedazy"
 URL_detail = URL +"/kierunki/egipt/marsa-alam/marsa-alam/jaz-amara?AC1=2&D=64419|64420|64425&DD=2024-10-19&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1376500&HID=152967&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=MTIyMDMzNnw4NjgxMTgzNjF8NjI3ODIx&MNN=7&MT=5&NN=7&PID=386344&RD=2024-10-26&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=6|7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"

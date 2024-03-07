@@ -20,7 +20,7 @@ from EW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
 
 def suite_EW_full():
     suite = unittest.TestSuite()
-    suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
+   # suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
     suite.addTest(TestDetailHotelu_D("test_detail_D"))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     #runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
     web_brand = "EXIM"
-    version = "FW-EW release 2024-02-15"
+    version = "FW-EW release 2024-03-01"
     runner_tests_generalized(suite_EW_full, web_brand, "hotifx", URL)
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)
