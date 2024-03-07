@@ -46,7 +46,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
-HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'First minute - Léto 2024')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
@@ -101,7 +101,7 @@ class Test_HP_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            0.6)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()

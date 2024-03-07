@@ -67,7 +67,7 @@ HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-HPzlutakLetniPrazdninyXpath = "//span[contains(text(),'First minute - Léto 2024')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
