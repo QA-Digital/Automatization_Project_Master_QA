@@ -37,8 +37,8 @@ def setUp(self):
 
 
 #URL = "https://nev-dama.web12.dtweb.cz/"
-#URL = "https://nev-dama.stg.dtweb.cz"
-URL = "https://new.nev-dama.cz/"
+URL = "https://nev-dama.stg.dtweb.cz/"
+#URL = "https://new.nev-dama.cz/"
 URL_pobocky = URL +"/pobocky"
 URL_detail = URL + "zima/rakousko/korutany/nassfeld/apartmanovy-dum-pongratz?KEY=39634&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=11339&MT=-1&MMT=5|3|2|1|6&NN=7&DF=2024-03-01|2024-05-01&RD=2024-03-24&DD=2024-03-17&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=7&NNM=6|7|8&TT=3&TTM=3&PID=11339&DPR=NevDama&ILM=0&IFM=0"
 URL_faq = URL + "/faq"
