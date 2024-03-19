@@ -57,7 +57,7 @@ def suite_EW_full():
     suite.addTest(Test_HP_C('test_HP_top_nabidka_status'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
-  #  suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
    # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))

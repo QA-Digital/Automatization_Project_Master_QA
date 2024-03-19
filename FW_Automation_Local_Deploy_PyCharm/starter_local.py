@@ -59,7 +59,7 @@ def suite_FW_full():
    # suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_C')) ##zazitky uz nejsou na webu dele, vzdy testy padaji
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
-   # suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
     #suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))
