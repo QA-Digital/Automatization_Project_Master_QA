@@ -40,28 +40,28 @@ def SRL_D(self, driver):
     generalDriverWaitImplicit(self.driver)
     assert hotelySingle.is_displayed() == True
 
-    try:
-        self.driver.implicitly_wait(100)
-        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkaHoteluXpath)  ##
-        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkaHoteluXpath)
-        wait.until(EC.visibility_of(fotkaSingle))
-        ##print(fotkaSingle)
-        if fotkaSingle.is_displayed():
-            for WebElement in fotkyAll:
-                jdouvidet = WebElement.is_displayed()
-                print(jdouvidet)
-                assert jdouvidet == True
-                if jdouvidet == True:
-                    pass
-                else:
-                    url = self.driver.current_url
-                    msg = " Problem s fotkami hotelu v searchi " + url
-                    sendEmail(msg)
-
-    except NoSuchElementException:
-        url = self.driver.current_url
-        msg = " Problem s fotkami hotelu v searchi " + url
-        sendEmail(msg)
+    # try:
+    #     self.driver.implicitly_wait(100)
+    #     fotkyAll = self.driver.find_elements_by_xpath(SRLfotkaHoteluXpath)  ##
+    #     fotkaSingle = self.driver.find_element_by_xpath(SRLfotkaHoteluXpath)
+    #     wait.until(EC.visibility_of(fotkaSingle))
+    #     ##print(fotkaSingle)
+    #     if fotkaSingle.is_displayed():
+    #         for WebElement in fotkyAll:
+    #             jdouvidet = WebElement.is_displayed()
+    #             print(jdouvidet)
+    #             assert jdouvidet == True
+    #             if jdouvidet == True:
+    #                 pass
+    #             else:
+    #                 url = self.driver.current_url
+    #                 msg = " Problem s fotkami hotelu v searchi " + url
+    #                 sendEmail(msg)
+    #
+    # except NoSuchElementException:
+    #     url = self.driver.current_url
+    #     msg = " Problem s fotkami hotelu v searchi " + url
+    #     sendEmail(msg)
 
     try:
         self.driver.implicitly_wait(100)

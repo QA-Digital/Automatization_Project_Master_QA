@@ -38,6 +38,7 @@ def setUp(self):
   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+  # https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 
 

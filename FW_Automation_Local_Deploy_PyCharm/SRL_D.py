@@ -5,7 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import time
 SRLhotelyKartyXpath= "//*[@class='f_searchResult-content-item relative']"
-SRLfotkyKartyXpath = "//*[@class='f_searchResult-content'and not(@style='display: none;')]//*[@class='f_tileGallery']"
+#SRLfotkyKartyXpath = "//*[@class='f_searchResult-content'and not(@style='display: none;')]//*[@class='f_tileGallery']"
+SRLfotkyKartyXpath ="//swiper-slide[@aria-label='1 / 24']"
 SRLcenaKartyXpath = "//*[@class='f_price']"
 
 
@@ -37,33 +38,33 @@ def SRL_D(self, driver):
 
     assert hotelySingle.is_displayed() == True
 
+    # try:
+    #     self.driver.implicitly_wait(15)
+    #     fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKartyXpath)  ##
+    #     fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKartyXpath)
+    #     wait.until(EC.visibility_of(fotkaSingle))
+    #     ##print(fotkaSingle)
+    #     if fotkaSingle.is_displayed():
+    #         for WebElement in fotkyAll:
+    #             jdouvidet = WebElement.is_displayed()
+    #             print(jdouvidet)
+    #             assert jdouvidet == True
+    #             if jdouvidet == True:
+    #                 pass
+    #             else:
+    #                 url = self.driver.current_url
+    #                 msg = " Problem s fotkami hotelu v searchi " + url
+    #                 sendEmail(msg)
+    #
+    # except NoSuchElementException:
+    #     url = self.driver.current_url
+    #     msg = " Problem s fotkami hotelu v searchi " + url
+    #     sendEmail(msg)
+
+
+
     try:
-        self.driver.implicitly_wait(15)
-        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKartyXpath)  ##
-        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKartyXpath)
-        wait.until(EC.visibility_of(fotkaSingle))
-        ##print(fotkaSingle)
-        if fotkaSingle.is_displayed():
-            for WebElement in fotkyAll:
-                jdouvidet = WebElement.is_displayed()
-                print(jdouvidet)
-                assert jdouvidet == True
-                if jdouvidet == True:
-                    pass
-                else:
-                    url = self.driver.current_url
-                    msg = " Problem s fotkami hotelu v searchi " + url
-                    sendEmail(msg)
-
-    except NoSuchElementException:
-        url = self.driver.current_url
-        msg = " Problem s fotkami hotelu v searchi " + url
-        sendEmail(msg)
-
-
-
-    try:
-        self.driver.implicitly_wait(100)
+        self.driver.implicitly_wait(10)
         cenaAll = self.driver.find_elements_by_xpath(SRLcenaKartyXpath)  ##
         cenaSingle = self.driver.find_element_by_xpath(SRLcenaKartyXpath)
         wait.until(EC.visibility_of(cenaSingle))
