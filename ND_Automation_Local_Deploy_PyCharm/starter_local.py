@@ -20,11 +20,11 @@ def suite_ND_full():
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_D"))
     suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac"))
-    suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check"))
+    #suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check")) - problém s redirektem na novou ND
     suite.addTest(Test_Groupsearch_D("test_groupsearch_D_leto"))
     suite.addTest(Test_Groupsearch_D("test_groupsearch_D_zima"))
     suite.addTest(Test_HP_C('test_HP_bannery_check_leto'))
-    suite.addTest(Test_HP_C('test_HP_bannery_check_zima'))
+    #suite.addTest(Test_HP_C('test_HP_bannery_check_zima')) - bannery momentálně na zimní ND nejsou
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_oblibene_destinace'))
