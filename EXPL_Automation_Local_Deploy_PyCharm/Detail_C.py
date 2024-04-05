@@ -23,7 +23,7 @@ stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 dopravaWarszawaXpath = "(//input[@value='3850'])[2]"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
-celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
+celkoveCenaVterminechXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
 
 
 class TestDetailHotelu_C(unittest.TestCase):
@@ -49,7 +49,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
-        celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
+        celkovaCenaSorterXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
         celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
@@ -179,8 +179,9 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get(URL_detail)
 
-        time.sleep(1)
+        time.sleep(3)
         acceptConsent(self.driver)
+        time.sleep(3)
         generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,
                                                                         dopravaBoxXpath, dopravaWarszawaXpath, True)
         time.sleep(4)

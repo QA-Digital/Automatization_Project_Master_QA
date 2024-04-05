@@ -16,7 +16,7 @@ URL_deploying_web = URL
 URL_prod_public = "https://www.exim.pl/"
 banneryXpath_EWPL = "//*[@class='f_teaser-item']/a"
 
-HPvyhledatZajezdyButtonXpath = "(//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Szukaj'])[1]"
+HPvyhledatZajezdyButtonXpath = "//a[@class='f_button f_button--forFilter']"
 HPkamPojedeteButtonXpath = "//div[contains(text(),'Kierunek')]"
 HPzlutakTurcjaDestinaceXpath= "//body[1]/header[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[4]/div[1]/span[1]/label[1]/span[1]"
 HPzlutakPokracovatButtonXpath = "(//span[contains(text(),'Kontynuuj')])[1]"
@@ -28,11 +28,11 @@ HPzlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Rodzina 2+1')]"
 HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potwierdź i wyszukaj')]"
 HPnejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
-HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
+HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-current slick-active']"
 
-VyletyPoznan = "(//span[@class='f_button f_button--important'])[1]"
-VyletyLublin = "(//span[@class='f_button f_button--important'])[2]"
-VyletyGdansk = "(//span[@class='f_button f_button--important'])[3]"
+VyletyPoznan = "(//div[@class='grd-col grd-col--4 grd-col--md-6 grd-col--sm-12'])[1]"
+VyletyGdansk = "(//div[@class='grd-col grd-col--4 grd-col--md-6 grd-col--sm-12'])[2]"
+VyletyWroclaw = "(//div[@class='grd-col grd-col--4 grd-col--md-6 grd-col--sm-12'])[3]"
 
 banneryXpath = "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']"
 vyhledatZajezdyButtonXpath = "(//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Szukaj'])[1]"
@@ -60,7 +60,7 @@ class Test_HP_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(5)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
@@ -72,12 +72,11 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_zlutak_to_SRL_pobyt(self):
 
-
         self.driver.maximize_window()
         self.driver.get(URL)
         HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
         time.sleep(8.5)
@@ -91,14 +90,14 @@ class Test_HP_C(unittest.TestCase):
         SRL_D(self, self.driver)
         self.test_passed = True
 
-    def test_HP_slider_click_detail_hotelu(self):
+    def test_HP_slider_NasiKlienci(self):
         self.driver.maximize_window()
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
-
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
+        time.sleep(3)
 
         self.driver.implicitly_wait(100)
 
@@ -136,28 +135,6 @@ class Test_HP_C(unittest.TestCase):
 
         self.test_passed = True
 
-    def test_HP_nabidka_Podroze_marzen(self):
-        self.driver.maximize_window()
-        self.driver.get(URL)
-
-        time.sleep(2.5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
-        acceptConsent(self.driver)
-        time.sleep(1)
-
-        Offer1 = self.driver.find_elements_by_xpath("(//a)[59]")[0].get_attribute('href')
-        Offer2 = self.driver.find_elements_by_xpath("(//a)[60]")
-        Offer3 = self.driver.find_elements_by_xpath("(//a)[61]")
-        Offer4 = self.driver.find_elements_by_xpath("(//a)[62]")
-
-        HPtopNabidkaElements = [Offer1, Offer2, Offer3, Offer4]
-        print(HPtopNabidkaElements)
-        time.sleep(4)
-        linksToCheck_List = []
-        for _ in HPtopNabidkaElements:
-           odkazLink = HPtopNabidkaElements
-           linksToCheck_List.append(odkazLink)
-           print(odkazLink)
-
     def test_HP_vyletyPoznan(self):
         self.driver.maximize_window()
         self.driver.get(URL)
@@ -192,23 +169,23 @@ class Test_HP_C(unittest.TestCase):
 
         assert destinationPoznan.is_displayed() == True
 
-    def test_HP_vyletyLublin(self):
+    def test_HP_vyletyWroclaw(self):
         self.driver.maximize_window()
         self.driver.get(URL)
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        VyletyLublinElement = self.driver.find_element_by_xpath(VyletyLublin)
-        self.driver.execute_script("arguments[0].scrollIntoView();", VyletyLublinElement)
+        VyletyWroclawElement = self.driver.find_element_by_xpath(VyletyWroclaw)
+        self.driver.execute_script("arguments[0].scrollIntoView();", VyletyWroclawElement)
         time.sleep(5)
-        VyletyLublinElement.click()
+        VyletyWroclawElement.click()
 
         try:
-            destinationLublin = self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")
-            destinationLublinAll = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
-            if destinationLublin.is_displayed():
-                for WebElement in destinationLublinAll:
+            destinationWroclaw= self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")
+            destinationWroclawAll = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+            if destinationWroclaw.is_displayed():
+                for WebElement in destinationWroclawAll:
                     jdouvidet = WebElement.is_displayed()
                     assert jdouvidet == True
 
@@ -224,7 +201,7 @@ class Test_HP_C(unittest.TestCase):
             msg = "Problem, destinace se nezobrazuji " + url
             sendEmail(msg)
 
-        assert destinationLublin.is_displayed() == True
+        assert destinationWroclaw.is_displayed() == True
 
     def test_HP_vyletyGdansk(self):
         self.driver.maximize_window()

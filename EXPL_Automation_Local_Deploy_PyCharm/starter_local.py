@@ -20,8 +20,8 @@ def suite_EXPL_full():
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport"))
-    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap"))
-    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive"))
+    #suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap")) #nefunguje a možná ani nebude, info od Vojty
+    #suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive")) #nefunguje a možná ani nebude, info od Vojty
 
     suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac"))
     suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check"))
@@ -35,9 +35,10 @@ def suite_EXPL_full():
     suite.addTest(TestPobocky_C('test_pobocky_D'))
 
     suite.addTest(TestSDO_D('test_SDO_D'))
+    suite.addTest(TestSDO_D('test_SDO_NejHotely'))
 
-    suite.addTest(Test_SRL_C('test_SRL_sort_cheapest'))
-    suite.addTest(Test_SRL_C('test_SRL_sort_expensive'))
+    #suite.addTest(Test_SRL_C('test_SRL_sort_cheapest')) #nefunguje a možná ani nebude, info od Vojty
+    #suite.addTest(Test_SRL_C('test_SRL_sort_expensive')) #nefunguje a možná ani nebude, info od Vojty
     suite.addTest(Test_SRL_C('test_SRL_map'))
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
     suite.addTest(Test_SRL_C('test_srl_C'))
@@ -46,12 +47,10 @@ def suite_EXPL_full():
 
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
-   # suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))  ###
-    suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))  ###
+    suite.addTest(Test_HP_C('test_HP_slider_NasiKlienci'))  ###
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
-   # suite.addTest(Test_HP_C('test_HP_nabidka_Podroze_marzen'))
     suite.addTest(Test_HP_C('test_HP_vyletyPoznan'))
-    suite.addTest(Test_HP_C('test_HP_vyletyLublin'))
+    suite.addTest(Test_HP_C('test_HP_vyletyWroclaw'))
     suite.addTest(Test_HP_C('test_HP_vyletyGdansk'))
     suite.addTest(Test_HP_C('test_letoDestination_D'))
     suite.addTest(Test_HP_C('test_zimaDestination_D'))
