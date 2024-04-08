@@ -7,7 +7,7 @@ import time
 
 SRLhotelyKartyXpath ="//*[@class='f_searchResult-content-item relative flex !mt-0']"
 SRLcenyHoteluXpath = "//*[@class='leading-tight text-xl']"
-SRLfotkaHoteluXpath = "//*[@class='f_tileGallery']"
+SRLfotkaHoteluXpath = "//*[@class='h-full swiper-slide-active']"
 
 def SRL_D(self, driver):
     wait = WebDriverWait(self.driver, 150)

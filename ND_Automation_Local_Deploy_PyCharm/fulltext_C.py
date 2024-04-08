@@ -35,7 +35,7 @@ class Test_Fulltext_C(unittest.TestCase):
             FTlupa.click()
             inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
-            time.sleep(2)
+            time.sleep(4)
             print(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem+1
 
@@ -47,7 +47,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")
                     hotelDlazdice.click()
                     currentUrl = self.driver.current_url
-                    time.sleep(0.5)
+                    time.sleep(2)
                     print("hote dlazdice klik")
                     assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
                     testOK_asserted = True
@@ -73,7 +73,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 except NoSuchElementException:
                     print("first no such ele except")
                     pass
-                time.sleep(0.5)
+                time.sleep(2)
                 currentUrl = self.driver.current_url
                 assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
             else:

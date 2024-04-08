@@ -71,7 +71,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(5)
         imageDetail = self.driver.find_element_by_xpath(
-            "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+            "//swiper-slide[@aria-label='1 / 16']//img")
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)

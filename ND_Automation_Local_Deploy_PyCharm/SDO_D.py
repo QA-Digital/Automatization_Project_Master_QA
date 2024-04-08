@@ -70,7 +70,7 @@ class TestSDO_D(unittest.TestCase):
         assert strediskaAll[0].is_displayed() == True
         print("Strediska se zobrazuji")
 
-        time.sleep(5)
+        time.sleep(10)
         try:
             generalDriverWaitImplicit(self.driver)
             oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
@@ -98,10 +98,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
-            element = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='flex grow']")
+            element = self.driver.find_element_by_xpath("//*[@class='flex grow']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            fotkySingle = self.driver.find_element_by_xpath("//*[@class='flex grow']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()
@@ -206,10 +206,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
-            element = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='flex grow']")
+            element = self.driver.find_element_by_xpath("//*[@class='flex grow']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='splide is-overflow splide--grid splide--loop splide--ltr splide--draggable is-active is-initialized']")
+            fotkySingle = self.driver.find_element_by_xpath("//*[@class='flex grow']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()

@@ -19,6 +19,7 @@ banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 HPvyhledatZajezdyButtonXpath = "//div[@class='f_filterMainSearch-content']//div[6]"
 HPkamPojedeteButtonXpath = "//div[normalize-space()='Destinace']"
 HPzlutakRakouskoDestinaceXpath = "(//span[@class='!flex gap-2 items-center'])[71]"
+HPzlutakChorvatskoDestinaceXpath = "(//span)[94]"
 HPzlutakPokracovatButtonXpath = "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
 HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
 HPzlutakStravovaniPokracovat = "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']"
@@ -59,7 +60,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(8)
         self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakRakouskoDestinaceXpath).click()
+        self.driver.find_element_by_xpath(HPzlutakChorvatskoDestinaceXpath).click()
         time.sleep(0.5)
         self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath).click()
         time.sleep(5)
