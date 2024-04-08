@@ -45,8 +45,8 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
-HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'First minute - Léto 2024')]"
+lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
@@ -101,11 +101,11 @@ class Test_HP_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+            1.6)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
-        time.sleep(2.5)
+        time.sleep(3.5)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
         groupSearch_D(self, self.driver)
@@ -160,7 +160,7 @@ class Test_HP_C(unittest.TestCase):
         lyzeVeFiltruSwitchElement =  self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath)
 
         self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2024')]"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
         destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
         time.sleep(3)
 

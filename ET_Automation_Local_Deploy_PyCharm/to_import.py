@@ -35,7 +35,7 @@ def setUp(self):
   self.test_passed = False
 
 
-URL = "https://etravel.web1.dtweb.cz/"
+URL = "https://etravel.web3.dtweb.cz/"
 #URL = "https://etravel.stg.dtweb.cz/"
 #URL = "https://www.etravel.cz/"
 URL_pobocky = URL +"/kontakty/nase-pobocky"

@@ -154,6 +154,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
         linkActualUrl = URL_default + URL_parameters_list[listPosition]
         time.sleep(3)
         driver.get(linkActualUrl)
+        time.sleep(3)
         SRL_H1textPocetNalezenychZajezduXpath = "//h1"
 
         pocetNalezenychZajezduElement = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()

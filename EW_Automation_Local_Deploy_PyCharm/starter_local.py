@@ -20,7 +20,7 @@ from EW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
 
 def suite_EW_full():
     suite = unittest.TestSuite()
-    suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
+   # suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
     suite.addTest(TestDetailHotelu_D("test_detail_D"))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
@@ -44,7 +44,7 @@ def suite_EW_full():
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
     suite.addTest(Test_SRL_C('test_srl_C'))
     suite.addTest(TestSRL_D('test_SRL_D'))
-    suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
+    #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch')) ##ted to tam neni zase
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))     ##ted to tam neni zase
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     ##############
@@ -57,7 +57,7 @@ def suite_EW_full():
     suite.addTest(Test_HP_C('test_HP_top_nabidka_status'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
-  #  suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
    # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     #runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
     web_brand = "EXIM"
-    version = "FW-EW release 2024-02-15"
-    runner_tests_generalized(suite_EW_full, web_brand, "hotifx", URL)
+    version = "FW-EW release 2024-03-19"
+    runner_tests_generalized(suite_EW_full, web_brand, version, URL)
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)

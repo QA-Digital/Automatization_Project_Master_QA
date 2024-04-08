@@ -32,12 +32,13 @@ def setUp(self):
 
 
 
-  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-  # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+  # https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 
 
@@ -60,11 +61,12 @@ def setUp(self):
 
 
 #URL = "https://www.fischer.cz/"
-#URL = "https://fischer.web1.dtweb.cz/"
+#URL = "https://fischer.stg.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
+URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
-URL = "http://fischer.web3.dtweb.cz/"
+#URL = "http://fischer.web1.dtweb.cz/"
+
 
 #URL = "https://fischer.stg.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"

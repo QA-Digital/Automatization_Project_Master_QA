@@ -37,10 +37,10 @@ def setUp(self):
 
 
 
-   self.driver = webdriver.Chrome(ChromeDriverManager().install())
+   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
-   # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-   # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 
 
@@ -55,8 +55,8 @@ def setUp(self):
 
    self.test_passed = False
 
-#URL = "https://www.eximtours.cz/"
-URL = "https://exim.web11.dtweb.cz/"
+URL = "https://www.eximtours.cz/"
+#URL = "https://exim.web11.dtweb.cz/"
 #URL = "http://exim.stg.dtweb.cz/"
 
 #URL = "https://exim.stg.dtweb.cz/"
