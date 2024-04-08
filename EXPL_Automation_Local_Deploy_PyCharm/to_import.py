@@ -39,7 +39,7 @@ def setUp(self):
 URL = "https://eximpl.stg.dtweb.cz/"
 #URL = "http://eximpl.web11.dtweb.cz/"
 URL_pobocky = URL+"punkty-sprzedazy"
-URL_detail = URL +"kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3d%3d&DS=1024&GIATA=77592&D=64419|64420|64425&HID=156229&MT=5&RT=0&NN=7&DF=2024-08-01|2024-09-30&RD=2024-09-05&DD=2024-08-29&ERM=0&DP=4382&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=391633&DPR=EXIM%20TOURS%20POLAND&ILM=0&IFM=0"
+URL_detail = URL + "/kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?D=64419|64420|64425&DD=2024-08-29&DP=4382&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=77592&HID=156229&IFM=0&ILM=0&KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3D%3D&MNN=7&MT=5&NN=7&PID=391633&RD=2024-09-05&RT=0&acm1=2&df=2024-07-01|2024-08-31&nnm=1|2|3|4|5|6|7|8|9|10&ptm=0&tt=1&ttm=1#/prehled"
 URL_leto = URL+"lato"
 URL_zima = URL+"zima"
 URL_faq = URL+"faq"

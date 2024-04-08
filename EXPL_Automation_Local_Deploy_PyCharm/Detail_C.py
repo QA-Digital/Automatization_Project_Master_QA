@@ -129,11 +129,13 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.driver.maximize_window()
         self.driver.get(URL_detail)
 
+        time.sleep(5)
         acceptConsent(self.driver)
 
-        time.sleep(5)
-        imageDetail = self.driver.find_element_by_xpath(
-            "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetailXpath = "//*[@class='f_tileGallery min-[901px]:overflow-hidden min-[901px]:rounded-[--rounding] box-border min-h-full h-full']//img"
+        # imageDetail = self.driver.find_element_by_xpath(
+        #     "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)
