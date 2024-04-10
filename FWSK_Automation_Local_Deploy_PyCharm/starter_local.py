@@ -62,5 +62,5 @@ from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "FISCHER SK "
-    version = "FWSK-KTGSK release 2024-02-22"
+    version = "KTGSK- FWSK release 2024-04-15"
     runner_tests_generalized(suite_FWSK_full, web_brand, version, URL)

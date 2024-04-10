@@ -188,7 +188,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
         windowHandle = windowHandle + 1
         listPosition = listPosition + 1
 
-    starterPosition = 0
+    starterPosition =0
     print("len(pocet_vysledku_list_default)")
     print(len(pocet_vysledku_list_default))
 
@@ -196,7 +196,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 
     print("len(pocet_vysledku_list_dev))")
     print(len(pocet_vysledku_list_dev))
-
+    url_point = 2
     for _ in pocet_vysledku_list_default:
         if pocet_vysledku_list_default[starterPosition] == pocet_vysledku_list_dev[starterPosition]:
             #starterPosition=starterPosition+1
@@ -215,8 +215,11 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
             print("             ")
 
 
-        print(starterPosition)
+        print("URL číslo  " + str(url_point))
+        url_point = url_point + 1
+        #print(starterPosition)
         starterPosition = starterPosition + 1
+
 
     print(len(pocet_vysledku_list_default))
 
