@@ -109,7 +109,7 @@ if __name__ == '__main__':
     #runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")
     web_brand = "EXIM"
-    version = "FW-EW release 2024-03-19"
+    version = "FW-EW release 2024-04-10"
     runner_tests_generalized(suite_EW_full, web_brand, version, URL)
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)

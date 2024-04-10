@@ -132,7 +132,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
 
-        imageDetailXpath = "//*[@class='f_tileGallery min-[901px]:overflow-hidden min-[901px]:rounded-[--rounding] box-border min-h-full h-full']//img"
+        #imageDetailXpath = "//*[@class='f_tileGallery min-[901px]:overflow-hidden min-[901px]:rounded-[--rounding] box-border min-h-full h-full']//img"
+        imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/swiper-container/swiper-slide[1]/img"
         # imageDetail = self.driver.find_element_by_xpath(
         #     "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)

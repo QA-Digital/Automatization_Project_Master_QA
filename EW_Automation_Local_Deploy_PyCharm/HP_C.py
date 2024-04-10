@@ -168,6 +168,7 @@ class Test_HP_C(unittest.TestCase):
                          HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath)
+        time.sleep(10) #nevdama proste nez se nacte
         SRL_D(self, self.driver)
         self.test_passed = True
 
