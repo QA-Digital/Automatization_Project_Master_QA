@@ -106,8 +106,7 @@ class TestDetailHotelu_D(unittest.TestCase):
     def test_detail_D(self):
         self.driver.get(URL_detail)
         self.driver.maximize_window()
-        #time.sleep(5)
-        self.driver.maximize_window()
+        time.sleep(2.5)
         acceptConsent(self.driver)
         detail_D(self, self.driver)
 

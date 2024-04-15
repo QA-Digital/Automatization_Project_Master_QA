@@ -17,7 +17,7 @@ HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko'
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovať')]"
 #HPzlutakPokracovatButtonXpath ="/html/body/header/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
 HPzlutakPokracovatButtonXpathStep2 = "//*[@id='pageHeader']/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
-HPzlutakLetniPrazdninyXpath = "//*[@class='f_filter-item']//*[contains(text(), 'Leto 2024')]"
+HPzlutakLetniPrazdninyXpath = "//*[@class='f_filter-item']//*[contains(text(), 'September')]"
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
 HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdiť a vyhľadať')]"

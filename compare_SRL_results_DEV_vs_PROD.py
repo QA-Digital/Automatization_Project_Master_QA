@@ -215,7 +215,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
             print("             ")
 
 
-        print("URL číslo  " + str(url_point))
+        print("URL cislo  " + str(url_point))
         url_point = url_point + 1
         #print(starterPosition)
         starterPosition = starterPosition + 1

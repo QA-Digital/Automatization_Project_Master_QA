@@ -56,8 +56,10 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(10)
-        imageDetail = self.driver.find_element_by_xpath(
-            "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetailXpath = "/html/body/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div[2]/div[3]/swiper-container/swiper-slide[1]/img"
+        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+
+        #imageDetail = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)

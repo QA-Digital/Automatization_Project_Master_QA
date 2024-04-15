@@ -36,7 +36,7 @@ def setUp(self):
   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
 #URL = "https://www.fischer.sk/"
-URL = "https://fischersk.stg.dtweb.cz/"
+URL = "https://fischersk.web3.dtweb.cz/"
 URL_poznavacky = URL+"poznavacie-zajazdy/okruhy-a-kombinovane"
 URL_poznavacky_vikendy = URL+"poznavacie-zajazdy/predlzene-vikendy"
 URL_poznavacky_rodiny = URL+"poznavacie-zajazdy/pre-rodiny"
@@ -56,6 +56,8 @@ URL_kluby = URL+"dovolena-animacni-kluby"
 #URL_SRL = URL+"/vysledky-vyhledavani?d=664&tt=1&to=483&dd=2022-11-01&rd=2022-12-31&nn=7|8|9&pf=0&pt=900000&qf=108_1_0|109_1_0|386_1_0&ac1=2&ds=256"
 #URL_SRL = URL + "/vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&pf=0&pt=900000&qf=108_1_0|109_1_0|386_1_0&rd=2023-09-30&to=483|1837|2933|3437&tt=1"
 URL_SRL = URL + "/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1"
+#URL_SRL = URL + "/vysledky-vyhladavania?ac1=3&d=953|590|1009|1010|621|1086|680|622|1108|669|978|594|611|610|592|675|612|726|683|609&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4305|2682|4308|4312|483|1837|3437&tt=1"
+
 #URL_detail = URL + "/arabske-emiraty/arabske-emiraty/dubaj/riu-hotel-dubai?DS=256&GIATA=1226537&D=664&HID=128620&MT=5&NN=7&RD=2022-12-11&DD=2022-12-04&DP=483&TO=483&MNN=7&TT=1&PID=DXB10206&DPR=FISCHER%20ATCOM&TTM=1&DF=2022-12-04|2023-01-04&ERM=0&NNM=7|8|9&ac1=2&kc1=0&ic1=0#/prehled"
 #URL_detail = URL + "/egypt/egypt-hurghada/hurghada/amc-royal-hotel-a-spa?AC1=1&D=653|819|724&DD=2023-04-18&DP=483&DPR=FISCHER+ATCOM&DS=256&GIATA=228143&HID=139807&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90002&RD=2023-04-26&TO=483|1837|2933|3437&acm1=1&df=2023-04-01|2023-04-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/terminy-a-ceny"
 #URL_detail = URL + "/turecko/turecka-riviera/side-kumkoy/belek/tui-magic-life-belek?D=627|974|712|684|955|596&DD=2023-07-03&DP=1837&DPR=FISCHER+ATCOM&DS=256&GIATA=4717&HID=263&IFM=0&ILM=0&MNN=7&MT=5&NN=7&PID=AYT90031&RD=2023-07-10&TO=1837&df=2023-07-01|2023-08-31&nnm=7|8|9|10|11|12|13|14|15&tt=1&ttm=1#/prehľad"

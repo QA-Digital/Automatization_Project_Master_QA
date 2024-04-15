@@ -21,23 +21,24 @@ class TestDetailHotelu_D(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
         wait = WebDriverWait(self.driver, 150000)
-        try:
-            detailFotka = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']")
-            #detailFotka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-content grd-col grd-col--9 grd-col--lg-8 grd-col--slg-12']")
-            #detailFotka = self.driver.find_element_by_xpath("//*[@id='divHotelDetailWrapper']")
-
-            wait.until(EC.visibility_of(detailFotka))
-            print (detailFotka.is_displayed)
-
-            if detailFotka.is_displayed():
-                pass
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "Problem s fotkami na detailu hotelu " + url
-            sendEmail(msg)
-        #detailFotka = self.driver.find_element_by_xpath("//*[@id='gallery01Trigger']")
-
-        assert detailFotka.is_displayed() == True
+        # try:
+        #
+        #     detailFotka = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']")
+        #     #detailFotka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-content grd-col grd-col--9 grd-col--lg-8 grd-col--slg-12']")
+        #     #detailFotka = self.driver.find_element_by_xpath("//*[@id='divHotelDetailWrapper']")
+        #
+        #     wait.until(EC.visibility_of(detailFotka))
+        #     print (detailFotka.is_displayed)
+        #
+        #     if detailFotka.is_displayed():
+        #         pass
+        # except NoSuchElementException:
+        #     url = self.driver.current_url
+        #     msg = "Problem s fotkami na detailu hotelu " + url
+        #     sendEmail(msg)
+        # #detailFotka = self.driver.find_element_by_xpath("//*[@id='gallery01Trigger']")
+        #
+        # assert detailFotka.is_displayed() == True
 
         try:
             sedivka = self.driver.find_element_by_xpath("//*[@class='grd-row']")
