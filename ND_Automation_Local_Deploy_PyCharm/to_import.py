@@ -37,8 +37,8 @@ def setUp(self):
 
 
 
-#URL = "https://nev-dama.web12.dtweb.cz/"
-URL = "https://nev-dama.stg.dtweb.cz/"
+URL = "https://nev-dama.web13.dtweb.cz/"
+#URL = "https://nev-dama.stg.dtweb.cz/"
 #URL = "https://new.nev-dama.cz/"
 
 URL_pobocky = URL +"/pobocky"

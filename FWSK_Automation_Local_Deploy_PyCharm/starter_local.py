@@ -34,10 +34,10 @@ def suite_FWSK_full():
     suite.addTest(TestHP_D("test_homePage_D"))
     suite.addTest(TestLM_D("test_lM_isDisplayed"))
     suite.addTest(TestPobocky_D('test_pobocky_D'))
-    # suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_D'))
-    # suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_D'))
-    # suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_D'))
-    # suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D'))          ## v aktualni fazi nejsou poznavacky na SK takze jen failuji anyway 5.5.23
+    suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D'))          ## v aktualni fazi nejsou poznavacky na SK takze jen failuji anyway 5.5.23
     suite.addTest(TestSDO_D('test_SDO_D'))
     suite.addTest(Test_SRL_C('test_SRL_sort_cheapest'))
     suite.addTest(Test_SRL_C('test_SRL_sort_expensive'))
@@ -47,7 +47,7 @@ def suite_FWSK_full():
     suite.addTest(TestSRL_D('test_SRL_D'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch'))
-    # suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
+    #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))
     suite.addTest(Test_HP_C('test_HP_bannery_check'))
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
@@ -62,5 +62,5 @@ from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "FISCHER SK "
-    version = "KTGSK- FWSK release 2024-04-15"
+    version = "KTGSK- FWSK release 2024-04-24"
     runner_tests_generalized(suite_FWSK_full, web_brand, version, URL)
