@@ -214,7 +214,7 @@ class Test_HP_C(unittest.TestCase):
         SRL_D(self, self.driver)
         self.test_passed = True
 
-    def test_HP_zlutak_to_SRL_lyze(self):
+    def test_HP_zlutak_to_SRL_lyze(self): #- momentálně tento segment na webu není, odebran ze sady testů
         self.driver.get(URL)
         self.driver.maximize_window()
         time.sleep(0.3)
@@ -241,7 +241,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
 
-        destinaceItalieXpath = "(//label)[4]"
+        destinaceItalieXpath = "//span[@class='font-bold'][normalize-space()='Itálie']"
 
         self.driver.find_element_by_xpath(plavbyVeFiltruSwitchXpath).click()
 

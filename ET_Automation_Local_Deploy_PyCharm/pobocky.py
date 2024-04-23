@@ -72,12 +72,12 @@ class TestPobocky_C(unittest.TestCase):
         self.driver.get(URL_pobocky)
         time.sleep(3.5)
         acceptConsent(self.driver)
-        time.sleep(3.5)
+        time.sleep(5)
 
         AnchorOblibeneVolbyElement = self.driver.find_element_by_xpath(brnoAnchorOblibeneVolbyXpath)
         AnchorOblibeneVolbyElement.click()
 
-        time.sleep(2)
+        time.sleep(3)
 
         pobockaBoxElement = self.driver.find_element_by_xpath(pobockaBoxXpath)
         pobockaBoxElement.click()

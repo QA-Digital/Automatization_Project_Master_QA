@@ -33,7 +33,7 @@ def suite_ET_full():
     suite.addTest(Test_HP_C('test_HP_LM_vyhodneZaj'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_MestaVikendy'))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+    #suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze')) - na webu tento segment není
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_plavby'))
     suite.addTest(Test_HP_C('test_oblibene_destinace'))
     suite.addTest(TestHP_D("test_homePage_D"))
