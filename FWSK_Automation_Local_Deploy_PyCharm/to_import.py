@@ -35,8 +35,8 @@ def setUp(self):
   #chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
   #self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
-#URL = "https://www.fischer.sk/"
-URL = "https://fischersk.stg.dtweb.cz/"
+URL = "https://www.fischer.sk/"
+#URL = "https://fischersk.web1.dtweb.cz/"
 URL_poznavacky = URL+"poznavacie-zajazdy/okruhy-a-kombinovane"
 URL_poznavacky_vikendy = URL+"poznavacie-zajazdy/predlzene-vikendy"
 URL_poznavacky_rodiny = URL+"poznavacie-zajazdy/pre-rodiny"

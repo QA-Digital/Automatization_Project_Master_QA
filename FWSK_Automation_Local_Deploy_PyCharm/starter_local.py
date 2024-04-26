@@ -20,7 +20,7 @@ from FWSK_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
 
 def suite_FWSK_full():
     suite = unittest.TestSuite()
-    suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
+    #suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
     suite.addTest(TestDetailHotelu_D("test_detail_D"))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
@@ -47,6 +47,7 @@ def suite_FWSK_full():
     suite.addTest(TestSRL_D('test_SRL_D'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL'))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
     #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch'))
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))
     suite.addTest(Test_HP_C('test_HP_bannery_check'))

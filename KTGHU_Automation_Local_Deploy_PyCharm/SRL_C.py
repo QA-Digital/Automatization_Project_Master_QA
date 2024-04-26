@@ -83,7 +83,12 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
 
         wait = WebDriverWait(driver, 30)
-        stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All Inclusive')]"
+        rozbalitFiltrStravyXpath = "//*[contains(text(),'Kedvenc étel')]"
+        rozbalitFiltrStravy = self.driver.find_element_by_xpath(rozbalitFiltrStravyXpath)
+
+        rozbalitFiltrStravy.click()
+
+        stravaMenuXpath = "//div[@class='f_additionalFilter-item f_set--opened']//div//span[@class='f_input-content']"
         generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath)
 
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
