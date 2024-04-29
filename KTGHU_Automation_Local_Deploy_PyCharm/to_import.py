@@ -5,7 +5,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
-URL = "https://kartagohu.stg.dtweb.cz/"
+URL = "https://kartagohu.web1.dtweb.cz/"
 #URL = "https://www.kartagotours.hu/"
 URL_pobocky = URL+"irodaink"
 URL_detail = URL + "/egyiptom/hurghada/makadi-bay/prima-life-makadi-resort-and-spa?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-02&DI=AE&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=77592&HID=9193&IC1=1&IFC=45774792%2F207929&IFM=0&ILM=0&KA1=11&KC1=1&MNN=7&MT=5&NN=7&OFC=45774461%2F207928&PC=10525827%2F2%2F1736%2F7&PID=HRG20068&RC=DR01&RD=2024-10-09&TO=489|4371&acm1=2&df=2024-10-01|2024-10-31&icm1=0&kam1=11&kcm1=1&nnm=7|8|9|10&ptm=0&tt=1&ttm=1#/prehled"
@@ -55,9 +55,9 @@ desired_cap2 = {
 desired_cap = desired_cap_Branded("KTGHU", "Optimized - Web Monitor V2")
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
-  self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
 
 

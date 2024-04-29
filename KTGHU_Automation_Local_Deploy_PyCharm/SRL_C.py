@@ -83,10 +83,11 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
 
         wait = WebDriverWait(driver, 30)
-        rozbalitFiltrStravyXpath = "//*[contains(text(),'Kedvenc étel')]"
-        rozbalitFiltrStravy = self.driver.find_element_by_xpath(rozbalitFiltrStravyXpath)
-
-        rozbalitFiltrStravy.click()
+       #tohle je jen na stg
+        # rozbalitFiltrStravyXpath = "//*[contains(text(),'Kedvenc étel')]"
+        # rozbalitFiltrStravy = self.driver.find_element_by_xpath(rozbalitFiltrStravyXpath)
+        #
+        # rozbalitFiltrStravy.click()
 
         stravaMenuXpath = "//div[@class='f_additionalFilter-item f_set--opened']//div//span[@class='f_input-content']"
         generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath)
@@ -110,7 +111,7 @@ class Test_SRL_C(unittest.TestCase):
         closeExponeaBanner(self.driver)
         hotelyAllKarty = self.driver.find_elements_by_xpath(hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyAllKarty[1]))
-        for _ in range(7):
+        for _ in range(11):
 
             print("|||||HOTEL CISLO|||||||" )
             print(x+1)
