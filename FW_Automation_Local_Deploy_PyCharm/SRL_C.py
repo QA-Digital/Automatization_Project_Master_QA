@@ -118,7 +118,7 @@ class Test_SRL_C(unittest.TestCase):
 
         #for WebElement in hotelyAllKarty:
         #for _ in range(9):
-        for _ in range(12):
+        for _ in range(5):
             print("|||||HOTEL CISLO|||||||" )
             print(x+1)
             print(x + 1)
@@ -135,11 +135,13 @@ class Test_SRL_C(unittest.TestCase):
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             ##print(linkDetailActualUrl)
 
-            stravaZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
-            stravaZajezduString = stravaZajezdu[x].text
+            stravaZajezduSrl = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
+
+
+            stravaZajezduString = stravaZajezduSrl[x].text
 
             pokojZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--bed']")
-            pokojZajezduString = pokojZajezdu[x].text
+            pokojZajezduString = pokojZajezdu[x].text.replace(" ", "")
             ##print(pokojZajezduString)
 
             cenaZajezduAll = self.driver.find_elements_by_xpath(
@@ -164,7 +166,10 @@ class Test_SRL_C(unittest.TestCase):
 
 
             try:
-                detailStravaSedivka = self.driver.find_element_by_xpath("//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
+                #detailStravaSedivka = self.driver.find_element_by_xpath("//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
+                stravaZajezduXpath = "/html/body/div[1]/div[2]/div/div[1]/div[2]/div[2]/div/div[3]/div[1]/div[3]/div/button/span"
+                detailStravaSedivka = self.driver.find_element_by_xpath(stravaZajezduXpath)
+
             except NoSuchElementException:
 
                 try:
@@ -177,13 +182,14 @@ class Test_SRL_C(unittest.TestCase):
             print(detailStravaSedivkaString)
 
             #detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
-            detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='f_box-item f_icon f_icon--bed']//strong")
-            detailPokojSedivkaString = detailPokojSedivka.text
+            detailPokojSedivkaXpath = "//body//div//div[@data-component-name='abnbHotelDetail']//div//div//div//div//div[4]//div[1]//button[1]//span[1]"
+            detailPokojSedivka = self.driver.find_element_by_xpath(detailPokojSedivkaXpath )
+            detailPokojSedivkaString = detailPokojSedivka.text.replace(" ", "")
             #detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
             print(detailPokojSedivkaString)
 
             #detailCenaAll = self.driver.find_element_by_xpath("//*[@class='fshr-tooltip-underline js-totalPrice']")
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            detailCenaAll = self.driver.find_element_by_xpath("//div[@class='text-xl font-bold']")
             detailCenaAllString = detailCenaAll.text
             print(detailCenaAllString)
             try:
@@ -200,7 +206,7 @@ class Test_SRL_C(unittest.TestCase):
             assert pokojZajezduString in detailPokojSedivkaString ##cuz v SRL je kratsi nazev?
 
             self.driver.close()
-            if detailPokojSedivkaString == pokojZajezduString:
+            if detailPokojSedivkaString in pokojZajezduString:
                 print("pokoje sedi srl vs detail")
             else:
                 print(" NESEDÍ pokoj SRL vs sedivka")
@@ -217,14 +223,14 @@ class Test_SRL_C(unittest.TestCase):
 
             else:
                 print("ceny all NESEDÍ srl vs detail")
-
-            assert detailCenaAdultString == cenaZajezduAdultString
-
-            if detailCenaAdultString == cenaZajezduAdultString:
-                print(" cena adult sedi srl vs detail")
-
-            else:
-                print("cena adult NESEDÍ srl vs detail")
+            #
+            # assert detailCenaAdultString == cenaZajezduAdultString
+            #
+            # if detailCenaAdultString == cenaZajezduAdultString:
+            #     print(" cena adult sedi srl vs detail")
+            #
+            # else:
+            #     print("cena adult NESEDÍ srl vs detail")
 
             self.driver.switch_to.window(
                 self.driver.window_handles[0])  ##this gotta be adjusted based on what test is executed

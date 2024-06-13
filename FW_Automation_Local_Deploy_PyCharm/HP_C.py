@@ -68,6 +68,7 @@ HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
+HPzlutakLetniPrazdninyXpath2 ="//*[contains(text(), 'Září / Říjen 2024')]"
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
@@ -145,7 +146,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
-                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath2
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath)
         time.sleep(10)  # nevdama proste nez se nacte

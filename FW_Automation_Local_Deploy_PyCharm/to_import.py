@@ -32,11 +32,11 @@ def setUp(self):
 
 
 
-  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  #chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  #self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
   # https://googlechromelabs.github.io/chrome-for-testing/#stable
 
@@ -63,14 +63,14 @@ def setUp(self):
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
-#URL = "https://www.fischer.cz/"
-#URL = "https://fischer.web3.dtweb.cz/"
+URL = "https://www.fischer.cz/"
+#URL = "https://fischer.web1.dtweb.cz/"
 
 
 #URL = "http://fischer.web1.dtweb.cz/"
 
 
-URL = "https://fischer3.stg.dtweb.cz/"
+#URL = "https://fischer.stg.dtweb.cz/"
 URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"
 URL_poznavacky_vikendy = URL+"poznavaci-zajezdy/prodlouzene-vikendy"
 URL_poznavacky_rodiny = URL+"poznavaci-zajezdy/pro-rodiny"
@@ -98,7 +98,9 @@ URL_detail = URL + "/egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&
 #URL_SRL = "https://fischer.web3.dtweb.cz/vysledky-vyhledavani?sortby=PriceTotal&d=1009|680|953|1108|592|611|610|612|1010|590|726|609|621|622|669|1086|1194|670|978|594|675|683&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ka1=7&kc1=1&ac1=2"
 #URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|972|648|620|746|687|604|644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057|1126|1129|826|1124|1128|1059|1118|1119|1121|625|1127|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|1131|614|1123|1093|1198|1114|1122&dd=2022-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2022-10-30&to=4312|4305|2682|4308&tt=1"
 #URL_SRL = URL + "vysledky-vyhledavani?ac1=1&d=644|674|642|616|664|607|591|608|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2022-08-30&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2022-10-30&to=4312|4305|2682|4308&tt=1"
-URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-03-31&to=4312|4305|2682|4308&tt=1"
+URL_SRL = URL + "/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1"
+#URL_SRL = "https://fischer.stg.dtweb.cz/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-10-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&sortby=PriceTotal&sortorder=1&to=4312|4305|2682|4308|4392|4309&tt=1&ds=2"
+
 #URL_SRL = "https://www.fischer.cz/vysledky-vyhledavani?ac1=2&ac2=2&d=664&dd=2023-03-01&ka2=2|6|8&kc2=3&nn=7&rd=2023-03-31&to=4312|4305|2682|4308&tt=1"
 #URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=680|1108|953|611|610|592|612|590|726|609|621|1009|622|669|1086|1194|670|978|594|675|1010|683&dd=2023-09-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308&tt=1"
 #URL_SRL = URL + "vysledky-vyhledavani?ac1=2&d=664&dd=2023-09-01&ka1=11&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308&tt=1"

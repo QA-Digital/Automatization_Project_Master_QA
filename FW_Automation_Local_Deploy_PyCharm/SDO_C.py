@@ -100,5 +100,5 @@ class TestSDO_C(unittest.TestCase):
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath, 2, True)
 
-        #SRL_D(self, self.driver)
-        groupSearch_D(self, self.driver)
+        SRL_D(self, self.driver)
+        #groupSearch_D(self, self.driver)
