@@ -49,11 +49,11 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_sort_expensive(self):
-        driver = self.driver
-        driver.maximize_window()
-        driver.get(URL_SRL)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(2)
 
         typeOfSort = "expensive"
@@ -62,46 +62,40 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_map(self):
-        driver = self.driver
-        driver.maximize_window()
-        time.sleep(1)
-        driver.get(URL_SRL)
-
-        wait = WebDriverWait(driver, 15)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2.3)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(2)
         generalDriverWaitImplicit(self.driver)
         #zobrazitNaMape = driver.find_element_by_xpath("//*[@class='f_bar-item f_bar-map']")
         #zobrazitNaMape.click()
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
+        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
         time.sleep(2)
-        generalized_map_test_click_on_pin_and_hotel_bubble(driver)
+        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
         time.sleep(2)
 
         ###EXECUTION DISPLAY TEST NA DETAIL HOTELU -> pokud se vyassertuje že jsem na detailu a vše je ok můžu předpokládat že mapka je OK
 
-        detail_D(self, driver)
+        detail_D(self, self.driver)
 
         self.test_passed = True
 
     def test_SRL_filtr_strava(self):
-        driver = self.driver
-        driver.maximize_window()
-        time.sleep(1)
-
-        driver.get(URL_SRL)
-        time.sleep(2)
-        acceptConsent(driver)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
+        acceptConsent(self.driver)
         time.sleep(2)
 
         stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All Inclusive')]"
-        generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath)
+        generalized_SRL_choose_meal_filter_EW_like(self.driver, stravaMenuXpath)
 
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"
-        generalized_list_string_sorter(driver, stravaZajezduSrlXpath, assertion_strava)
+        generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava)
 
         self.test_passed = True
 
