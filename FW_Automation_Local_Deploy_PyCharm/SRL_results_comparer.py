@@ -79,7 +79,16 @@ URL_SRLs_list_FW = [URL_SRL_FW1, URL_SRL_FW2, URL_SRL_FW3, URL_SRL_FW4, URL_SRL_
                     URL_SRL_FW24, URL_SRL_FW25, URL_SRL_FW26, URL_SRL_FW27,URL_SRL_FW28, URL_SRL_FW29,URL_SRL_FW30    ]
 
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class Test_SRL_C_comparer(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

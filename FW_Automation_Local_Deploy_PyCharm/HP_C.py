@@ -42,12 +42,13 @@ def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
     for i in letenekySRLresultsElements:
         assert letenekySRLresultsElements[pozice].is_displayed() == True
         pozice = pozice + 1
-
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
 #banneryXpath_FW = "//*[@class='f_teaser-item js-priceLoading']/a"
 #banneryXpath_FW = "//*[@data-pricecheck-type='banner']/a"
 banneryXpath_FW = "//*[@class='f_teaser-item']/a"
 URL_prod_public = "https://www.fischer.cz/"
-URL_deploying_web = URL
+URL_deploying_web = URL_local
+
 
 #HPvyhledatZajezdyButtonXpath = "/html/body[@id='homepage']/header[@class='f_pageHeader js_header']/div[@class='f_pageHeader-content']/div[@class='f_pageHeader-item f_pageHeader-item--holder']/div/div[@class='f_filterMainSearch']/div/div[@class='f_filterMainSearch-content']/div[@class='f_filterMainSearch-content-item'][5]/a[@class='f_button f_button--common']/span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right']"
 HPvyhledatZajezdyButtonXpath = "//*[@class='f_button f_button--forFilter']"
@@ -73,7 +74,14 @@ poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contain
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
-_HP_C(unittest.TestCase):
+class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

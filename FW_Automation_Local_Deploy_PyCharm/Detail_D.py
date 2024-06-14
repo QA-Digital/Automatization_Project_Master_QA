@@ -79,12 +79,36 @@ def detail_D2(self, driver):
     terminySingle = self.driver.find_element_by_xpath("//*[@data-hotel]")
     assert terminySingle.is_displayed() == True
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class TestDetailHotelu_D(unittest.TestCase):
+
     URL = URL_local  # Default value
-    def __init__(self, methodName='runTest', URL=None):
-        super(TestDetailHotelu_D, self).__init__(methodName)
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
         if URL:
             self.URL = URL
+
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
 
     def setUp(self):
         setUp(self)

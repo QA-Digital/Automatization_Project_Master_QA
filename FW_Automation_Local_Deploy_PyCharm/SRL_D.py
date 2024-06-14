@@ -114,7 +114,16 @@ def SRL_D(self, driver):
     except NoSuchElementException:
         pass
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class TestSRL_D(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

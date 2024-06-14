@@ -65,7 +65,16 @@ def groupSearch_D(self, driver):
     assert srlItems[0].is_displayed() == True
 
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class Test_Groupsearch_D(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

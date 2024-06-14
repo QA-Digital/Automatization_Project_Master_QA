@@ -6,7 +6,16 @@ import time
 import unittest
 from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class TestSDO_C(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

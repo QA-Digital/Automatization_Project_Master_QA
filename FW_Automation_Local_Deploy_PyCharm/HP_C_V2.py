@@ -36,7 +36,16 @@ HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class Test_HP_C(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

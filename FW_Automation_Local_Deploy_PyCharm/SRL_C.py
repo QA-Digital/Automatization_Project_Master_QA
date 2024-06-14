@@ -16,7 +16,16 @@ sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejlevn�
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class Test_SRL_C(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

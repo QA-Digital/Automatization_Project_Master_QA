@@ -32,7 +32,37 @@ dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_ic
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
 
 
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
 class TestDetailHotelu_C(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
+
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

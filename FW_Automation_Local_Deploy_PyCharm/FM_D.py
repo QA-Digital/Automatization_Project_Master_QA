@@ -45,7 +45,25 @@ def LM_FM_vypis_rozbalit_zajezd_check(self, driver):
 
 
 
-FMexotika_D(unittest.TestCase):
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+
+class TestFMexotika_D(unittest.TestCase):
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
+
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
