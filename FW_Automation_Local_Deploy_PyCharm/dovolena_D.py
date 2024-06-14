@@ -6,13 +6,6 @@ import unittest
 from selenium.webdriver import ActionChains
 import requests
 
-
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
-
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
-
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
-
 from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
 
 class TestDovolena_D(unittest.TestCase):
@@ -23,19 +16,6 @@ class TestDovolena_D(unittest.TestCase):
         if URL:
             self.URL = URL
 
-
-    URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
-        super().__init__(methodName)
-        if URL:
-            self.URL = URL
-
-
-    URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
-        super().__init__(methodName)
-        if URL:
-            self.URL = URL
     def setUp(self):
         setUp(self)
 

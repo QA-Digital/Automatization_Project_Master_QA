@@ -5,31 +5,38 @@ def add_init_method_to_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    with open(file_path, 'w', encoding='utf-8') as file:
-        added_init = False
-        added_import = False
-        init_added = False  # Flag to check if __init__ method is already added
-        import_added = False  # Flag to check if import statement is already added
-        for line in lines:
-            if not import_added and line.startswith('from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local'):
-                import_added = True
+    import_statement = 'from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local\n'
+    init_method = [
+        '    URL = URL_local  # Default value\n',
+        '    def __init__(self, methodName="runTest", URL=None):\n',
+        '        super().__init__(methodName)\n',
+        '        if URL:\n',
+        '            self.URL = URL\n\n'
+    ]
 
-            if not added_import and line.startswith('class '):
-                file.write(f'from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local\n\n')
-                added_import = True
+    # Check if the import statement or init method are already in the file
+    if import_statement in lines:
+        import_added = True
+    else:
+        import_added = False
+
+    init_added = any(init_method[0] in line for line in lines)
+
+    with open(file_path, 'w', encoding='utf-8') as file:
+        for line in lines:
+            if not import_added and line.startswith('class '):
+                file.write(import_statement)
+                import_added = True
 
             file.write(line)
 
             # Check if line contains a class definition
             if re.match(r'^\s*class\s+\w+', line):
                 if not init_added:
-                    init_added = True
                     # Add the init method after the class definition
-                    file.write(f'\n    URL = URL_local  # Default value\n')
-                    file.write('    def __init__(self, methodName="runTest", URL=None):\n')
-                    file.write('        super().__init__(methodName)\n')
-                    file.write('        if URL:\n')
-                    file.write('            self.URL = URL\n\n')
+                    for init_line in init_method:
+                        file.write(init_line)
+                    init_added = True
 
 def process_directory(directory):
     for root, _, files in os.walk(directory):
