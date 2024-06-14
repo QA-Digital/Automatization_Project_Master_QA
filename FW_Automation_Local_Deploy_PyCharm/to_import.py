@@ -88,7 +88,7 @@ URL_lm = "last-minute"
 URL_stat = "spanelsko"
 URL_groupsearch = "vysledky-vyhledavani?ac1=2&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-02-26&to=4312|4305|2682|4308&tt=1"
 URL_FT_results = "hledani-vysledky?q="
-
+URL_darkove_poukazy = "/poukazy-benefity/darkove-poukazy"
 
 import time
 from selenium.common.exceptions import TimeoutException

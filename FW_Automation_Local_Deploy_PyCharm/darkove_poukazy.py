@@ -1,10 +1,10 @@
 from selenium.common.exceptions import NoSuchElementException
 from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
-    generalDriverWaitImplicit
+    generalDriverWaitImplicit, URL_darkove_poukazy
 import time
 import unittest
 
-URL_darkove_poukazy = URL + "/poukazy-benefity/darkove-poukazy"
+
 
 motivyXpath = "//*[@class='absolute inset-0 flex justify-center items-center bg-white/50 transition-all rounded opacity-0']"
 vybranyMotivXpath = "//*[@class='flex-1']"
@@ -45,18 +45,6 @@ class Test_darkove_poukazy(unittest.TestCase):
             self.URL = URL
 
 
-    URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
-        super().__init__(methodName)
-        if URL:
-            self.URL = URL
-
-
-    URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
-        super().__init__(methodName)
-        if URL:
-            self.URL = URL
 
 
 
