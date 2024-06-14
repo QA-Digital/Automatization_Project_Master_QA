@@ -73,7 +73,7 @@ poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contain
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
-class Test_HP_C(unittest.TestCase):
+_HP_C(unittest.TestCase):
     def setUp(self):
         setUp(self)
 

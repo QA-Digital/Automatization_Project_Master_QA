@@ -19,7 +19,6 @@ from FW_Automation_Local_Deploy_PyCharm.HP_C import *
 from FW_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
 from FW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
 from starter_master_browserstack import runner_tests_generalized
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL as DEFAULT_URL
 
 # Define the test suite
 def suite_FW_full2(url):
@@ -85,7 +84,7 @@ def run_suite():
 
     web_brand = data.get('web_brand', 'FISCHER')
     version = data.get('version', 'FW-EW release 2024-05-16')
-    url = data.get('URL', URL1)  # Use URL from request or default if not provided
+    url = data.get('URL', URL_local)  # Use URL from request or default if not provided
 
     logging.debug(f'web_brand: {web_brand}, version: {version}, URL: {url}')
 

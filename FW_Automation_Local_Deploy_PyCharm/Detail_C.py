@@ -1,8 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from selenium.webdriver.support.wait import WebDriverWait
 from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
 import time
-from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, generalized_list_string_sorter, generalized_detail_departure_check, generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail
 from generalized_test_functions import generalized_price_sorter_expensive_cheap_assert

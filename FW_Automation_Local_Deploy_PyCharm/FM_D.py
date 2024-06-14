@@ -45,7 +45,7 @@ def LM_FM_vypis_rozbalit_zajezd_check(self, driver):
 
 
 
-class TestFMexotika_D(unittest.TestCase):
+FMexotika_D(unittest.TestCase):
     def setUp(self):
         setUp(self)
 

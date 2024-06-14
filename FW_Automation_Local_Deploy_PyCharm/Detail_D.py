@@ -81,7 +81,6 @@ def detail_D2(self, driver):
 
 class TestDetailHotelu_D(unittest.TestCase):
     URL = URL_local  # Default value
-
     def __init__(self, methodName='runTest', URL=None):
         super(TestDetailHotelu_D, self).__init__(methodName)
         if URL:
