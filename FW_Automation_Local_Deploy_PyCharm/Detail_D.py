@@ -99,7 +99,8 @@ class TestDetailHotelu_D(unittest.TestCase):
     def test_detail_D(self):
         self.driver.maximize_window()
         URL_detail_lp = f"{self.URL}{URL_detail}"
-        self.driver.get(URL_detail_lp)
+        URL_detail_lp_lp = f"{self.URL}{URL_detail_lp}"
+        self.driver.get(URL_detail_lp_lp)
         acceptConsent(self.driver)
         detail_D(self, self.driver)
         self.test_passed = True

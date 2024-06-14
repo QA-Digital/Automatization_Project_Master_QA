@@ -64,7 +64,8 @@ class TestFMexotika_D(unittest.TestCase):
         tearDown(self)
 
     def test_FM_exotika_D(self):
-        self.driver.get(URL_fmExotika)
+        URL_fmExotika_lp = f"{self.URL}{URL_fmExotika}"
+        self.driver.get(URL_fmExotika_lp)
         wait = WebDriverWait(self.driver, 1500)
         self.driver.maximize_window()
         time.sleep(2)

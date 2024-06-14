@@ -25,7 +25,8 @@ class TestLM_D(unittest.TestCase):
 
     def test_lM_isDisplayed(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_lm)
+        URL_lm_lp = f"{self.URL}{URL_lm}"
+        self.driver.get(URL_lm_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)

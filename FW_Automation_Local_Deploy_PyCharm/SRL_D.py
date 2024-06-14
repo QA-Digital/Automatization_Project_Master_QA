@@ -132,7 +132,8 @@ class TestSRL_D(unittest.TestCase):
 
     def test_SRL_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(0.4)
         acceptConsent(self.driver)
         SRL_D(self, self.driver)

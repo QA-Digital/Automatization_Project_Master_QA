@@ -53,7 +53,8 @@ class TestPobocky_C(unittest.TestCase):
 
     def test_pobocky_D(self):
 
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
         acceptConsent(self.driver)
         self.driver.maximize_window()
         time.sleep(2)
@@ -100,7 +101,8 @@ class TestPobocky_C(unittest.TestCase):
 
     def test_pobocky_C_click_to_detail_popup_check(self):
         self.driver.maximize_window()
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
         acceptConsent(self.driver)
 
         time.sleep(3.5)

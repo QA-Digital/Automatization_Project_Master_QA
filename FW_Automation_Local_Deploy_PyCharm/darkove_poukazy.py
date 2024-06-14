@@ -68,7 +68,8 @@ class Test_darkove_poukazy(unittest.TestCase):
 
     def test_darkove_poukazy_motivy(self):
         self.driver.maximize_window()
-        self.driver.get(URL_darkove_poukazy)
+        URL_darkove_poukazy_lp = f"{self.URL}{URL_darkove_poukazy}"
+        self.driver.get(URL_darkove_poukazy_lp)
         time.sleep(2.5)
 
         acceptConsent(self.driver)
@@ -90,7 +91,8 @@ class Test_darkove_poukazy(unittest.TestCase):
 
     def test_darkove_poukazy_castka_venovani(self):
         self.driver.maximize_window()
-        self.driver.get(URL_darkove_poukazy)
+        URL_darkove_poukazy_lp = f"{self.URL}{URL_darkove_poukazy}"
+        self.driver.get(URL_darkove_poukazy_lp)
         time.sleep(2.5)
 
         acceptConsent(self.driver)
@@ -129,7 +131,8 @@ class Test_darkove_poukazy(unittest.TestCase):
 
     def test_darkove_poukazy_purchase(self):
         self.driver.maximize_window()
-        self.driver.get(URL_darkove_poukazy)
+        URL_darkove_poukazy_lp = f"{self.URL}{URL_darkove_poukazy}"
+        self.driver.get(URL_darkove_poukazy_lp)
         time.sleep(2.5)
 
         acceptConsent(self.driver)

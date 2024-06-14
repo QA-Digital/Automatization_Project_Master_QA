@@ -84,7 +84,8 @@ class Test_Groupsearch_D(unittest.TestCase):
     def test_groupsearch_D(self):
         driver = self.driver
         self.driver.maximize_window()
-        self.driver.get(URL_groupsearch)
+        URL_groupsearch_lp = f"{self.URL}{URL_groupsearch}"
+        self.driver.get(URL_groupsearch_lp)
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(2)

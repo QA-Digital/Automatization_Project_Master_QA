@@ -25,7 +25,8 @@ class TestSDO_C(unittest.TestCase):
     def test_SDO_D(self):
         driver = self.driver
         self.driver.maximize_window()
-        self.driver.get(URL_stat)
+        URL_stat_lp = f"{self.URL}{URL_stat}"
+        self.driver.get(URL_stat_lp)
 
         time.sleep(2.5)
         acceptConsent(self.driver)
@@ -99,7 +100,8 @@ class TestSDO_C(unittest.TestCase):
 
     def test_SDO_zlutak_to_SRL_R(self): ### https://jira.fischer.cz/browse/FW-1689
         self.driver.maximize_window()
-        self.driver.get(URL_stat)
+        URL_stat_lp = f"{self.URL}{URL_stat}"
+        self.driver.get(URL_stat_lp)
 
         time.sleep(2.5)
         acceptConsent(self.driver)

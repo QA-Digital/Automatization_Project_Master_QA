@@ -31,7 +31,8 @@ class TestDetskeKluby_D(unittest.TestCase):
 
 
     def test_kluby_D(self):
-        self.driver.get(URL_kluby)
+        URL_kluby_lp = f"{self.URL}{URL_kluby}"
+        self.driver.get(URL_kluby_lp)
         acceptConsent(self.driver)
         self.driver.maximize_window()
         generalDriverWaitImplicit(self.driver)

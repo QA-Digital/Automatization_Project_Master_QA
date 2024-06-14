@@ -70,7 +70,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
     def test_poznavacky_okruzni_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_poznavacky)
+        URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+        self.driver.get(URL_poznavacky_lp)
         acceptConsent(self.driver)
         time.sleep(3)
         poznavacky_check_D(self, self.driver)
@@ -78,7 +79,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
     def test_poznavacky_vikendy_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_poznavacky_vikendy)
+        URL_poznavacky_vikendy_lp = f"{self.URL}{URL_poznavacky_vikendy}"
+        self.driver.get(URL_poznavacky_vikendy_lp)
         acceptConsent(self.driver)
         time.sleep(3)
         poznavacky_check_D(self, self.driver)
@@ -86,7 +88,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
     def test_poznavacky_rodiny_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_poznavacky_rodiny)
+        URL_poznavacky_rodiny_lp = f"{self.URL}{URL_poznavacky_rodiny}"
+        self.driver.get(URL_poznavacky_rodiny_lp)
         acceptConsent(self.driver)
         time.sleep(3)
         poznavacky_check_D(self, self.driver)
@@ -94,7 +97,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
     def test_poznavacky_zazitky_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_poznavacky_zazitky)
+        URL_poznavacky_zazitky_lp = f"{self.URL}{URL_poznavacky_zazitky}"
+        self.driver.get(URL_poznavacky_zazitky_lp)
 
         acceptConsent(self.driver)
         time.sleep(3)
@@ -102,7 +106,8 @@ class TestPoznavacky_D(unittest.TestCase):
         self.test_passed = True
 
     def test_poznavacky_okruzni_C(self):
-        self.driver.get(URL_poznavacky)
+        URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+        self.driver.get(URL_poznavacky_lp)
         time.sleep(1)
         self.driver.maximize_window()
         acceptConsent(self.driver)
@@ -120,7 +125,8 @@ class TestPoznavacky_D(unittest.TestCase):
         self.test_passed = True
 
     def test_poznavacky_vikendy_C(self):
-        self.driver.get(URL_poznavacky_vikendy)
+        URL_poznavacky_vikendy_lp = f"{self.URL}{URL_poznavacky_vikendy}"
+        self.driver.get(URL_poznavacky_vikendy_lp)
         time.sleep(1)
         self.driver.maximize_window()
         acceptConsent(self.driver)
@@ -130,7 +136,8 @@ class TestPoznavacky_D(unittest.TestCase):
         self.test_passed = True
 
     def test_poznavacky_rodiny_C(self):
-        self.driver.get(URL_poznavacky_rodiny)
+        URL_poznavacky_rodiny_lp = f"{self.URL}{URL_poznavacky_rodiny}"
+        self.driver.get(URL_poznavacky_rodiny_lp)
         time.sleep(1)
         self.driver.maximize_window()
         acceptConsent(self.driver)
@@ -140,7 +147,8 @@ class TestPoznavacky_D(unittest.TestCase):
         self.test_passed = True
 
     def test_poznavacky_zazitky_C(self):
-        self.driver.get(URL_poznavacky_zazitky)
+        URL_poznavacky_zazitky_lp = f"{self.URL}{URL_poznavacky_zazitky}"
+        self.driver.get(URL_poznavacky_zazitky_lp)
         time.sleep(1)
         self.driver.maximize_window()
         acceptConsent(self.driver)

@@ -36,7 +36,8 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_sort_cheapest(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(2)
@@ -108,7 +109,8 @@ class Test_SRL_C(unittest.TestCase):
         x = 0  ##variable for taking the first hotel, starting at 0
         windowHandle = 1  ##variable for handling windows, gotta start on 1
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         wait = WebDriverWait(self.driver, 25)
         time.sleep(2)
         acceptConsent(self.driver)
