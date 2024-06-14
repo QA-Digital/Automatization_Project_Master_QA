@@ -19,12 +19,14 @@ def modify_driver_get_statements(file_path):
         match_get = re.search(r'(self\.)?driver\.get\((URL_\w+)\)', line)
         if match_get:
             url_variable = match_get.group(2)
+            url_variable_lp = f"{url_variable}_lp"
+
+            # Check if URL_*_lp variable already exists
             if url_variable not in added_url_variables:
-                url_variable_lp = f"{url_variable}_lp"
-                replacement_line = f'        {url_variable_lp} = f"{{self.URL}}{{{url_variable}}}"\n'
-                new_lines.append(replacement_line)
                 added_url_variables.add(url_variable)
-                line = line.replace(url_variable, url_variable_lp)
+                replacement_line = f'        {url_variable}_lp = f"{{self.URL}}{{{url_variable}}}"\n'
+                new_lines.append(replacement_line)
+                line = line.replace(url_variable, f'{url_variable}_lp')
 
         new_lines.append(line)
 
