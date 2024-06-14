@@ -1,4 +1,3 @@
-from FW_Automation_Local_Deploy_PyCharm.CovidInfo_D import *
 from FW_Automation_Local_Deploy_PyCharm.pobocky import *
 from FW_Automation_Local_Deploy_PyCharm.Detail_D import *
 from FW_Automation_Local_Deploy_PyCharm.Detail_C import *

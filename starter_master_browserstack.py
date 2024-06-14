@@ -1,8 +1,6 @@
-from KTGSK_Automation_Local_Deploy_PyCharm import *
 import unittest
-
-#import HtmlTestRunner
-import HTMLTestRunner as HtmlTestRunner        ##setting for office pc since the packaga installed with diff name (i guess?)
+import HtmlTestRunner
+#import HTMLTestRunner as HtmlTestRunner        ##setting for office pc since the packaga installed with diff name (i guess?)
 
 
 
