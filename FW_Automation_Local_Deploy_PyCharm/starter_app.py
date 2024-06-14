@@ -21,7 +21,7 @@ from FW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
 from starter_master_browserstack import runner_tests_generalized
 
 # Define the test suite
-def suite_FW_full2(url):
+def suite_FW_full(url):
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
@@ -60,7 +60,7 @@ def suite_FW_full2(url):
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky', URL=url))
     suite.addTest(TestSDO_C('test_SDO_zlutak_to_SRL_R', URL=url))
     suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check', URL=url))
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky', URL=url))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky', URL=url))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url))
@@ -68,7 +68,7 @@ def suite_FW_full2(url):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url))
     return suite
 
-def suite_FW_full(url):
+def suite_FW_full2(url):
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     return suite

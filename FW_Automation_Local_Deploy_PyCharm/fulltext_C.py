@@ -36,7 +36,8 @@ class Test_Fulltext_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 35)
         poziceQueryItem = 0
         for _ in queryList:
-            self.driver.get(URL)
+
+            self.driver.get(self.URL)
 
             if poziceQueryItem == 0:
                 acceptConsent(self.driver)
@@ -104,27 +105,27 @@ class Test_Fulltext_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 13)
         poziceQueryItem=0
         for _ in queryList:
-            driver = self.driver
-            driver.get(URL_FT_results+queryList[poziceQueryItem])
-            if poziceQueryItem==0:
-                acceptConsent(driver)
+            URL_FT_results_lp = f"{self.URL}{URL_FT_results}"
+            self.driver.get(URL_FT_results_lp + queryList[poziceQueryItem])
+            if poziceQueryItem == 0:
+                acceptConsent(self.driver)
                 self.driver.maximize_window()
             else:
                 pass
             print(queryList[poziceQueryItem].upper())
             linksToCheckList = []
             try:
-                vysledkyDlazdiceHotelu = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
-               # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
+                vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
+                # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
                     linksToCheckList.append(vysledkyDlazdiceHotelu[x].get_attribute("href"))
                     x = x + 1
             except NoSuchElementException:
                 pass
-            vysledkyTextItems = driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            vysledkyTextItemsSingle = driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            #wait.until(EC.visibility_of(vysledkyTextItems[0]))
+            vysledkyTextItems = self.driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItemsSingle = self.driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
+
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0
             for _ in vysledkyTextItems:
