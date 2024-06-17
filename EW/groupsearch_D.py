@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from FW.groupsearch_D import groupSearch_D
 
 
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class Test_Groupsearch_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

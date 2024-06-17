@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from FW.FM_D import LM_FM_vypis_rozbalit_zajezd_check
 
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class TestLM_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

@@ -56,7 +56,7 @@ def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
         assert letenekySRLresultsElements[pozice].is_displayed() == True
         pozice = pozice + 1
 
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

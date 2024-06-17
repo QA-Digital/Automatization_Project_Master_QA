@@ -80,7 +80,7 @@ URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_
                     URL_SRL_EW24, URL_SRL_EW25, URL_SRL_EW26, URL_SRL_EW27, URL_SRL_EW28, URL_SRL_EW29, URL_SRL_EW30, URL_SRL_EW31, URL_SRL_EW32 ]
 
 
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

@@ -1,4 +1,3 @@
-from EW.CovidInfo_D import *
 from EW.pobocky import *
 from EW.Detail_D import *
 from EW.Detail_C import *
@@ -20,7 +19,6 @@ from EW.darkove_poukazy import *
 
 def suite_EW_full():
     suite = unittest.TestSuite()
-   # suite.addTest(TestCovidInfo_D('test_covidInfo_D'))
     suite.addTest(TestDetailHotelu_D("test_detail_D"))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))

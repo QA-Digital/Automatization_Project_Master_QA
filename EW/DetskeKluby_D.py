@@ -7,7 +7,7 @@ p.FAILSAFE = False
 
 
 
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class TestDetskeKluby_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

@@ -5,7 +5,7 @@ def add_init_method_to_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    import_statement = 'from FW.to_import import URL_local\n'
+    import_statement = 'from EW.to_import import URL_local\n'
     init_method = [
         '    URL = URL_local  # Default value\n',
         '    def __init__(self, methodName="runTest", URL=None):\n',

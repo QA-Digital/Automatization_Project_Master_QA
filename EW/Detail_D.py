@@ -24,7 +24,7 @@ def detail_D(self, driver):
         sendEmail(msg)
     detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
     assert detailWrapper.is_displayed() == True
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class TestDetailHotelu_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

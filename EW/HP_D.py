@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 HPbanneryXpath = "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']"
-from FW.to_import import URL_local
+from EW.to_import import URL_local
 class TestHP_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):
