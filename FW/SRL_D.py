@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
+from FW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import time
@@ -114,7 +114,7 @@ def SRL_D(self, driver):
     except NoSuchElementException:
         pass
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestSRL_D(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 
@@ -34,7 +34,7 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
     assert popUpObjednavkaNavstevyElement.is_displayed() == True
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestPobocky_C(unittest.TestCase):
 

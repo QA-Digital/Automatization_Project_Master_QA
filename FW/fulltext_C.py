@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from FW.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
@@ -16,7 +16,7 @@ queryHotely = ["Mirage bay", "mitsis", "Prima life", "Prima life makadi", "Pegas
                "Primasol", "Doubletree"]
 #queryList = querySDO+queryCommon+queryHotely
 queryList =queryListOptimizedMonitor
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class Test_Fulltext_C(unittest.TestCase):
 

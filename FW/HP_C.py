@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from FW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from FW.groupsearch_D import groupSearch_D
+from FW.Detail_D import detail_D
+from FW.SRL_D import SRL_D
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
@@ -42,7 +42,7 @@ def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
     for i in letenekySRLresultsElements:
         assert letenekySRLresultsElements[pozice].is_displayed() == True
         pozice = pozice + 1
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 #banneryXpath_FW = "//*[@class='f_teaser-item js-priceLoading']/a"
 #banneryXpath_FW = "//*[@data-pricecheck-type='banner']/a"
 banneryXpath_FW = "//*[@class='f_teaser-item']/a"

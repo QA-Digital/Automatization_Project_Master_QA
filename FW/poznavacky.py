@@ -1,5 +1,5 @@
 import time
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from sedivka_check import sedivka_check_assert
 sedivkaXpathFw = "//*[@class='f_box h-full flex flex-col']"
@@ -52,7 +52,7 @@ def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
             sedivka_check_assert(driver, sedivkaXpathFw)
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestPoznavacky_D(unittest.TestCase):
 

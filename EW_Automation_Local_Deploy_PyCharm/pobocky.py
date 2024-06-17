@@ -2,7 +2,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
-from FW_Automation_Local_Deploy_PyCharm.pobocky import open_pobocka_box_to_detail_open_popup_navstevy
+from FW.pobocky import open_pobocka_box_to_detail_open_popup_navstevy
 
 brnoAnchorOblibeneVolbyXpath = "//*[@class='f_anchor'and contains(text(), 'Brno')]"
 pobockaBoxXpath = "//*[@data-branch-id='262']"

@@ -1,13 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, \
     generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_FW_like, \
     generalized_list_string_sorter, generalized_SRL_price_sorter, generalized_SRL_choose_meal_filter_EW_like
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
+from FW.Detail_D import detail_D
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 #hotelyKartyXpath ="//*[@class='f_searchResult-content-item relative']"
@@ -16,7 +16,7 @@ sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejlevn�
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class Test_SRL_C(unittest.TestCase):
 

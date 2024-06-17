@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_local, URL_detail, sendEmail, setUp, tearDown
+from FW.to_import import acceptConsent, URL_local, URL_detail, sendEmail, setUp, tearDown
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
@@ -80,7 +80,7 @@ def detail_D2(self, driver):
     assert terminySingle.is_displayed() == True
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestDetailHotelu_D(unittest.TestCase):
 

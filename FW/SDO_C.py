@@ -1,12 +1,12 @@
 from selenium.common.exceptions import NoSuchElementException
 
-from FW_Automation_Local_Deploy_PyCharm.HP_C import *
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
+from FW.HP_C import *
+from FW.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
 import time
 import unittest
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from FW.groupsearch_D import groupSearch_D
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestSDO_C(unittest.TestCase):
 

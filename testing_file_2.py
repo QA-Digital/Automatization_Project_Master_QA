@@ -2,7 +2,7 @@ import time
 import requests
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from FW.to_import import acceptConsent
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 #URL = "https://exim.stg.dtweb.cz/poznavaci-zajezdy"

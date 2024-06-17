@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from FW.to_import import acceptConsent
 
 ##open SRLS , take h1, compare pocet vysledku VS dev ENV
 from random_printer import checked_URLs_list

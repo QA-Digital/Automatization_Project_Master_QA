@@ -1,13 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
+from FW.to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from FW_Automation_Local_Deploy_PyCharm.FM_D import LM_FM_vypis_rozbalit_zajezd_check
+from FW.FM_D import LM_FM_vypis_rozbalit_zajezd_check
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestLM_D(unittest.TestCase):
 

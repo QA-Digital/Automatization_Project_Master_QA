@@ -1,13 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown
+from FW.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 #bannerXpath = "//*[@data-pricecheck-type='banner']"
 bannerXpath = "//*[@class='f_teaser-item']"
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestHP_D(unittest.TestCase):
 

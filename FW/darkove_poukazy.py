@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
+from FW.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
     generalDriverWaitImplicit, URL_darkove_poukazy
 import time
 import unittest
@@ -28,13 +28,13 @@ objednatXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidd
 platebniKartouXpath = "//*[@class='flex flex-col gap-1 grow items-start']"
 zaplatitXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Zaplatit']"
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class Test_darkove_poukazy(unittest.TestCase):
 

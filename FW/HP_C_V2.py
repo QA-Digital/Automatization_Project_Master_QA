@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from FW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from FW.groupsearch_D import groupSearch_D
+from FW.Detail_D import detail_D
+from FW.SRL_D import SRL_D
 import time
 from selenium.webdriver.common.action_chains import ActionChains
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
@@ -36,7 +36,7 @@ HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class Test_HP_C(unittest.TestCase):
 

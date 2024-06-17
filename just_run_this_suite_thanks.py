@@ -1,4 +1,4 @@
-from FW_Automation_Local_Deploy_PyCharm.starter_local import *
+from FW.starter_local import *
 
 if __name__ == '__main__':
 

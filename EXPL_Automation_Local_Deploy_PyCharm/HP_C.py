@@ -45,7 +45,7 @@ HPzlutakLetniPrazdninyXpath = "//span[contains(text(), 'Wakacje 2024')]"
 zlutakPokracovatButtonXpathStep3 ="(//span[contains(text(),'Kontynuuj')])[3]"
 zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Rodzina 2+1')]"
 zlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potwierdź i wyszukaj')]"
-from FW_Automation_Local_Deploy_PyCharm.HP_C import hp_zlutak_to_SRL
+from FW.HP_C import hp_zlutak_to_SRL
 
 class Test_HP_C(unittest.TestCase):
     def setUp(self):

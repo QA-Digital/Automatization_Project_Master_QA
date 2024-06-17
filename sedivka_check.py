@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from FW.to_import import acceptConsent
 from selenium.common.exceptions import NoSuchElementException
 
 # sedivkaXpathFw = "//*[@class='f_box h-full flex flex-col']"

@@ -1,12 +1,12 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,  URL,  setUp, tearDown
+from FW.to_import import acceptConsent,  URL,  setUp, tearDown
 import time
 import unittest
 from selenium.webdriver import ActionChains
 import requests
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestDovolena_D(unittest.TestCase):
 

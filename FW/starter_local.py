@@ -1,22 +1,22 @@
-from FW_Automation_Local_Deploy_PyCharm.pobocky import *
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import *
-from FW_Automation_Local_Deploy_PyCharm.Detail_C import *
-from FW_Automation_Local_Deploy_PyCharm.DetskeKluby_D import *
-from FW_Automation_Local_Deploy_PyCharm.dovolena_D import *
-from FW_Automation_Local_Deploy_PyCharm.FM_D import *
-from FW_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from FW_Automation_Local_Deploy_PyCharm.HP_D import *
-from FW_Automation_Local_Deploy_PyCharm.LM_D import *
-from FW_Automation_Local_Deploy_PyCharm.poznavacky import *
-from FW_Automation_Local_Deploy_PyCharm.SDO_C import *
-from FW_Automation_Local_Deploy_PyCharm.SRL_C import *
-from FW_Automation_Local_Deploy_PyCharm.SRL_D import *
-from FW_Automation_Local_Deploy_PyCharm.HP_C import *
+from FW.pobocky import *
+from FW.Detail_D import *
+from FW.Detail_C import *
+from FW.DetskeKluby_D import *
+from FW.dovolena_D import *
+from FW.FM_D import *
+from FW.fulltext_C import *
+from FW.groupsearch_D import *
+from FW.HP_D import *
+from FW.LM_D import *
+from FW.poznavacky import *
+from FW.SDO_C import *
+from FW.SRL_C import *
+from FW.SRL_D import *
+from FW.HP_C import *
 #import HtmlTestRunner
 #import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
-from FW_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
-from FW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
+from FW.SRL_results_comparer import *
+from FW.darkove_poukazy import *
 
 def suite_FW_full():
     suite = unittest.TestSuite()

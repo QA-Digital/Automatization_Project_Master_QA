@@ -30,7 +30,7 @@ obrazekZajimavaMistaXpath ="//*[@class='shadow-lg transition-shadow rounded-md o
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from FW.to_import import acceptConsent
 
 
 URL = "https://www.fischer.cz/arabske-emiraty/arabske-emiraty/dubaj/grand-hyatt-dubai#/zajimava-mista"

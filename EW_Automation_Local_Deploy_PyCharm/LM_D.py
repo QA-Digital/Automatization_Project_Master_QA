@@ -4,7 +4,7 @@ from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmai
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
-from FW_Automation_Local_Deploy_PyCharm.FM_D import LM_FM_vypis_rozbalit_zajezd_check
+from FW.FM_D import LM_FM_vypis_rozbalit_zajezd_check
 
 class TestLM_D(unittest.TestCase):
     def setUp(self):

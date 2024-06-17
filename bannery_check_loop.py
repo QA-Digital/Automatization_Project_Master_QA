@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from FW.to_import import acceptConsent
 import smtplib
 from email.mime.text import MIMEText
 from to_import_secret_master import emailPass

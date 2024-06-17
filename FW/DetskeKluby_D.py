@@ -1,4 +1,4 @@
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_kluby, setUp, tearDown, generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL_kluby, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 import pyautogui as p
 import time
@@ -9,11 +9,11 @@ p.FAILSAFE = False
 
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestDetskeKluby_D(unittest.TestCase):
 

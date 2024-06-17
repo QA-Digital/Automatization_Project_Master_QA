@@ -4,7 +4,7 @@ from KTGSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_g
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from FW.groupsearch_D import groupSearch_D
 
 
 

@@ -1,8 +1,8 @@
 from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown
-from FW_Automation_Local_Deploy_PyCharm.to_import import generalDriverWaitImplicit
+from FW.to_import import generalDriverWaitImplicit
 import time
 import unittest
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
+from FW.Detail_D import detail_D
 from generalized_test_functions import *
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"

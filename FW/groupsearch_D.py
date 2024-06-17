@@ -2,7 +2,7 @@ import time
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_groupsearch, setUp, tearDown,generalDriverWaitImplicit
+from FW.to_import import acceptConsent, URL_groupsearch, setUp, tearDown,generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -65,7 +65,7 @@ def groupSearch_D(self, driver):
     assert srlItems[0].is_displayed() == True
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class Test_Groupsearch_D(unittest.TestCase):
 

@@ -2,23 +2,23 @@ import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 # Import the necessary modules and test suite functions from your script
-from FW_Automation_Local_Deploy_PyCharm.pobocky import *
-from FW_Automation_Local_Deploy_PyCharm.Detail_D import *
-from FW_Automation_Local_Deploy_PyCharm.Detail_C import *
-from FW_Automation_Local_Deploy_PyCharm.DetskeKluby_D import *
-from FW_Automation_Local_Deploy_PyCharm.dovolena_D import *
-from FW_Automation_Local_Deploy_PyCharm.FM_D import *
-from FW_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from FW_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from FW_Automation_Local_Deploy_PyCharm.HP_D import *
-from FW_Automation_Local_Deploy_PyCharm.LM_D import *
-from FW_Automation_Local_Deploy_PyCharm.poznavacky import *
-from FW_Automation_Local_Deploy_PyCharm.SDO_C import *
-from FW_Automation_Local_Deploy_PyCharm.SRL_C import *
-from FW_Automation_Local_Deploy_PyCharm.SRL_D import *
-from FW_Automation_Local_Deploy_PyCharm.HP_C import *
-from FW_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
-from FW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
+from FW.pobocky import *
+from FW.Detail_D import *
+from FW.Detail_C import *
+from FW.DetskeKluby_D import *
+from FW.dovolena_D import *
+from FW.FM_D import *
+from FW.fulltext_C import *
+from FW.groupsearch_D import *
+from FW.HP_D import *
+from FW.LM_D import *
+from FW.poznavacky import *
+from FW.SDO_C import *
+from FW.SRL_C import *
+from FW.SRL_D import *
+from FW.HP_C import *
+from FW.SRL_results_comparer import *
+from FW.darkove_poukazy import *
 from starter_master_browserstack import runner_tests_generalized
 
 # Define the test suite

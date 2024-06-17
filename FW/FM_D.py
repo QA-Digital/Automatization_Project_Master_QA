@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_fmExotika, sendEmail, setUp, tearDown
+from FW.to_import import acceptConsent, URL_fmExotika, sendEmail, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -45,9 +45,9 @@ def LM_FM_vypis_rozbalit_zajezd_check(self, driver):
 
 
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
-from FW_Automation_Local_Deploy_PyCharm.to_import import URL_local
+from FW.to_import import URL_local
 
 class TestFMexotika_D(unittest.TestCase):
 
