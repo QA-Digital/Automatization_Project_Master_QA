@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from EW.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -35,7 +35,14 @@ zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
 
 
+from FW.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -55,7 +62,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
         acceptConsent(driver)

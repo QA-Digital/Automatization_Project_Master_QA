@@ -1,13 +1,20 @@
 import time
 
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_kluby, setUp, tearDown
+from EW.to_import import acceptConsent, URL_kluby, setUp, tearDown
 import unittest
 import pyautogui as p
 p.FAILSAFE = False
 
 
 
+from FW.to_import import URL_local
 class TestDetskeKluby_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -17,7 +24,8 @@ class TestDetskeKluby_D(unittest.TestCase):
 
     def test_kluby_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_kluby)
+        URL_kluby_lp = f"{self.URL}{URL_kluby}"
+        self.driver.get(URL_kluby_lp)
         time.sleep(4)
         acceptConsent(self.driver)
 

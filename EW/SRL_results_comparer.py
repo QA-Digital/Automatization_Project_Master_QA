@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW_Automation_Local_Deploy_PyCharm.to_import import URL, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
+from EW.to_import import URL, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
-from EW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from EW.SRL_D import SRL_D
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 
 URL_public_prod = "https://eximtours.cz"
@@ -80,7 +80,14 @@ URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_
                     URL_SRL_EW24, URL_SRL_EW25, URL_SRL_EW26, URL_SRL_EW27, URL_SRL_EW28, URL_SRL_EW29, URL_SRL_EW30, URL_SRL_EW31, URL_SRL_EW32 ]
 
 
+from FW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

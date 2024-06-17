@@ -1,14 +1,21 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown
+from EW.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 
 
+from FW.to_import import URL_local
 class TestFM_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -16,7 +23,8 @@ class TestFM_D(unittest.TestCase):
         tearDown(self)
 
     def test_FM_D(self):
-        self.driver.get(URL_FM)
+        URL_FM_lp = f"{self.URL}{URL_FM}"
+        self.driver.get(URL_FM_lp)
         wait = WebDriverWait(self.driver, 150)
         self.driver.maximize_window()
         time.sleep(2)

@@ -1,5 +1,5 @@
 from webdriver_manager.chrome import ChromeDriverManager
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
+from EW.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 from FW.pobocky import open_pobocka_box_to_detail_open_popup_navstevy
@@ -11,7 +11,14 @@ objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWind
 popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
 
 
+from FW.to_import import URL_local
 class TestPobocky_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -21,7 +28,8 @@ class TestPobocky_C(unittest.TestCase):
 
     def test_pobocky_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
 
         time.sleep(6)
         acceptConsent(self.driver)

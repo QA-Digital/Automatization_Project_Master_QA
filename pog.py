@@ -3,7 +3,7 @@ import time
 import requests
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
+from EW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
 #HPtopNabidkaXpath = "//*[@class='page-widget js-ajaxPlaceholder--widget fshr-widget f_tileGrid-item']"
 HPtopNabidkaXpath="//*[@class='js-ajaxPlaceholder--widgetContent']/a"
 

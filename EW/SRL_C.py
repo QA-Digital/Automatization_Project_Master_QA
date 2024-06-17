@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
+from EW.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
-from EW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from EW.SRL_D import SRL_D
 
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
@@ -14,7 +14,14 @@ sorterCheapXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejlevn�
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
 
+from FW.to_import import URL_local
 class Test_SRL_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
     def tearDown(self):
@@ -24,7 +31,8 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_sort_cheapest(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
 
         time.sleep(2)
         acceptConsent(self.driver)
@@ -239,7 +247,8 @@ class Test_SRL_C(unittest.TestCase):
         ## https://jira.fischer.cz/browse/FW-1704
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL_kuba_regres)
+        URL_SRL_kuba_regres_lp = f"{self.URL}{URL_SRL_kuba_regres}"
+        self.driver.get(URL_SRL_kuba_regres_lp)
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(5)

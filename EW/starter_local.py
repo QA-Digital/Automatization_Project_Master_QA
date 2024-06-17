@@ -1,22 +1,22 @@
-from EW_Automation_Local_Deploy_PyCharm.CovidInfo_D import *
-from EW_Automation_Local_Deploy_PyCharm.pobocky import *
-from EW_Automation_Local_Deploy_PyCharm.Detail_D import *
-from EW_Automation_Local_Deploy_PyCharm.Detail_C import *
-from EW_Automation_Local_Deploy_PyCharm.DetskeKluby_D import *
-from EW_Automation_Local_Deploy_PyCharm.FM_D import *
-from EW_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from EW_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from EW_Automation_Local_Deploy_PyCharm.HP_D import *
-from EW_Automation_Local_Deploy_PyCharm.LM_D import *
-from EW_Automation_Local_Deploy_PyCharm.poznavacky import *
-from EW_Automation_Local_Deploy_PyCharm.SDO_D import *
-from EW_Automation_Local_Deploy_PyCharm.SRL_C import *
-from EW_Automation_Local_Deploy_PyCharm.SRL_D import *
+from EW.CovidInfo_D import *
+from EW.pobocky import *
+from EW.Detail_D import *
+from EW.Detail_C import *
+from EW.DetskeKluby_D import *
+from EW.FM_D import *
+from EW.fulltext_C import *
+from EW.groupsearch_D import *
+from EW.HP_D import *
+from EW.LM_D import *
+from EW.poznavacky import *
+from EW.SDO_D import *
+from EW.SRL_C import *
+from EW.SRL_D import *
 #import HtmlTestRunner
 import HTMLTestRunner
-from EW_Automation_Local_Deploy_PyCharm.HP_C import *
-from EW_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
-from EW_Automation_Local_Deploy_PyCharm.darkove_poukazy import *
+from EW.HP_C import *
+from EW.SRL_results_comparer import *
+from EW.darkove_poukazy import *
 
 def suite_EW_full():
     suite = unittest.TestSuite()

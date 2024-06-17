@@ -44,5 +44,5 @@ def process_directory(directory):
 
 
 if __name__ == '__main__':
-    project_directory = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\FW_Automation_Local_Deploy_PyCharm'  # Update with your project path
+    project_directory = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EW_Automation_Local_Deploy_PyCharm'  # Update with your project path
     process_directory(project_directory)

@@ -1,13 +1,13 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 
-from EW_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
+from EW.Detail_D import detail_D
+from EW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from EW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from EW.groupsearch_D import groupSearch_D
 import time
-from EW_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from EW.SRL_D import SRL_D
 from FW.HP_C import hp_zlutak_to_SRL
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
@@ -56,7 +56,14 @@ def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
         assert letenekySRLresultsElements[pozice].is_displayed() == True
         pozice = pozice + 1
 
+from FW.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

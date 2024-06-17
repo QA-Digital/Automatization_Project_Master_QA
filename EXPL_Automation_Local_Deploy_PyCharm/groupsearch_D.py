@@ -3,7 +3,7 @@ import time
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_groupsearch, setUp, tearDown, generalDriverWaitImplicit
-from EW_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from EW.groupsearch_D import groupSearch_D
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 

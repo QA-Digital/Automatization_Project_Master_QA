@@ -27,11 +27,12 @@ def update_imports_in_directory(directory_path, old_project_name, new_project_na
 
 if __name__ == "__main__":
     # Set the path to your project directory
-    project_directory_path = r'/FW'
+    project_directory_path = r'/EW'  # Update with your project path
+
 
     # Old and new project names
-    old_project_name = 'FW'
-    new_project_name = 'FW'
+    old_project_name = 'EW'
+    new_project_name = 'EW'
 
     update_imports_in_directory(project_directory_path, old_project_name, new_project_name)
 

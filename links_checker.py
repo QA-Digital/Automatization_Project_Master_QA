@@ -2,7 +2,7 @@ import time
 import requests
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
-from EW_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from EW.to_import import acceptConsent
 
 
 URL = "https://eximpl.stg.dtweb.cz/"
