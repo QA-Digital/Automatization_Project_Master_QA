@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Suite Runner</title>
+    <script>
+        async function runTestSuite(url, suiteName) {
+            try {
+                const response = await fetch('http://localhost:5000/run_suite', { // Make sure this URL matches your Flask server's address
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        URL: url,
+                        suiteName: suiteName
+                    })
+                });
+                const result = await response.json();
+                alert(result.message);
+            } catch (error) {
+                alert('Error running test suite: ' + error);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Test Suite Runner</h1>
+    <button onclick="runTestSuite('https://www.fischer.cz/', 'FW Public web full suite')">Run FW Public Web Full Suite</button>
+</body>
+</html>
