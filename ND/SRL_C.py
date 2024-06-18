@@ -147,18 +147,18 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
 
     def test_SRL_map(self):
-        driver = self.driver
-        driver.maximize_window()
-        driver.get(URL_SRL_zima)
+        self.driver.maximize_window()
+        URL_SRL_zima_lp = f"{self.URL}{URL_SRL_zima}"
+        self.driver.get(URL_SRL_zima_lp)
         time.sleep(3)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(3)
         generalDriverWaitImplicit(self.driver)
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
+        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
         time.sleep(5)
 
-        generalized_map_test_click_on_pin_and_hotel_bubble(driver)
+        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
         time.sleep(5)
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
@@ -173,7 +173,8 @@ class Test_SRL_C_Zima(unittest.TestCase):
         x = 0  ##variable for taking the first hotel, starting at 0
         windowHandle = 1  ##variable for handling windows, gotta start on 1
         self.driver.maximize_window()
-        self.driver.get(URL_SRL_zima)
+        URL_SRL_zima_lp = f"{self.URL}{URL_SRL_zima}"
+        self.driver.get(URL_SRL_zima_lp)
         wait = WebDriverWait(self.driver, 25)
         time.sleep(2)
         acceptConsent(self.driver)
