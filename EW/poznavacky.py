@@ -22,16 +22,15 @@ class TestPoznavacky_D(unittest.TestCase):
         tearDown(self)
 
     def test_poznavacky_all_URL_check(self):
-        driver = self.driver
-        driver.maximize_window()
+        self.driver.maximize_window()
         URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
-        driver.get(URL_poznavacky_lp)
+        self.driver.get(URL_poznavacky_lp)
         time.sleep(4)
 
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(8)
         gridItemXpath = "//*[@class='f_tileGrid-item']/a"
-        gridItemElements = driver.find_elements_by_xpath(gridItemXpath)
+        gridItemElements = self.driver.find_elements_by_xpath(gridItemXpath)
         # print(URL_poznavaciho_hotelu)
         linksToCheck_List = []
         pozice = 0
@@ -42,13 +41,12 @@ class TestPoznavacky_D(unittest.TestCase):
             pozice = pozice + 1
         print(linksToCheck_List)
 
-
-
         generalized_list_of_url_checker(linksToCheck_List)
 
     def test_poznavacky_okruzni_D(self):
             self.driver.maximize_window()
-            self.driver.get(URL_poznavacky)
+            URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+            self.driver.get(URL_poznavacky_lp)
             time.sleep(2)
             acceptConsent(self.driver)
 
@@ -188,7 +186,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
     def test_poznavacky_C(self):
         self.driver.maximize_window()
-        self.driver.get(URL_poznavacky)
+        URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+        self.driver.get(URL_poznavacky_lp)
         time.sleep(1)
 
         acceptConsent(self.driver)
