@@ -1,11 +1,18 @@
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_kluby, setUp, tearDown
+from FWSK.to_import import acceptConsent, URL_kluby, setUp, tearDown
 import unittest
 import pyautogui as p
 p.FAILSAFE = False
 
 
 
+from FWSK.to_import import URL_local
 class TestDetskeKluby_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -14,7 +21,8 @@ class TestDetskeKluby_D(unittest.TestCase):
 
 
     def test_kluby_D(self):
-        self.driver.get(URL_kluby)
+        URL_kluby_lp = f"{self.URL}{URL_kluby}"
+        self.driver.get(URL_kluby_lp)
         acceptConsent(self.driver)
         self.driver.maximize_window()
         benefitItem = self.driver.find_elements_by_xpath("//*[@class='f_benefit-item splide__slide']")

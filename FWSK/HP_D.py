@@ -1,12 +1,19 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown
+from FWSK.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 bannerXpath = "//*[@class='f_teaser-item']"
+from FWSK.to_import import URL_local
 class TestHP_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

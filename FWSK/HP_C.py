@@ -1,9 +1,9 @@
 from selenium.webdriver.support.wait import WebDriverWait
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown
+from FWSK.to_import import acceptConsent, URL, setUp, tearDown
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from FWSK_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
-from FWSK_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from FWSK.groupsearch_D import groupSearch_D
+from FWSK.SRL_D import SRL_D
 import time
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 
@@ -48,7 +48,14 @@ def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatB
     wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledat))).click()
     time.sleep(4)
 
+from FWSK.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

@@ -1,9 +1,16 @@
 from webdriver_manager.chrome import ChromeDriverManager
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
+from FWSK.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 
+from FWSK.to_import import URL_local
 class TestPobocky_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -15,7 +22,8 @@ class TestPobocky_D(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(0.5)
 
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
         acceptConsent(self.driver)
         mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
 

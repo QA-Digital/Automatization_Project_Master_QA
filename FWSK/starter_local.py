@@ -1,22 +1,22 @@
-from FWSK_Automation_Local_Deploy_PyCharm.CovidInfo_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.pobocky import *
-from FWSK_Automation_Local_Deploy_PyCharm.Detail_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.Detail_C import *
-from FWSK_Automation_Local_Deploy_PyCharm.DetskeKluby_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.dovolena_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.FM_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from FWSK_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.HP_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.LM_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.poznavacky import *
-from FWSK_Automation_Local_Deploy_PyCharm.SDO_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.SRL_C import *
-from FWSK_Automation_Local_Deploy_PyCharm.SRL_D import *
-from FWSK_Automation_Local_Deploy_PyCharm.HP_C import *
+from FWSK.CovidInfo_D import *
+from FWSK.pobocky import *
+from FWSK.Detail_D import *
+from FWSK.Detail_C import *
+from FWSK.DetskeKluby_D import *
+from FWSK.dovolena_D import *
+from FWSK.FM_D import *
+from FWSK.fulltext_C import *
+from FWSK.groupsearch_D import *
+from FWSK.HP_D import *
+from FWSK.LM_D import *
+from FWSK.poznavacky import *
+from FWSK.SDO_D import *
+from FWSK.SRL_C import *
+from FWSK.SRL_D import *
+from FWSK.HP_C import *
 import HtmlTestRunner
 import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
-from FWSK_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from FWSK.SRL_results_comparer import *
 
 def suite_FWSK_full():
     suite = unittest.TestSuite()

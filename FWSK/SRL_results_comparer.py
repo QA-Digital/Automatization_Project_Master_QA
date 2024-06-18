@@ -1,4 +1,4 @@
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import URL, setUp, tearDown
+from FWSK.to_import import URL, setUp, tearDown
 import unittest
 
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
@@ -33,7 +33,14 @@ URL_SRLs_list_FWSK = [URL_SRL_FWSK1, URL_SRL_FWSK2, URL_SRL_FWSK3, URL_SRL_FWSK4
 
 
 
+from FWSK.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

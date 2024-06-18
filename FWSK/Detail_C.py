@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
+from FWSK.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
 import time
 import unittest
 from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, \
@@ -31,7 +31,14 @@ dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
 dopravaBratislavaXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='1837']"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
+from FWSK.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -51,7 +58,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_fotka(self):
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         acceptConsent(self.driver)
 

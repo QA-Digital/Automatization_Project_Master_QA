@@ -1,5 +1,5 @@
 import time
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
+from FWSK.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 
 imgsXpath = "//*[@class='f_tile-image-content']"
@@ -43,7 +43,14 @@ def poznavacky_check_D(self, driver):
         a = a + 1
         print("big grid ture")
 
+from FWSK.to_import import URL_local
 class TestPoznavacky_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -51,26 +58,30 @@ class TestPoznavacky_D(unittest.TestCase):
         tearDown(self)
 
     def test_poznavacky_okruzni_D(self):
-            self.driver.get(URL_poznavacky)
+        URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+            self.driver.get(URL_poznavacky_lp)
 
             acceptConsent(self.driver)
             poznavacky_check_D(self, self.driver)
             self.test_passed = True
 
     def test_poznavacky_zazitky_D(self):
-        self.driver.get(URL_poznavacky_zazitky)
+        URL_poznavacky_zazitky_lp = f"{self.URL}{URL_poznavacky_zazitky}"
+        self.driver.get(URL_poznavacky_zazitky_lp)
 
         acceptConsent(self.driver)
         poznavacky_check_D(self, self.driver)
         self.test_passed = True
     def test_poznavacky_vikendy_D(self):
-        self.driver.get(URL_poznavacky_vikendy)
+        URL_poznavacky_vikendy_lp = f"{self.URL}{URL_poznavacky_vikendy}"
+        self.driver.get(URL_poznavacky_vikendy_lp)
         acceptConsent(self.driver)
         poznavacky_check_D(self, self.driver)
         self.test_passed = True
 
     def test_poznavacky_rodiny_D(self):
-        self.driver.get(URL_poznavacky_rodiny)
+        URL_poznavacky_rodiny_lp = f"{self.URL}{URL_poznavacky_rodiny}"
+        self.driver.get(URL_poznavacky_rodiny_lp)
         acceptConsent(self.driver)
         poznavacky_check_D(self, self.driver)
         self.test_passed = True

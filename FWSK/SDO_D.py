@@ -1,9 +1,16 @@
 from selenium.common.exceptions import NoSuchElementException
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
+from FWSK.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
 import time
 import unittest
 
+from FWSK.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -12,7 +19,8 @@ class TestSDO_D(unittest.TestCase):
 
     def test_SDO_D(self):
         driver = self.driver
-        self.driver.get(URL_stat)
+        URL_stat_lp = f"{self.URL}{URL_stat}"
+        self.driver.get(URL_stat_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)

@@ -1,11 +1,18 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_covidInfo, sendEmail, setUp, tearDown
+from FWSK.to_import import acceptConsent, closeExponeaBanner, URL_covidInfo, sendEmail, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
+from FWSK.to_import import URL_local
 class TestCovidInfo_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -14,7 +21,8 @@ class TestCovidInfo_D(unittest.TestCase):
 
     def test_covidInfo_D(self):
         wait = WebDriverWait(self.driver, 150000)
-        self.driver.get(URL_covidInfo)
+        URL_covidInfo_lp = f"{self.URL}{URL_covidInfo}"
+        self.driver.get(URL_covidInfo_lp)
         time.sleep(1)
         acceptConsent(self.driver)
         time.sleep(1)

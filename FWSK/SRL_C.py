@@ -1,4 +1,4 @@
-from FWSK_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown
+from FWSK.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown
 from FW.to_import import generalDriverWaitImplicit
 import time
 import unittest
@@ -11,7 +11,14 @@ sorterCheapXpath = "//*[contains(text(), 'od najlacnejšieho')]"
 sorterExpensiveXpath = "//*[contains(text(), 'od najdrahšieho')]"
 
 
+from FWSK.to_import import URL_local
 class Test_SRL_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -22,7 +29,8 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_sort_cheapest(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(2)
@@ -34,11 +42,11 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_sort_expensive(self):
-        driver = self.driver
-        driver.maximize_window()
-        driver.get(URL_SRL)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(2)
 
         typeOfSort = "expensive"
@@ -47,42 +55,42 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_map(self):
-        driver = self.driver
-        driver.maximize_window()
-        driver.get(URL_SRL)
-        wait = WebDriverWait(driver, 15)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
+        wait = WebDriverWait(self.driver, 15)
         time.sleep(2.3)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(8)
         generalDriverWaitImplicit(self.driver)
         # zobrazitNaMape = driver.find_element_by_xpath("//*[@class='f_bar-item f_bar-map']")
         # zobrazitNaMape.click()
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath)
+        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
         time.sleep(2)
-        generalized_map_test_click_on_pin_and_hotel_bubble(driver)
+        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
         time.sleep(2)
 
         ###EXECUTION DISPLAY TEST NA DETAIL HOTELU -> pokud se vyassertuje že jsem na detailu a vše je ok můžu předpokládat že mapka je OK
 
-        detail_D(self, driver)
+        detail_D(self, self.driver)
 
         self.test_passed = True
 
     def test_SRL_filtr_strava(self):
-        driver = self.driver
-        driver.maximize_window()
-        driver.get(URL_SRL)
+        self.driver.maximize_window()
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         time.sleep(2)
-        acceptConsent(driver)
+        acceptConsent(self.driver)
         time.sleep(2)
 
         stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All inclusive')]"
-        generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath)
+        generalized_SRL_choose_meal_filter_EW_like(self.driver, stravaMenuXpath)
 
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"
-        generalized_list_string_sorter(driver, stravaZajezduSrlXpath, assertion_strava)
+        generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava)
 
         self.test_passed = True
 
@@ -92,7 +100,8 @@ class Test_SRL_C(unittest.TestCase):
 
         #URL_SRL = "https://fischer.web2.dtweb.cz/vysledky-vyhledavani?d=1009|953|1108|592|611|610|612|1010|590|726|609|621|680|622|669|1086|1194|670|978|594|675|683&tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9&ka1=8&kc1=1&ac1=2"
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
         wait = WebDriverWait(self.driver, 25)
 
         time.sleep(2)
