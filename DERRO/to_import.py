@@ -39,17 +39,16 @@ def setUp(self):
 #URL = "https://dertourro.stg.dtweb.cz/"
 URL = "https://dertourro.web12.dtweb.cz/"
 URL_local = "https://dertourro.web12.dtweb.cz/"
-URL_pobocky = URL+"agentii-dertour"
-URL_detail = URL +"egipt/hurghada/makadi-bay/prima-life-makadi-spa?DS=2048&GIATA=77592&D=64421|64422|64426|64424|64423|64419|64420|64425&HID=9193&MT=5&NN=7&DF=2024-01-31|2024-04-01&RD=2024-02-11&DD=2024-02-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=2691&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14|15&TT=1&TTM=1&PID=HRG20068&DPR=DER%20Touristik%20RO%20ATCOM&ILM=0&IFM=0"
-URL_faq = URL+"faq"
-URL_lm = URL+"last-minute"
-URL_exotika = URL+"exotice"
-URL_allInclusive = URL+"all-inclusive"
-URL_stat = URL+"egipt"
-URL_groupsearch = URL+"rezultatele-cautarii?ac1=2&dd=2023-11-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-01-01&tt=1"
-URL_FT_results = URL+"rezultate-cautare?q="
-URL_SRL = URL+"rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1"
-
+URL_pobocky = "agentii-dertour"
+URL_detail = "egipt/hurghada/makadi-bay/prima-life-makadi-spa?DS=2048&GIATA=77592&D=64421|64422|64426|64424|64423|64419|64420|64425&HID=9193&MT=5&NN=7&DF=2024-01-31|2024-04-01&RD=2024-02-11&DD=2024-02-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=2691&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14|15&TT=1&TTM=1&PID=HRG20068&DPR=DER%20Touristik%20RO%20ATCOM&ILM=0&IFM=0"
+URL_faq = "faq"
+URL_lm = "last-minute"
+URL_exotika = "exotice"
+URL_allInclusive = "all-inclusive"
+URL_stat = "egipt"
+URL_groupsearch = "rezultatele-cautarii?ac1=2&dd=2023-11-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-01-01&tt=1"
+URL_FT_results = "rezultate-cautare?q="
+URL_SRL = "rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1"
 
 
 def tearDown(self):
