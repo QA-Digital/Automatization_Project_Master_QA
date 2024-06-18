@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from DERRO_Automation_Local_Deploy_PyCharm.to_import import URL, acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from DERRO.to_import import URL, acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -30,7 +30,14 @@ URL_SRL_DERRO20 = "/rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260
 
 URL_SRL_list_DERRO = [URL_SRL_DERRO1, URL_SRL_DERRO2, URL_SRL_DERRO3, URL_SRL_DERRO4, URL_SRL_DERRO5, URL_SRL_DERRO6, URL_SRL_DERRO7, URL_SRL_DERRO8, URL_SRL_DERRO9, URL_SRL_DERRO10, URL_SRL_DERRO11, URL_SRL_DERRO12, URL_SRL_DERRO13, URL_SRL_DERRO14, URL_SRL_DERRO15, URL_SRL_DERRO16, URL_SRL_DERRO17, URL_SRL_DERRO18, URL_SRL_DERRO19, URL_SRL_DERRO20]
 
+from DERRO.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

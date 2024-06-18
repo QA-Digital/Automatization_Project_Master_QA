@@ -5,7 +5,7 @@ def add_init_method_to_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
-    import_statement = 'from EW.to_import import URL_local\n'
+    import_statement = 'from DERRO.to_import import URL_local\n'
     init_method = [
         '    URL = URL_local  # Default value\n',
         '    def __init__(self, methodName="runTest", URL=None):\n',
@@ -47,5 +47,5 @@ def process_directory(directory):
                 print(f'Updated {file_path}')
 
 if __name__ == '__main__':
-    project_directory = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EW_Automation_Local_Deploy_PyCharm'  # Update with your project path
+    project_directory = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\DERRO_Automation_Local_Deploy_PyCharm'  # Update with your project path
     process_directory(project_directory)

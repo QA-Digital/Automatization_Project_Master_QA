@@ -1,17 +1,17 @@
-from DERRO_Automation_Local_Deploy_PyCharm.pobocky import *
-from DERRO_Automation_Local_Deploy_PyCharm.Detail_D import *
-from DERRO_Automation_Local_Deploy_PyCharm.Detail_C import *
-from DERRO_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from DERRO_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from DERRO_Automation_Local_Deploy_PyCharm.HP_C import *
-from DERRO_Automation_Local_Deploy_PyCharm.HP_D import *
-from DERRO_Automation_Local_Deploy_PyCharm.LM_D import *
-from DERRO_Automation_Local_Deploy_PyCharm.SDO_D import *
-from DERRO_Automation_Local_Deploy_PyCharm.SRL_C import *
-from DERRO_Automation_Local_Deploy_PyCharm.SRL_D import *
+from DERRO.pobocky import *
+from DERRO.Detail_D import *
+from DERRO.Detail_C import *
+from DERRO.fulltext_C import *
+from DERRO.groupsearch_D import *
+from DERRO.HP_C import *
+from DERRO.HP_D import *
+from DERRO.LM_D import *
+from DERRO.SDO_D import *
+from DERRO.SRL_C import *
+from DERRO.SRL_D import *
 #import HtmlTestRunner
 import HTMLTestRunner
-from DERRO_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from DERRO.SRL_results_comparer import *
 
 def suite_DERRO_full():
     suite = unittest.TestSuite()

@@ -1,13 +1,13 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
-from DERRO_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit, sendEmail
+from DERRO.Detail_D import detail_D
+from DERRO.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit, sendEmail
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from DERRO_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from DERRO.groupsearch_D import groupSearch_D
 import time
-from DERRO_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from DERRO.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 
 URL_deploying_web = URL
@@ -32,7 +32,14 @@ VyletyDubai = "(//span[contains(text(),'Descopera')])[6]"
 dlazdiceXpath = "//*[@class='f_searchResult-content'])"
 
 
+from DERRO.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

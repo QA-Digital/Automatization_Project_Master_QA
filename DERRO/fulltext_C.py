@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
-from DERRO_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from DERRO.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
@@ -10,7 +10,14 @@ querySDO = ["Grecia", "Turcia", "Egipt", "Oman", "Maldive", "Dubai", "Mexic", "C
 queryHotely = ["La Rosa Waves", "Xoria Deluxe", "Beach Resort Salalah", "RIU Plaza Panama", "Cora Cora Maldives", "Bahia Principe Luxury Aumal"]
 queryList = querySDO+queryHotely
 
+from DERRO.to_import import URL_local
 class Test_Fulltext_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
