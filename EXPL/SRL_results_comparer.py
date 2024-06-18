@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import URL, acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from EXPL.to_import import URL, acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -30,7 +30,14 @@ URL_SRL_EXPL20 = "/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-03-01&ds=0&ifm=0
 
 URL_SRL_list_EXPL = [URL_SRL_EXPL1, URL_SRL_EXPL2, URL_SRL_EXPL3, URL_SRL_EXPL4, URL_SRL_EXPL5, URL_SRL_EXPL6, URL_SRL_EXPL7, URL_SRL_EXPL8, URL_SRL_EXPL9, URL_SRL_EXPL10, URL_SRL_EXPL11, URL_SRL_EXPL12, URL_SRL_EXPL13, URL_SRL_EXPL14, URL_SRL_EXPL15, URL_SRL_EXPL16, URL_SRL_EXPL17, URL_SRL_EXPL18, URL_SRL_EXPL19, URL_SRL_EXPL20]
 
+from EXPL.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown, generalDriverWaitImplicit
+from EXPL.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown, generalDriverWaitImplicit
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import time
@@ -101,7 +101,14 @@ def SRL_D(self, driver):
         pass
 
 
+from EXPL.to_import import URL_local
 class TestSRL_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -111,7 +118,8 @@ class TestSRL_D(unittest.TestCase):
     def test_SRL_D(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL)
+        URL_SRL_lp = f"{self.URL}{URL_SRL}"
+        self.driver.get(URL_SRL_lp)
 
         time.sleep(0.44)
         acceptConsent(self.driver)

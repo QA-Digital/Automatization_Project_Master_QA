@@ -1,16 +1,16 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
-from EXPL_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, acceptLetak, URL, URL_vlastniDoprava, setUp, tearDown,URL_leto, URL_zima, URL_egzotyka, URL_allInclusive, generalDriverWaitImplicit
+from EXPL.Detail_D import detail_D
+from EXPL.to_import import acceptConsent, acceptLetak, URL, URL_vlastniDoprava, setUp, tearDown,URL_leto, URL_zima, URL_egzotyka, URL_allInclusive, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from EXPL_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from EXPL.groupsearch_D import groupSearch_D
 import time
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from EXPL.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 #from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,URL_detail, sendEmail
+from EXPL.to_import import acceptConsent,URL_detail, sendEmail
 
 URL_deploying_web = URL
 URL_prod_public = "https://www.exim.pl/"
@@ -47,7 +47,14 @@ zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Rodzina 2+1')]"
 zlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potwierdź i wyszukaj')]"
 from FW.HP_C import hp_zlutak_to_SRL
 
+from EXPL.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -239,7 +246,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_letoDestination_D(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_leto)
+        URL_leto_lp = f"{self.URL}{URL_leto}"
+        self.driver.get(URL_leto_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
@@ -270,7 +278,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_zimaDestination_D(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_zima)
+        URL_zima_lp = f"{self.URL}{URL_zima}"
+        self.driver.get(URL_zima_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
@@ -301,7 +310,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_egzotykaDestination_D(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_egzotyka)
+        URL_egzotyka_lp = f"{self.URL}{URL_egzotyka}"
+        self.driver.get(URL_egzotyka_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
@@ -332,7 +342,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_allInclusiveDestination_D(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_allInclusive)
+        URL_allInclusive_lp = f"{self.URL}{URL_allInclusive}"
+        self.driver.get(URL_allInclusive_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
@@ -393,7 +404,8 @@ class Test_HP_C(unittest.TestCase):
 #
 #     def test_Homepage_bannery(self):
 #         self.driver.maximize_window()
-#         self.driver.get(URL_vlastniDoprava)
+        URL_vlastniDoprava_lp = f"{self.URL}{URL_vlastniDoprava}"
+#         self.driver.get(URL_vlastniDoprava_lp)
 #
 #         time.sleep(2)
 #         acceptConsent(self.driver)

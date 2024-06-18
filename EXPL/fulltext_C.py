@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
+from EXPL.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
 import unittest
 import requests
@@ -10,7 +10,14 @@ querySDO = ["Grecja", "Turcja", "Egipt", "Oman", "Malediwy", "Dubaj", "Bulgaria"
 queryHotely = ["Falcon hills", "Aprilis hotel", "Prima life makadi resort", "Myrto hotel", "Cocoon maldives", "Titanic palace"]
 queryList = querySDO+queryHotely
 
+from EXPL.to_import import URL_local
 class Test_Fulltext_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

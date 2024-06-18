@@ -1,17 +1,17 @@
-from EXPL_Automation_Local_Deploy_PyCharm.pobocky import *
-from EXPL_Automation_Local_Deploy_PyCharm.Detail_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.Detail_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.HP_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.HP_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.LM_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.SDO_D import *
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_C import *
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_D import *
+from EXPL.pobocky import *
+from EXPL.Detail_D import *
+from EXPL.Detail_C import *
+from EXPL.fulltext_C import *
+from EXPL.groupsearch_D import *
+from EXPL.HP_C import *
+from EXPL.HP_D import *
+from EXPL.LM_D import *
+from EXPL.SDO_D import *
+from EXPL.SRL_C import *
+from EXPL.SRL_D import *
 #import HtmlTestRunner
 import HTMLTestRunner
-from EXPL_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from EXPL.SRL_results_comparer import *
 
 def suite_EXPL_full():
     suite = unittest.TestSuite()

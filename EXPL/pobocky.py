@@ -1,5 +1,5 @@
 from webdriver_manager.chrome import ChromeDriverManager
-from EXPL_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
+from EXPL.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 
@@ -7,7 +7,14 @@ warszawaAnchorOblibeneVolbyXpath = "(//span[contains(text(),'Warszawa')])[1]"
 pobockaBoxXpath = "//*[@data-branch-id='519']"
 detailPobockyXpath = pobockaBoxXpath + "//*[contains(text(), 'Szczegóły oddziału')]"
 
+from EXPL.to_import import URL_local
 class TestPobocky_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -17,7 +24,8 @@ class TestPobocky_C(unittest.TestCase):
 
     def test_pobocky_D(self):
         self.driver.maximize_window()
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
 
         time.sleep(6)
         acceptConsent(self.driver)
