@@ -1,7 +1,7 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from ET.to_import import acceptConsent
 
 Rekapitulace_ZaplatitNyniXpath = "//*[@class='box box--invisible forDesktop']//*[@class='list-item']/a"
 

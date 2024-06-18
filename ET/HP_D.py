@@ -1,8 +1,8 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
-from ET_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
+from ET.Detail_D import detail_D
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent,sendEmail, URL, URL_LM, setUp, tearDown, generalDriverWaitImplicit
+from ET.to_import import acceptConsent,sendEmail, URL, URL_LM, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -11,7 +11,14 @@ HPbanneryXpath = "//*[@class='f_teaser-item']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
+from DERRO.to_import import URL_local
 class TestHP_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 

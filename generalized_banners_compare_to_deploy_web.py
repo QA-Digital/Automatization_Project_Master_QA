@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent
+from ET.to_import import acceptConsent
 #URL_prod_public = "https://www.fischer.cz/"
 #URL_deploying_web = "https://fischer.web1.dtweb.cz/"
 

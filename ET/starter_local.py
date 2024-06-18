@@ -1,16 +1,16 @@
-from ET_Automation_Local_Deploy_PyCharm.pobocky import *
-from ET_Automation_Local_Deploy_PyCharm.Detail_D import *
-from ET_Automation_Local_Deploy_PyCharm.Detail_C import *
-from ET_Automation_Local_Deploy_PyCharm.FM_D import *
-from ET_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from ET_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from ET_Automation_Local_Deploy_PyCharm.HP_C import *
-from ET_Automation_Local_Deploy_PyCharm.HP_D import *
-from ET_Automation_Local_Deploy_PyCharm.LM_D import *
-from ET_Automation_Local_Deploy_PyCharm.SDO_D import *
-from ET_Automation_Local_Deploy_PyCharm.SRL_C import *
-from ET_Automation_Local_Deploy_PyCharm.SRL_D import *
-from ET_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from ET.pobocky import *
+from ET.Detail_D import *
+from ET.Detail_C import *
+from ET.FM_D import *
+from ET.fulltext_C import *
+from ET.groupsearch_D import *
+from ET.HP_C import *
+from ET.HP_D import *
+from ET.LM_D import *
+from ET.SDO_D import *
+from ET.SRL_C import *
+from ET.SRL_D import *
+from ET.SRL_results_comparer import *
 #import HtmlTestRunner
 import HTMLTestRunner
 

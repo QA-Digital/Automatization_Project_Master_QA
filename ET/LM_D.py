@@ -1,11 +1,18 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ET_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_LM, setUp, tearDown, generalDriverWaitImplicit
+from ET.to_import import acceptConsent, sendEmail, URL_LM, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 
+from DERRO.to_import import URL_local
 class TestLM_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -14,7 +21,8 @@ class TestLM_D(unittest.TestCase):
 
     def test_HP_LMnabidky(self):
         wait = WebDriverWait(self.driver, 1500)
-        self.driver.get(URL_LM)
+        URL_LM_lp = f"{self.URL}{URL_LM}"
+        self.driver.get(URL_LM_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
