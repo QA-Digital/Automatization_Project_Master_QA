@@ -2,13 +2,13 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
 
-from ND_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL, URL_leto, URL_zima, setUp, tearDown, generalDriverWaitImplicit
+from ND.Detail_D import detail_D
+from ND.to_import import acceptConsent, sendEmail, URL, URL_leto, URL_zima, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
-from ND_Automation_Local_Deploy_PyCharm.groupsearch_D import groupSearch_D
+from ND.groupsearch_D import groupSearch_D
 import time
-from ND_Automation_Local_Deploy_PyCharm.SRL_D import SRL_D
+from ND.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 
@@ -31,7 +31,14 @@ HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
 
+from ND.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -81,7 +88,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_bannery_check_leto(self):
 
-        self.driver.get(URL_leto)
+        URL_leto_lp = f"{self.URL}{URL_leto}"
+        self.driver.get(URL_leto_lp)
         self.driver.maximize_window()
         wait = WebDriverWait(self.driver, 1500)
         time.sleep(2.5)
@@ -105,7 +113,8 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_bannery_check_zima(self):
 
-        self.driver.get(URL_zima)
+        URL_zima_lp = f"{self.URL}{URL_zima}"
+        self.driver.get(URL_zima_lp)
         self.driver.maximize_window()
         wait = WebDriverWait(self.driver, 1500)
         time.sleep(2.5)

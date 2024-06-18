@@ -28,12 +28,12 @@ def update_imports_in_directory(directory_path, old_project_name, new_project_na
 if __name__ == "__main__":
     # Set the path to your project directory
     #project_directory_path = r'/DERRO'  # Update with your project path
-    project_directory_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\ND_Automation_Local_Deploy_PyCharm'
+    project_directory_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EXPL_Automation_Local_Deploy_PyCharm'
 
 
     # Old and new project names
-    old_project_name = 'ND_Automation_Local_Deploy_PyCharm'
-    new_project_name = 'ET'
+    old_project_name = 'EXPL_Automation_Local_Deploy_PyCharm'
+    new_project_name = 'EXPL'
 
     update_imports_in_directory(project_directory_path, old_project_name, new_project_name)
 

@@ -39,28 +39,27 @@ def setUp(self):
 
 #URL = "https://nev-dama.web13.dtweb.cz/"
 URL = "https://nev-dama.stg.dtweb.cz/"
-#URL = "https://new.nev-dama.cz/"
+URL_local = "https://new.nev-dama.cz/"
+URL_pobocky = "/pobocky"
+URL_detail = "zima/rakousko/tyrolsko/silvretta-arena-ischgl-samnaun/appartementhaus-fliana?KEY=12432&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=4336&MT=-1&MMT=5|3|2|1|6&NN=6&DF=2024-03-15|2024-05-15&RD=2024-04-07&DD=2024-04-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=6&NNM=6|7|8&TT=3&TTM=3&PID=4336&DPR=NevDama&ILM=0&IFM=0"
+URL_faq = "/faq"
+URL_FT_results = "/hledani-vysledky?q="
+URL_LM = "/last-minute"
+URL_stat_zima = "/rakousko"
 
-URL_pobocky = URL +"/pobocky"
-URL_detail = URL + "zima/rakousko/tyrolsko/silvretta-arena-ischgl-samnaun/appartementhaus-fliana?KEY=12432&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=4336&MT=-1&MMT=5|3|2|1|6&NN=6&DF=2024-03-15|2024-05-15&RD=2024-04-07&DD=2024-04-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=6&NNM=6|7|8&TT=3&TTM=3&PID=4336&DPR=NevDama&ILM=0&IFM=0"
-URL_faq = URL + "/faq"
-URL_FT_results = URL +"/hledani-vysledky?q="
-URL_LM = URL + "/last-minute"
-URL_stat_zima = URL + "/rakousko"
 
 URL_zima = URL + "/zima"
-
 URL_SRL_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&d=85383|85385|85394|85407|85413|108815|85434|85436&dd=2024-04-01&nn=6&rd=2024-04-30&tt=3"
-URL_FM_zima = URL + "/first-minute"
+URL_FM_zima =  "/first-minute"
 URL_lm_zima = URL_zima + "/last-minute"
 URL_stat_zima = URL_zima + "/rakousko"
 URL_groupsearch_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&dd=2024-02-28&nn=6|7|8&rd=2024-04-29&tt=3"
 
 
-URL_leto = URL + "leto"
+URL_leto = "leto"
 
 URL_SRL_leto = URL_leto + "/vysledky-vyhledavani?d=108939|108938|108941|109497|108940|108942&dd=2024-08-31&nn=6|7|8&rd=2024-10-31&sortorder=1&tt=0"
-URL_FM_leto = URL + "/first-minute-leto"
+URL_FM_leto ="/first-minute-leto"
 URL_lm_leto = URL_leto + "/last-minute"
 URL_stat_leto = URL_leto + "/chorvatsko"
 URL_groupsearch_leto = URL_leto + "/vysledky-vyhledavani?ac1=2&dd=2024-08-31&nn=2|3|4|5|6|7|8|9&rd=2024-10-31&tt=0"

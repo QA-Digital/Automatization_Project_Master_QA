@@ -2,7 +2,7 @@ import time
 
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, URL_groupsearch_leto,URL_groupsearch_zima, setUp, tearDown, generalDriverWaitImplicit
+from ND.to_import import acceptConsent, URL_groupsearch_leto,URL_groupsearch_zima, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -63,7 +63,14 @@ def groupSearch_D(self, driver):
     assert srlItems[0].is_displayed() == True
 
 
+from ND.to_import import URL_local
 class Test_Groupsearch_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -73,7 +80,8 @@ class Test_Groupsearch_D(unittest.TestCase):
     def test_groupsearch_D_zima(self):
         driver = self.driver
         self.driver.maximize_window()
-        self.driver.get(URL_groupsearch_zima)
+        URL_groupsearch_zima_lp = f"{self.URL}{URL_groupsearch_zima}"
+        self.driver.get(URL_groupsearch_zima_lp)
         time.sleep(10)
         acceptConsent(self.driver)
         time.sleep(13)
@@ -85,7 +93,8 @@ class Test_Groupsearch_D(unittest.TestCase):
     def test_groupsearch_D_leto(self):
         driver = self.driver
         self.driver.maximize_window()
-        self.driver.get(URL_groupsearch_leto)
+        URL_groupsearch_leto_lp = f"{self.URL}{URL_groupsearch_leto}"
+        self.driver.get(URL_groupsearch_leto_lp)
         time.sleep(10)
         acceptConsent(self.driver)
         time.sleep(13)

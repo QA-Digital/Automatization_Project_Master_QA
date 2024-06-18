@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, closeExponeaBanner, URL_SRL_zima, URL_SRL_leto, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from ND.to_import import acceptConsent, closeExponeaBanner, URL_SRL_zima, URL_SRL_leto, sendEmail, setUp, tearDown, generalDriverWaitImplicit
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -13,7 +13,14 @@ sorterCheapXpath = "//*[@class='f_tabBar-item f_set--active']"
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 
 
+from ND.to_import import URL_local
 class Test_SRL_C_Zima(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
     def tearDown(self):
@@ -22,7 +29,8 @@ class Test_SRL_C_Zima(unittest.TestCase):
     def test_SRL_sort_cheapest(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL_zima)
+        URL_SRL_zima_lp = f"{self.URL}{URL_SRL_zima}"
+        self.driver.get(URL_SRL_zima_lp)
         wait = WebDriverWait(self.driver, 5)
 
         time.sleep(2)
@@ -81,7 +89,8 @@ class Test_SRL_C_Zima(unittest.TestCase):
     def test_SRL_sort_expensive(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_SRL_leto)
+        URL_SRL_leto_lp = f"{self.URL}{URL_SRL_leto}"
+        self.driver.get(URL_SRL_leto_lp)
         wait = WebDriverWait(self.driver, 5)
 
         time.sleep(2)

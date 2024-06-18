@@ -1,15 +1,22 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
-from ND_Automation_Local_Deploy_PyCharm.Detail_D import detail_D
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_LM, setUp, tearDown, generalDriverWaitImplicit
+from ND.Detail_D import detail_D
+from ND.to_import import acceptConsent, sendEmail, URL_LM, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 
 HPnextArrowXpath = "//*[@class='slick-list draggable']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
+from ND.to_import import URL_local
 class TestLM_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -18,7 +25,8 @@ class TestLM_D(unittest.TestCase):
 
     def test_HP_LMnabidky(self):
         wait = WebDriverWait(self.driver, 150)
-        self.driver.get(URL_LM)
+        URL_LM_lp = f"{self.URL}{URL_LM}"
+        self.driver.get(URL_LM_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)

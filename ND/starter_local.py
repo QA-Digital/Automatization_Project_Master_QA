@@ -1,16 +1,16 @@
-from ND_Automation_Local_Deploy_PyCharm.pobocky import *
-from ND_Automation_Local_Deploy_PyCharm.Detail_D import *
-from ND_Automation_Local_Deploy_PyCharm.Detail_C import *
-from ND_Automation_Local_Deploy_PyCharm.FM_D import *
-from ND_Automation_Local_Deploy_PyCharm.fulltext_C import *
-from ND_Automation_Local_Deploy_PyCharm.groupsearch_D import *
-from ND_Automation_Local_Deploy_PyCharm.HP_C import *
-from ND_Automation_Local_Deploy_PyCharm.HP_D import *
-from ND_Automation_Local_Deploy_PyCharm.LM_D import *
-from ND_Automation_Local_Deploy_PyCharm.SDO_D import *
-from ND_Automation_Local_Deploy_PyCharm.SRL_C import *
-from ND_Automation_Local_Deploy_PyCharm.SRL_D import *
-from ND_Automation_Local_Deploy_PyCharm.SRL_results_comparer import *
+from ND.pobocky import *
+from ND.Detail_D import *
+from ND.Detail_C import *
+from ND.FM_D import *
+from ND.fulltext_C import *
+from ND.groupsearch_D import *
+from ND.HP_C import *
+from ND.HP_D import *
+from ND.LM_D import *
+from ND.SDO_D import *
+from ND.SRL_C import *
+from ND.SRL_D import *
+from ND.SRL_results_comparer import *
 #import HtmlTestRunner
 import HTMLTestRunner
 

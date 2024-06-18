@@ -1,11 +1,18 @@
 from selenium.common.exceptions import NoSuchElementException
-from ND_Automation_Local_Deploy_PyCharm.to_import import acceptConsent, sendEmail, URL_stat_zima, URL_stat_leto, setUp, tearDown, generalDriverWaitImplicit
+from ND.to_import import acceptConsent, sendEmail, URL_stat_zima, URL_stat_leto, setUp, tearDown, generalDriverWaitImplicit
 import time
 import unittest
 from selenium.webdriver.common.action_chains import ActionChains
 
 
+from ND.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
+    URL = URL_local  # Default value
+    def __init__(self, methodName="runTest", URL=None):
+        super().__init__(methodName)
+        if URL:
+            self.URL = URL
+
     def setUp(self):
         setUp(self)
 
@@ -14,7 +21,8 @@ class TestSDO_D(unittest.TestCase):
 
     def test_SDO_D_zima(self):
         driver = self.driver
-        self.driver.get(URL_stat_zima)
+        URL_stat_zima_lp = f"{self.URL}{URL_stat_zima}"
+        self.driver.get(URL_stat_zima_lp)
         self.driver.maximize_window()
         time.sleep(5)
         acceptConsent(self.driver)
@@ -122,7 +130,8 @@ class TestSDO_D(unittest.TestCase):
 
     def test_SDO_D_leto(self):
         driver = self.driver
-        self.driver.get(URL_stat_leto)
+        URL_stat_leto_lp = f"{self.URL}{URL_stat_leto}"
+        self.driver.get(URL_stat_leto_lp)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
