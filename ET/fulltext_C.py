@@ -11,7 +11,7 @@ queryHotely = ["MAGIC BEACH BY AMARINA", "HAWAII DREAMS", "HAWAII RIVIERA", "VIL
                "PLAYAMAR", "HUVAFEN FUSHI MALDIVES", "MAXX ROYAL KEMER RESORT", "REGNUM CARYA",  "ETHNO BELEK"]
 queryList = querySDO+queryHotely
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class Test_Fulltext_C(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

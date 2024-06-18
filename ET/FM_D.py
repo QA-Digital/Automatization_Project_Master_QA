@@ -6,7 +6,7 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class Test_FM(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

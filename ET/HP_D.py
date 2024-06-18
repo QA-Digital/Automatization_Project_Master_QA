@@ -11,7 +11,7 @@ HPbanneryXpath = "//*[@class='f_teaser-item']"
 HPnextArrowXpath = "//*[@class='slick-next slick-arrow']"
 HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active']"
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class TestHP_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

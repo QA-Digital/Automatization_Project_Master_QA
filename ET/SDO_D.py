@@ -3,7 +3,7 @@ from ET.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown, ge
 import time
 import unittest
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

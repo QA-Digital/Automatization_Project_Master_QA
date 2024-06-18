@@ -61,7 +61,7 @@ def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatB
     wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledat))).click()
     time.sleep(4)
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

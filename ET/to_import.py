@@ -35,18 +35,19 @@ def setUp(self):
   self.test_passed = False
 
 
-URL = "https://etravel.web3.dtweb.cz/"
-#URL = "https://etravel.stg.dtweb.cz/"
-#URL = "https://www.etravel.cz/"
-URL_pobocky = URL +"/kontakty/nase-pobocky"
-URL_detail = URL + "/egypt/hurghada/hurghada/mirage-bay-resort-a-aqua-park-hurghada?DS=8192&GIATA=16351&D=64419|64420|64425|64422|64423&HID=5057&MT=5&RC=DR01&NN=7&DF=2024-08-01|2024-09-30&RD=2024-09-10&DD=2024-09-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312|4305|2682|4308|4309&TOM=4312|4305|2682|4308|4309&MNN=7&NNM=7|8|9|10|11|12|13|14&TT=1&TTM=1&PID=HRG90015&DPR=EXIM%20TOURS%20ATCOM&ILM=0&IFM=0"
-URL_faq = URL + "/dulezite-informace"
-URL_FT_results = URL +"/hledani-vysledky?q="
-URL_LM = URL + "/last-minute"
-URL_stat = URL + "/egypt"
-URL_SRL = URL +"/vysledky-vyhledavani?ac1=2&d=64419|64420|64425|64422|64423&dd=2024-08-01&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4309&tt=1"
-URL_FM = URL + "/first-minute"
-URL_groupsearch = URL + "/vysledky-vyhledavani?ac1=2&dd=2024-08-01&nn=7|8|9|10|11|12|13|14&rd=2024-09-29&to=4312|4305|2682|4308|4309&tt=1"
+#URL = "https://etravel.web3.dtweb.cz/"
+URL = "https://etravel.stg.dtweb.cz/"
+URL_local = "https://www.etravel.cz/"
+URL_pobocky = "/kontakty/nase-pobocky"
+URL_detail = "/egypt/hurghada/hurghada/mirage-bay-resort-a-aqua-park-hurghada?DS=8192&GIATA=16351&D=64419|64420|64425|64422|64423&HID=5057&MT=5&RC=DR01&NN=7&DF=2024-08-01|2024-09-30&RD=2024-09-10&DD=2024-09-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312|4305|2682|4308|4309&TOM=4312|4305|2682|4308|4309&MNN=7&NNM=7|8|9|10|11|12|13|14&TT=1&TTM=1&PID=HRG90015&DPR=EXIM%20TOURS%20ATCOM&ILM=0&IFM=0"
+URL_faq = "/dulezite-informace"
+URL_FT_results = "/hledani-vysledky?q="
+URL_LM = "/last-minute"
+URL_stat = "/egypt"
+URL_SRL = "/vysledky-vyhledavani?ac1=2&d=64419|64420|64425|64422|64423&dd=2024-08-01&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4309&tt=1"
+URL_FM = "/first-minute"
+URL_groupsearch = "/vysledky-vyhledavani?ac1=2&dd=2024-08-01&nn=7|8|9|10|11|12|13|14&rd=2024-09-29&to=4312|4305|2682|4308|4309&tt=1"
+
 
 
 def tearDown(self):

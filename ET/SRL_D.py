@@ -102,7 +102,7 @@ def SRL_D(self, driver):
         pass
 
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class TestSRL_D(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

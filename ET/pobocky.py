@@ -10,7 +10,7 @@ detailPobockyXpath = "(//li)[37]"
 objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWindow--show js-gtm-eventClick']"
 popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class TestPobocky_C(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):

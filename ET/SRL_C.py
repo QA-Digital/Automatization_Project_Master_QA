@@ -13,7 +13,7 @@ sorterCheapXpath = "//span[@class='f_tabBar-item f_set--active']"
 sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]"
 totalPriceXpath = "//*[@class='price-amount']"
 
-from DERRO.to_import import URL_local
+from ET.to_import import URL_local
 class Test_SRL_C(unittest.TestCase):
     URL = URL_local  # Default value
     def __init__(self, methodName="runTest", URL=None):
