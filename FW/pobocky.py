@@ -18,15 +18,16 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
 
     pobockaBoxElement = driver.find_element_by_xpath(pobockaBoxXpath)
     pobockaBoxElement.click()
-
+    time.sleep(2)
     detailPobockyElement = driver.find_element_by_xpath(detailPobockyXpath)
     driver.execute_script("arguments[0].scrollIntoView();", detailPobockyElement)
     detailPobockyElement.click()
-    time.sleep(2)
+    time.sleep(3.5)
     objednatSchuzkuBtnElement = driver.find_element_by_xpath(objednatSchuzkuBtnXpath)
-    objednatSchuzkuBtnElement.click()
+    #objednatSchuzkuBtnElement.click()
+    driver.execute_script("arguments[0].click();", objednatSchuzkuBtnElement)
 
-    time.sleep(2)
+    time.sleep(2.5)
 
     popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
     print("Popup formulář je zobrazený:    ")
