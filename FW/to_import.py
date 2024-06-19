@@ -63,7 +63,7 @@ def setUp(self):
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
-URL_local = "https://fischer.stg.dtweb.cz/"
+URL_local = "https://www.fischer.cz/"
 URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
