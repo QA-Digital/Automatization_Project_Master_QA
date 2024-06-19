@@ -38,19 +38,19 @@ def setUp(self):
 
 
 #URL = "https://nev-dama.web13.dtweb.cz/"
-URL = "https://nev-dama.stg.dtweb.cz/"
+#URL = "https://nev-dama.stg.dtweb.cz/"
+URL = "https://new.nev-dama.cz/"
 URL_local = "https://new.nev-dama.cz/"
 URL_pobocky = "/pobocky"
-URL_detail = "zima/rakousko/tyrolsko/silvretta-arena-ischgl-samnaun/appartementhaus-fliana?KEY=12432&DS=8&D=85383|85385|85394|85407|85413|108815|85434|85436&HID=4336&MT=-1&MMT=5|3|2|1|6&NN=6&DF=2024-03-15|2024-05-15&RD=2024-04-07&DD=2024-04-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&MNN=6&NNM=6|7|8&TT=3&TTM=3&PID=4336&DPR=NevDama&ILM=0&IFM=0"
+URL_detail = "leto/chorvatsko/severni-dalmacie/vodice/hotel-punta?KEY=41112&DS=8&D=108939%7C109497%7C108940%7C108938%7C108941&HID=11527&PF=0&PT=200000&MT=-1&MMT=5%7C3%7C2%7C1%7C6&DI=FB_&NN=4&DF=2024-10-01%7C2024-10-31&RD=2024-10-09&DD=2024-10-05&ERM=0&AC1=2&KC1=0&IC1=0&DP=4333&TOM=4333&MNN=4&NNM=4%7C5%7C6%7C7&TT=3&TTM=0&PID=11527&DPR=NevDama&ILM=0&IFM=0"
 URL_faq = "/faq"
-URL_FT_results = "/hledani-vysledky?q="
-URL_LM = "/last-minute"
-URL_stat_zima = "/rakousko"
+URL_FT_results = URL +"/hledani-vysledky?q="
+URL_LM = "/last-minute-leto"
 
 
-URL_zima = URL + "/zima"
+URL_zima = "zima"
 URL_SRL_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&d=85383|85385|85394|85407|85413|108815|85434|85436&dd=2024-04-01&nn=6&rd=2024-04-30&tt=3"
-URL_FM_zima =  "/first-minute"
+URL_FM_zima = "/first-minute"
 URL_lm_zima = URL_zima + "/last-minute"
 URL_stat_zima = URL_zima + "/rakousko"
 URL_groupsearch_zima = URL_zima + "/vysledky-vyhledavani?ac1=2&dd=2024-02-28&nn=6|7|8&rd=2024-04-29&tt=3"

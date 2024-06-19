@@ -73,13 +73,14 @@ class TestDetailHotelu_C(unittest.TestCase):
     def test_detail_fotka(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         acceptConsent(self.driver)
 
         time.sleep(5)
         imageDetail = self.driver.find_element_by_xpath(
-            "//swiper-slide[@aria-label='1 / 16']//img")
+            "//swiper-slide[@aria-label='1 / 14']//img")
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)

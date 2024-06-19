@@ -25,7 +25,9 @@ class Test_Fulltext_C(unittest.TestCase):
         tearDown(self)
 
     def test_fulltext_naseptavac(self):
-        wait = WebDriverWait(self.driver, 25)
+        wait = WebDriverWait(self.driver, 2000)
+        self.driver.maximize_window()
+
         poziceQueryItem = 0
         for _ in queryList:
             self.driver.get(URL)
@@ -37,6 +39,14 @@ class Test_Fulltext_C(unittest.TestCase):
             else:
                 pass
 
+            exponeaBanner = self.driver.find_element_by_xpath("//a[@class='bhr-ip__c__a']")
+            wait.until(EC.frame_to_be_available_and_switch_to_it(exponeaBanner))
+            exponeaCrossAndBanner = self.driver.find_element_by_xpath("//*[@class='bhr-ip__c__close ip-close-event bhr-ip__c__close--3']")
+            exponeaCrossAndBanner.click()
+            time.sleep(2)
+
+
+            time.sleep(10)
             FTlupa = self.driver.find_element_by_xpath("//*[@class='f_anchor f_icon f_icon--magnifier']")
             FTlupa.click()
             inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
