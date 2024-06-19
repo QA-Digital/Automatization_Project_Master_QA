@@ -1,11 +1,11 @@
 from selenium.common.exceptions import NoSuchElementException
 from EW.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
-    generalDriverWaitImplicit
+    generalDriverWaitImplicit, URL_darkove_poukazy
 import time
 import unittest
 
 # URL_darkove_poukazy = URL + "/poukazy-benefity/darkove-poukazy"
-URL_darkove_poukazy = URL + "/informace-pro-klienty/poukazky/darkove-poukazky"
+
 
 motivyXpath = "//*[@class='absolute inset-0 flex justify-center items-center bg-white/50 transition-all rounded opacity-0']"
 vybranyMotivXpath = "//*[@class='flex-1']"

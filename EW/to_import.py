@@ -73,7 +73,7 @@ URL_stat = "spanelsko"
 URL_groupsearch = "vysledky-vyhledavani?tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ic1=1&ac1=2"
 URL_FT_results = "hledani-vysledky?q="
 URL_SRL_kuba_regres = "vysledky-vyhledavani?ac1=2&d=63888&dd=2023-07-01&nn=7|8|9|10|11|12|13|14|15|16|17|18|19|20|21&rd=2023-08-31&to=4312|4305|2682|4308&tt=1"
-
+URL_darkove_poukazy =  "/informace-pro-klienty/poukazky/darkove-poukazky"
 
 
 def tearDown(self):
