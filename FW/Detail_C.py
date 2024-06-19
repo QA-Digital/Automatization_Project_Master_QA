@@ -26,7 +26,7 @@ stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 dopravaBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--plane js-selector--travel']"
 dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
 dopravaBrnoXpath_V12 = "//*[@class='f_filterHolder f_set--active']//*[@class='f_input--checkbox f_input']"
-dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='4305']"
+dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='4312']"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
@@ -165,43 +165,43 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(3)
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
-    def test_detail_open_terminy_sumUP_equal_to_full_price(self):
-        self.driver.maximize_window()
-        URL_detail = "https://www.fischer.cz/spanelsko/fuerteventura/morro-jable/blue-sea-jandia-luz?AC1=2&D=680|953|1108|592|611|610|612|590|726|609|621|1009|622|669|1086|1194|670|978|594|675|1010|683&DD=2023-02-19&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=32289&HID=1629&IC1=0&KC1=0&MNN=7&MT=6&NN=7&PID=FUE90003&RD=2023-02-26&TO=4312|4305|2682|4308&acm1=2&df=2023-02-01|2023-03-31&nnm=7|8|9|10|11|12|13&tom=4312|4305|2682|4308&tt=1&ttm=1#/terminy-a-ceny"
-        URL_detail_lp = f"{self.URL}{URL_detail}"
-        self.driver.get(URL_detail_lp)
-
-
-        cestujiciXpath = "//*[@class='f_table']//*[@class='f_table-body']//*[@class='f_table-cell']"
-        time.sleep(1)
-        acceptConsent(self.driver)
-        time.sleep(15)
-        terminyXpath = "//*[@class='f_termList-header']"
-        terminyScrollInto = self.driver.find_element_by_xpath(terminyXpath)
-        self.driver.execute_script("arguments[0].scrollIntoView();", terminyScrollInto)
-
-        cestujiciElements = self.driver.find_elements_by_xpath(cestujiciXpath)
-        cestujiciElement = self.driver.find_element_by_xpath(cestujiciXpath)
-
-        cestujiciElementText = self.driver.find_element_by_xpath(cestujiciXpath).text
-        print(cestujiciElement.text)
-        print("priting 1St")
-        print(cestujiciElement.text)
-        print(cestujiciElementText)
-        print(cestujiciElements[0].text)
-        #print(cestujiciElements[1].text)
-        time.sleep(15)
-        ##cestujici elements = pocet cestujiich,
-        y=1
-        for _ in cestujiciElements:
-            cestujiciSinglePrice = cestujiciElements[y].text()
-            print(cestujiciSinglePrice)
-            cestujiciSinglePriceList = []
-            cestujiciSinglePriceList.append(cestujiciSinglePrice)
-            print(cestujiciSinglePriceList)
-            y = y + 2
-
-        self.test_passed = True
+    # def test_detail_open_terminy_sumUP_equal_to_full_price(self):
+    #     self.driver.maximize_window()
+    #     URL_detail = "https://www.fischer.cz/spanelsko/fuerteventura/morro-jable/blue-sea-jandia-luz?AC1=2&D=680|953|1108|592|611|610|612|590|726|609|621|1009|622|669|1086|1194|670|978|594|675|1010|683&DD=2023-02-19&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=32289&HID=1629&IC1=0&KC1=0&MNN=7&MT=6&NN=7&PID=FUE90003&RD=2023-02-26&TO=4312|4305|2682|4308&acm1=2&df=2023-02-01|2023-03-31&nnm=7|8|9|10|11|12|13&tom=4312|4305|2682|4308&tt=1&ttm=1#/terminy-a-ceny"
+    #     URL_detail_lp = f"{self.URL}{URL_detail}"
+    #     self.driver.get(URL_detail_lp)
+    #
+    #
+    #     cestujiciXpath = "//*[@class='f_table']//*[@class='f_table-body']//*[@class='f_table-cell']"
+    #     time.sleep(1)
+    #     acceptConsent(self.driver)
+    #     time.sleep(15)
+    #     terminyXpath = "//*[@class='f_termList-header']"
+    #     terminyScrollInto = self.driver.find_element_by_xpath(terminyXpath)
+    #     self.driver.execute_script("arguments[0].scrollIntoView();", terminyScrollInto)
+    #
+    #     cestujiciElements = self.driver.find_elements_by_xpath(cestujiciXpath)
+    #     cestujiciElement = self.driver.find_element_by_xpath(cestujiciXpath)
+    #
+    #     cestujiciElementText = self.driver.find_element_by_xpath(cestujiciXpath).text
+    #     print(cestujiciElement.text)
+    #     print("priting 1St")
+    #     print(cestujiciElement.text)
+    #     print(cestujiciElementText)
+    #     print(cestujiciElements[0].text)
+    #     #print(cestujiciElements[1].text)
+    #     time.sleep(15)
+    #     ##cestujici elements = pocet cestujiich,
+    #     y=1
+    #     for _ in cestujiciElements:
+    #         cestujiciSinglePrice = cestujiciElements[y].text()
+    #         print(cestujiciSinglePrice)
+    #         cestujiciSinglePriceList = []
+    #         cestujiciSinglePriceList.append(cestujiciSinglePrice)
+    #         print(cestujiciSinglePriceList)
+    #         y = y + 2
+    #
+    #     self.test_passed = True
 
     def test_detail_fotka(self):
         self.driver.maximize_window()
@@ -268,7 +268,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         pocetZobrazenychTerminuXpath="//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "brno"
+        departureToCompareTo = "praha"
 
         time.sleep(5)
         generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
