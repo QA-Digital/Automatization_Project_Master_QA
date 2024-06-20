@@ -19,7 +19,7 @@ banneryXpath_EW = "//*[@class='f_teaser-item']/a"
 
 HPvyhledatZajezdyButtonXpath = "//*[@class='f_filterMainSearch']//*[contains(text(), 'Vyhledat dovolenou')]"
 HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam se chystáte?')]"
-HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
+HPzlutakReckoDestinaceXpath ="//*[@value='st63184']"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovat')]"
 HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
 HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovat')]"
@@ -46,7 +46,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
-HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
@@ -142,7 +142,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(6.5)
         #poznavackyVeFiltruSwitchXpath = "//*[@class='f_icon f_icon--pinMap segmentation-list-anchor']"
         # poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-        destinacetXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
+        destinacetXpath = "//*[@value='st63081']"
         HPzlutakObsazenost2Xpath = "//*[contains(text(), 'Pár')]"
         self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
 
@@ -168,7 +168,8 @@ class Test_HP_C(unittest.TestCase):
 
         self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
-        destinaceItalieXpath = "//*[@class='f_input-wrapper']//img[@alt='Itálie']"
+        destinaceItalieXpath = "//*[@value='st62993']"
+
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
@@ -295,7 +296,7 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        destinaceEgyptXpath = "//*[@class='f_input-wrapper']//img[@alt='Tunisko']"
+        destinaceEgyptXpath = "//*[@value='st63064']"
 
         self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
 

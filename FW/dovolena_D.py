@@ -1,6 +1,6 @@
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
-from FW.to_import import acceptConsent,  URL,  setUp, tearDown
+from FW.to_import import acceptConsent, setUp, tearDown
 import time
 import unittest
 from selenium.webdriver import ActionChains
@@ -25,7 +25,7 @@ class TestDovolena_D(unittest.TestCase):
     def test_dovolena_D(self):
         wait = WebDriverWait(self.driver, 150000)
 
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         self.driver.maximize_window()
 
         time.sleep(1.5)
