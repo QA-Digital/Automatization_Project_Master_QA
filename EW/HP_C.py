@@ -167,7 +167,7 @@ class Test_HP_C(unittest.TestCase):
         lyzeVeFiltruSwitchElement =  self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath)
 
         self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2024')]"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
         destinaceItalieXpath = "//*[@value='st62993']"
 
         time.sleep(3)
