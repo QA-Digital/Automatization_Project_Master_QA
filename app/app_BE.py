@@ -1,10 +1,8 @@
 import logging
 from flask import Flask, request, jsonify
-
+# Import the necessary modules and test suite functions from your script
 from flask_cors import CORS
 
-
-# Import the necessary modules and test suite functions from your script
 from FW.pobocky import *
 from FW.Detail_D import *
 from FW.Detail_C import *
@@ -77,8 +75,9 @@ def suite_FW_full2(url):
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     return suite
 
+
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  # Add this line to enable CORS
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -89,22 +88,19 @@ def run_suite():
 
     web_brand = data.get('web_brand', 'FISCHER')
     version = data.get('version', 'FW-EW release 2024-05-16')
-    url = data.get('URL', 'http://localhost')  # Use URL from request or default if not provided
-    suite_name = data.get('suiteName')
+    url = data.get('URL')  # Use URL from request
+    email = data.get('email')
 
-    logging.debug(f'web_brand: {web_brand}, version: {version}, URL: {url}, suiteName: {suite_name}')
+    logging.debug(f'web_brand: {web_brand}, version: {version}, URL: {url}, email: {email}')
 
     # Run the test suite
     try:
-        if suite_name == 'FW Public web full suite':
-            runner_tests_generalized(lambda: suite_FW_full(url), web_brand, version, url)
-        else:
-            return jsonify({'status': 'error', 'message': 'Unknown test suite name.'}), 400
-
+        runner_tests_generalized(lambda: suite_FW_full2(url), web_brand, version, url, email)
         return jsonify({'status': 'success', 'message': 'Test suite executed successfully.'}), 200
     except Exception as e:
         logging.error(f'Error running test suite: {e}')
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
