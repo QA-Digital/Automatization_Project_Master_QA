@@ -25,9 +25,8 @@
             }
         }
 
-        function handleSubmit(event) {
+        function handleSubmit(event, url) {
             event.preventDefault();
-            const url = 'https://www.fischer.cz/';
             const suiteName = 'FW Public web full suite';
             const email = document.getElementById('emailInput').value;
             runTestSuite(url, suiteName, email);
@@ -35,11 +34,15 @@
     </script>
 </head>
 <body>
-    <h1>Test Suite Runner</h1>
-    <form onsubmit="handleSubmit(event)">
+    <h1>FISCHER</h1>
+    <form id="testSuiteForm">
         <label for="emailInput">Email:</label>
         <input type="email" id="emailInput" name="email" required>
-        <button type="submit">Run FW Public Web Full Suite</button>
+        <button type="submit" onclick="handleSubmit(event, 'https://www.fischer.cz/')">PUBLIC</button>
+        <button type="submit" onclick="handleSubmit(event, 'https://fischer.stg.dtweb.cz/')">STG</button>
+        <button type="submit" onclick="handleSubmit(event, 'http://fischer.web1.dtweb.cz/')">WEB1</button>
+        <button type="submit" onclick="handleSubmit(event, 'https://fischer.web2.dtweb.cz/')">WEB2</button>
+        <button type="submit" onclick="handleSubmit(event, 'http://fischer.web3.dtweb.cz/')">WEB3</button>
     </form>
 </body>
 </html>

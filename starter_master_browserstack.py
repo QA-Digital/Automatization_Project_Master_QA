@@ -57,9 +57,6 @@ def runner_tests_generalized2(suite_general, web_brand, version, URL):
                                            open_in_browser=True, description=web_brand+ " WEB Suite Report - version --- " + version + " ---")
     runner.run(suite_general())
 
-
-
-
 def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     runner = unittest.TextTestRunner()
     report_title = f"{web_brand} ||| {URL}"
