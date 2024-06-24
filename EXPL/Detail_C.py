@@ -87,7 +87,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
         acceptConsent(driver)
@@ -134,8 +135,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
     def test_detail_fotka(self):
 
-        self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         time.sleep(5)
         acceptConsent(self.driver)
@@ -170,7 +171,8 @@ class TestDetailHotelu_C(unittest.TestCase):
     def test_detail_terminy_filtr_meal(self):
         self.driver.maximize_window()
         time.sleep(1)
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         time.sleep(1)
         acceptConsent(self.driver)
@@ -188,7 +190,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_terminy_filtr_airport(self):
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         time.sleep(3)
         acceptConsent(self.driver)

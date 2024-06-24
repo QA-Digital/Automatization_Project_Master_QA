@@ -76,7 +76,7 @@ class Test_SRL_C(unittest.TestCase):
         self.test_passed = True
 
     def test_SRL_filtr_strava(self):
-        driver.maximize_window()
+        self.driver.maximize_window()
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
 

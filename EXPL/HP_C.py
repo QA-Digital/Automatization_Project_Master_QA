@@ -12,7 +12,7 @@ from generalized_banners_compare_to_deploy_web import banner_check_public_prod_V
 #from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 from EXPL.to_import import acceptConsent,URL_detail, sendEmail
 
-URL_deploying_web = URL
+
 URL_prod_public = "https://www.exim.pl/"
 banneryXpath_EWPL = "//*[@class='f_teaser-item']/a"
 
@@ -49,9 +49,12 @@ from FW.HP_C import hp_zlutak_to_SRL
 
 from EXPL.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
-    URL = URL_local  # Default value
+    URL = URL_local
+    # Default value
+
     def __init__(self, methodName="runTest", URL=None):
         super().__init__(methodName)
+
         if URL:
             self.URL = URL
 
@@ -63,7 +66,7 @@ class Test_HP_C(unittest.TestCase):
 
 
     def test_HP_zlutak_to_groupsearch_pobyt(self):
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(
@@ -80,7 +83,7 @@ class Test_HP_C(unittest.TestCase):
     def test_HP_zlutak_to_SRL_pobyt(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
         time.sleep(
             3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
@@ -99,7 +102,7 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_slider_NasiKlienci(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
         time.sleep(
             3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
@@ -138,13 +141,14 @@ class Test_HP_C(unittest.TestCase):
         self.test_passed = True
 
     def test_HP_bannery_check(self):
+        URL_deploying_web = self.URL
         banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, URL_deploying_web, banneryXpath_EWPL)
 
         self.test_passed = True
 
     def test_HP_vyletyPoznan(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(1.5)
@@ -178,7 +182,7 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_vyletyWroclaw(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(1.5)
@@ -212,7 +216,7 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_vyletyGdansk(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(1.5)

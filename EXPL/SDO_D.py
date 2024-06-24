@@ -43,7 +43,8 @@ class TestSDO_D(unittest.TestCase):
 
     def test_SDO_NejHotely(self):
         self.driver.maximize_window()
-        self.driver.get(URL_stat)
+        URL_stat_lp = f"{self.URL}{URL_stat}"
+        self.driver.get(URL_stat_lp)
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(1.5)

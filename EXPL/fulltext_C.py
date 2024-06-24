@@ -28,7 +28,7 @@ class Test_Fulltext_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 25)
         poziceQueryItem = 0
         for _ in queryList:
-            self.driver.get(URL)
+            self.driver.get(self.URL)
 
             if poziceQueryItem==0:
                 time.sleep(5)
@@ -92,11 +92,11 @@ class Test_Fulltext_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 13)
         poziceQueryItem=0
         for _ in queryList:
-            driver = self.driver
-            driver.get(URL_FT_results+queryList[poziceQueryItem])
+            URL_FT_results_lp = f"{self.URL}{URL_FT_results}"
+            self.driver.get(URL_FT_results_lp + queryList[poziceQueryItem])
             if poziceQueryItem==0:
                 time.sleep(5)
-                acceptConsent(driver)
+                acceptConsent(self.driver)
                 self.driver.maximize_window()
             else:
                 pass
@@ -104,15 +104,15 @@ class Test_Fulltext_C(unittest.TestCase):
             time.sleep(0.6)
             linksToCheckList = []
             try:
-                vysledkyDlazdiceHotelu = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
+                vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
                     linksToCheckList.append(vysledkyDlazdiceHotelu[x].get_attribute("href"))
                     x = x + 1
             except NoSuchElementException:
                 pass
-            vysledkyTextItems = driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            vysledkyTextItemsSingle = driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItems = self.driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItemsSingle = self.driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0
             for _ in vysledkyTextItems:

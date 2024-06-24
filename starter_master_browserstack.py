@@ -9,8 +9,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from to_import_secret_master import emailPass
 
-import HtmlTestRunner
-#import HTMLTestRunner as HtmlTestRunner        ##setting for office pc since the packaga installed with diff name (i guess?)
+#import HtmlTestRunner
+import HTMLTestRunner as HtmlTestRunner        ##setting for office pc since the packaga installed with diff name (i guess?)
 
 def sendEmailv2(subject, msg, recipient, files):
     fromx = 'alertserverproblem@gmail.com'

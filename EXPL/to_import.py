@@ -38,7 +38,7 @@ def setUp(self):
   self.test_passed = False
 
 
-URL_local = "https://www.exim.pl/"
+URL_local = "https://eximpl.stg.dtweb.cz/"
 #URL = "https://eximpl.stg.dtweb.cz/"
 URL = "http://eximpl.web13.dtweb.cz/"
 URL_pobocky = "punkty-sprzedazy"

@@ -98,6 +98,6 @@ if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "EXIM PL"
     version = "EXPL release 2024-04-25"
-    runner_tests_generalized(suite_EXPL_full, web_brand, version, URL)
+    runner_tests_generalized(suite_EXPL_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)

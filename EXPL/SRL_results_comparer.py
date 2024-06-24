@@ -45,7 +45,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
         tearDown(self)
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, URL, URL_public_prod_EXPL, URL_SRL_list_EXPL)
+        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod_EXPL, URL_SRL_list_EXPL)
 
 
         self.test_passed = True
