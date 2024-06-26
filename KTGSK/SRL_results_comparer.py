@@ -52,7 +52,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, URL, URL_public_prod, URL_SRLs_list_KTGSK)
+        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_KTGSK)
 
 
 
