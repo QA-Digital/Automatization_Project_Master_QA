@@ -25,7 +25,7 @@ class TestDovolena_D(unittest.TestCase):
     def test_dovolena_D(self):
         wait = WebDriverWait(self.driver, 150000)
 
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         self.driver.maximize_window()
 
         time.sleep(1.5)

@@ -41,7 +41,7 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_zlutak_to_groupsearch(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
 
         acceptConsent(self.driver)
@@ -52,7 +52,7 @@ class Test_HP_C(unittest.TestCase):
 
     def test_HP_zlutak_to_SRL(self):
         self.driver.maximize_window()
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
 
         acceptConsent(self.driver)
@@ -80,7 +80,7 @@ class Test_HP_C(unittest.TestCase):
 
 
     def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(
@@ -144,6 +144,6 @@ class Test_HP_C(unittest.TestCase):
     #     self.test_passed = True
 
     def test_HP_bannery_check(self):
-        banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, URL_deploying_web, banneryXpath_KTGSK)
+        banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, self.URL, banneryXpath_KTGSK)
 
         self.test_passed = True

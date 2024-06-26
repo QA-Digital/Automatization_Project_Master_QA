@@ -63,7 +63,7 @@ class Test_HP_C(unittest.TestCase):
         tearDown(self)
 
     def test_HP_zlutak_to_groupsearch(self):
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         acceptConsent(self.driver)
@@ -73,7 +73,7 @@ class Test_HP_C(unittest.TestCase):
         self.test_passed = True
 
     def test_HP_zlutak_to_SRL(self):
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         self.driver.maximize_window()
         time.sleep(0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
@@ -87,12 +87,12 @@ class Test_HP_C(unittest.TestCase):
         self.test_passed = True
 
     def test_HP_bannery_check(self):
-        banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, URL_deploying_web, banneryXpath_FWSK)
+        banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, self.URL, banneryXpath_FWSK)
 
         self.test_passed = True
 
     def test_HP_zlutak_to_groupsearch_poznavacky(self):
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element

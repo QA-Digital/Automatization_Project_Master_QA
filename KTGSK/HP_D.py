@@ -22,7 +22,7 @@ class TestHP_D(unittest.TestCase):
 
     def test_homePage_D(self):
         wait = WebDriverWait(self.driver, 150)
-        self.driver.get(URL)
+        self.driver.get(self.URL)
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)

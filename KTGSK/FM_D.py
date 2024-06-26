@@ -23,7 +23,7 @@ class TestFM_D(unittest.TestCase):
         tearDown(self)
 
     # def test_FM_D(self):
-        URL_FM_lp = f"{self.URL}{URL_FM}"
+       # URL_FM_lp = f"{self.URL}{URL_FM}"
     #     self.driver.get(URL_FM_lp)
     #     wait = WebDriverWait(self.driver, 1500)
     #     self.driver.maximize_window()
@@ -208,7 +208,8 @@ class TestFM_D(unittest.TestCase):
     #     self.test_passed = True
 
     def test_FM_D(self):
-        self.driver.get(URL_FM)
+        URL_FM_lp = f"{self.URL}{URL_FM}"
+        self.driver.get(URL_FM_lp)
         wait = WebDriverWait(self.driver, 1500)
         self.driver.maximize_window()
         time.sleep(2)
