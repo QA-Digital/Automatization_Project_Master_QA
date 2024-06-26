@@ -5,7 +5,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
-URL_local = "https://www.kartago.sk/"
+#URL_local = "https://www.kartago.sk/"
+URL_local =  "https://kartagosk.stg.dtweb.cz/"
 URL = "https://kartagosk.web3.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"

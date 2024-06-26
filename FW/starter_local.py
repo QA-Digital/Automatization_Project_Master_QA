@@ -107,7 +107,7 @@ if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "FISCHER"
     version = "FW-EW release 2024-05-16"
-    runner_tests_generalized(suite_FW_full, web_brand, version, URL)
+    runner_tests_generalized(suite_FW_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
 
     #runner_tests_generalized(SRL_suite_full, web_brand, version, URL)
     #runner_tests_generalized(suite2, web_brand, version, URL)

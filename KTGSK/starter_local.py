@@ -60,9 +60,9 @@ def suite2():
 from starter_master_browserstack import  runner_tests_generalized
 if __name__ == '__main__':
     web_brand = "KARTAGO SK"
-    version = "KTGSK- FWSK release 2024-04-24"
+    version = "KTGSK- FWSK release 2024-07-01"
     outfile = open("results.html", "w")
 
-    runner_tests_generalized(suite_KTGSK_full, web_brand, version, URL)
+    runner_tests_generalized(suite_KTGSK_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
 
     #runner.run(suite2())

@@ -64,4 +64,4 @@ if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "FISCHER SK "
     version = "KTGSK- FWSK release 2024-04-24"
-    runner_tests_generalized(suite_FWSK_full, web_brand, version, URL)
+    runner_tests_generalized(suite_FWSK_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
