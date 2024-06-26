@@ -1,4 +1,4 @@
-from KTGSK.CovidInfo_D import *
+
 from KTGSK.pobocky import *
 from KTGSK.Detail_D import *
 from KTGSK.Detail_C import *

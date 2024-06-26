@@ -17,7 +17,7 @@ class TestPoznavacky_D(unittest.TestCase):
         tearDown(self)
 
     def test_poznavacky_okruzni_D(self):
-        URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
+            URL_poznavacky_lp = f"{self.URL}{URL_poznavacky}"
             self.driver.get(URL_poznavacky_lp)
 
             acceptConsent(self.driver)

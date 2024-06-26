@@ -1,4 +1,4 @@
-from FWSK.CovidInfo_D import *
+
 from FWSK.pobocky import *
 from FWSK.Detail_D import *
 from FWSK.Detail_C import *
