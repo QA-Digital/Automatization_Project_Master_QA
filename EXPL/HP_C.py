@@ -84,7 +84,7 @@ class Test_HP_C(unittest.TestCase):
 
         self.driver.maximize_window()
         self.driver.get(self.URL)
-        HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
+        HPzlutakReckoDestinaceXpath = "//*[@value='st63042']"
         time.sleep(
             3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
@@ -111,20 +111,21 @@ class Test_HP_C(unittest.TestCase):
 
         self.driver.implicitly_wait(100)
 
-        HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
-        self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
-        time.sleep(3)
-        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        time.sleep(0.3)
-        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        time.sleep(0.5)
-        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        time.sleep(0.5)
-        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        time.sleep(0.5)
-        self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        # HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
+        # self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
+        # time.sleep(3)
+        # self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        # time.sleep(0.3)
+        # self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        # time.sleep(0.5)
+        # self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        # time.sleep(0.5)
+        # self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
+        # time.sleep(0.5)
+        # self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
 
         HPnextkartaHoteluSlider = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        self.driver.execute_script("arguments[0].scrollIntoView();", HPnextkartaHoteluSlider)
         time.sleep(1)
         self.driver.execute_script("arguments[0].click();", HPnextkartaHoteluSlider)
         action = ActionChains(self.driver)
