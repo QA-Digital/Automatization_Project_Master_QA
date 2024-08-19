@@ -4,45 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Suite Runner</title>
-    <script>
-        async function runTestSuite(url, suiteName, email) {
-            try {
-                const response = await fetch('http://localhost:5000/run_suite', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        URL: url,
-                        suiteName: suiteName,
-                        email: email
-                    })
-                });
-                const result = await response.json();
-                alert(result.message);
-            } catch (error) {
-                alert('Error running test suite: ' + error);
-            }
-        }
-
-        function handleSubmit(event, url) {
-            event.preventDefault();
-            const suiteName = 'FW Public web full suite';
-            const email = document.getElementById('emailInput').value;
-            runTestSuite(url, suiteName, email);
-        }
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
 </head>
 <body>
-    <h1>FISCHER</h1>
-    <form id="testSuiteForm">
-        <label for="emailInput">Email:</label>
-        <input type="email" id="emailInput" name="email" required>
-        <button type="submit" onclick="handleSubmit(event, 'https://www.fischer.cz/')">PUBLIC</button>
-        <button type="submit" onclick="handleSubmit(event, 'https://fischer.stg.dtweb.cz/')">STG</button>
-        <button type="submit" onclick="handleSubmit(event, 'http://fischer.web1.dtweb.cz/')">WEB1</button>
-        <button type="submit" onclick="handleSubmit(event, 'https://fischer.web2.dtweb.cz/')">WEB2</button>
-        <button type="submit" onclick="handleSubmit(event, 'http://fischer.web3.dtweb.cz/')">WEB3</button>
-    </form>
+    <div id="app">
+        <h1>FISCHER</h1>
+        <form id="testSuiteForm">
+            <label for="emailInput">Email:</label>
+            <input type="email" id="emailInput" name="email" required>
+            <button type="submit" onclick="handleSubmit(event, 'https://www.fischer.cz/')">PUBLIC</button>
+            <button type="submit" onclick="handleSubmit(event, 'https://fischer.stg.dtweb.cz/')">STG</button>
+            <button type="submit" onclick="handleSubmit(event, 'http://fischer.web1.dtweb.cz/')">WEB1</button>
+            <button type="submit" onclick="handleSubmit(event, 'https://fischer.web2.dtweb.cz/')">WEB2</button>
+            <button type="submit" onclick="handleSubmit(event, 'http://fischer.web3.dtweb.cz/')">WEB3</button>
+        </form>
+
+        <!-- Vue Component for Download Button -->
+        <download-button></download-button>
+    </div>
+
+    <script>
+        // Vue component definition
+        Vue.component('download-button', {
+            template: `
+                <div>
+                    <button @click="downloadFile">Download JS File</button>
+                </div>
+            `,
+            methods: {
+                downloadFile() {
+                    const fileUrl = 'http://localhost:3000/download'; // Endpoint of your Express server
+                    const link = document.createElement('a');
+                    link.href = fileUrl;
+                    link.setAttribute('download', 'script.js'); // Set the download attribute
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                }
+            }
+        });
+
+        // Vue instance
+        new Vue({
+            el: '#app'
+        });
+    </script>
 </body>
 </html>
