@@ -8,19 +8,28 @@
 </head>
 <body>
     <div id="app">
-        <h1>FISCHER</h1>
-        <form @submit.prevent="handleSubmit(selectedUrl)">
-            <label for="emailInput">Email:</label>
-            <input type="email" id="emailInput" v-model="email" name="email" required>
-            <select v-model="selectedUrl" required>
-                <option value="https://www.fischer.cz/">PUBLIC</option>
-                <option value="https://fischer.stg.dtweb.cz/">STG</option>
-                <option value="http://fischer.web1.dtweb.cz/">WEB1</option>
-                <option value="https://fischer.web2.dtweb.cz/">WEB2</option>
-                <option value="http://fischer.web3.dtweb.cz/">WEB3</option>
-            </select>
-            <button type="submit">Run Test Suite</button>
-        </form>
+        <!-- Loop through projects to create separate forms for each -->
+        <div v-for="(urls, name) in projectUrls" :key="name">
+            <h1>{{ name.toUpperCase() }}</h1>
+            <form @submit.prevent="handleSubmit(selectedUrl[name], name)">
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" v-model="emails[name]" name="email" required>
+
+                <select v-model="selectedUrl[name]" required>
+                    <option :value="urls.dev">dev</option>
+                    <option :value="urls.uat">uat</option>
+                    <option :value="urls.stg">stg</option>
+                    <option v-if="urls.web1" :value="urls.web1">web1</option>
+                    <option v-if="urls.web2" :value="urls.web2">web2</option>
+                    <option v-if="urls.web3" :value="urls.web3">web3</option>
+                    <option v-if="urls.web11" :value="urls.web11">web11</option>
+                    <option v-if="urls.web12" :value="urls.web12">web12</option>
+                    <option v-if="urls.web13" :value="urls.web13">web13</option>
+                    <option :value="urls.public">public</option>
+                </select>
+                <button type="submit">Run Test Suite</button>
+            </form>
+        </div>
 
         <!-- Vue Component for Download Button -->
         <download-button></download-button>
@@ -51,12 +60,95 @@
         new Vue({
             el: '#app',
             data: {
-                email: '',
-                selectedUrl: 'https://www.fischer.cz/'  // Default selection
+                emails: {},
+                selectedUrl: {},
+                projectUrls: {
+                    'derro': {
+                        dev: 'https://derro.dev.dtweb.cz/',
+                        uat: 'https://derro.uat.dtweb.cz/',
+                        stg: 'https://derro.stg.dtweb.cz/',
+                        web11: 'https://derro.web11.dtweb.cz/',
+                        web12: 'https://derro.web12.dtweb.cz/',
+                        web13: 'https://derro.web13.dtweb.cz/',
+                        public: 'https://www.dertour.ro/'
+                    },
+                    'etravel': {
+                        dev: 'https://etravel.dev.dtweb.cz/',
+                        uat: 'https://etravel.uat.dtweb.cz/',
+                        stg: 'https://etravel.stg.dtweb.cz/',
+                        web1: 'https://etravel.web1.dtweb.cz/',
+                        web2: 'https://etravel.web2.dtweb.cz/',
+                        web3: 'https://etravel.web3.dtweb.cz/',
+                        public: 'https://www.etravel.cz/'
+                    },
+                    'exim': {
+                        dev: 'https://exim.dev.dtweb.cz/',
+                        uat: 'https://exim.uat.dtweb.cz/',
+                        stg: 'https://exim.stg.dtweb.cz/',
+                        web11: 'https://exim.web11.dtweb.cz/',
+                        web12: 'https://exim.web12.dtweb.cz/',
+                        web13: 'https://exim.web13.dtweb.cz/',
+                        public: 'https://www.eximtours.cz/'
+                    },
+                    'eximpl': {
+                        dev: 'https://eximpl.dev.dtweb.cz/',
+                        uat: 'https://eximpl.uat.dtweb.cz/',
+                        stg: 'https://eximpl.stg.dtweb.cz/',
+                        web11: 'https://eximpl.web11.dtweb.cz/',
+                        web12: 'https://eximpl.web12.dtweb.cz/',
+                        web13: 'https://eximpl.web13.dtweb.cz/',
+                        public: 'https://www.exim.pl/'
+                    },
+                    'fischer': {
+                        dev: 'https://fischer.dev.dtweb.cz/',
+                        uat: 'https://fischer.uat.dtweb.cz/',
+                        stg: 'https://fischer.stg.dtweb.cz/',
+                        web1: 'https://fischer.web1.dtweb.cz/',
+                        web2: 'https://fischer.web2.dtweb.cz/',
+                        web3: 'https://fischer.web3.dtweb.cz/',
+                        public: 'https://www.fischer.cz/'
+                    },
+                    'fischersk': {
+                        dev: 'https://fischersk.dev.dtweb.cz/',
+                        uat: 'https://fischersk.uat.dtweb.cz/',
+                        stg: 'https://fischersk.stg.dtweb.cz/',
+                        web1: 'https://fischersk.web1.dtweb.cz/',
+                        web2: 'https://fischersk.web2.dtweb.cz/',
+                        web3: 'https://fischersk.web3.dtweb.cz/',
+                        public: 'https://www.fischer.sk/'
+                    },
+                    'kartagohu': {
+                        dev: 'https://kartagohu.dev.dtweb.cz/',
+                        uat: 'https://kartagohu.uat.dtweb.cz/',
+                        stg: 'https://kartagohu.stg.dtweb.cz/',
+                        web1: 'https://kartagohu.web1.dtweb.cz/',
+                        web2: 'https://kartagohu.web2.dtweb.cz/',
+                        web3: 'https://kartagohu.web3.dtweb.cz/',
+                        public: 'https://www.kartagotours.hu/'
+                    },
+                    'kartagosk': {
+                        dev: 'https://kartagosk.dev.dtweb.cz/',
+                        uat: 'https://kartagosk.uat.dtweb.cz/',
+                        stg: 'https://kartagosk.stg.dtweb.cz/',
+                        web1: 'https://kartagosk.web1.dtweb.cz/',
+                        web2: 'https://kartagosk.web2.dtweb.cz/',
+                        web3: 'https://kartagosk.web3.dtweb.cz/',
+                        public: 'https://www.kartago.sk/'
+                    },
+                    'nevdama': {
+                        dev: 'https://nevdama.dev.dtweb.cz/',
+                        uat: 'https://nevdama.uat.dtweb.cz/',
+                        stg: 'https://nevdama.stg.dtweb.cz/',
+                        web11: 'https://nevdama.web11.dtweb.cz/',
+                        web12: 'https://nevdama.web12.dtweb.cz/',
+                        web13: 'https://nevdama.web13.dtweb.cz/',
+                        public: 'https://www.nev-dama.cz/'
+                    }
+                }
             },
             methods: {
-                async handleSubmit(url) {
-                    console.log('Running test suite for:', url);
+                async handleSubmit(url, projectName) {
+                    console.log(`Running test suite for ${projectName}:`, url);
                     try {
                         const response = await fetch('http://localhost:5000/run_suite', {
                             method: 'POST',
@@ -65,8 +157,8 @@
                             },
                             body: JSON.stringify({
                                 URL: url,
-                                suiteName: 'FW web full suite',
-                                email: this.email
+                                suiteName: `${projectName.toUpperCase()} web full suite`,
+                                email: this.emails[projectName]
                             })
                         });
                         const result = await response.json();
