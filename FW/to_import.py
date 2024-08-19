@@ -21,8 +21,13 @@ desired_cap = {
 "browserstack.selenium_version" : "3.5.2"
 
 }
+
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.edge.service import Service as EdgeService
+
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -32,12 +37,28 @@ def setUp(self):
 
 
 
-  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-  #chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+
+  chrome_options = Options()
+
+  # Add options to ChromeOptions
+  chrome_options.add_argument("--disable-infobars")  # Disable the infobar
+  chrome_options.add_argument("--disable-popup-blocking")  # Disable popups
+  chrome_options.add_argument("--disable-default-apps")  # Disable default apps
+  chrome_options.add_argument("--start-maximized")  # Start maximized
+  chrome_options.add_argument("--disable-extensions")  # Disable extensions
+  chrome_options.add_argument("--disable-features=FirstRunUI")  # Disable the first run UI
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
+
+
+
+
   #self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+  #self.driver = webdriver.Edge(EdgeDriverManager().install())
   # https://googlechromelabs.github.io/chrome-for-testing/#stable
 
 
@@ -55,7 +76,7 @@ def setUp(self):
   #self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
- # self.driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+ #
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
   self.test_passed = False
 
@@ -63,11 +84,10 @@ def setUp(self):
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
-URL_local = "https://fischer.web3.dtweb.cz/"
+#URL_local = "https://fischer.stg.dtweb.cz/"
+URL_local = "https://fischer.stg.dtweb.cz/"
 URL = "https://www.fischer.cz/"
-URL = "https://fischer.web2.dtweb.cz/"
-URL = "http://fischer.web1.dtweb.cz/"
-URL = "http://fischer.web3.dtweb.cz/"
+
 
 
 #URL = "https://fischer.stg.dtweb.cz/"

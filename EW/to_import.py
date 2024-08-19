@@ -36,25 +36,23 @@ from selenium.webdriver.chrome.options import Options
 
 from webdriver_manager.firefox import GeckoDriverManager
 def setUp(self):
-   # self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  # self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-   options = Options()
-   options.add_argument("--headless")  # Run Chrome in headless mode
-   options.add_argument("--disable-gpu")  # Disable GPU acceleration (recommended for headless mode)
-   options.add_argument("--no-sandbox")  # Bypass OS security model
-   options.add_argument("--disable-dev-shm-usage")  # Overcome limited resource problems
-   chrome_driver_path = ChromeDriverManager().install()
-   self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
+   # options = Options()
+   # options.add_argument("--headless")  # Run Chrome in headless mode
+   #chrome_driver_path = ChromeDriverManager().install()
+   #self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
 
-  # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
    self.test_passed = False
 
 URL = "https://www.eximtours.cz/"
 #URL_local = "https://www.eximtours.cz/"
-URL_local = "https://exim.stg.dtweb.cz/"
+URL_local =  "https://exim.stg.dtweb.cz/"
+#URL_local = "https://exim.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"

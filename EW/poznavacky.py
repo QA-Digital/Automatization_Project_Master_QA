@@ -5,7 +5,7 @@ from generalized_test_functions import generalized_list_of_url_checker
 import unittest
 
 from sedivka_check import sedivka_check_assert
-sedivkaXpathFw = "//*[@class='f_box h-full flex flex-col']"
+sedivkaXpathFw = "//*[@class='f_column-item f_column-item--grayBox relative flex flex-col justify-between gap-4']"
 
 from EW.to_import import URL_local
 class TestPoznavacky_D(unittest.TestCase):
@@ -197,8 +197,9 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.execute_script("arguments[0].scrollIntoView();", element3)
         time.sleep(2)
         element3.click()
-        self.driver.switch_to.window(self.driver.window_handles[1])
-        time.sleep(2.5)
+        time.sleep(2)
+        self.driver.switch_to.window(self.driver.window_handles[2]) ##musí být ten switch to window i když jsem po kliku na detailu, jinak to blbne
+        time.sleep(1.5)
         print(self.driver.current_url)
         sedivka_check_assert(self.driver, sedivkaXpathFw)
         self.test_passed = True

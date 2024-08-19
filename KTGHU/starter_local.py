@@ -59,7 +59,7 @@ if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "KTGHU"
     version = "KTGHU release 2024-04-29"
-    runner_tests_generalized(suite_KTGHU_full, web_brand, version, URL)
+    runner_tests_generalized(suite_KTGHU_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
 
     #runner_tests_generalized(suite_SRL_C, web_brand, version, URL)
     #runner.run(suite2())

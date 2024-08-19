@@ -22,14 +22,11 @@ jmenoInputXpath = "//*[@id='input-text-1']"
 prijmeniInputXpath = "//*[@id='input-text-2']"
 telefonInputXpath = "//*[@id='input-phoneNumber-3']"
 emailInputXpath = "//*[@id='input-email-4']"
-checkboxAgreementXpath = "//label[@class='relative select-none cursor-pointer flex gap-2 mx-auto']//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[var(--input-checkbox-rounding)] transition-all border-[var(--neutral-300)] text-[var(--white)] undefined peer-focus:ring-[length:var(--form-element-focus-ring-width)] peer-focus:ring-[var(--form-element-focus-ring-color)]']"
-objednatXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Objednat a zaplatit']"
+checkboxAgreementXpath = "//label[@class='relative select-none cursor-pointer flex gap-2 mx-auto']//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[var(--input-checkbox-rounding)] transition-all bg-white border-[var(--neutral-300)] text-[var(--white)] undefined peer-focus:ring-[length:var(--form-element-focus-ring-width)] peer-focus:ring-[var(--form-element-focus-ring-color)]']"
+objednatXpath = "//div[@class='whitespace-nowrap']"
 
 platebniKartouXpath = "//*[@class='flex flex-col gap-1 grow items-start']"
-zaplatitXpath = "//div[@class='whitespace-nowrap overflow-ellipsis overflow-hidden'][normalize-space()='Zaplatit']"
-
-from FW.to_import import URL_local
-
+zaplatitXpath = "//div[@class='whitespace-nowrap'][normalize-space()='Zaplatit']"
 from FW.to_import import URL_local
 
 from FW.to_import import URL_local
