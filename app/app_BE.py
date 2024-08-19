@@ -1,20 +1,30 @@
 import logging
 from flask import Flask, request, jsonify
-# Import the necessary modules and test suite functions from your script
 from flask_cors import CORS
-from FW.Detail_D import *
+from FW.Detail_D import TestDetailHotelu_D  # Ensure correct imports
 from FW.darkove_poukazy import *
 from starter_master_browserstack import runner_tests_generalized
-from FW.starter_local import suite_FW_full
+from FW.starter_local import suite_FW_full        # FISCHER
+from DERRO.starter_local import suite_DERRO_full  # Derro
+from ET.starter_local import suite_ET_full        # eTravel
+from EW.starter_local import suite_EW_full        # Exim
+from EXPL.starter_local import suite_EXPL_full    # Eximpl
+from FWSK.starter_local import suite_FWSK_full    # Fischer SK
+from KTGHU.starter_local import suite_KTGHU_full  # Kartago HU
+from KTGSK.starter_local import suite_KTGSK_full  # Kartago SK
+from ND.starter_local import suite_ND_full        # NevDama
 
+app = Flask(__name__)
+CORS(app)  # Enable CORS
+logging.basicConfig(level=logging.DEBUG)
+
+# Define the suite functions
 def suite_FW_full2(url):
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     return suite
 
-app = Flask(__name__)
-CORS(app)  # Enable CORS
-logging.basicConfig(level=logging.DEBUG)
+# Add more suite functions if needed, matching the suite names
 
 @app.route('/run_suite', methods=['POST'])
 def run_suite():
@@ -31,8 +41,15 @@ def run_suite():
 
     # Dictionary to map suite names to functions
     suite_mapping = {
-        'FW web full suite': suite_FW_full,
-        # Add other suite mappings here
+        'FW web full suite': suite_FW_full,  # FISCHER
+        'DERRO web full suite': suite_DERRO_full,  # Derro
+        'ET web full suite': suite_ET_full,  # eTravel
+        'EW web full suite': suite_EW_full,  # Exim
+        'EXPL web full suite': suite_EXPL_full,  # Eximpl
+        'FWSK web full suite': suite_FWSK_full,  # Fischer SK
+        'KTGHU web full suite': suite_KTGHU_full,  # Kartago HU
+        'KTGSK web full suite': suite_KTGSK_full,  # Kartago SK
+        'ND web full suite': suite_ND_full,  # NevDama
     }
 
     # Get the suite function from the mapping
