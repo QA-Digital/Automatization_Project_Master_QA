@@ -41,15 +41,15 @@ def run_suite():
 
     # Dictionary to map suite names to functions
     suite_mapping = {
-        'FW web full suite': suite_FW_full,  # FISCHER
+        'FISCHER web full suite': suite_FW_full,  # FISCHER
         'DERRO web full suite': suite_DERRO_full,  # Derro
-        'ET web full suite': suite_ET_full,  # eTravel
-        'EW web full suite': suite_EW_full,  # Exim
-        'EXPL web full suite': suite_EXPL_full,  # Eximpl
-        'FWSK web full suite': suite_FWSK_full,  # Fischer SK
-        'KTGHU web full suite': suite_KTGHU_full,  # Kartago HU
-        'KTGSK web full suite': suite_KTGSK_full,  # Kartago SK
-        'ND web full suite': suite_ND_full,  # NevDama
+        'ETRAVEL web full suite': suite_ET_full,  # eTravel
+        'EXIM web full suite': suite_EW_full,  # Exim
+        'EXIMPL web full suite': suite_EXPL_full,  # Eximpl
+        'FISCHERSK web full suite': suite_FWSK_full,  # Fischer SK
+        'KARTAGOHU web full suite': suite_KTGHU_full,  # Kartago HU
+        'KARTAGOSK web full suite': suite_KTGSK_full,  # Kartago SK
+        'NEVDAMA web full suite': suite_ND_full,  # NevDama
     }
 
     # Get the suite function from the mapping
