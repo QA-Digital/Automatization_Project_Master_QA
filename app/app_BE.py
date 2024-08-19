@@ -31,7 +31,7 @@ def run_suite():
 
     # Dictionary to map suite names to functions
     suite_mapping = {
-        'FW Public web full suite': suite_FW_full2,
+        'FW Public web full suite': suite_FW_full,
         # Add other suite mappings here
     }
 
