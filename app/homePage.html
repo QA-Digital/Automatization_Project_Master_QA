@@ -9,14 +9,17 @@
 <body>
     <div id="app">
         <h1>FISCHER</h1>
-        <form id="testSuiteForm">
+        <form @submit.prevent="handleSubmit(selectedUrl)">
             <label for="emailInput">Email:</label>
-            <input type="email" id="emailInput" name="email" required>
-            <button type="submit" onclick="handleSubmit(event, 'https://www.fischer.cz/')">PUBLIC</button>
-            <button type="submit" onclick="handleSubmit(event, 'https://fischer.stg.dtweb.cz/')">STG</button>
-            <button type="submit" onclick="handleSubmit(event, 'http://fischer.web1.dtweb.cz/')">WEB1</button>
-            <button type="submit" onclick="handleSubmit(event, 'https://fischer.web2.dtweb.cz/')">WEB2</button>
-            <button type="submit" onclick="handleSubmit(event, 'http://fischer.web3.dtweb.cz/')">WEB3</button>
+            <input type="email" id="emailInput" v-model="email" name="email" required>
+            <select v-model="selectedUrl" required>
+                <option value="https://www.fischer.cz/">PUBLIC</option>
+                <option value="https://fischer.stg.dtweb.cz/">STG</option>
+                <option value="http://fischer.web1.dtweb.cz/">WEB1</option>
+                <option value="https://fischer.web2.dtweb.cz/">WEB2</option>
+                <option value="http://fischer.web3.dtweb.cz/">WEB3</option>
+            </select>
+            <button type="submit">Run Test Suite</button>
         </form>
 
         <!-- Vue Component for Download Button -->
@@ -24,7 +27,7 @@
     </div>
 
     <script>
-        // Vue component definition
+        // Vue component definition for download button
         Vue.component('download-button', {
             template: `
                 <div>
@@ -36,7 +39,7 @@
                     const fileUrl = 'http://localhost:3000/download'; // Endpoint of your Express server
                     const link = document.createElement('a');
                     link.href = fileUrl;
-                    link.setAttribute('download', 'script.js'); // Set the download attribute
+                    link.setAttribute('download', 'script.js'); // Ensure this file name matches your file
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
@@ -46,7 +49,34 @@
 
         // Vue instance
         new Vue({
-            el: '#app'
+            el: '#app',
+            data: {
+                email: '',
+                selectedUrl: 'https://www.fischer.cz/'  // Default selection
+            },
+            methods: {
+                async handleSubmit(url) {
+                    console.log('Running test suite for:', url);
+                    try {
+                        const response = await fetch('http://localhost:5000/run_suite', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                URL: url,
+                                suiteName: 'FW Public web full suite',
+                                email: this.email
+                            })
+                        });
+                        const result = await response.json();
+                        alert(result.message);
+                    } catch (error) {
+                        console.error('Error running test suite:', error);
+                        alert('Error running test suite: ' + error.message);
+                    }
+                }
+            }
         });
     </script>
 </body>
