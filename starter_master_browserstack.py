@@ -57,6 +57,7 @@ def runner_tests_generalized2(suite_general, web_brand, version, URL):
                                            open_in_browser=True, description=web_brand+ " WEB Suite Report - version --- " + version + " ---")
     runner.run(suite_general())
 
+
 def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     runner = unittest.TextTestRunner()
     report_title = f"{web_brand} ||| {URL}"
@@ -80,11 +81,14 @@ def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     )
     runner.run(suite_general())
 
-    # Find the generated report file
+    # Find the latest generated report file
     report_files = glob.glob(f"{report_dir}/{report_name}*.html")
     if not report_files:
         raise FileNotFoundError("Report file not found")
-    report_file = report_files[0]
+
+    # Sort the files by modified time and pick the latest one
+    report_files.sort(key=os.path.getmtime)
+    report_file = report_files[-1]  # Get the latest file
 
     # Define additional file paths
     stylesheet_file = os.path.join(report_dir, "stylesheet.css")
@@ -95,5 +99,5 @@ def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     with open(report_file, 'r') as f:
         report_content = f.read()
 
-    # Send the email
+    # Send the email with the latest report
     sendEmailv2(report_title, report_content, email, files)
