@@ -41,17 +41,7 @@ def setUp(self):
 
 
   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-
-  chrome_options = Options()
-
-  # Add options to ChromeOptions
-  chrome_options.add_argument("--disable-infobars")  # Disable the infobar
-  chrome_options.add_argument("--disable-popup-blocking")  # Disable popups
-  chrome_options.add_argument("--disable-default-apps")  # Disable default apps
-  chrome_options.add_argument("--start-maximized")  # Start maximized
-  chrome_options.add_argument("--disable-extensions")  # Disable extensions
-  chrome_options.add_argument("--disable-features=FirstRunUI")  # Disable the first run UI
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 
 
