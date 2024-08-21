@@ -1,6 +1,6 @@
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from FWSK.to_import import acceptConsent, URL_fmExotika, sendEmail, setUp, tearDown
+from FWSK.to_import import acceptConsent, URL_fmExotika, sendEmail, setUp, tearDown, URL_fmExotika
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -59,7 +59,7 @@ class TestFMexotika_D(unittest.TestCase):
         tearDown(self)
 
     # def test_FM_exotika_D(self):
-        URL_fmExotika_lp = f"{self.URL}{URL_fmExotika}"
+      #  URL_fmExotika_lp #= #f"{self.URL}{URL_fmExotika}"
     #     self.driver.get(URL_fmExotika_lp)
     #     wait = WebDriverWait(self.driver, 1500)
     #     self.driver.maximize_window()
@@ -94,7 +94,9 @@ class TestFMexotika_D(unittest.TestCase):
     #
     #     self.test_passed = True
     def test_FM_exotika_D(self):
-        self.driver.get(URL_fmExotika)
+
+        URL_fmExotikaLP = f"{self.URL}{URL_fmExotika}"
+        self.driver.get(URL_fmExotikaLP)
         wait = WebDriverWait(self.driver, 1500)
         self.driver.maximize_window()
         time.sleep(2)

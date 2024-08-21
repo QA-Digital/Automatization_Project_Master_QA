@@ -13,10 +13,10 @@ banneryXpath_KTGSK = "//*[@class='f_teaser-item']/a"
 
 HPvyhledatZajezdyButtonXpath = "//*[@class='f_button f_button--forFilter']//*[contains(text(), 'Vyhľadať zájazdy')]"
 HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam cestujete?')]"
-HPzlutakReckoDestinaceXpath = "//*[@class='f_input-wrapper']//img[@alt='Turecko']"
+HPzlutakReckoDestinaceXpath = "//*[@value='st63182']"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovať')]"
 #HPzlutakPokracovatButtonXpath ="/html/body/header/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
-HPzlutakPokracovatButtonXpathStep2 = "//*[@id='pageHeader']/div[1]/div[2]/div/div/div/div/div[2]/div[2]/div[3]/div[2]/a/span"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovať')]"
 HPzlutakLetniPrazdninyXpath = "//*[@class='f_filter-item']//*[contains(text(), 'September')]"
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
@@ -24,7 +24,7 @@ HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[co
 HPnejlepsiZajezdySwitchButtonXpath = "//*[@class='f_switch-button']"
 HPnejlepsiZajezdyVypisXpath = "//*[@class='f_tourTable-tour']"
 
-HPzlutakPokracovatButtonXpathStep3 = "//*[@id='pageHeader']/div[1]/div[2]/div/div/div/div/div[2]/div[3]/div[3]/div[2]/a/span"
+HPzlutakPokracovatButtonXpathStep3 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovať')]"
 from KTGSK.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
