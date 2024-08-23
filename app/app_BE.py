@@ -31,7 +31,7 @@ def run_suite():
     data = request.json
     logging.debug(f'Received data: {data}')
 
-    web_brand = data.get('web_brand', 'FISCHER')  # This will now be set correctly based on the project
+    web_brand = data.get('web_brand', 'FISCHER')
     version = data.get('version', 'FW-EW release 2024-05-16')
     url = data.get('URL')
     suite_name = data.get('suiteName')
@@ -39,7 +39,6 @@ def run_suite():
 
     logging.debug(f'web_brand: {web_brand}, version: {version}, URL: {url}, suiteName: {suite_name}, email: {email}')
 
-    # Dictionary to map suite names to functions
     suite_mapping = {
         'FISCHER web full suite': suite_FW_full,
         'DERRO web full suite': suite_DERRO_full,
@@ -57,12 +56,12 @@ def run_suite():
     if not suite_function:
         return jsonify({'status': 'error', 'message': f'Suite {suite_name} not found.'}), 400
 
-    try:
-        runner_tests_generalized(lambda: suite_function(url), web_brand, version, url, email)
-        return jsonify({'status': 'success', 'message': 'Test suite executed successfully.'}), 200
-    except Exception as e:
-        logging.error(f'Error running test suite: {e}')
-        return jsonify({'status': 'error', 'message': str(e)}), 500
+    # Run the suite in a separate thread to ensure isolation
+    thread = Thread(target=runner_tests_generalized, args=(lambda: suite_function(url), web_brand, version, url, email))
+    thread.start()
+
+    return jsonify({'status': 'success', 'message': 'Test suite execution started successfully.'}), 200
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
