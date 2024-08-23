@@ -1,4 +1,5 @@
 import logging
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from threading import Thread
@@ -27,11 +28,24 @@ def suite_FW_full2(url):
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     return suite
 
+# Ensure that a report directory exists for the project
+def ensure_report_directory(project_name):
+    report_dir = os.path.join('app', 'report', project_name)
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+        logging.debug(f'Created report directory: {report_dir}')
+    else:
+        logging.debug(f'Report directory already exists: {report_dir}')
+    return report_dir
+
 # Function to run the test suite in a separate thread
 def run_suite_in_thread(url, web_brand, version, suite_function, email):
     try:
         logging.debug(f'Starting test suite with URL: {url}')
-        runner_tests_generalized(lambda: suite_function(url), web_brand, version, url, email)
+        # Create the project-specific report directory
+        report_dir = ensure_report_directory(web_brand.lower())
+        # Pass the report directory path to the test runner if needed
+        runner_tests_generalized(lambda: suite_function(url), web_brand, version, url, email, report_dir=report_dir)
         logging.debug(f'Test suite finished for URL: {url}')
     except Exception as e:
         logging.error(f'Error running test suite: {e}')
