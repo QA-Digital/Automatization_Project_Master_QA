@@ -1,6 +1,9 @@
 import logging
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from threading import Thread
+import unittest
+
 from FW.Detail_D import TestDetailHotelu_D  # Ensure correct imports
 from FW.darkove_poukazy import *
 from starter_master_browserstack import runner_tests_generalized
@@ -24,7 +27,14 @@ def suite_FW_full2(url):
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     return suite
 
-# Add more suite functions if needed, matching the suite names
+# Function to run the test suite in a separate thread
+def run_suite_in_thread(url, web_brand, version, suite_function, email):
+    try:
+        logging.debug(f'Starting test suite with URL: {url}')
+        runner_tests_generalized(lambda: suite_function(url), web_brand, version, url, email)
+        logging.debug(f'Test suite finished for URL: {url}')
+    except Exception as e:
+        logging.error(f'Error running test suite: {e}')
 
 @app.route('/run_suite', methods=['POST'])
 def run_suite():
@@ -39,6 +49,7 @@ def run_suite():
 
     logging.debug(f'web_brand: {web_brand}, version: {version}, URL: {url}, suiteName: {suite_name}, email: {email}')
 
+    # Dictionary to map suite names to functions
     suite_mapping = {
         'FISCHER web full suite': suite_FW_full,
         'DERRO web full suite': suite_DERRO_full,
@@ -56,12 +67,15 @@ def run_suite():
     if not suite_function:
         return jsonify({'status': 'error', 'message': f'Suite {suite_name} not found.'}), 400
 
-    # Run the suite in a separate thread to ensure isolation
-    thread = Thread(target=runner_tests_generalized, args=(lambda: suite_function(url), web_brand, version, url, email))
-    thread.start()
-
-    return jsonify({'status': 'success', 'message': 'Test suite execution started successfully.'}), 200
-
+    try:
+        # Start a new thread to run the test suite, isolating variables for each suite run
+        thread = Thread(target=run_suite_in_thread, args=(url, web_brand, version, suite_function, email))
+        thread.start()
+        logging.debug(f'Started thread for suite: {suite_name} with URL: {url}')
+        return jsonify({'status': 'success', 'message': 'Test suite execution started.'}), 200
+    except Exception as e:
+        logging.error(f'Error starting test suite thread: {e}')
+        return jsonify({'status': 'error', 'message': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
