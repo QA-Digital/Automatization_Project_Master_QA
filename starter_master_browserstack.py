@@ -58,7 +58,7 @@ def runner_tests_generalized2(suite_general, web_brand, version, URL):
     runner.run(suite_general())
 
 
-def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized3(suite_general, web_brand, version, URL, email):
     runner = unittest.TextTestRunner()
     report_title = f"{web_brand} ||| {URL}"
     report_name = f"WEB_Suite_Report_version_{version}"
@@ -97,6 +97,47 @@ def runner_tests_generalized(suite_general, web_brand, version, URL, email):
 
     # Read the main report file to include in the email body
     with open(report_file, 'r') as f:
+        report_content = f.read()
+
+    # Send the email with the latest report
+    sendEmailv2(report_title, report_content, email, files)
+
+
+import os
+import glob
+import xmlrunner
+
+def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+    report_title = f"{web_brand} ||| {URL}"
+    report_name = f"WEB_Suite_Report_version_{version}"
+    report_description = f"{web_brand} WEB Suite Report - version --- {version} ---"
+
+    # Ensure the report directory exists
+    report_dir = 'report'
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+
+    # Generate the report using xmlrunner
+    with open(f"{report_dir}/{report_name}.xml", 'wb') as output:
+        runner = xmlrunner.XMLTestRunner(output=output, verbosity=2)
+        runner.run(suite_general())
+
+    # Convert XML to HTML
+    xml_report_file = f"{report_dir}/{report_name}.xml"
+    html_report_file = f"{report_dir}/{report_name}.html"
+    os.system(f"xsltproc -o {html_report_file} {xml_report_file}")
+
+    # Check if HTML report was created
+    if not os.path.exists(html_report_file):
+        raise FileNotFoundError("HTML Report file not found")
+
+    # Define additional file paths
+    stylesheet_file = os.path.join(report_dir, "stylesheet.css")
+    script_file = os.path.join(report_dir, "script.js")
+    files = [html_report_file, stylesheet_file, script_file]
+
+    # Read the main report file to include in the email body
+    with open(html_report_file, 'r') as f:
         report_content = f.read()
 
     # Send the email with the latest report
