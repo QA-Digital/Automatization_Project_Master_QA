@@ -108,7 +108,12 @@ class TestDetailHotelu_C(unittest.TestCase):
             poziceTerminu = poziceTerminu + 1
         with print_lock:
             with print_lock:
-                print(celkoveCenyList)
+                print_lock.acquire()
+                try:
+                    print(celkoveCenyList)
+                    time.sleep(0.1)
+                finally:
+                    print_lock.release()
         time.sleep(3)
         #cheap = "expensive"
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
@@ -157,7 +162,12 @@ class TestDetailHotelu_C(unittest.TestCase):
             poziceTerminu = poziceTerminu + 1
         with print_lock:
             with print_lock:
-                print(celkoveCenyList)
+                print_lock.acquire()
+                try:
+                    print(celkoveCenyList)
+                    time.sleep(0.1)
+                finally:
+                    print_lock.release()
         time.sleep(3)
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
@@ -229,7 +239,12 @@ class TestDetailHotelu_C(unittest.TestCase):
             if image.is_displayed():
                 with print_lock:
                     with print_lock:
-                        print("its ok")
+                        print_lock.acquire()
+                        try:
+                            print("its ok")
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -251,7 +266,12 @@ class TestDetailHotelu_C(unittest.TestCase):
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         with print_lock:
             with print_lock:
-                print(zvolenaStravaVboxuString)
+                print_lock.acquire()
+                try:
+                    print(zvolenaStravaVboxuString)
+                    time.sleep(0.1)
+                finally:
+                    print_lock.release()
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True
 

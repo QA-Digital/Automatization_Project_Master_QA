@@ -1,4 +1,5 @@
-from FW.to_import import print_lock
+import threading
+
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -116,7 +117,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 def tearDown(self):
   with print_lock:
       with print_lock:
-          print(self.driver.current_url)
+          print_lock.acquire()
+          try:
+              print(self.driver.current_url)
+              time.sleep(0.1)
+          finally:
+              print_lock.release()
   self.driver.quit()
   #if not self.test_passed:self.driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
@@ -193,7 +199,12 @@ def closeExponeaBanner(driver):
     except NoSuchElementException:
       with print_lock:
           with print_lock:
-              print("nenasle se exponea banner")
+              print_lock.acquire()
+              try:
+                  print("nenasle se exponea banner")
+                  time.sleep(0.1)
+              finally:
+                  print_lock.release()
 def acceptConsent3(driver):
   time.sleep(2)
 

@@ -222,10 +222,25 @@ class Test_HP_C(unittest.TestCase):
 
             with print_lock:
 
-                print(nejlepsiNabidkyTextList)
+                print_lock.acquire()
+
+                try:
+
+                    print(nejlepsiNabidkyTextList)
+
+                    time.sleep(0.1)
+
+                finally:
+
+                    print_lock.release()
         with print_lock:
             with print_lock:
-                print(nejlepsiNabidkyTextList2)
+                print_lock.acquire()
+                try:
+                    print(nejlepsiNabidkyTextList2)
+                    time.sleep(0.1)
+                finally:
+                    print_lock.release()
         assert nejlepsiNabidkyTextList != nejlepsiNabidkyTextList2
 
         self.test_passed = True

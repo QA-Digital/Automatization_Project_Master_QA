@@ -40,7 +40,17 @@ class TestDovolena_D(unittest.TestCase):
 
                 with print_lock:
 
-                    print("Položka menu existuje")
+                    print_lock.acquire()
+
+                    try:
+
+                        print("Položka menu existuje")
+
+                        time.sleep(0.1)
+
+                    finally:
+
+                        print_lock.release()
             hover = ActionChains(self.driver).move_to_element(dovolena_menu_item_anchor)
             hover.perform()
             time.sleep(1)
@@ -58,11 +68,21 @@ class TestDovolena_D(unittest.TestCase):
                     response = requests.get(href_value)
                     with print_lock:
                         with print_lock:
-                            print(href_value + " " + str(response.status_code))
+                            print_lock.acquire()
+                            try:
+                                print(href_value + " " + str(response.status_code))
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                 except requests.exceptions.RequestException as e:
                     with print_lock:
                         with print_lock:
-                            print(href_value + " Error:", e)
+                            print_lock.acquire()
+                            try:
+                                print(href_value + " Error:", e)
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                     pass
                 assert response.status_code == 200
 
@@ -70,6 +90,11 @@ class TestDovolena_D(unittest.TestCase):
         else:
             with print_lock:
                 with print_lock:
-                    print("Položka menu neexistuje")
+                    print_lock.acquire()
+                    try:
+                        print("Položka menu neexistuje")
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
         self.test_passed = True
 

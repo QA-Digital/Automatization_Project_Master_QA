@@ -25,7 +25,12 @@ def SRL_D(self, driver):
                 jdouvidet = WebElement.is_displayed()
                 with print_lock:
                     with print_lock:
-                        print(jdouvidet)
+                        print_lock.acquire()
+                        try:
+                            print(jdouvidet)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
@@ -78,7 +83,12 @@ def SRL_D(self, driver):
                 if jdouvidet == True:
                     with print_lock:
                         with print_lock:
-                            print("ceny")
+                            print_lock.acquire()
+                            try:
+                                print("ceny")
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                     pass
 
                 else:
