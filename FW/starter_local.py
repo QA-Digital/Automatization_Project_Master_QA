@@ -72,10 +72,9 @@ def suite_FW_full(url):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url))
     return suite
 
-def suite_map():
+def suite_FW_full2(url):
     suite = unittest.TestSuite()
-    suite.addTest(Test_HP_C('test_HP_bannery_check'))
-    suite.addTest(Test_SRL_C('test_SRL_map'))
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
     return suite
 
 def suite_HP_bannery():
