@@ -1,4 +1,6 @@
 from FW.to_import import print_lock
+import time
+from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import URL, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit

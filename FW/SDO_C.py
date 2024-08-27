@@ -1,4 +1,6 @@
 from FW.to_import import print_lock
+import time
+from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 
 from FW.HP_C import *

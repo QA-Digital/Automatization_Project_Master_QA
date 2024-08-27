@@ -1,4 +1,6 @@
 from FW.to_import import print_lock
+import time
+from FW.to_import import print_lock
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, setUp, tearDown
@@ -44,8 +46,17 @@ class TestDovolena_D(unittest.TestCase):
 
                     try:
 
-                        print("Položka menu existuje")
+                        print_lock.acquire()
 
+                        try:
+
+                            print("Položka menu existuje")
+
+                            time.sleep(0.1)
+
+                        finally:
+
+                            print_lock.release()
                         time.sleep(0.1)
 
                     finally:
@@ -70,7 +81,12 @@ class TestDovolena_D(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print(href_value + " " + str(response.status_code))
+                                print_lock.acquire()
+                                try:
+                                    print(href_value + " " + str(response.status_code))
+                                    time.sleep(0.1)
+                                finally:
+                                    print_lock.release()
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -79,7 +95,12 @@ class TestDovolena_D(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print(href_value + " Error:", e)
+                                print_lock.acquire()
+                                try:
+                                    print(href_value + " Error:", e)
+                                    time.sleep(0.1)
+                                finally:
+                                    print_lock.release()
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -92,7 +113,12 @@ class TestDovolena_D(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print("Položka menu neexistuje")
+                        print_lock.acquire()
+                        try:
+                            print("Položka menu neexistuje")
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()

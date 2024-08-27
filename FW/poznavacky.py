@@ -17,7 +17,12 @@ def poznavacky_check_D(self, driver):
         with print_lock:
             print_lock.acquire()
             try:
-                print(imgs)
+                print_lock.acquire()
+                try:
+                    print(imgs)
+                    time.sleep(0.1)
+                finally:
+                    print_lock.release()
                 time.sleep(0.1)
             finally:
                 print_lock.release()
@@ -32,7 +37,12 @@ def poznavacky_check_D(self, driver):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print("true imgdisplay")
+                    print_lock.acquire()
+                    try:
+                        print("true imgdisplay")
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -48,7 +58,12 @@ def poznavacky_check_D(self, driver):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print("grid true")
+                    print_lock.acquire()
+                    try:
+                        print("grid true")
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -63,7 +78,12 @@ def poznavacky_check_D(self, driver):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print("big grid ture")
+                    print_lock.acquire()
+                    try:
+                        print("big grid ture")
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -79,7 +99,12 @@ def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print(driver.current_url)
+                        print_lock.acquire()
+                        try:
+                            print(driver.current_url)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -158,7 +183,12 @@ class TestPoznavacky_D(unittest.TestCase):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print(self.driver.current_url)
+                    print_lock.acquire()
+                    try:
+                        print(self.driver.current_url)
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
                     time.sleep(0.1)
                 finally:
                     print_lock.release()

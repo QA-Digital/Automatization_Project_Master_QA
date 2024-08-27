@@ -60,7 +60,12 @@ def groupSearch_D(self, driver):
                     with print_lock:
                         print_lock.acquire()
                         try:
-                            print("Else")
+                            print_lock.acquire()
+                            try:
+                                print("Else")
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -70,7 +75,12 @@ def groupSearch_D(self, driver):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print("no such")
+                    print_lock.acquire()
+                    try:
+                        print("no such")
+                        time.sleep(0.1)
+                    finally:
+                        print_lock.release()
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
