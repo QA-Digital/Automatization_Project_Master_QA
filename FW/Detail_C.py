@@ -31,13 +31,6 @@ dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_ic
 
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
 
-
-from FW.to_import import URL_local
-
-from FW.to_import import URL_local
-
-from FW.to_import import URL_local
-
 from FW.to_import import URL_local
 
 class TestDetailHotelu_C(unittest.TestCase):
