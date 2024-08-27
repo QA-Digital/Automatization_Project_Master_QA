@@ -70,10 +70,6 @@ def suite_FW_full(url):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani', URL=url))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url))
-
-    return suite
-
-
     return suite
 
 def suite_map():
