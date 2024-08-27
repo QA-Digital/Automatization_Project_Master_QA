@@ -1,3 +1,4 @@
+from FW.to_import import print_lock
 import logging
 from flask import Flask, request, jsonify
 # Import the necessary modules and test suite functions from your script

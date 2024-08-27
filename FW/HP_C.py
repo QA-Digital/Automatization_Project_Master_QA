@@ -1,3 +1,4 @@
+from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
@@ -217,8 +218,14 @@ class Test_HP_C(unittest.TestCase):
             #print(nejlepsiNabidkyTextList)
             positionOfCurrentElement2 = positionOfCurrentElement2 + 1
 
-        print(nejlepsiNabidkyTextList)
-        print(nejlepsiNabidkyTextList2)
+        with print_lock:
+
+            with print_lock:
+
+                print(nejlepsiNabidkyTextList)
+        with print_lock:
+            with print_lock:
+                print(nejlepsiNabidkyTextList2)
         assert nejlepsiNabidkyTextList != nejlepsiNabidkyTextList2
 
         self.test_passed = True

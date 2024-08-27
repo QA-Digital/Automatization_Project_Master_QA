@@ -1,3 +1,4 @@
+from FW.to_import import print_lock
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, setUp, tearDown
@@ -35,7 +36,11 @@ class TestDovolena_D(unittest.TestCase):
 
         if dovolena_menu_item_anchor.is_displayed():
 
-            print("Položka menu existuje")
+            with print_lock:
+
+                with print_lock:
+
+                    print("Položka menu existuje")
             hover = ActionChains(self.driver).move_to_element(dovolena_menu_item_anchor)
             hover.perform()
             time.sleep(1)
@@ -51,15 +56,20 @@ class TestDovolena_D(unittest.TestCase):
 
                 try:
                     response = requests.get(href_value)
-                    print(href_value + " " + str(response.status_code))
+                    with print_lock:
+                        with print_lock:
+                            print(href_value + " " + str(response.status_code))
                 except requests.exceptions.RequestException as e:
-                    print(href_value + " Error:", e)
+                    with print_lock:
+                        with print_lock:
+                            print(href_value + " Error:", e)
                     pass
                 assert response.status_code == 200
 
             time.sleep(1)
         else:
-            print("Položka menu neexistuje")
-
+            with print_lock:
+                with print_lock:
+                    print("Položka menu neexistuje")
         self.test_passed = True
 

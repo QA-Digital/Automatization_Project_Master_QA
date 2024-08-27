@@ -1,3 +1,4 @@
+from FW.to_import import print_lock
 import time
 from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
@@ -12,7 +13,9 @@ def poznavacky_check_D(self, driver):
 
     imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
     #self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)
-    print(imgs)
+    with print_lock:
+        with print_lock:
+            print(imgs)
     x = 0
     assert imgs[0].is_displayed() == True
     for _ in imgs:
@@ -20,8 +23,9 @@ def poznavacky_check_D(self, driver):
         x = x + 1
 
         assert imgsDisplayed == True
-        print("true imgdisplay")
-
+        with print_lock:
+            with print_lock:
+                print("true imgdisplay")
     gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
     self.driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
     assert gridItems[0].is_displayed() == True
@@ -30,8 +34,9 @@ def poznavacky_check_D(self, driver):
         gridItemDisplayed = gridItems[y].is_displayed()
         assert gridItemDisplayed == True
         y = y + 1
-        print("grid true")
-
+        with print_lock:
+            with print_lock:
+                print("grid true")
     gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
     a = 0
     assert gridBig[0].is_displayed() == True
@@ -39,8 +44,9 @@ def poznavacky_check_D(self, driver):
         gridBigDisplayed = gridBig[a].is_displayed()
         assert gridBigDisplayed == True
         a = a + 1
-        print("big grid ture")
-
+        with print_lock:
+            with print_lock:
+                print("big grid ture")
 def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
             element = driver.find_element_by_xpath(kostkaPoznavackaXpath)
             driver.execute_script("arguments[0].scrollIntoView();", element)
@@ -49,7 +55,9 @@ def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
             time.sleep(2)
             driver.switch_to.window(driver.window_handles[2])
             time.sleep(1)
-            print(driver.current_url)
+            with print_lock:
+                with print_lock:
+                    print(driver.current_url)
             sedivka_check_assert(driver, sedivkaXpathFw)
 
 
@@ -121,7 +129,9 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.switch_to.window(
             self.driver.window_handles[1])
         time.sleep(1)
-        print(self.driver.current_url)
+        with print_lock:
+            with print_lock:
+                print(self.driver.current_url)
         sedivka_check_assert(self.driver, sedivkaXpathFw)
         self.test_passed = True
 
