@@ -17,57 +17,55 @@ from EW.HP_C import *
 from EW.SRL_results_comparer import *
 from EW.darkove_poukazy import *
 
-def suite_EW_full(url):
+def suite_EW_full():
     suite = unittest.TestSuite()
-    suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url))
-    suite.addTest(TestDetskeKluby_D("test_kluby_D", URL=url))
-    suite.addTest(TestFM_D("test_FM_D", URL=url))
-    suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac", URL=url))
-    suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check", URL=url))
-    suite.addTest(Test_Groupsearch_D("test_groupsearch_D", URL=url))
-    suite.addTest(TestHP_D("test_homePage_D", URL=url))
-    suite.addTest(TestLM_D("test_lM_isDisplayed", URL=url))
-    suite.addTest(TestPobocky_C('test_pobocky_D', URL=url))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_D', URL=url))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_D', URL=url))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_D', URL=url))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D', URL=url))
-    suite.addTest(TestSDO_D('test_SDO_D', URL=url))
-    suite.addTest(Test_SRL_C('test_SRL_sort_cheapest', URL=url))
-    suite.addTest(Test_SRL_C('test_SRL_sort_expensive', URL=url))
-    suite.addTest(Test_SRL_C('test_SRL_map', URL=url))
-    suite.addTest(Test_SRL_C('test_SRL_filtr_strava', URL=url))
-    suite.addTest(Test_SRL_C('test_srl_C', URL=url))
-    suite.addTest(TestSRL_D('test_SRL_D', URL=url))
-    #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch', URL=url)) ##ted to tam neni zase
-    #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))     ##ted to tam neni zase
-    suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
-    ##############
-    ####################
-    ###########################
-    suite.addTest(TestPoznavacky_D('test_poznavacky_all_URL_check', URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive", URL=url))
-    suite.addTest(TestPoznavacky_D('test_poznavacky_C', URL=url))
-    suite.addTest(Test_HP_C('test_HP_top_nabidka_status', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt', URL=url))  ###
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky', URL=url))
-   # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze', URL=url))
-    #suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check', URL=url)) ##neni zaple
-    suite.addTest(Test_SRL_C('test_SRL_kuba_srl_D_R', URL=url))
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky', URL=url))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky', URL=url))
-    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url))
-    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani', URL=url))
-    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url))
+    suite.addTest(TestDetailHotelu_D("test_detail_D"))
+    suite.addTest(TestDetailHotelu_C("test_detail_fotka"))
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal"))
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport"))
+    suite.addTest(TestDetskeKluby_D("test_kluby_D"))
+    suite.addTest(TestFM_D("test_FM_D"))
+    suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac"))
+    suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check"))
+    suite.addTest(Test_Groupsearch_D("test_groupsearch_D"))
+    suite.addTest(TestHP_D("test_homePage_D"))
+    suite.addTest(TestLM_D("test_lM_isDisplayed"))
+    suite.addTest(TestPobocky_C('test_pobocky_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_okruzni_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_vikendy_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_rodiny_D'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_D'))
+    suite.addTest(TestSDO_D('test_SDO_D'))
+    suite.addTest(Test_SRL_C('test_SRL_sort_cheapest'))
+    suite.addTest(Test_SRL_C('test_SRL_sort_expensive'))
+    suite.addTest(Test_SRL_C('test_SRL_map'))
+    suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
+    suite.addTest(Test_SRL_C('test_srl_C'))
+    suite.addTest(TestSRL_D('test_SRL_D'))
+    #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch')) ## Currently not included
+    #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu'))     ## Currently not included
+    suite.addTest(Test_HP_C('test_HP_bannery_check'))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_all_URL_check'))
+    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap"))
+    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive"))
+    suite.addTest(TestPoznavacky_D('test_poznavacky_C'))
+    suite.addTest(Test_HP_C('test_HP_top_nabidka_status'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt'))  ###
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky'))
+    # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze')) ## Currently not included
+    #suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check')) ## Not included
+    suite.addTest(Test_SRL_C('test_SRL_kuba_srl_D_R'))
+    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky'))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky'))
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy'))
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani'))
+    suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase'))
     return suite
+
 
 def suite2():
     suite = unittest.TestSuite()
