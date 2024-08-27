@@ -69,7 +69,12 @@ class Test_darkove_poukazy(unittest.TestCase):
                 try:
                     print_lock.acquire()
                     try:
-                        print(motivyElements)
+                        print_lock.acquire()
+                        try:
+                            print(motivyElements)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -86,7 +91,12 @@ class Test_darkove_poukazy(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print(pozice)
+                            print_lock.acquire()
+                            try:
+                                print(pozice)
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -121,7 +131,12 @@ class Test_darkove_poukazy(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print(pozice)
+                            print_lock.acquire()
+                            try:
+                                print(pozice)
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                             time.sleep(0.1)
                         finally:
                             print_lock.release()

@@ -114,7 +114,12 @@ class TestDetailHotelu_C(unittest.TestCase):
                 try:
                     print_lock.acquire()
                     try:
-                        print(celkoveCenyList)
+                        print_lock.acquire()
+                        try:
+                            print(celkoveCenyList)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -173,7 +178,12 @@ class TestDetailHotelu_C(unittest.TestCase):
                 try:
                     print_lock.acquire()
                     try:
-                        print(celkoveCenyList)
+                        print_lock.acquire()
+                        try:
+                            print(celkoveCenyList)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -255,7 +265,12 @@ class TestDetailHotelu_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print("its ok")
+                                print_lock.acquire()
+                                try:
+                                    print("its ok")
+                                    time.sleep(0.1)
+                                finally:
+                                    print_lock.release()
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -287,7 +302,12 @@ class TestDetailHotelu_C(unittest.TestCase):
                 try:
                     print_lock.acquire()
                     try:
-                        print(zvolenaStravaVboxuString)
+                        print_lock.acquire()
+                        try:
+                            print(zvolenaStravaVboxuString)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()

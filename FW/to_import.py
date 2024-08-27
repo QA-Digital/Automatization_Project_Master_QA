@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 import time
 import threading
 
@@ -123,7 +122,12 @@ def tearDown(self):
           try:
               print_lock.acquire()
               try:
-                  print(self.driver.current_url)
+                  print_lock.acquire()
+                  try:
+                      print(self.driver.current_url)
+                      time.sleep(0.1)
+                  finally:
+                      print_lock.release()
                   time.sleep(0.1)
               finally:
                   print_lock.release()
@@ -210,7 +214,12 @@ def closeExponeaBanner(driver):
               try:
                   print_lock.acquire()
                   try:
-                      print("nenasle se exponea banner")
+                      print_lock.acquire()
+                      try:
+                          print("nenasle se exponea banner")
+                          time.sleep(0.1)
+                      finally:
+                          print_lock.release()
                       time.sleep(0.1)
                   finally:
                       print_lock.release()

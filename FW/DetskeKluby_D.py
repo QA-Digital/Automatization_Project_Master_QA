@@ -53,7 +53,12 @@ class TestDetskeKluby_D(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print("benefit item")
+                            print_lock.acquire()
+                            try:
+                                print("benefit item")
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -88,7 +93,12 @@ class TestDetskeKluby_D(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print("tile img")
+                            print_lock.acquire()
+                            try:
+                                print("tile img")
+                                time.sleep(0.1)
+                            finally:
+                                print_lock.release()
                             time.sleep(0.1)
                         finally:
                             print_lock.release()

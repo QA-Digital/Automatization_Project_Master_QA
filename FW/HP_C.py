@@ -232,8 +232,17 @@ class Test_HP_C(unittest.TestCase):
 
                     try:
 
-                        print(nejlepsiNabidkyTextList)
+                        print_lock.acquire()
 
+                        try:
+
+                            print(nejlepsiNabidkyTextList)
+
+                            time.sleep(0.1)
+
+                        finally:
+
+                            print_lock.release()
                         time.sleep(0.1)
 
                     finally:
@@ -250,7 +259,12 @@ class Test_HP_C(unittest.TestCase):
                 try:
                     print_lock.acquire()
                     try:
-                        print(nejlepsiNabidkyTextList2)
+                        print_lock.acquire()
+                        try:
+                            print(nejlepsiNabidkyTextList2)
+                            time.sleep(0.1)
+                        finally:
+                            print_lock.release()
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
