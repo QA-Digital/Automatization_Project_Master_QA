@@ -1,12 +1,9 @@
-from FW.to_import import print_lock
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
-
-print_lock = threading.Lock()
 
 brand_name_project = "FISCHER"
 desired_cap = {
@@ -114,9 +111,7 @@ from to_import_secret_master import emailPass, comandExecutor
 from webdriver_manager.chrome import ChromeDriverManager
 
 def tearDown(self):
-  with print_lock:
-      with print_lock:
-          print(self.driver.current_url)
+  print(self.driver.current_url)
   self.driver.quit()
   #if not self.test_passed:self.driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
@@ -191,9 +186,8 @@ def closeExponeaBanner(driver):
         time.sleep(2)
 
     except NoSuchElementException:
-      with print_lock:
-          with print_lock:
-              print("nenasle se exponea banner")
+      print("nenasle se exponea banner")
+
 def acceptConsent3(driver):
   time.sleep(2)
 

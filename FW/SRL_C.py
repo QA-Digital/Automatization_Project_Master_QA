@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -125,18 +124,10 @@ class Test_SRL_C(unittest.TestCase):
         #for WebElement in hotelyAllKarty:
         #for _ in range(9):
         for _ in range(5):
-            with print_lock:
-                with print_lock:
-                    print("|||||HOTEL CISLO|||||||" )
-            with print_lock:
-                with print_lock:
-                    print(x+1)
-            with print_lock:
-                with print_lock:
-                    print(x + 1)
-            with print_lock:
-                with print_lock:
-                    print(x + 1)
+            print("|||||HOTEL CISLO|||||||" )
+            print(x+1)
+            print(x + 1)
+            print(x + 1)
             terminZajezdu = self.driver.find_elements_by_xpath(
                 "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
             terminZajezduSingle = self.driver.find_element_by_xpath(
@@ -193,32 +184,27 @@ class Test_SRL_C(unittest.TestCase):
                     pass
             #detailStravaSedivkaString = detailStravaSedivka[1].text  ##gottaa be 1 cuz thats how its set up (multiple locators are attached to this locator so position 1 is always gonna be strava hopefully
             detailStravaSedivkaString = detailStravaSedivka.text
-            with print_lock:
-                with print_lock:
-                    print(detailStravaSedivkaString)
+            print(detailStravaSedivkaString)
+
             #detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
             detailPokojSedivkaXpath = "//body//div//div[@data-component-name='abnbHotelDetail']//div//div//div//div//div[4]//div[1]//button[1]//span[1]"
             detailPokojSedivka = self.driver.find_element_by_xpath(detailPokojSedivkaXpath )
             detailPokojSedivkaString = detailPokojSedivka.text.replace(" ", "")
             #detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
-            with print_lock:
-                with print_lock:
-                    print(detailPokojSedivkaString)
+            print(detailPokojSedivkaString)
+
             #detailCenaAll = self.driver.find_element_by_xpath("//*[@class='fshr-tooltip-underline js-totalPrice']")
             detailCenaAll = self.driver.find_element_by_xpath("//div[@class='text-xl font-bold']")
             detailCenaAllString = detailCenaAll.text
-            with print_lock:
-                with print_lock:
-                    print(detailCenaAllString)
+            print(detailCenaAllString)
             try:
                 #detailCenaAdult = self.driver.find_element_by_xpath('//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
 
                 detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between mb-2']//*[@class='text-right bold']") ##===2pokoje?? STGV2
                 #detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text
-                with print_lock:
-                    with print_lock:
-                        print(detailCenaAdultString)
+                print(detailCenaAdultString)
+
             except NoSuchElementException:
                 pass
             #assert detailPokojSedivkaString == pokojZajezduString
@@ -226,31 +212,22 @@ class Test_SRL_C(unittest.TestCase):
 
             self.driver.close()
             if detailPokojSedivkaString in pokojZajezduString:
-                with print_lock:
-                    with print_lock:
-                        print("pokoje sedi srl vs detail")
+                print("pokoje sedi srl vs detail")
             else:
-                with print_lock:
-                    with print_lock:
-                        print(" NESEDÍ pokoj SRL vs sedivka")
+                print(" NESEDÍ pokoj SRL vs sedivka")
+
             assert detailStravaSedivkaString == stravaZajezduString
             if detailStravaSedivkaString == stravaZajezduString:
-                with print_lock:
-                    with print_lock:
-                        print("stravy sedi srl vs detail")
+                print("stravy sedi srl vs detail")
+
             else:
-                with print_lock:
-                    with print_lock:
-                        print("NESEDÍ strava srl vs ssedika")
+                print("NESEDÍ strava srl vs ssedika")
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
-                with print_lock:
-                    with print_lock:
-                        print("ceny all sedi srl vs detail")
+                print("ceny all sedi srl vs detail")
+
             else:
-                with print_lock:
-                    with print_lock:
-                        print("ceny all NESEDÍ srl vs detail")
+                print("ceny all NESEDÍ srl vs detail")
             #
             # assert detailCenaAdultString == cenaZajezduAdultString
             #
@@ -265,11 +242,8 @@ class Test_SRL_C(unittest.TestCase):
             ##for daily test needs to be set on 1 so it gets on the SRL
 
             x = x + 1
-            with print_lock:
-                with print_lock:
-                    print(x)
+            print(x)
             windowHandle = windowHandle + 1
-            with print_lock:
-                with print_lock:
-                    print(windowHandle)
+            print(windowHandle)
+
             self.test_passed = True

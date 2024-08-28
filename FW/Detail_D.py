@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL_local, URL_detail, sendEmail, setUp, tearDown

@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
@@ -23,9 +22,7 @@ def SRL_D(self, driver):
         if hotelySingle.is_displayed():
             for WebElement in hotelyAll:
                 jdouvidet = WebElement.is_displayed()
-                with print_lock:
-                    with print_lock:
-                        print(jdouvidet)
+                print(jdouvidet)
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
@@ -76,9 +73,7 @@ def SRL_D(self, driver):
                 jdouvidet = WebElement.is_displayed()
                 assert jdouvidet == True
                 if jdouvidet == True:
-                    with print_lock:
-                        with print_lock:
-                            print("ceny")
+                    print("ceny")
                     pass
 
                 else:

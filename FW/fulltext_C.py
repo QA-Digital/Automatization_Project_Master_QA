@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from FW.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
@@ -54,9 +53,7 @@ class Test_Fulltext_C(unittest.TestCase):
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
             # inputBox.send_keys(Keys.ENTER)
-            with print_lock:
-                with print_lock:
-                    print(queryList[poziceQueryItem].upper())
+            print(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem + 1
 
             # if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
@@ -73,15 +70,11 @@ class Test_Fulltext_C(unittest.TestCase):
                     hotelDlazdice.click()
                     # hotelDlazdice.click()
                     currentUrl = self.driver.current_url
-                    with print_lock:
-                        with print_lock:
-                            print("hote dlazdice klik")
+                    print("hote dlazdice klik")
                     assert currentUrl != URL
                     testOK_asserted = True
                 except NoSuchElementException:
-                    with print_lock:
-                        with print_lock:
-                            print("first no such ele except")
+                    print("first no such ele except")
                     testOK_asserted = False
                     pass
             except NoSuchElementException:
@@ -93,18 +86,14 @@ class Test_Fulltext_C(unittest.TestCase):
                     #prvniItem =
                     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
                     # prvniItem[0].click()
-                    with print_lock:
-                        with print_lock:
-                            print("last no such ele except")
+                    print("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != URL
                     response = requests.get(currentUrl)
                     assert response.status_code == 200
 
                 except NoSuchElementException:
-                    with print_lock:
-                        with print_lock:
-                            print("first no such ele except")
+                    print("first no such ele except")
                     pass
                 currentUrl = self.driver.current_url
                 assert currentUrl != URL
@@ -124,9 +113,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 self.driver.maximize_window()
             else:
                 pass
-            with print_lock:
-                with print_lock:
-                    print(queryList[poziceQueryItem].upper())
+            print(queryList[poziceQueryItem].upper())
             linksToCheckList = []
             try:
                 vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
@@ -160,9 +147,8 @@ class Test_Fulltext_C(unittest.TestCase):
                     #print(response.status_code)
                     #print(response.status_code == 200)
                     if response.status_code != 200:
-                        with print_lock:
-                            with print_lock:
-                                print(linksToCheckList[y])
+                        print(linksToCheckList[y])
+
                     y = y + 1
                     assert response.status_code == 200
             else:

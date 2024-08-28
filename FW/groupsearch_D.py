@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 import time
 
 from selenium.common.exceptions import NoSuchElementException
@@ -56,14 +55,13 @@ def groupSearch_D(self, driver):
 
             else:
                 pass
-                with print_lock:
-                    with print_lock:
-                        print("Else")
+                print("Else")
+
+
+
     except NoSuchElementException:
         pass
-        with print_lock:
-            with print_lock:
-                print("no such")
+        print("no such")
     assert srlItems[0].is_displayed() == True
 
 

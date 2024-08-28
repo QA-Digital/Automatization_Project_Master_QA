@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from webdriver_manager.chrome import ChromeDriverManager
 from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -31,12 +30,8 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
     time.sleep(2.5)
 
     popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
-    with print_lock:
-        with print_lock:
-            print("Popup formulář je zobrazený:    ")
-    with print_lock:
-        with print_lock:
-            print(popUpObjednavkaNavstevyElement.is_displayed())
+    print("Popup formulář je zobrazený:    ")
+    print(popUpObjednavkaNavstevyElement.is_displayed())
     assert popUpObjednavkaNavstevyElement.is_displayed() == True
 
 
@@ -77,9 +72,7 @@ class TestPobocky_C(unittest.TestCase):
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
 
             y=y+1
-            with print_lock:
-                with print_lock:
-                    print("mapa kolecka")
+            print("mapa kolecka")
             assert mapaKoleckaDisplayed == True
 
 
@@ -89,11 +82,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in basicInfo:
             basicInfoDisplay = basicInfo[a].is_displayed()
 
-            with print_lock:
-
-                with print_lock:
-
-                    print("basic info ")
+            print("basic info ")
             assert basicInfoDisplay == True
             a=a+1
         generalDriverWaitImplicit(self.driver)
@@ -102,11 +91,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()
 
-            with print_lock:
-
-                with print_lock:
-
-                    print("boxiky")
+            print("boxiky")
             assert pobockaBoxikyDisplay == True
             x = x + 1
 

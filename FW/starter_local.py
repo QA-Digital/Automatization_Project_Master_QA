@@ -1,4 +1,3 @@
-from FW.to_import import print_lock
 from FW.pobocky import *
 from FW.Detail_D import *
 from FW.Detail_C import *
