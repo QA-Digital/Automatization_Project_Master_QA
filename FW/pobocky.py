@@ -33,20 +33,10 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
     popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
     with print_lock:
         with print_lock:
-            print_lock.acquire()
-            try:
-                print("Popup formulář je zobrazený:    ")
-                time.sleep(0.1)
-            finally:
-                print_lock.release()
+            print("Popup formulář je zobrazený:    ")
     with print_lock:
         with print_lock:
-            print_lock.acquire()
-            try:
-                print(popUpObjednavkaNavstevyElement.is_displayed())
-                time.sleep(0.1)
-            finally:
-                print_lock.release()
+            print(popUpObjednavkaNavstevyElement.is_displayed())
     assert popUpObjednavkaNavstevyElement.is_displayed() == True
 
 
@@ -89,12 +79,7 @@ class TestPobocky_C(unittest.TestCase):
             y=y+1
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print("mapa kolecka")
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print("mapa kolecka")
             assert mapaKoleckaDisplayed == True
 
 
@@ -108,17 +93,7 @@ class TestPobocky_C(unittest.TestCase):
 
                 with print_lock:
 
-                    print_lock.acquire()
-
-                    try:
-
-                        print("basic info ")
-
-                        time.sleep(0.1)
-
-                    finally:
-
-                        print_lock.release()
+                    print("basic info ")
             assert basicInfoDisplay == True
             a=a+1
         generalDriverWaitImplicit(self.driver)
@@ -131,17 +106,7 @@ class TestPobocky_C(unittest.TestCase):
 
                 with print_lock:
 
-                    print_lock.acquire()
-
-                    try:
-
-                        print("boxiky")
-
-                        time.sleep(0.1)
-
-                    finally:
-
-                        print_lock.release()
+                    print("boxiky")
             assert pobockaBoxikyDisplay == True
             x = x + 1
 

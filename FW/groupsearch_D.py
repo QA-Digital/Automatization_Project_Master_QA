@@ -58,22 +58,12 @@ def groupSearch_D(self, driver):
                 pass
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("Else")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("Else")
     except NoSuchElementException:
         pass
         with print_lock:
             with print_lock:
-                print_lock.acquire()
-                try:
-                    print("no such")
-                    time.sleep(0.1)
-                finally:
-                    print_lock.release()
+                print("no such")
     assert srlItems[0].is_displayed() == True
 
 

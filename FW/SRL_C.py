@@ -127,36 +127,16 @@ class Test_SRL_C(unittest.TestCase):
         for _ in range(5):
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print("|||||HOTEL CISLO|||||||" )
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print("|||||HOTEL CISLO|||||||" )
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(x+1)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(x+1)
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(x + 1)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(x + 1)
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(x + 1)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(x + 1)
             terminZajezdu = self.driver.find_elements_by_xpath(
                 "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
             terminZajezduSingle = self.driver.find_element_by_xpath(
@@ -215,12 +195,7 @@ class Test_SRL_C(unittest.TestCase):
             detailStravaSedivkaString = detailStravaSedivka.text
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(detailStravaSedivkaString)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(detailStravaSedivkaString)
             #detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
             detailPokojSedivkaXpath = "//body//div//div[@data-component-name='abnbHotelDetail']//div//div//div//div//div[4]//div[1]//button[1]//span[1]"
             detailPokojSedivka = self.driver.find_element_by_xpath(detailPokojSedivkaXpath )
@@ -228,23 +203,13 @@ class Test_SRL_C(unittest.TestCase):
             #detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(detailPokojSedivkaString)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(detailPokojSedivkaString)
             #detailCenaAll = self.driver.find_element_by_xpath("//*[@class='fshr-tooltip-underline js-totalPrice']")
             detailCenaAll = self.driver.find_element_by_xpath("//div[@class='text-xl font-bold']")
             detailCenaAllString = detailCenaAll.text
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(detailCenaAllString)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(detailCenaAllString)
             try:
                 #detailCenaAdult = self.driver.find_element_by_xpath('//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
 
@@ -253,12 +218,7 @@ class Test_SRL_C(unittest.TestCase):
                 detailCenaAdultString = detailCenaAdult.text
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print(detailCenaAdultString)
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(detailCenaAdultString)
             except NoSuchElementException:
                 pass
             #assert detailPokojSedivkaString == pokojZajezduString
@@ -268,59 +228,29 @@ class Test_SRL_C(unittest.TestCase):
             if detailPokojSedivkaString in pokojZajezduString:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("pokoje sedi srl vs detail")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("pokoje sedi srl vs detail")
             else:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print(" NESEDÍ pokoj SRL vs sedivka")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(" NESEDÍ pokoj SRL vs sedivka")
             assert detailStravaSedivkaString == stravaZajezduString
             if detailStravaSedivkaString == stravaZajezduString:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("stravy sedi srl vs detail")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("stravy sedi srl vs detail")
             else:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("NESEDÍ strava srl vs ssedika")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("NESEDÍ strava srl vs ssedika")
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("ceny all sedi srl vs detail")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("ceny all sedi srl vs detail")
             else:
                 with print_lock:
                     with print_lock:
-                        print_lock.acquire()
-                        try:
-                            print("ceny all NESEDÍ srl vs detail")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("ceny all NESEDÍ srl vs detail")
             #
             # assert detailCenaAdultString == cenaZajezduAdultString
             #
@@ -337,19 +267,9 @@ class Test_SRL_C(unittest.TestCase):
             x = x + 1
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(x)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(x)
             windowHandle = windowHandle + 1
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(windowHandle)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(windowHandle)
             self.test_passed = True

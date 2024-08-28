@@ -47,12 +47,7 @@ class TestDetskeKluby_D(unittest.TestCase):
             assert benefitItemDisplay == True
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print("benefit item")
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print("benefit item")
         #p.press("pagedown", presses=3)
         generalDriverWaitImplicit(self.driver)
 
@@ -77,10 +72,5 @@ class TestDetskeKluby_D(unittest.TestCase):
             c=c+1
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print("tile img")
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print("tile img")
         self.test_passed = True

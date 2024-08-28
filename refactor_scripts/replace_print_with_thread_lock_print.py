@@ -11,11 +11,8 @@ fw_folder = os.path.join(project_root, 'FW')
 # Pattern to match print statements, capturing the indentation
 print_pattern = re.compile(r'^(\s*)print\((.*)\)\s*$', re.MULTILINE)
 
-# Import statements to be added
-import_statements = (
-    'from FW.to_import import print_lock\n'
-    'import time\n'
-)
+# Import statement to be added
+import_statement = 'from FW.to_import import print_lock\n'
 
 # Replace function with UTF-8 encoding handling and proper indentation
 def replace_print_statements_and_add_import(file_path):
@@ -23,20 +20,12 @@ def replace_print_statements_and_add_import(file_path):
         with codecs.open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
-        # Check if the import statements are already present
-        if 'from FW.to_import import print_lock' not in content:
-            content = import_statements + content
+        # Check if the import statement is already present
+        if import_statement not in content:
+            content = import_statement + content
 
-        # Replace all print statements with the locked version including time.sleep and lock release
-        new_content = print_pattern.sub(
-            r'\1print_lock.acquire()\n'
-            r'\1try:\n'
-            r'\1    print(\2)\n'
-            r'\1    time.sleep(0.1)\n'
-            r'\1finally:\n'
-            r'\1    print_lock.release()',
-            content
-        )
+        # Replace all print statements with the locked version
+        new_content = print_pattern.sub(r'\1with print_lock:\n\1    print(\2)', content)
 
         with codecs.open(file_path, 'w', encoding='utf-8') as file:
             file.write(new_content)

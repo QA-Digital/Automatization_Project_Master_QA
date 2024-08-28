@@ -56,12 +56,7 @@ class Test_Fulltext_C(unittest.TestCase):
             # inputBox.send_keys(Keys.ENTER)
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(queryList[poziceQueryItem].upper())
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem + 1
 
             # if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
@@ -80,23 +75,13 @@ class Test_Fulltext_C(unittest.TestCase):
                     currentUrl = self.driver.current_url
                     with print_lock:
                         with print_lock:
-                            print_lock.acquire()
-                            try:
-                                print("hote dlazdice klik")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("hote dlazdice klik")
                     assert currentUrl != URL
                     testOK_asserted = True
                 except NoSuchElementException:
                     with print_lock:
                         with print_lock:
-                            print_lock.acquire()
-                            try:
-                                print("first no such ele except")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("first no such ele except")
                     testOK_asserted = False
                     pass
             except NoSuchElementException:
@@ -110,12 +95,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     # prvniItem[0].click()
                     with print_lock:
                         with print_lock:
-                            print_lock.acquire()
-                            try:
-                                print("last no such ele except")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != URL
                     response = requests.get(currentUrl)
@@ -124,12 +104,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 except NoSuchElementException:
                     with print_lock:
                         with print_lock:
-                            print_lock.acquire()
-                            try:
-                                print("first no such ele except")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("first no such ele except")
                     pass
                 currentUrl = self.driver.current_url
                 assert currentUrl != URL
@@ -151,12 +126,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 pass
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(queryList[poziceQueryItem].upper())
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(queryList[poziceQueryItem].upper())
             linksToCheckList = []
             try:
                 vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
@@ -192,12 +162,7 @@ class Test_Fulltext_C(unittest.TestCase):
                     if response.status_code != 200:
                         with print_lock:
                             with print_lock:
-                                print_lock.acquire()
-                                try:
-                                    print(linksToCheckList[y])
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print(linksToCheckList[y])
                     y = y + 1
                     assert response.status_code == 200
             else:

@@ -63,24 +63,14 @@ class Test_darkove_poukazy(unittest.TestCase):
         motivyElements = self.driver.find_elements_by_xpath(motivyXpath)
         with print_lock:
             with print_lock:
-                print_lock.acquire()
-                try:
-                    print(motivyElements)
-                    time.sleep(0.1)
-                finally:
-                    print_lock.release()
+                print(motivyElements)
         pozice = 0
         for _ in motivyElements:
            # motivyElements[pozice].click()
             self.driver.execute_script("arguments[0].click();", motivyElements[pozice])
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(pozice)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
@@ -105,12 +95,7 @@ class Test_darkove_poukazy(unittest.TestCase):
             self.driver.execute_script("arguments[0].click();", castkyElements[pozice])
             with print_lock:
                 with print_lock:
-                    print_lock.acquire()
-                    try:
-                        print(pozice)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
