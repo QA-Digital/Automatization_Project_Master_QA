@@ -1,6 +1,4 @@
 from FW.to_import import print_lock
-import time
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from FW.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
     generalDriverWaitImplicit, URL_darkove_poukazy
@@ -67,12 +65,7 @@ class Test_darkove_poukazy(unittest.TestCase):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print(motivyElements)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(motivyElements)
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -84,12 +77,7 @@ class Test_darkove_poukazy(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print(pozice)
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(pozice)
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -119,12 +107,7 @@ class Test_darkove_poukazy(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print(pozice)
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(pozice)
                         time.sleep(0.1)
                     finally:
                         print_lock.release()

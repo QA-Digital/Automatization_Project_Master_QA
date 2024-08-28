@@ -1,5 +1,3 @@
-from FW.to_import import print_lock
-import time
 import threading
 
 from selenium.webdriver.edge.service import Service
@@ -121,12 +119,7 @@ def tearDown(self):
       with print_lock:
           print_lock.acquire()
           try:
-              print_lock.acquire()
-              try:
-                  print(self.driver.current_url)
-                  time.sleep(0.1)
-              finally:
-                  print_lock.release()
+              print(self.driver.current_url)
               time.sleep(0.1)
           finally:
               print_lock.release()
@@ -208,12 +201,7 @@ def closeExponeaBanner(driver):
           with print_lock:
               print_lock.acquire()
               try:
-                  print_lock.acquire()
-                  try:
-                      print("nenasle se exponea banner")
-                      time.sleep(0.1)
-                  finally:
-                      print_lock.release()
+                  print("nenasle se exponea banner")
                   time.sleep(0.1)
               finally:
                   print_lock.release()

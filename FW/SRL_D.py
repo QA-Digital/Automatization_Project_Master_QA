@@ -1,6 +1,4 @@
 from FW.to_import import print_lock
-import time
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
@@ -29,12 +27,7 @@ def SRL_D(self, driver):
                     with print_lock:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(jdouvidet)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(jdouvidet)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -92,12 +85,7 @@ def SRL_D(self, driver):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("ceny")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("ceny")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()

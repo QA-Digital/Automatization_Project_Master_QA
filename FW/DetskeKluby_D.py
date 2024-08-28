@@ -1,6 +1,4 @@
 from FW.to_import import print_lock
-import time
-from FW.to_import import print_lock
 from FW.to_import import acceptConsent, URL_kluby, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 import pyautogui as p
@@ -51,12 +49,7 @@ class TestDetskeKluby_D(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print("benefit item")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("benefit item")
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -86,12 +79,7 @@ class TestDetskeKluby_D(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print("tile img")
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print("tile img")
                         time.sleep(0.1)
                     finally:
                         print_lock.release()

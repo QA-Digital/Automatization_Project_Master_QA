@@ -1,6 +1,4 @@
 from FW.to_import import print_lock
-import time
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException
 from FW.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
@@ -60,12 +58,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print(queryList[poziceQueryItem].upper())
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(queryList[poziceQueryItem].upper())
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -89,12 +82,7 @@ class Test_Fulltext_C(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("hote dlazdice klik")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("hote dlazdice klik")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -105,12 +93,7 @@ class Test_Fulltext_C(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("first no such ele except")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("first no such ele except")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -129,12 +112,7 @@ class Test_Fulltext_C(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("last no such ele except")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("last no such ele except")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -148,12 +126,7 @@ class Test_Fulltext_C(unittest.TestCase):
                         with print_lock:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("first no such ele except")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("first no such ele except")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -180,12 +153,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 with print_lock:
                     print_lock.acquire()
                     try:
-                        print_lock.acquire()
-                        try:
-                            print(queryList[poziceQueryItem].upper())
-                            time.sleep(0.1)
-                        finally:
-                            print_lock.release()
+                        print(queryList[poziceQueryItem].upper())
                         time.sleep(0.1)
                     finally:
                         print_lock.release()
@@ -226,12 +194,7 @@ class Test_Fulltext_C(unittest.TestCase):
                             with print_lock:
                                 print_lock.acquire()
                                 try:
-                                    print_lock.acquire()
-                                    try:
-                                        print(linksToCheckList[y])
-                                        time.sleep(0.1)
-                                    finally:
-                                        print_lock.release()
+                                    print(linksToCheckList[y])
                                     time.sleep(0.1)
                                 finally:
                                     print_lock.release()

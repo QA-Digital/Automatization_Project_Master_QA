@@ -1,6 +1,4 @@
 from FW.to_import import print_lock
-import time
-from FW.to_import import print_lock
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from FW.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
 import time
@@ -112,12 +110,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print(celkoveCenyList)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(celkoveCenyList)
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -171,12 +164,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print(celkoveCenyList)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(celkoveCenyList)
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -253,12 +241,7 @@ class TestDetailHotelu_C(unittest.TestCase):
                     with print_lock:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print("its ok")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("its ok")
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -285,12 +268,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             with print_lock:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print(zvolenaStravaVboxuString)
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(zvolenaStravaVboxuString)
                     time.sleep(0.1)
                 finally:
                     print_lock.release()

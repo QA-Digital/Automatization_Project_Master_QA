@@ -24,7 +24,7 @@ def replace_print_statements_and_add_import(file_path):
             content = file.read()
 
         # Check if the import statements are already present
-        if import_statements.strip() not in content:
+        if 'from FW.to_import import print_lock' not in content:
             content = import_statements + content
 
         # Replace all print statements with the locked version including time.sleep and lock release
