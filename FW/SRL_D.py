@@ -31,12 +31,7 @@ def SRL_D(self, driver):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print(jdouvidet)
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print(jdouvidet)
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -99,12 +94,7 @@ def SRL_D(self, driver):
                             try:
                                 print_lock.acquire()
                                 try:
-                                    print_lock.acquire()
-                                    try:
-                                        print("ceny")
-                                        time.sleep(0.1)
-                                    finally:
-                                        print_lock.release()
+                                    print("ceny")
                                     time.sleep(0.1)
                                 finally:
                                     print_lock.release()

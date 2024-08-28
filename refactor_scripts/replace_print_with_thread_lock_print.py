@@ -4,6 +4,7 @@ import codecs
 
 # Define the root folder where your "FW" folder is located
 project_root = "C:/Users/KDK/Desktop/DTCZ/kod/Automatization_Project_Master_QA/"
+
 # Path to the "FW" folder
 fw_folder = os.path.join(project_root, 'FW')
 
@@ -23,10 +24,8 @@ def replace_print_statements_and_add_import(file_path):
             content = file.read()
 
         # Check if the import statements are already present
-        if 'from FW.to_import import print_lock' not in content:
-            # Add import statements at the beginning of the file
-            if not content.startswith(import_statements):
-                content = import_statements + content
+        if import_statements.strip() not in content:
+            content = import_statements + content
 
         # Replace all print statements with the locked version including time.sleep and lock release
         new_content = print_pattern.sub(

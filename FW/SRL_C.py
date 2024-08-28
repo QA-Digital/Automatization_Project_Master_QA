@@ -133,12 +133,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print("|||||HOTEL CISLO|||||||" )
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("|||||HOTEL CISLO|||||||" )
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -151,12 +146,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(x+1)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(x+1)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -169,12 +159,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(x + 1)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(x + 1)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -187,12 +172,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(x + 1)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(x + 1)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -261,12 +241,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(detailStravaSedivkaString)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(detailStravaSedivkaString)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -284,12 +259,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(detailPokojSedivkaString)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(detailPokojSedivkaString)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -305,12 +275,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(detailCenaAllString)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(detailCenaAllString)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -329,12 +294,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print(detailCenaAdultString)
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print(detailCenaAdultString)
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -354,12 +314,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("pokoje sedi srl vs detail")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("pokoje sedi srl vs detail")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -373,12 +328,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print(" NESEDÍ pokoj SRL vs sedivka")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print(" NESEDÍ pokoj SRL vs sedivka")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -393,12 +343,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("stravy sedi srl vs detail")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("stravy sedi srl vs detail")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -412,12 +357,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("NESEDÍ strava srl vs ssedika")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("NESEDÍ strava srl vs ssedika")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -432,12 +372,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("ceny all sedi srl vs detail")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("ceny all sedi srl vs detail")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -451,12 +386,7 @@ class Test_SRL_C(unittest.TestCase):
                         try:
                             print_lock.acquire()
                             try:
-                                print_lock.acquire()
-                                try:
-                                    print("ceny all NESEDÍ srl vs detail")
-                                    time.sleep(0.1)
-                                finally:
-                                    print_lock.release()
+                                print("ceny all NESEDÍ srl vs detail")
                                 time.sleep(0.1)
                             finally:
                                 print_lock.release()
@@ -483,12 +413,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(x)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(x)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -502,12 +427,7 @@ class Test_SRL_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print(windowHandle)
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print(windowHandle)
                             time.sleep(0.1)
                         finally:
                             print_lock.release()

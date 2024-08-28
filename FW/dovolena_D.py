@@ -50,17 +50,8 @@ class TestDovolena_D(unittest.TestCase):
 
                         try:
 
-                            print_lock.acquire()
+                            print("Položka menu existuje")
 
-                            try:
-
-                                print("Položka menu existuje")
-
-                                time.sleep(0.1)
-
-                            finally:
-
-                                print_lock.release()
                             time.sleep(0.1)
 
                         finally:
@@ -92,12 +83,7 @@ class TestDovolena_D(unittest.TestCase):
                             try:
                                 print_lock.acquire()
                                 try:
-                                    print_lock.acquire()
-                                    try:
-                                        print(href_value + " " + str(response.status_code))
-                                        time.sleep(0.1)
-                                    finally:
-                                        print_lock.release()
+                                    print(href_value + " " + str(response.status_code))
                                     time.sleep(0.1)
                                 finally:
                                     print_lock.release()
@@ -111,12 +97,7 @@ class TestDovolena_D(unittest.TestCase):
                             try:
                                 print_lock.acquire()
                                 try:
-                                    print_lock.acquire()
-                                    try:
-                                        print(href_value + " Error:", e)
-                                        time.sleep(0.1)
-                                    finally:
-                                        print_lock.release()
+                                    print(href_value + " Error:", e)
                                     time.sleep(0.1)
                                 finally:
                                     print_lock.release()
@@ -134,12 +115,7 @@ class TestDovolena_D(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print("Položka menu neexistuje")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("Položka menu neexistuje")
                             time.sleep(0.1)
                         finally:
                             print_lock.release()

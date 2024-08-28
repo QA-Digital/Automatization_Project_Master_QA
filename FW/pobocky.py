@@ -39,12 +39,7 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
             try:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print("Popup formulář je zobrazený:    ")
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print("Popup formulář je zobrazený:    ")
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -57,12 +52,7 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
             try:
                 print_lock.acquire()
                 try:
-                    print_lock.acquire()
-                    try:
-                        print(popUpObjednavkaNavstevyElement.is_displayed())
-                        time.sleep(0.1)
-                    finally:
-                        print_lock.release()
+                    print(popUpObjednavkaNavstevyElement.is_displayed())
                     time.sleep(0.1)
                 finally:
                     print_lock.release()
@@ -115,12 +105,7 @@ class TestPobocky_C(unittest.TestCase):
                     try:
                         print_lock.acquire()
                         try:
-                            print_lock.acquire()
-                            try:
-                                print("mapa kolecka")
-                                time.sleep(0.1)
-                            finally:
-                                print_lock.release()
+                            print("mapa kolecka")
                             time.sleep(0.1)
                         finally:
                             print_lock.release()
@@ -148,17 +133,8 @@ class TestPobocky_C(unittest.TestCase):
 
                         try:
 
-                            print_lock.acquire()
+                            print("basic info ")
 
-                            try:
-
-                                print("basic info ")
-
-                                time.sleep(0.1)
-
-                            finally:
-
-                                print_lock.release()
                             time.sleep(0.1)
 
                         finally:
@@ -189,17 +165,8 @@ class TestPobocky_C(unittest.TestCase):
 
                         try:
 
-                            print_lock.acquire()
+                            print("boxiky")
 
-                            try:
-
-                                print("boxiky")
-
-                                time.sleep(0.1)
-
-                            finally:
-
-                                print_lock.release()
                             time.sleep(0.1)
 
                         finally:
