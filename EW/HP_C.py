@@ -45,7 +45,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
+lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotická dovolená')]"
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
@@ -168,7 +168,7 @@ class Test_HP_C(unittest.TestCase):
 
         self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
-        destinaceItalieXpath = "//*[@value='st62993']"
+        destinaceItalieXpath = "//*[@value='st63187']"
 
         time.sleep(3)
 

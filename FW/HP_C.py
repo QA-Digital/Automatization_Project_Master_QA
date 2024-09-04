@@ -70,7 +70,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Vlastní doprava')]"
+lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotika/zima u moře')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 class Test_HP_C(unittest.TestCase):
@@ -174,7 +174,7 @@ class Test_HP_C(unittest.TestCase):
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
         #destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
-        destinaceItalieXpath = "//*[@value='st110']"
+        destinaceItalieXpath = "//*[@value='st217']"
         time.sleep(3)
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
