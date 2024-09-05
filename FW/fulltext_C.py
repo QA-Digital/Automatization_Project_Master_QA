@@ -53,7 +53,7 @@ class Test_Fulltext_C(unittest.TestCase):
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
             # inputBox.send_keys(Keys.ENTER)
-            print(queryList[poziceQueryItem].upper())
+            self.logger.info(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem + 1
 
             # if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
@@ -70,11 +70,11 @@ class Test_Fulltext_C(unittest.TestCase):
                     hotelDlazdice.click()
                     # hotelDlazdice.click()
                     currentUrl = self.driver.current_url
-                    print("hote dlazdice klik")
+                    self.logger.info("hote dlazdice klik")
                     assert currentUrl != URL
                     testOK_asserted = True
                 except NoSuchElementException:
-                    print("first no such ele except")
+                    self.logger.info("first no such ele except")
                     testOK_asserted = False
                     pass
             except NoSuchElementException:
@@ -86,14 +86,14 @@ class Test_Fulltext_C(unittest.TestCase):
                     #prvniItem =
                     wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
                     # prvniItem[0].click()
-                    print("last no such ele except")
+                    self.logger.info("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != URL
                     response = requests.get(currentUrl)
                     assert response.status_code == 200
 
                 except NoSuchElementException:
-                    print("first no such ele except")
+                    self.logger.info("first no such ele except")
                     pass
                 currentUrl = self.driver.current_url
                 assert currentUrl != URL
@@ -113,7 +113,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 self.driver.maximize_window()
             else:
                 pass
-            print(queryList[poziceQueryItem].upper())
+            self.logger.info(queryList[poziceQueryItem].upper())
             linksToCheckList = []
             try:
                 vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
@@ -133,9 +133,9 @@ class Test_Fulltext_C(unittest.TestCase):
                     linksToCheckList.append(vysledkyTextItems[0].text)
                     z = z + 1
 
-            #print(linksToCheckList)
+            #self.logger.info(linksToCheckList)
             poziceQueryItem=poziceQueryItem+1
-            #print(len(linksToCheckList))
+            #self.logger.info(len(linksToCheckList))
             assert len(linksToCheckList) > 0        ## check if there are any result, length > 0
             y = 0
             #for _ in linksToCheckList:
@@ -144,17 +144,17 @@ class Test_Fulltext_C(unittest.TestCase):
                     response = requests.get(linksToCheckList[y])
 
 
-                    #print(response.status_code)
-                    #print(response.status_code == 200)
+                    #self.logger.info(response.status_code)
+                    #self.logger.info(response.status_code == 200)
                     if response.status_code != 200:
-                        print(linksToCheckList[y])
+                        self.logger.info(linksToCheckList[y])
 
                     y = y + 1
                     assert response.status_code == 200
             else:
                 for _ in linksToCheckList:
-                    #print(response.status_code)
-                    #print(response.status_code == 200)
+                    #self.logger.info(response.status_code)
+                    #self.logger.info(response.status_code == 200)
 
                     y = y + 1
                     assert response.status_code == 200

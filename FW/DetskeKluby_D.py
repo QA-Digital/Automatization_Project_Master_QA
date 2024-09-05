@@ -44,7 +44,7 @@ class TestDetskeKluby_D(unittest.TestCase):
             benefitItemDisplay = benefitItem[a].is_displayed()
             a=a+1
             assert benefitItemDisplay == True
-            print("benefit item")
+            self.logger.info("benefit item")
         #p.press("pagedown", presses=3)
         generalDriverWaitImplicit(self.driver)
 
@@ -67,6 +67,6 @@ class TestDetskeKluby_D(unittest.TestCase):
             tileImgDisplay = tileImg[c].is_displayed()
             assert tileImgDisplay == True
             c=c+1
-            print("tile img")
+            self.logger.info("tile img")
 
         self.test_passed = True

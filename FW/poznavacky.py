@@ -12,7 +12,7 @@ def poznavacky_check_D(self, driver):
 
     imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
     #self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)
-    print(imgs)
+    self.logger.info(imgs)
     x = 0
     assert imgs[0].is_displayed() == True
     for _ in imgs:
@@ -20,7 +20,7 @@ def poznavacky_check_D(self, driver):
         x = x + 1
 
         assert imgsDisplayed == True
-        print("true imgdisplay")
+        self.logger.info("true imgdisplay")
 
     gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
     self.driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
@@ -30,7 +30,7 @@ def poznavacky_check_D(self, driver):
         gridItemDisplayed = gridItems[y].is_displayed()
         assert gridItemDisplayed == True
         y = y + 1
-        print("grid true")
+        self.logger.info("grid true")
 
     gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
     a = 0
@@ -39,7 +39,7 @@ def poznavacky_check_D(self, driver):
         gridBigDisplayed = gridBig[a].is_displayed()
         assert gridBigDisplayed == True
         a = a + 1
-        print("big grid ture")
+        self.logger.info("big grid ture")
 
 def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
             element = driver.find_element_by_xpath(kostkaPoznavackaXpath)
@@ -49,7 +49,7 @@ def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
             time.sleep(2)
             driver.switch_to.window(driver.window_handles[2])
             time.sleep(1)
-            print(driver.current_url)
+            self.logger.info(driver.current_url)
             sedivka_check_assert(driver, sedivkaXpathFw)
 
 
@@ -121,7 +121,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.switch_to.window(
             self.driver.window_handles[1])
         time.sleep(1)
-        print(self.driver.current_url)
+        self.logger.info(self.driver.current_url)
         sedivka_check_assert(self.driver, sedivkaXpathFw)
         self.test_passed = True
 

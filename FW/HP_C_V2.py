@@ -121,11 +121,11 @@ class Test_HP_C(unittest.TestCase):
         for _ in nejlepsiNabidkyElement:
             nejlepsiNabidkyTextDefault = nejlepsiNabidkyElement[positionOfCurrentElement2].text
             nejlepsiNabidkyTextList2.append(nejlepsiNabidkyTextDefault)
-            #print(nejlepsiNabidkyTextList)
+            #self.logger.info(nejlepsiNabidkyTextList)
             positionOfCurrentElement2 = positionOfCurrentElement2 + 1
 
-        print(nejlepsiNabidkyTextList)
-        print(nejlepsiNabidkyTextList2)
+        self.logger.info(nejlepsiNabidkyTextList)
+        self.logger.info(nejlepsiNabidkyTextList2)
         assert nejlepsiNabidkyTextList != nejlepsiNabidkyTextList2
 
         self.test_passed = True
