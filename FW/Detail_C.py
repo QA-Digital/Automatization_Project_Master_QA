@@ -47,16 +47,6 @@ class TestDetailHotelu_C(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def omlouvamese_paragraph(self):
-        time.sleep(1)
-        try:
-            omlouvameParagraph = self.driver.find_element_by_xpath(
-                "//*[@class='fshr-paragraph fshr-paragraph--centered']")
-            if omlouvameParagraph.is_displayed():
-                return
-
-        except NoSuchElementException:
-            pass
 
 
     def test_detail_price_sorter_terminy_expensive(self):
@@ -204,9 +194,6 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(10)
-   #     imageDetail = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
-
-
         imageDetailXpath = '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img'
         # imageDetail = self.driver.find_element_by_xpath( "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
