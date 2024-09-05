@@ -1,3 +1,6 @@
+import logging
+import sys
+
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -29,6 +32,34 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 def setUp(self):
+
+  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+  # Set up logging for each test
+  self.logger = logging.getLogger(self.__class__.__name__)
+  self.logger.setLevel(logging.INFO)
+
+  # Create handlers
+  file_handler = logging.FileHandler(f'{self.__class__.__name__}_test.log')
+  file_handler.setLevel(logging.INFO)
+
+  # Stream handler to capture log messages in the HTML report
+  stream_handler = logging.StreamHandler(sys.stdout)
+  stream_handler.setLevel(logging.INFO)
+
+  # Create formatters and add to handlers
+  formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+  file_handler.setFormatter(formatter)
+  stream_handler.setFormatter(formatter)
+
+  # Add handlers to the logger
+  if not self.logger.hasHandlers():
+    self.logger.addHandler(file_handler)
+    self.logger.addHandler(stream_handler)
+
+  self.test_passed = False
+
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
   #self. driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
@@ -40,8 +71,7 @@ def setUp(self):
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
 
 
 
@@ -68,7 +98,7 @@ def setUp(self):
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
  #
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
-  self.test_passed = False
+
 
 
 #URL = "https://www.fischer.cz/"

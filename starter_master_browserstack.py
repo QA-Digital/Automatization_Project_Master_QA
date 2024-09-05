@@ -58,7 +58,7 @@ def runner_tests_generalized2(suite_general, web_brand, version, URL):
     runner.run(suite_general())
 
 
-def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized_last(suite_general, web_brand, version, URL, email):
     runner = unittest.TextTestRunner()
     report_title = f"{web_brand} ||| {URL}"
     report_name = f"WEB_Suite_Report_version_{version}"
@@ -94,6 +94,72 @@ def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     stylesheet_file = os.path.join(report_dir, "stylesheet.css")
     script_file = os.path.join(report_dir, "script.js")
     files = [report_file, stylesheet_file, script_file]
+
+    # Read the main report file to include in the email body
+    with open(report_file, 'r') as f:
+        report_content = f.read()
+
+    # Send the email with the latest report
+    sendEmailv2(report_title, report_content, email, files)
+
+
+import unittest
+import os
+import glob
+import HtmlTestRunner  # Assuming HtmlTestRunner is already imported
+import logging
+
+
+def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+    # Set up logging configuration
+    log_file = f'logs_{web_brand}.log'
+    logging.basicConfig(filename=log_file, level=logging.INFO,
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+    logger = logging.getLogger(__name__)
+
+    # Start of test run
+    logger.info(f"Starting test suite for {web_brand}, URL: {URL}, Version: {version}")
+
+    # Ensure the report directory exists
+    report_dir = 'report'
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+
+    report_title = f"{web_brand} ||| {URL}"
+    report_name = f"WEB_Suite_Report_version_{version}"
+    report_description = f"{web_brand} WEB Suite Report - version --- {version} ---"
+
+    # Set up HTMLTestRunner with logging enabled
+    runner = HtmlTestRunner.HTMLTestRunner(
+        log=True,
+        verbosity=2,
+        output=report_dir,
+        title=report_title,
+        report_name=report_name,
+        open_in_browser=True,
+        description=report_description
+    )
+
+    # Run the test suite
+    result = runner.run(suite_general(URL))
+
+    # Log end of test suite
+    logger.info(f"Completed test suite for {web_brand}.")
+
+    # Find the latest generated report file
+    report_files = glob.glob(f"{report_dir}/{report_name}*.html")
+    if not report_files:
+        raise FileNotFoundError("Report file not found")
+
+    # Sort the files by modified time and pick the latest one
+    report_files.sort(key=os.path.getmtime)
+    report_file = report_files[-1]  # Get the latest file
+
+    # Define additional file paths
+    stylesheet_file = os.path.join(report_dir, "stylesheet.css")
+    script_file = os.path.join(report_dir, "script.js")
+    files = [report_file, stylesheet_file, script_file, log_file]
 
     # Read the main report file to include in the email body
     with open(report_file, 'r') as f:
