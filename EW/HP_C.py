@@ -210,11 +210,11 @@ class Test_HP_C(unittest.TestCase):
         for _ in nejlepsiNabidkyElement:
             nejlepsiNabidkyTextDefault = nejlepsiNabidkyElement[positionOfCurrentElement2].text
             nejlepsiNabidkyTextList2.append(nejlepsiNabidkyTextDefault)
-            # print(nejlepsiNabidkyTextList)
+            # self.logger.info(nejlepsiNabidkyTextList)
             positionOfCurrentElement2 = positionOfCurrentElement2 + 1
 
-        print(nejlepsiNabidkyTextList)
-        print(nejlepsiNabidkyTextList2)
+        self.logger.info(nejlepsiNabidkyTextList)
+        self.logger.info(nejlepsiNabidkyTextList2)
         assert nejlepsiNabidkyTextList != nejlepsiNabidkyTextList2
 
         self.test_passed = True
@@ -284,7 +284,7 @@ class Test_HP_C(unittest.TestCase):
             odkazLink = HPtopNabidkaElements[pozice].get_attribute("href")
             #odkazLink = HPtopNabidkaElements[pozice].get_attribute("a")
             linksToCheck_List.append(odkazLink)
-            print(odkazLink)
+            self.logger.info(odkazLink)
             pozice = pozice + 1
 
         generalized_list_of_url_checker(linksToCheck_List)

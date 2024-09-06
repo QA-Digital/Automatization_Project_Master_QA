@@ -106,7 +106,7 @@ URL_darkove_poukazy =  "/informace-pro-klienty/poukazky/darkove-poukazky"
 
 
 def tearDown(self):
-  print(self.driver.current_url)
+  self.logger.info(self.driver.current_url)
   self.driver.quit()
   #if not self.test_passed:self.driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
@@ -132,9 +132,9 @@ def acceptConsent(driver):
     generalDriverWaitImplicit(driver)
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    print(element)
+    self.logger.info(element)
   except NoSuchElementException:
-    print("NOSUCH")
+    self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -142,7 +142,7 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    print("consent pass")
+    self.logger.info("consent pass")
     pass
 
 

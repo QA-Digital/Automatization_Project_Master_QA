@@ -47,7 +47,7 @@ class TestPobocky_C(unittest.TestCase):
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
 
             y=y+1
-            print("mapa kolecka")
+            self.logger.info("mapa kolecka")
             assert mapaKoleckaDisplayed == True
 
 
@@ -61,7 +61,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in basicInfo:
             basicInfoDisplay = basicInfo[a].is_displayed()
 
-            print("basic info ")
+            self.logger.info("basic info ")
             assert basicInfoDisplay == True
             a=a+1
 
@@ -71,7 +71,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()
 
-            print("boxiky")
+            self.logger.info("boxiky")
             assert pobockaBoxikyDisplay == True
             x = x + 1
 

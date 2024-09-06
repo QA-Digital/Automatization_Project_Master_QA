@@ -31,15 +31,15 @@ class TestPoznavacky_D(unittest.TestCase):
         time.sleep(8)
         gridItemXpath = "//*[@class='f_tileGrid-item']/a"
         gridItemElements = self.driver.find_elements_by_xpath(gridItemXpath)
-        # print(URL_poznavaciho_hotelu)
+        # self.logger.info(URL_poznavaciho_hotelu)
         linksToCheck_List = []
         pozice = 0
         for _ in gridItemElements:
             odkazLink = gridItemElements[pozice].get_attribute("href")
             linksToCheck_List.append(odkazLink)
-            print(odkazLink)
+            self.logger.info(odkazLink)
             pozice = pozice + 1
-        print(linksToCheck_List)
+        self.logger.info(linksToCheck_List)
 
         generalized_list_of_url_checker(linksToCheck_List)
 
@@ -64,7 +64,7 @@ class TestPoznavacky_D(unittest.TestCase):
                 gridItemDisplayed = gridItems[y].is_displayed()
                 assert gridItemDisplayed == True
                 y=y+1
-                print("grid true")
+                self.logger.info("grid true")
             assert gridItems[0].is_displayed() == True
 
 
@@ -75,7 +75,7 @@ class TestPoznavacky_D(unittest.TestCase):
                 gridBigDisplayed = gridBig[a].is_displayed()
                 assert gridBigDisplayed == True
                 a=a+1
-                print("big grid ture")
+                self.logger.info("big grid ture")
 
             self.test_passed = True
 
@@ -98,7 +98,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
         assert gridItems[0].is_displayed() == True
 
 
@@ -109,7 +109,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         assert gridBig[0].is_displayed() == True
 
@@ -133,7 +133,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
         assert gridItems[0].is_displayed() == True
 
         gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
@@ -143,7 +143,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         assert gridBig[0].is_displayed() == True
         self.test_passed = True
@@ -168,7 +168,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
         assert gridItems[0].is_displayed() == True
 
@@ -179,7 +179,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         assert gridBig[0].is_displayed() == True
         self.test_passed = True
@@ -200,6 +200,6 @@ class TestPoznavacky_D(unittest.TestCase):
         time.sleep(2)
         self.driver.switch_to.window(self.driver.window_handles[2]) ##musí být ten switch to window i když jsem po kliku na detailu, jinak to blbne
         time.sleep(1.5)
-        print(self.driver.current_url)
+        self.logger.info(self.driver.current_url)
         sedivka_check_assert(self.driver, sedivkaXpathFw)
         self.test_passed = True

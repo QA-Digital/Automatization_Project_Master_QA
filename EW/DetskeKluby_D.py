@@ -37,7 +37,7 @@ class TestDetskeKluby_D(unittest.TestCase):
             benefitItemDisplay = benefitItem[a].is_displayed()
             a=a+1
             assert benefitItemDisplay == True
-            print("benefit item")
+            self.logger.info("benefit item")
         assert benefitItem[0].is_displayed() == True
 
         p.press("pagedown", presses=3)
@@ -60,7 +60,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         #     tileImgDisplay = tileImg[c].is_displayed()
         #     assert tileImgDisplay == True
         #     c=c+1
-        #     print("tile img")
+        #     self.logger.info("tile img")
         # assert tileImg[0].is_displayed() == True
 
 

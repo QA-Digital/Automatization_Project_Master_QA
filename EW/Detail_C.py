@@ -108,7 +108,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         # cheap = "expensive"
@@ -158,7 +158,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
@@ -192,7 +192,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             image = self.driver.find_element_by_xpath("/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -215,7 +215,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True

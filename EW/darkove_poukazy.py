@@ -52,12 +52,12 @@ class Test_darkove_poukazy(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
         motivyElements = self.driver.find_elements_by_xpath(motivyXpath)
-        print(motivyElements)
+        self.logger.info(motivyElements)
         pozice = 0
         for _ in motivyElements:
            # motivyElements[pozice].click()
             self.driver.execute_script("arguments[0].click();", motivyElements[pozice])
-            print(pozice)
+            self.logger.info(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
@@ -80,7 +80,7 @@ class Test_darkove_poukazy(unittest.TestCase):
         for _ in castkyElements:
             #castkyElements[pozice].click()
             self.driver.execute_script("arguments[0].click();", castkyElements[pozice])
-            print(pozice)
+            self.logger.info(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
