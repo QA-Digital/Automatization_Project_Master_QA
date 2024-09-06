@@ -31,19 +31,25 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
+import os
+
 def setUp(self):
     chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
     self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-    # Set up logging for each test
+    # Dynamically get the folder name (assuming folder is two levels up from the test file)
+    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+    # Set up logging for each test, including the folder name in the log file
+    log_filename = f'{test_folder}_{self.__class__.__name__}_test.log'
     self.logger = logging.getLogger(self.__class__.__name__)
     self.logger.setLevel(logging.INFO)
 
-    # Create file handler
-    file_handler = logging.FileHandler(f'{self.__class__.__name__}_test.log', mode='w')
+    # Create file handler for the specific folder and test class
+    file_handler = logging.FileHandler(log_filename, mode='w')
     file_handler.setLevel(logging.INFO)
 
-    # Create stream handler to capture logs in HTML report
+    # Create stream handler to capture logs in the console
     stream_handler = logging.StreamHandler(sys.stdout)
     stream_handler.setLevel(logging.INFO)
 
@@ -52,7 +58,7 @@ def setUp(self):
     file_handler.setFormatter(formatter)
     stream_handler.setFormatter(formatter)
 
-    # Add handlers to the logger (without checking if it has handlers)
+    # Add handlers to the logger
     self.logger.addHandler(file_handler)
     self.logger.addHandler(stream_handler)
 
@@ -60,6 +66,7 @@ def setUp(self):
     file_handler.flush()
 
     self.test_passed = False
+
 
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
