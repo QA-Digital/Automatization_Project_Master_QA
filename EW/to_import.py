@@ -132,9 +132,10 @@ def acceptConsent(driver):
     generalDriverWaitImplicit(driver)
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    self.logger.info(element)
+   # self.logger.info(element)
   except NoSuchElementException:
-    self.logger.info("NOSUCH")
+    pass
+   # self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -142,7 +143,7 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    self.logger.info("consent pass")
+    #self.logger.info("consent pass")
     pass
 
 
