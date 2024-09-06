@@ -1,7 +1,7 @@
 import os
 import re
 
-FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\FW"
+FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EW"
 
 def refactor_print_statements(file_path):
     """

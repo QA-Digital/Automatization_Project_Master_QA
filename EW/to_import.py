@@ -1,3 +1,6 @@
+import logging
+import sys
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
@@ -43,11 +46,41 @@ def setUp(self):
    # options.add_argument("--headless")  # Run Chrome in headless mode
    #chrome_driver_path = ChromeDriverManager().install()
    #self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
+   #
+   # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+   # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+   #
+   # self.test_passed = False
 
-   chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-   self.test_passed = False
+    chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+    # Set up logging for each test
+    self.logger = logging.getLogger(self.__class__.__name__)
+    self.logger.setLevel(logging.INFO)
+
+    # Create file handler
+    file_handler = logging.FileHandler(f'{self.__class__.__name__}_test.log', mode='w')
+    file_handler.setLevel(logging.INFO)
+
+    # Create stream handler to capture logs in HTML report
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.INFO)
+
+    # Create formatters and add to handlers
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    stream_handler.setFormatter(formatter)
+
+    # Add handlers to the logger (without checking if it has handlers)
+    self.logger.addHandler(file_handler)
+    self.logger.addHandler(stream_handler)
+
+    # Ensure logs are flushed to the file immediately
+    file_handler.flush()
+
+    self.test_passed = False
 
 URL = "https://www.eximtours.cz/"
 #URL_local = "https://www.eximtours.cz/"
