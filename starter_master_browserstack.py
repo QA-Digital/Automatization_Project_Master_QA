@@ -70,6 +70,7 @@ def runner_tests_generalized_last(suite_general, web_brand, version, URL, email)
         os.makedirs(report_dir)
 
     # Generate the report
+    runner = unittest.TextTestRunner()
     runner = HtmlTestRunner.HTMLTestRunner(
         log=True,
         verbosity=2,
@@ -106,7 +107,6 @@ def runner_tests_generalized_last(suite_general, web_brand, version, URL, email)
 import unittest
 import os
 import glob
-import HtmlTestRunner  # Assuming HtmlTestRunner is already imported
 import logging
 
 

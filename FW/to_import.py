@@ -32,33 +32,34 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 def setUp(self):
+    chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+    # Set up logging for each test
+    self.logger = logging.getLogger(self.__class__.__name__)
+    self.logger.setLevel(logging.INFO)
 
-  # Set up logging for each test
-  self.logger = logging.getLogger(self.__class__.__name__)
-  self.logger.setLevel(logging.INFO)
+    # Create file handler
+    file_handler = logging.FileHandler(f'{self.__class__.__name__}_test.log', mode='w')
+    file_handler.setLevel(logging.INFO)
 
-  # Create handlers
-  file_handler = logging.FileHandler(f'{self.__class__.__name__}_test.log')
-  file_handler.setLevel(logging.INFO)
+    # Create stream handler to capture logs in HTML report
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.INFO)
 
-  # Stream handler to capture log messages in the HTML report
-  stream_handler = logging.StreamHandler(sys.stdout)
-  stream_handler.setLevel(logging.INFO)
+    # Create formatters and add to handlers
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    stream_handler.setFormatter(formatter)
 
-  # Create formatters and add to handlers
-  formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-  file_handler.setFormatter(formatter)
-  stream_handler.setFormatter(formatter)
-
-  # Add handlers to the logger
-  if not self.logger.hasHandlers():
+    # Add handlers to the logger (without checking if it has handlers)
     self.logger.addHandler(file_handler)
     self.logger.addHandler(stream_handler)
 
-  self.test_passed = False
+    # Ensure logs are flushed to the file immediately
+    file_handler.flush()
+
+    self.test_passed = False
 
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -216,7 +217,8 @@ def closeExponeaBanner(driver):
         time.sleep(2)
 
     except NoSuchElementException:
-      self.logger.info("nenasle se exponea banner")
+      pass
+     # self.logger.info("nenasle se exponea banner")
 
 def acceptConsent3(driver):
   time.sleep(2)
