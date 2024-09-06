@@ -132,7 +132,6 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
     listPosition = 0
 
     ##default pocitejme jako PROD
-
     global pocet_vysledku_list_default
     pocet_vysledku_list_default = []
 
