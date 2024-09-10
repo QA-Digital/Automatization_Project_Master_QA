@@ -120,7 +120,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         #cheap = "expensive"
-        self.generalized_price_sorter_expensive_cheap_assert(self, celkoveCenyList, "expensive")
+        self.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -167,7 +167,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        self.generalized_price_sorter_expensive_cheap_assert(self, celkoveCenyList, "cheap")
+        self.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
 
 
