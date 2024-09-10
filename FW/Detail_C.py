@@ -97,7 +97,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         #cheap = "expensive"
-        SortingUtilities.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -144,7 +144,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        SortingUtilities.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
 
 
@@ -206,14 +206,14 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(1)
         acceptConsent(self.driver)
 
-        generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath, dopravaBoxXpath, dopravaBrnoXpath, True)
+        Helpers.generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath, dopravaBoxXpath, dopravaBrnoXpath, "airport", self.logger)
         time.sleep(4)
         pocetZobrazenychTerminuXpath="//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
         departureToCompareTo = "praha"
 
         time.sleep(5)
-        generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
+        Helpers.generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, self.logger)
 
         time.sleep(0.2)
         self.test_passed = True
