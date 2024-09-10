@@ -3,7 +3,7 @@ from FW.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
 import time
 import unittest
 from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, generalized_list_string_sorter, generalized_detail_departure_check, generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail
-from generalized_test_functions import generalized_price_sorter_expensive_cheap_assert
+#from generalized_test_functions import generalized_price_sorter_expensive_cheap_assert
 ##global
 terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"
 terminyAcenyTabXpath_old = "//*[@class='f_bar-item f_tabBar']//*[contains(text(),'Termíny a ceny')]"
@@ -47,7 +47,28 @@ class TestDetailHotelu_C(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
+    def generalized_price_sorter_expensive_cheap_assert(self, inputList, typeOfSort):
+        """Check if the list is sorted based on the given type ('cheap' or 'expensive')."""
+        self.logger.info(f"Starting price sorting test for type: {typeOfSort}")
+        inputListSorted = inputList.copy()
 
+        if typeOfSort == "cheap":
+            inputListSorted.sort()  # Sorting low to high
+            if inputList == inputListSorted:
+                self.logger.info("Cheap sorter is OK")
+            else:
+                self.logger.info("Cheap sorter is NOT OK")
+
+        elif typeOfSort == "expensive":
+            inputListSorted.sort(reverse=True)  # Sorting high to low
+            if inputList == inputListSorted:
+                self.logger.info("Expensive sorter is OK")
+            else:
+                self.logger.info("Expensive sorter is NOT OK")
+
+        self.logger.info(f"Original List from Web: {inputList}")
+        self.logger.info(f"Correctly Sorted List: {inputListSorted}")
+        assert inputList == inputListSorted
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
@@ -99,7 +120,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         #cheap = "expensive"
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        self.generalized_price_sorter_expensive_cheap_assert(self, celkoveCenyList, "expensive")
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -146,45 +167,9 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        self.generalized_price_sorter_expensive_cheap_assert(self, celkoveCenyList, "cheap")
 
-    # def test_detail_open_terminy_sumUP_equal_to_full_price(self):
-    #     self.driver.maximize_window()
-    #     URL_detail = "https://www.fischer.cz/spanelsko/fuerteventura/morro-jable/blue-sea-jandia-luz?AC1=2&D=680|953|1108|592|611|610|612|590|726|609|621|1009|622|669|1086|1194|670|978|594|675|1010|683&DD=2023-02-19&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=32289&HID=1629&IC1=0&KC1=0&MNN=7&MT=6&NN=7&PID=FUE90003&RD=2023-02-26&TO=4312|4305|2682|4308&acm1=2&df=2023-02-01|2023-03-31&nnm=7|8|9|10|11|12|13&tom=4312|4305|2682|4308&tt=1&ttm=1#/terminy-a-ceny"
-    #     URL_detail_lp = f"{self.URL}{URL_detail}"
-    #     self.driver.get(URL_detail_lp)
-    #
-    #
-    #     cestujiciXpath = "//*[@class='f_table']//*[@class='f_table-body']//*[@class='f_table-cell']"
-    #     time.sleep(1)
-    #     acceptConsent(self.driver)
-    #     time.sleep(15)
-    #     terminyXpath = "//*[@class='f_termList-header']"
-    #     terminyScrollInto = self.driver.find_element_by_xpath(terminyXpath)
-    #     self.driver.execute_script("arguments[0].scrollIntoView();", terminyScrollInto)
-    #
-    #     cestujiciElements = self.driver.find_elements_by_xpath(cestujiciXpath)
-    #     cestujiciElement = self.driver.find_element_by_xpath(cestujiciXpath)
-    #
-    #     cestujiciElementText = self.driver.find_element_by_xpath(cestujiciXpath).text
-    #     self.logger.info(cestujiciElement.text)
-    #     self.logger.info("priting 1St")
-    #     self.logger.info(cestujiciElement.text)
-    #     self.logger.info(cestujiciElementText)
-    #     self.logger.info(cestujiciElements[0].text)
-    #     #self.logger.info(cestujiciElements[1].text)
-    #     time.sleep(15)
-    #     ##cestujici elements = pocet cestujiich,
-    #     y=1
-    #     for _ in cestujiciElements:
-    #         cestujiciSinglePrice = cestujiciElements[y].text()
-    #         self.logger.info(cestujiciSinglePrice)
-    #         cestujiciSinglePriceList = []
-    #         cestujiciSinglePriceList.append(cestujiciSinglePrice)
-    #         self.logger.info(cestujiciSinglePriceList)
-    #         y = y + 2
-    #
-    #     self.test_passed = True
+
 
     def test_detail_fotka(self):
         self.driver.maximize_window()

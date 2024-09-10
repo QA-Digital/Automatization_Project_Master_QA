@@ -24,7 +24,7 @@ def generalized_list_of_url_checker(inputListOfURLStoCheck):
 
     if test_passed == False:
         assert 1 == 2
-def generalized_price_sorter_expensive_cheap_assert(inputList, typeOfSort):
+def generalized_price_sorter_expensive_cheap_assert2(inputList, typeOfSort):
     #print(inputList)
     if typeOfSort == "cheap":
         inputListSorted = inputList.copy()
