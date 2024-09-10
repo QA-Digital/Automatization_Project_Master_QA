@@ -1,5 +1,5 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from FW.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown
+from FW.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown, URL_detail_old
 import time
 import unittest
 from generalized_test_functions import generalized_Detail_terminyAceny_potvrdit_chooseFiltr, generalized_list_string_sorter, generalized_detail_departure_check, generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail
@@ -72,7 +72,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         acceptConsent(driver)
@@ -124,7 +124,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         acceptConsent(driver)
