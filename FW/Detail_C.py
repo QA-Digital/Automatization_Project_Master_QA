@@ -32,7 +32,7 @@ dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_ic
 celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_price pl-1 min-[1101px]:pl-0']"
 
 from FW.to_import import URL_local
-
+from helpers.helper import *
 class TestDetailHotelu_C(unittest.TestCase):
 
     URL = URL_local  # Default value
@@ -46,29 +46,6 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def tearDown(self):
         tearDown(self)
-
-    def generalized_price_sorter_expensive_cheap_assert(self, inputList, typeOfSort):
-        """Check if the list is sorted based on the given type ('cheap' or 'expensive')."""
-        self.logger.info(f"Starting price sorting test for type: {typeOfSort}")
-        inputListSorted = inputList.copy()
-
-        if typeOfSort == "cheap":
-            inputListSorted.sort()  # Sorting low to high
-            if inputList == inputListSorted:
-                self.logger.info("Cheap sorter is OK")
-            else:
-                self.logger.info("Cheap sorter is NOT OK")
-
-        elif typeOfSort == "expensive":
-            inputListSorted.sort(reverse=True)  # Sorting high to low
-            if inputList == inputListSorted:
-                self.logger.info("Expensive sorter is OK")
-            else:
-                self.logger.info("Expensive sorter is NOT OK")
-
-        self.logger.info(f"Original List from Web: {inputList}")
-        self.logger.info(f"Correctly Sorted List: {inputListSorted}")
-        assert inputList == inputListSorted
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
@@ -120,7 +97,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         #cheap = "expensive"
-        self.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        SortingUtilities.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -167,7 +144,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        self.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        SortingUtilities.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
 
 
