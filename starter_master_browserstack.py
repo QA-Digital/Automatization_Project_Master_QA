@@ -234,11 +234,6 @@ def append_logs_to_html_report(report_dir, log_file, report_name):
 
 import os
 import glob
-import xmlrunner
-
-import xmlrunner  # Import xmlrunner
-
-import xmlrunner  # Import xmlrunner
 
 
 def runner_tests_generalized_xml(suite_function, web_brand, version, url, email):
