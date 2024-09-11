@@ -54,43 +54,42 @@ def setUp(self):
    #
    # self.test_passed = False
 
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  def setUp(self):
+    chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-  # Get the folder name dynamically
-  test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+    # Dynamically get the folder name
+    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-  # Ensure a unique logger per test using the thread ID
-  thread_id = threading.get_ident()
-  log_filename = f'{test_folder}_{self.__class__.__name__}_test_{thread_id}.log'
+    # Ensure a unique logger per test using the thread ID
+    thread_id = threading.get_ident()
+    log_filename = f'{test_folder}_{self.__class__.__name__}_test_{thread_id}.log'
+    self.logger = logging.getLogger(f"{self.__class__.__name__}_{thread_id}")
+    self.logger.setLevel(logging.INFO)
 
-  # Logger with a unique name per thread
-  self.logger = logging.getLogger(f"{self.__class__.__name__}_{thread_id}")
-  self.logger.setLevel(logging.INFO)
+    # Remove existing handlers to prevent duplicates
+    if not self.logger.handlers:
+      # File handler for log file
+      file_handler = logging.FileHandler(log_filename, mode='w')
+      file_handler.setLevel(logging.INFO)
 
-  # Only add handlers if they are not already added
-  if not self.logger.handlers:
-    # File handler for log file
-    file_handler = logging.FileHandler(log_filename, mode='w')
-    file_handler.setLevel(logging.INFO)
+      # Stream handler for console output
+      stream_handler = logging.StreamHandler(sys.stdout)
+      stream_handler.setLevel(logging.INFO)
 
-    # Stream handler for console output
-    stream_handler = logging.StreamHandler(sys.stdout)
-    stream_handler.setLevel(logging.INFO)
+      # Formatter for consistency
+      formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+      file_handler.setFormatter(formatter)
+      stream_handler.setFormatter(formatter)
 
-    # Formatter for consistency
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)
-    stream_handler.setFormatter(formatter)
+      # Add handlers to logger
+      self.logger.addHandler(file_handler)
+      self.logger.addHandler(stream_handler)
 
-    # Add handlers to logger
-    self.logger.addHandler(file_handler)
-    self.logger.addHandler(stream_handler)
+    # Ensure logs are flushed to the file immediately
+    file_handler.flush()
 
-  # Ensure logs are flushed to the file immediately
-  file_handler.flush()
-
-  self.test_passed = False
+    self.test_passed = False
 
 
 URL = "https://www.eximtours.cz/"
