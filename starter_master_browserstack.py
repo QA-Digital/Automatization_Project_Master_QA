@@ -110,7 +110,7 @@ import glob
 import logging
 
 
-def runner_tests_generalized_last(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized___(suite_general, web_brand, version, URL, email):
     # Set up logging configuration
     log_file = f'logs_{web_brand}.log'
     logging.basicConfig(filename=log_file, level=logging.INFO,
@@ -168,7 +168,7 @@ def runner_tests_generalized_last(suite_general, web_brand, version, URL, email)
     # Send the email with the latest report
     sendEmailv2(report_title, report_content, email, files)
 
-def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized_last(suite_general, web_brand, version, URL, email):
     # Set up suite-level logging configuration
     log_file = f'{web_brand}_suite_{version}.log'
     logging.basicConfig(filename=log_file, level=logging.INFO,
@@ -206,6 +206,66 @@ def runner_tests_generalized(suite_general, web_brand, version, URL, email):
     logger.info(f"Completed test suite for {web_brand}.")
 
     # Collect and append logs to HTML report
+    append_logs_to_html_report(report_dir, log_file, report_name)
+
+    # Send the report via email
+    sendEmailv2(report_title, report_description, email, [f"{report_dir}/{report_name}.html", log_file])
+
+
+def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+    # Set up suite-level logging configuration - unique for each test suite
+    log_file = f'{web_brand}_suite_{version}.log'
+
+    # Create a logger specific to this suite
+    suite_logger = logging.getLogger(f"{web_brand}_suite_{version}")
+    suite_logger.setLevel(logging.INFO)
+
+    # File handler for logging to file
+    file_handler = logging.FileHandler(log_file, mode='w')
+    file_handler.setLevel(logging.INFO)
+
+    # Formatter to define log message format
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Stream handler to show log in console
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.INFO)
+    stream_handler.setFormatter(formatter)
+
+    # Adding the file handler and stream handler to the logger
+    suite_logger.addHandler(file_handler)
+    suite_logger.addHandler(stream_handler)
+
+    suite_logger.info(f"Starting test suite for {web_brand}, URL: {URL}, Version: {version}")
+
+    # Ensure the report directory exists
+    report_dir = 'report'
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+
+    # Set up HTMLTestRunner
+    report_title = f"{web_brand} ||| {URL}"
+    report_name = f"WEB_Suite_Report_version_{version}"
+    report_description = f"{web_brand} WEB Suite Report - version --- {version} ---"
+
+    runner = HtmlTestRunner.HTMLTestRunner(
+        log=True,
+        verbosity=2,
+        output=report_dir,
+        title=report_title,
+        report_name=report_name,
+        open_in_browser=True,
+        description=report_description
+    )
+
+    # Run the test suite
+    result = runner.run(suite_general(URL))
+
+    # Log end of test suite
+    suite_logger.info(f"Completed test suite for {web_brand}.")
+
+    # Append logs to HTML report if needed
     append_logs_to_html_report(report_dir, log_file, report_name)
 
     # Send the report via email

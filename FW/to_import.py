@@ -1,5 +1,6 @@
 import logging
 import sys
+import threading
 
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
@@ -37,16 +38,18 @@ def setUp(self):
     chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
     self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-    # Dynamically get the folder name
+    # Get the folder name dynamically
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
     # Ensure a unique logger per test using the thread ID
     thread_id = threading.get_ident()
     log_filename = f'{test_folder}_{self.__class__.__name__}_test_{thread_id}.log'
+
+    # Logger with a unique name per thread
     self.logger = logging.getLogger(f"{self.__class__.__name__}_{thread_id}")
     self.logger.setLevel(logging.INFO)
 
-    # Remove existing handlers to prevent duplicates
+    # Only add handlers if they are not already added
     if not self.logger.handlers:
         # File handler for log file
         file_handler = logging.FileHandler(log_filename, mode='w')
