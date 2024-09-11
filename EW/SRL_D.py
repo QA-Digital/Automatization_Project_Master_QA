@@ -6,6 +6,8 @@ import unittest
 import time
 
 #SRLhotelyKartyXpath = "//*[@class='f_searchResult-content-item']"
+from helpers.helper import Helpers
+
 SRLhotelyKartyXpath ="//*[@class='f_searchResult-content-item relative']"
 SRLcenyHoteluXpath = "//*[@class='f_price']"
 SRLfotkaHoteluXpath = "//*[@class='f_tileGallery']"
@@ -39,30 +41,6 @@ def SRL_D(self, driver):
         sendEmail(msg)
     generalDriverWaitImplicit(self.driver)
     assert hotelySingle.is_displayed() == True
-
-    # try:
-    #     self.driver.implicitly_wait(100)
-    #     fotkyAll = self.driver.find_elements_by_xpath(SRLfotkaHoteluXpath)  ##
-    #     fotkaSingle = self.driver.find_element_by_xpath(SRLfotkaHoteluXpath)
-    #     wait.until(EC.visibility_of(fotkaSingle))
-    #     ##self.logger.info(fotkaSingle)
-    #     if fotkaSingle.is_displayed():
-    #         for WebElement in fotkyAll:
-    #             jdouvidet = WebElement.is_displayed()
-    #             self.logger.info(jdouvidet)
-    #             assert jdouvidet == True
-    #             if jdouvidet == True:
-    #                 pass
-    #             else:
-    #                 url = self.driver.current_url
-    #                 msg = " Problem s fotkami hotelu v searchi " + url
-    #                 sendEmail(msg)
-    #
-    # except NoSuchElementException:
-    #     url = self.driver.current_url
-    #     msg = " Problem s fotkami hotelu v searchi " + url
-    #     sendEmail(msg)
-
     try:
         self.driver.implicitly_wait(100)
         cenaAll = self.driver.find_elements_by_xpath(SRLcenyHoteluXpath)  ##
@@ -96,9 +74,8 @@ def SRL_D(self, driver):
             "//*[@class='splide__spinner']")  ##loading classa obrazku, jestli tam je = not gud
         if loadingImgSingle.is_displayed():
             url = self.driver.current_url
-            msg = " Problem s načítáná fotek v SRL  //*[@class='splide__spinner']" + url
-            sendEmail(msg)
-            #assert 1 == 2
+            print("There is a loading photo in the SRL")
+            assert 1==2
     except NoSuchElementException:
         pass
 
@@ -128,5 +105,6 @@ class TestSRL_D(unittest.TestCase):
 
         self.driver.implicitly_wait(100)
         SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
 
         self.test_passed = True

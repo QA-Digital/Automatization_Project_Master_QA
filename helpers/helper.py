@@ -323,3 +323,100 @@ class Helpers:
             "Groupsearch is displayed.")
 
         logger.info("Group search check completed.") if logger else print("Group search check completed.")
+
+    @staticmethod
+    def search_results_list_check(driver, logger=None):
+        """
+        Checks the visibility of hotel cards and their prices in the search result listing (SRL).
+
+        Args:
+            driver: Selenium WebDriver instance.
+            logger: Optional logger instance for logging actions.
+        """
+        wait = WebDriverWait(driver, 150)
+        logger.info("Starting search results listing check.") if logger else print(
+            "Starting search results listing check.")
+        time.sleep(6)
+
+        # Hotel card elements
+        SRLhotelyKartyXpath = "your-hotel-card-xpath"  # Placeholder for the actual XPath
+        hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
+
+        try:
+            hotelyAll = driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+            wait.until(EC.visibility_of(hotelySingle))
+            logger.info(f"Found {len(hotelyAll)} hotel cards in the search results.") if logger else print(
+                f"Found {len(hotelyAll)} hotel cards.")
+
+            if hotelySingle.is_displayed():
+                for webElement in hotelyAll:
+                    is_visible = webElement.is_displayed()
+                    logger.info(f"Hotel card visible: {is_visible}") if logger else print(
+                        f"Hotel card visible: {is_visible}")
+                    assert is_visible is True
+            else:
+                url = driver.current_url
+                logger.error(f"Problem with hotel cards in search results - HotelCard at {url}.") if logger else print(
+                    f"Problem with hotel cards in search results - HotelCard at {url}.")
+                assert False, "Hotel cards are not displayed in the search results."
+
+        except NoSuchElementException:
+            url = driver.current_url
+            logger.error(
+                f"Hotel cards not found in search results - NoSuchElementException at {url}.") if logger else print(
+                f"Hotel cards not found in search results - NoSuchElementException at {url}.")
+            assert False, "No hotel cards found."
+
+        time.sleep(3)
+        assert hotelySingle.is_displayed() is True
+        logger.info("First hotel card is displayed.") if logger else print("First hotel card is displayed.")
+
+        # Checking hotel prices
+        SRLcenyHoteluXpath = "your-hotel-price-xpath"  # Placeholder for the actual XPath
+
+        try:
+            driver.implicitly_wait(100)
+            cenaAll = driver.find_elements_by_xpath(SRLcenyHoteluXpath)
+            cenaSingle = driver.find_element_by_xpath(SRLcenyHoteluXpath)
+            wait.until(EC.visibility_of(cenaSingle))
+
+            if cenaSingle.is_displayed():
+                for webElement in cenaAll:
+                    is_visible = webElement.is_displayed()
+                    logger.info(f"Hotel price visible: {is_visible}") if logger else print(
+                        f"Hotel price visible: {is_visible}")
+                    assert is_visible is True
+            else:
+                url = driver.current_url
+                logger.error(f"Problem with hotel prices in search results at {url}.") if logger else print(
+                    f"Problem with hotel prices in search results at {url}.")
+                assert False, "Hotel prices are not displayed."
+
+        except NoSuchElementException:
+            url = driver.current_url
+            logger.error(
+                f"Hotel prices not found in search results - NoSuchElementException at {url}.") if logger else print(
+                f"Hotel prices not found in search results - NoSuchElementException at {url}.")
+            assert False, "No hotel prices found."
+
+        assert cenaAll[0].is_displayed() is True
+        logger.info("First hotel price is displayed.") if logger else print("First hotel price is displayed.")
+
+        # Checking for loading images (bad state if found)
+        try:
+            driver.implicitly_wait(5)
+            loadingImgSingle = driver.find_element_by_xpath(
+                "//*[@class='splide__spinner']")  # Spinner for loading images
+
+            if loadingImgSingle.is_displayed():
+                url = driver.current_url
+                logger.error(f"There is a loading image in the SRL at {url}.") if logger else print(
+                    f"There is a loading image in the SRL at {url}.")
+                assert False, "Loading image is present in the search results."
+
+        except NoSuchElementException:
+            logger.info("No loading images found in the SRL.") if logger else print(
+                "No loading images found in the SRL.")
+
+        logger.info("Search results listing check completed.") if logger else print(
+            "Search results listing check completed.")
