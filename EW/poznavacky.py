@@ -56,28 +56,6 @@ class TestPoznavacky_D(unittest.TestCase):
             time.sleep(6)
             self.driver.implicitly_wait(100)
             Helpers.poznavacky_display_check(self.driver, self.logger)
-
-            # gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-            #
-            # y=0
-            # for _ in gridItems:
-            #
-            #     gridItemDisplayed = gridItems[y].is_displayed()
-            #     assert gridItemDisplayed == True
-            #     y=y+1
-            #     self.logger.info("grid true")
-            # assert gridItems[0].is_displayed() == True
-            #
-            #
-            # gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
-            # a=0
-            # assert gridBig[0].is_displayed() == True
-            # for _ in gridBig:
-            #     gridBigDisplayed = gridBig[a].is_displayed()
-            #     assert gridBigDisplayed == True
-            #     a=a+1
-            #     self.logger.info("big grid ture")
-
             self.test_passed = True
 
     def test_poznavacky_vikendy_D(self):
@@ -90,29 +68,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.execute_script("window.scrollTo(0, 1080);")
 
         time.sleep(6)
-        self.driver.implicitly_wait(100)
-
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-
-        y = 0
-        for _ in gridItems:
-            gridItemDisplayed = gridItems[y].is_displayed()
-            assert gridItemDisplayed == True
-            y = y + 1
-            self.logger.info("grid true")
-        assert gridItems[0].is_displayed() == True
-
-
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
-
-        a = 0
-        for _ in gridBig:
-            gridBigDisplayed = gridBig[a].is_displayed()
-            assert gridBigDisplayed == True
-            a = a + 1
-            self.logger.info("big grid ture")
-
-        assert gridBig[0].is_displayed() == True
+        Helpers.poznavacky_display_check(self.driver, self.logger)
 
         self.test_passed = True
 
@@ -126,27 +82,7 @@ class TestPoznavacky_D(unittest.TestCase):
 
         time.sleep(8)
 
-
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-        y = 0
-
-        for _ in gridItems:
-            gridItemDisplayed = gridItems[y].is_displayed()
-            assert gridItemDisplayed == True
-            y = y + 1
-            self.logger.info("grid true")
-        assert gridItems[0].is_displayed() == True
-
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
-
-        a = 0
-        for _ in gridBig:
-            gridBigDisplayed = gridBig[a].is_displayed()
-            assert gridBigDisplayed == True
-            a = a + 1
-            self.logger.info("big grid ture")
-
-        assert gridBig[0].is_displayed() == True
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_zazitky_D(self):
@@ -159,30 +95,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.execute_script("window.scrollTo(0, 1080);")
 
         time.sleep(8)
-        self.driver.implicitly_wait(100)
-
-
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-        y = 0
-
-        for _ in gridItems:
-            gridItemDisplayed = gridItems[y].is_displayed()
-            assert gridItemDisplayed == True
-            y = y + 1
-            self.logger.info("grid true")
-
-        assert gridItems[0].is_displayed() == True
-
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
-        a = 0
-
-        for _ in gridBig:
-            gridBigDisplayed = gridBig[a].is_displayed()
-            assert gridBigDisplayed == True
-            a = a + 1
-            self.logger.info("big grid ture")
-
-        assert gridBig[0].is_displayed() == True
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_C(self):
