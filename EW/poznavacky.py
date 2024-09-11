@@ -4,6 +4,7 @@ from FW.poznavacky import proklik_kostkaHotelu_toDetail_check_sedivka
 from generalized_test_functions import generalized_list_of_url_checker
 import unittest
 
+from helpers.helper import Helpers
 from sedivka_check import sedivka_check_assert
 sedivkaXpathFw = "//*[@class='f_column-item f_column-item--grayBox relative flex flex-col justify-between gap-4']"
 
@@ -54,28 +55,28 @@ class TestPoznavacky_D(unittest.TestCase):
 
             time.sleep(6)
             self.driver.implicitly_wait(100)
+            Helpers.poznavacky_display_check(self.driver, self.logger)
 
-
-            gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-
-            y=0
-            for _ in gridItems:
-
-                gridItemDisplayed = gridItems[y].is_displayed()
-                assert gridItemDisplayed == True
-                y=y+1
-                self.logger.info("grid true")
-            assert gridItems[0].is_displayed() == True
-
-
-            gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
-            a=0
-            assert gridBig[0].is_displayed() == True
-            for _ in gridBig:
-                gridBigDisplayed = gridBig[a].is_displayed()
-                assert gridBigDisplayed == True
-                a=a+1
-                self.logger.info("big grid ture")
+            # gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+            #
+            # y=0
+            # for _ in gridItems:
+            #
+            #     gridItemDisplayed = gridItems[y].is_displayed()
+            #     assert gridItemDisplayed == True
+            #     y=y+1
+            #     self.logger.info("grid true")
+            # assert gridItems[0].is_displayed() == True
+            #
+            #
+            # gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+            # a=0
+            # assert gridBig[0].is_displayed() == True
+            # for _ in gridBig:
+            #     gridBigDisplayed = gridBig[a].is_displayed()
+            #     assert gridBigDisplayed == True
+            #     a=a+1
+            #     self.logger.info("big grid ture")
 
             self.test_passed = True
 
