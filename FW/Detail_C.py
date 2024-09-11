@@ -146,8 +146,6 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(3)
         Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
 
-
-
     def test_detail_fotka(self):
         self.driver.maximize_window()
         URL_detail_lp = f"{self.URL}{URL_detail}"
