@@ -37,33 +37,32 @@ def setUp(self):
     chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
     self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-    # Dynamically get the folder name
+
+
+    # Dynamically get the folder name (assuming folder is two levels up from the test file)
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-    # Ensure a unique logger per test using the thread ID
-    thread_id = threading.get_ident()
-    log_filename = f'{test_folder}_{self.__class__.__name__}_test_{thread_id}.log'
-    self.logger = logging.getLogger(f"{self.__class__.__name__}_{thread_id}")
+    # Set up logging for each test, including the folder name in the log file
+    log_filename = f'{test_folder}_{self.__class__.__name__}_test.log'
+    self.logger = logging.getLogger(self.__class__.__name__)
     self.logger.setLevel(logging.INFO)
 
-    # Remove existing handlers to prevent duplicates
-    if not self.logger.handlers:
-        # File handler for log file
-        file_handler = logging.FileHandler(log_filename, mode='w')
-        file_handler.setLevel(logging.INFO)
+    # Create file handler for the specific folder and test class
+    file_handler = logging.FileHandler(log_filename, mode='w')
+    file_handler.setLevel(logging.INFO)
 
-        # Stream handler for console output
-        stream_handler = logging.StreamHandler(sys.stdout)
-        stream_handler.setLevel(logging.INFO)
+    # Create stream handler to capture logs in the console
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.INFO)
 
-        # Formatter for consistency
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        file_handler.setFormatter(formatter)
-        stream_handler.setFormatter(formatter)
+    # Create formatters and add to handlers
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    stream_handler.setFormatter(formatter)
 
-        # Add handlers to logger
-        self.logger.addHandler(file_handler)
-        self.logger.addHandler(stream_handler)
+    # Add handlers to the logger
+    self.logger.addHandler(file_handler)
+    self.logger.addHandler(stream_handler)
 
     # Ensure logs are flushed to the file immediately
     file_handler.flush()
