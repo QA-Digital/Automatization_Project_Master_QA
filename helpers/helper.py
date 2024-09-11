@@ -1,7 +1,8 @@
 # sorting_utilities.py
 import time
-
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class Helpers:
@@ -170,3 +171,84 @@ class Helpers:
             logger.info("Completed departure check.")
         else:
             print("Completed departure check.")
+
+    @staticmethod
+    def LM_FM_vypis_rozbalit_zajezd_check(driver, logger=None):
+        """
+        Expands the 'First Minute/Last Minute' (FM/LM) tour section and checks if the expanded tour is visible.
+
+        Args:
+            driver: Selenium WebDriver instance.
+            logger: Optional logger instance for logging actions.
+        """
+
+        wait = WebDriverWait(driver, 150)  # Adjusted wait time to a more reasonable limit (seconds).
+        driver.implicitly_wait(10)
+
+        # Log start of FM/LM tour expansion check
+        if logger:
+            logger.info("Starting FM/LM tour expansion check.")
+        else:
+            print("Starting FM/LM tour expansion check.")
+
+        try:
+            # Find and click the "expand" button for FM/LM tours
+            rozbal = driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
+            wait.until(EC.visibility_of(rozbal))
+            driver.execute_script("arguments[0].click();", rozbal)
+            time.sleep(2)
+
+            if logger:
+                logger.info("Successfully clicked to expand FM/LM tour section.")
+            else:
+                print("Successfully clicked to expand FM/LM tour section.")
+
+        except NoSuchElementException:
+            url = driver.current_url
+            msg = f"Could not expand FM/LM tour section. URL: {url}"
+            if logger:
+                logger.error(msg)
+            else:
+                print(msg)
+            assert False, msg
+
+        try:
+            # Verify if the expanded tour is displayed
+            rozbalenyZajezd = driver.find_element_by_xpath("//*[@class='page-tour-hotel-name']")
+            rozbalenyZajezdAll = driver.find_elements_by_xpath("//*[@class='page-tour-hotel-name']")
+            wait.until(EC.visibility_of(rozbalenyZajezd))
+
+            if rozbalenyZajezd.is_displayed():
+                for webElement in rozbalenyZajezdAll:
+                    is_displayed = webElement.is_displayed()
+                    assert is_displayed is True
+
+                    if logger:
+                        logger.info(f"Tour element {webElement} visibility: {is_displayed}")
+                    else:
+                        print(f"Tour element {webElement} visibility: {is_displayed}")
+
+                    if not is_displayed:
+                        url = driver.current_url
+                        msg = f"No tour found when expanding FM/LM tour section. URL: {url}"
+                        if logger:
+                            logger.error(msg)
+                        else:
+                            print(msg)
+                        assert False, msg
+
+        except NoSuchElementException:
+            url = driver.current_url
+            msg = f"No tour found after expanding FM/LM tour section. URL: {url}"
+            if logger:
+                logger.error(msg)
+            else:
+                print(msg)
+            assert False, msg
+
+        # Final assertion to ensure the expanded tour is displayed
+        assert rozbalenyZajezd.is_displayed() is True
+        if logger:
+            logger.info("FM/LM tour expansion check completed successfully.")
+        else:
+            print("FM/LM tour expansion check completed successfully.")

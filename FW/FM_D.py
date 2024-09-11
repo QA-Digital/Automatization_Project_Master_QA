@@ -44,9 +44,6 @@ def LM_FM_vypis_rozbalit_zajezd_check(self, driver):
     assert rozbalenyZajezd.is_displayed() == True
 
 
-
-from FW.to_import import URL_local
-
 from FW.to_import import URL_local
 
 class TestFMexotika_D(unittest.TestCase):

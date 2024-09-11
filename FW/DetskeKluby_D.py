@@ -5,14 +5,6 @@ import time
 
 p.FAILSAFE = False
 
-
-
-
-
-from FW.to_import import URL_local
-
-from FW.to_import import URL_local
-
 from FW.to_import import URL_local
 
 class TestDetskeKluby_D(unittest.TestCase):
