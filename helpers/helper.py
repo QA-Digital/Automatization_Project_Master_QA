@@ -420,3 +420,65 @@ class Helpers:
 
         logger.info("Search results listing check completed.") if logger else print(
             "Search results listing check completed.")
+
+    @staticmethod
+    def poznavacky_display_check(driver, logger=None):
+            """
+            Checks the visibility of tiles and images in the 'Poznavacky' section.
+
+            Args:
+                driver: Selenium WebDriver instance.
+                logger: Optional logger instance for logging actions.
+            """
+            logger.info("Starting 'Poznavacky' tiles and images check.") if logger else print(
+                "Starting 'Poznavacky' tiles and images check.")
+
+            # Wait for the page to load and images to be ready
+            time.sleep(5)
+
+            # Image elements
+            imgs = driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+            logger.info(f"Found {len(imgs)} images to check.") if logger else print(
+                f"Found {len(imgs)} images to check.")
+
+            # Assert the first image is displayed
+            assert imgs[0].is_displayed() is True, "The first image is not displayed."
+            logger.info("The first image is displayed correctly.") if logger else print(
+                "The first image is displayed correctly.")
+
+            # Loop through images and check visibility
+            for index, img in enumerate(imgs):
+                imgsDisplayed = img.is_displayed()
+                logger.info(f"Image {index + 1}/{len(imgs)} visibility: {imgsDisplayed}") if logger else print(
+                    f"Image {index + 1}/{len(imgs)} visibility: {imgsDisplayed}")
+                assert imgsDisplayed is True, f"Image {index + 1} is not displayed."
+
+            # Grid items
+            gridItems = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+            driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
+            assert gridItems[0].is_displayed() is True, "The first grid item is not displayed."
+            logger.info(f"First grid item is displayed correctly.") if logger else print(
+                f"First grid item is displayed correctly.")
+
+            # Loop through grid items and check visibility
+            for index, gridItem in enumerate(gridItems):
+                gridItemDisplayed = gridItem.is_displayed()
+                logger.info(
+                    f"Grid item {index + 1}/{len(gridItems)} visibility: {gridItemDisplayed}") if logger else print(
+                    f"Grid item {index + 1}/{len(gridItems)} visibility: {gridItemDisplayed}")
+                assert gridItemDisplayed is True, f"Grid item {index + 1} is not displayed."
+
+            # Big grid elements
+            gridBig = driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+            assert gridBig[0].is_displayed() is True, "The main grid is not displayed."
+            logger.info(f"Main grid is displayed correctly.") if logger else print(f"Main grid is displayed correctly.")
+
+            # Loop through big grids and check visibility
+            for index, bigGrid in enumerate(gridBig):
+                gridBigDisplayed = bigGrid.is_displayed()
+                logger.info(f"Big grid {index + 1}/{len(gridBig)} visibility: {gridBigDisplayed}") if logger else print(
+                    f"Big grid {index + 1}/{len(gridBig)} visibility: {gridBigDisplayed}")
+                assert gridBigDisplayed is True, f"Big grid {index + 1} is not displayed."
+
+            logger.info("'Poznavacky' tiles and images check completed.") if logger else print(
+                "'Poznavacky' tiles and images check completed.")

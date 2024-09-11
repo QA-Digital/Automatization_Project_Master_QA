@@ -37,6 +37,8 @@ def setUp(self):
     chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
     self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+    
+
     # Dynamically get the folder name (assuming folder is two levels up from the test file)
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 

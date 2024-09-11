@@ -1,6 +1,8 @@
 import time
 from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
+
+from helpers.helper import Helpers
 from sedivka_check import sedivka_check_assert
 sedivkaXpathFw = "//*[@class='f_box h-full flex flex-col']"
 kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
@@ -11,7 +13,6 @@ def poznavacky_check_D(self, driver):
     generalDriverWaitImplicit(self.driver)
 
     imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
-    #self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)
     self.logger.info(imgs)
     x = 0
     assert imgs[0].is_displayed() == True
@@ -75,7 +76,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.get(URL_poznavacky_lp)
         acceptConsent(self.driver)
         time.sleep(3)
-        poznavacky_check_D(self, self.driver)
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_vikendy_D(self):
@@ -84,7 +85,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.get(URL_poznavacky_vikendy_lp)
         acceptConsent(self.driver)
         time.sleep(3)
-        poznavacky_check_D(self, self.driver)
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_rodiny_D(self):
@@ -93,7 +94,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.get(URL_poznavacky_rodiny_lp)
         acceptConsent(self.driver)
         time.sleep(3)
-        poznavacky_check_D(self, self.driver)
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_zazitky_D(self):
@@ -103,7 +104,7 @@ class TestPoznavacky_D(unittest.TestCase):
 
         acceptConsent(self.driver)
         time.sleep(3)
-        poznavacky_check_D(self, self.driver)
+        Helpers.poznavacky_display_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_poznavacky_okruzni_C(self):
