@@ -252,3 +252,74 @@ class Helpers:
             logger.info("FM/LM tour expansion check completed successfully.")
         else:
             print("FM/LM tour expansion check completed successfully.")
+
+    @staticmethod
+    def group_search_check(driver, logger=None):
+        """
+        Checks the visibility of elements in the group search section and search results.
+
+        Args:
+            driver: Selenium WebDriver instance.
+            logger: Optional logger instance for logging actions.
+        """
+
+        # Initialize an explicit wait
+        wait = WebDriverWait(driver, 150)
+        logger.info("Starting group search check.") if logger else print("Starting group search check.")
+
+        # XPath for group search tiles
+        groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
+        time.sleep(2)
+
+        # Find the group search teaser items
+        teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+        wait.until(EC.visibility_of(teaserItems[0]))
+
+        try:
+            logger.info(f"Found {len(teaserItems)} teaser items in the group search section.") if logger else print(
+                f"Found {len(teaserItems)} teaser items.")
+            for webElement in teaserItems:
+                is_visible = webElement.is_displayed()
+                if is_visible:
+                    logger.info(f"Teaser item is visible: {webElement}.") if logger else print(
+                        f"Teaser item is visible: {webElement}.")
+                else:
+                    logger.warning(f"Teaser item is NOT visible: {webElement}.") if logger else print(
+                        f"Teaser item is NOT visible: {webElement}.")
+        except NoSuchElementException:
+            msg = "No teaser items found in the group search section."
+            logger.error(msg) if logger else print(msg)
+            assert False, msg
+
+        assert teaserItems[0].is_displayed() is True
+        logger.info("First teaser item is displayed.") if logger else print("First teaser item is displayed.")
+
+        # Reset implicit wait
+        driver.implicitly_wait(100)
+
+        # XPath for search result items
+        srlItemsXpath = "//*[@class='f_searchResult' and not(@style='display: none;')]"
+        srlItems = driver.find_elements_by_xpath(srlItemsXpath)
+
+        try:
+            logger.info(f"Found {len(srlItems)} Groupsearch items.") if logger else print(
+                f"Found {len(srlItems)} Groupsearch items.")
+            for webElement in srlItems:
+                is_visible = webElement.is_displayed()
+                if is_visible:
+                    logger.info(f"Groupsearch is visible: {webElement}.") if logger else print(
+                        f"Groupsearch is visible: {webElement}.")
+                else:
+                    logger.warning(f"Groupsearch NOT visible: {webElement}.") if logger else print(
+                        f"Groupsearch  is NOT visible: {webElement}.")
+        except NoSuchElementException:
+            msg = "No Groupsearch items found."
+            logger.error(msg) if logger else print(msg)
+            assert False, msg
+
+        # Final assertion for visibility
+        assert srlItems[0].is_displayed() is True
+        logger.info("Groupsearch is displayed.") if logger else print(
+            "Groupsearch is displayed.")
+
+        logger.info("Group search check completed.") if logger else print("Group search check completed.")

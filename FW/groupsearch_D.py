@@ -5,6 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL_groupsearch, setUp, tearDown,generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
+from helpers.helper import Helpers
 
 
 def groupSearch_D(self, driver):
@@ -92,4 +93,5 @@ class Test_Groupsearch_D(unittest.TestCase):
         self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
 
         groupSearch_D(self, driver)
+        Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
