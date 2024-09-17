@@ -34,13 +34,18 @@ from selenium.webdriver.chrome.options import Options
 import os
 
 def setUp(self):
-    chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
-    #chrome_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\chromedriver.exe'
-    self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+    import os
+    from selenium import webdriver
+    from definitions import EDGE_DRIVER_PATH
+    from selenium import webdriver
 
-    # gecko_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\geckodriver.exe'
-    # self.driver = webdriver.Firefox(executable_path=gecko_driver_path)
+    # Set up the Edge driver with the path from definitions.py
+    self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+
+    #edge_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\msedgedriver.exe'
 
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
