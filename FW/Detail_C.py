@@ -144,7 +144,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
 
     def test_detail_fotka(self):
         self.driver.maximize_window()

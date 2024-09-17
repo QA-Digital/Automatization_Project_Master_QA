@@ -521,3 +521,129 @@ class Helpers:
 
         logger.info(f"LIST FROM WEB: {cenaZajezduAllList}")
         logger.info(f"CORRECTLY SORTED LIST: {cenaZajezduAllListSorted}")
+
+    @staticmethod
+    def generalized_map_test_click_on_pin_and_hotel_bubble(driver, logger):
+        logger.info("Starting map test: clicking on pin and checking hotel bubble.")
+
+        try:
+            # Locate and click the hotel pin on the map
+            actualHotelPin = driver.find_element_by_xpath(
+                "//*[@class='leaflet-marker-icon leaflet-zoom-animated leaflet-interactive']")
+            driver.execute_script("arguments[0].click();", actualHotelPin)
+            logger.info("Hotel pin clicked successfully.")
+
+            # Check if there's a missing image in the hotel bubble
+            try:
+                imgMissing = driver.find_element_by_xpath("//*[@class='f_image f_image--missing']")
+                if imgMissing.is_displayed():
+                    hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+                    msg = "V mape v bublibně hotelu se nezobrazuje fotka hotelu " + hotelBubble.text
+                    logger.error(msg)
+                else:
+                    logger.info("Image is correctly displayed in hotel bubble.")
+            except NoSuchElementException:
+                logger.info("No missing image found, everything is OK.")
+
+            time.sleep(2)
+            hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+            hotelBubble.click()
+            logger.info("Hotel bubble clicked successfully.")
+
+        except Exception as e:
+            logger.error(f"An error occurred during the map test: {e}")
+
+    @staticmethod
+    def generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath, logger):
+        logger.info("Starting map test: Clicking through map circles.")
+
+        def click_on_map_circle(driver, circlexpath):
+            try:
+                driver.find_element_by_xpath(circlexpath).click()
+                logger.info(f"Clicked on circle with XPath: {circlexpath}")
+            except Exception as e:
+                logger.error(f"Failed to find or click circle with XPath: {circlexpath}. Error: {e}")
+            time.sleep(1.2)
+
+        try:
+            zobrazitNaMape = driver.find_element_by_xpath(zobrazitNaMapeXpath)
+            zobrazitNaMape.click()
+            logger.info(f"Clicked on 'Zobrazit na Mapě' element with XPath: {zobrazitNaMapeXpath}")
+        except Exception as e:
+            logger.error(f"Failed to click on 'Zobrazit na Mapě' element. Error: {e}")
+
+        largeCircleXpath = "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"
+        mediumCircleXpath = "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']"
+        smallCircleXpath = "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']"
+
+        logger.info("Waiting for map circles to load (10 seconds).")
+        time.sleep(10)  # Loading time
+
+        logger.info("Clicking on large circles.")
+        click_on_map_circle(driver, largeCircleXpath)
+        time.sleep(2)
+        click_on_map_circle(driver, largeCircleXpath)
+        time.sleep(2)
+        click_on_map_circle(driver, largeCircleXpath)
+
+        logger.info("Clicking on medium circles.")
+        click_on_map_circle(driver, mediumCircleXpath)
+        time.sleep(2)
+        click_on_map_circle(driver, mediumCircleXpath)
+
+        logger.info("Clicking on small circles.")
+        click_on_map_circle(driver, smallCircleXpath)
+        time.sleep(2)
+        click_on_map_circle(driver, smallCircleXpath)
+
+        logger.info("Finished map test: Clicking through circles.")
+
+    @staticmethod
+    def generalized_list_string_sorter(driver, web_elements_Xpath, variable_to_assert_to, logger, plusPozice=None,
+                                       list_web_element_starter=None):
+        logger.info("Starting list string sorter test.")
+        time.sleep(2)
+
+        if plusPozice is None:
+            plusPozice = 1
+        elif plusPozice == 2:
+            plusPozice = 2
+        else:
+            plusPozice = 1
+
+        if list_web_element_starter is None:
+            list_web_elements_Position = 0
+        elif list_web_element_starter == 1:
+            list_web_elements_Position = 1
+        else:
+            list_web_elements_Position = 0
+
+        logger.info(f"Initial list_web_elements_Position: {list_web_elements_Position}")
+        web_elements = driver.find_elements_by_xpath(web_elements_Xpath)
+        logger.info(f"Found {len(web_elements)} web elements with XPath: {web_elements_Xpath}")
+
+        list_web_elements = []
+
+        for _ in web_elements:
+            list_web_elements_String = web_elements[list_web_elements_Position].text.lower()
+            list_web_elements.append(list_web_elements_String)
+            logger.debug(f"Appended text: {list_web_elements_String} at position {list_web_elements_Position}")
+
+            list_web_elements_Position += plusPozice
+
+        list_web_elements_Position = 0
+        logger.info(f"List of web elements after processing: {list_web_elements}")
+
+        for index, element in enumerate(list_web_elements):
+            logger.info(f"Checking if '{variable_to_assert_to}' is in element {index}: {element}")
+            assert variable_to_assert_to in element
+            if variable_to_assert_to in element:
+                logger.info(
+                    f"Assertion passed for element at position {index}: '{element}' contains '{variable_to_assert_to}'")
+            else:
+                logger.error(
+                    f"Assertion failed for element at position {index}: '{element}' does NOT contain '{variable_to_assert_to}'")
+
+            list_web_elements_Position += plusPozice
+
+        logger.info("Completed list string sorter test.")

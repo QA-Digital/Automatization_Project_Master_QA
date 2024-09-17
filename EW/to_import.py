@@ -54,8 +54,14 @@ def setUp(self):
    # self.test_passed = False
 
 
-    chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-    self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+    # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+    # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+    from definitions import EDGE_DRIVER_PATH
+    from selenium import webdriver
+
+    # Set up the Edge driver with the path from definitions.py
+    self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
     # Dynamically get the folder name (assuming folder is two levels up from the test file)
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
@@ -97,8 +103,9 @@ URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
 URL_poznavacky_zazitky = "poznavaci-zajezdy#rodiny"
 URL_pobocky = "kontakty/nase-pobocky"
-URL_kluby = "/kluby/mango-leto"
+URL_kluby = "/kluby/mango-zima"
 URL_detail = "/hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-17&DI=AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-24&RT=0&TO=4305&acm1=2&df=2024-10-14|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"
+URL_detail_old = "/egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada?AC1=2&D=64419|64420|64425&DD=2025-03-08&DI=IT&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=0&HID=160534&IC1=1&IFC=64388256%2F316211&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=64387089%2F316210&PC=78913989%2F2%2F1893%2F7&PID=EGR00026&RC=DR01&RCS=DR01&RD=2025-03-15&TO=4312|4305|2682|4308|4392|4309&acm1=2&dd=2024-09-18&df=2024-09-18|2025-07-18&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-07-18&sortby=Departure&tt=1&ttm=0#/prehled"
 URL_SRL = "/vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1"
 URL_covidInfo = "covid-info"
 URL_FM = "first-minute"

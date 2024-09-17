@@ -74,9 +74,9 @@ class Test_SRL_C(unittest.TestCase):
         #zobrazitNaMape = driver.find_element_by_xpath("//*[@class='f_bar-item f_bar-map']")
         #zobrazitNaMape.click()
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
+        Helpers.generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath, self.logger)
         time.sleep(2)
-        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
+        Helpers.generalized_map_test_click_on_pin_and_hotel_bubble(self.driver, self.logger)
         time.sleep(2)
 
         ###EXECUTION DISPLAY TEST NA DETAIL HOTELU -> pokud se vyassertuje že jsem na detailu a vše je ok můžu předpokládat že mapka je OK
@@ -93,11 +93,12 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
 
         stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All Inclusive')]"
-        generalized_SRL_choose_meal_filter_EW_like(self.driver, stravaMenuXpath)
+        stravaMenu = self.driver.find_element_by_xpath(stravaMenuXpath)
+        stravaMenu.click()
 
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"
-        generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava)
+        Helpers.generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava, self.logger)
 
         self.test_passed = True
 

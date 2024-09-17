@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 from EW.SRL_D import SRL_D
-
+from helpers.helper import Helpers
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 cenaZajezduXpath = "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']"
@@ -40,7 +40,7 @@ class Test_SRL_C(unittest.TestCase):
 
         typeOfSort = "cheap"
 
-        generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort)
+        Helpers.generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, self.logger)
 
 
         self.test_passed = True
@@ -56,7 +56,7 @@ class Test_SRL_C(unittest.TestCase):
 
         typeOfSort = "expensive"
 
-        generalized_SRL_price_sorter(self.driver, sorterExpensiveXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort)
+        Helpers.generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, self.logger)
 
         self.test_passed = True
 
@@ -69,10 +69,10 @@ class Test_SRL_C(unittest.TestCase):
         generalDriverWaitImplicit(self.driver)
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
         #zobrazitNaMape.click()
-        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
+        Helpers.generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath, self.logger)
         time.sleep(2.5)
 
-        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
+        Helpers.generalized_map_test_click_on_pin_and_hotel_bubble(self.driver, self.logger)
         time.sleep(3)
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
@@ -91,10 +91,11 @@ class Test_SRL_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(2)
         stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All Inclusive')]"
-        generalized_SRL_choose_meal_filter_EW_like(self.driver, stravaMenuXpath)
+        stravaMenu = self.driver.find_element_by_xpath(stravaMenuXpath)
+        stravaMenu.click()
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"
-        generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava)
+        Helpers.generalized_list_string_sorter(self.driver, stravaZajezduSrlXpath, assertion_strava, self.logger)
 
         self.test_passed = True
 

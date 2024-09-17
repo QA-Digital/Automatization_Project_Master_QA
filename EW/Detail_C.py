@@ -1,12 +1,15 @@
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from EW.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, \
+    generalDriverWaitImplicit, URL_detail_old
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import *
 
 ##global
+from helpers.helper import Helpers
+
 terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"
 terminyAcenyTabXpath_old = "//*[@class='f_bar-item f_tabBar']//*[contains(text(),'Termíny a ceny')]"
 terminyAcenyTabXpath = "//*[@class='f_menu f_menu--inline f_menu--sticky']//*[contains(text(),'Termíny a ceny')]"
@@ -62,7 +65,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
@@ -112,11 +115,11 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         # cheap = "expensive"
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
@@ -161,7 +164,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
     def test_detail_fotka(self):
 
         self.driver.maximize_window()
