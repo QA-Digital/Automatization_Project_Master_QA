@@ -35,11 +35,13 @@ import os
 
 def setUp(self):
     chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+
+    #chrome_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\chromedriver.exe'
     self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
+    # gecko_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\geckodriver.exe'
+    # self.driver = webdriver.Firefox(executable_path=gecko_driver_path)
 
-
-    # Dynamically get the folder name (assuming folder is two levels up from the test file)
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
     # Set up logging for each test, including the folder name in the log file
@@ -115,7 +117,7 @@ def setUp(self):
 #URL = "https://fischer.web1.dtweb.cz/"
 
 #URL_local = "https://fischer.stg.dtweb.cz/"
-URL_local = "https://fischer.stg.dtweb.cz/"
+URL_local = "https://www.fischer.cz/"
 URL = "https://www.fischer.cz/"
 
 

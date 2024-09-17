@@ -8,6 +8,7 @@ from generalized_test_functions import generalized_map_test_click_through_circle
     generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_FW_like, \
     generalized_list_string_sorter, generalized_SRL_price_sorter, generalized_SRL_choose_meal_filter_EW_like
 from FW.Detail_D import detail_D
+from helpers.helper import Helpers
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 #hotelyKartyXpath ="//*[@class='f_searchResult-content-item relative']"
@@ -36,6 +37,7 @@ class Test_SRL_C(unittest.TestCase):
     def test_SRL_sort_cheapest(self):
 
         self.driver.maximize_window()
+        print(self.URL)
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
         time.sleep(2)
@@ -44,7 +46,7 @@ class Test_SRL_C(unittest.TestCase):
 
         typeOfSort = "cheap"
 
-        generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort)
+        Helpers.generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, self.logger)
 
         self.test_passed = True
 

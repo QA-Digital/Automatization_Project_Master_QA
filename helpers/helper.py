@@ -482,3 +482,42 @@ class Helpers:
 
             logger.info("'Poznavacky' tiles and images check completed.") if logger else print(
                 "'Poznavacky' tiles and images check completed.")
+
+    @staticmethod
+    def generalized_SRL_price_sorter(driver, sorter_Xpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, logger,
+                                     web_language=None):
+        wait = WebDriverWait(driver, 25)
+        cenaZajezduAllList = []
+        cenaZajezduAllListSorted = []
+
+        time.sleep(3)
+        sorter_Element = driver.find_element_by_xpath(sorter_Xpath)
+        wait.until(EC.visibility_of(sorter_Element))
+        sorter_Element.click()
+
+        time.sleep(6)
+        hotelyKarty = driver.find_element_by_xpath(hotelyKartyXpath)
+        wait.until(EC.visibility_of(hotelyKarty))
+
+        time.sleep(4)
+        cenaZajezduAll = driver.find_elements_by_xpath(cenaZajezduXpath)
+        wait.until(EC.visibility_of(cenaZajezduAll[0]))
+
+        for webElement in cenaZajezduAll:
+            cenaZajezduAllString = webElement.text
+
+            if web_language in [None, "SK"]:
+                cenaZajezduAllString = cenaZajezduAllString[:-2]
+            elif web_language == "PL":
+                cenaZajezduAllString = cenaZajezduAllString.replace(",", ".").replace(" ", "")
+                numeric_part = ''.join(filter(str.isdigit, cenaZajezduAllString))
+                cenaZajezduAllString = int(numeric_part)
+
+            cenaZajezduAllString = int(''.join(cenaZajezduAllString.split()))
+            cenaZajezduAllList.append(cenaZajezduAllString)
+            cenaZajezduAllListSorted.append(cenaZajezduAllString)
+
+        Helpers.generalized_price_sorter_expensive_cheap_assert(cenaZajezduAllList, typeOfSort, logger)
+
+        logger.info(f"LIST FROM WEB: {cenaZajezduAllList}")
+        logger.info(f"CORRECTLY SORTED LIST: {cenaZajezduAllListSorted}")

@@ -15332,3 +15332,4 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 1699796700558	geckodriver	INFO	Listening on 127.0.0.1:59678
 1699796703591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\KDK\\AppData\\Local\\Temp\\rust_mozprofilergCSxk"
+1726587235957	geckodriver	INFO	Listening on 127.0.0.1:38718
