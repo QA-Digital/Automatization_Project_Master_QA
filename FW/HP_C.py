@@ -135,7 +135,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3.5)
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath, HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
                          ,HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath, HPzlutakPotvrditAvyhledatXpath )
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_zlutak_to_SRL_poznavacky(self):
@@ -155,7 +155,7 @@ class Test_HP_C(unittest.TestCase):
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath)
         time.sleep(10)  # nevdama proste nez se nacte
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_zlutak_to_SRL_lyze(self):
@@ -175,7 +175,7 @@ class Test_HP_C(unittest.TestCase):
                          HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath)
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):

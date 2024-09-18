@@ -339,7 +339,7 @@ class Helpers:
         time.sleep(6)
 
         # Hotel card elements
-        SRLhotelyKartyXpath = "your-hotel-card-xpath"  # Placeholder for the actual XPath
+        SRLhotelyKartyXpath = "//*[@class='f_searchResult-content-item relative']"  # Placeholder for the actual XPath
         hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
 
         try:

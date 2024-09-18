@@ -104,7 +104,7 @@ class TestSRL_D(unittest.TestCase):
         acceptConsent(self.driver)
 
         self.driver.implicitly_wait(100)
-        SRL_D(self, self.driver)
+        #SRL_D(self, self.driver)
         Helpers.search_results_list_check(self.driver, self.logger)
 
         self.test_passed = True
