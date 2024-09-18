@@ -97,7 +97,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         #cheap = "expensive"
-        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive", self.logger)
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()

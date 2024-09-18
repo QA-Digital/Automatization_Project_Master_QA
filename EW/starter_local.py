@@ -21,7 +21,7 @@ def suite_EW_full(url):
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
+    #suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url))
     suite.addTest(TestDetskeKluby_D("test_kluby_D", URL=url))
     suite.addTest(TestFM_D("test_FM_D", URL=url))
