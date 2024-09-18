@@ -115,7 +115,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         # cheap = "expensive"
-        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive", self.logger)
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -206,7 +206,7 @@ class TestDetailHotelu_C(unittest.TestCase):
     def test_detail_terminy_filtr_meal(self):
         self.driver.maximize_window()
         time.sleep(1)
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         time.sleep(5)
@@ -225,7 +225,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_terminy_filtr_airport(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         time.sleep(1)
