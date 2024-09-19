@@ -31,7 +31,12 @@ desired_cap = {
 }
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
-  self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  from definitions import EDGE_DRIVER_PATH
+  from selenium import webdriver
+
+  # Set up the Edge driver with the path from definitions.py
+  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+
   self.test_passed = False
 
 
