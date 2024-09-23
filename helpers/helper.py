@@ -4,6 +4,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 
+from FW.to_import import acceptConsent
+
 
 class Helpers:
     @staticmethod
@@ -771,3 +773,124 @@ class Helpers:
 
         logger.info("Search completed, waiting for the results.")
         time.sleep(4)  # Ensure enough time for the results to load.
+
+    @staticmethod
+    def SRL_D_letenky(driver, SRLresultsLetenkyXpath, logger):
+        logger.info("Starting SRL letenky results verification process.")
+
+        # Find SRL letenky result elements
+        letenkySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
+        logger.info(f"Found {len(letenkySRLresultsElements)} elements for letenky SRL results.")
+
+        pozice = 0
+
+        # Iterate through each element and verify it's displayed
+        for element in letenkySRLresultsElements:
+            logger.info(f"Verifying visibility of element at position {pozice}.")
+            assert element.is_displayed() == True, f"Element at position {pozice} is not displayed!"
+            logger.info(f"Element at position {pozice} is displayed.")
+            pozice += 1
+
+        logger.info("SRL letenky results verification completed successfully.")
+
+    @staticmethod
+    def compare_SRL_number_of_results(driver, URL_default, URL_dev, URL_parameters_list, logger):
+        logger.info("Starting SRL number of results comparison between PROD and Release web.")
+
+        driver.get(URL_default)
+        time.sleep(1)
+        driver.maximize_window()
+        acceptConsent(driver)
+        time.sleep(5)
+
+        windowHandle = 1
+        listPosition = 0
+
+        # Use global variables
+        global pocet_vysledku_list_default
+        pocet_vysledku_list_default = []
+
+        global checked_URLs_list_default
+        checked_URLs_list_default = []
+
+        global pocet_vysledku_list_dev
+        pocet_vysledku_list_dev = []
+
+        global checked_URLs_list_dev
+        checked_URLs_list_dev = []
+
+        # Step 1: Collect results from default (PROD)
+        logger.info("Collecting results from the PROD environment.")
+        for param in URL_parameters_list:
+            linkActualUrl = URL_default + param
+            logger.info(f"Opening URL: {linkActualUrl}")
+            time.sleep(4)
+            driver.get(linkActualUrl)
+            time.sleep(3)
+
+            SRL_H1textPocetNalezenychZajezduXpath = "//h1"
+            pocetNalezenychZajezduElement = driver.find_element_by_xpath(
+                SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+
+            pocet_vysledku_list_default.append(pocetNalezenychZajezduElement)
+            checked_URLs_list_default.append(linkActualUrl)
+
+            logger.info(f"Results for {linkActualUrl}: {pocetNalezenychZajezduElement}")
+            windowHandle += 1
+            listPosition += 1
+
+        # Reset windowHandle and listPosition for DEV environment
+        windowHandle = 1
+        listPosition = 0
+
+        # Step 2: Collect results from dev
+        logger.info("Collecting results from the Release web environment.")
+        for param in URL_parameters_list:
+            linkActualUrl = URL_dev + param
+            logger.info(f"Opening URL: {linkActualUrl}")
+            time.sleep(3)
+            driver.get(linkActualUrl)
+
+            SRL_H1textPocetNalezenychZajezduXpath = "//h1"
+            pocetNalezenychZajezduElement = driver.find_element_by_xpath(
+                SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+
+            pocet_vysledku_list_dev.append(pocetNalezenychZajezduElement)
+            checked_URLs_list_dev.append(linkActualUrl)
+
+            logger.info(f"Results for {linkActualUrl}: {pocetNalezenychZajezduElement}")
+            windowHandle += 1
+            listPosition += 1
+
+        # Step 3: Compare results
+        logger.info("Starting comparison of results between PROD and Release web.")
+        starterPosition = 0
+        url_point = 2
+
+        logger.info(f"Total results in PROD: {len(pocet_vysledku_list_default)}")
+        logger.info(f"Total results in Release web: {len(pocet_vysledku_list_dev)}")
+
+        for _ in pocet_vysledku_list_default:
+            default_result = pocet_vysledku_list_default[starterPosition]
+            dev_result = pocet_vysledku_list_dev[starterPosition]
+            default_url = checked_URLs_list_default[starterPosition]
+            dev_url = checked_URLs_list_dev[starterPosition]
+
+            if default_result == dev_result:
+                logger.info(f"Match at URL {url_point}:")
+                logger.info(f"PROD result: {default_result}")
+                logger.info(f"Release web result: {dev_result}")
+                logger.info(f"PROD URL: {default_url}")
+                logger.info(f"Release web URL: {dev_url}")
+            else:
+                logger.warning(f"Mismatch at URL {url_point}:")
+                logger.warning(f"PROD result: {default_result}")
+                logger.warning(f"Release web result: {dev_result}")
+                logger.warning(f"PROD URL: {default_url}")
+                logger.warning(f"Release web URL: {dev_url}")
+
+            logger.info(f"URL number: {url_point}")
+            url_point += 1
+            starterPosition += 1
+
+        logger.info("Comparison of SRL results between PROD and DEV completed.")

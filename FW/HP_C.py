@@ -268,20 +268,20 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        destinaceEgyptXpath = "//*[@value='st185']"
+        destinaceEgyptXpath = "//*[@value='st63038']"
 
         self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
 
         time.sleep(3)
         letenkySrlResultsXpath = "//*[@class='f_searchResult-content-item relative']"
-
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
-                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+        HPzlutakBrezenDubenXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakBrezenDubenXpath
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
-                         HPzlutakPotvrditAvyhledatXpath)
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
 
 
-        SRL_D_letenky(self.driver, letenkySrlResultsXpath)
+        Helpers.SRL_D_letenky(self.driver, letenkySrlResultsXpath, self.logger)
         self.test_passed = True
 
     def test_HP_zlutak_to_groupsearch_letenky(self):

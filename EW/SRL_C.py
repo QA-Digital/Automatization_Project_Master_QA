@@ -250,4 +250,4 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(5)
-        SRL_D(self, self.driver)
+        Helpers.SRL_D(self.driver, self.logger)

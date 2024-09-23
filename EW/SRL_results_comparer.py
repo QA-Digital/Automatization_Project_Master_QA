@@ -7,6 +7,7 @@ import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 from EW.SRL_D import SRL_D
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
+from helpers.helper import Helpers
 
 URL_public_prod = "https://eximtours.cz"
 from datetime import datetime
@@ -97,6 +98,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
+        Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW, self.logger)
         list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW)
 
 
