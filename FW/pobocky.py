@@ -3,13 +3,15 @@ from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, 
 import time
 import unittest
 
+from helpers.helper import Helpers
+
 brnoAnchorOblibeneVolbyXpath = "//*[@class='f_anchor'and contains(text(), 'Brno')]"
 pobockaBoxXpath = "//*[@data-branch-id='262']"
 detailPobockyXpath = pobockaBoxXpath + "//*[contains(text(), 'Detail pobočky')]"
-objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWindow--show js-gtm-eventClick']"
-popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
+objednatSchuzkuBtnXpath = "//a[contains(@class,'f_button--important js-gtm-eventClick')]//span[@class='f_button-text'][contains(text(),'Objednat schůzku')]"
+popUpObjednavkaNavstevyXpath = "//*[@class='p-[clamp(16px,5vw,22px)] flex-grow overflow-auto pt-0']"
 
-def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath):
+def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath, logger):
 
     AnchorOblibeneVolbyElement = driver.find_element_by_xpath(AnchorOblibeneVolbyXpath)
     AnchorOblibeneVolbyElement.click()
@@ -30,8 +32,8 @@ def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXp
     time.sleep(2.5)
 
     popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
-    self.logger.info("Popup formulář je zobrazený:    ")
-    self.logger.info(popUpObjednavkaNavstevyElement.is_displayed())
+    logger.info("Popup formulář je zobrazený:    ")
+    logger.info(popUpObjednavkaNavstevyElement.is_displayed())
     assert popUpObjednavkaNavstevyElement.is_displayed() == True
 
 
@@ -107,6 +109,6 @@ class TestPobocky_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(3.5)
-        open_pobocka_box_to_detail_open_popup_navstevy(self.driver, brnoAnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath)
+        Helpers.open_pobocka_box_to_detail_open_popup_navstevy(self.driver, brnoAnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath, self.logger)
 
         self.test_passed = True

@@ -148,7 +148,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def test_detail_fotka(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         acceptConsent(self.driver)

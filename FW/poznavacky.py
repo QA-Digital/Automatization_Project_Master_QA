@@ -56,6 +56,9 @@ def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
 
 from FW.to_import import URL_local
 
+kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
+
+
 class TestPoznavacky_D(unittest.TestCase):
 
     URL = URL_local  # Default value
@@ -133,7 +136,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.maximize_window()
         acceptConsent(self.driver)
         time.sleep(5)
-        proklik_kostkaHotelu_toDetail_check_sedivka(self.driver)
+        Helpers.proklik_kostkaHotelu_toDetail_check_sedivka(self.driver, kostkaPoznavackaXpath, sedivkaXpathFw, self.logger)
 
         self.test_passed = True
 
@@ -144,7 +147,7 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.maximize_window()
         acceptConsent(self.driver)
         time.sleep(5)
-        proklik_kostkaHotelu_toDetail_check_sedivka(self.driver)
+        Helpers.proklik_kostkaHotelu_toDetail_check_sedivka(self.driver, kostkaPoznavackaXpath, sedivkaXpathFw, self.logger)
 
         self.test_passed = True
 
@@ -155,6 +158,6 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.maximize_window()
         acceptConsent(self.driver)
         time.sleep(5)
-        proklik_kostkaHotelu_toDetail_check_sedivka(self.driver)
+        Helpers.proklik_kostkaHotelu_toDetail_check_sedivka(self.driver, kostkaPoznavackaXpath, sedivkaXpathFw, self.logger)
 
         self.test_passed = True

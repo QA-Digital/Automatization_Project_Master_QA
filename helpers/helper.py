@@ -372,7 +372,7 @@ class Helpers:
         logger.info("First hotel card is displayed.") if logger else print("First hotel card is displayed.")
 
         # Checking hotel prices
-        SRLcenyHoteluXpath = "your-hotel-price-xpath"  # Placeholder for the actual XPath
+        SRLcenyHoteluXpath = "//*[@class='f_price']"  # Placeholder for the actual XPath
 
         try:
             driver.implicitly_wait(100)
@@ -647,3 +647,127 @@ class Helpers:
             list_web_elements_Position += plusPozice
 
         logger.info("Completed list string sorter test.")
+
+    @staticmethod
+    def open_pobocka_box_to_detail_open_popup_navstevy(driver, AnchorOblibeneVolbyXpath, pobockaBoxXpath,
+                                                       detailPobockyXpath, objednatSchuzkuBtnXpath,
+                                                       popUpObjednavkaNavstevyXpath, logger):
+        time.sleep(2)
+        logger.info("Starting process to open Pobocka box and display the popup for Objednavka Navstevy.")
+
+        # Click on Anchor Oblibene Volby
+        logger.info("Clicking on the Anchor Oblibene Volby element.")
+        AnchorOblibeneVolbyElement = driver.find_element_by_xpath(AnchorOblibeneVolbyXpath)
+        AnchorOblibeneVolbyElement.click()
+        logger.info("Anchor Oblibene Volby clicked.")
+        time.sleep(2)
+
+        # Click on Pobocka Box
+        logger.info("Clicking on the Pobocka box element.")
+        pobockaBoxElement = driver.find_element_by_xpath(pobockaBoxXpath)
+        pobockaBoxElement.click()
+        logger.info("Pobocka box clicked.")
+        time.sleep(2)
+
+        # Scroll to and click on Detail Pobocky
+        logger.info("Scrolling to and clicking on the Detail Pobocky element.")
+        detailPobockyElement = driver.find_element_by_xpath(detailPobockyXpath)
+        driver.execute_script("arguments[0].scrollIntoView();", detailPobockyElement)
+        detailPobockyElement.click()
+        logger.info("Detail Pobocky clicked.")
+        time.sleep(3.5)
+
+        # Click on 'Objednat Schuzku' button
+        logger.info("Clicking on 'Objednat Schuzku' button.")
+        objednatSchuzkuBtnElement = driver.find_element_by_xpath(objednatSchuzkuBtnXpath)
+        driver.execute_script("arguments[0].click();", objednatSchuzkuBtnElement)
+        logger.info("'Objednat Schuzku' button clicked.")
+        time.sleep(2.5)
+
+        # Verify Popup for Objednavka Navstevy is displayed
+        logger.info("Verifying if the popup for Objednavka Navstevy is displayed.")
+        popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
+        is_popup_displayed = popUpObjednavkaNavstevyElement.is_displayed()
+        logger.info(f"Popup visibility: {is_popup_displayed}")
+
+        assert is_popup_displayed == True, "Popup for Objednavka Navstevy was not displayed as expected."
+        logger.info("Popup for Objednavka Navstevy is successfully displayed.")
+
+    @staticmethod
+    def proklik_kostkaHotelu_toDetail_check_sedivka(driver, kostkaPoznavackaXpath, sedivkaXpath, logger):
+        logger.info("Starting process to click on Kostka hotel and check Sedivka element.")
+
+        # Scroll to the Kostka Poznavacka element and click
+        logger.info("Scrolling to Kostka Poznavacka element.")
+        element = driver.find_element_by_xpath(kostkaPoznavackaXpath)
+        driver.execute_script("arguments[0].scrollIntoView();", element)
+        time.sleep(2)
+
+        logger.info("Clicking on Kostka Poznavacka element.")
+        element.click()
+        time.sleep(2)
+
+        # Switch to the new window/tab
+        logger.info("Switching to the new window.")
+        driver.switch_to.window(driver.window_handles[1])
+        time.sleep(1)
+
+        # Log current URL
+        current_url = driver.current_url
+        logger.info(f"Current URL after switch: {current_url}")
+
+        # Check the Sedivka element
+        logger.info("Checking the Sedivka element.")
+        sedivka = driver.find_element_by_xpath(sedivkaXpath)
+        print(sedivka.is_displayed())
+        assert 1 == 1
+        logger.info("Sedivka element check completed.")
+
+    @staticmethod
+    def hp_zlutak_to_SRL(driver, kamPojedeteXpath, destinaceXpath, pokracovatBtn1Xpath, pokracovatBtn2Xpath,
+                         terminXpath, pokracovatBtn3Xpath, obsazenostXpath, potvrditAvyhledatXpath,
+                         logger, generalTimeSleep=1.5, skipObsazenostSetting=False):
+        logger.info("Starting the process to search using the SRL flow on HP Zlutak.")
+
+        wait = WebDriverWait(driver, 300)
+        time.sleep(generalTimeSleep)
+
+        # Step 1: Click on 'Kam Pojedete'
+        logger.info("Clicking on 'Kam Pojedete'.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedeteXpath))).click()
+
+        # Step 2: Select 'Destinace'
+        logger.info("Selecting the destination.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(destinaceXpath))).click()
+
+        # Step 3: Click on first 'Pokracovat' button
+        logger.info("Clicking on the first 'Pokracovat' button.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn1Xpath))).click()
+        time.sleep(generalTimeSleep)
+
+        # Step 4: Click on second 'Pokracovat' button
+        logger.info("Clicking on the second 'Pokracovat' button.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn2Xpath))).click()
+        time.sleep(generalTimeSleep)
+
+        # Step 5: Select the 'Termin'
+        logger.info("Selecting the 'Termin'.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(terminXpath))).click()
+        time.sleep(generalTimeSleep)
+
+        # Step 6: Click on third 'Pokracovat' button
+        logger.info("Clicking on the third 'Pokracovat' button.")
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn3Xpath))).click()
+
+        # Optional: Handle 'Obsazenost' setting if not skipped
+        if not skipObsazenostSetting:
+            logger.info("Handling 'Obsazenost' setting.")
+            wait.until(EC.visibility_of(driver.find_element_by_xpath(obsazenostXpath))).click()
+
+        # Step 7: Click on 'Potvrdit a Vyhledat'
+        logger.info("Clicking on 'Potvrdit a Vyhledat'.")
+        time.sleep(generalTimeSleep)
+        wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledatXpath))).click()
+
+        logger.info("Search completed, waiting for the results.")
+        time.sleep(4)  # Ensure enough time for the results to load.

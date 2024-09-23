@@ -112,7 +112,7 @@ class TestPoznavacky_D(unittest.TestCase):
         time.sleep(2)
         element3.click()
         time.sleep(2)
-        self.driver.switch_to.window(self.driver.window_handles[2]) ##musí být ten switch to window i když jsem po kliku na detailu, jinak to blbne
+        self.driver.switch_to.window(self.driver.window_handles[1]) ##musí být ten switch to window i když jsem po kliku na detailu, jinak to blbne
         time.sleep(1.5)
         self.logger.info(self.driver.current_url)
         sedivka_check_assert(self.driver, sedivkaXpathFw)

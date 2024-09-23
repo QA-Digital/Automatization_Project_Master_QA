@@ -133,8 +133,8 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath, HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
-                         ,HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath, HPzlutakPotvrditAvyhledatXpath )
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath, HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
+                         ,HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath, HPzlutakPotvrditAvyhledatXpath, self.logger )
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
@@ -145,15 +145,15 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        destinaceEgyptXpath = "//*[@value='st64']"
+        destinaceEgyptXpath = "//*[@value='st63125']"
         self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
-
+        HPzlutakBrezenDubenXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
         time.sleep(3)
-
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
-                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
-                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
-                         HPzlutakPotvrditAvyhledatXpath)
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
+                                 HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2,
+                                 HPzlutakBrezenDubenXpath
+                                 , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                                 HPzlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(10)  # nevdama proste nez se nacte
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
@@ -166,15 +166,15 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
-        #destinaceItalieXpath = "/html/body/header/div/div[2]/div/div/div/div[3]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[1]/div[1]/span/label/span/span"
-        destinaceItalieXpath = "//*[@value='st217']"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
+        destinaceItalieXpath = "//*[@value='st63139']"
         time.sleep(3)
 
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
                          HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
-                         HPzlutakPotvrditAvyhledatXpath)
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
+        time.sleep(3)
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 

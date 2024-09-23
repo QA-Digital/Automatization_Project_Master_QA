@@ -3,13 +3,13 @@ from EW.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDri
 import time
 import unittest
 from FW.pobocky import open_pobocka_box_to_detail_open_popup_navstevy
+from helpers.helper import Helpers
 
-brnoAnchorOblibeneVolbyXpath = "//*[@class='f_anchor'and contains(text(), 'Brno')]"
+brnoAnchorOblibeneVolbyXpath = "//span[contains(text(),'Brno')]"
 pobockaBoxXpath = "//*[@data-branch-id='262']"
 detailPobockyXpath = pobockaBoxXpath + "//*[contains(text(), 'Detail pobočky')]"
-objednatSchuzkuBtnXpath = "//*[@class='f_button f_button--important js-popupWindow--show js-gtm-eventClick']"
-popUpObjednavkaNavstevyXpath = "//*[@class='fshr-popupWindow fshr-popupWindow--centered js-form js-popupWindow fshr-icon fshr-icon--man js-sendByAjax js-gtm-trackGoal']"
-
+objednatSchuzkuBtnXpath = "//a[contains(@class,'f_button--important js-gtm-eventClick')]//span[@class='f_button-text'][contains(text(),'Objednat schůzku')]"
+popUpObjednavkaNavstevyXpath = "//*[@class='p-[clamp(16px,5vw,22px)] flex-grow overflow-auto pt-0']"
 
 from EW.to_import import URL_local
 class TestPobocky_C(unittest.TestCase):
@@ -81,10 +81,11 @@ class TestPobocky_C(unittest.TestCase):
 
     def test_pobocky_C_click_to_detail_popup_check(self):
         self.driver.maximize_window()
-        self.driver.get(URL_pobocky)
+        URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
+        self.driver.get(URL_pobocky_lp)
         acceptConsent(self.driver)
 
         time.sleep(3.5)
-        open_pobocka_box_to_detail_open_popup_navstevy(self.driver, brnoAnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath)
+        Helpers.open_pobocka_box_to_detail_open_popup_navstevy(self.driver, brnoAnchorOblibeneVolbyXpath, pobockaBoxXpath, detailPobockyXpath,objednatSchuzkuBtnXpath, popUpObjednavkaNavstevyXpath, self.logger)
 
         self.test_passed = True
