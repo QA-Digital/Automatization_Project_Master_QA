@@ -794,7 +794,7 @@ class Helpers:
         logger.info("SRL letenky results verification completed successfully.")
 
     @staticmethod
-    def list_SRL_number_of_results(driver, URL_default, URL_dev, URL_parameters_list, logger):
+    def compare_SRL_number_of_results(driver, URL_default, URL_dev, URL_parameters_list, logger):
         logger.info("Starting SRL number of results collection.")
 
         driver.get(URL_default)
