@@ -137,29 +137,27 @@
                     }
                 }
             },
-            methods: {
-                async handleSubmit(url, email, projectName) {
-                    console.log(`Running test suite for ${projectName}:`, url);
-                    try {
-                        const response = await fetch('http://localhost:5000/run_suite', {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify({
-                                URL: url,
-                                suiteName: `${projectName.toUpperCase()} web full suite`,
-                                email: email,
-                                web_brand: projectName.toUpperCase()  // Set the web_brand based on projectName
-                            })
-                        });
-                        const result = await response.json();
-                        alert(result.message);
-                    } catch (error) {
-                        console.error('Error running test suite:', error);
-                        alert('Error running test suite: ' + error.message);
-                    }
-                }
+            methods: {async handleSubmit(url, email, projectName) {
+    console.log(`Running test suite for ${projectName}:`, url);
+    try {
+        const response = await fetch('http://localhost:5000/run_suite', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                URL: url,
+                suiteName: `${projectName.toUpperCase()} web full suite`,
+                email: email
+            })
+        });
+        const result = await response.json();
+        alert(result.message);
+    } catch (error) {
+        console.error('Error running test suite:', error);
+        alert('Error running test suite: ' + error.message);
+    }
+}
             }
         });
     </script>

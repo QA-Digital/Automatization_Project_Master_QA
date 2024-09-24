@@ -20,7 +20,7 @@ from ND.starter_local import suite_ND_full  # NevDama
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS
-logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(level=logging.DEBUG)
 
 
 # Define the suite functions
@@ -31,40 +31,22 @@ def suite_FW_full2(url):
 
 
 # Function to run the test suite in a separate thread
-def run_suite_in_thread(url, web_brand, version, suite_function, email):
+def run_suite_in_thread(url, suite_name, email):
     try:
         logging.debug(f'Starting test suite with URL: {url}')
 
         # Create the report directory if it does not exist
-        report_dir = os.path.join('app', 'report', web_brand.lower())
+        report_dir = os.path.join('app', 'report', suite_name.lower())
         if not os.path.exists(report_dir):
             os.makedirs(report_dir)
             logging.debug(f'Created report directory: {report_dir}')
 
         # Run the test suite
-        runner_tests_generalized(suite_function, web_brand, version, url, email)
+        runner_tests_generalized(suite_name, url, email)
 
         logging.debug(f'Test suite finished for URL: {url}')
     except Exception as e:
         logging.error(f'Error running test suite: {e}')
-
-# def run_suite_in_thread(url, web_brand, version, suite_function, email):
-#     try:
-#         logging.debug(f'Starting test suite with URL: {url}')
-#
-#         # Create the report directory if it does not exist
-#         report_dir = os.path.join('app', 'report', web_brand.lower())
-#         if not os.path.exists(report_dir):
-#             os.makedirs(report_dir)
-#             logging.debug(f'Created report directory: {report_dir}')
-#
-#         # Run the test suite, now using xmlrunner
-#         runner_tests_generalized(suite_function, web_brand, version, url, email)
-#
-#         logging.debug(f'Test suite finished for URL: {url}')
-#     except Exception as e:
-#         logging.error(f'Error running test suite: {e}')
-
 
 @app.route('/run_suite', methods=['POST'])
 def run_suite():

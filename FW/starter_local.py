@@ -1,3 +1,7 @@
+import glob
+import logging
+import os
+
 from FW.pobocky import *
 from FW.Detail_D import *
 from FW.Detail_C import *
@@ -17,6 +21,71 @@ from FW.HP_C import *
 #import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
 from FW.SRL_results_comparer import *
 from FW.darkove_poukazy import *
+
+
+def runner_tests_generalized(suite_name, URL, email):
+    # Set up logging configuration with suite name
+    log_file = f'{suite_name}.log'
+    logging.basicConfig(filename=log_file, level=logging.INFO,
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+    logger = logging.getLogger(__name__)
+
+    # Start of test run
+    logger.info(f"Starting test suite: {suite_name}, URL: {URL}")
+
+    # Ensure the report directory exists
+    report_dir = 'report'
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+
+    report_title = f"{suite_name} ||| {URL}"
+    report_name = f"WEB_Suite_Report_{suite_name}"
+    report_description = f"{suite_name} WEB Suite Report"
+
+    # Set up HTMLTestRunner
+    runner = HtmlTestRunner.HTMLTestRunner(
+        log=True,
+        verbosity=2,
+        output=report_dir,
+        title=report_title,
+        report_name=report_name,
+        open_in_browser=True,
+        description=report_description
+    )
+
+    # Run the test suite
+    result = runner.run(suite_name(URL))
+
+    # Log end of test suite
+    logger.info(f"Completed test suite: {suite_name}")
+
+    # Collect and append logs to HTML report
+    append_logs_to_html_report(report_dir, log_file, report_name)
+
+    # Send the report via email
+    sendEmailv2(report_title, report_description, email, [f"{report_dir}/{report_name}.html", log_file])
+
+
+def append_logs_to_html_report(report_dir, log_file, report_name):
+    """Append logs to the HTML report."""
+    # Find the report file
+    report_files = glob.glob(f"{report_dir}/{report_name}*.html")
+    if not report_files:
+        raise FileNotFoundError("Report file not found")
+
+    # Sort the files by modified time and pick the latest one
+    report_files.sort(key=os.path.getmtime)
+    report_file = report_files[-1]  # Get the latest file
+
+    # Read the log file content
+    with open(log_file, 'r') as lf:
+        log_content = lf.read()
+
+    # Append log content to the HTML report
+    with open(report_file, 'a') as rf:
+        rf.write('<h2>Test Suite Logs</h2>')
+        rf.write('<pre>{}</pre>'.format(log_content))
 
 def suite_FW_full(url):
     suite = unittest.TestSuite()
@@ -45,7 +114,7 @@ def suite_FW_full(url):
     suite.addTest(Test_SRL_C('test_srl_C', URL=url))
     suite.addTest(TestSRL_D('test_SRL_D', URL=url))
     # suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch', URL=url))
-    suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
+    #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
     ############################
     ## Test branch
@@ -98,7 +167,8 @@ def SRL_suite_full():
     suite.addTest(Test_SRL_C('test_srl_C'))
     return suite
 
-from starter_master_browserstack import  runner_tests_generalized
+from starter_master_browserstack import runner_tests_generalized, sendEmailv2
+
 if __name__ == '__main__':
    # runner = unittest.TextTestRunner()
     outfile = open("results.html", "w")

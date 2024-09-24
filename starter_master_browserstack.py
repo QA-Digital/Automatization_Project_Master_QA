@@ -234,37 +234,3 @@ def append_logs_to_html_report(report_dir, log_file, report_name):
 
 import os
 import glob
-import xmlrunner
-
-import xmlrunner  # Import xmlrunner
-
-import xmlrunner  # Import xmlrunner
-
-
-def runner_tests_generalized_xml(suite_function, web_brand, version, url, email):
-    report_dir = os.path.join('report', web_brand.lower())
-
-    # Ensure the report directory exists
-    if not os.path.exists(report_dir):
-        os.makedirs(report_dir)
-
-    # Path for the XML report
-    report_file_path = os.path.join(report_dir, 'results.xml')
-
-    # Run the test suite and generate XML report
-    suite = suite_function(url)  # Pass the URL to the suite function
-    with open(report_file_path, 'wb') as output:
-        runner = xmlrunner.XMLTestRunner(output=output, verbosity=2)
-        runner.run(suite)
-
-    # Read the XML report content with proper encoding
-    try:
-        with open(report_file_path, 'r', encoding='utf-8') as f:
-            report_content = f.read()
-    except UnicodeDecodeError:
-        with open(report_file_path, 'r', encoding='latin-1') as f:
-            report_content = f.read()
-
-    # Send the email with the latest report
-    sendEmailv2(f"{web_brand} Test Report", report_content, email, [report_file_path])
-
