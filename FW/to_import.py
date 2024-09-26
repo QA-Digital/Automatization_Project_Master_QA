@@ -45,12 +45,11 @@ def setUp(self):
     # Set up the Edge driver with the path from definitions.py
     self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
-    #edge_driver_path = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\msedgedriver.exe'
-
+    # Dynamically get the folder name (assuming folder is two levels up from the test file)
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-    # Set up logging for each test, including the folder name in the log file
-    log_filename = f'{test_folder}_{self.__class__.__name__}_test.log'
+    # Set up logging for each test, including the folder name and run number in the log file
+    log_filename = f'{test_folder}_{self.__class__.__name__}_test_{self.run_number:04d}.log'
     self.logger = logging.getLogger(self.__class__.__name__)
     self.logger.setLevel(logging.INFO)
 
@@ -63,7 +62,7 @@ def setUp(self):
     stream_handler.setLevel(logging.INFO)
 
     # Create formatters and add to handlers
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    formatter = logging.Formatter('%(levelname)s - %(message)s')
     file_handler.setFormatter(formatter)
     stream_handler.setFormatter(formatter)
 
@@ -75,7 +74,6 @@ def setUp(self):
     file_handler.flush()
 
     self.test_passed = False
-
 
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())

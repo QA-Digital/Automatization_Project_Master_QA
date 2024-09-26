@@ -21,6 +21,7 @@ from FW.HP_C import *
 import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
 from FW.SRL_results_comparer import *
 from FW.darkove_poukazy import *
+from get_run_number import get_run_number
 
 
 def runner_tests_generalized(suite_function, URL, email):
@@ -88,10 +89,11 @@ def append_logs_to_html_report(report_dir, log_file, report_name):
         rf.write('<pre>{}</pre>'.format(log_content))
 
 def suite_FW_full1(url):
+    run_number = get_run_number()
+
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
-   # suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url)) obsolete
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url))
     suite.addTest(TestDetskeKluby_D("test_kluby_D", URL=url))
     suite.addTest(TestDovolena_D("test_dovolena_D", URL=url))
@@ -142,8 +144,9 @@ def suite_FW_full1(url):
     return suite
 
 def suite_FW_full(url):
+    run_number = get_run_number()
     suite = unittest.TestSuite()
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url, run_number=run_number))
     return suite
 
 def suite_HP_bannery():

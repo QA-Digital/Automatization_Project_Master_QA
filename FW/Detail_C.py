@@ -36,10 +36,11 @@ from helpers.helper import *
 class TestDetailHotelu_C(unittest.TestCase):
 
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName, URL=None, run_number=None):
         super().__init__(methodName)
         if URL:
             self.URL = URL
+        self.run_number = run_number
 
     def setUp(self):
         setUp(self)
