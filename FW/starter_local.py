@@ -25,31 +25,45 @@ from get_run_number import get_run_number
 
 
 def runner_tests_generalized(suite_function, URL, email):
-    # Set up logging configuration with suite name
-    log_file = f'./report/{suite_function.__name__}.log'
-    logging.basicConfig(filename=log_file, level=logging.INFO,
-                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    # Generate a unique run number for this suite
+    run_number = get_run_number()
 
-    logger = logging.getLogger(__name__)
+    # Get the folder name dynamically based on the test file location
+    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-    # Log the start of the test run
-    logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL}")
-
-    # Create the report directory if it doesn't exist
+    # Set up the report directory
     report_dir = './report'
     if not os.path.exists(report_dir):
         os.makedirs(report_dir)
 
-    # Report setup
+    # Clear previous logging configurations to prevent multiple log entries
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    # Set up the log file name without a timestamp
+    log_file = f'{report_dir}/{suite_function.__name__}_{run_number:04d}_log.txt'
+
+    # Configure logging
+    logging.basicConfig(filename=log_file, level=logging.INFO,
+                        format=f'{test_folder} - %(name)s - %(levelname)s - Run Number: {run_number:04d}')
+
+    logger = logging.getLogger(__name__)
+
+    # Log the start of the test run
+    logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL} with run number: {run_number:04d}")
+
+    # Report setup with run number included, no timestamp in the report name
     report_title = f"{suite_function.__name__} ||| {URL}"
-    report_name = f"WEB_Suite_Report_{suite_function.__name__}"
+    report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
+    report_file = f"{report_dir}/{report_name}.html"  # Ensure the report goes to the same directory
+
     report_description = f"{suite_function.__name__} WEB Suite Report"
 
     # Set up HTMLTestRunner
     runner = HtmlTestRunner.HTMLTestRunner(
-        log=True,
+        log=True,  # Control logging here if necessary
         verbosity=2,
-        output=report_dir,
+        output=report_dir,  # Ensure the output directory is consistent
         title=report_title,
         report_name=report_name,
         open_in_browser=True,
@@ -58,7 +72,8 @@ def runner_tests_generalized(suite_function, URL, email):
 
     # Run the suite and log any results or errors
     try:
-        suite = suite_function(URL)  # Pass the URL to the suite function
+        # Pass the URL and run number to the suite function
+        suite = suite_function(URL, run_number=run_number)
         result = runner.run(suite)
         logger.info(f"Completed test suite: {suite_function.__name__}")
     except Exception as e:
@@ -66,27 +81,29 @@ def runner_tests_generalized(suite_function, URL, email):
 
     # Append logs to HTML report and send via email
     append_logs_to_html_report(report_dir, log_file, report_name)
-    sendEmailv2(report_title, report_description, email, [f"{report_dir}/{report_name}.html", log_file])
+    sendEmailv2(report_title, report_description, email, [report_file, log_file])
 
 def append_logs_to_html_report(report_dir, log_file, report_name):
     """Append logs to the HTML report."""
-    # Find the report file
     report_files = glob.glob(f"{report_dir}/{report_name}*.html")
     if not report_files:
         raise FileNotFoundError("Report file not found")
 
-    # Sort the files by modified time and pick the latest one
     report_files.sort(key=os.path.getmtime)
     report_file = report_files[-1]  # Get the latest file
 
-    # Read the log file content
     with open(log_file, 'r') as lf:
         log_content = lf.read()
 
-    # Append log content to the HTML report
     with open(report_file, 'a') as rf:
         rf.write('<h2>Test Suite Logs</h2>')
         rf.write('<pre>{}</pre>'.format(log_content))
+
+def suite_FW_full(url, run_number):
+    suite = unittest.TestSuite()
+    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url, run_number=run_number))
+    return suite
+
 
 def suite_FW_full1(url):
     run_number = get_run_number()
@@ -143,11 +160,7 @@ def suite_FW_full1(url):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url))
     return suite
 
-def suite_FW_full(url):
-    run_number = get_run_number()
-    suite = unittest.TestSuite()
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url, run_number=run_number))
-    return suite
+
 
 def suite_HP_bannery():
     suite = unittest.TestSuite()
