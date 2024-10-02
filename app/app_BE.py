@@ -27,7 +27,7 @@ CORS(app, resources={r"/run_suite": {"origins": "*"}})  # Enable CORS for /run_s
 logging.basicConfig(level=logging.DEBUG)
 
 
-def run_suite_in_thread(url, suite_name, suite_function, email):
+def run_suite_in_thread(url, suite_function, email):
     try:
         logging.debug(f'Starting test suite for URL: {url}')
 
@@ -37,8 +37,11 @@ def run_suite_in_thread(url, suite_name, suite_function, email):
             os.makedirs(base_report_dir)
             logging.debug(f'Created base report directory: {base_report_dir}')
 
+        # Extract the suite name from the function name (optional, can be customized based on need)
+        suite_name = suite_function.__name__.replace('suite_', '').replace('_full', '').upper()
+
         # Create a specific report directory for the suite
-        report_dir = os.path.join(base_report_dir, suite_name.lower().replace(' ', '_'))
+        report_dir = os.path.join(base_report_dir, suite_name.lower())
         if not os.path.exists(report_dir):
             os.makedirs(report_dir)
             logging.debug(f'Created report directory: {report_dir}')
@@ -58,9 +61,9 @@ def run_suite_in_thread(url, suite_name, suite_function, email):
         # Run the test suite using runner_tests_generalized
         runner_tests_generalized(suite_function, url, email)
 
-        # Define the path to the expected HTML report
+        # Define the path to the expected HTML report without timestamp
         html_report_path = os.path.join(report_dir,
-                                        f'WEB_Suite_Report_{suite_name}_{time.strftime("%d-%m-%y_%H-%M-%S")}.html')  # Ensure this matches the generated HTML report name
+                                        f'WEB_Suite_Report_{suite_name}.html')
 
         # Check if the HTML report exists and send email
         if os.path.exists(html_report_path):
@@ -75,7 +78,6 @@ def run_suite_in_thread(url, suite_name, suite_function, email):
     except Exception as e:
         logging.error(f'Error running test suite {suite_name}: {e}')
 
-
 @app.route('/run_suite', methods=['POST'])
 def run_suite():
     try:
@@ -83,10 +85,9 @@ def run_suite():
         logging.debug(f'Received data: {data}')
 
         url = data.get('URL')
-        suite_name = data.get('suiteName')
         email = data.get('email')
 
-        logging.debug(f'URL: {url}, suiteName: {suite_name}, email: {email}')
+        logging.debug(f'URL: {url}, email: {email}')
 
         # Dictionary to map suite names to functions
         suite_mapping = {
@@ -101,6 +102,7 @@ def run_suite():
             'NEVDAMA web full suite': suite_ND_full,
         }
 
+        suite_name = data.get('suiteName')
         suite_function = suite_mapping.get(suite_name)
 
         if not suite_function:
@@ -108,13 +110,14 @@ def run_suite():
             return jsonify({'status': 'error', 'message': f'Suite {suite_name} not found.'}), 400
 
         # Start a new thread to run the test suite
-        thread = Thread(target=run_suite_in_thread, args=(url, suite_name, suite_function, email))
+        thread = Thread(target=run_suite_in_thread, args=(url, suite_function, email))
         thread.start()
-        logging.debug(f'Started thread for suite: {suite_name} with URL: {url}')
+        logging.debug(f'Started thread for suite with URL: {url}')
         return jsonify({'status': 'success', 'message': 'Test suite execution started.'}), 200
     except Exception as e:
         logging.error(f'Error starting test suite: {e}')
         return jsonify({'status': 'error', 'message': str(e)}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
