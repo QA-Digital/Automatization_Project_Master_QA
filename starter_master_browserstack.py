@@ -110,7 +110,7 @@ import glob
 import logging
 
 
-def runner_tests_generalized_last(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized_last2(suite_general, web_brand, version, URL, email):
     # Set up logging configuration
     log_file = f'logs_{web_brand}.log'
     logging.basicConfig(filename=log_file, level=logging.INFO,
