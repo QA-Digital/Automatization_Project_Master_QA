@@ -1,6 +1,7 @@
 import glob
 import logging
 import os
+import smtplib
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from threading import Thread
@@ -15,7 +16,49 @@ from KTGHU.starter_local import suite_KTGHU_full  # Kartago HU
 from KTGSK.starter_local import suite_KTGSK_full  # Kartago SK
 from ND.starter_local import suite_ND_full  # NevDama
 from get_run_number import get_run_number
-from starter_master_browserstack import sendEmailv2
+import HTMLTestRunner   as   HtmlTestRunner
+from email import encoders
+from email.mime.base import MIMEBase
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from to_import_secret_master import emailPass
+
+def sendEmailv2(subject, msg, recipient, files):
+    fromx = 'alertserverproblem@gmail.com'
+    to = recipient
+
+    # Create the root message
+    msg_root = MIMEMultipart()
+    msg_root['Subject'] = subject
+    msg_root['From'] = fromx
+    msg_root['To'] = to
+    msg_root.preamble = 'Multipart message.\n'
+
+    # Attach the main message
+    msg_root.attach(MIMEText(msg, 'html'))
+
+    # Attach the files
+    for file in files:
+        if file.endswith('.html') or os.path.basename(file) == 'stylesheet.css':
+            with open(file, 'rb') as f:
+                part = MIMEBase('application', 'octet-stream')
+                part.set_payload(f.read())
+                encoders.encode_base64(part)
+                part.add_header('Content-Disposition', f'attachment; filename="{os.path.basename(file)}"')
+                msg_root.attach(part)
+
+    try:
+        # Send the email using Gmail SMTP
+        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server.starttls()
+        server.login(fromx, emailPass)
+
+        server.sendmail(fromx, to, msg_root.as_string())
+        server.quit()
+        print(f"Email sent successfully to {recipient}")
+
+    except Exception as e:
+        print(f"Failed to send email. Error: {str(e)}")
 
 def runner_tests_generalized(suite_function, URL, email):
     # Generate a unique run number for this suite
@@ -48,13 +91,13 @@ def runner_tests_generalized(suite_function, URL, email):
     # Report setup with run number included, no timestamp in the report name
     report_title = f"{suite_function.__name__} ||| {URL}"
     report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
-    report_file = f"{report_dir}/{report_name}.html"  # Ensure the report goes to the same directory
+    report_file = f"{report_dir}/{report_name}.html"  # Desired final report file
 
     report_description = f"{suite_function.__name__} WEB Suite Report"
 
     # Set up HTMLTestRunner
     runner = HtmlTestRunner.HTMLTestRunner(
-        log=True,  # Control logging here if necessary
+        log=True,
         verbosity=2,
         output=report_dir,  # Ensure the output directory is consistent
         title=report_title,
@@ -72,9 +115,14 @@ def runner_tests_generalized(suite_function, URL, email):
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
 
-    # Append logs to HTML report and send via email
-    append_logs_to_html_report(report_dir, log_file, report_name)
-    sendEmailv2(report_title, report_description, email, [report_file, log_file])
+    # After the report is generated, find the actual generated report file
+    report_files = glob.glob(f"{report_dir}/WEB_Suite_Report_{suite_function.__name__}*.html")
+    report_files.sort(key=os.path.getmtime)
+    generated_report = report_files[-1]  # Get the latest generated report
+
+    # Ensure we pass the correct report file to the sendEmailv2 function
+    sendEmailv2(report_title, report_description, email, [generated_report, log_file])
+
 
 def append_logs_to_html_report(report_dir, log_file, report_name):
     """Append logs to the HTML report."""
