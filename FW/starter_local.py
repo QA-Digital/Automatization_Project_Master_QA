@@ -24,15 +24,17 @@ from FW.darkove_poukazy import *
 from get_run_number import get_run_number
 
 
+import os
+import glob
+import logging
+
+
 def runner_tests_generalized(suite_function, URL, email):
-    # Generate a unique run number for this suite
     run_number = get_run_number()
-
-    # Get the folder name dynamically based on the test file location
     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
-
-    # Set up the report directory
     report_dir = './report'
+
+    # Create report directory if it doesn't exist
     if not os.path.exists(report_dir):
         os.makedirs(report_dir)
 
@@ -48,40 +50,45 @@ def runner_tests_generalized(suite_function, URL, email):
                         format=f'{test_folder} - %(name)s - %(levelname)s - Run Number: {run_number:04d}')
 
     logger = logging.getLogger(__name__)
-
-    # Log the start of the test run
     logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL} with run number: {run_number:04d}")
 
-    # Report setup with run number included, no timestamp in the report name
+    # Setup report details
     report_title = f"{suite_function.__name__} ||| {URL}"
     report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
-    report_file = f"{report_dir}/{report_name}.html"  # Ensure the report goes to the same directory
-
-    report_description = f"{suite_function.__name__} WEB Suite Report"
+    report_file = f"{report_dir}/{report_name}.html"
 
     # Set up HTMLTestRunner
     runner = HtmlTestRunner.HTMLTestRunner(
-        log=True,  # Control logging here if necessary
+        log=True,
         verbosity=2,
-        output=report_dir,  # Ensure the output directory is consistent
+        output=report_dir,
         title=report_title,
         report_name=report_name,
         open_in_browser=True,
-        description=report_description
+        description=f"{suite_function.__name__} WEB Suite Report"
     )
 
-    # Run the suite and log any results or errors
     try:
-        # Pass the URL and run number to the suite function
-        suite = suite_function(URL, run_number=run_number)
+        # Run the suite
+        suite = suite_function(URL)
+        logger.info(f"Running the suite: {suite}")
         result = runner.run(suite)
+
+        # Log the result of the test execution
+        if result.wasSuccessful():
+            logger.info("Test suite executed successfully.")
+        else:
+            logger.warning("Some tests failed during the execution.")
+
         logger.info(f"Completed test suite: {suite_function.__name__}")
+
+        # Send email only after the suite is executed
+        generated_report = report_file  # Use the expected report file directly
+        sendEmailv2(report_title, report_name, email, [generated_report, log_file])
+
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
 
-    # Append logs to HTML report and send via email
-    append_logs_to_html_report(report_dir, log_file, report_name)
-    sendEmailv2(report_title, report_description, email, [report_file, log_file])
 
 def append_logs_to_html_report(report_dir, log_file, report_name):
     """Append logs to the HTML report."""

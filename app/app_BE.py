@@ -90,8 +90,8 @@ def runner_tests_generalized(suite_function, URL, email):
 
     # Report setup with run number included, no timestamp in the report name
     report_title = f"{suite_function.__name__} ||| {URL}"
-    report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
-    report_file = f"{report_dir}/{report_name}.html"  # Desired final report file
+    report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"  # Keep the report name consistent
+    report_file_path = f"{report_dir}/{report_name}.html"  # Desired final report file
 
     report_description = f"{suite_function.__name__} WEB Suite Report"
 
@@ -108,21 +108,25 @@ def runner_tests_generalized(suite_function, URL, email):
 
     # Run the suite and log any results or errors
     try:
-        # Pass the URL and run number to the suite function
         suite = suite_function(URL, run_number=run_number)
         result = runner.run(suite)
         logger.info(f"Completed test suite: {suite_function.__name__}")
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
 
-    # After the report is generated, find the actual generated report file
+    # Debugging: Check for generated report
     report_files = glob.glob(f"{report_dir}/WEB_Suite_Report_{suite_function.__name__}*.html")
+    print(f"Generated report files: {report_files}")  # Debug statement
+
+    if not report_files:
+        logger.error("No report files found.")
+        return  # Exit early if no report files were found
+
     report_files.sort(key=os.path.getmtime)
     generated_report = report_files[-1]  # Get the latest generated report
 
     # Ensure we pass the correct report file to the sendEmailv2 function
     sendEmailv2(report_title, report_description, email, [generated_report, log_file])
-
 
 def append_logs_to_html_report(report_dir, log_file, report_name):
     """Append logs to the HTML report."""
