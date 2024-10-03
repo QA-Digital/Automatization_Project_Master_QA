@@ -31,17 +31,14 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
+
 import os
+from definitions import EDGE_DRIVER_PATH
+from selenium import webdriver
 
 def setUp(self):
     # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
     # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
-
-    import os
-    from selenium import webdriver
-    from definitions import EDGE_DRIVER_PATH
-    from selenium import webdriver
-
     # Set up the Edge driver with the path from definitions.py
     self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 

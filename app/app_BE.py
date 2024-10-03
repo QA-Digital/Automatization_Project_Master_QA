@@ -1,13 +1,10 @@
+import glob
 import logging
 import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from threading import Thread
-import unittest
-
-from FW.Detail_D import TestDetailHotelu_D  # Ensure correct imports
 from FW.darkove_poukazy import *
-from FW.starter_local import runner_tests_generalized
 from FW.starter_local import suite_FW_full  # FISCHER
 from DERRO.starter_local import suite_DERRO_full  # Derro
 from ET.starter_local import suite_ET_full  # eTravel
@@ -17,9 +14,84 @@ from FWSK.starter_local import suite_FWSK_full  # Fischer SK
 from KTGHU.starter_local import suite_KTGHU_full  # Kartago HU
 from KTGSK.starter_local import suite_KTGSK_full  # Kartago SK
 from ND.starter_local import suite_ND_full  # NevDama
-
-# Flask app setup
+from get_run_number import get_run_number
 from starter_master_browserstack import sendEmailv2
+
+def runner_tests_generalized(suite_function, URL, email):
+    # Generate a unique run number for this suite
+    run_number = get_run_number()
+
+    # Get the folder name dynamically based on the test file location
+    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+    # Set up the report directory
+    report_dir = './report'
+    if not os.path.exists(report_dir):
+        os.makedirs(report_dir)
+
+    # Clear previous logging configurations to prevent multiple log entries
+    for handler in logging.root.handlers[:]:
+        logging.root.removeHandler(handler)
+
+    # Set up the log file name without a timestamp
+    log_file = f'{report_dir}/{suite_function.__name__}_{run_number:04d}_log.txt'
+
+    # Configure logging
+    logging.basicConfig(filename=log_file, level=logging.INFO,
+                        format=f'{test_folder} - %(name)s - %(levelname)s - Run Number: {run_number:04d}')
+
+    logger = logging.getLogger(__name__)
+
+    # Log the start of the test run
+    logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL} with run number: {run_number:04d}")
+
+    # Report setup with run number included, no timestamp in the report name
+    report_title = f"{suite_function.__name__} ||| {URL}"
+    report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
+    report_file = f"{report_dir}/{report_name}.html"  # Ensure the report goes to the same directory
+
+    report_description = f"{suite_function.__name__} WEB Suite Report"
+
+    # Set up HTMLTestRunner
+    runner = HtmlTestRunner.HTMLTestRunner(
+        log=True,  # Control logging here if necessary
+        verbosity=2,
+        output=report_dir,  # Ensure the output directory is consistent
+        title=report_title,
+        report_name=report_name,
+        open_in_browser=True,
+        description=report_description
+    )
+
+    # Run the suite and log any results or errors
+    try:
+        # Pass the URL and run number to the suite function
+        suite = suite_function(URL, run_number=run_number)
+        result = runner.run(suite)
+        logger.info(f"Completed test suite: {suite_function.__name__}")
+    except Exception as e:
+        logger.error(f"Error running test suite {suite_function.__name__}: {e}")
+
+    # Append logs to HTML report and send via email
+    append_logs_to_html_report(report_dir, log_file, report_name)
+    sendEmailv2(report_title, report_description, email, [report_file, log_file])
+
+def append_logs_to_html_report(report_dir, log_file, report_name):
+    """Append logs to the HTML report."""
+    report_files = glob.glob(f"{report_dir}/{report_name}*.html")
+    if not report_files:
+        raise FileNotFoundError("Report file not found")
+
+    report_files.sort(key=os.path.getmtime)
+    report_file = report_files[-1]  # Get the latest file
+
+    with open(log_file, 'r') as lf:
+        log_content = lf.read()
+
+    with open(report_file, 'a') as rf:
+        rf.write('<h2>Test Suite Logs</h2>')
+        rf.write('<pre>{}</pre>'.format(log_content))
+
 
 app = Flask(__name__)
 CORS(app, resources={r"/run_suite": {"origins": "*"}})  # Enable CORS for /run_suite

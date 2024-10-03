@@ -168,7 +168,7 @@ def runner_tests_generalized_last2(suite_general, web_brand, version, URL, email
     # Send the email with the latest report
     sendEmailv2(report_title, report_content, email, files)
 
-def runner_tests_generalized(suite_general, web_brand, version, URL, email):
+def runner_tests_generalized_actually_last(suite_general, web_brand, version, URL, email):
     # Set up suite-level logging configuration
     log_file = f'{web_brand}_suite_{version}.log'
     logging.basicConfig(filename=log_file, level=logging.INFO,
