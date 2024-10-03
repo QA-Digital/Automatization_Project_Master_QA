@@ -77,7 +77,8 @@ letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(t
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
 
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
