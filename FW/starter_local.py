@@ -29,82 +29,82 @@ import glob
 import logging
 
 
-def runner_tests_generalized(suite_function, URL, email):
-    run_number = get_run_number()
-    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
-    report_dir = './report'
-
-    # Create report directory if it doesn't exist
-    if not os.path.exists(report_dir):
-        os.makedirs(report_dir)
-
-    # Clear previous logging configurations to prevent multiple log entries
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
-
-    # Set up the log file name without a timestamp
-    log_file = f'{report_dir}/{suite_function.__name__}_{run_number:04d}_log.txt'
-
-    # Configure logging
-    logging.basicConfig(filename=log_file, level=logging.INFO,
-                        format=f'{test_folder} - %(name)s - %(levelname)s - Run Number: {run_number:04d}')
-
-    logger = logging.getLogger(__name__)
-    logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL} with run number: {run_number:04d}")
-
-    # Setup report details
-    report_title = f"{suite_function.__name__} ||| {URL}"
-    report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
-    report_file = f"{report_dir}/{report_name}.html"
-
-    # Set up HTMLTestRunner
-    runner = HtmlTestRunner.HTMLTestRunner(
-        log=True,
-        verbosity=2,
-        output=report_dir,
-        title=report_title,
-        report_name=report_name,
-        open_in_browser=True,
-        description=f"{suite_function.__name__} WEB Suite Report"
-    )
-
-    try:
-        # Run the suite
-        suite = suite_function(URL)
-        logger.info(f"Running the suite: {suite}")
-        result = runner.run(suite)
-
-        # Log the result of the test execution
-        if result.wasSuccessful():
-            logger.info("Test suite executed successfully.")
-        else:
-            logger.warning("Some tests failed during the execution.")
-
-        logger.info(f"Completed test suite: {suite_function.__name__}")
-
-        # Send email only after the suite is executed
-        generated_report = report_file  # Use the expected report file directly
-        sendEmailv2(report_title, report_name, email, [generated_report, log_file])
-
-    except Exception as e:
-        logger.error(f"Error running test suite {suite_function.__name__}: {e}")
-
-
-def append_logs_to_html_report(report_dir, log_file, report_name):
-    """Append logs to the HTML report."""
-    report_files = glob.glob(f"{report_dir}/{report_name}*.html")
-    if not report_files:
-        raise FileNotFoundError("Report file not found")
-
-    report_files.sort(key=os.path.getmtime)
-    report_file = report_files[-1]  # Get the latest file
-
-    with open(log_file, 'r') as lf:
-        log_content = lf.read()
-
-    with open(report_file, 'a') as rf:
-        rf.write('<h2>Test Suite Logs</h2>')
-        rf.write('<pre>{}</pre>'.format(log_content))
+# def runner_tests_generalized(suite_function, URL, email):
+#     run_number = get_run_number()
+#     test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+#     report_dir = './report'
+#
+#     # Create report directory if it doesn't exist
+#     if not os.path.exists(report_dir):
+#         os.makedirs(report_dir)
+#
+#     # Clear previous logging configurations to prevent multiple log entries
+#     for handler in logging.root.handlers[:]:
+#         logging.root.removeHandler(handler)
+#
+#     # Set up the log file name without a timestamp
+#     log_file = f'{report_dir}/{suite_function.__name__}_{run_number:04d}_log.txt'
+#
+#     # Configure logging
+#     logging.basicConfig(filename=log_file, level=logging.INFO,
+#                         format=f'{test_folder} - %(name)s - %(levelname)s - Run Number: {run_number:04d}')
+#
+#     logger = logging.getLogger(__name__)
+#     logger.info(f"Starting test suite: {suite_function.__name__} for URL: {URL} with run number: {run_number:04d}")
+#
+#     # Setup report details
+#     report_title = f"{suite_function.__name__} ||| {URL}"
+#     report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
+#     report_file = f"{report_dir}/{report_name}.html"
+#
+#     # Set up HTMLTestRunner
+#     runner = HtmlTestRunner.HTMLTestRunner(
+#         log=True,
+#         verbosity=2,
+#         output=report_dir,
+#         title=report_title,
+#         report_name=report_name,
+#         open_in_browser=True,
+#         description=f"{suite_function.__name__} WEB Suite Report"
+#     )
+#
+#     try:
+#         # Run the suite
+#         suite = suite_function(URL)
+#         logger.info(f"Running the suite: {suite}")
+#         result = runner.run(suite)
+#
+#         # Log the result of the test execution
+#         if result.wasSuccessful():
+#             logger.info("Test suite executed successfully.")
+#         else:
+#             logger.warning("Some tests failed during the execution.")
+#
+#         logger.info(f"Completed test suite: {suite_function.__name__}")
+#
+#         # Send email only after the suite is executed
+#         generated_report = report_file  # Use the expected report file directly
+#         sendEmailv2(report_title, report_name, email, [generated_report, log_file])
+#
+#     except Exception as e:
+#         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
+#
+#
+# def append_logs_to_html_report(report_dir, log_file, report_name):
+#     """Append logs to the HTML report."""
+#     report_files = glob.glob(f"{report_dir}/{report_name}*.html")
+#     if not report_files:
+#         raise FileNotFoundError("Report file not found")
+#
+#     report_files.sort(key=os.path.getmtime)
+#     report_file = report_files[-1]  # Get the latest file
+#
+#     with open(log_file, 'r') as lf:
+#         log_content = lf.read()
+#
+#     with open(report_file, 'a') as rf:
+#         rf.write('<h2>Test Suite Logs</h2>')
+#         rf.write('<pre>{}</pre>'.format(log_content))
 
 def suite_FW_full2(url, run_number):
     suite = unittest.TestSuite()
@@ -112,8 +112,8 @@ def suite_FW_full2(url, run_number):
     return suite
 
 
-def suite_FW_full(url):
-    run_number = get_run_number()
+def suite_FW_full(url, run_number):
+    #run_number = get_run_number()
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url, run_number=run_number))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url, run_number=run_number))
@@ -197,7 +197,7 @@ if __name__ == '__main__':
     outfile = open("results.html", "w")
     web_brand = "FISCHER"
     version = "FW-EW release 2024-07-23"
-    runner_tests_generalized(suite_FW_full, URL, "qa.digital@dertouristik.cz")
+   # runner_tests_generalized(suite_FW_full, URL, "qa.digital@dertouristik.cz")
 
     #runner_tests_generalized(SRL_suite_full, web_brand, version, URL)
     #runner_tests_generalized(suite2, web_brand, version, URL)

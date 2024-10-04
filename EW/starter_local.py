@@ -19,9 +19,9 @@ from EW.darkove_poukazy import *
 from get_run_number import get_run_number
 
 
-def suite_EW_full(url):
+def suite_EW_full(url, run_number):
     suite = unittest.TestSuite()
-    run_number = get_run_number()
+    #run_number = get_run_number()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url, run_number=run_number))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url, run_number=run_number))
     #suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))  # Not included
