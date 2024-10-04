@@ -37,9 +37,6 @@ from definitions import EDGE_DRIVER_PATH
 from selenium import webdriver
 
 def setUp(self):
-    # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-    # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
-    # Set up the Edge driver with the path from definitions.py
     self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
     # Dynamically get the folder name (assuming folder is two levels up from the test file)
@@ -47,6 +44,13 @@ def setUp(self):
 
     # Set up logging for each test, including the folder name and run number in the log file
     log_filename = f'{test_folder}_{self.__class__.__name__}_test_{self.run_number:04d}.log'
+
+    # Clear any existing handlers attached to the logger to prevent handler duplication
+    if hasattr(self, 'logger') and self.logger.handlers:
+        for handler in self.logger.handlers[:]:
+            self.logger.removeHandler(handler)
+
+    # Initialize logger for the test
     self.logger = logging.getLogger(self.__class__.__name__)
     self.logger.setLevel(logging.INFO)
 
@@ -59,7 +63,7 @@ def setUp(self):
     stream_handler.setLevel(logging.INFO)
 
     # Create formatters and add to handlers
-    formatter = logging.Formatter('%(levelname)s - %(message)s')
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     file_handler.setFormatter(formatter)
     stream_handler.setFormatter(formatter)
 

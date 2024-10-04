@@ -34,65 +34,50 @@ desired_cap = {
 "browserstack.selenium_version" : "3.5.2"
 
 }
+from definitions import EDGE_DRIVER_PATH
+from selenium import webdriver
 
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
 
-from webdriver_manager.firefox import GeckoDriverManager
 def setUp(self):
-  # self.driver = webdriver.Chrome(ChromeDriverManager().install())
+  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
+  # Dynamically get the folder name (assuming folder is two levels up from the test file)
+  test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-   # options = Options()
-   # options.add_argument("--headless")  # Run Chrome in headless mode
-   #chrome_driver_path = ChromeDriverManager().install()
-   #self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=options)
-   #
-   # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-   # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
-   #
-   # self.test_passed = False
+  # Set up logging for each test, including the folder name and run number in the log file
+  log_filename = f'{test_folder}_{self.__class__.__name__}_test_{self.run_number:04d}.log'
 
+  # Clear any existing handlers attached to the logger to prevent handler duplication
+  if hasattr(self, 'logger') and self.logger.handlers:
+    for handler in self.logger.handlers[:]:
+      self.logger.removeHandler(handler)
 
-    # chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-    # self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  # Initialize logger for the test
+  self.logger = logging.getLogger(self.__class__.__name__)
+  self.logger.setLevel(logging.INFO)
 
-    from definitions import EDGE_DRIVER_PATH
-    from selenium import webdriver
+  # Create file handler for the specific folder and test class
+  file_handler = logging.FileHandler(log_filename, mode='w')
+  file_handler.setLevel(logging.INFO)
 
-    # Set up the Edge driver with the path from definitions.py
-    self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  # Create stream handler to capture logs in the console
+  stream_handler = logging.StreamHandler(sys.stdout)
+  stream_handler.setLevel(logging.INFO)
 
-    # Dynamically get the folder name (assuming folder is two levels up from the test file)
-    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+  # Create formatters and add to handlers
+  formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+  file_handler.setFormatter(formatter)
+  stream_handler.setFormatter(formatter)
 
-    # Set up logging for each test, including the folder name in the log file
-    log_filename = f'{test_folder}_{self.__class__.__name__}_test.log'
-    self.logger = logging.getLogger(self.__class__.__name__)
-    self.logger.setLevel(logging.INFO)
+  # Add handlers to the logger
+  self.logger.addHandler(file_handler)
+  self.logger.addHandler(stream_handler)
 
-    # Create file handler for the specific folder and test class
-    file_handler = logging.FileHandler(log_filename, mode='w')
-    file_handler.setLevel(logging.INFO)
+  # Ensure logs are flushed to the file immediately
+  file_handler.flush()
 
-    # Create stream handler to capture logs in the console
-    stream_handler = logging.StreamHandler(sys.stdout)
-    stream_handler.setLevel(logging.INFO)
-
-    # Create formatters and add to handlers
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)
-    stream_handler.setFormatter(formatter)
-
-    # Add handlers to the logger
-    self.logger.addHandler(file_handler)
-    self.logger.addHandler(stream_handler)
-
-    # Ensure logs are flushed to the file immediately
-    file_handler.flush()
-
-    self.test_passed = False
-
+  self.test_passed = False
+  
 
 URL = "https://exim.stg.dtweb.cz/"
 #URL_local = "https://www.eximtours.cz/"
