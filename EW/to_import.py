@@ -77,7 +77,7 @@ def setUp(self):
   file_handler.flush()
 
   self.test_passed = False
-  
+
 
 URL = "https://exim.stg.dtweb.cz/"
 #URL_local = "https://www.eximtours.cz/"
