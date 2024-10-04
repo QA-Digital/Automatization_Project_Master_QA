@@ -44,28 +44,35 @@ def setUp(self):
   # Dynamically get the folder name (assuming folder is two levels up from the test file)
   test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
 
-  # Set up logging for each test, including the folder name and run number in the log file
-  log_filename = f'{test_folder}_{self.__class__.__name__}_test_{self.run_number:04d}.log'
+  # Get the current test method name (used in unique logger and log file naming)
+  test_method = self._testMethodName
 
-  # Clear any existing handlers attached to the logger to prevent handler duplication
-  if hasattr(self, 'logger') and self.logger.handlers:
-    for handler in self.logger.handlers[:]:
-      self.logger.removeHandler(handler)
+  # Generate a unique logger name using folder, class name, run number, and test method
+  logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
 
-  # Initialize logger for the test
-  self.logger = logging.getLogger(self.__class__.__name__)
+  # Get the logger (will create a new one if it doesn't exist)
+  self.logger = logging.getLogger(logger_name)
+
+  # Remove any existing handlers to avoid log mixing
+  if self.logger.hasHandlers():
+    self.logger.handlers.clear()
+
+  # Set log level
   self.logger.setLevel(logging.INFO)
 
-  # Create file handler for the specific folder and test class
+  # Create a unique log file for this specific test
+  log_filename = f'{test_folder}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log'
+
+  # Create file handler for logging to file
   file_handler = logging.FileHandler(log_filename, mode='w')
   file_handler.setLevel(logging.INFO)
 
-  # Create stream handler to capture logs in the console
+  # Create stream handler for console output
   stream_handler = logging.StreamHandler(sys.stdout)
   stream_handler.setLevel(logging.INFO)
 
-  # Create formatters and add to handlers
-  formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+  # Create a simple log format
+  formatter = logging.Formatter('%(levelname)s - %(message)s')
   file_handler.setFormatter(formatter)
   stream_handler.setFormatter(formatter)
 
