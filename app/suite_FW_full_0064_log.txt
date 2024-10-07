@@ -2880,3 +2880,11 @@
 2024-10-07 13:55:02,408 - INFO - [<selenium.webdriver.remote.webelement.WebElement (session="83b1f9ffc7bfa493fff66c9e72a1c24a", element="f.C841C81D82B4207D564CF2A2D42CCC9D.d.66C6A3FC2E95A2CE672A2FED9AC41B90.e.528")>, <selenium.webdriver.remote.webelement.WebElement (session="83b1f9ffc7bfa493fff66c9e72a1c24a", element="f.C841C81D82B4207D564CF2A2D42CCC9D.d.66C6A3FC2E95A2CE672A2FED9AC41B90.e.523")>, <selenium.webdriver.remote.webelement.WebElement (session="83b1f9ffc7bfa493fff66c9e72a1c24a", element="f.C841C81D82B4207D564CF2A2D42CCC9D.d.66C6A3FC2E95A2CE672A2FED9AC41B90.e.529")>]
 2024-10-07 13:55:02,429 - INFO - 0
 2024-10-07 13:55:04,476 - INFO - 1
+2024-10-07 13:55:06,507 - INFO - 2
+2024-10-07 13:55:32,262 - INFO - 0
+2024-10-07 13:55:34,288 - INFO - 1
+2024-10-07 13:55:36,336 - INFO - 2
+2024-10-07 13:55:41,647 - INFO - https://exim.web11.dtweb.cz//informace-pro-klienty/poukazky/darkove-poukazky
+2024-10-07 13:56:13,113 - INFO - https://gate.gopay.com/gp-gw/cs/desktop/web2/card
+2024-10-07 13:56:15,409 - WARNING - Some tests failed.
+2024-10-07 13:56:15,409 - ERROR - Error running test suite suite_EW_full: [Errno 2] No such file or directory: './report/WEB_Suite_Report_suite_EW_full_0063.html'

@@ -2,6 +2,8 @@ import glob
 import logging
 import os
 import smtplib
+
+from HTMLTestRunner import HTMLTestRunner
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from threading import Thread
@@ -74,7 +76,7 @@ def runner_tests_generalized(suite_function, URL, email):
         logging.root.removeHandler(handler)
 
     # Set up log file
-    log_file = f'{report_dir}/{suite_function.__name__}_{run_number:04d}_log.txt'
+    log_file = f'{os.getcwd()}/{suite_function.__name__}_{run_number:04d}_log.txt'
     logging.basicConfig(filename=log_file, level=logging.INFO, format=f'%(asctime)s - %(levelname)s - %(message)s')
 
     logger = logging.getLogger(__name__)
@@ -84,7 +86,7 @@ def runner_tests_generalized(suite_function, URL, email):
     report_name = f"WEB_Suite_Report_{suite_function.__name__}_{run_number:04d}"
     report_file = f"{report_dir}/{report_name}.html"
 
-    runner = HtmlTestRunner.HTMLTestRunner(
+    runner = HTMLTestRunner(
         log=True,
         verbosity=2,
         output=report_dir,
@@ -105,18 +107,18 @@ def runner_tests_generalized(suite_function, URL, email):
 
         sendEmailv2(report_title, report_name, email, [report_file, log_file])
 
+        # Append logs to the report
+        append_logs_to_html_report(report_file, log_file)
+
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
 
+<<<<<<< Updated upstream
 def append_logs_to_html_report(report_dir, log_file, report_name):
+=======
+def append_logs_to_html_report(report_file, log_file):
+>>>>>>> Stashed changes
     """Append logs to the HTML report."""
-    report_files = glob.glob(f"{report_dir}/{report_name}*.html")
-    if not report_files:
-        raise FileNotFoundError("Report file not found")
-
-    report_files.sort(key=os.path.getmtime)
-    report_file = report_files[-1]  # Get the latest file
-
     with open(log_file, 'r') as lf:
         log_content = lf.read()
 
