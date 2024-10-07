@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>suite_FW_full ||| https://fischer.web3.dtweb.cz/</title>
+    <meta name="generator" content="HTMLTestRunner 1.0.17"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+    <style>
+        
+    </style>
+    <script>
+        
+    </script>
+</head>
+<body>
+<div class='heading'>
+    <h1 style="margin-left:1ex;">suite_FW_full ||| https://fischer.web3.dtweb.cz/</h1>
+    
+    <p class='attribute'><strong>Start Time : </strong> 2024-10-03 11:57:03</p>
+    
+    <p class='attribute'><strong>Duration : </strong> 0:00:38.156034</p>
+    
+    <p class='attribute'><strong>Status : </strong> Error 1</p>
+    
+    <p class='attribute'><strong>Descrition : </strong> suite_FW_full WEB Suite Report</p>
+    
+    <p class='attribute'><strong>Tested By : </strong> Unknown</p>
+    
+</div>
+<div>
+    <p id='show_detail_line'><b>Show</b>
+        <button><a href='javascript:showCase(0)' style="color:#660066;">Summary</a></button>
+        <button><a href='javascript:showCase(1)' style="color:#660066;">Failed</a></button>
+        <button><a href='javascript:showCase(2)' style="color:#660066;">Passed</a></button>
+        <button><a href='javascript:showCase(3)' style="color:#660066;">All</a></button>
+    </p>
+    <table id='result_table'>
+        <colgroup>
+            <col align='left'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+            <col align='right'/>
+        </colgroup>
+        <tr id='header_row'>
+            <td>Test Group/Test case</td>
+            <td>Count</td>
+            <td>Pass</td>
+            <td>Fail</td>
+            <td>Error</td>
+            <td>View</td>
+        </tr>
+        
+        <tr class='errorClass' style="font-weight:bold;color:white;">
+            <td><a href="javascript:showClassDetail('c1','1')">FW.Detail_C.TestDetailHotelu_C</a></td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>
+                <button><a href="javascript:showClassDetail('c1','1')"
+                           style="color:#660066;">Detail</a></button>
+            </td>
+        </tr>
+            
+            <tr id="ft1.1" class='none'>
+                <td class='errorCase'>
+                    <div class='testcase'>
+                        <a class="popup_link" onfocus='this.blur();'
+                           href="javascript:showTestDetail('div_ft1.1')">test_detail_terminy_filtr_meal</a>
+                    </div>
+                </td>
+                <td colspan='5' align='center'>
+                    <div>
+                        <!--css div popup start-->
+                        <button>
+                            <a class="popup_link" onfocus='this.blur();'
+                               href="javascript:showTestDetail('div_ft1.1')" style="color:#660066;">
+                                ERROR
+                            </a></button>
+                        <div id='div_ft1.1' class="popup_window">
+                            <div style='text-align: right; color:red;cursor:pointer'>
+                                <a onfocus='this.blur();'
+                                   onclick="document.getElementById('div_ft1.1').style.display = 'none'; "
+                                   style="color:red;">
+                                    [x]</a>
+                            </div>
+                            <pre>2024-10-03 11:57:39.225302 : INFO - https://fischer.web3.dtweb.cz//hotely/spanelsko/andalusie-costa-del-sol/benalmadena/globales-gardenia?AC1=2&D=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&DD=2024-10-19&DI=AI&DP=4312&DPR=Hotelbeds&DS=2&GIATA=37867&HID=162&IC1=1&IFM=0&ILM=0&KC1=0&MMT=5&MNN=7&MT=5&NN=7&PID=4195&RC=DBT-BL&RCS=DBT-BL&RD=2024-10-27&RT=15&TO=4312&acm1=2&df=2024-10-07|2024-10-31&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+                             
+</pre>
+                            <pre style="color: red;">Traceback (most recent call last):
+  File "C:\Users\KADOUN\Desktop\Automatization_Project_Master_QA\FW\Detail_C.py", line 190, in test_detail_terminy_filtr_meal
+    generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(self.driver, terminyAcenyTabXpath,stravovaniBoxXpath, valueToFilterStravaAllIncXpath, False)
+  File "C:\Users\KADOUN\Desktop\Automatization_Project_Master_QA\generalized_test_functions.py", line 357, in generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail
+    terminyAcenyTabElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+  File "C:\Users\KADOUN\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\KADOUN\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\KADOUN\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\KADOUN\AppData\Roaming\Python\Python38\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='f_menu f_menu--inline f_menu--sticky']//*[contains(text(),'Termíny a ceny')]"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+</pre>
+                        </div>
+                        <!--css div popup end-->
+                    </div>
+                </td>
+            </tr>
+            
+        
+
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</div>
+<br><br>
+<div id='ending'><b>Time Elapsed: </b>0:00:38.156034</div>
+</body>
+</html><h2>Test Suite Logs</h2><pre>FW - __main__ - INFO - Run Number: 0016
+FW - TestDetailHotelu_C - INFO - Run Number: 0016
+FW - __main__ - INFO - Run Number: 0016
+</pre>

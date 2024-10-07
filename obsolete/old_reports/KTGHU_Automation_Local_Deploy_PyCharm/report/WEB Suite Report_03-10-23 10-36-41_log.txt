@@ -1,0 +1,8 @@
+2023-10-03 10:36:58.844027 : <selenium.webdriver.remote.webelement.WebElement (session="a036aff163cbec1f2a816f2c3e25f7c2", element="2A4347DBC1B3EE863BE303C878C7FFA3_element_496")>
+2023-10-03 10:36:59.046487 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="a036aff163cbec1f2a816f2c3e25f7c2", element="2A4347DBC1B3EE863BE303C878C7FFA3_element_497")>>
+2023-10-03 10:37:25.456581 : https://kartagohu.stg.dtweb.cz/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tt=1&ttm=1#/prehled
+2023-10-03 10:37:37.740902 : <selenium.webdriver.remote.webelement.WebElement (session="e45f6a3bbc48a532ea90d6a0da6fc4fa", element="693DDD0E25C23DF5CBEE3E1787B56732_element_254")>
+2023-10-03 10:38:05.541084 : nenasle se exponea banner
+2023-10-03 10:38:05.754822 : its ok
+2023-10-03 10:38:05.759808 : https://img.fischer.cz/hotels/egypt/oblast-marsa-alam/marsa-alam/blue-reef-resort/273357.jpg
+2023-10-03 10:38:19.103179 : <selenium.webdriver.remote.webelement.WebElement (session="e5f2dadd807ddf9daa6d5ee9fee84f7f", element="DBC3754D3CDBAF2015425E1E342BA6C8_element_285")>

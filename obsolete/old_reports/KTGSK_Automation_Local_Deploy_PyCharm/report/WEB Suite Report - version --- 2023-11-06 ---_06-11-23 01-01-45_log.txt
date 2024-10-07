@@ -1,0 +1,561 @@
+2023-11-06 13:01:56.185467 : <selenium.webdriver.remote.webelement.WebElement (session="ab481c8e5d00dab615a8e7d248eda7de", element="B2B287B26E8AACD8A5DAB00F084BC785_element_270")>
+2023-11-06 13:02:24.052425 : nenasle se exponea banner
+2023-11-06 13:02:24.115257 : gridy jdou videt
+2023-11-06 13:02:24.126235 : gridy jdou videt
+2023-11-06 13:02:24.137199 : gridy jdou videt
+2023-11-06 13:02:24.147172 : gridy jdou videt
+2023-11-06 13:02:24.158156 : gridy jdou videt
+2023-11-06 13:02:24.169143 : gridy jdou videt
+2023-11-06 13:02:24.180084 : gridy jdou videt
+2023-11-06 13:02:24.190066 : gridy jdou videt
+2023-11-06 13:02:24.201028 : gridy jdou videt
+2023-11-06 13:02:24.212013 : gridy jdou videt
+2023-11-06 13:02:24.221972 : gridy jdou videt
+2023-11-06 13:02:24.232516 : gridy jdou videt
+2023-11-06 13:02:24.243486 : gridy jdou videt
+2023-11-06 13:02:24.254457 : gridy jdou videt
+2023-11-06 13:02:24.265435 : gridy jdou videt
+2023-11-06 13:02:24.277395 : gridy jdou videt
+2023-11-06 13:02:24.287369 : gridy jdou videt
+2023-11-06 13:02:24.342222 : content jdou videt
+2023-11-06 13:02:24.352196 : content jdou videt
+2023-11-06 13:02:24.362170 : content jdou videt
+2023-11-06 13:02:24.372142 : content jdou videt
+2023-11-06 13:02:24.382122 : content jdou videt
+2023-11-06 13:02:24.393088 : content jdou videt
+2023-11-06 13:02:24.402063 : content jdou videt
+2023-11-06 13:02:24.412050 : content jdou videt
+2023-11-06 13:02:24.421013 : content jdou videt
+2023-11-06 13:02:24.429989 : content jdou videt
+2023-11-06 13:02:24.439962 : content jdou videt
+2023-11-06 13:02:24.448938 : content jdou videt
+2023-11-06 13:02:24.458912 : content jdou videt
+2023-11-06 13:02:24.468886 : content jdou videt
+2023-11-06 13:02:24.478859 : content jdou videt
+2023-11-06 13:02:24.487835 : content jdou videt
+2023-11-06 13:02:24.497808 : content jdou videt
+2023-11-06 13:02:24.502795 : https://kartagosk.stg.dtweb.cz/covid-info
+2023-11-06 13:02:42.296956 : <selenium.webdriver.remote.webelement.WebElement (session="70954b321ae0978c0cc3e132dbc17362", element="9621CD4216674D4058E149248851B366_element_516")>
+2023-11-06 13:02:42.434588 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="70954b321ae0978c0cc3e132dbc17362", element="9621CD4216674D4058E149248851B366_element_517")>>
+2023-11-06 13:02:42.516370 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/preh%C4%BEad
+2023-11-06 13:02:53.349815 : <selenium.webdriver.remote.webelement.WebElement (session="cc10b60936d6118e82dcbeb97163d8c8", element="C9AAD6C5D95E888FAA81F22EF806FC14_element_323")>
+2023-11-06 13:02:58.595760 : its ok
+2023-11-06 13:02:58.601744 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864.jpeg
+2023-11-06 13:03:10.615818 : <selenium.webdriver.remote.webelement.WebElement (session="b86ddd93418cd66fa97fa8213e3ff4d1", element="E4960F611392E55B6C5E9E27FE0CC020_element_339")>
+2023-11-06 13:03:16.856721 : else departure not true
+2023-11-06 13:03:25.285856 : all inclusive
+2023-11-06 13:03:27.286337 : 0
+2023-11-06 13:03:52.351590 : []
+2023-11-06 13:03:52.358572 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&mtm=5&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/terminy-a-ceny
+2023-11-06 13:04:04.617541 : <selenium.webdriver.remote.webelement.WebElement (session="228838a851ea2a9eb37c6ce8ca7bcbdb", element="45CC62DDCD72E688E87A7C0DB4D6C71F_element_315")>
+2023-11-06 13:04:10.854408 : if departure==True
+2023-11-06 13:05:17.448347 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&ptm=0&tom=483&tt=1&ttm=1#/terminy-a-ceny
+2023-11-06 13:05:29.829793 : <selenium.webdriver.remote.webelement.WebElement (session="a0204ae718d53032bab3d73513624e4f", element="60C3E1F1B8DE8141FFDAEFCBBEEAC0D6_element_268")>
+2023-11-06 13:05:30.790470 : benefit item
+2023-11-06 13:05:30.950045 : benefit item
+2023-11-06 13:05:30.960020 : benefit item
+2023-11-06 13:05:30.973982 : benefit item
+2023-11-06 13:05:30.984952 : benefit item
+2023-11-06 13:05:30.993928 : benefit item
+2023-11-06 13:05:31.145217 : grind container
+2023-11-06 13:05:31.154193 : grind container
+2023-11-06 13:05:31.163168 : grind container
+2023-11-06 13:05:31.173143 : grind container
+2023-11-06 13:05:31.184113 : grind container
+2023-11-06 13:05:31.193089 : grind container
+2023-11-06 13:05:31.202065 : grind container
+2023-11-06 13:05:31.213043 : grind container
+2023-11-06 13:05:31.224015 : grind container
+2023-11-06 13:05:31.234984 : grind container
+2023-11-06 13:05:31.243961 : grind container
+2023-11-06 13:05:31.252937 : grind container
+2023-11-06 13:05:31.262910 : grind container
+2023-11-06 13:05:31.274879 : grind container
+2023-11-06 13:05:31.421420 : tile img
+2023-11-06 13:05:31.431394 : tile img
+2023-11-06 13:05:31.442658 : tile img
+2023-11-06 13:05:31.453540 : tile img
+2023-11-06 13:05:31.464516 : tile img
+2023-11-06 13:05:31.473489 : tile img
+2023-11-06 13:05:31.478477 : https://kartagosk.stg.dtweb.cz/uzitocne-informacie/mango-club
+2023-11-06 13:05:47.746567 : <selenium.webdriver.remote.webelement.WebElement (session="50d7783dbd8f09edbccff2d9f254a62e", element="2C225AA3201F65512695F757039EEF8E_element_494")>
+2023-11-06 13:05:49.555214 : https://kartagosk.stg.dtweb.cz/first-minute/leto
+2023-11-06 13:06:03.030554 : <selenium.webdriver.remote.webelement.WebElement (session="b188f89fe9c93e958628b47c48b81450", element="4D01AA52554354460AA8FFFC4FA6A752_element_270")>
+2023-11-06 13:06:06.274351 : ZANZIBAR
+2023-11-06 13:06:07.993801 : hote dlazdice klik
+2023-11-06 13:06:11.950769 : GRÉCKO
+2023-11-06 13:06:13.391902 : hote dlazdice klik
+2023-11-06 13:06:17.450249 : TURECKO
+2023-11-06 13:06:19.175654 : hote dlazdice klik
+2023-11-06 13:06:22.897965 : EGYPT
+2023-11-06 13:06:23.885307 : hote dlazdice klik
+2023-11-06 13:06:28.005239 : KAPVERDY
+2023-11-06 13:06:31.545810 : hote dlazdice klik
+2023-11-06 13:06:35.627451 : MALEDIVY
+2023-11-06 13:06:37.350545 : hote dlazdice klik
+2023-11-06 13:06:41.886969 : DUBAJ
+2023-11-06 13:06:43.196325 : hote dlazdice klik
+2023-11-06 13:06:47.346387 : POISTENIE
+2023-11-06 13:06:49.612548 : hote dlazdice klik
+2023-11-06 13:06:54.077115 : PARKOVANIE
+2023-11-06 13:06:55.434547 : hote dlazdice klik
+2023-11-06 13:06:58.914751 : MIRAGE BAY
+2023-11-06 13:07:01.865989 : hote dlazdice klik
+2023-11-06 13:07:06.255556 : MITSIS
+2023-11-06 13:07:07.528285 : hote dlazdice klik
+2023-11-06 13:07:11.740803 : PRIMA LIFE
+2023-11-06 13:07:12.864817 : hote dlazdice klik
+2023-11-06 13:07:16.923557 : PICKALBATROS
+2023-11-06 13:07:18.603288 : hote dlazdice klik
+2023-11-06 13:07:23.279400 : TITANIC
+2023-11-06 13:07:24.479263 : hote dlazdice klik
+2023-11-06 13:07:28.547849 : MIRAGE
+2023-11-06 13:07:29.906231 : hote dlazdice klik
+2023-11-06 13:07:29.930167 : https://kartagosk.stg.dtweb.cz/taliansko/valtellina/bormio-san-colombano/rezidencia-mirage?DS=8&GIATA=0&D=63212&HID=6006&DF=2023-11-19|2023-12-17&RD=2023-12-08&DD=2023-12-03&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=15498&DPR=NEV%20DAMA-SK
+2023-11-06 13:07:41.367681 : <selenium.webdriver.remote.webelement.WebElement (session="d7b449c08aeaf57c6fa59070c22d1843", element="2906E42E7F2652AB7141B133864F9067_element_260")>
+2023-11-06 13:07:41.596776 : ZANZIBAR
+2023-11-06 13:07:44.730760 : GRÉCKO
+2023-11-06 13:07:48.715886 : TURECKO
+2023-11-06 13:07:51.327780 : EGYPT
+2023-11-06 13:07:55.772415 : KAPVERDY
+2023-11-06 13:07:57.284848 : MALEDIVY
+2023-11-06 13:07:59.438317 : DUBAJ
+2023-11-06 13:08:03.149211 : POISTENIE
+2023-11-06 13:08:05.536552 : PARKOVANIE
+2023-11-06 13:08:08.601392 : MIRAGE BAY
+2023-11-06 13:08:10.855950 : MITSIS
+2023-11-06 13:08:12.851312 : PRIMA LIFE
+2023-11-06 13:08:15.071492 : PICKALBATROS
+2023-11-06 13:08:17.150386 : TITANIC
+2023-11-06 13:08:19.001642 : MIRAGE
+2023-11-06 13:08:19.422521 : https://kartagosk.stg.dtweb.cz/hladanie-vysledky?q=Mirage
+2023-11-06 13:08:30.743522 : <selenium.webdriver.remote.webelement.WebElement (session="2c9d651e54e997f6f481dabfe34bedcb", element="3C2FEE9C0E49E369D21CE9FD1175EFB2_element_263")>
+2023-11-06 13:08:31.802174 : https://kartagosk.stg.dtweb.cz/vysledky-vyhladavania?tt=1&to=483|1837|2933|3437&dd=2022-09-01&rd=2022-09-25&nn=7|8|9|10|11|12|13&ka1=6&kc1=1&ac1=2
+2023-11-06 13:08:45.451041 : <selenium.webdriver.remote.webelement.WebElement (session="b0e2eda1743a4f6cf37b0f1cd0934c89", element="48C7ACD89C726CB18546FF06FAB048D6_element_529")>
+2023-11-06 13:08:47.588539 : https://kartagosk.stg.dtweb.cz/
+2023-11-06 13:09:02.099623 : <selenium.webdriver.remote.webelement.WebElement (session="cf6241c33bc01b19279f81259a627031", element="4E70027C1E688C3393EE6E6FB2B2E21B_element_476")>
+2023-11-06 13:09:28.720873 : https://kartagosk.stg.dtweb.cz/last-minute
+2023-11-06 13:09:48.203811 : <selenium.webdriver.remote.webelement.WebElement (session="e66ee035dd76511eecf0b928c8d37162", element="EB53E29BF4761EAB04B8484487F93806_element_261")>
+2023-11-06 13:10:15.598950 : basic info 
+2023-11-06 13:10:15.609047 : basic info 
+2023-11-06 13:10:15.619212 : basic info 
+2023-11-06 13:10:15.676991 : basic info 
+2023-11-06 13:10:15.689204 : basic info 
+2023-11-06 13:10:15.699327 : basic info 
+2023-11-06 13:10:15.709280 : basic info 
+2023-11-06 13:10:15.720313 : basic info 
+2023-11-06 13:10:15.735570 : basic info 
+2023-11-06 13:10:15.746190 : basic info 
+2023-11-06 13:10:15.756609 : basic info 
+2023-11-06 13:10:15.766971 : basic info 
+2023-11-06 13:10:15.777383 : basic info 
+2023-11-06 13:10:15.788277 : basic info 
+2023-11-06 13:10:15.798201 : basic info 
+2023-11-06 13:10:15.828733 : boxiky
+2023-11-06 13:10:15.839130 : boxiky
+2023-11-06 13:10:15.849865 : boxiky
+2023-11-06 13:10:15.859493 : boxiky
+2023-11-06 13:10:15.870456 : boxiky
+2023-11-06 13:10:15.881086 : boxiky
+2023-11-06 13:10:15.890960 : boxiky
+2023-11-06 13:10:15.901211 : boxiky
+2023-11-06 13:10:15.912082 : boxiky
+2023-11-06 13:10:15.922371 : boxiky
+2023-11-06 13:10:15.932723 : boxiky
+2023-11-06 13:10:15.943456 : boxiky
+2023-11-06 13:10:15.953131 : boxiky
+2023-11-06 13:10:15.962591 : boxiky
+2023-11-06 13:10:15.973361 : boxiky
+2023-11-06 13:10:15.982913 : boxiky
+2023-11-06 13:10:15.993983 : boxiky
+2023-11-06 13:10:16.004773 : boxiky
+2023-11-06 13:10:16.014818 : boxiky
+2023-11-06 13:10:16.024310 : boxiky
+2023-11-06 13:10:16.035559 : boxiky
+2023-11-06 13:10:16.045463 : boxiky
+2023-11-06 13:10:16.054839 : boxiky
+2023-11-06 13:10:16.066242 : boxiky
+2023-11-06 13:10:16.076353 : boxiky
+2023-11-06 13:10:16.086059 : boxiky
+2023-11-06 13:10:16.096733 : boxiky
+2023-11-06 13:10:16.106934 : boxiky
+2023-11-06 13:10:16.116280 : boxiky
+2023-11-06 13:10:16.127132 : boxiky
+2023-11-06 13:10:16.141539 : https://kartagosk.stg.dtweb.cz/kontakty/nase-predajne
+2023-11-06 13:10:30.158360 : <selenium.webdriver.remote.webelement.WebElement (session="f67c94adcf697932ee2ad7b5de9ca3e9", element="8B482D196401FF7DF333EACBE8E4A71B_element_467")>
+2023-11-06 13:10:30.511493 : https://kartagosk.stg.dtweb.cz/egypt
+2023-11-06 13:10:44.478525 : <selenium.webdriver.remote.webelement.WebElement (session="f3458396bd686487f8c3877e9d7c1acd", element="4E8029533DA12A931F514C0F5C3DC74C_element_333")>
+2023-11-06 13:10:55.600783 : Cheap sorter is OK
+2023-11-06 13:10:55.600783 : LIST FROM WEB:
+2023-11-06 13:10:55.600783 : [1304, 1318, 1330, 1330, 1330, 1330, 1330, 1396, 1403, 1429, 1450, 1450, 1476, 1495, 1502, 1528, 1554, 1608, 1633, 1674]
+2023-11-06 13:10:55.600783 : CORRECTLY SORTED LIST
+2023-11-06 13:10:55.600783 : [1304, 1318, 1330, 1330, 1330, 1330, 1330, 1396, 1403, 1429, 1450, 1450, 1476, 1495, 1502, 1528, 1554, 1608, 1633, 1674]
+2023-11-06 13:10:55.605769 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&to=483|1837|2933|3437&tt=1
+2023-11-06 13:11:09.429383 : <selenium.webdriver.remote.webelement.WebElement (session="2d7f204a1b4f69e7807b1be668dfc309", element="23C21A3FB747F72B7B336437D93CC79A_element_320")>
+2023-11-06 13:11:20.998529 : Expensive sorter is OK
+2023-11-06 13:11:20.998529 : LIST FROM WEB:
+2023-11-06 13:11:20.998529 : [4141, 3263, 3024, 2580, 2464, 2430, 2404, 2305, 2290, 2242, 2055, 2051, 1886, 1873, 1778, 1740, 1733, 1714, 1674, 1633]
+2023-11-06 13:11:20.998529 : CORRECTLY SORTED LIST
+2023-11-06 13:11:20.998529 : [4141, 3263, 3024, 2580, 2464, 2430, 2404, 2305, 2290, 2242, 2055, 2051, 1886, 1873, 1778, 1740, 1733, 1714, 1674, 1633]
+2023-11-06 13:11:21.004513 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437&tt=1
+2023-11-06 13:11:30.338631 : <selenium.webdriver.remote.webelement.WebElement (session="a3140d651bf9afb488ab9880dc90eb72", element="B6CECEDAC63C7D83D3555D1162B6798C_element_318")>
+2023-11-06 13:12:07.635518 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-06 13:12:35.939798 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-06 13:13:04.261710 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-06 13:13:33.806642 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-11-06 13:14:03.362278 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2023-11-06 13:14:32.181033 : actually OK
+2023-11-06 13:14:37.387231 : https://kartagosk.stg.dtweb.cz/egypt/hurghada/hurghada/pickalbatros-albatros-palace?DS=65536&GIATA=99957&D=64419|64420|64423|64425&HID=5069&PF=50&PT=40000&MT=5&RC=DR06&NN=7&DF=2023-11-06|2023-12-03&RD=2023-11-19&DD=2023-11-12&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483|1837|2933|3437&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=HRG20022&DPR=KARTAGO-SK-ATCOM
+2023-11-06 13:14:37.387231 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:14:37.391220 : https://kartagosk.stg.dtweb.cz/egypt/hurghada/hurghada/pickalbatros-albatros-palace?DS=65536&GIATA=99957&D=64419|64420|64423|64425&HID=5069&PF=50&PT=40000&MT=5&RC=DR06&NN=7&DF=2023-11-06|2023-12-03&RD=2023-11-19&DD=2023-11-12&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483|1837|2933|3437&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=HRG20022&DPR=KARTAGO-SK-ATCOM
+2023-11-06 13:14:51.151911 : <selenium.webdriver.remote.webelement.WebElement (session="dc090f4342784f17c6dab1f07a215d3b", element="04C4693E62B671D8A3123F94A1AAB7F0_element_317")>
+2023-11-06 13:14:57.469870 : 0
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ok
+2023-11-06 13:14:57.706439 : ['all inclusive extra', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive extra', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-11-06 13:14:57.711806 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&m=5&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:15:11.494735 : <selenium.webdriver.remote.webelement.WebElement (session="00fd5a814c30bb0f6f4fd972337f1410", element="A9E55B4D36FE630AB79B4EB784B385B2_element_315")>
+2023-11-06 13:15:40.159249 : nenasle se exponea banner
+2023-11-06 13:15:40.195131 : |||||HOTEL CISLO|||||||
+2023-11-06 13:15:40.195131 : 1
+2023-11-06 13:15:40.195131 : 1
+2023-11-06 13:15:40.195131 : 1
+2023-11-06 13:15:40.396736 : 817 €
+2023-11-06 13:16:08.648542 : nenasle se exponea banner
+2023-11-06 13:16:34.898380 : 817 €
+2023-11-06 13:16:34.898380 : pokoje sedi srl vs detail
+2023-11-06 13:16:34.898380 : stravy sedi srl vs detail
+2023-11-06 13:16:34.898380 : ceny all sedi srl vs detail
+2023-11-06 13:16:34.898380 :  cena adult sedi srl vs detail
+2023-11-06 13:16:34.912347 : 1
+2023-11-06 13:16:34.912347 : 2
+2023-11-06 13:16:34.912347 : |||||HOTEL CISLO|||||||
+2023-11-06 13:16:34.912347 : 2
+2023-11-06 13:16:34.912347 : 2
+2023-11-06 13:16:34.912347 : 2
+2023-11-06 13:16:35.213543 : 819 €
+2023-11-06 13:17:02.912483 : nenasle se exponea banner
+2023-11-06 13:17:29.181925 : 819 €
+2023-11-06 13:17:29.181925 : pokoje sedi srl vs detail
+2023-11-06 13:17:29.181925 : stravy sedi srl vs detail
+2023-11-06 13:17:29.181925 : ceny all sedi srl vs detail
+2023-11-06 13:17:29.181925 :  cena adult sedi srl vs detail
+2023-11-06 13:17:29.213843 : 2
+2023-11-06 13:17:29.213843 : 3
+2023-11-06 13:17:29.213843 : |||||HOTEL CISLO|||||||
+2023-11-06 13:17:29.213843 : 3
+2023-11-06 13:17:29.213843 : 3
+2023-11-06 13:17:29.213843 : 3
+2023-11-06 13:17:29.419433 : 596 €
+2023-11-06 13:17:57.174847 : nenasle se exponea banner
+2023-11-06 13:18:23.340422 : 596 €
+2023-11-06 13:18:23.340422 : pokoje sedi srl vs detail
+2023-11-06 13:18:23.340422 : stravy sedi srl vs detail
+2023-11-06 13:18:23.340422 : ceny all sedi srl vs detail
+2023-11-06 13:18:23.340422 :  cena adult sedi srl vs detail
+2023-11-06 13:18:23.354385 : 3
+2023-11-06 13:18:23.354385 : 4
+2023-11-06 13:18:23.354385 : |||||HOTEL CISLO|||||||
+2023-11-06 13:18:23.354385 : 4
+2023-11-06 13:18:23.354385 : 4
+2023-11-06 13:18:23.354385 : 4
+2023-11-06 13:18:23.701989 : 451 €
+2023-11-06 13:18:51.702574 : nenasle se exponea banner
+2023-11-06 13:19:18.158602 : 451 €
+2023-11-06 13:19:18.158602 : pokoje sedi srl vs detail
+2023-11-06 13:19:18.158602 : stravy sedi srl vs detail
+2023-11-06 13:19:18.158602 : ceny all sedi srl vs detail
+2023-11-06 13:19:18.158602 :  cena adult sedi srl vs detail
+2023-11-06 13:19:18.195503 : 4
+2023-11-06 13:19:18.195503 : 5
+2023-11-06 13:19:18.195503 : |||||HOTEL CISLO|||||||
+2023-11-06 13:19:18.195503 : 5
+2023-11-06 13:19:18.195503 : 5
+2023-11-06 13:19:18.195503 : 5
+2023-11-06 13:19:18.466780 : 728 €
+2023-11-06 13:19:46.571994 : nenasle se exponea banner
+2023-11-06 13:20:12.935574 : 728 €
+2023-11-06 13:20:12.935574 : pokoje sedi srl vs detail
+2023-11-06 13:20:12.935574 : stravy sedi srl vs detail
+2023-11-06 13:20:12.935574 : ceny all sedi srl vs detail
+2023-11-06 13:20:12.935574 :  cena adult sedi srl vs detail
+2023-11-06 13:20:12.950534 : 5
+2023-11-06 13:20:12.950534 : 6
+2023-11-06 13:20:12.961505 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:20:26.031261 : <selenium.webdriver.remote.webelement.WebElement (session="2779cb957db59a0e2aff4ccd1e1a893d", element="2C8ED63CEE2062C9C5D362D8614F787C_element_320")>
+2023-11-06 13:20:26.500253 : True
+2023-11-06 13:20:26.570067 : True
+2023-11-06 13:20:26.655838 : True
+2023-11-06 13:20:26.725653 : True
+2023-11-06 13:20:26.785493 : True
+2023-11-06 13:20:26.793472 : True
+2023-11-06 13:20:26.802448 : True
+2023-11-06 13:20:26.810427 : True
+2023-11-06 13:20:26.821398 : True
+2023-11-06 13:20:26.831371 : True
+2023-11-06 13:20:26.841345 : True
+2023-11-06 13:20:26.852323 : True
+2023-11-06 13:20:26.862289 : True
+2023-11-06 13:20:26.871265 : True
+2023-11-06 13:20:26.923126 : True
+2023-11-06 13:20:26.934098 : True
+2023-11-06 13:20:26.946066 : True
+2023-11-06 13:20:26.957065 : True
+2023-11-06 13:20:26.966012 : True
+2023-11-06 13:20:26.977981 : True
+2023-11-06 13:20:27.061225 : True
+2023-11-06 13:20:27.072131 : True
+2023-11-06 13:20:27.082867 : True
+2023-11-06 13:20:27.092696 : True
+2023-11-06 13:20:27.104225 : True
+2023-11-06 13:20:27.114708 : True
+2023-11-06 13:20:27.124442 : True
+2023-11-06 13:20:27.134169 : True
+2023-11-06 13:20:27.145174 : True
+2023-11-06 13:20:27.155710 : True
+2023-11-06 13:20:27.166388 : True
+2023-11-06 13:20:27.176815 : True
+2023-11-06 13:20:27.186338 : True
+2023-11-06 13:20:27.198103 : True
+2023-11-06 13:20:27.209491 : True
+2023-11-06 13:20:27.222495 : True
+2023-11-06 13:20:27.232579 : True
+2023-11-06 13:20:27.243631 : True
+2023-11-06 13:20:27.255837 : True
+2023-11-06 13:20:27.265492 : True
+2023-11-06 13:20:27.336716 : ceny
+2023-11-06 13:20:27.348394 : ceny
+2023-11-06 13:20:27.358427 : ceny
+2023-11-06 13:20:27.372192 : ceny
+2023-11-06 13:20:27.384177 : ceny
+2023-11-06 13:20:27.394866 : ceny
+2023-11-06 13:20:27.405016 : ceny
+2023-11-06 13:20:27.415706 : ceny
+2023-11-06 13:20:27.426386 : ceny
+2023-11-06 13:20:27.437334 : ceny
+2023-11-06 13:20:27.447438 : ceny
+2023-11-06 13:20:27.458426 : ceny
+2023-11-06 13:20:27.467868 : ceny
+2023-11-06 13:20:27.478682 : ceny
+2023-11-06 13:20:27.490306 : ceny
+2023-11-06 13:20:27.503654 : ceny
+2023-11-06 13:20:27.513156 : ceny
+2023-11-06 13:20:27.523885 : ceny
+2023-11-06 13:20:27.536576 : ceny
+2023-11-06 13:20:27.546751 : ceny
+2023-11-06 13:20:27.558971 : ceny
+2023-11-06 13:20:27.572110 : ceny
+2023-11-06 13:20:27.582666 : ceny
+2023-11-06 13:20:27.593744 : ceny
+2023-11-06 13:20:27.604174 : ceny
+2023-11-06 13:20:27.615294 : ceny
+2023-11-06 13:20:27.627981 : ceny
+2023-11-06 13:20:27.638207 : ceny
+2023-11-06 13:20:27.649009 : ceny
+2023-11-06 13:20:27.661559 : ceny
+2023-11-06 13:20:27.671394 : ceny
+2023-11-06 13:20:27.682218 : ceny
+2023-11-06 13:20:27.696239 : ceny
+2023-11-06 13:20:27.707225 : ceny
+2023-11-06 13:20:27.717545 : ceny
+2023-11-06 13:20:27.728229 : ceny
+2023-11-06 13:20:27.739488 : ceny
+2023-11-06 13:20:27.749843 : ceny
+2023-11-06 13:20:27.760347 : ceny
+2023-11-06 13:20:27.771561 : ceny
+2023-11-06 13:20:27.818867 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:20:40.255622 : <selenium.webdriver.remote.webelement.WebElement (session="d158eae7b2a8b41783a243b78407e44c", element="57859BD4B9A534EA6D8B30CB08030634_element_300")>
+2023-11-06 13:20:50.747657 : True
+2023-11-06 13:20:50.759619 : True
+2023-11-06 13:20:50.770590 : True
+2023-11-06 13:20:50.778568 : True
+2023-11-06 13:20:50.788542 : True
+2023-11-06 13:20:50.798517 : True
+2023-11-06 13:20:50.807491 : True
+2023-11-06 13:20:50.819365 : True
+2023-11-06 13:20:50.828402 : True
+2023-11-06 13:20:50.838375 : True
+2023-11-06 13:20:50.848349 : True
+2023-11-06 13:20:50.857325 : True
+2023-11-06 13:20:50.866579 : True
+2023-11-06 13:20:50.878547 : True
+2023-11-06 13:20:50.887523 : True
+2023-11-06 13:20:50.897496 : True
+2023-11-06 13:20:50.909465 : True
+2023-11-06 13:20:50.918751 : True
+2023-11-06 13:20:50.927727 : True
+2023-11-06 13:20:50.936704 : True
+2023-11-06 13:20:51.017357 : True
+2023-11-06 13:20:51.026332 : True
+2023-11-06 13:20:51.036306 : True
+2023-11-06 13:20:51.045282 : True
+2023-11-06 13:20:51.054259 : True
+2023-11-06 13:20:51.066227 : True
+2023-11-06 13:20:51.076892 : True
+2023-11-06 13:20:51.087886 : True
+2023-11-06 13:20:51.097836 : True
+2023-11-06 13:20:51.109803 : True
+2023-11-06 13:20:51.120928 : True
+2023-11-06 13:20:51.133894 : True
+2023-11-06 13:20:51.143323 : True
+2023-11-06 13:20:51.153295 : True
+2023-11-06 13:20:51.165532 : True
+2023-11-06 13:20:51.176502 : True
+2023-11-06 13:20:51.189467 : True
+2023-11-06 13:20:51.200438 : True
+2023-11-06 13:20:51.212406 : True
+2023-11-06 13:20:51.223377 : True
+2023-11-06 13:20:51.296183 : ceny
+2023-11-06 13:20:51.307154 : ceny
+2023-11-06 13:20:51.317128 : ceny
+2023-11-06 13:20:51.327101 : ceny
+2023-11-06 13:20:51.339069 : ceny
+2023-11-06 13:20:51.350039 : ceny
+2023-11-06 13:20:51.359016 : ceny
+2023-11-06 13:20:51.370996 : ceny
+2023-11-06 13:20:51.382952 : ceny
+2023-11-06 13:20:51.393923 : ceny
+2023-11-06 13:20:51.403896 : ceny
+2023-11-06 13:20:51.415865 : ceny
+2023-11-06 13:20:51.425837 : ceny
+2023-11-06 13:20:51.434814 : ceny
+2023-11-06 13:20:51.447802 : ceny
+2023-11-06 13:20:51.457753 : ceny
+2023-11-06 13:20:51.467727 : ceny
+2023-11-06 13:20:51.477700 : ceny
+2023-11-06 13:20:51.489669 : ceny
+2023-11-06 13:20:51.499641 : ceny
+2023-11-06 13:20:51.509615 : ceny
+2023-11-06 13:20:51.519588 : ceny
+2023-11-06 13:20:51.529563 : ceny
+2023-11-06 13:20:51.540533 : ceny
+2023-11-06 13:20:51.551503 : ceny
+2023-11-06 13:20:51.565466 : ceny
+2023-11-06 13:20:51.575439 : ceny
+2023-11-06 13:20:51.585413 : ceny
+2023-11-06 13:20:51.597381 : ceny
+2023-11-06 13:20:51.606357 : ceny
+2023-11-06 13:20:51.617328 : ceny
+2023-11-06 13:20:51.629296 : ceny
+2023-11-06 13:20:51.639269 : ceny
+2023-11-06 13:20:51.649243 : ceny
+2023-11-06 13:20:51.661211 : ceny
+2023-11-06 13:20:51.670187 : ceny
+2023-11-06 13:20:51.681158 : ceny
+2023-11-06 13:20:51.697116 : ceny
+2023-11-06 13:20:51.708086 : ceny
+2023-11-06 13:20:51.721052 : ceny
+2023-11-06 13:20:51.763937 : https://kartagosk.stg.dtweb.cz/vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2024-06-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=483|1837|2933|3437&tt=1
+2023-11-06 13:21:04.101742 : <selenium.webdriver.remote.webelement.WebElement (session="cf19dd5efffa9a1932e6464827c7a3af", element="4012A9B70BD2D7B765EB498F9EBB6557_element_299")>
+2023-11-06 13:21:09.610353 : https://kartagosk.stg.dtweb.cz/vysledky-vyhladavania?dd=2023-11-06&nn=7|8|9|10|11|12|13&rd=2024-01-06&to=483|1837|2933|3437&tt=1
+2023-11-06 13:21:22.517688 : <selenium.webdriver.remote.webelement.WebElement (session="9f8eeee638ec862ad7e42dd8de1d3897", element="0957D6E1BBED93D30C4F414DAC8F46CA_element_525")>
+2023-11-06 13:21:29.581095 : ['7.11. (Út) / 7 nocí\nKuba\nBratislava\n899 €', '8.11. (St) / 7 nocí\nDominikánska republika\nBratislava\n899 €', '15.11. (St) / 7 nocí\nDominikánska republika\nBratislava\n999 €', '16.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n842 €', '19.11. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n796 €', '21.11. (Út) / 7 nocí\nKuba\nBratislava\n1 480 €', '22.11. (St) / 7 nocí\nDominikánska republika\nBratislava\n1 099 €', '28.11. (Út) / 7 nocí\nKuba\nBratislava\n1 499 €', '5.12. (Út) / 7 nocí\nKuba\nBratislava\n1 499 €', '6.12. (St) / 7 nocí\nDominikánska republika\nBratislava\n1 399 €', '13.12. (St) / 7 nocí\nDominikánska republika\nBratislava\n1 299 €', '19.12. (Út) / 7 nocí\nKuba\nBratislava\n1 399 €']
+2023-11-06 13:21:29.581095 : ['7.11. (Út) / 7 nocí\nKuba\nBratislava\n899 €', '8.11. (St) / 7 nocí\nDominikánska republika (Dominikánska republika)\nBratislava\n899 €', '9.11. (Št) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n899 €', '15.11. (St) / 7 nocí\nDominikánska republika (Dominikánska republika)\nBratislava\n999 €', '16.11. (Št) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 199 €', '16.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n842 €', '21.11. (Út) / 7 nocí\nKuba\nBratislava\n1 480 €', '22.11. (St) / 7 nocí\nDominikánska republika (Dominikánska republika)\nBratislava\n1 099 €', '23.11. (Št) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 299 €', '29.11. (St) / 7 nocí\nDominikánska republika (Dominikánska republika)\nBratislava\n1 499 €', '12.12. (Út) / 7 nocí\nKuba\nBratislava\n1 399 €', '19.12. (Út) / 7 nocí\nKuba\nBratislava\n1 399 €']
+2023-11-06 13:21:29.585084 : https://kartagosk.stg.dtweb.cz/
+2023-11-06 13:21:47.828970 : <selenium.webdriver.remote.webelement.WebElement (session="648289fca8bd1e2fa8f7a163602e4ac3", element="A3626E6566D0EFEAA288F88F46DF8229_element_299")>
+2023-11-06 13:22:17.092334 : ------------------------------------------
+2023-11-06 13:22:17.092334 : LIST FROM PUBLIC WWW PRODUCTION https://www.kartago.sk/
+2023-11-06 13:22:17.092334 : ['', '11 zájazdov v 1 destinácii', '38 zájazdov v 1 destinácii', '46 zájazdov v 1 destinácii']
+2023-11-06 13:22:17.092334 : ------------------------------------------
+2023-11-06 13:22:17.092334 : LIST FROM DEPLOYING WEB https://kartagosk.stg.dtweb.cz/
+2023-11-06 13:22:17.092334 : ['', '11 zájazdov v 1 destinácii', '38 zájazdov v 1 destinácii', '46 zájazdov v 1 destinácii']
+2023-11-06 13:22:17.092334 : ------------------------------------------
+2023-11-06 13:22:17.092334 : Banners are GOOD, TEST OK https://www.kartago.sk/ VS https://kartagosk.stg.dtweb.cz/
+2023-11-06 13:22:17.111285 : https://kartagosk.stg.dtweb.cz/
+2023-11-06 13:24:19.881486 : len(pocet_vysledku_list_default)
+2023-11-06 13:24:19.881486 : 12
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : len(pocet_vysledku_list_dev))
+2023-11-06 13:24:19.881486 : 12
+2023-11-06 13:24:19.881486 : 50 zájazdov v 1 destinácii
+2023-11-06 13:24:19.881486 : 50 zájazdov v 1 destinácii
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-01-02&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-01-02&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 0
+2023-11-06 13:24:19.881486 : 42 zájazdov v 1 destinácii
+2023-11-06 13:24:19.881486 : 42 zájazdov v 1 destinácii
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 1
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63582|63581|63580&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63582|63581|63580&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 2
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 3
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 4
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63483|63484|63485|63486&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63483|63484|63485|63486&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 5
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.881486 : 6
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.881486 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.881486 :              
+2023-11-06 13:24:19.882484 : 7
+2023-11-06 13:24:19.882484 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.882484 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.882484 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 :              
+2023-11-06 13:24:19.882484 : 8
+2023-11-06 13:24:19.882484 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.882484 : nenašli ste, èo ste h¾adali?
+2023-11-06 13:24:19.882484 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63487|63488|63489&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63487|63488|63489&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 :              
+2023-11-06 13:24:19.882484 : 9
+2023-11-06 13:24:19.882484 : 34 zájazdov v 1 destinácii
+2023-11-06 13:24:19.882484 : 34 zájazdov v 1 destinácii
+2023-11-06 13:24:19.882484 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 :              
+2023-11-06 13:24:19.882484 : 10
+2023-11-06 13:24:19.882484 : 2 zájazdy v 1 destinácii
+2023-11-06 13:24:19.882484 : 2 zájazdy v 1 destinácii
+2023-11-06 13:24:19.882484 : https://kartagosk.stg.dtweb.cz//vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 : https://kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-06 13:24:19.882484 :              
+2023-11-06 13:24:19.882484 : 11
+2023-11-06 13:24:19.882484 : 12
+2023-11-06 13:24:19.971941 : https://www.kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1

@@ -1,0 +1,1667 @@
+2024-10-04 17:17:46.110730 : INFO - https://exim.stg.dtweb.cz//hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419%7C64420%7C64421%7C64422%7C64423%7C64424%7C64425%7C64426&DD=2024-10-22&DI=GT06-AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-22&RT=0&TO=483&acm1=2&df=2024-10-14%7C2024-10-31&nnm=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&ptm=0&sortby=Departure&tt=1&ttm=1&DF=2024-10-14%7C2024-10-31&ERM=0&TOM=483&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PC=7-RMCLDB0000-GT06-AI&IFC=0-HRGBTS-8215-DT29-10-13-15-S&OFC=0-BTSHRG-8216-DT22-10-18-50-T#/prehled
+                             
+2024-10-04 17:18:02.732227 : INFO - its ok
+                             
+2024-10-04 17:18:02.739280 : INFO - https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/egypt-isis-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada/africa-egypt-luxor-karnak-temple_shutterstock_54724615.jpg
+                             
+2024-10-04 17:18:18.395071 : if departure==True
+2024-10-04 17:18:27.450147 : INFO - Starting filtering process with filter type: airport
+                             
+2024-10-04 17:18:33.633804 : INFO - Filter type is 'airport'. Executing airport filter logic.
+                             
+2024-10-04 17:18:34.665790 : equal to brno
+2024-10-04 17:18:34.695827 : equal to brno
+2024-10-04 17:18:34.724511 : equal to brno
+2024-10-04 17:18:34.754171 : equal to brno
+2024-10-04 17:18:34.787417 : equal to brno
+2024-10-04 17:18:34.826321 : equal to brno
+2024-10-04 17:18:34.858813 : equal to brno
+2024-10-04 17:18:34.890939 : equal to brno
+2024-10-04 17:18:34.928816 : equal to brno
+2024-10-04 17:18:35.173406 : INFO - https://exim.stg.dtweb.cz//egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada?AC1=2&D=64419|64420|64425&DD=2025-03-08&DI=IT&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=0&HID=160534&IC1=1&IFC=64388256%2F316211&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=64387089%2F316210&PC=78913989%2F2%2F1893%2F7&PID=EGR00026&RC=DR01&RCS=DR01&RD=2025-03-15&TO=4312|4305|2682|4308|4392|4309&acm1=2&dd=2024-10-05&df=2024-09-18|2025-07-18&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-08-05&sortby=Departure&tom=4305&tt=1&ttm=0#hotelDetailFilterStart
+                             
+2024-10-04 17:18:35.837154 : INFO - Completed filtering process for filter type: airport
+                             
+2024-10-04 17:18:50.730751 : INFO - benefit item
+                             
+2024-10-04 17:18:50.777626 : INFO - benefit item
+                             
+2024-10-04 17:18:50.796575 : INFO - benefit item
+                             
+2024-10-04 17:18:50.819149 : INFO - benefit item
+                             
+2024-10-04 17:18:50.992473 : grind container
+2024-10-04 17:18:51.002445 : grind container
+2024-10-04 17:18:51.011421 : grind container
+2024-10-04 17:18:51.022665 : grind container
+2024-10-04 17:18:51.040617 : grind container
+2024-10-04 17:18:51.051587 : grind container
+2024-10-04 17:18:51.058282 : grind container
+2024-10-04 17:18:51.058282 : grind container
+2024-10-04 17:18:51.073903 : grind container
+2024-10-04 17:18:51.089818 : grind container
+2024-10-04 17:18:51.099791 : grind container
+2024-10-04 17:18:51.107770 : grind container
+2024-10-04 17:18:51.118149 : grind container
+2024-10-04 17:18:51.127124 : grind container
+2024-10-04 17:18:51.136100 : grind container
+2024-10-04 17:18:51.144080 : grind container
+2024-10-04 17:18:51.159615 : INFO - https://exim.stg.dtweb.cz//kluby/mango-zima
+                             
+2024-10-04 17:19:19.662301 : INFO - ZANZIBAR
+                             
+2024-10-04 17:19:21.643963 : INFO - Položka menu neexistuje
+                             
+2024-10-04 17:19:21.678669 : INFO - https://fischer.stg.dtweb.cz/
+                             
+2024-10-04 17:19:22.336541 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:19:26.023084 : INFO - ØECKO
+                             
+2024-10-04 17:19:37.130502 : INFO - https://fischer.stg.dtweb.cz/first-minute/exotika-zima
+                             
+2024-10-04 17:19:51.110636 : INFO - first no such ele except
+                             
+2024-10-04 17:19:51.893216 : INFO - last no such ele except
+                             
+2024-10-04 17:19:53.165989 : INFO - ZANZIBAR
+                             
+2024-10-04 17:19:54.999817 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:19:56.646518 : INFO - TURECKO
+                             
+2024-10-04 17:19:57.863595 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:19:58.685588 : INFO - ØECKO
+                             
+2024-10-04 17:20:01.258032 : INFO - EGYPT
+                             
+2024-10-04 17:20:02.569533 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:06.147427 : INFO - KAPVERDY
+                             
+2024-10-04 17:20:07.601977 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:11.289750 : INFO - OMAN
+                             
+2024-10-04 17:20:12.705737 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:16.584694 : INFO - KEFALONIA
+                             
+2024-10-04 17:20:17.803031 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:21.631215 : INFO - MIRAGE BAY
+                             
+2024-10-04 17:20:22.797887 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:23.852957 : INFO - first no such ele except
+                             
+2024-10-04 17:20:26.322329 : INFO - last no such ele except
+                             
+2024-10-04 17:20:27.030471 : INFO - PORTO SKALA 7
+                             
+2024-10-04 17:20:29.353563 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:30.835807 : INFO - TURECKO
+                             
+2024-10-04 17:20:31.806839 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:33.251878 : INFO - DOUBLETREE
+                             
+2024-10-04 17:20:34.475878 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:20:34.475878 : INFO - https://exim.stg.dtweb.cz/slovensko/bratislavsky-kraj/bratislava/doubletree-by-hilton-bratislava?DS=2&GIATA=237174&D=63234&HID=34259&DF=2024-12-06%7C2025-01-03&RD=2024-12-21&DD=2024-12-20&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&PID=10002683&DPR=EUTO
+                             
+2024-10-04 17:20:35.616749 : INFO - EGYPT
+                             
+2024-10-04 17:20:36.305233 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:21:42.561785 : INFO - ZANZIBAR
+                             
+2024-10-04 17:21:45.965165 : INFO - ØECKO
+                             
+2024-10-04 17:21:51.508639 : INFO - EGYPT
+                             
+2024-10-04 17:21:56.025773 : INFO - KAPVERDY
+                             
+2024-10-04 17:21:58.912738 : INFO - OMAN
+                             
+2024-10-04 17:22:02.720705 : INFO - KEFALONIA
+                             
+2024-10-04 17:22:05.755973 : INFO - MIRAGE BAY
+                             
+2024-10-04 17:22:07.986230 : INFO - PORTO SKALA 7
+                             
+2024-10-04 17:22:10.292608 : INFO - DOUBLETREE
+                             
+2024-10-04 17:22:11.867551 : INFO - https://exim.stg.dtweb.cz/hledani-vysledky?q=Doubletree
+                             
+2024-10-04 17:22:11.912808 : INFO - TURECKO
+                             
+2024-10-04 17:24:14.037926 : INFO - Grid item 30/30 visibility: True
+                             
+2024-10-04 17:24:14.069169 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:24:14.084790 : INFO - Big grid 1/5 visibility: True
+                             
+2024-10-04 17:24:14.084790 : INFO - Big grid 2/5 visibility: True
+                             
+2024-10-04 17:24:14.100411 : INFO - Big grid 3/5 visibility: True
+                             
+2024-10-04 17:24:14.116033 : INFO - Big grid 4/5 visibility: True
+                             
+2024-10-04 17:24:14.131655 : INFO - Big grid 5/5 visibility: True
+                             
+2024-10-04 17:24:14.131655 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:24:14.131655 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy#vikendy
+                             
+2024-10-04 17:24:32.632551 : INFO - Starting 'Poznavacky' tiles and images check.
+                             
+2024-10-04 17:24:37.647876 : INFO - Found 30 images to check.
+                             
+2024-10-04 17:24:37.663531 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:24:37.679055 : INFO - Image 1/30 visibility: True
+                             
+2024-10-04 17:24:37.679055 : INFO - Image 2/30 visibility: True
+                             
+2024-10-04 17:24:37.694681 : INFO - Image 3/30 visibility: True
+                             
+2024-10-04 17:24:37.710190 : INFO - Image 4/30 visibility: True
+                             
+2024-10-04 17:24:37.710190 : INFO - Image 5/30 visibility: True
+                             
+2024-10-04 17:24:37.725824 : INFO - Image 6/30 visibility: True
+                             
+2024-10-04 17:24:37.741501 : INFO - Image 7/30 visibility: True
+                             
+2024-10-04 17:24:37.757126 : INFO - Image 8/30 visibility: True
+                             
+2024-10-04 17:24:37.757126 : INFO - Image 9/30 visibility: True
+                             
+2024-10-04 17:24:37.782590 : INFO - Image 10/30 visibility: True
+                             
+2024-10-04 17:24:37.793739 : INFO - Image 11/30 visibility: True
+                             
+2024-10-04 17:24:37.805060 : INFO - Image 12/30 visibility: True
+                             
+2024-10-04 17:24:37.816865 : INFO - Image 13/30 visibility: True
+                             
+2024-10-04 17:24:37.827620 : INFO - Image 14/30 visibility: True
+                             
+2024-10-04 17:24:37.835959 : INFO - Image 15/30 visibility: True
+                             
+2024-10-04 17:24:37.851580 : INFO - Image 16/30 visibility: True
+                             
+2024-10-04 17:24:37.851580 : INFO - Image 17/30 visibility: True
+                             
+2024-10-04 17:24:37.866587 : INFO - Image 18/30 visibility: True
+                             
+2024-10-04 17:24:37.882241 : INFO - Image 19/30 visibility: True
+                             
+2024-10-04 17:24:37.882241 : INFO - Image 20/30 visibility: True
+                             
+2024-10-04 17:24:37.897749 : INFO - Image 21/30 visibility: True
+                             
+2024-10-04 17:24:37.913376 : INFO - Image 22/30 visibility: True
+                             
+2024-10-04 17:24:37.928883 : INFO - Image 23/30 visibility: True
+                             
+2024-10-04 17:24:37.928883 : INFO - Image 24/30 visibility: True
+                             
+2024-10-04 17:24:37.944509 : INFO - Image 25/30 visibility: True
+                             
+2024-10-04 17:24:37.960017 : INFO - Image 26/30 visibility: True
+                             
+2024-10-04 17:24:37.975642 : INFO - Image 27/30 visibility: True
+                             
+2024-10-04 17:24:37.975642 : INFO - Image 28/30 visibility: True
+                             
+2024-10-04 17:24:37.991150 : INFO - Image 29/30 visibility: True
+                             
+2024-10-04 17:24:38.006776 : INFO - Image 30/30 visibility: True
+                             
+2024-10-04 17:24:38.041250 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:24:38.066301 : INFO - Grid item 1/30 visibility: True
+                             
+2024-10-04 17:24:38.077035 : INFO - Grid item 2/30 visibility: True
+                             
+2024-10-04 17:24:38.088387 : INFO - Grid item 3/30 visibility: True
+                             
+2024-10-04 17:24:38.099810 : INFO - Grid item 4/30 visibility: True
+                             
+2024-10-04 17:24:38.110322 : INFO - Grid item 5/30 visibility: True
+                             
+2024-10-04 17:24:38.117597 : INFO - Grid item 6/30 visibility: True
+                             
+2024-10-04 17:24:38.133220 : INFO - Grid item 7/30 visibility: True
+                             
+2024-10-04 17:24:38.133220 : INFO - Grid item 8/30 visibility: True
+                             
+2024-10-04 17:24:38.147695 : INFO - Grid item 9/30 visibility: True
+                             
+2024-10-04 17:24:38.163320 : INFO - Grid item 10/30 visibility: True
+                             
+2024-10-04 17:24:38.182620 : INFO - Grid item 11/30 visibility: True
+                             
+2024-10-04 17:24:38.210425 : INFO - Grid item 12/30 visibility: True
+                             
+2024-10-04 17:24:38.212660 : INFO - Grid item 13/30 visibility: True
+                             
+2024-10-04 17:24:38.228281 : INFO - Grid item 14/30 visibility: True
+                             
+2024-10-04 17:24:38.242807 : INFO - Grid item 15/30 visibility: True
+                             
+2024-10-04 17:24:38.258428 : INFO - Grid item 16/30 visibility: True
+                             
+2024-10-04 17:24:38.258428 : INFO - Grid item 17/30 visibility: True
+                             
+2024-10-04 17:24:38.276057 : INFO - Grid item 18/30 visibility: True
+                             
+2024-10-04 17:24:38.291679 : INFO - Grid item 19/30 visibility: True
+                             
+2024-10-04 17:24:38.291679 : INFO - Grid item 20/30 visibility: True
+                             
+2024-10-04 17:24:38.306223 : INFO - Grid item 21/30 visibility: True
+                             
+2024-10-04 17:24:38.321851 : INFO - Grid item 22/30 visibility: True
+                             
+2024-10-04 17:24:38.337488 : INFO - Grid item 23/30 visibility: True
+                             
+2024-10-04 17:24:38.337488 : INFO - Grid item 24/30 visibility: True
+                             
+2024-10-04 17:24:38.353110 : INFO - Grid item 25/30 visibility: True
+                             
+2024-10-04 17:24:38.368090 : INFO - Grid item 26/30 visibility: True
+                             
+2024-10-04 17:24:38.383714 : INFO - Grid item 27/30 visibility: True
+                             
+2024-10-04 17:24:38.383714 : INFO - Grid item 28/30 visibility: True
+                             
+2024-10-04 17:24:38.399609 : INFO - Grid item 29/30 visibility: True
+                             
+2024-10-04 17:24:38.415231 : INFO - Grid item 30/30 visibility: True
+                             
+2024-10-04 17:24:38.448984 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:24:38.459662 : INFO - Big grid 1/5 visibility: True
+                             
+2024-10-04 17:24:38.471283 : INFO - Big grid 2/5 visibility: True
+                             
+2024-10-04 17:24:38.481828 : INFO - Big grid 3/5 visibility: True
+                             
+2024-10-04 17:24:38.493006 : INFO - Big grid 4/5 visibility: True
+                             
+2024-10-04 17:24:38.493006 : INFO - Big grid 5/5 visibility: True
+                             
+2024-10-04 17:24:38.493006 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:24:38.508629 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy#rodiny
+                             
+2024-10-04 17:24:56.898028 : INFO - Starting 'Poznavacky' tiles and images check.
+                             
+2024-10-04 17:24:59.420155 : INFO - Starting FM/LM tour expansion check.
+                             
+2024-10-04 17:25:01.924076 : INFO - Found 30 images to check.
+                             
+2024-10-04 17:25:01.937042 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:25:01.950009 : INFO - Image 1/30 visibility: True
+                             
+2024-10-04 17:25:01.959981 : INFO - Image 2/30 visibility: True
+                             
+2024-10-04 17:25:01.970048 : INFO - Image 3/30 visibility: True
+                             
+2024-10-04 17:25:01.984009 : INFO - Image 4/30 visibility: True
+                             
+2024-10-04 17:25:01.995178 : INFO - Image 5/30 visibility: True
+                             
+2024-10-04 17:25:02.006149 : INFO - Image 6/30 visibility: True
+                             
+2024-10-04 17:25:02.015126 : INFO - Image 7/30 visibility: True
+                             
+2024-10-04 17:25:02.031324 : INFO - Image 8/30 visibility: True
+                             
+2024-10-04 17:25:02.041298 : INFO - Image 9/30 visibility: True
+                             
+2024-10-04 17:25:02.051270 : INFO - Image 10/30 visibility: True
+                             
+2024-10-04 17:25:02.061799 : INFO - Image 11/30 visibility: True
+                             
+2024-10-04 17:25:02.073767 : INFO - Image 12/30 visibility: True
+                             
+2024-10-04 17:25:02.082743 : INFO - Image 13/30 visibility: True
+                             
+2024-10-04 17:25:02.089374 : INFO - Image 14/30 visibility: True
+                             
+2024-10-04 17:25:02.089374 : INFO - Image 15/30 visibility: True
+                             
+2024-10-04 17:25:02.117574 : INFO - Image 16/30 visibility: True
+                             
+2024-10-04 17:25:02.117574 : INFO - Image 17/30 visibility: True
+                             
+2024-10-04 17:25:02.133197 : INFO - Successfully clicked to expand FM/LM tour section.
+                             
+2024-10-04 17:25:02.133197 : INFO - Image 18/30 visibility: True
+                             
+2024-10-04 17:25:02.147703 : INFO - Image 19/30 visibility: True
+                             
+2024-10-04 17:25:02.163330 : INFO - Image 20/30 visibility: True
+                             
+2024-10-04 17:25:02.178838 : INFO - Image 21/30 visibility: True
+                             
+2024-10-04 17:25:02.178838 : INFO - Image 22/30 visibility: True
+                             
+2024-10-04 17:25:02.194464 : INFO - Image 23/30 visibility: True
+                             
+2024-10-04 17:25:02.209973 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="e7b7f504ed6c1108c4fb52ed7746df98", element="f.040F0914B26B18B3BF6DC1D425E2EF91.d.D9C29B881457B1A8EF52E89A4FA2D575.e.1004")> visibility: True
+                             
+2024-10-04 17:25:02.209973 : INFO - Image 24/30 visibility: True
+                             
+2024-10-04 17:25:02.225599 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="e7b7f504ed6c1108c4fb52ed7746df98", element="f.040F0914B26B18B3BF6DC1D425E2EF91.d.D9C29B881457B1A8EF52E89A4FA2D575.e.1005")> visibility: True
+                             
+2024-10-04 17:25:02.225599 : INFO - Image 25/30 visibility: True
+                             
+2024-10-04 17:25:02.225599 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="e7b7f504ed6c1108c4fb52ed7746df98", element="f.040F0914B26B18B3BF6DC1D425E2EF91.d.D9C29B881457B1A8EF52E89A4FA2D575.e.1006")> visibility: True
+                             
+2024-10-04 17:25:02.241221 : INFO - Image 26/30 visibility: True
+                             
+2024-10-04 17:25:02.241221 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="e7b7f504ed6c1108c4fb52ed7746df98", element="f.040F0914B26B18B3BF6DC1D425E2EF91.d.D9C29B881457B1A8EF52E89A4FA2D575.e.1007")> visibility: True
+                             
+2024-10-04 17:25:02.241221 : INFO - Image 27/30 visibility: True
+                             
+2024-10-04 17:25:02.256842 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="e7b7f504ed6c1108c4fb52ed7746df98", element="f.040F0914B26B18B3BF6DC1D425E2EF91.d.D9C29B881457B1A8EF52E89A4FA2D575.e.1008")> visibility: True
+                             
+2024-10-04 17:25:02.256842 : INFO - Image 28/30 visibility: True
+                             
+2024-10-04 17:25:02.272463 : INFO - FM/LM tour expansion check completed successfully.
+                             
+2024-10-04 17:25:02.272463 : INFO - Image 29/30 visibility: True
+                             
+2024-10-04 17:25:02.272463 : INFO - https://fischer.stg.dtweb.cz/last-minute
+                             
+2024-10-04 17:25:02.288085 : INFO - Image 30/30 visibility: True
+                             
+2024-10-04 17:25:02.345957 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:25:02.357924 : INFO - Grid item 1/30 visibility: True
+                             
+2024-10-04 17:25:02.370461 : INFO - Grid item 2/30 visibility: True
+                             
+2024-10-04 17:25:02.383427 : INFO - Grid item 3/30 visibility: True
+                             
+2024-10-04 17:25:02.396392 : INFO - Grid item 4/30 visibility: True
+                             
+2024-10-04 17:25:02.398791 : INFO - Grid item 5/30 visibility: True
+                             
+2024-10-04 17:25:02.414416 : INFO - Grid item 6/30 visibility: True
+                             
+2024-10-04 17:25:02.428922 : INFO - Grid item 7/30 visibility: True
+                             
+2024-10-04 17:25:02.428922 : INFO - Grid item 8/30 visibility: True
+                             
+2024-10-04 17:25:02.444548 : INFO - Grid item 9/30 visibility: True
+                             
+2024-10-04 17:25:02.460056 : INFO - Grid item 10/30 visibility: True
+                             
+2024-10-04 17:25:02.460056 : INFO - Grid item 11/30 visibility: True
+                             
+2024-10-04 17:25:02.475682 : INFO - Grid item 12/30 visibility: True
+                             
+2024-10-04 17:25:02.491304 : INFO - Grid item 13/30 visibility: True
+                             
+2024-10-04 17:25:02.491304 : INFO - Grid item 14/30 visibility: True
+                             
+2024-10-04 17:25:02.506925 : INFO - Grid item 15/30 visibility: True
+                             
+2024-10-04 17:25:02.522547 : INFO - Grid item 16/30 visibility: True
+                             
+2024-10-04 17:25:02.522547 : INFO - Grid item 17/30 visibility: True
+                             
+2024-10-04 17:25:02.538168 : INFO - Grid item 18/30 visibility: True
+                             
+2024-10-04 17:25:02.538168 : INFO - Grid item 19/30 visibility: True
+                             
+2024-10-04 17:25:02.553790 : INFO - Grid item 20/30 visibility: True
+                             
+2024-10-04 17:25:02.569410 : INFO - Grid item 21/30 visibility: True
+                             
+2024-10-04 17:25:02.569410 : INFO - Grid item 22/30 visibility: True
+                             
+2024-10-04 17:25:02.585032 : INFO - Grid item 23/30 visibility: True
+                             
+2024-10-04 17:25:02.600654 : INFO - Grid item 24/30 visibility: True
+                             
+2024-10-04 17:25:02.616283 : INFO - Grid item 25/30 visibility: True
+                             
+2024-10-04 17:25:02.616283 : INFO - Grid item 26/30 visibility: True
+                             
+2024-10-04 17:25:02.631897 : INFO - Grid item 27/30 visibility: True
+                             
+2024-10-04 17:25:02.647518 : INFO - Grid item 28/30 visibility: True
+                             
+2024-10-04 17:25:02.663139 : INFO - Grid item 29/30 visibility: True
+                             
+2024-10-04 17:25:02.663139 : INFO - Grid item 30/30 visibility: True
+                             
+2024-10-04 17:25:02.694382 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:25:02.710004 : INFO - Big grid 1/5 visibility: True
+                             
+2024-10-04 17:25:02.710004 : INFO - Big grid 2/5 visibility: True
+                             
+2024-10-04 17:25:02.725625 : INFO - Big grid 3/5 visibility: True
+                             
+2024-10-04 17:25:02.741246 : INFO - Big grid 4/5 visibility: True
+                             
+2024-10-04 17:25:02.756868 : INFO - Big grid 5/5 visibility: True
+                             
+2024-10-04 17:25:02.756868 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:25:02.756868 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy#rodiny
+                             
+2024-10-04 17:25:41.351214 : INFO - Starting 'Poznavacky' tiles and images check.
+                             
+2024-10-04 17:25:46.382497 : INFO - Found 21 images to check.
+                             
+2024-10-04 17:25:46.398008 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:25:46.413633 : INFO - Image 1/21 visibility: True
+                             
+2024-10-04 17:25:46.413633 : INFO - Image 2/21 visibility: True
+                             
+2024-10-04 17:25:46.429141 : INFO - Image 3/21 visibility: True
+                             
+2024-10-04 17:25:46.444767 : INFO - Image 4/21 visibility: True
+                             
+2024-10-04 17:25:46.460431 : INFO - Image 5/21 visibility: True
+                             
+2024-10-04 17:25:46.460431 : INFO - Image 6/21 visibility: True
+                             
+2024-10-04 17:25:46.476069 : INFO - Image 7/21 visibility: True
+                             
+2024-10-04 17:25:46.491578 : INFO - Image 8/21 visibility: True
+                             
+2024-10-04 17:25:46.507203 : INFO - Image 9/21 visibility: True
+                             
+2024-10-04 17:25:46.507203 : INFO - Image 10/21 visibility: True
+                             
+2024-10-04 17:25:46.522713 : INFO - Image 11/21 visibility: True
+                             
+2024-10-04 17:25:46.538339 : INFO - Image 12/21 visibility: True
+                             
+2024-10-04 17:25:46.553960 : INFO - Image 13/21 visibility: True
+                             
+2024-10-04 17:25:46.569581 : INFO - Image 14/21 visibility: True
+                             
+2024-10-04 17:25:46.569581 : INFO - Image 15/21 visibility: True
+                             
+2024-10-04 17:25:46.585202 : INFO - Image 16/21 visibility: True
+                             
+2024-10-04 17:25:46.600825 : INFO - Image 17/21 visibility: True
+                             
+2024-10-04 17:25:46.600825 : INFO - Image 18/21 visibility: True
+                             
+2024-10-04 17:25:46.616445 : INFO - Image 19/21 visibility: True
+                             
+2024-10-04 17:25:46.632067 : INFO - Image 20/21 visibility: True
+                             
+2024-10-04 17:25:46.647689 : INFO - Image 21/21 visibility: True
+                             
+2024-10-04 17:25:46.682787 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:25:46.698431 : INFO - Grid item 1/18 visibility: True
+                             
+2024-10-04 17:25:46.714719 : INFO - Grid item 2/18 visibility: True
+                             
+2024-10-04 17:25:46.727684 : INFO - Grid item 3/18 visibility: True
+                             
+2024-10-04 17:25:46.741190 : INFO - Grid item 4/18 visibility: True
+                             
+2024-10-04 17:25:46.753609 : INFO - Grid item 5/18 visibility: True
+                             
+2024-10-04 17:25:46.764566 : INFO - Grid item 6/18 visibility: True
+                             
+2024-10-04 17:25:46.773771 : INFO - Grid item 7/18 visibility: True
+                             
+2024-10-04 17:25:46.773771 : INFO - Grid item 8/18 visibility: True
+                             
+2024-10-04 17:25:46.789393 : INFO - Grid item 9/18 visibility: True
+                             
+2024-10-04 17:25:46.804399 : INFO - Grid item 10/18 visibility: True
+                             
+2024-10-04 17:25:46.804399 : INFO - Grid item 11/18 visibility: True
+                             
+2024-10-04 17:25:46.820024 : INFO - Grid item 12/18 visibility: True
+                             
+2024-10-04 17:25:46.835532 : INFO - Grid item 13/18 visibility: True
+                             
+2024-10-04 17:25:46.851162 : INFO - Grid item 14/18 visibility: True
+                             
+2024-10-04 17:25:46.851162 : INFO - Grid item 15/18 visibility: True
+                             
+2024-10-04 17:25:46.866669 : INFO - Grid item 16/18 visibility: True
+                             
+2024-10-04 17:25:46.882308 : INFO - Grid item 17/18 visibility: True
+                             
+2024-10-04 17:25:46.882308 : INFO - Grid item 18/18 visibility: True
+                             
+2024-10-04 17:25:46.913454 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:25:46.929158 : INFO - Big grid 1/2 visibility: True
+                             
+2024-10-04 17:25:46.944785 : INFO - Big grid 2/2 visibility: True
+                             
+2024-10-04 17:25:46.944785 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:25:46.944785 : INFO - https://fischer.stg.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+                             
+2024-10-04 17:25:48.101270 : INFO - Starting price sorting test for type: cheap
+                             
+2024-10-04 17:25:48.101270 : INFO - Cheap sorter is OK
+                             
+2024-10-04 17:25:48.101270 : INFO - Original List from Web: [38073, 39002, 39052, 39555, 40536, 42239, 42476, 42644, 43115, 43227, 43237, 43319, 43415, 43919, 45328, 45470, 46375, 46710, 46721, 47133]
+                             
+2024-10-04 17:25:48.101270 : INFO - Correctly Sorted List: [38073, 39002, 39052, 39555, 40536, 42239, 42476, 42644, 43115, 43227, 43237, 43319, 43415, 43919, 45328, 45470, 46375, 46710, 46721, 47133]
+                             
+2024-10-04 17:25:48.101270 : INFO - LIST FROM WEB: [38073, 39002, 39052, 39555, 40536, 42239, 42476, 42644, 43115, 43227, 43237, 43319, 43415, 43919, 45328, 45470, 46375, 46710, 46721, 47133]
+                             
+2024-10-04 17:25:48.101270 : INFO - CORRECTLY SORTED LIST: [38073, 39002, 39052, 39555, 40536, 42239, 42476, 42644, 43115, 43227, 43237, 43319, 43415, 43919, 45328, 45470, 46375, 46710, 46721, 47133]
+                             
+2024-10-04 17:25:48.116778 : INFO - https://exim.stg.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&sortby=PriceTotal&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:26:13.195844 : INFO - Starting price sorting test for type: expensive
+                             
+2024-10-04 17:26:13.211483 : INFO - Expensive sorter is NOT OK
+                             
+2024-10-04 17:26:13.211483 : INFO - Original List from Web: [38073, 39002, 39052, 39555, 40536, 42239, 42476, 42644, 43115, 43227, 43237, 43319, 43415, 43919, 45328, 45470, 46375, 46710, 46721, 47133]
+                             
+2024-10-04 17:26:13.211483 : INFO - Correctly Sorted List: [47133, 46721, 46710, 46375, 45470, 45328, 43919, 43415, 43319, 43237, 43227, 43115, 42644, 42476, 42239, 40536, 39555, 39052, 39002, 38073]
+                             
+2024-10-04 17:26:13.211483 : INFO - https://exim.stg.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&sortby=PriceTotal&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:26:35.054102 : INFO - Clicking on large circles.
+                             
+2024-10-04 17:26:35.133644 : INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+                             
+2024-10-04 17:26:43.663837 : INFO - https://fischer.stg.dtweb.cz/spanelsko
+                             
+2024-10-04 17:26:49.620858 : https://fischer.stg.dtweb.cz/
+2024-10-04 17:27:03.378604 : ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+                               (Session info: MicrosoftEdge=129.0.2792.65)
+                             
+                             
+2024-10-04 17:27:12.476225 : INFO - Starting price sorting test for type: cheap
+                             
+2024-10-04 17:27:12.476225 : INFO - Cheap sorter is OK
+                             
+2024-10-04 17:27:12.476225 : INFO - Original List from Web: [23236, 25298, 25407, 25587, 25905, 26429, 26519, 26589, 26851, 27012, 27163, 27420, 27693, 27723, 27870, 27934, 28057, 28203, 28992, 29045]
+                             
+2024-10-04 17:27:12.476225 : INFO - Correctly Sorted List: [23236, 25298, 25407, 25587, 25905, 26429, 26519, 26589, 26851, 27012, 27163, 27420, 27693, 27723, 27870, 27934, 28057, 28203, 28992, 29045]
+                             
+2024-10-04 17:27:12.476225 : INFO - LIST FROM WEB: [23236, 25298, 25407, 25587, 25905, 26429, 26519, 26589, 26851, 27012, 27163, 27420, 27693, 27723, 27870, 27934, 28057, 28203, 28992, 29045]
+                             
+2024-10-04 17:27:12.476225 : INFO - CORRECTLY SORTED LIST: [23236, 25298, 25407, 25587, 25905, 26429, 26519, 26589, 26851, 27012, 27163, 27420, 27693, 27723, 27870, 27934, 28057, 28203, 28992, 29045]
+                             
+2024-10-04 17:27:12.491876 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:27:31.617833 : ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+                               (Session info: MicrosoftEdge=129.0.2792.65)
+                             
+                             
+2024-10-04 17:27:32.836207 : INFO - Clicking on medium circles.
+                             
+2024-10-04 17:27:32.931423 : INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+                             
+2024-10-04 17:27:41.507908 : INFO - Starting price sorting test for type: expensive
+                             
+2024-10-04 17:27:41.507908 : INFO - Expensive sorter is OK
+                             
+2024-10-04 17:27:41.507908 : INFO - Original List from Web: [106330, 102910, 101490, 97270, 94170, 90670, 90570, 88050, 82870, 82250, 81210, 78830, 78650, 77530, 76530, 75910, 74670, 74550, 73630, 73410]
+                             
+2024-10-04 17:27:41.507908 : INFO - Correctly Sorted List: [106330, 102910, 101490, 97270, 94170, 90670, 90570, 88050, 82870, 82250, 81210, 78830, 78650, 77530, 76530, 75910, 74670, 74550, 73630, 73410]
+                             
+2024-10-04 17:27:41.507908 : INFO - LIST FROM WEB: [106330, 102910, 101490, 97270, 94170, 90670, 90570, 88050, 82870, 82250, 81210, 78830, 78650, 77530, 76530, 75910, 74670, 74550, 73630, 73410]
+                             
+2024-10-04 17:27:41.507908 : INFO - CORRECTLY SORTED LIST: [106330, 102910, 101490, 97270, 94170, 90670, 90570, 88050, 82870, 82250, 81210, 78830, 78650, 77530, 76530, 75910, 74670, 74550, 73630, 73410]
+                             
+2024-10-04 17:27:41.507908 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&sortorder=1&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:27:55.101368 : INFO - Starting map test: Clicking through map circles.
+                             
+2024-10-04 17:27:55.372706 : INFO - Clicked on 'Zobrazit na Mapì' element with XPath: //*[@class='f_bar-item f_bar-map']
+                             
+2024-10-04 17:27:55.372706 : INFO - Waiting for map circles to load (10 seconds).
+                             
+2024-10-04 17:28:01.212045 : ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']"}
+                               (Session info: MicrosoftEdge=129.0.2792.65)
+                             
+                             
+2024-10-04 17:28:02.429521 : INFO - Clicking on small circles.
+                             
+2024-10-04 17:28:02.505796 : INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+                             
+2024-10-04 17:28:05.383165 : INFO - Clicking on large circles.
+                             
+2024-10-04 17:28:05.478366 : INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+                             
+2024-10-04 17:28:05.849088 : INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+                             
+2024-10-04 17:28:07.054912 : INFO - Finished map test: Clicking through circles.
+                             
+2024-10-04 17:28:09.570824 : INFO - Starting map test: clicking on pin and checking hotel bubble.
+                             
+2024-10-04 17:28:09.664164 : INFO - Hotel pin clicked successfully.
+                             
+2024-10-04 17:28:33.788989 : ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+                               (Session info: MicrosoftEdge=129.0.2792.65)
+                             
+                             
+2024-10-04 17:28:34.680121 : INFO - No missing image found, everything is OK.
+                             
+2024-10-04 17:28:36.837077 : INFO - Hotel bubble clicked successfully.
+                             
+2024-10-04 17:28:40.171928 : INFO - https://exim.stg.dtweb.cz/hotely/spanelsko/fuerteventura/corralejo/bahiazul-villas-and-club?DS=2&GIATA=1118450&D=211764%7C63241%7C63242%7C213028%7C63243%7C63245%7C74459%7C74460%7C63284%7C74464%7C63350%7C63354%7C74465%7C63213%7C63216%7C63218%7C63226%7C63227%7C63231%7C64429%7C63244%7C74462%7C63263%7C63267%7C63272%7C63299%7C63312%7C63334%7C63313%7C74461%7C77806%7C74463%7C63328%7C63349%7C64430%7C63363%7C63455&HID=144943&PF=0&PT=900000&MT=1&DI=GT06-BB&RC=VIPM000000&RCS=VIPM000000&RT=20&NN=7&DF=2024-10-04%7C2024-10-31&RD=2024-10-24&DD=2024-10-17&ERM=0&AC1=2&KC1=1&KA1=10&IC1=1&DP=4312&TO=4312&TOM=4312&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=FUECRL0010&DPR=DTS&PC=7-VIPM000000-GT06-BB&IFC=0-FUEPRG-1211-DT24-10-17-20-K&OFC=0-PRGFUE-1210-DT17-10-11-30-Y
+                             
+2024-10-04 17:28:40.171928 : INFO - /vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:28:40.215466 : INFO - https://exim.stg.dtweb.cz/hotely/spanelsko/fuerteventura/corralejo/bahiazul-villas-and-club?DS=2&GIATA=1118450&D=211764%7C63241%7C63242%7C213028%7C63243%7C63245%7C74459%7C74460%7C63284%7C74464%7C63350%7C63354%7C74465%7C63213%7C63216%7C63218%7C63226%7C63227%7C63231%7C64429%7C63244%7C74462%7C63263%7C63267%7C63272%7C63299%7C63312%7C63334%7C63313%7C74461%7C77806%7C74463%7C63328%7C63349%7C64430%7C63363%7C63455&HID=144943&PF=0&PT=900000&MT=1&DI=GT06-BB&RC=VIPM000000&RCS=VIPM000000&RT=20&NN=7&DF=2024-10-04%7C2024-10-31&RD=2024-10-24&DD=2024-10-17&ERM=0&AC1=2&KC1=1&KA1=10&IC1=1&DP=4312&TO=4312&TOM=4312&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=FUECRL0010&DPR=DTS&PC=7-VIPM000000-GT06-BB&IFC=0-FUEPRG-1211-DT24-10-17-20-K&OFC=0-PRGFUE-1210-DT17-10-11-30-Y
+                             
+2024-10-04 17:30:49.484207 : INFO - Starting list string sorter test.
+                             
+2024-10-04 17:30:51.488753 : INFO - Initial list_web_elements_Position: 0
+                             
+2024-10-04 17:30:53.087233 : INFO - Found 20 web elements with XPath: //*[@class='f_list-item f_icon f_icon--cutlery']
+                             
+2024-10-04 17:30:53.524083 : INFO - List of web elements after processing: ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 0: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 0: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 1: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 1: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 2: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 2: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 3: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 3: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 4: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 4: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 5: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 5: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 6: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 6: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 7: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 7: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 8: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 8: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 9: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 9: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 10: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 10: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 11: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 11: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 12: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 12: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 13: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 13: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 14: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 14: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 15: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 15: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 16: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 16: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 17: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 17: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 18: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 18: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Checking if 'all inclusive' is in element 19: all inclusive
+                             
+2024-10-04 17:30:53.524083 : INFO - Assertion passed for element at position 19: 'all inclusive' contains 'all inclusive'
+                             
+2024-10-04 17:30:53.524083 : INFO - Completed list string sorter test.
+                             
+2024-10-04 17:30:53.524083 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&m=5&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:30:58.546707 : PROBLEM BANNERS
+2024-10-04 17:30:58.546707 : 284 zájezdù ve 2 destinacích  ||| VS |||  286 zájezdù ve 2 destinacích
+2024-10-04 17:30:58.546707 : https://www.eximtours.cz/vysledky-vyhledavani?d=64419|64420|64425|63252|63447&dd=2024-09-02&nn=7|8|9|10|11|12|13|14&rd=2024-11-02&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-10-04 17:30:58.546707 : https://exim.stg.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425|63252|63447&dd=2024-09-02&nn=7|8|9|10|11|12|13|14&rd=2024-11-02&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-10-04 17:30:58.546707 : ----------------------------------------
+2024-10-04 17:31:04.789888 : ------------------------------------------
+2024-10-04 17:31:04.789888 : LIST FROM PUBLIC WWW PRODUCTION https://www.eximtours.cz/
+2024-10-04 17:31:04.789888 : ['', '284 zájezdù ve 2 destinacích', '2 zájezdy v 1 destinaci', '']
+2024-10-04 17:31:04.789888 : ------------------------------------------
+2024-10-04 17:31:04.789888 : LIST FROM DEPLOYING WEB https://exim.stg.dtweb.cz/
+2024-10-04 17:31:04.789888 : ['', '286 zájezdù ve 2 destinacích', '2 zájezdy v 1 destinaci', '']
+2024-10-04 17:31:04.789888 : INFO - https://exim.stg.dtweb.cz/
+                             
+2024-10-04 17:32:31.478990 : INFO - [57710, 57510, 57510, 55930, 55930, 55930, 55930, 55430, 55430, 55430, 55430, 55430, 54990, 54990, 54990, 54990, 54890, 54630, 53030, 51270]
+                             
+2024-10-04 17:32:34.491557 : INFO - Starting price sorting test for type: expensive
+                             
+2024-10-04 17:32:34.491557 : INFO - Expensive sorter is OK
+                             
+2024-10-04 17:32:34.491557 : INFO - Original List from Web: [57710, 57510, 57510, 55930, 55930, 55930, 55930, 55430, 55430, 55430, 55430, 55430, 54990, 54990, 54990, 54990, 54890, 54630, 53030, 51270]
+                             
+2024-10-04 17:32:34.491557 : INFO - Correctly Sorted List: [57710, 57510, 57510, 55930, 55930, 55930, 55930, 55430, 55430, 55430, 55430, 55430, 54990, 54990, 54990, 54990, 54890, 54630, 53030, 51270]
+                             
+2024-10-04 17:32:34.493969 : INFO - https://exim.stg.dtweb.cz//egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada?AC1=2&D=64419|64420|64425&DD=2025-03-08&DI=IT&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=0&HID=160534&IC1=1&IFC=64388256%2F316211&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=64387089%2F316210&PC=78913989%2F2%2F1893%2F7&PID=EGR00026&RC=DR01&RCS=DR01&RD=2025-03-15&TO=4312|4305|2682|4308|4392|4309&acm1=2&dd=2024-10-05&df=2024-09-18|2025-07-18&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-08-05&sortorder=1&tt=1&ttm=0#hotelDetailFilterStart
+                             
+2024-10-04 17:32:59.025896 : INFO - https://exim.stg.dtweb.cz/egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada?DS=8192&GIATA=0&HID=160534&MT=7&DI=IT&RC=DR01&RCS=DR01&NN=7&DF=2024-12-07%7C2025-01-04&RD=2024-12-21&DD=2024-12-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=EGR00026&DPR=EXIM+TOURS+ATCOM&PC=78913989%2F2%2F1809%2F7&IFC=64477746%2F305526&OFC=64476579%2F304926
+                             
+2024-10-04 17:32:59.057203 : True
+2024-10-04 17:32:59.103486 : INFO - https://exim.stg.dtweb.cz/egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rudeho-more-4-hurghada?DS=8192&GIATA=0&HID=160534&MT=7&DI=IT&RC=DR01&RCS=DR01&NN=7&DF=2024-12-07%7C2025-01-04&RD=2024-12-21&DD=2024-12-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=EGR00026&DPR=EXIM+TOURS+ATCOM&PC=78913989%2F2%2F1809%2F7&IFC=64477746%2F305526&OFC=64476579%2F304926
+                             
+2024-10-04 17:34:04.650542 : INFO - Starting the process to search using the SRL flow on HP Zlutak.
+                             
+2024-10-04 17:34:06.166677 : INFO - Clicking on 'Kam Pojedete'.
+                             
+2024-10-04 17:34:06.326051 : INFO - Selecting the destination.
+                             
+2024-10-04 17:34:07.130004 : INFO - Clicking on the first 'Pokracovat' button.
+                             
+2024-10-04 17:34:08.837920 : INFO - Clicking on the second 'Pokracovat' button.
+                             
+2024-10-04 17:34:10.722656 : INFO - Selecting the 'Termin'.
+                             
+2024-10-04 17:34:12.447458 : INFO - Clicking on the third 'Pokracovat' button.
+                             
+2024-10-04 17:34:12.530289 : INFO - Handling 'Obsazenost' setting.
+                             
+2024-10-04 17:34:13.182353 : INFO - Clicking on 'Potvrdit a Vyhledat'.
+                             
+2024-10-04 17:34:15.543974 : INFO - Search completed, waiting for the results.
+                             
+2024-10-04 17:34:16.119788 : INFO - [30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34720, 34960, 34980, 35600, 38960]
+                             
+2024-10-04 17:34:19.135025 : INFO - Starting price sorting test for type: cheap
+                             
+2024-10-04 17:34:19.135025 : INFO - Cheap sorter is OK
+                             
+2024-10-04 17:34:19.135025 : INFO - Original List from Web: [30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34720, 34960, 34980, 35600, 38960]
+                             
+2024-10-04 17:34:19.135025 : INFO - Correctly Sorted List: [30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34720, 34960, 34980, 35600, 38960]
+                             
+2024-10-04 17:34:19.135025 : INFO - https://fischer.stg.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-10-05&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-08-05&tt=1&ttm=1#hotelDetailFilterStart
+                             
+2024-10-04 17:34:19.556763 : INFO - Starting search results listing check.
+                             
+2024-10-04 17:34:25.631991 : INFO - Found 2 hotel cards in the search results.
+                             
+2024-10-04 17:34:25.662252 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:34:25.683463 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:34:28.731550 : INFO - First hotel card is displayed.
+                             
+2024-10-04 17:34:28.792869 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:34:28.792869 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:34:28.806377 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:34:28.822003 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:34:28.822003 : INFO - First hotel price is displayed.
+                             
+2024-10-04 17:34:33.837890 : INFO - No loading images found in the SRL.
+                             
+2024-10-04 17:34:33.837890 : INFO - Search results listing check completed.
+                             
+2024-10-04 17:34:33.853528 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=64144|64142|64140|64132|64128|64134|64138|64136|64126|64281|64127|64139|64146|64131|64141|64130|64135|64133|64129|64143|64145|64137&dd=2025-03-01&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=0
+                             
+2024-10-04 17:34:55.038170 : INFO - Selecting the destination.
+                             
+2024-10-04 17:34:55.686962 : INFO - Clicking on the first 'Pokracovat' button.
+                             
+2024-10-04 17:34:57.322350 : INFO - Clicking on the second 'Pokracovat' button.
+                             
+2024-10-04 17:34:58.938766 : INFO - Selecting the 'Termin'.
+                             
+2024-10-04 17:35:01.343322 : INFO - Clicking on the third 'Pokracovat' button.
+                             
+2024-10-04 17:35:01.476284 : INFO - Handling 'Obsazenost' setting.
+                             
+2024-10-04 17:35:02.107653 : INFO - Clicking on 'Potvrdit a Vyhledat'.
+                             
+2024-10-04 17:35:04.646576 : INFO - Search completed, waiting for the results.
+                             
+2024-10-04 17:35:11.666670 : INFO - Starting group search check.
+                             
+2024-10-04 17:35:13.697490 : INFO - Found 19 teaser items in the group search section.
+                             
+2024-10-04 17:35:13.712999 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.954")>.
+                             
+2024-10-04 17:35:13.728624 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.955")>.
+                             
+2024-10-04 17:35:13.744133 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.956")>.
+                             
+2024-10-04 17:35:13.744133 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.957")>.
+                             
+2024-10-04 17:35:13.759758 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.958")>.
+                             
+2024-10-04 17:35:13.775266 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.959")>.
+                             
+2024-10-04 17:35:13.775266 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.960")>.
+                             
+2024-10-04 17:35:13.790892 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.961")>.
+                             
+2024-10-04 17:35:13.806399 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.962")>.
+                             
+2024-10-04 17:35:13.806399 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.963")>.
+                             
+2024-10-04 17:35:13.822025 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.964")>.
+                             
+2024-10-04 17:35:13.837646 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.965")>.
+                             
+2024-10-04 17:35:13.853269 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.966")>.
+                             
+2024-10-04 17:35:13.853269 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.967")>.
+                             
+2024-10-04 17:35:13.868889 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.968")>.
+                             
+2024-10-04 17:35:13.884510 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.969")>.
+                             
+2024-10-04 17:35:13.900138 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.970")>.
+                             
+2024-10-04 17:35:13.900138 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.971")>.
+                             
+2024-10-04 17:35:13.915763 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.972")>.
+                             
+2024-10-04 17:35:13.931385 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:35:13.947006 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:35:13.947006 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="5be82a933971b1a047f245431bfd60cd", element="f.138B1DC13EB9F48444E03B055E0B8C8E.d.0D352CCF3FB9FEFFE1B3736220161D89.e.973")>.
+                             
+2024-10-04 17:35:13.962628 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:35:13.962628 : INFO - Group search check completed.
+                             
+2024-10-04 17:35:13.978249 : INFO - https://exim.stg.dtweb.cz/first-minute/zima/vysledky-vyhledavani?ac1=2&d=219200|63865|63862|63863|63866|63864|64246|64242|64245|64240|64248|64243|64244|64241|64247|63881|63880|63720|63719|218467|64190|63726|63725|63727|63889|63891|63885|63888|63886|63890|63892|63887|64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63738|63976|63975|63982|64102|64099|63823|63750|63751|63752|63753|63754|63755|64443|63756|63757|218503|63758|63759|63760|64087|64094|64089|64090|64091|64086|64092|64077|63765|64126|64127|64447&dd=2025-01-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-02-28&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:35:32.728572 : INFO - Starting group search check.
+                             
+2024-10-04 17:35:34.775903 : INFO - Found 41 teaser items in the group search section.
+                             
+2024-10-04 17:35:34.775903 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1082")>.
+                             
+2024-10-04 17:35:34.791531 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1083")>.
+                             
+2024-10-04 17:35:34.806538 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1084")>.
+                             
+2024-10-04 17:35:34.822164 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1085")>.
+                             
+2024-10-04 17:35:34.822164 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1086")>.
+                             
+2024-10-04 17:35:34.837785 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1087")>.
+                             
+2024-10-04 17:35:34.853406 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1088")>.
+                             
+2024-10-04 17:35:34.869028 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1089")>.
+                             
+2024-10-04 17:35:34.869028 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1090")>.
+                             
+2024-10-04 17:35:34.884648 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1091")>.
+                             
+2024-10-04 17:35:34.900270 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1092")>.
+                             
+2024-10-04 17:35:34.915905 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1093")>.
+                             
+2024-10-04 17:35:34.931513 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1094")>.
+                             
+2024-10-04 17:35:34.931513 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1095")>.
+                             
+2024-10-04 17:35:34.947163 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1096")>.
+                             
+2024-10-04 17:35:34.962756 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1097")>.
+                             
+2024-10-04 17:35:34.978377 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1098")>.
+                             
+2024-10-04 17:35:34.978377 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1099")>.
+                             
+2024-10-04 17:35:34.993998 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1100")>.
+                             
+2024-10-04 17:35:35.009620 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1101")>.
+                             
+2024-10-04 17:35:35.009620 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1102")>.
+                             
+2024-10-04 17:35:35.025242 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1103")>.
+                             
+2024-10-04 17:35:35.040864 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1104")>.
+                             
+2024-10-04 17:35:35.040864 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1105")>.
+                             
+2024-10-04 17:35:35.056484 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1106")>.
+                             
+2024-10-04 17:35:35.056484 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1107")>.
+                             
+2024-10-04 17:35:35.072106 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1108")>.
+                             
+2024-10-04 17:35:35.087728 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1109")>.
+                             
+2024-10-04 17:35:35.087728 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1110")>.
+                             
+2024-10-04 17:35:35.103350 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1111")>.
+                             
+2024-10-04 17:35:35.119294 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1112")>.
+                             
+2024-10-04 17:35:35.119294 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1113")>.
+                             
+2024-10-04 17:35:35.134920 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1114")>.
+                             
+2024-10-04 17:35:35.134920 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1115")>.
+                             
+2024-10-04 17:35:35.166055 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1116")>.
+                             
+2024-10-04 17:35:35.228344 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1117")>.
+                             
+2024-10-04 17:35:35.243964 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1118")>.
+                             
+2024-10-04 17:35:35.243964 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1119")>.
+                             
+2024-10-04 17:35:35.259586 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1120")>.
+                             
+2024-10-04 17:35:35.275208 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1121")>.
+                             
+2024-10-04 17:35:35.275208 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1122")>.
+                             
+2024-10-04 17:35:35.290828 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:35:35.306450 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:35:35.322071 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="49b1ea8d8c7c80bfc6c4075fb7f4993e", element="f.5B6F895F587AA011C5BD079118D238B7.d.7AD93C16F44654B16DDE1A9D1223FAE9.e.1123")>.
+                             
+2024-10-04 17:35:35.337693 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:35:35.337693 : INFO - Group search check completed.
+                             
+2024-10-04 17:35:35.337693 : INFO - https://exim.stg.dtweb.cz/vysledky-vyhledavani?dd=2024-10-04&nn=7|8|9|10|11|12|13|14&rd=2024-12-04&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:35:54.531791 : INFO - Starting group search check.
+                             
+2024-10-04 17:35:56.650198 : INFO - Found 16 teaser items in the group search section.
+                             
+2024-10-04 17:35:56.669761 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.881")>.
+                             
+2024-10-04 17:35:56.669761 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.882")>.
+                             
+2024-10-04 17:35:56.682909 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.883")>.
+                             
+2024-10-04 17:35:56.698532 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.884")>.
+                             
+2024-10-04 17:35:56.714012 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.885")>.
+                             
+2024-10-04 17:35:56.714012 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.886")>.
+                             
+2024-10-04 17:35:56.729634 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.887")>.
+                             
+2024-10-04 17:35:56.745937 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.888")>.
+                             
+2024-10-04 17:35:56.745937 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.889")>.
+                             
+2024-10-04 17:35:56.761559 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.890")>.
+                             
+2024-10-04 17:35:56.776785 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.891")>.
+                             
+2024-10-04 17:35:56.792408 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.892")>.
+                             
+2024-10-04 17:35:56.792408 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.893")>.
+                             
+2024-10-04 17:35:56.808003 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.894")>.
+                             
+2024-10-04 17:35:56.823625 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.895")>.
+                             
+2024-10-04 17:35:56.838671 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.896")>.
+                             
+2024-10-04 17:35:56.839111 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:35:56.854733 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:35:56.870273 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="6ba8f352c9dc120c805e7ee662dce476", element="f.C44B0E3E236F220CFE402B0396C239DB.d.8BC741D7A73A233C9A913CF06AA583D4.e.897")>.
+                             
+2024-10-04 17:35:56.901526 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:35:56.901526 : INFO - Group search check completed.
+                             
+2024-10-04 17:35:56.917147 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?dd=2024-10-04&nn=3|4|5|6|7|8|9|10|11|12|13|14&rd=2024-12-04&to=4312|4305|2682|4308|4392|4309&tt=0
+                             
+2024-10-04 17:36:18.257888 : INFO - Found 1 hotel cards in the search results.
+                             
+2024-10-04 17:36:18.289116 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:36:21.307980 : INFO - First hotel card is displayed.
+                             
+2024-10-04 17:36:21.370166 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:36:21.385788 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:36:21.401832 : INFO - First hotel price is displayed.
+                             
+2024-10-04 17:36:26.464914 : INFO - No loading images found in the SRL.
+                             
+2024-10-04 17:36:26.464914 : INFO - Search results listing check completed.
+                             
+2024-10-04 17:36:26.480539 : INFO - https://exim.stg.dtweb.cz/vysledky-vyhledavani?ac1=2&d=63888&dd=2023-07-01&nn=7|8|9|10|11|12|13|14|15|16|17|18|19|20|21&rd=2023-08-31&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:36:26.669167 : INFO - Starting the process to search using the SRL flow on HP Zlutak.
+                             
+2024-10-04 17:36:28.195457 : INFO - Clicking on 'Kam Pojedete'.
+                             
+2024-10-04 17:36:28.349323 : INFO - Selecting the destination.
+                             
+2024-10-04 17:37:15.917432 : INFO - Starting the process to search using the SRL flow on HP Zlutak.
+                             
+2024-10-04 17:37:17.432683 : INFO - Clicking on 'Kam Pojedete'.
+                             
+2024-10-04 17:37:17.560872 : INFO - Selecting the destination.
+                             
+2024-10-04 17:37:18.189554 : INFO - Clicking on the first 'Pokracovat' button.
+                             
+2024-10-04 17:37:19.838969 : INFO - Clicking on the second 'Pokracovat' button.
+                             
+2024-10-04 17:37:21.494043 : INFO - Selecting the 'Termin'.
+                             
+2024-10-04 17:37:23.183059 : INFO - Clicking on the third 'Pokracovat' button.
+                             
+2024-10-04 17:37:23.282816 : INFO - Handling 'Obsazenost' setting.
+                             
+2024-10-04 17:37:23.910014 : INFO - Clicking on 'Potvrdit a Vyhledat'.
+                             
+2024-10-04 17:37:26.352338 : INFO - Search completed, waiting for the results.
+                             
+2024-10-04 17:37:40.358693 : INFO - Starting search results listing check.
+                             
+2024-10-04 17:37:46.401422 : INFO - Found 2 hotel cards in the search results.
+                             
+2024-10-04 17:37:46.432353 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:37:46.447976 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:37:49.448906 : INFO - First hotel card is displayed.
+                             
+2024-10-04 17:37:49.526690 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:37:49.526690 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:37:49.542314 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:37:49.557785 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:37:49.573409 : INFO - First hotel price is displayed.
+                             
+2024-10-04 17:37:54.616274 : INFO - No loading images found in the SRL.
+                             
+2024-10-04 17:37:54.617271 : INFO - Search results listing check completed.
+                             
+2024-10-04 17:37:54.626251 : INFO - https://fischer.stg.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=63972|63984|63977|63979|63981|63976|63978|63975|63980|63982|63974|63973|63985|63987|63986|64037|63983&dd=2025-03-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=0
+                             
+2024-10-04 17:38:15.356174 : INFO - Starting the process to search using the SRL flow on HP Zlutak.
+                             
+2024-10-04 17:38:16.871861 : INFO - Clicking on 'Kam Pojedete'.
+                             
+2024-10-04 17:38:17.012368 : INFO - Selecting the destination.
+                             
+2024-10-04 17:38:17.784363 : INFO - Clicking on the first 'Pokracovat' button.
+                             
+2024-10-04 17:38:19.605983 : INFO - Clicking on the second 'Pokracovat' button.
+                             
+2024-10-04 17:38:21.245499 : INFO - Selecting the 'Termin'.
+                             
+2024-10-04 17:38:22.870175 : INFO - Clicking on the third 'Pokracovat' button.
+                             
+2024-10-04 17:38:23.000719 : INFO - Handling 'Obsazenost' setting.
+                             
+2024-10-04 17:38:23.148345 : INFO - Clicking on 'Potvrdit a Vyhledat'.
+                             
+2024-10-04 17:38:25.750074 : INFO - Search completed, waiting for the results.
+                             
+2024-10-04 17:38:32.778472 : INFO - Starting search results listing check.
+                             
+2024-10-04 17:38:38.847550 : INFO - Found 20 hotel cards in the search results.
+                             
+2024-10-04 17:38:38.868495 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.883016 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.892989 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.905503 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.915475 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.926447 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.940873 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.953838 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.965058 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.975032 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.985005 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:38.994978 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.006262 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.016236 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.028204 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.039005 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.048978 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.062217 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.072190 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:39.082163 : INFO - Hotel card visible: True
+                             
+2024-10-04 17:38:42.090167 : INFO - First hotel card is displayed.
+                             
+2024-10-04 17:38:42.168132 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.183567 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.199189 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.199189 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.214745 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.230367 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.246166 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.246166 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.261788 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.277339 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.292961 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.292961 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.308606 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.324228 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.339092 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.339811 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.355433 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.370961 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.370961 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.386591 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.402208 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.417830 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.433320 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.433320 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.448942 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.464925 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.480547 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.480547 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.496119 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.511741 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.527243 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.527243 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.542865 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.558406 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.574028 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.588533 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.589617 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.605239 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.620666 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.636289 : INFO - Hotel price visible: True
+                             
+2024-10-04 17:38:42.636289 : INFO - First hotel price is displayed.
+                             
+2024-10-04 17:38:47.654127 : INFO - No loading images found in the SRL.
+                             
+2024-10-04 17:38:47.654127 : INFO - Search results listing check completed.
+                             
+2024-10-04 17:38:47.669746 : INFO - https://fischer.stg.dtweb.cz/first-minute/exotika-zima/vysledky-vyhledavani?ac1=2&d=219200|63865|63866|63864|64419|64420|64425|64245|64243|64241|64247|63881|63880|63720|63719|218467|64190|63726|63725|63727|63889|63891|63885|63888|63886|63890|63892|63887|64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63738|63976|63975|63982|64102|64099|63992|63823|63750|63751|63752|63753|63754|63755|64443|63756|63757|218503|63758|63759|63760|64087|64094|64089|64090|64091|64086|64092|63765|64126|64127|64447&dd=2025-01-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-02-28&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:39:03.920463 : INFO - Starting group search check.
+                             
+2024-10-04 17:39:05.963480 : INFO - Found 26 teaser items in the group search section.
+                             
+2024-10-04 17:39:05.976178 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1646")>.
+                             
+2024-10-04 17:39:05.986036 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1647")>.
+                             
+2024-10-04 17:39:05.996415 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1648")>.
+                             
+2024-10-04 17:39:05.996415 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1649")>.
+                             
+2024-10-04 17:39:06.012037 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1650")>.
+                             
+2024-10-04 17:39:06.027988 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1651")>.
+                             
+2024-10-04 17:39:06.043611 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1652")>.
+                             
+2024-10-04 17:39:06.043611 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1653")>.
+                             
+2024-10-04 17:39:06.059327 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1654")>.
+                             
+2024-10-04 17:39:06.074949 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1655")>.
+                             
+2024-10-04 17:39:06.090516 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1656")>.
+                             
+2024-10-04 17:39:06.106138 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1657")>.
+                             
+2024-10-04 17:39:06.121890 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1658")>.
+                             
+2024-10-04 17:39:06.121890 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1659")>.
+                             
+2024-10-04 17:39:06.137541 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1660")>.
+                             
+2024-10-04 17:39:06.153012 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1661")>.
+                             
+2024-10-04 17:39:06.168633 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1662")>.
+                             
+2024-10-04 17:39:06.168633 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1663")>.
+                             
+2024-10-04 17:39:06.184316 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1664")>.
+                             
+2024-10-04 17:39:06.199938 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1665")>.
+                             
+2024-10-04 17:39:06.215300 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1666")>.
+                             
+2024-10-04 17:39:06.230922 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1667")>.
+                             
+2024-10-04 17:39:06.246411 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1668")>.
+                             
+2024-10-04 17:39:06.246411 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1669")>.
+                             
+2024-10-04 17:39:06.262033 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1670")>.
+                             
+2024-10-04 17:39:06.277902 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1671")>.
+                             
+2024-10-04 17:39:06.293525 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:39:06.309827 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:39:06.325448 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="d0cf1433f9c03fca34cab3cb64b9cebb", element="f.297A036AF8B49335A086BB6FAFEA4B1B.d.1DB1C027F470800936DDDD747455C630.e.1672")>.
+                             
+2024-10-04 17:39:06.340410 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:39:06.340410 : INFO - Group search check completed.
+                             
+2024-10-04 17:39:06.340410 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?dd=2024-10-04&nn=7|8|9|10|11|12|13|14&rd=2024-12-04&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:39:25.698373 : INFO - Starting group search check.
+                             
+2024-10-04 17:39:27.757248 : INFO - Found 16 teaser items in the group search section.
+                             
+2024-10-04 17:39:27.766224 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1486")>.
+                             
+2024-10-04 17:39:27.776484 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1487")>.
+                             
+2024-10-04 17:39:27.778504 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1488")>.
+                             
+2024-10-04 17:39:27.794128 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1489")>.
+                             
+2024-10-04 17:39:27.794128 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1490")>.
+                             
+2024-10-04 17:39:27.808599 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1491")>.
+                             
+2024-10-04 17:39:27.808599 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1492")>.
+                             
+2024-10-04 17:39:27.824221 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1493")>.
+                             
+2024-10-04 17:39:27.839617 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1494")>.
+                             
+2024-10-04 17:39:27.839617 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1495")>.
+                             
+2024-10-04 17:39:27.855239 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1496")>.
+                             
+2024-10-04 17:39:27.870489 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1497")>.
+                             
+2024-10-04 17:39:27.871119 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1498")>.
+                             
+2024-10-04 17:39:27.886741 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1499")>.
+                             
+2024-10-04 17:39:27.886741 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1500")>.
+                             
+2024-10-04 17:39:27.902225 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1501")>.
+                             
+2024-10-04 17:39:27.902225 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:39:27.917848 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:39:27.933731 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="cf698f99fb8d6514a80301a08d911046", element="f.C4446810D9AC023D162AA590F4CA8F58.d.9D56DC58DDA380876894EA936D3426EA.e.1502")>.
+                             
+2024-10-04 17:39:27.949352 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:39:27.949352 : INFO - Group search check completed.
+                             
+2024-10-04 17:39:27.949352 : INFO - https://fischer.stg.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?dd=2024-10-04&nn=3|4|5|6|7|8|9|10|11|12|13|14&rd=2024-12-04&to=4312|4305|2682|4308|4392|4309&tt=0
+                             
+2024-10-04 17:40:06.590882 : INFO - True
+                             
+2024-10-04 17:40:06.606505 : INFO - True
+                             
+2024-10-04 17:40:06.655553 : INFO - True
+                             
+2024-10-04 17:40:06.734018 : INFO - True
+                             
+2024-10-04 17:40:06.762903 : INFO - True
+                             
+2024-10-04 17:40:06.762903 : INFO - True
+                             
+2024-10-04 17:40:06.793531 : INFO - True
+                             
+2024-10-04 17:40:06.811130 : INFO - True
+                             
+2024-10-04 17:40:06.811130 : INFO - True
+                             
+2024-10-04 17:40:06.826751 : INFO - True
+                             
+2024-10-04 17:40:06.840598 : INFO - True
+                             
+2024-10-04 17:40:06.856219 : INFO - True
+                             
+2024-10-04 17:40:06.856219 : INFO - True
+                             
+2024-10-04 17:40:06.871628 : INFO - True
+                             
+2024-10-04 17:40:06.885826 : INFO - True
+                             
+2024-10-04 17:40:06.891417 : INFO - True
+                             
+2024-10-04 17:40:06.902654 : INFO - True
+                             
+2024-10-04 17:40:06.918276 : INFO - True
+                             
+2024-10-04 17:40:06.918276 : INFO - True
+                             
+2024-10-04 17:40:06.933948 : INFO - True
+                             
+2024-10-04 17:40:07.012649 : INFO - ceny
+                             
+2024-10-04 17:40:07.012649 : INFO - ceny
+                             
+2024-10-04 17:40:07.028220 : INFO - ceny
+                             
+2024-10-04 17:40:07.043842 : INFO - ceny
+                             
+2024-10-04 17:40:07.058268 : INFO - ceny
+                             
+2024-10-04 17:40:07.059163 : INFO - ceny
+                             
+2024-10-04 17:40:07.074784 : INFO - ceny
+                             
+2024-10-04 17:40:07.090590 : INFO - ceny
+                             
+2024-10-04 17:40:07.090590 : INFO - ceny
+                             
+2024-10-04 17:40:07.106206 : INFO - ceny
+                             
+2024-10-04 17:40:07.121489 : INFO - ceny
+                             
+2024-10-04 17:40:07.121489 : INFO - ceny
+                             
+2024-10-04 17:40:07.137113 : INFO - ceny
+                             
+2024-10-04 17:40:07.152798 : INFO - ceny
+                             
+2024-10-04 17:40:07.168420 : INFO - ceny
+                             
+2024-10-04 17:40:07.168420 : INFO - ceny
+                             
+2024-10-04 17:40:07.184129 : INFO - ceny
+                             
+2024-10-04 17:40:07.199751 : INFO - ceny
+                             
+2024-10-04 17:40:07.215569 : INFO - ceny
+                             
+2024-10-04 17:40:07.215569 : INFO - ceny
+                             
+2024-10-04 17:41:47.330567 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425&dd=2024-10-04&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:42:06.026918 : INFO - Starting process to open Pobocka box and display the popup for Objednavka Navstevy.
+                             
+2024-10-04 17:42:06.026918 : INFO - Clicking on the Anchor Oblibene Volby element.
+                             
+2024-10-04 17:42:06.159018 : INFO - Anchor Oblibene Volby clicked.
+                             
+2024-10-04 17:42:08.168614 : INFO - Clicking on the Pobocka box element.
+                             
+2024-10-04 17:42:08.318773 : INFO - Pobocka box clicked.
+                             
+2024-10-04 17:42:10.324287 : INFO - Scrolling to and clicking on the Detail Pobocky element.
+                             
+2024-10-04 17:42:11.638283 : INFO - Detail Pobocky clicked.
+                             
+2024-10-04 17:42:15.152193 : INFO - Clicking on 'Objednat Schuzku' button.
+                             
+2024-10-04 17:42:16.300082 : INFO - 'Objednat Schuzku' button clicked.
+                             
+2024-10-04 17:42:18.808595 : INFO - Verifying if the popup for Objednavka Navstevy is displayed.
+                             
+2024-10-04 17:42:18.839798 : INFO - Popup visibility: True
+                             
+2024-10-04 17:42:18.839798 : INFO - Popup for Objednavka Navstevy is successfully displayed.
+                             
+2024-10-04 17:42:18.839798 : INFO - https://fischer.stg.dtweb.cz/pobocky/brno-vankovka#modal-contactus-visitbranch
+                             
+2024-10-04 17:42:24.948995 : INFO - Starting SRL number of results collection.
+                             
+2024-10-04 17:43:07.511524 : WARNING - 460 zájezdù v 1 destinaci
+                             
+2024-10-04 17:43:07.511524 : WARNING - 140 zájezdù v 1 destinaci
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://fischer.stg.dtweb.cz//vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2024-10-04&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-11-30&sc=residential&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://eximtours.cz/vysledky-vyhledavani?ac1=2&ac2=2&d=64419|64420|64425&dd=2024-07-31&ic1=1&ka1=5&ka2=7&kc1=1&kc2=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|298|874|892|983|1091|1293|1956|2397|2563|3352|483|1837|2933|3437|3248&tt=1
+                             
+2024-10-04 17:43:07.511524 : INFO - URL number 2
+                             
+2024-10-04 17:43:07.511524 : WARNING - 121 zájezdù v 1 destinaci
+                             
+2024-10-04 17:43:07.511524 : WARNING - 66 zájezdù ve 3 destinacích
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://fischer.stg.dtweb.cz//vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|648|972|620|746&dd=2024-10-04&ic1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308&tt=1
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://eximtours.cz/vysledky-vyhledavani?ac1=2&ac2=2&d=63215|63287|63296|63410|63426|63889|63891|63888|63886|63890|63982|63213|211764|63241|63242|63243|63245|74459|74460|63284|74464|63350|63354|74465|63205|63212|63539|63229|63255|64427|63265|63271|63298|63329|63330|63339|63436|63356|63538|63376|64428|63391|63404|63406|63422|63425|63429|63444|63537|63453|63454|63456|63457|63459|63885|63892|63887|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-07-31&ic1=1&ka1=5&ka2=7&kc1=1&kc2=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|298|874|892|983|1091|1293|1956|2397|2563|3352|483|1837|2933|3437|3248&tt=1
+                             
+2024-10-04 17:43:07.511524 : INFO - URL number 3
+                             
+2024-10-04 17:43:07.511524 : WARNING - 250 zájezdù v 1 destinaci
+                             
+2024-10-04 17:43:07.511524 : WARNING - 57 zájezdù ve 3 destinacích
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://fischer.stg.dtweb.cz//vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-10-04&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+                             
+2024-10-04 17:43:07.511524 : WARNING - https://eximtours.cz/vysledky-vyhledavani?ac1=2&ac2=3&d=64204|64205|74847|64203|63220|63281|63311|63314|63316|63319|63324|63333|63341|63362|63373|63390|63402|63408|63409|63442|63471|64087|64094|64089|64090|64091|64086|64092|63765&dd=2024-07-31&ic1=1&ic2=1&ka1=5&ka2=7&kc1=1&kc2=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|298|874|892|983|1091|1293|1956|2397|2563|3352|483|1837|2933|3437|3248&tt=1
+                             
+2024-10-04 17:43:07.511524 : INFO - URL number 4
+                             
+2024-10-04 17:43:07.511524 : INFO - SRL number of results collection completed.
+                             
+2024-10-04 17:46:49.283750 : INFO - https://fischer.stg.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&ac2=3&d=64419|64420|64425|63215|63287|63296|63410|63426|63220|63281|63373|63431|63311|63314|63316|63319|63324|63333|63341|63362|63220|63390|63402|63437|63408|63409|63442|63471|63213|63241|63242|63360|213028|211764|63243|63245|63267|74459|74460|63284|74464|63350|63354|74465|219503|63212|63215|63539|63229|63271|219502|63255|64427|219503|63265|63444|63271|63229|63271|219502|63298|63330|63425|63339|63330|63356|63391|63425|63376|63356|63391|63425|63457|63406|63271|219502|63376|63425|63429|63436|64427|219503|63444|64428|63453|63454|63456|63391|63457|63459|63226|63244|63455|63242|74463&dd=2024-06-01&ic1=1&ic2=1&ka1=5&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:47:09.294206 : INFO - Starting the process to search using the SRL flow on HP Zlutak.
+                             
+2024-10-04 17:47:10.811055 : INFO - Clicking on 'Kam Pojedete'.
+                             
+2024-10-04 17:47:10.927838 : INFO - Selecting the destination.
+                             
+2024-10-04 17:47:11.550617 : INFO - Clicking on the first 'Pokracovat' button.
+                             
+2024-10-04 17:47:13.184848 : INFO - Clicking on the second 'Pokracovat' button.
+                             
+2024-10-04 17:47:14.825651 : INFO - Selecting the 'Termin'.
+                             
+2024-10-04 17:47:16.465995 : INFO - Clicking on the third 'Pokracovat' button.
+                             
+2024-10-04 17:47:16.560021 : INFO - Handling 'Obsazenost' setting.
+                             
+2024-10-04 17:47:17.175316 : INFO - Clicking on 'Potvrdit a Vyhledat'.
+                             
+2024-10-04 17:47:19.835863 : INFO - Search completed, waiting for the results.
+                             
+2024-10-04 17:47:23.839067 : INFO - Starting SRL letenky results verification process.
+                             
+2024-10-04 17:47:23.866163 : INFO - Found 5 elements for letenky SRL results.
+                             
+2024-10-04 17:47:23.866163 : INFO - Verifying visibility of element at position 0.
+                             
+2024-10-04 17:47:23.877526 : INFO - Element at position 0 is displayed.
+                             
+2024-10-04 17:47:23.878474 : INFO - Verifying visibility of element at position 1.
+                             
+2024-10-04 17:47:23.878856 : INFO - Element at position 1 is displayed.
+                             
+2024-10-04 17:47:23.878856 : INFO - Verifying visibility of element at position 2.
+                             
+2024-10-04 17:47:23.894478 : INFO - Element at position 2 is displayed.
+                             
+2024-10-04 17:47:23.894478 : INFO - Verifying visibility of element at position 3.
+                             
+2024-10-04 17:47:23.903950 : INFO - Element at position 3 is displayed.
+                             
+2024-10-04 17:47:23.903950 : INFO - Verifying visibility of element at position 4.
+                             
+2024-10-04 17:47:23.919573 : INFO - Element at position 4 is displayed.
+                             
+2024-10-04 17:47:23.919573 : INFO - SRL letenky results verification completed successfully.
+                             
+2024-10-04 17:47:23.919573 : INFO - https://fischer.stg.dtweb.cz/letenky/vysledky-vyhledavani?ac1=2&d=63863&dd=2025-03-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:47:41.513003 : INFO - Starting group search check.
+                             
+2024-10-04 17:47:43.575353 : INFO - Found 16 teaser items in the group search section.
+                             
+2024-10-04 17:47:43.575353 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1595")>.
+                             
+2024-10-04 17:47:43.590860 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1596")>.
+                             
+2024-10-04 17:47:43.590860 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1597")>.
+                             
+2024-10-04 17:47:43.606487 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1598")>.
+                             
+2024-10-04 17:47:43.622108 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1599")>.
+                             
+2024-10-04 17:47:43.622108 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1600")>.
+                             
+2024-10-04 17:47:43.637730 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1601")>.
+                             
+2024-10-04 17:47:43.653350 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1602")>.
+                             
+2024-10-04 17:47:43.653350 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1603")>.
+                             
+2024-10-04 17:47:43.668972 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1604")>.
+                             
+2024-10-04 17:47:43.684594 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1605")>.
+                             
+2024-10-04 17:47:43.684594 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1606")>.
+                             
+2024-10-04 17:47:43.700215 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1607")>.
+                             
+2024-10-04 17:47:43.715836 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1608")>.
+                             
+2024-10-04 17:47:43.715836 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1609")>.
+                             
+2024-10-04 17:47:43.731458 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1610")>.
+                             
+2024-10-04 17:47:43.731458 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:47:43.762700 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:47:43.762700 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="96d0b5df23ed8bc2253d05e30e0e3baf", element="f.C77679253515D40C3946A2994CC15244.d.C081F0A319CD4622B9828AB73657A6D2.e.1611")>.
+                             
+2024-10-04 17:47:43.778322 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:47:43.778322 : INFO - Group search check completed.
+                             
+2024-10-04 17:47:43.778322 : INFO - https://fischer.stg.dtweb.cz/letenky/vysledky-vyhledavani?dd=2024-10-04&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2024-12-04&to=4312|4305|2682|4308|4392|4309&tt=1
+                             
+2024-10-04 17:48:04.169514 : INFO - [<selenium.webdriver.remote.webelement.WebElement (session="56858b276f878e1e6cc8a1bf80408468", element="f.DCF2C1CED406AEAF2DAC546E0822EF70.d.747113CB2121B38338BA171201D98EA6.e.534")>, <selenium.webdriver.remote.webelement.WebElement (session="56858b276f878e1e6cc8a1bf80408468", element="f.DCF2C1CED406AEAF2DAC546E0822EF70.d.747113CB2121B38338BA171201D98EA6.e.510")>, <selenium.webdriver.remote.webelement.WebElement (session="56858b276f878e1e6cc8a1bf80408468", element="f.DCF2C1CED406AEAF2DAC546E0822EF70.d.747113CB2121B38338BA171201D98EA6.e.535")>]
+                             
+2024-10-04 17:48:04.203112 : INFO - 0
+                             
+2024-10-04 17:48:06.235902 : INFO - 1
+                             
+2024-10-04 17:48:08.273734 : INFO - 2
+                             
+2024-10-04 17:48:16.528539 : INFO - https://fischer.stg.dtweb.cz//poukazy-benefity/darkove-poukazy
+                             
+2024-10-04 17:48:36.203468 : INFO - 0
+                             
+2024-10-04 17:48:38.241942 : INFO - 1
+                             
+2024-10-04 17:48:40.269597 : INFO - 2
+                             
+2024-10-04 17:48:45.641900 : INFO - https://fischer.stg.dtweb.cz//poukazy-benefity/darkove-poukazy
+                             
+2024-10-04 17:49:19.841504 : INFO - https://gw.sandbox.gopay.com/gp-gw/cs/desktop/web2/card
+                             

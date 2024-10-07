@@ -1,0 +1,667 @@
+2023-04-24 08:57:04.362664 : 
+                             
+                             
+2023-04-24 08:57:04.362664 : ====== WebDriver manager ======
+                             
+2023-04-24 08:57:04.412615 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 08:57:04.412615 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 08:57:04.554686 : Trying to download new driver from https://chromedriver.storage.googleapis.com/112.0.5615.49/chromedriver_win32.zip
+                             
+2023-04-24 08:57:04.939866 : Driver has been saved in cache [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49]
+                             
+2023-04-24 08:57:20.886362 : <selenium.webdriver.remote.webelement.WebElement (session="8096cc421123f7c9a984a4857c3de1f2", element="26238b4a-ae22-4a7c-bf31-7aae8c1e5cc3")>
+2023-04-24 08:57:21.104733 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="8096cc421123f7c9a984a4857c3de1f2", element="cc23d133-db64-4930-98af-d11ceafc0a1f")>>
+2023-04-24 08:57:21.260318 : https://kartagohu.web1.dtweb.cz/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tt=1&ttm=1#/prehled
+2023-04-24 08:57:23.587472 : 
+                             
+                             
+2023-04-24 08:57:23.587472 : ====== WebDriver manager ======
+                             
+2023-04-24 08:57:23.633098 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 08:57:23.633098 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 08:57:23.716243 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 08:57:29.733371 : <selenium.webdriver.remote.webelement.WebElement (session="6dfe0b388d750e08e705fd58ab59e08e", element="1e9b600e-d379-46aa-b4dd-0c7227577620")>
+2023-04-24 08:57:57.572700 : nenasle se exponea banner
+2023-04-24 08:57:57.697925 : its ok
+2023-04-24 08:57:57.702912 : https://img.fischer.cz/hotels/egypt/oblast-marsa-alam/marsa-alam/blue-reef-resort/273357.jpg
+2023-04-24 08:57:59.850079 : 
+                             
+                             
+2023-04-24 08:57:59.850079 : ====== WebDriver manager ======
+                             
+2023-04-24 08:57:59.886864 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 08:57:59.886864 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 08:57:59.976084 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 08:58:08.025366 : <selenium.webdriver.remote.webelement.WebElement (session="b4674d50e593eceb4b02cb87afcd825d", element="00c4ac78-49dd-4798-a25b-0ad4b0159c51")>
+2023-04-24 08:58:14.338898 : else departure not true
+2023-04-24 08:58:22.804971 : all inclusive
+2023-04-24 08:58:24.806809 : 0
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ok
+2023-04-24 08:58:24.975837 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-04-24 08:58:44.990253 : https://kartagohu.web1.dtweb.cz/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&mtm=5&nnm=7&tt=1&ttm=1#/terminy-a-ceny
+2023-04-24 08:58:47.097204 : 
+                             
+                             
+2023-04-24 08:58:47.097204 : ====== WebDriver manager ======
+                             
+2023-04-24 08:58:47.128462 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 08:58:47.128462 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 08:58:47.222857 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 08:58:54.215474 : <selenium.webdriver.remote.webelement.WebElement (session="a84f439b7b7e8dbdf334917208994701", element="4e567e57-b6c5-4505-a932-d0cfc98d5b00")>
+2023-04-24 08:59:00.547374 : if departure==True
+2023-04-24 08:59:16.813361 : equal to budapest
+2023-04-24 08:59:16.843815 : equal to budapest
+2023-04-24 08:59:16.870958 : equal to budapest
+2023-04-24 08:59:16.900066 : equal to budapest
+2023-04-24 08:59:16.927347 : equal to budapest
+2023-04-24 08:59:16.956615 : equal to budapest
+2023-04-24 08:59:16.985850 : equal to budapest
+2023-04-24 08:59:17.014132 : equal to budapest
+2023-04-24 08:59:17.041845 : equal to budapest
+2023-04-24 08:59:17.070384 : equal to budapest
+2023-04-24 08:59:17.097727 : equal to budapest
+2023-04-24 08:59:17.371600 : https://kartagohu.web1.dtweb.cz/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tom=489&tt=1&ttm=1#/terminy-a-ceny
+2023-04-24 08:59:19.511131 : 
+                             
+                             
+2023-04-24 08:59:19.511131 : ====== WebDriver manager ======
+                             
+2023-04-24 08:59:19.538535 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 08:59:19.538535 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 08:59:19.621350 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 08:59:25.849181 : <selenium.webdriver.remote.webelement.WebElement (session="b6fe66a001e6cccb1864185259a93aeb", element="928944c2-21ac-4cfd-94a2-508e4e29c754")>
+2023-04-24 08:59:29.698838 : GÖRÖGORSZÁG
+2023-04-24 08:59:54.768684 : first no such ele except
+2023-04-24 08:59:55.846993 : last no such ele except
+2023-04-24 08:59:59.401859 : TÖRÖKORSZÁG
+2023-04-24 09:00:24.452730 : first no such ele except
+2023-04-24 09:00:26.298102 : last no such ele except
+2023-04-24 09:00:29.923305 : EGYIPTOM
+2023-04-24 09:00:55.006879 : first no such ele except
+2023-04-24 09:00:55.863554 : last no such ele except
+2023-04-24 09:00:59.381100 : BULGÁRIA
+2023-04-24 09:01:24.441970 : first no such ele except
+2023-04-24 09:01:25.429557 : last no such ele except
+2023-04-24 09:01:25.576166 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?DS=0&ac1=2&d=63483|63484|63485|63486&dd=2023-06-01&nn=7|8|9&rd=2023-08-01&to=489|4371&tt=0
+2023-04-24 09:01:27.715289 : 
+                             
+                             
+2023-04-24 09:01:27.715289 : ====== WebDriver manager ======
+                             
+2023-04-24 09:01:27.750431 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:01:27.750431 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:01:27.835859 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:01:37.178753 : <selenium.webdriver.remote.webelement.WebElement (session="fa8581188625e2f223f37418d9c34df1", element="dee4c7ce-13de-4ddd-9454-41dbbbcb4282")>
+2023-04-24 09:01:37.420108 : GÖRÖGORSZÁG
+2023-04-24 09:01:40.860609 : TÖRÖKORSZÁG
+2023-04-24 09:01:42.815278 : EGYIPTOM
+2023-04-24 09:01:44.664978 : BULGÁRIA
+2023-04-24 09:02:10.896779 : https://kartagohu.web1.dtweb.cz//kereses?q=Bulg%C3%A1ria
+2023-04-24 09:02:13.020228 : 
+                             
+                             
+2023-04-24 09:02:13.020228 : ====== WebDriver manager ======
+                             
+2023-04-24 09:02:13.045755 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:02:13.045755 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:02:13.165494 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:02:19.136068 : <selenium.webdriver.remote.webelement.WebElement (session="9d2f96d7d69eae9b68977347105756ba", element="bbc7f507-2841-4b18-8faf-0f17e08ea25a")>
+2023-04-24 09:02:20.070572 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?dd=2022-09-01&nn=7|8|9&rd=2022-10-31&to=489&tt=1
+2023-04-24 09:02:22.229431 : 
+                             
+                             
+2023-04-24 09:02:22.229431 : ====== WebDriver manager ======
+                             
+2023-04-24 09:02:22.255682 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:02:22.256679 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:02:22.342596 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:02:33.497197 : <selenium.webdriver.remote.webelement.WebElement (session="9d2bd9b5779d30cde317b063c167f949", element="a362b193-4144-4b7e-bc46-480b81cdbcf3")>
+2023-04-24 09:02:37.717188 : https://kartagohu.web1.dtweb.cz/
+2023-04-24 09:02:39.819214 : 
+                             
+                             
+2023-04-24 09:02:39.819214 : ====== WebDriver manager ======
+                             
+2023-04-24 09:02:39.846567 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:02:39.846567 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:02:39.940711 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:02:53.312054 : <selenium.webdriver.remote.webelement.WebElement (session="c0755c396f0759e11c7218feae7e3ea3", element="26daa9c5-20ab-4f9d-b2a7-f94f97759c51")>
+2023-04-24 09:02:56.293795 : https://kartagohu.web1.dtweb.cz/last-minute
+2023-04-24 09:02:58.398829 : 
+                             
+                             
+2023-04-24 09:02:58.398829 : ====== WebDriver manager ======
+                             
+2023-04-24 09:02:58.427153 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:02:58.427153 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:02:58.511143 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:03:08.084862 : <selenium.webdriver.remote.webelement.WebElement (session="4fe8f0a4c71a1603fdd9a8a356013c93", element="d041fbc9-e8cf-4a3c-8574-7d6d29d76ae8")>
+2023-04-24 09:03:35.480377 : basic info 
+2023-04-24 09:03:35.489429 : basic info 
+2023-04-24 09:03:35.497743 : basic info 
+2023-04-24 09:03:35.505961 : basic info 
+2023-04-24 09:03:35.514268 : basic info 
+2023-04-24 09:03:35.522532 : basic info 
+2023-04-24 09:03:35.530552 : basic info 
+2023-04-24 09:03:35.556395 : boxiky
+2023-04-24 09:03:35.564942 : boxiky
+2023-04-24 09:03:35.573105 : boxiky
+2023-04-24 09:03:35.581084 : boxiky
+2023-04-24 09:03:35.589062 : boxiky
+2023-04-24 09:03:35.597041 : boxiky
+2023-04-24 09:03:35.605020 : boxiky
+2023-04-24 09:03:35.612999 : boxiky
+2023-04-24 09:03:35.621974 : boxiky
+2023-04-24 09:03:35.629954 : boxiky
+2023-04-24 09:03:35.638929 : boxiky
+2023-04-24 09:03:35.646908 : boxiky
+2023-04-24 09:03:35.654886 : boxiky
+2023-04-24 09:03:35.662881 : boxiky
+2023-04-24 09:03:35.674870 : https://kartagohu.web1.dtweb.cz/irodaink
+2023-04-24 09:03:37.822804 : 
+                             
+                             
+2023-04-24 09:03:37.823800 : ====== WebDriver manager ======
+                             
+2023-04-24 09:03:37.851709 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:03:37.851709 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:03:37.934707 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:03:55.488134 : <selenium.webdriver.remote.webelement.WebElement (session="2b705abcd46267ad0d89ea9d31c0246c", element="914babca-3033-4a68-a688-7c3df2cb95dd")>
+2023-04-24 09:03:56.747756 : https://kartagohu.web1.dtweb.cz/egyiptom
+2023-04-24 09:03:58.888607 : 
+                             
+                             
+2023-04-24 09:03:58.888607 : ====== WebDriver manager ======
+                             
+2023-04-24 09:03:58.914750 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:03:58.914750 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:03:59.000437 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:04:08.134527 : <selenium.webdriver.remote.webelement.WebElement (session="be9d01227d90665579bb2fc4bdc9f31b", element="467d0877-4cfc-46b8-a2f0-e633df221c93")>
+2023-04-24 09:04:19.294884 : Cheap sorter is OK
+2023-04-24 09:04:19.294884 : LIST FROM WEB:
+2023-04-24 09:04:19.294884 : [383600, 399800, 407600, 412600, 412600, 412600, 414400, 418600, 428200, 428800, 430200, 430800, 432800, 439200, 440400, 442000, 444800, 445000, 460000, 461400]
+2023-04-24 09:04:19.294884 : CORRECTLY SORTED LIST
+2023-04-24 09:04:19.294884 : [383600, 399800, 407600, 412600, 412600, 412600, 414400, 418600, 428200, 428800, 430200, 430800, 432800, 439200, 440400, 442000, 444800, 445000, 460000, 461400]
+2023-04-24 09:04:19.300578 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&sortby=PriceTotal&to=489|4371&tt=1
+2023-04-24 09:04:21.424366 : 
+                             
+                             
+2023-04-24 09:04:21.425330 : ====== WebDriver manager ======
+                             
+2023-04-24 09:04:21.484106 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:04:21.484106 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:04:21.568719 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:04:29.694001 : <selenium.webdriver.remote.webelement.WebElement (session="7e3c3a66611031406249779041289faf", element="9e798983-d71f-4ffd-9b34-7cdf2234e75e")>
+2023-04-24 09:04:43.374107 : Expensive sorter is OK
+2023-04-24 09:04:43.374107 : LIST FROM WEB:
+2023-04-24 09:04:43.374107 : [817600, 802000, 746400, 739400, 739400, 727200, 716000, 715600, 715200, 713800, 695600, 685600, 679000, 678400, 651800, 650800, 649400, 638000, 633000, 629400]
+2023-04-24 09:04:43.374107 : CORRECTLY SORTED LIST
+2023-04-24 09:04:43.374107 : [817600, 802000, 746400, 739400, 739400, 727200, 716000, 715600, 715200, 713800, 695600, 685600, 679000, 678400, 651800, 650800, 649400, 638000, 633000, 629400]
+2023-04-24 09:04:43.379093 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&sortby=PriceTotal&sortorder=1&to=489|4371&tt=1
+2023-04-24 09:04:45.496969 : 
+                             
+                             
+2023-04-24 09:04:45.496969 : ====== WebDriver manager ======
+                             
+2023-04-24 09:04:45.524195 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:04:45.524195 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:04:45.608073 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:04:51.630100 : <selenium.webdriver.remote.webelement.WebElement (session="c9c13a13f4ab3cb24b7e5737ca6ebb77", element="235054ce-c05f-49aa-9512-b63f01a1f942")>
+2023-04-24 09:05:28.955393 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-24 09:05:57.248669 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-24 09:06:25.502587 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-24 09:06:55.105841 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-04-24 09:07:28.642502 : actually OK
+2023-04-24 09:07:33.817376 : https://kartagohu.web1.dtweb.cz/tunezia/tunezia-(szarazfold)/hammamet/le-sultan?DS=65536&GIATA=5754&D=63252|63447&HID=4796&PF=0&PT=13000144&MT=5&NN=7&DF=2023-06-01|2023-07-31&RD=2023-06-09&DD=2023-06-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=489&TO=489|4371&TOM=489|4371&MNN=7&NNM=7|8|9&TT=1&TTM=1&PID=MIR90023&DPR=KARTAGO-HU-ATCOM
+2023-04-24 09:07:33.817376 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-04-24 09:07:33.821365 : https://kartagohu.web1.dtweb.cz/tunezia/tunezia-(szarazfold)/hammamet/le-sultan?DS=65536&GIATA=5754&D=63252|63447&HID=4796&PF=0&PT=13000144&MT=5&NN=7&DF=2023-06-01|2023-07-31&RD=2023-06-09&DD=2023-06-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=489&TO=489|4371&TOM=489|4371&MNN=7&NNM=7|8|9&TT=1&TTM=1&PID=MIR90023&DPR=KARTAGO-HU-ATCOM
+2023-04-24 09:07:36.982361 : 
+                             
+                             
+2023-04-24 09:07:36.982361 : ====== WebDriver manager ======
+                             
+2023-04-24 09:07:37.020778 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:07:37.020778 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:07:37.137822 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:07:45.569353 : <selenium.webdriver.remote.webelement.WebElement (session="4b79c64da1996f972e445e53d187e54f", element="d22312d4-45c3-4878-9960-233b4e1cef51")>
+2023-04-24 09:07:51.893844 : 0
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ok
+2023-04-24 09:07:52.191935 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive']
+2023-04-24 09:07:52.196952 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&m=5&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-04-24 09:07:54.357946 : 
+                             
+                             
+2023-04-24 09:07:54.357946 : ====== WebDriver manager ======
+                             
+2023-04-24 09:07:54.389454 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:07:54.389454 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:07:54.473273 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:08:02.469497 : <selenium.webdriver.remote.webelement.WebElement (session="f4a373108714de8d9c9dd4ec0feacbd1", element="7b6b9b2e-4505-43c4-9094-4560d1a39ef0")>
+2023-04-24 09:08:31.195967 : nenasle se exponea banner
+2023-04-24 09:08:31.228015 : |||||HOTEL CISLO|||||||
+2023-04-24 09:08:31.228015 : 1
+2023-04-24 09:08:31.228015 : 1
+2023-04-24 09:08:31.228015 : 1
+2023-04-24 09:08:31.433455 : 206 300 ft
+2023-04-24 09:08:59.239236 : nenasle se exponea banner
+2023-04-24 09:09:25.342462 : All Inclusive
+2023-04-24 09:09:25.426540 : 206 300 ft
+2023-04-24 09:09:25.426540 : pokoje sedi srl vs detail
+2023-04-24 09:09:25.426540 : stravy sedi srl vs detail
+2023-04-24 09:09:25.426540 : ceny all sedi srl vs detail
+2023-04-24 09:09:25.426540 :  cena adult sedi srl vs detail
+2023-04-24 09:09:25.440505 : 1
+2023-04-24 09:09:25.441503 : 2
+2023-04-24 09:09:25.441503 : |||||HOTEL CISLO|||||||
+2023-04-24 09:09:25.441503 : 2
+2023-04-24 09:09:25.441503 : 2
+2023-04-24 09:09:25.441503 : 2
+2023-04-24 09:09:25.720424 : 263 900 ft
+2023-04-24 09:09:53.505443 : nenasle se exponea banner
+2023-04-24 09:10:19.558969 : All Inclusive
+2023-04-24 09:10:19.645168 : 263 900 ft
+2023-04-24 09:10:19.645168 : pokoje sedi srl vs detail
+2023-04-24 09:10:19.645168 : stravy sedi srl vs detail
+2023-04-24 09:10:19.645168 : ceny all sedi srl vs detail
+2023-04-24 09:10:19.645168 :  cena adult sedi srl vs detail
+2023-04-24 09:10:19.657856 : 2
+2023-04-24 09:10:19.657856 : 3
+2023-04-24 09:10:19.657856 : |||||HOTEL CISLO|||||||
+2023-04-24 09:10:19.657856 : 3
+2023-04-24 09:10:19.657856 : 3
+2023-04-24 09:10:19.657856 : 3
+2023-04-24 09:10:19.935264 : 245 200 ft
+2023-04-24 09:10:47.823616 : nenasle se exponea banner
+2023-04-24 09:11:13.962795 : All Inclusive
+2023-04-24 09:11:14.050090 : 245 200 ft
+2023-04-24 09:11:14.050090 : pokoje sedi srl vs detail
+2023-04-24 09:11:14.050090 : stravy sedi srl vs detail
+2023-04-24 09:11:14.050090 : ceny all sedi srl vs detail
+2023-04-24 09:11:14.050090 :  cena adult sedi srl vs detail
+2023-04-24 09:11:14.063529 : 3
+2023-04-24 09:11:14.063529 : 4
+2023-04-24 09:11:14.063529 : |||||HOTEL CISLO|||||||
+2023-04-24 09:11:14.063529 : 4
+2023-04-24 09:11:14.063529 : 4
+2023-04-24 09:11:14.063529 : 4
+2023-04-24 09:11:14.365069 : 206 300 ft
+2023-04-24 09:11:41.881954 : nenasle se exponea banner
+2023-04-24 09:12:08.001706 : All Inclusive
+2023-04-24 09:12:08.086478 : 206 300 ft
+2023-04-24 09:12:08.086478 : pokoje sedi srl vs detail
+2023-04-24 09:12:08.086478 : stravy sedi srl vs detail
+2023-04-24 09:12:08.086478 : ceny all sedi srl vs detail
+2023-04-24 09:12:08.086478 :  cena adult sedi srl vs detail
+2023-04-24 09:12:08.099149 : 4
+2023-04-24 09:12:08.099149 : 5
+2023-04-24 09:12:08.099149 : |||||HOTEL CISLO|||||||
+2023-04-24 09:12:08.099149 : 5
+2023-04-24 09:12:08.099149 : 5
+2023-04-24 09:12:08.099149 : 5
+2023-04-24 09:12:08.427148 : 282 800 ft
+2023-04-24 09:12:35.990791 : nenasle se exponea banner
+2023-04-24 09:13:02.085249 : All Inclusive
+2023-04-24 09:13:02.170895 : 282 800 ft
+2023-04-24 09:13:02.170895 : pokoje sedi srl vs detail
+2023-04-24 09:13:02.170895 : stravy sedi srl vs detail
+2023-04-24 09:13:02.170895 : ceny all sedi srl vs detail
+2023-04-24 09:13:02.170895 :  cena adult sedi srl vs detail
+2023-04-24 09:13:02.185127 : 5
+2023-04-24 09:13:02.185127 : 6
+2023-04-24 09:13:02.185127 : |||||HOTEL CISLO|||||||
+2023-04-24 09:13:02.185127 : 6
+2023-04-24 09:13:02.185127 : 6
+2023-04-24 09:13:02.185127 : 6
+2023-04-24 09:13:02.522521 : 339 500 ft
+2023-04-24 09:13:30.739117 : nenasle se exponea banner
+2023-04-24 09:13:56.906677 : All Inclusive
+2023-04-24 09:13:57.024913 : 339 500 ft
+2023-04-24 09:13:57.024913 : pokoje sedi srl vs detail
+2023-04-24 09:13:57.024913 : stravy sedi srl vs detail
+2023-04-24 09:13:57.024913 : ceny all sedi srl vs detail
+2023-04-24 09:13:57.024913 :  cena adult sedi srl vs detail
+2023-04-24 09:13:57.039402 : 6
+2023-04-24 09:13:57.039402 : 7
+2023-04-24 09:13:57.039402 : |||||HOTEL CISLO|||||||
+2023-04-24 09:13:57.039402 : 7
+2023-04-24 09:13:57.039402 : 7
+2023-04-24 09:13:57.039402 : 7
+2023-04-24 09:13:57.248843 : 206 300 ft
+2023-04-24 09:14:24.903415 : nenasle se exponea banner
+2023-04-24 09:14:51.004060 : All Inclusive
+2023-04-24 09:14:51.086835 : 206 300 ft
+2023-04-24 09:14:51.086835 : pokoje sedi srl vs detail
+2023-04-24 09:14:51.086835 : stravy sedi srl vs detail
+2023-04-24 09:14:51.086835 : ceny all sedi srl vs detail
+2023-04-24 09:14:51.086835 :  cena adult sedi srl vs detail
+2023-04-24 09:14:51.100505 : 7
+2023-04-24 09:14:51.100505 : 8
+2023-04-24 09:14:51.108484 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-04-24 09:14:53.623849 : 
+                             
+                             
+2023-04-24 09:14:53.623849 : ====== WebDriver manager ======
+                             
+2023-04-24 09:14:53.663993 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:14:53.663993 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:14:53.790884 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:15:00.430661 : <selenium.webdriver.remote.webelement.WebElement (session="ce5fc2653952401722542e4b2973465a", element="184b3c1d-be46-4f5a-871c-41bb164d5a71")>
+2023-04-24 09:15:00.789702 : True
+2023-04-24 09:15:00.802668 : True
+2023-04-24 09:15:00.811643 : True
+2023-04-24 09:15:00.886444 : True
+2023-04-24 09:15:00.974209 : True
+2023-04-24 09:15:01.035048 : True
+2023-04-24 09:15:01.069954 : True
+2023-04-24 09:15:01.121815 : True
+2023-04-24 09:15:01.130792 : True
+2023-04-24 09:15:01.186643 : True
+2023-04-24 09:15:01.288370 : True
+2023-04-24 09:15:01.341230 : True
+2023-04-24 09:15:01.383118 : True
+2023-04-24 09:15:01.417028 : True
+2023-04-24 09:15:01.479860 : True
+2023-04-24 09:15:01.493822 : True
+2023-04-24 09:15:01.506788 : True
+2023-04-24 09:15:01.518755 : True
+2023-04-24 09:15:01.535710 : True
+2023-04-24 09:15:01.544686 : True
+2023-04-24 09:15:01.763103 : True
+2023-04-24 09:15:01.773077 : True
+2023-04-24 09:15:01.785044 : True
+2023-04-24 09:15:01.792026 : True
+2023-04-24 09:15:01.852863 : True
+2023-04-24 09:15:01.876799 : True
+2023-04-24 09:15:01.885775 : True
+2023-04-24 09:15:01.895748 : True
+2023-04-24 09:15:01.903728 : True
+2023-04-24 09:15:01.912704 : True
+2023-04-24 09:15:01.919685 : True
+2023-04-24 09:15:01.930656 : True
+2023-04-24 09:15:01.942623 : True
+2023-04-24 09:15:01.949605 : True
+2023-04-24 09:15:01.959579 : True
+2023-04-24 09:15:01.971547 : True
+2023-04-24 09:15:01.979525 : True
+2023-04-24 09:15:01.988501 : True
+2023-04-24 09:15:01.996480 : True
+2023-04-24 09:15:02.006453 : True
+2023-04-24 09:15:02.068288 : ceny
+2023-04-24 09:15:02.075269 : ceny
+2023-04-24 09:15:02.085243 : ceny
+2023-04-24 09:15:02.097211 : ceny
+2023-04-24 09:15:02.104192 : ceny
+2023-04-24 09:15:02.114165 : ceny
+2023-04-24 09:15:02.128129 : ceny
+2023-04-24 09:15:02.136107 : ceny
+2023-04-24 09:15:02.145083 : ceny
+2023-04-24 09:15:02.154060 : ceny
+2023-04-24 09:15:02.163035 : ceny
+2023-04-24 09:15:02.173008 : ceny
+2023-04-24 09:15:02.180988 : ceny
+2023-04-24 09:15:02.191958 : ceny
+2023-04-24 09:15:02.205920 : ceny
+2023-04-24 09:15:02.214897 : ceny
+2023-04-24 09:15:02.226865 : ceny
+2023-04-24 09:15:02.236838 : ceny
+2023-04-24 09:15:02.243819 : ceny
+2023-04-24 09:15:02.254790 : ceny
+2023-04-24 09:15:02.263766 : ceny
+2023-04-24 09:15:02.273739 : ceny
+2023-04-24 09:15:02.285708 : ceny
+2023-04-24 09:15:02.292689 : ceny
+2023-04-24 09:15:02.302662 : ceny
+2023-04-24 09:15:02.314630 : ceny
+2023-04-24 09:15:02.322609 : ceny
+2023-04-24 09:15:02.332582 : ceny
+2023-04-24 09:15:02.339564 : ceny
+2023-04-24 09:15:02.351532 : ceny
+2023-04-24 09:15:02.361505 : ceny
+2023-04-24 09:15:02.369484 : ceny
+2023-04-24 09:15:02.379457 : ceny
+2023-04-24 09:15:02.386439 : ceny
+2023-04-24 09:15:02.396412 : ceny
+2023-04-24 09:15:02.408380 : ceny
+2023-04-24 09:15:02.417356 : ceny
+2023-04-24 09:15:02.427330 : ceny
+2023-04-24 09:15:02.435308 : ceny
+2023-04-24 09:15:02.446279 : ceny
+2023-04-24 09:15:02.486172 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-04-24 09:15:04.637431 : 
+                             
+                             
+2023-04-24 09:15:04.637431 : ====== WebDriver manager ======
+                             
+2023-04-24 09:15:04.675353 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:15:04.675353 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:15:04.759528 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:15:11.207019 : <selenium.webdriver.remote.webelement.WebElement (session="0ad959d864aef3b845bd14553f664e8c", element="66408183-9849-4930-8c90-47212e5fc892")>
+2023-04-24 09:15:22.760334 : True
+2023-04-24 09:15:22.794243 : True
+2023-04-24 09:15:22.802239 : True
+2023-04-24 09:15:22.843113 : True
+2023-04-24 09:15:22.855912 : True
+2023-04-24 09:15:22.872896 : True
+2023-04-24 09:15:22.880845 : True
+2023-04-24 09:15:22.891559 : True
+2023-04-24 09:15:22.902362 : True
+2023-04-24 09:15:22.909383 : True
+2023-04-24 09:15:22.920620 : True
+2023-04-24 09:15:22.928329 : True
+2023-04-24 09:15:22.938263 : True
+2023-04-24 09:15:22.948688 : True
+2023-04-24 09:15:22.955972 : True
+2023-04-24 09:15:22.966860 : True
+2023-04-24 09:15:22.975041 : True
+2023-04-24 09:15:22.984962 : True
+2023-04-24 09:15:22.995918 : True
+2023-04-24 09:15:23.003147 : True
+2023-04-24 09:15:23.077924 : True
+2023-04-24 09:15:23.089036 : True
+2023-04-24 09:15:23.097641 : True
+2023-04-24 09:15:23.107768 : True
+2023-04-24 09:15:23.116363 : True
+2023-04-24 09:15:23.126087 : True
+2023-04-24 09:15:23.139499 : True
+2023-04-24 09:15:23.148580 : True
+2023-04-24 09:15:23.158078 : True
+2023-04-24 09:15:23.166371 : True
+2023-04-24 09:15:23.176332 : True
+2023-04-24 09:15:23.187256 : True
+2023-04-24 09:15:23.195272 : True
+2023-04-24 09:15:23.205265 : True
+2023-04-24 09:15:23.216473 : True
+2023-04-24 09:15:23.224640 : True
+2023-04-24 09:15:23.235168 : True
+2023-04-24 09:15:23.243582 : True
+2023-04-24 09:15:23.254551 : True
+2023-04-24 09:15:23.265523 : True
+2023-04-24 09:15:23.333341 : ceny
+2023-04-24 09:15:23.344338 : ceny
+2023-04-24 09:15:23.353288 : ceny
+2023-04-24 09:15:23.363276 : ceny
+2023-04-24 09:15:23.373235 : ceny
+2023-04-24 09:15:23.383209 : ceny
+2023-04-24 09:15:23.394201 : ceny
+2023-04-24 09:15:23.404151 : ceny
+2023-04-24 09:15:23.415127 : ceny
+2023-04-24 09:15:23.425096 : ceny
+2023-04-24 09:15:23.436066 : ceny
+2023-04-24 09:15:23.445043 : ceny
+2023-04-24 09:15:23.456036 : ceny
+2023-04-24 09:15:23.467981 : ceny
+2023-04-24 09:15:23.475969 : ceny
+2023-04-24 09:15:23.486931 : ceny
+2023-04-24 09:15:23.496905 : ceny
+2023-04-24 09:15:23.508872 : ceny
+2023-04-24 09:15:23.517857 : ceny
+2023-04-24 09:15:23.527821 : ceny
+2023-04-24 09:15:23.536797 : ceny
+2023-04-24 09:15:23.547768 : ceny
+2023-04-24 09:15:23.557741 : ceny
+2023-04-24 09:15:23.566731 : ceny
+2023-04-24 09:15:23.577688 : ceny
+2023-04-24 09:15:23.587662 : ceny
+2023-04-24 09:15:23.596638 : ceny
+2023-04-24 09:15:23.607608 : ceny
+2023-04-24 09:15:23.618579 : ceny
+2023-04-24 09:15:23.628552 : ceny
+2023-04-24 09:15:23.638526 : ceny
+2023-04-24 09:15:23.651492 : ceny
+2023-04-24 09:15:23.660474 : ceny
+2023-04-24 09:15:23.671466 : ceny
+2023-04-24 09:15:23.681411 : ceny
+2023-04-24 09:15:23.690388 : ceny
+2023-04-24 09:15:23.700362 : ceny
+2023-04-24 09:15:23.711331 : ceny
+2023-04-24 09:15:23.719784 : ceny
+2023-04-24 09:15:23.730233 : ceny
+2023-04-24 09:15:23.773740 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=64419|64420|64425&dd=2023-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-04-24 09:15:25.905785 : 
+                             
+                             
+2023-04-24 09:15:25.905785 : ====== WebDriver manager ======
+                             
+2023-04-24 09:15:25.941161 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:15:25.941161 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:15:26.026192 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:15:32.247633 : <selenium.webdriver.remote.webelement.WebElement (session="fd6995c52b545497fab2784541167916", element="245370ff-df6c-4ad6-b4db-227f2a7021a1")>
+2023-04-24 09:15:35.924525 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?dd=2023-04-24&nn=7|8|9&rd=2023-06-24&to=489|4371&tt=0
+2023-04-24 09:15:38.030540 : 
+                             
+                             
+2023-04-24 09:15:38.030540 : ====== WebDriver manager ======
+                             
+2023-04-24 09:15:38.063635 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:15:38.063635 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:15:38.150817 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:15:46.059885 : <selenium.webdriver.remote.webelement.WebElement (session="a8ba8c8db6fcf913a60739c844feea1a", element="399c16cb-ed90-4be1-819b-daf36dbc17c6")>
+2023-04-24 09:15:53.281897 : ['04.30. (V) / 7 éjszaka\nHurghada (Egyiptom)\nBudapest\n219 000 Ft /fõtõl', '05.07. (V) / 7 éjszaka\nHurghada (Egyiptom)\nBudapest\n233 000 Ft /fõtõl', '05.12. (P) / 7 éjszaka\nTunézia (szárazföld) (Tunézia)\nBudapest\n169 900 Ft /fõtõl', '05.14. (V) / 7 éjszaka\nHurghada (Egyiptom)\nBudapest\n233 000 Ft /fõtõl', '05.18. (Cs) / 7 éjszaka\nEgyesült Arab Emírségek (Egyesült Arab Emírségek)\nBudapest\n248 500 Ft /fõtõl', '05.19. (P) / 7 éjszaka\nTunézia (szárazföld) (Tunézia)\nBudapest\n169 900 Ft /fõtõl', '05.26. (P) / 7 éjszaka\nTunézia (szárazföld) (Tunézia)\nBudapest\n178 900 Ft /fõtõl']
+2023-04-24 09:15:53.287042 : ['04.30. (V) / 7 éjszaka\nHurghada (Egyiptom)\nBudapest\n219 000 Ft /fõtõl']
+2023-04-24 09:15:53.291986 : https://kartagohu.web1.dtweb.cz/
+2023-04-24 09:15:55.403513 : 
+                             
+                             
+2023-04-24 09:15:55.403513 : ====== WebDriver manager ======
+                             
+2023-04-24 09:15:55.430439 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:15:55.430439 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:15:55.515489 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:16:03.481551 : <selenium.webdriver.remote.webelement.WebElement (session="39c1cf4fe7e9f6276410bbbd75acb47a", element="cb971499-27a4-410e-950c-41f97c8e0086")>
+2023-04-24 09:16:14.881019 : https://kartagohu.web1.dtweb.cz/egyiptom/hurghada/hurghada/sphinx-resort?DS=65536&GIATA=227874&D=64419|64420|64425|63219|63281|63311|63314|63316|63324|63362|63373|63402|63409|63431|63471|211801|211814|63260|63288|63448|63252|63447&HID=9205&MT=5&MMT=5&NN=7&DF=2023-05-01|2023-06-30&RD=2023-05-14&DD=2023-05-07&ERM=0&AC1=2&KC1=1&KA1=6&IC1=0&DP=489&TO=489|4371&TOM=489|4371&MNN=7&NNM=7|8|9|10|11|12|13|14&TT=1&TTM=1&PID=HRG90026&DPR=KARTAGO-HU-ATCOM
+2023-04-24 09:16:17.032525 : 
+                             
+                             
+2023-04-24 09:16:17.032525 : ====== WebDriver manager ======
+                             
+2023-04-24 09:16:17.058446 : Current google-chrome version is 112.0.5615
+                             
+2023-04-24 09:16:17.058446 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-24 09:16:17.143229 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-04-24 09:16:28.444503 : <selenium.webdriver.remote.webelement.WebElement (session="df3714528c9c8faacd2f3be7777b7039", element="2bfcd4ac-96da-496a-9f3c-99f7f009681f")>
+2023-04-24 09:17:16.602889 : PROBLEM BANNERS
+2023-04-24 09:17:16.602889 : 52 ajánlat 1 úticélon  ||| VS |||  68 ajánlat 1 úticélon
+2023-04-24 09:17:16.602889 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63232|63249|63250|63280|63289|63251|63325|63345|63381|63401|77804&dd=2023-05-01&nn=5|6|7|8|9&rd=2023-06-30&to=489|4371&tt=3
+2023-04-24 09:17:16.602889 : https://kartagohu.web1.dtweb.cz/keresesi-eredmenyek?ac1=2&d=63232|63249|63250|63280|63289|63251|63325|63345|63381|63401|77804&dd=2023-05-01&nn=5|6|7|8|9&rd=2023-06-30&to=489|4371&tt=3
+2023-04-24 09:17:16.602889 : ----------------------------------------
+2023-04-24 09:17:31.902264 : ------------------------------------------
+2023-04-24 09:17:31.902264 : LIST FROM PUBLIC WWW PRODUCTION https://www.kartagotours.hu/
+2023-04-24 09:17:31.902264 : ['', '141 ajánlat 1 úticélon', '52 ajánlat 1 úticélon', '90 ajánlat 1 úticélon', '49 ajánlat 1 úticélon', '54 ajánlat 1 úticélon']
+2023-04-24 09:17:31.902264 : ------------------------------------------
+2023-04-24 09:17:31.902264 : LIST FROM DEPLOYING WEB https://kartagohu.web1.dtweb.cz/
+2023-04-24 09:17:31.902264 : ['', '141 ajánlat 1 úticélon', '68 ajánlat 1 úticélon', '90 ajánlat 1 úticélon', '49 ajánlat 1 úticélon', '54 ajánlat 1 úticélon']
+2023-04-24 09:17:31.907067 : https://kartagohu.web1.dtweb.cz/

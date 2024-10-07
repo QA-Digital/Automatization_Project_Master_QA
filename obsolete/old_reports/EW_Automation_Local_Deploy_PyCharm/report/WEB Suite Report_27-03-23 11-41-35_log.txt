@@ -1,0 +1,98 @@
+2023-03-27 11:41:35.671790 : 
+                             
+                             
+2023-03-27 11:41:35.671790 : ====== WebDriver manager ======
+                             
+2023-03-27 11:41:35.709669 : Current google-chrome version is 111.0.5563
+                             
+2023-03-27 11:41:35.710657 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-03-27 11:41:35.799345 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-03-27 11:41:40.642636 : <selenium.webdriver.remote.webelement.WebElement (session="08b31b9845e3a984a1d84d6d59c97018", element="6981b1d5-a6f3-44f1-b1fe-9229c883574a")>
+2023-03-27 11:41:41.837979 : gridy jdou videt
+2023-03-27 11:41:41.847043 : gridy jdou videt
+2023-03-27 11:41:41.855567 : gridy jdou videt
+2023-03-27 11:41:41.864142 : gridy jdou videt
+2023-03-27 11:41:41.872479 : gridy jdou videt
+2023-03-27 11:41:41.880949 : gridy jdou videt
+2023-03-27 11:41:41.889499 : gridy jdou videt
+2023-03-27 11:41:41.898503 : gridy jdou videt
+2023-03-27 11:41:41.906490 : gridy jdou videt
+2023-03-27 11:41:41.915129 : gridy jdou videt
+2023-03-27 11:41:41.924405 : gridy jdou videt
+2023-03-27 11:41:41.933381 : gridy jdou videt
+2023-03-27 11:41:41.941818 : gridy jdou videt
+2023-03-27 11:41:41.950703 : gridy jdou videt
+2023-03-27 11:41:41.959138 : gridy jdou videt
+2023-03-27 11:41:41.967723 : gridy jdou videt
+2023-03-27 11:41:41.976010 : gridy jdou videt
+2023-03-27 11:41:41.985011 : gridy jdou videt
+2023-03-27 11:41:41.993634 : gridy jdou videt
+2023-03-27 11:41:42.001485 : gridy jdou videt
+2023-03-27 11:41:42.009515 : gridy jdou videt
+2023-03-27 11:41:42.018654 : gridy jdou videt
+2023-03-27 11:41:42.026960 : gridy jdou videt
+2023-03-27 11:41:42.039289 : gridy jdou videt
+2023-03-27 11:41:42.047576 : gridy jdou videt
+2023-03-27 11:41:42.056833 : gridy jdou videt
+2023-03-27 11:41:42.064874 : gridy jdou videt
+2023-03-27 11:41:42.074030 : gridy jdou videt
+2023-03-27 11:41:42.083319 : gridy jdou videt
+2023-03-27 11:41:42.091965 : gridy jdou videt
+2023-03-27 11:41:42.100148 : gridy jdou videt
+2023-03-27 11:41:42.109556 : gridy jdou videt
+2023-03-27 11:41:42.119526 : gridy jdou videt
+2023-03-27 11:41:42.128335 : gridy jdou videt
+2023-03-27 11:41:42.137671 : gridy jdou videt
+2023-03-27 11:41:42.146637 : gridy jdou videt
+2023-03-27 11:41:42.155383 : gridy jdou videt
+2023-03-27 11:41:42.196401 : content jdou videt
+2023-03-27 11:41:42.206025 : content jdou videt
+2023-03-27 11:41:42.214521 : content jdou videt
+2023-03-27 11:41:42.223240 : content jdou videt
+2023-03-27 11:41:42.232564 : content jdou videt
+2023-03-27 11:41:42.241972 : content jdou videt
+2023-03-27 11:41:42.250660 : content jdou videt
+2023-03-27 11:41:42.258344 : content jdou videt
+2023-03-27 11:41:42.267062 : content jdou videt
+2023-03-27 11:41:42.276245 : content jdou videt
+2023-03-27 11:41:42.284935 : content jdou videt
+2023-03-27 11:41:42.293725 : content jdou videt
+2023-03-27 11:41:42.302102 : content jdou videt
+2023-03-27 11:41:42.310730 : content jdou videt
+2023-03-27 11:41:42.319538 : content jdou videt
+2023-03-27 11:41:42.330512 : content jdou videt
+2023-03-27 11:41:42.339479 : content jdou videt
+2023-03-27 11:41:42.348261 : content jdou videt
+2023-03-27 11:41:42.358265 : content jdou videt
+2023-03-27 11:41:42.369205 : content jdou videt
+2023-03-27 11:41:42.378038 : content jdou videt
+2023-03-27 11:41:42.386864 : content jdou videt
+2023-03-27 11:41:42.395820 : content jdou videt
+2023-03-27 11:41:42.404534 : content jdou videt
+2023-03-27 11:41:42.413628 : content jdou videt
+2023-03-27 11:41:42.422210 : content jdou videt
+2023-03-27 11:41:42.430662 : content jdou videt
+2023-03-27 11:41:42.440062 : content jdou videt
+2023-03-27 11:41:42.449286 : content jdou videt
+2023-03-27 11:41:42.458217 : content jdou videt
+2023-03-27 11:41:42.467243 : content jdou videt
+2023-03-27 11:41:42.476039 : content jdou videt
+2023-03-27 11:41:42.486377 : content jdou videt
+2023-03-27 11:41:42.494648 : content jdou videt
+2023-03-27 11:41:42.502998 : content jdou videt
+2023-03-27 11:41:42.512783 : content jdou videt
+2023-03-27 11:41:42.522317 : content jdou videt
+2023-03-27 11:41:42.527863 : https://exim.web11.dtweb.cz/covid-info
+2023-03-27 11:41:44.620603 : 
+                             
+                             
+2023-03-27 11:41:44.620603 : ====== WebDriver manager ======
+                             
+2023-03-27 11:41:44.715313 : Current google-chrome version is 111.0.5563
+                             
+2023-03-27 11:41:44.715313 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-03-27 11:41:44.841437 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             

@@ -1,0 +1,9 @@
+2024-09-25 11:23:46,691 - TestLM_D - INFO - Starting FM/LM tour expansion check.
+2024-09-25 11:23:49,495 - TestLM_D - INFO - Successfully clicked to expand FM/LM tour section.
+2024-09-25 11:23:49,569 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1047")> visibility: True
+2024-09-25 11:23:49,580 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1048")> visibility: True
+2024-09-25 11:23:49,590 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1049")> visibility: True
+2024-09-25 11:23:49,601 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1050")> visibility: True
+2024-09-25 11:23:49,611 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1051")> visibility: True
+2024-09-25 11:23:49,620 - TestLM_D - INFO - FM/LM tour expansion check completed successfully.
+2024-09-25 11:23:49,627 - TestLM_D - INFO - https://fischer.web3.dtweb.cz/last-minute

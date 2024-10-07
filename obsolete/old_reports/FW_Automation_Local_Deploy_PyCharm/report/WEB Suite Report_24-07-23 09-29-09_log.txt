@@ -1,0 +1,1000 @@
+2023-07-24 09:29:09.595772 : 
+                             
+                             
+2023-07-24 09:29:09.595772 : ====== WebDriver manager ======
+                             
+2023-07-24 09:29:09.636277 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:29:09.636277 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:29:09.749450 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:29:15.776884 : http://fischer.dev.dtweb.cz/covid-info
+2023-07-24 09:29:18.126043 : 
+                             
+                             
+2023-07-24 09:29:18.126043 : ====== WebDriver manager ======
+                             
+2023-07-24 09:29:18.156960 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:29:18.156960 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:29:18.245745 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:29:27.388282 : http://fischer.dev.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled
+2023-07-24 09:29:29.623977 : 
+                             
+                             
+2023-07-24 09:29:29.623977 : ====== WebDriver manager ======
+                             
+2023-07-24 09:29:29.662844 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:29:29.662844 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:29:29.745623 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:29:47.213303 : its ok
+2023-07-24 09:29:47.218289 : https://img.fischer.cz/hotels/recko/korfu/roda/angela-beach/uvodni-foto.jpeg
+2023-07-24 09:29:49.354928 : 
+                             
+                             
+2023-07-24 09:29:49.354928 : ====== WebDriver manager ======
+                             
+2023-07-24 09:29:49.386100 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:29:49.386100 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:29:49.470070 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:30:04.048802 : else departure not true
+2023-07-24 09:30:12.478677 : all inclusive
+2023-07-24 09:30:14.486132 : 0
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ok
+2023-07-24 09:30:14.693611 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-07-24 09:30:14.698485 : http://fischer.dev.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-07-24|2023-09-23&mtm=5&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-07-24 09:30:16.838824 : 
+                             
+                             
+2023-07-24 09:30:16.839849 : ====== WebDriver manager ======
+                             
+2023-07-24 09:30:16.874212 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:30:16.874212 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:30:16.957988 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:30:30.998598 : if departure==True
+2023-07-24 09:30:47.382549 : equal to brno
+2023-07-24 09:30:47.417949 : equal to brno
+2023-07-24 09:30:47.448426 : equal to brno
+2023-07-24 09:30:47.477753 : equal to brno
+2023-07-24 09:30:47.505912 : equal to brno
+2023-07-24 09:30:47.534419 : equal to brno
+2023-07-24 09:30:47.562858 : equal to brno
+2023-07-24 09:30:47.592778 : equal to brno
+2023-07-24 09:30:47.621703 : equal to brno
+2023-07-24 09:30:47.650624 : equal to brno
+2023-07-24 09:30:47.674560 : equal to brno
+2023-07-24 09:30:47.708470 : equal to brno
+2023-07-24 09:30:47.731409 : equal to brno
+2023-07-24 09:30:47.754347 : equal to brno
+2023-07-24 09:30:47.776289 : equal to brno
+2023-07-24 09:30:47.799229 : equal to brno
+2023-07-24 09:30:47.824179 : equal to brno
+2023-07-24 09:30:47.885481 : equal to brno
+2023-07-24 09:30:47.911661 : equal to brno
+2023-07-24 09:30:48.134275 : http://fischer.dev.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-07-24|2023-09-23&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tom=4305&tt=1&ttm=1#/terminy
+2023-07-24 09:30:50.316052 : 
+                             
+                             
+2023-07-24 09:30:50.316052 : ====== WebDriver manager ======
+                             
+2023-07-24 09:30:50.352579 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:30:50.352579 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:30:50.436102 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:31:42.427461 : http://fischer.dev.dtweb.cz/dovolena-animacni-kluby
+2023-07-24 09:31:44.599328 : 
+                             
+                             
+2023-07-24 09:31:44.599328 : ====== WebDriver manager ======
+                             
+2023-07-24 09:31:44.632241 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:31:44.632241 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:31:44.717013 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:32:20.702159 : http://fischer.dev.dtweb.cz/
+2023-07-24 09:32:22.853171 : 
+                             
+                             
+2023-07-24 09:32:22.853171 : ====== WebDriver manager ======
+                             
+2023-07-24 09:32:22.885145 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:32:22.885145 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:32:22.970119 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:32:35.071533 : http://fischer.dev.dtweb.cz/first-minute/exotika-zima
+2023-07-24 09:32:37.206684 : 
+                             
+                             
+2023-07-24 09:32:37.206684 : ====== WebDriver manager ======
+                             
+2023-07-24 09:32:37.237899 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:32:37.237899 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:32:37.321708 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:32:47.901161 : ZANZIBAR
+2023-07-24 09:32:49.597549 : hote dlazdice klik
+2023-07-24 09:32:54.510491 : ØECKO
+2023-07-24 09:32:55.385595 : hote dlazdice klik
+2023-07-24 09:32:59.860577 : TURECKO
+2023-07-24 09:33:00.844443 : hote dlazdice klik
+2023-07-24 09:33:05.377048 : EGYPT
+2023-07-24 09:33:07.352232 : hote dlazdice klik
+2023-07-24 09:33:12.745298 : KAPVERDY
+2023-07-24 09:33:15.871343 : hote dlazdice klik
+2023-07-24 09:33:19.829591 : OMAN
+2023-07-24 09:33:20.574552 : hote dlazdice klik
+2023-07-24 09:33:25.043509 : KEFALONIA
+2023-07-24 09:33:25.852353 : hote dlazdice klik
+2023-07-24 09:33:33.619684 : MIRAGE BAY
+2023-07-24 09:33:38.595005 : hote dlazdice klik
+2023-07-24 09:33:43.266016 : PORTO SKALA 7
+2023-07-24 09:33:46.287009 : hote dlazdice klik
+2023-07-24 09:33:51.055222 : DOUBLETREE
+2023-07-24 09:33:52.193609 : hote dlazdice klik
+2023-07-24 09:33:52.198596 : http://fischer.dev.dtweb.cz/egypt/egypt-sharm-el-sheikh/hilton-sharks-bay?DS=8192&GIATA=26627&D=724&HID=9724&DF=2023-09-28|2023-10-26&RD=2023-10-19&DD=2023-10-12&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=SSH90011&DPR=EXIM%20TOURS%20ATCOM
+2023-07-24 09:33:54.365067 : 
+                             
+                             
+2023-07-24 09:33:54.365067 : ====== WebDriver manager ======
+                             
+2023-07-24 09:33:54.423902 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:33:54.423902 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:33:54.511846 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:34:01.799121 : ZANZIBAR
+2023-07-24 09:35:17.187314 : http://fischer.dev.dtweb.cz/hledani-vysledky?q=Zanzibar
+2023-07-24 09:35:19.313123 : 
+                             
+                             
+2023-07-24 09:35:19.313123 : ====== WebDriver manager ======
+                             
+2023-07-24 09:35:19.356553 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:35:19.356553 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:35:19.443048 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:35:36.193078 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:35:38.341661 : 
+                             
+                             
+2023-07-24 09:35:38.341661 : ====== WebDriver manager ======
+                             
+2023-07-24 09:35:38.376567 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:35:38.376567 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:35:38.465330 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:35:52.224766 : http://fischer.dev.dtweb.cz/
+2023-07-24 09:35:54.405541 : 
+                             
+                             
+2023-07-24 09:35:54.405541 : ====== WebDriver manager ======
+                             
+2023-07-24 09:35:54.436459 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:35:54.436459 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:35:54.521354 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:36:23.064778 : http://fischer.dev.dtweb.cz/last-minute
+2023-07-24 09:36:25.222181 : 
+                             
+                             
+2023-07-24 09:36:25.222181 : ====== WebDriver manager ======
+                             
+2023-07-24 09:36:25.272895 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:36:25.272895 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:36:25.358880 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:36:57.107504 : mapa kolecka
+2023-07-24 09:36:57.115484 : mapa kolecka
+2023-07-24 09:36:57.125457 : mapa kolecka
+2023-07-24 09:36:57.134433 : mapa kolecka
+2023-07-24 09:36:57.142411 : mapa kolecka
+2023-07-24 09:36:57.153382 : mapa kolecka
+2023-07-24 09:36:57.162358 : mapa kolecka
+2023-07-24 09:36:57.256108 : basic info 
+2023-07-24 09:36:57.265085 : basic info 
+2023-07-24 09:36:57.273063 : basic info 
+2023-07-24 09:36:57.283037 : basic info 
+2023-07-24 09:36:57.291015 : basic info 
+2023-07-24 09:36:57.301986 : basic info 
+2023-07-24 09:36:57.310962 : basic info 
+2023-07-24 09:36:57.319939 : basic info 
+2023-07-24 09:36:57.327917 : basic info 
+2023-07-24 09:36:57.335896 : basic info 
+2023-07-24 09:36:57.345869 : basic info 
+2023-07-24 09:36:57.354846 : basic info 
+2023-07-24 09:36:57.362824 : basic info 
+2023-07-24 09:36:57.372797 : basic info 
+2023-07-24 09:36:57.381773 : basic info 
+2023-07-24 09:36:57.389752 : basic info 
+2023-07-24 09:36:57.398729 : basic info 
+2023-07-24 09:36:57.408702 : basic info 
+2023-07-24 09:36:57.417678 : basic info 
+2023-07-24 09:36:57.426654 : basic info 
+2023-07-24 09:36:57.437624 : basic info 
+2023-07-24 09:36:57.446601 : basic info 
+2023-07-24 09:36:57.455576 : basic info 
+2023-07-24 09:36:57.465550 : basic info 
+2023-07-24 09:36:57.474526 : basic info 
+2023-07-24 09:36:57.483502 : basic info 
+2023-07-24 09:36:57.492478 : basic info 
+2023-07-24 09:36:57.502452 : basic info 
+2023-07-24 09:36:57.511428 : basic info 
+2023-07-24 09:36:57.519406 : basic info 
+2023-07-24 09:36:57.529381 : basic info 
+2023-07-24 09:36:57.537359 : basic info 
+2023-07-24 09:36:57.545337 : basic info 
+2023-07-24 09:36:57.554314 : basic info 
+2023-07-24 09:36:57.563289 : basic info 
+2023-07-24 09:36:57.572266 : basic info 
+2023-07-24 09:36:57.580245 : basic info 
+2023-07-24 09:36:57.588223 : basic info 
+2023-07-24 09:36:57.597740 : basic info 
+2023-07-24 09:36:57.606688 : basic info 
+2023-07-24 09:36:57.615663 : basic info 
+2023-07-24 09:36:57.626634 : basic info 
+2023-07-24 09:36:57.637630 : basic info 
+2023-07-24 09:36:57.647196 : basic info 
+2023-07-24 09:36:57.659071 : basic info 
+2023-07-24 09:36:57.668757 : basic info 
+2023-07-24 09:36:57.678838 : basic info 
+2023-07-24 09:36:57.689809 : basic info 
+2023-07-24 09:36:57.699782 : basic info 
+2023-07-24 09:36:57.710752 : basic info 
+2023-07-24 09:36:57.721724 : basic info 
+2023-07-24 09:36:57.730699 : basic info 
+2023-07-24 09:36:57.741671 : basic info 
+2023-07-24 09:36:57.751644 : basic info 
+2023-07-24 09:36:57.761617 : basic info 
+2023-07-24 09:36:57.770594 : basic info 
+2023-07-24 09:36:57.782562 : basic info 
+2023-07-24 09:36:57.791538 : basic info 
+2023-07-24 09:36:57.800514 : basic info 
+2023-07-24 09:36:57.810487 : basic info 
+2023-07-24 09:36:57.819463 : basic info 
+2023-07-24 09:36:57.828439 : basic info 
+2023-07-24 09:36:57.838413 : basic info 
+2023-07-24 09:36:57.848387 : basic info 
+2023-07-24 09:36:57.857362 : basic info 
+2023-07-24 09:36:57.865340 : basic info 
+2023-07-24 09:36:57.875314 : basic info 
+2023-07-24 09:36:57.982029 : basic info 
+2023-07-24 09:36:57.991006 : basic info 
+2023-07-24 09:36:57.999568 : basic info 
+2023-07-24 09:36:58.008547 : basic info 
+2023-07-24 09:36:58.017522 : basic info 
+2023-07-24 09:36:58.027497 : basic info 
+2023-07-24 09:36:58.037470 : basic info 
+2023-07-24 09:36:58.047485 : basic info 
+2023-07-24 09:36:58.058197 : basic info 
+2023-07-24 09:36:58.069063 : basic info 
+2023-07-24 09:36:58.079532 : basic info 
+2023-07-24 09:36:58.090028 : basic info 
+2023-07-24 09:36:58.100932 : basic info 
+2023-07-24 09:36:58.111078 : basic info 
+2023-07-24 09:36:58.122864 : basic info 
+2023-07-24 09:36:58.133259 : basic info 
+2023-07-24 09:36:58.142935 : basic info 
+2023-07-24 09:36:58.154085 : basic info 
+2023-07-24 09:36:58.164243 : basic info 
+2023-07-24 09:36:58.174535 : basic info 
+2023-07-24 09:36:58.185986 : basic info 
+2023-07-24 09:36:58.219897 : basic info 
+2023-07-24 09:36:58.233861 : basic info 
+2023-07-24 09:36:58.262783 : basic info 
+2023-07-24 09:36:58.304811 : basic info 
+2023-07-24 09:36:58.316934 : basic info 
+2023-07-24 09:36:58.327178 : basic info 
+2023-07-24 09:36:58.336772 : basic info 
+2023-07-24 09:36:58.348264 : basic info 
+2023-07-24 09:36:58.358879 : basic info 
+2023-07-24 09:36:58.370279 : basic info 
+2023-07-24 09:36:58.381548 : basic info 
+2023-07-24 09:36:58.390524 : basic info 
+2023-07-24 09:36:58.403490 : basic info 
+2023-07-24 09:36:58.413463 : basic info 
+2023-07-24 09:36:58.425431 : basic info 
+2023-07-24 09:36:58.436406 : basic info 
+2023-07-24 09:36:58.447372 : basic info 
+2023-07-24 09:36:58.458343 : basic info 
+2023-07-24 09:36:58.471309 : basic info 
+2023-07-24 09:36:58.483277 : basic info 
+2023-07-24 09:36:58.494248 : basic info 
+2023-07-24 09:36:58.506216 : basic info 
+2023-07-24 09:36:58.515191 : basic info 
+2023-07-24 09:36:58.525166 : basic info 
+2023-07-24 09:36:58.536136 : basic info 
+2023-07-24 09:36:58.546109 : basic info 
+2023-07-24 09:36:58.555365 : basic info 
+2023-07-24 09:36:58.566363 : basic info 
+2023-07-24 09:36:58.575312 : basic info 
+2023-07-24 09:36:58.585286 : basic info 
+2023-07-24 09:36:58.596257 : basic info 
+2023-07-24 09:36:58.606687 : basic info 
+2023-07-24 09:36:58.618344 : basic info 
+2023-07-24 09:36:58.629565 : basic info 
+2023-07-24 09:36:58.640036 : basic info 
+2023-07-24 09:36:58.652398 : basic info 
+2023-07-24 09:36:58.663191 : basic info 
+2023-07-24 09:36:58.674731 : basic info 
+2023-07-24 09:36:58.687267 : basic info 
+2023-07-24 09:36:58.697673 : basic info 
+2023-07-24 09:36:58.707430 : basic info 
+2023-07-24 09:36:58.719215 : basic info 
+2023-07-24 09:36:58.729796 : basic info 
+2023-07-24 09:36:58.740808 : basic info 
+2023-07-24 09:36:58.753008 : basic info 
+2023-07-24 09:36:58.763660 : basic info 
+2023-07-24 09:36:58.773560 : basic info 
+2023-07-24 09:36:58.785979 : basic info 
+2023-07-24 09:36:58.797021 : basic info 
+2023-07-24 09:36:58.808686 : basic info 
+2023-07-24 09:36:58.819893 : basic info 
+2023-07-24 09:36:58.829526 : basic info 
+2023-07-24 09:36:58.841872 : basic info 
+2023-07-24 09:36:58.852843 : basic info 
+2023-07-24 09:36:58.864811 : basic info 
+2023-07-24 09:36:58.877777 : basic info 
+2023-07-24 09:36:58.981500 : basic info 
+2023-07-24 09:36:58.991474 : basic info 
+2023-07-24 09:36:59.002445 : basic info 
+2023-07-24 09:36:59.011421 : basic info 
+2023-07-24 09:36:59.020397 : basic info 
+2023-07-24 09:36:59.031367 : basic info 
+2023-07-24 09:36:59.040344 : basic info 
+2023-07-24 09:36:59.049320 : basic info 
+2023-07-24 09:36:59.059292 : basic info 
+2023-07-24 09:36:59.069267 : basic info 
+2023-07-24 09:36:59.079240 : basic info 
+2023-07-24 09:36:59.091209 : basic info 
+2023-07-24 09:36:59.101181 : basic info 
+2023-07-24 09:36:59.111155 : basic info 
+2023-07-24 09:36:59.122126 : basic info 
+2023-07-24 09:36:59.131101 : basic info 
+2023-07-24 09:36:59.141075 : basic info 
+2023-07-24 09:36:59.151049 : basic info 
+2023-07-24 09:36:59.162019 : basic info 
+2023-07-24 09:36:59.171993 : basic info 
+2023-07-24 09:36:59.180968 : basic info 
+2023-07-24 09:36:59.191939 : basic info 
+2023-07-24 09:36:59.201913 : basic info 
+2023-07-24 09:36:59.211156 : basic info 
+2023-07-24 09:36:59.223127 : basic info 
+2023-07-24 09:36:59.233101 : basic info 
+2023-07-24 09:36:59.243092 : basic info 
+2023-07-24 09:36:59.254044 : basic info 
+2023-07-24 09:36:59.264018 : basic info 
+2023-07-24 09:36:59.274968 : basic info 
+2023-07-24 09:36:59.286830 : basic info 
+2023-07-24 09:36:59.298620 : basic info 
+2023-07-24 09:36:59.311585 : basic info 
+2023-07-24 09:36:59.321558 : basic info 
+2023-07-24 09:36:59.331531 : basic info 
+2023-07-24 09:36:59.343500 : basic info 
+2023-07-24 09:36:59.353473 : basic info 
+2023-07-24 09:36:59.364443 : basic info 
+2023-07-24 09:36:59.376422 : basic info 
+2023-07-24 09:36:59.387382 : basic info 
+2023-07-24 09:36:59.397356 : basic info 
+2023-07-24 09:36:59.411318 : basic info 
+2023-07-24 09:36:59.421292 : basic info 
+2023-07-24 09:36:59.434258 : basic info 
+2023-07-24 09:36:59.444232 : basic info 
+2023-07-24 09:36:59.454204 : basic info 
+2023-07-24 09:36:59.466173 : basic info 
+2023-07-24 09:36:59.476146 : basic info 
+2023-07-24 09:36:59.487117 : basic info 
+2023-07-24 09:36:59.499085 : basic info 
+2023-07-24 09:36:59.510055 : basic info 
+2023-07-24 09:36:59.520029 : basic info 
+2023-07-24 09:36:59.531997 : basic info 
+2023-07-24 09:36:59.542967 : basic info 
+2023-07-24 09:36:59.551943 : basic info 
+2023-07-24 09:36:59.563912 : basic info 
+2023-07-24 09:36:59.573885 : basic info 
+2023-07-24 09:36:59.583858 : basic info 
+2023-07-24 09:36:59.595827 : basic info 
+2023-07-24 09:36:59.605800 : basic info 
+2023-07-24 09:36:59.615774 : basic info 
+2023-07-24 09:36:59.626744 : basic info 
+2023-07-24 09:36:59.636718 : basic info 
+2023-07-24 09:36:59.647689 : basic info 
+2023-07-24 09:36:59.659685 : basic info 
+2023-07-24 09:36:59.670656 : basic info 
+2023-07-24 09:36:59.683012 : basic info 
+2023-07-24 09:36:59.694846 : basic info 
+2023-07-24 09:36:59.705927 : basic info 
+2023-07-24 09:36:59.719146 : basic info 
+2023-07-24 09:36:59.730734 : basic info 
+2023-07-24 09:36:59.742495 : basic info 
+2023-07-24 09:36:59.755341 : basic info 
+2023-07-24 09:36:59.766883 : basic info 
+2023-07-24 09:36:59.779707 : basic info 
+2023-07-24 09:36:59.820650 : boxiky
+2023-07-24 09:36:59.831895 : boxiky
+2023-07-24 09:36:59.845284 : boxiky
+2023-07-24 09:36:59.856704 : boxiky
+2023-07-24 09:36:59.868407 : boxiky
+2023-07-24 09:36:59.880921 : boxiky
+2023-07-24 09:36:59.987842 : boxiky
+2023-07-24 09:37:00.000851 : boxiky
+2023-07-24 09:37:00.013701 : boxiky
+2023-07-24 09:37:00.028650 : boxiky
+2023-07-24 09:37:00.043631 : boxiky
+2023-07-24 09:37:00.054578 : boxiky
+2023-07-24 09:37:00.068543 : boxiky
+2023-07-24 09:37:00.079513 : boxiky
+2023-07-24 09:37:00.092479 : boxiky
+2023-07-24 09:37:00.103449 : boxiky
+2023-07-24 09:37:00.114419 : boxiky
+2023-07-24 09:37:00.126387 : boxiky
+2023-07-24 09:37:00.137358 : boxiky
+2023-07-24 09:37:00.148329 : boxiky
+2023-07-24 09:37:00.160297 : boxiky
+2023-07-24 09:37:00.172289 : boxiky
+2023-07-24 09:37:00.184233 : boxiky
+2023-07-24 09:37:00.195204 : boxiky
+2023-07-24 09:37:00.206175 : boxiky
+2023-07-24 09:37:00.218143 : boxiky
+2023-07-24 09:37:00.231109 : boxiky
+2023-07-24 09:37:00.243076 : boxiky
+2023-07-24 09:37:00.255074 : boxiky
+2023-07-24 09:37:00.266015 : boxiky
+2023-07-24 09:37:00.278981 : boxiky
+2023-07-24 09:37:00.289951 : boxiky
+2023-07-24 09:37:00.300922 : boxiky
+2023-07-24 09:37:00.313916 : boxiky
+2023-07-24 09:37:00.324877 : boxiky
+2023-07-24 09:37:00.336581 : boxiky
+2023-07-24 09:37:00.350975 : boxiky
+2023-07-24 09:37:00.361786 : boxiky
+2023-07-24 09:37:00.375767 : boxiky
+2023-07-24 09:37:00.386723 : boxiky
+2023-07-24 09:37:00.398447 : boxiky
+2023-07-24 09:37:00.411401 : boxiky
+2023-07-24 09:37:00.422538 : boxiky
+2023-07-24 09:37:00.435506 : boxiky
+2023-07-24 09:37:00.447482 : boxiky
+2023-07-24 09:37:00.458665 : boxiky
+2023-07-24 09:37:00.471632 : boxiky
+2023-07-24 09:37:00.482978 : boxiky
+2023-07-24 09:37:00.495701 : boxiky
+2023-07-24 09:37:00.507971 : boxiky
+2023-07-24 09:37:00.519831 : boxiky
+2023-07-24 09:37:00.532810 : boxiky
+2023-07-24 09:37:00.545761 : boxiky
+2023-07-24 09:37:00.558726 : boxiky
+2023-07-24 09:37:00.570695 : boxiky
+2023-07-24 09:37:00.581665 : boxiky
+2023-07-24 09:37:00.594631 : boxiky
+2023-07-24 09:37:00.606599 : boxiky
+2023-07-24 09:37:00.617570 : boxiky
+2023-07-24 09:37:00.630535 : boxiky
+2023-07-24 09:37:00.641506 : boxiky
+2023-07-24 09:37:00.654471 : boxiky
+2023-07-24 09:37:00.665442 : boxiky
+2023-07-24 09:37:00.677410 : boxiky
+2023-07-24 09:37:00.688381 : boxiky
+2023-07-24 09:37:00.699351 : boxiky
+2023-07-24 09:37:00.711323 : boxiky
+2023-07-24 09:37:00.725282 : boxiky
+2023-07-24 09:37:00.736253 : boxiky
+2023-07-24 09:37:00.748221 : boxiky
+2023-07-24 09:37:00.759192 : boxiky
+2023-07-24 09:37:00.770162 : boxiky
+2023-07-24 09:37:00.782131 : boxiky
+2023-07-24 09:37:00.793102 : boxiky
+2023-07-24 09:37:00.804134 : boxiky
+2023-07-24 09:37:00.816102 : boxiky
+2023-07-24 09:37:00.827097 : boxiky
+2023-07-24 09:37:00.839041 : boxiky
+2023-07-24 09:37:00.851134 : boxiky
+2023-07-24 09:37:00.863203 : boxiky
+2023-07-24 09:37:00.877427 : boxiky
+2023-07-24 09:37:00.984226 : boxiky
+2023-07-24 09:37:01.000184 : boxiky
+2023-07-24 09:37:01.011155 : boxiky
+2023-07-24 09:37:01.024120 : boxiky
+2023-07-24 09:37:01.037085 : boxiky
+2023-07-24 09:37:01.049053 : boxiky
+2023-07-24 09:37:01.061021 : boxiky
+2023-07-24 09:37:01.072990 : boxiky
+2023-07-24 09:37:01.083960 : boxiky
+2023-07-24 09:37:01.096925 : boxiky
+2023-07-24 09:37:01.108894 : boxiky
+2023-07-24 09:37:01.120862 : boxiky
+2023-07-24 09:37:01.132830 : boxiky
+2023-07-24 09:37:01.144798 : boxiky
+2023-07-24 09:37:01.157764 : boxiky
+2023-07-24 09:37:01.168735 : boxiky
+2023-07-24 09:37:01.179705 : boxiky
+2023-07-24 09:37:01.191673 : boxiky
+2023-07-24 09:37:01.202644 : boxiky
+2023-07-24 09:37:01.213617 : boxiky
+2023-07-24 09:37:01.224585 : boxiky
+2023-07-24 09:37:01.235900 : boxiky
+2023-07-24 09:37:01.249049 : boxiky
+2023-07-24 09:37:01.261859 : boxiky
+2023-07-24 09:37:01.273912 : boxiky
+2023-07-24 09:37:01.287888 : boxiky
+2023-07-24 09:37:01.300716 : boxiky
+2023-07-24 09:37:01.313479 : boxiky
+2023-07-24 09:37:01.326100 : boxiky
+2023-07-24 09:37:01.339931 : boxiky
+2023-07-24 09:37:01.353438 : boxiky
+2023-07-24 09:37:01.365129 : boxiky
+2023-07-24 09:37:01.379091 : boxiky
+2023-07-24 09:37:01.393234 : boxiky
+2023-07-24 09:37:01.408193 : boxiky
+2023-07-24 09:37:01.421159 : boxiky
+2023-07-24 09:37:01.435121 : boxiky
+2023-07-24 09:37:01.448088 : boxiky
+2023-07-24 09:37:01.460061 : boxiky
+2023-07-24 09:37:01.475015 : boxiky
+2023-07-24 09:37:01.486984 : boxiky
+2023-07-24 09:37:01.500956 : boxiky
+2023-07-24 09:37:01.512923 : boxiky
+2023-07-24 09:37:01.526879 : boxiky
+2023-07-24 09:37:01.538845 : boxiky
+2023-07-24 09:37:01.550814 : boxiky
+2023-07-24 09:37:01.562782 : boxiky
+2023-07-24 09:37:01.574750 : boxiky
+2023-07-24 09:37:01.586746 : boxiky
+2023-07-24 09:37:01.599585 : boxiky
+2023-07-24 09:37:01.612554 : boxiky
+2023-07-24 09:37:01.625819 : boxiky
+2023-07-24 09:37:01.638783 : boxiky
+2023-07-24 09:37:01.653743 : boxiky
+2023-07-24 09:37:01.667707 : boxiky
+2023-07-24 09:37:01.681702 : boxiky
+2023-07-24 09:37:01.696654 : boxiky
+2023-07-24 09:37:01.709296 : boxiky
+2023-07-24 09:37:01.723261 : boxiky
+2023-07-24 09:37:01.736424 : boxiky
+2023-07-24 09:37:01.750978 : boxiky
+2023-07-24 09:37:01.764634 : boxiky
+2023-07-24 09:37:01.778632 : boxiky
+2023-07-24 09:37:01.791482 : boxiky
+2023-07-24 09:37:01.804645 : boxiky
+2023-07-24 09:37:01.818049 : boxiky
+2023-07-24 09:37:01.831524 : boxiky
+2023-07-24 09:37:01.845888 : boxiky
+2023-07-24 09:37:01.859851 : boxiky
+2023-07-24 09:37:01.873823 : boxiky
+2023-07-24 09:37:01.886780 : boxiky
+2023-07-24 09:37:02.003467 : boxiky
+2023-07-24 09:37:02.019426 : boxiky
+2023-07-24 09:37:02.033388 : boxiky
+2023-07-24 09:37:02.046354 : boxiky
+2023-07-24 09:37:02.060817 : boxiky
+2023-07-24 09:37:02.072787 : boxiky
+2023-07-24 09:37:02.085757 : boxiky
+2023-07-24 09:37:02.098839 : boxiky
+2023-07-24 09:37:02.112650 : boxiky
+2023-07-24 09:37:02.126961 : boxiky
+2023-07-24 09:37:02.139954 : boxiky
+2023-07-24 09:37:02.156006 : boxiky
+2023-07-24 09:37:02.168627 : boxiky
+2023-07-24 09:37:02.180973 : boxiky
+2023-07-24 09:37:02.195058 : boxiky
+2023-07-24 09:37:02.209072 : boxiky
+2023-07-24 09:37:02.222584 : boxiky
+2023-07-24 09:37:02.236286 : boxiky
+2023-07-24 09:37:02.250880 : boxiky
+2023-07-24 09:37:02.264420 : boxiky
+2023-07-24 09:37:02.279637 : boxiky
+2023-07-24 09:37:02.293103 : boxiky
+2023-07-24 09:37:02.307159 : boxiky
+2023-07-24 09:37:02.321240 : boxiky
+2023-07-24 09:37:02.335307 : boxiky
+2023-07-24 09:37:02.350008 : boxiky
+2023-07-24 09:37:02.363470 : boxiky
+2023-07-24 09:37:02.378258 : boxiky
+2023-07-24 09:37:02.391068 : boxiky
+2023-07-24 09:37:02.406275 : boxiky
+2023-07-24 09:37:02.420355 : boxiky
+2023-07-24 09:37:02.435760 : boxiky
+2023-07-24 09:37:02.450009 : boxiky
+2023-07-24 09:37:02.464551 : boxiky
+2023-07-24 09:37:02.479523 : boxiky
+2023-07-24 09:37:02.492476 : boxiky
+2023-07-24 09:37:02.506452 : boxiky
+2023-07-24 09:37:02.521399 : boxiky
+2023-07-24 09:37:02.535362 : boxiky
+2023-07-24 09:37:02.549325 : boxiky
+2023-07-24 09:37:02.564285 : boxiky
+2023-07-24 09:37:02.576253 : boxiky
+2023-07-24 09:37:02.588221 : boxiky
+2023-07-24 09:37:02.601186 : boxiky
+2023-07-24 09:37:02.613155 : boxiky
+2023-07-24 09:37:02.627118 : boxiky
+2023-07-24 09:37:02.639192 : boxiky
+2023-07-24 09:37:02.653184 : boxiky
+2023-07-24 09:37:02.665123 : boxiky
+2023-07-24 09:37:02.678089 : boxiky
+2023-07-24 09:37:02.692371 : boxiky
+2023-07-24 09:37:02.704874 : boxiky
+2023-07-24 09:37:02.720385 : boxiky
+2023-07-24 09:37:02.733346 : boxiky
+2023-07-24 09:37:02.748102 : boxiky
+2023-07-24 09:37:02.761580 : boxiky
+2023-07-24 09:37:02.774256 : boxiky
+2023-07-24 09:37:02.790214 : boxiky
+2023-07-24 09:37:02.803179 : boxiky
+2023-07-24 09:37:02.818139 : boxiky
+2023-07-24 09:37:02.832102 : boxiky
+2023-07-24 09:37:02.847062 : boxiky
+2023-07-24 09:37:02.862051 : boxiky
+2023-07-24 09:37:02.877760 : boxiky
+2023-07-24 09:37:02.982031 : boxiky
+2023-07-24 09:37:02.998038 : boxiky
+2023-07-24 09:37:03.011175 : boxiky
+2023-07-24 09:37:03.030127 : http://fischer.dev.dtweb.cz/kontakty/seznam-pobocek
+2023-07-24 09:37:06.097637 : 
+                             
+                             
+2023-07-24 09:37:06.097637 : ====== WebDriver manager ======
+                             
+2023-07-24 09:37:06.154536 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:37:06.154536 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:37:06.238087 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:37:13.791551 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+2023-07-24 09:37:15.977759 : 
+                             
+                             
+2023-07-24 09:37:15.978714 : ====== WebDriver manager ======
+                             
+2023-07-24 09:37:16.031498 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:37:16.031498 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:37:16.117272 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:37:21.658491 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/prodlouzene-vikendy
+2023-07-24 09:37:23.804129 : 
+                             
+                             
+2023-07-24 09:37:23.804129 : ====== WebDriver manager ======
+                             
+2023-07-24 09:37:23.858290 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:37:23.859286 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:37:23.945365 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:37:29.492109 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/pro-rodiny
+2023-07-24 09:37:31.696616 : 
+                             
+                             
+2023-07-24 09:37:31.697584 : ====== WebDriver manager ======
+                             
+2023-07-24 09:37:31.752088 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:37:31.752088 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:37:31.837354 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:37:37.465595 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/zazitkove
+2023-07-24 09:37:39.770771 : 
+                             
+                             
+2023-07-24 09:37:39.770771 : ====== WebDriver manager ======
+                             
+2023-07-24 09:37:39.812289 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:37:39.812289 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:37:39.897375 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:38:24.886510 : http://fischer.dev.dtweb.cz/spanelsko
+2023-07-24 09:38:27.035557 : 
+                             
+                             
+2023-07-24 09:38:27.035557 : ====== WebDriver manager ======
+                             
+2023-07-24 09:38:27.078409 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:38:27.078409 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:38:27.161539 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:39:05.819462 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:39:07.990342 : 
+                             
+                             
+2023-07-24 09:39:07.990342 : ====== WebDriver manager ======
+                             
+2023-07-24 09:39:08.023248 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:39:08.023248 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:39:08.106841 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:39:46.654332 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:39:48.821911 : 
+                             
+                             
+2023-07-24 09:39:48.821911 : ====== WebDriver manager ======
+                             
+2023-07-24 09:39:48.855315 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:39:48.855315 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:39:48.991769 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:40:24.565023 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-03-31&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:40:26.723405 : 
+                             
+                             
+2023-07-24 09:40:26.723405 : ====== WebDriver manager ======
+                             
+2023-07-24 09:40:26.761409 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:40:26.761409 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:40:26.844186 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:41:05.466236 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:41:07.658394 : 
+                             
+                             
+2023-07-24 09:41:07.659387 : ====== WebDriver manager ======
+                             
+2023-07-24 09:41:07.740542 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:41:07.740542 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:41:07.838450 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:41:43.300742 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:41:45.459234 : 
+                             
+                             
+2023-07-24 09:41:45.459234 : ====== WebDriver manager ======
+                             
+2023-07-24 09:41:45.509066 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:41:45.509066 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:41:45.594129 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:43:32.469404 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&to=4312|4305|2682|4308&tt=1
+2023-07-24 09:43:34.611290 : 
+                             
+                             
+2023-07-24 09:43:34.611290 : ====== WebDriver manager ======
+                             
+2023-07-24 09:43:34.640464 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:43:34.640464 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:43:34.725173 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:43:54.156040 : http://fischer.dev.dtweb.cz/hotely/mauricius/mauricius/trou-aux-biches/tarisa-resort-a-spa?DS=2&GIATA=39579&D=812|661|631|634|635|738|790|633|1008|1066|1006|1007|638|1019|977&HID=9056&MT=5&MMT=5&RT=15&NN=7&DF=2023-09-20|2023-10-19&RD=2023-10-05&DD=2023-09-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312|4305|2682|4308&TOM=4312|4305|2682|4308&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=195528&DPR=Hotelbeds
+2023-07-24 09:43:56.380101 : 
+                             
+                             
+2023-07-24 09:43:56.380101 : ====== WebDriver manager ======
+                             
+2023-07-24 09:43:56.411018 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:43:56.411018 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:43:56.495792 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:44:09.300289 : <selenium.webdriver.remote.webelement.WebElement (session="b8462b5caad7a50341e8d55ac358035c", element="F44C3F34EEBFD105F2B7FA53EB304787_element_118")>
+2023-07-24 09:44:45.239727 : PROBLEM BANNERS
+2023-07-24 09:44:45.239727 : last minute  ||| VS |||  zájezdy first minute
+2023-07-24 09:44:45.239727 : https://www.fischer.cz/last-minute
+2023-07-24 09:44:45.239727 : http://fischer.dev.dtweb.cz/first-minute
+2023-07-24 09:44:45.239727 : ----------------------------------------
+2023-07-24 09:44:47.425282 : PROBLEM BANNERS
+2023-07-24 09:44:47.425282 : 502 zájezdù v 1 destinaci  ||| VS |||  
+2023-07-24 09:44:47.425282 : https://www.fischer.cz/vysledky-vyhledavani?d=627|974|712|596&m=5&nn=7|8|9|10|11|12|13|14&to=4312|4305|2682|4308&tt=1&dd=2023-08-01&rd=2023-08-31
+2023-07-24 09:44:47.425282 : http://fischer.dev.dtweb.cz/first-minute
+2023-07-24 09:44:47.425282 : ----------------------------------------
+2023-07-24 09:45:14.332305 : 
+                             
+                             
+2023-07-24 09:45:14.332305 : ====== WebDriver manager ======
+                             
+2023-07-24 09:45:14.364458 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:45:14.364458 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:45:14.513227 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:45:38.510992 : [13990, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15390, 15390, 15390, 15390, 15390, 15390, 15390]
+2023-07-24 09:45:41.514701 : Cheap sorter is OK
+2023-07-24 09:45:41.514701 : LIST FROM WEB:
+2023-07-24 09:45:41.514701 : [13990, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15390, 15390, 15390, 15390, 15390, 15390, 15390]
+2023-07-24 09:45:41.514701 : CORRECTLY SORTED LIST
+2023-07-24 09:45:41.514701 : [13990, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15110, 15390, 15390, 15390, 15390, 15390, 15390, 15390]
+2023-07-24 09:45:41.521244 : http://fischer.dev.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/terminy
+2023-07-24 09:45:43.656901 : 
+                             
+                             
+2023-07-24 09:45:43.656901 : ====== WebDriver manager ======
+                             
+2023-07-24 09:45:43.701807 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:45:43.701807 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:45:43.785306 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:46:10.541688 : [30250, 30150, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29340, 29240, 29220, 29220, 29220, 29220, 29120, 28920, 28920]
+2023-07-24 09:46:13.549750 : Expensive sorter is OK
+2023-07-24 09:46:13.549750 : LIST FROM WEB:
+2023-07-24 09:46:13.549750 : [30250, 30150, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29340, 29240, 29220, 29220, 29220, 29220, 29120, 28920, 28920]
+2023-07-24 09:46:13.549750 : CORRECTLY SORTED LIST
+2023-07-24 09:46:13.549750 : [30250, 30150, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29830, 29340, 29240, 29220, 29220, 29220, 29220, 29120, 28920, 28920]
+2023-07-24 09:46:13.555735 : http://fischer.dev.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&ptm=0&sortorder=1&tt=1&ttm=1#/terminy
+2023-07-24 09:46:15.691043 : 
+                             
+                             
+2023-07-24 09:46:15.691043 : ====== WebDriver manager ======
+                             
+2023-07-24 09:46:15.720965 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:46:15.721961 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:46:15.808729 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:46:21.735024 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+2023-07-24 09:46:23.941125 : 
+                             
+                             
+2023-07-24 09:46:23.941125 : ====== WebDriver manager ======
+                             
+2023-07-24 09:46:23.972072 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:46:23.972072 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:46:24.055850 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:46:29.821336 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/prodlouzene-vikendy
+2023-07-24 09:46:31.982582 : 
+                             
+                             
+2023-07-24 09:46:31.982582 : ====== WebDriver manager ======
+                             
+2023-07-24 09:46:32.033701 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:46:32.033701 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:46:32.118632 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:46:37.689848 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/pro-rodiny
+2023-07-24 09:46:39.911347 : 
+                             
+                             
+2023-07-24 09:46:39.911347 : ====== WebDriver manager ======
+                             
+2023-07-24 09:46:39.941290 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:46:39.941290 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:46:40.027039 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:46:45.707025 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy/zazitkove
+2023-07-24 09:46:47.896979 : 
+                             
+                             
+2023-07-24 09:46:47.896979 : ====== WebDriver manager ======
+                             
+2023-07-24 09:46:47.929808 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:46:47.929808 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:46:48.017574 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:47:24.992765 : http://fischer.dev.dtweb.cz/
+2023-07-24 09:47:27.256285 : 
+                             
+                             
+2023-07-24 09:47:27.256285 : ====== WebDriver manager ======
+                             
+2023-07-24 09:47:27.287058 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:47:27.287058 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:47:27.371907 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:48:11.417356 : http://fischer.dev.dtweb.cz/poznavaci-zajezdy
+2023-07-24 09:48:13.575857 : 
+                             
+                             
+2023-07-24 09:48:13.575857 : ====== WebDriver manager ======
+                             
+2023-07-24 09:48:13.628286 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:48:13.628286 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:48:13.722009 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:48:32.177415 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&tt=1
+2023-07-24 09:48:34.354344 : 
+                             
+                             
+2023-07-24 09:48:34.354344 : ====== WebDriver manager ======
+                             
+2023-07-24 09:48:34.413328 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:48:34.413328 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:48:34.498765 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:49:07.415036 : http://fischer.dev.dtweb.cz/vysledky-vyhledavani?dd=2023-07-24&nn=7|8|9|10|11|12|13&rd=2023-09-23&tt=1
+2023-07-24 09:49:09.601990 : 
+                             
+                             
+2023-07-24 09:49:09.602958 : ====== WebDriver manager ======
+                             
+2023-07-24 09:49:09.635870 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:49:09.635870 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:49:09.722020 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-24 09:49:22.498099 : http://fischer.dev.dtweb.cz/spanelsko
+2023-07-24 09:49:24.603170 : 
+                             
+                             
+2023-07-24 09:49:24.603170 : ====== WebDriver manager ======
+                             
+2023-07-24 09:49:24.635615 : Current google-chrome version is 114.0.5735
+                             
+2023-07-24 09:49:24.635615 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-24 09:49:24.722022 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             

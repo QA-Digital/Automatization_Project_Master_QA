@@ -1,0 +1,552 @@
+2024-04-15 13:09:33.765235 : <selenium.webdriver.remote.webelement.WebElement (session="0a472314191dd7f9ff0b40c203edb403", element="f.806A1E5ACAD0BAD61CD09D138A36CCFB.d.4399A0B060B5AAF108C67D1BAB905111.e.470")>
+2024-04-15 13:10:01.984001 : nenasle se exponea banner
+2024-04-15 13:10:02.046271 : gridy jdou videt
+2024-04-15 13:10:02.046271 : gridy jdou videt
+2024-04-15 13:10:02.061779 : gridy jdou videt
+2024-04-15 13:10:02.077405 : gridy jdou videt
+2024-04-15 13:10:02.077405 : gridy jdou videt
+2024-04-15 13:10:02.093026 : gridy jdou videt
+2024-04-15 13:10:02.093026 : gridy jdou videt
+2024-04-15 13:10:02.108647 : gridy jdou videt
+2024-04-15 13:10:02.124269 : gridy jdou videt
+2024-04-15 13:10:02.124269 : gridy jdou videt
+2024-04-15 13:10:02.139890 : gridy jdou videt
+2024-04-15 13:10:02.139890 : gridy jdou videt
+2024-04-15 13:10:02.155535 : gridy jdou videt
+2024-04-15 13:10:02.171133 : gridy jdou videt
+2024-04-15 13:10:02.171133 : gridy jdou videt
+2024-04-15 13:10:02.186754 : gridy jdou videt
+2024-04-15 13:10:02.186754 : gridy jdou videt
+2024-04-15 13:10:02.249240 : content jdou videt
+2024-04-15 13:10:02.249240 : content jdou videt
+2024-04-15 13:10:02.264878 : content jdou videt
+2024-04-15 13:10:02.280482 : content jdou videt
+2024-04-15 13:10:02.280482 : content jdou videt
+2024-04-15 13:10:02.296109 : content jdou videt
+2024-04-15 13:10:02.311725 : content jdou videt
+2024-04-15 13:10:02.311725 : content jdou videt
+2024-04-15 13:10:02.327346 : content jdou videt
+2024-04-15 13:10:02.327346 : content jdou videt
+2024-04-15 13:10:02.342969 : content jdou videt
+2024-04-15 13:10:02.358590 : content jdou videt
+2024-04-15 13:10:02.358590 : content jdou videt
+2024-04-15 13:10:02.374716 : content jdou videt
+2024-04-15 13:10:02.374716 : content jdou videt
+2024-04-15 13:10:02.390340 : content jdou videt
+2024-04-15 13:10:02.405848 : content jdou videt
+2024-04-15 13:10:02.405848 : https://kartagosk.web3.dtweb.cz/vstupne-podmienky
+2024-04-15 13:10:21.949379 : <selenium.webdriver.remote.webelement.WebElement (session="ad472a74078dd9a277c43191347a448d", element="f.9149D358EFB5C70D143022006D0C90FA.d.048B71D8083A6CED3C5CB5AB90DA326A.e.542")>
+2024-04-15 13:10:22.330816 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-15 13:14:06.765965 : <selenium.webdriver.remote.webelement.WebElement (session="fb14eca58846d56fb734a325be7bc7e3", element="f.1AD4948BC353352C252FC801895C38A5.d.47E56CE9926DC5F3EF1AFA5667006B4E.e.521")>
+2024-04-15 13:14:11.972380 : its ok
+2024-04-15 13:14:11.980759 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/273195.jpg
+2024-04-15 13:14:22.363746 : <selenium.webdriver.remote.webelement.WebElement (session="31100401b898a5b15a4abe649952fd69", element="f.1BF3CF997B5CAA7E327D2B99FFD6491B.d.9B8EBD9BA0856856577E0D77B9F0E3B8.e.513")>
+2024-04-15 13:14:28.859671 : else departure not true
+2024-04-15 13:14:37.297715 : all inclusive
+2024-04-15 13:14:39.297781 : 0
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ok
+2024-04-15 13:14:39.531921 : ['all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra']
+2024-04-15 13:14:39.531921 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&mtm=5&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/terminy-a-ceny
+2024-04-15 13:14:48.657003 : <selenium.webdriver.remote.webelement.WebElement (session="69946ac7ff9c6ac748a28c5d1c20c528", element="f.009D6DB1D79F76A279B69898322A01AE.d.7A41059AC42B5515EB49DB60349E3A50.e.537")>
+2024-04-15 13:14:55.141641 : if departure==True
+2024-04-15 13:15:11.609655 : equal to bratislava
+2024-04-15 13:15:12.015812 : equal to bratislava
+2024-04-15 13:15:13.484677 : equal to bratislava
+2024-04-15 13:15:13.500297 : equal to bratislava
+2024-04-15 13:15:13.531540 : equal to bratislava
+2024-04-15 13:15:13.547162 : equal to bratislava
+2024-04-15 13:15:13.578404 : equal to bratislava
+2024-04-15 13:15:13.594026 : equal to bratislava
+2024-04-15 13:15:13.625269 : equal to bratislava
+2024-04-15 13:15:13.640890 : equal to bratislava
+2024-04-15 13:15:13.797104 : equal to bratislava
+2024-04-15 13:15:13.812726 : equal to bratislava
+2024-04-15 13:15:13.843968 : equal to bratislava
+2024-04-15 13:15:13.859590 : equal to bratislava
+2024-04-15 13:15:13.890834 : equal to bratislava
+2024-04-15 13:15:13.906454 : equal to bratislava
+2024-04-15 13:15:13.937698 : equal to bratislava
+2024-04-15 13:15:13.953318 : equal to bratislava
+2024-04-15 13:15:14.609705 : equal to bratislava
+2024-04-15 13:15:15.750255 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tom=483&tt=1&ttm=1#/terminy-a-ceny
+2024-04-15 13:15:42.048560 : <selenium.webdriver.remote.webelement.WebElement (session="61663b27effaf40293ab498e4b87b930", element="f.C611A6CEAF62C37F78FA8F5DE8FFCAB9.d.4597C03A04F7D0323F88CFC97798E617.e.461")>
+2024-04-15 13:15:43.583572 : benefit item
+2024-04-15 13:15:43.603648 : benefit item
+2024-04-15 13:15:43.919897 : grind container
+2024-04-15 13:15:43.932061 : grind container
+2024-04-15 13:15:43.941197 : grind container
+2024-04-15 13:15:43.987944 : grind container
+2024-04-15 13:15:43.996921 : grind container
+2024-04-15 13:15:44.008028 : grind container
+2024-04-15 13:15:44.017004 : grind container
+2024-04-15 13:15:44.026977 : grind container
+2024-04-15 13:15:44.036951 : grind container
+2024-04-15 13:15:44.045927 : grind container
+2024-04-15 13:15:44.054903 : grind container
+2024-04-15 13:15:44.065558 : grind container
+2024-04-15 13:15:44.074535 : grind container
+2024-04-15 13:15:44.085402 : grind container
+2024-04-15 13:15:44.263220 : tile img
+2024-04-15 13:15:44.272196 : tile img
+2024-04-15 13:15:44.278180 : https://kartagosk.web3.dtweb.cz/uzitocne-informacie/mango-club
+2024-04-15 13:16:00.211535 : <selenium.webdriver.remote.webelement.WebElement (session="f4de6503ce2d6812e9cde76156e30919", element="f.BA8BDAAC5AA17ECAA17E28309AB97B1B.d.88C650904B3BBD922D6C5862175DBD5B.e.914")>
+2024-04-15 13:16:02.220127 : https://kartagosk.web3.dtweb.cz/first-minute/leto
+2024-04-15 13:16:10.603549 : <selenium.webdriver.remote.webelement.WebElement (session="272be9af7049d7416b45642520f38035", element="f.F0A58D8098C69F99C34EB2810C561A4C.d.DCF421BFD4B2EF0521E3DD0CC9580604.e.489")>
+2024-04-15 13:16:13.990525 : ZANZIBAR
+2024-04-15 13:16:16.634344 : hote dlazdice klik
+2024-04-15 13:16:20.271328 : GRÉCKO
+2024-04-15 13:16:22.403885 : hote dlazdice klik
+2024-04-15 13:16:26.423245 : TURECKO
+2024-04-15 13:16:29.853570 : hote dlazdice klik
+2024-04-15 13:16:33.782464 : EGYPT
+2024-04-15 13:16:49.908916 : hote dlazdice klik
+2024-04-15 13:16:54.033767 : KAPVERDY
+2024-04-15 13:16:57.697490 : hote dlazdice klik
+2024-04-15 13:17:01.975500 : MALEDIVY
+2024-04-15 13:17:03.325950 : hote dlazdice klik
+2024-04-15 13:17:07.658939 : DUBAJ
+2024-04-15 13:17:08.896094 : hote dlazdice klik
+2024-04-15 13:17:12.267065 : POISTENIE
+2024-04-15 13:17:14.324536 : hote dlazdice klik
+2024-04-15 13:17:18.423442 : PARKOVANIE
+2024-04-15 13:17:20.560475 : hote dlazdice klik
+2024-04-15 13:17:24.439018 : MIRAGE BAY
+2024-04-15 13:17:27.738715 : hote dlazdice klik
+2024-04-15 13:17:33.830036 : MITSIS
+2024-04-15 13:17:35.754069 : hote dlazdice klik
+2024-04-15 13:17:40.013128 : PRIMA LIFE
+2024-04-15 13:17:43.323537 : hote dlazdice klik
+2024-04-15 13:17:47.634470 : PICKALBATROS
+2024-04-15 13:17:50.763776 : hote dlazdice klik
+2024-04-15 13:17:59.532076 : TITANIC
+2024-04-15 13:18:03.548691 : hote dlazdice klik
+2024-04-15 13:18:07.836756 : MIRAGE
+2024-04-15 13:18:10.283857 : hote dlazdice klik
+2024-04-15 13:18:12.642115 : https://kartagosk.web3.dtweb.cz/turecko/egejska-riviera-marmaris/icmeler/mirage-world?DS=65536&GIATA=29601&D=63260&HID=151163&DF=2024-09-05|2024-10-03&RD=2024-09-26&DD=2024-09-19&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=DLM90026&DPR=KARTAGO-SK-ATCOM
+2024-04-15 13:18:22.882457 : <selenium.webdriver.remote.webelement.WebElement (session="c9fc2b2bcf1126a9762256e2443f6351", element="f.2B6EE0AEDF0480B382598911523DC967.d.BD870BA7AFF53865D553FA729FFCBB1F.e.466")>
+2024-04-15 13:18:23.353157 : ZANZIBAR
+2024-04-15 13:18:28.635946 : GRÉCKO
+2024-04-15 13:18:34.396639 : TURECKO
+2024-04-15 13:18:39.257730 : EGYPT
+2024-04-15 13:18:42.920390 : KAPVERDY
+2024-04-15 13:18:45.218636 : MALEDIVY
+2024-04-15 13:18:48.239620 : DUBAJ
+2024-04-15 13:18:51.847239 : POISTENIE
+2024-04-15 13:18:54.471912 : PARKOVANIE
+2024-04-15 13:18:57.803450 : MIRAGE BAY
+2024-04-15 13:19:00.630164 : MITSIS
+2024-04-15 13:19:02.595826 : PRIMA LIFE
+2024-04-15 13:19:10.260387 : PICKALBATROS
+2024-04-15 13:19:12.196922 : TITANIC
+2024-04-15 13:19:15.212860 : MIRAGE
+2024-04-15 13:19:17.032729 : https://kartagosk.web3.dtweb.cz/hladanie-vysledky?q=Mirage
+2024-04-15 13:19:29.058040 : <selenium.webdriver.remote.webelement.WebElement (session="9bd092f3d13779529668df0589eb7b91", element="f.4C457F623D347598FE0BA01A3C6B0738.d.5C9F57CFF65E1E6E790D1A56862A1822.e.468")>
+2024-04-15 13:19:30.551517 : https://kartagosk.web3.dtweb.cz/vysledky-vyhladavania?tt=1&to=483|1837|2933|3437&dd=2022-09-01&rd=2022-09-25&nn=7|8|9|10|11|12|13&ka1=6&kc1=1&ac1=2
+2024-04-15 13:19:41.719045 : <selenium.webdriver.remote.webelement.WebElement (session="3a0ebd79e48e7d3b754d689aa7dcd079", element="f.AF77D5AAD37FB6FACFFF4B3C0027D242.d.2873B89A4B753663F19DFC553F188C6F.e.932")>
+2024-04-15 13:19:44.290332 : https://kartagosk.web3.dtweb.cz/
+2024-04-15 13:19:55.809181 : <selenium.webdriver.remote.webelement.WebElement (session="14e1b27982c4bf6adfb6a3b77d126b85", element="f.0ABEBFCAB0E847D0B949524C658B8AE8.d.135CC1664F664D17F23BE8A6446686E2.e.893")>
+2024-04-15 13:20:27.345192 : https://kartagosk.web3.dtweb.cz/last-minute
+2024-04-15 13:20:38.048642 : <selenium.webdriver.remote.webelement.WebElement (session="479c6c32b2b6bd34e0d11f56c5bece41", element="f.45C93D837A23ADCF5F3F9D2A21FE7E7A.d.A5B40B15C8FFE199DE066D63CCAD2A46.e.456")>
+2024-04-15 13:21:05.564033 : basic info 
+2024-04-15 13:21:05.579660 : basic info 
+2024-04-15 13:21:05.579660 : basic info 
+2024-04-15 13:21:05.595289 : basic info 
+2024-04-15 13:21:05.595289 : basic info 
+2024-04-15 13:21:05.610897 : basic info 
+2024-04-15 13:21:05.626518 : basic info 
+2024-04-15 13:21:05.626518 : basic info 
+2024-04-15 13:21:05.642140 : basic info 
+2024-04-15 13:21:05.642140 : basic info 
+2024-04-15 13:21:05.657761 : basic info 
+2024-04-15 13:21:05.673382 : basic info 
+2024-04-15 13:21:05.673382 : basic info 
+2024-04-15 13:21:05.689004 : basic info 
+2024-04-15 13:21:05.689004 : basic info 
+2024-04-15 13:21:05.704626 : basic info 
+2024-04-15 13:21:05.735868 : boxiky
+2024-04-15 13:21:05.735868 : boxiky
+2024-04-15 13:21:05.751490 : boxiky
+2024-04-15 13:21:05.767111 : boxiky
+2024-04-15 13:21:05.767111 : boxiky
+2024-04-15 13:21:05.782733 : boxiky
+2024-04-15 13:21:05.798354 : boxiky
+2024-04-15 13:21:05.798354 : boxiky
+2024-04-15 13:21:05.814480 : boxiky
+2024-04-15 13:21:05.814480 : boxiky
+2024-04-15 13:21:05.830105 : boxiky
+2024-04-15 13:21:05.845613 : boxiky
+2024-04-15 13:21:05.845613 : boxiky
+2024-04-15 13:21:05.861239 : boxiky
+2024-04-15 13:21:05.861239 : boxiky
+2024-04-15 13:21:05.876747 : boxiky
+2024-04-15 13:21:05.892372 : boxiky
+2024-04-15 13:21:05.892372 : boxiky
+2024-04-15 13:21:05.907881 : boxiky
+2024-04-15 13:21:05.907881 : boxiky
+2024-04-15 13:21:05.923507 : boxiky
+2024-04-15 13:21:05.939015 : boxiky
+2024-04-15 13:21:05.939015 : boxiky
+2024-04-15 13:21:05.954641 : boxiky
+2024-04-15 13:21:05.970263 : boxiky
+2024-04-15 13:21:05.970263 : boxiky
+2024-04-15 13:21:05.985883 : boxiky
+2024-04-15 13:21:05.985883 : boxiky
+2024-04-15 13:21:06.001505 : boxiky
+2024-04-15 13:21:06.017126 : boxiky
+2024-04-15 13:21:06.032775 : boxiky
+2024-04-15 13:21:06.032775 : boxiky
+2024-04-15 13:21:06.048369 : https://kartagosk.web3.dtweb.cz/kontakty/nase-predajne
+2024-04-15 13:21:23.188993 : <selenium.webdriver.remote.webelement.WebElement (session="0b8290c685d57c9f34a50c705c195cbb", element="f.79DD591844F3C7B550BAAA06FBDD3C21.d.9C054D2A650CE3D624CC155A37A6D74B.e.877")>
+2024-04-15 13:21:31.580015 : https://kartagosk.web3.dtweb.cz/egypt
+2024-04-15 13:21:44.917951 : <selenium.webdriver.remote.webelement.WebElement (session="1ad0e628665aed2db7d89cea65c8c890", element="f.B7AA2BE7F4C94C021241F53D6B781134.d.3523F28C8958CB3BCD5B9471E386F7EC.e.590")>
+2024-04-15 13:22:00.001726 : Cheap sorter is OK
+2024-04-15 13:22:00.001726 : LIST FROM WEB:
+2024-04-15 13:22:00.001726 : [1137, 1177, 1183, 1191, 1295, 1335, 1361, 1375, 1401, 1441, 1441, 1444, 1472, 1481, 1484, 1484, 1484, 1484, 1484, 1507]
+2024-04-15 13:22:00.001726 : CORRECTLY SORTED LIST
+2024-04-15 13:22:00.001726 : [1137, 1177, 1183, 1191, 1295, 1335, 1361, 1375, 1401, 1441, 1441, 1444, 1472, 1481, 1484, 1484, 1484, 1484, 1484, 1507]
+2024-04-15 13:22:00.017356 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&to=483|1837|2933|3437&tt=1
+2024-04-15 13:22:10.861285 : <selenium.webdriver.remote.webelement.WebElement (session="76c73245d22dc830900e8cae32740126", element="f.AD6493C2E5C33E8635C168940DE5965B.d.17B27D1362C945AFCEFF6D235A4C7F77.e.594")>
+2024-04-15 13:22:26.408017 : Expensive sorter is OK
+2024-04-15 13:22:26.408017 : LIST FROM WEB:
+2024-04-15 13:22:26.408017 : [3670, 3410, 3210, 3165, 2931, 2850, 2836, 2699, 2634, 2605, 2524, 2508, 2506, 2496, 2476, 2462, 2439, 2404, 2393, 2391]
+2024-04-15 13:22:26.408017 : CORRECTLY SORTED LIST
+2024-04-15 13:22:26.408017 : [3670, 3410, 3210, 3165, 2931, 2850, 2836, 2699, 2634, 2605, 2524, 2508, 2506, 2496, 2476, 2462, 2439, 2404, 2393, 2391]
+2024-04-15 13:22:26.408017 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437&tt=1
+2024-04-15 13:22:34.564306 : <selenium.webdriver.remote.webelement.WebElement (session="8b16114bb2a2b2e717698e5e1bd58ec3", element="f.B4C031DB3EE1118028147E3994160D6C.d.4836C0A2C91C832AF39EC9FC72852820.e.599")>
+2024-04-15 13:23:16.033220 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-04-15 13:23:44.330247 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-04-15 13:24:13.908494 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2024-04-15 13:24:47.315046 : actually OK
+2024-04-15 13:24:52.487161 : https://kartagosk.web3.dtweb.cz/egypt/hurghada/safaga/the-cascades-golf-resort-spa-and-thalasso?DS=65536&GIATA=36600&D=64419|64420|64423|64425&HID=17621&PF=50&PT=40000&MT=5&DI=AI&RC=DR02&NN=7&DF=2024-04-15|2024-06-14&RD=2024-06-04&DD=2024-05-28&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=HRG90051&DPR=KARTAGO-SK-ATCOM&PC=49125975/2/1609/7&IFC=62058478/269440&OFC=62057539/269439
+2024-04-15 13:24:52.487161 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:24:52.487161 : https://kartagosk.web3.dtweb.cz/egypt/hurghada/safaga/the-cascades-golf-resort-spa-and-thalasso?DS=65536&GIATA=36600&D=64419|64420|64423|64425&HID=17621&PF=50&PT=40000&MT=5&DI=AI&RC=DR02&NN=7&DF=2024-04-15|2024-06-14&RD=2024-06-04&DD=2024-05-28&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=HRG90051&DPR=KARTAGO-SK-ATCOM&PC=49125975/2/1609/7&IFC=62058478/269440&OFC=62057539/269439
+2024-04-15 13:25:03.611770 : <selenium.webdriver.remote.webelement.WebElement (session="dd4b7ae81e789169d6d04a8ceb094593", element="f.AFA206E47F90F13155B83C7E114CF69B.d.0F3973EE42870DA9690802C6C03BA37C.e.603")>
+2024-04-15 13:25:09.986732 : 0
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ok
+2024-04-15 13:25:10.174449 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive extra', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive soft']
+2024-04-15 13:25:10.190070 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&m=5&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:25:20.330649 : <selenium.webdriver.remote.webelement.WebElement (session="151d677245c28c04de83ea9410afe64f", element="f.5B2906E5EB0FF8C76DB52BC1D2D24F2C.d.E54379B0CACDBAE603F860ED684E0E54.e.603")>
+2024-04-15 13:25:49.143307 : nenasle se exponea banner
+2024-04-15 13:25:49.174441 : |||||HOTEL CISLO|||||||
+2024-04-15 13:25:49.174441 : 1
+2024-04-15 13:25:49.174441 : 1
+2024-04-15 13:25:49.174441 : 1
+2024-04-15 13:25:49.361927 : 458 €
+2024-04-15 13:26:17.955680 : nenasle se exponea banner
+2024-04-15 13:26:19.049846 : 458 €
+2024-04-15 13:26:19.117031 : pokoje sedi srl vs detail
+2024-04-15 13:26:19.117031 : stravy sedi srl vs detail
+2024-04-15 13:26:19.117031 : ceny all sedi srl vs detail
+2024-04-15 13:26:19.117031 :  cena adult sedi srl vs detail
+2024-04-15 13:26:19.122026 : 1
+2024-04-15 13:26:19.122026 : 2
+2024-04-15 13:26:19.122026 : |||||HOTEL CISLO|||||||
+2024-04-15 13:26:19.122026 : 2
+2024-04-15 13:26:19.122026 : 2
+2024-04-15 13:26:19.122026 : 2
+2024-04-15 13:26:19.252583 : 471 €
+2024-04-15 13:26:46.878005 : nenasle se exponea banner
+2024-04-15 13:26:47.971792 : 471 €
+2024-04-15 13:26:48.038040 : pokoje sedi srl vs detail
+2024-04-15 13:26:48.038040 : stravy sedi srl vs detail
+2024-04-15 13:26:48.038040 : ceny all sedi srl vs detail
+2024-04-15 13:26:48.038040 :  cena adult sedi srl vs detail
+2024-04-15 13:26:48.043311 : 2
+2024-04-15 13:26:48.043311 : 3
+2024-04-15 13:26:48.043311 : |||||HOTEL CISLO|||||||
+2024-04-15 13:26:48.043311 : 3
+2024-04-15 13:26:48.043311 : 3
+2024-04-15 13:26:48.043311 : 3
+2024-04-15 13:26:48.205810 : 708 €
+2024-04-15 13:27:15.784147 : nenasle se exponea banner
+2024-04-15 13:27:16.878246 : 708 €
+2024-04-15 13:27:16.946490 : pokoje sedi srl vs detail
+2024-04-15 13:27:16.946490 : stravy sedi srl vs detail
+2024-04-15 13:27:16.946490 : ceny all sedi srl vs detail
+2024-04-15 13:27:16.946490 :  cena adult sedi srl vs detail
+2024-04-15 13:27:16.951477 : 3
+2024-04-15 13:27:16.951477 : 4
+2024-04-15 13:27:16.951477 : |||||HOTEL CISLO|||||||
+2024-04-15 13:27:16.951477 : 4
+2024-04-15 13:27:16.951477 : 4
+2024-04-15 13:27:16.951477 : 4
+2024-04-15 13:27:17.096578 : 511 €
+2024-04-15 13:27:44.784149 : nenasle se exponea banner
+2024-04-15 13:27:45.877850 : 511 €
+2024-04-15 13:27:45.939930 : pokoje sedi srl vs detail
+2024-04-15 13:27:45.939930 : stravy sedi srl vs detail
+2024-04-15 13:27:45.940234 : ceny all sedi srl vs detail
+2024-04-15 13:27:45.940234 :  cena adult sedi srl vs detail
+2024-04-15 13:27:45.946422 : 4
+2024-04-15 13:27:45.946422 : 5
+2024-04-15 13:27:45.946422 : |||||HOTEL CISLO|||||||
+2024-04-15 13:27:45.946422 : 5
+2024-04-15 13:27:45.946422 : 5
+2024-04-15 13:27:45.946422 : 5
+2024-04-15 13:27:46.081074 : 724 €
+2024-04-15 13:28:13.628060 : nenasle se exponea banner
+2024-04-15 13:28:14.706182 : 724 €
+2024-04-15 13:28:14.771030 : pokoje sedi srl vs detail
+2024-04-15 13:28:14.771030 : stravy sedi srl vs detail
+2024-04-15 13:28:14.771030 : ceny all sedi srl vs detail
+2024-04-15 13:28:14.771030 :  cena adult sedi srl vs detail
+2024-04-15 13:28:14.777187 : 5
+2024-04-15 13:28:14.777187 : 6
+2024-04-15 13:28:14.783738 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:28:23.268674 : <selenium.webdriver.remote.webelement.WebElement (session="86225a1fb45ae8bce72593e02e511469", element="f.3834CB7901138C46AE375A8D48AD73B9.d.C62D721BC69DF686D7454CA0E7DB8EB8.e.616")>
+2024-04-15 13:28:23.971989 : True
+2024-04-15 13:28:24.034265 : True
+2024-04-15 13:28:24.081134 : True
+2024-04-15 13:28:24.096756 : True
+2024-04-15 13:28:24.112376 : True
+2024-04-15 13:28:24.127998 : True
+2024-04-15 13:28:24.127998 : True
+2024-04-15 13:28:24.143621 : True
+2024-04-15 13:28:24.143621 : True
+2024-04-15 13:28:24.159241 : True
+2024-04-15 13:28:24.159241 : True
+2024-04-15 13:28:24.174862 : True
+2024-04-15 13:28:24.174862 : True
+2024-04-15 13:28:24.190491 : True
+2024-04-15 13:28:24.221728 : True
+2024-04-15 13:28:24.237347 : True
+2024-04-15 13:28:24.252969 : True
+2024-04-15 13:28:24.253475 : True
+2024-04-15 13:28:24.269101 : True
+2024-04-15 13:28:24.269101 : True
+2024-04-15 13:31:45.395148 : ceny
+2024-04-15 13:31:45.410154 : ceny
+2024-04-15 13:31:45.425780 : ceny
+2024-04-15 13:31:45.425780 : ceny
+2024-04-15 13:31:45.441290 : ceny
+2024-04-15 13:31:45.441290 : ceny
+2024-04-15 13:31:45.456915 : ceny
+2024-04-15 13:31:45.472422 : ceny
+2024-04-15 13:31:45.472422 : ceny
+2024-04-15 13:31:45.488048 : ceny
+2024-04-15 13:31:45.488048 : ceny
+2024-04-15 13:31:45.503668 : ceny
+2024-04-15 13:31:45.519290 : ceny
+2024-04-15 13:31:45.519290 : ceny
+2024-04-15 13:31:45.534912 : ceny
+2024-04-15 13:31:45.534912 : ceny
+2024-04-15 13:31:45.550533 : ceny
+2024-04-15 13:31:45.566659 : ceny
+2024-04-15 13:31:45.566659 : ceny
+2024-04-15 13:31:45.582284 : ceny
+2024-04-15 13:31:45.582284 : ceny
+2024-04-15 13:31:45.597792 : ceny
+2024-04-15 13:31:45.613417 : ceny
+2024-04-15 13:31:45.613417 : ceny
+2024-04-15 13:31:45.628926 : ceny
+2024-04-15 13:31:45.628926 : ceny
+2024-04-15 13:31:45.644552 : ceny
+2024-04-15 13:31:45.660060 : ceny
+2024-04-15 13:31:45.660060 : ceny
+2024-04-15 13:31:45.675686 : ceny
+2024-04-15 13:31:45.691198 : ceny
+2024-04-15 13:31:45.691198 : ceny
+2024-04-15 13:31:45.706823 : ceny
+2024-04-15 13:31:45.706823 : ceny
+2024-04-15 13:31:45.722444 : ceny
+2024-04-15 13:31:45.738065 : ceny
+2024-04-15 13:31:45.738065 : ceny
+2024-04-15 13:31:45.753687 : ceny
+2024-04-15 13:31:45.753687 : ceny
+2024-04-15 13:31:45.769309 : ceny
+2024-04-15 13:31:50.832131 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:31:59.301368 : <selenium.webdriver.remote.webelement.WebElement (session="265017a6e07a6da24ea5e9b836743d99", element="f.536CF79BEEB171943D7F9EAF3679ECC7.d.B063328FB98FF828194843F9AE4D321C.e.516")>
+2024-04-15 13:32:11.456894 : True
+2024-04-15 13:32:11.456894 : True
+2024-04-15 13:32:11.472516 : True
+2024-04-15 13:32:11.472516 : True
+2024-04-15 13:32:11.488137 : True
+2024-04-15 13:32:11.488137 : True
+2024-04-15 13:32:11.503759 : True
+2024-04-15 13:32:11.519380 : True
+2024-04-15 13:32:11.519380 : True
+2024-04-15 13:32:11.535001 : True
+2024-04-15 13:32:11.535001 : True
+2024-04-15 13:32:11.550623 : True
+2024-04-15 13:32:11.550623 : True
+2024-04-15 13:32:11.566244 : True
+2024-04-15 13:32:11.566244 : True
+2024-04-15 13:32:11.581865 : True
+2024-04-15 13:32:11.581865 : True
+2024-04-15 13:32:11.597487 : True
+2024-04-15 13:32:11.597487 : True
+2024-04-15 13:32:11.613109 : True
+2024-04-15 13:35:32.692011 : ceny
+2024-04-15 13:35:32.692011 : ceny
+2024-04-15 13:35:32.707632 : ceny
+2024-04-15 13:35:32.723254 : ceny
+2024-04-15 13:35:32.723254 : ceny
+2024-04-15 13:35:32.738875 : ceny
+2024-04-15 13:35:32.738875 : ceny
+2024-04-15 13:35:32.754496 : ceny
+2024-04-15 13:35:32.770118 : ceny
+2024-04-15 13:35:32.770118 : ceny
+2024-04-15 13:35:32.785739 : ceny
+2024-04-15 13:35:32.801360 : ceny
+2024-04-15 13:35:32.832603 : ceny
+2024-04-15 13:35:32.848225 : ceny
+2024-04-15 13:35:32.848225 : ceny
+2024-04-15 13:35:32.863846 : ceny
+2024-04-15 13:35:32.879468 : ceny
+2024-04-15 13:35:32.879468 : ceny
+2024-04-15 13:35:32.895088 : ceny
+2024-04-15 13:35:32.895088 : ceny
+2024-04-15 13:35:32.910711 : ceny
+2024-04-15 13:35:32.926332 : ceny
+2024-04-15 13:35:32.926332 : ceny
+2024-04-15 13:35:32.941952 : ceny
+2024-04-15 13:35:32.957574 : ceny
+2024-04-15 13:35:32.957574 : ceny
+2024-04-15 13:35:32.973195 : ceny
+2024-04-15 13:35:32.973195 : ceny
+2024-04-15 13:35:32.988818 : ceny
+2024-04-15 13:35:33.004438 : ceny
+2024-04-15 13:35:33.004438 : ceny
+2024-04-15 13:35:33.020059 : ceny
+2024-04-15 13:35:33.020059 : ceny
+2024-04-15 13:35:33.035681 : ceny
+2024-04-15 13:35:33.051303 : ceny
+2024-04-15 13:35:33.051303 : ceny
+2024-04-15 13:35:33.067428 : ceny
+2024-04-15 13:35:33.083052 : ceny
+2024-04-15 13:35:33.083052 : ceny
+2024-04-15 13:35:33.098560 : ceny
+2024-04-15 13:35:38.129490 : https://kartagosk.web3.dtweb.cz/vysledky-vyhladavania?ac1=2&d=211801|211814|63260|63448&dd=2024-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-04-15 13:35:46.614582 : <selenium.webdriver.remote.webelement.WebElement (session="8a3e1332b5f3cedfb0051a2a4bbf72ef", element="f.05A9774E22FADF2A4FA1CF3DA56D1177.d.2A8E9F649AF4BFBEDB312EBCB5D70FEF.e.513")>
+2024-04-15 13:35:50.707649 : https://kartagosk.web3.dtweb.cz/vysledky-vyhladavania?dd=2024-04-15&nn=7|8|9|10|11|12|13&rd=2024-06-15&to=483|1837|3437&tt=1
+2024-04-15 13:36:04.239922 : <selenium.webdriver.remote.webelement.WebElement (session="0e693257020432727f4ce3705849b3d3", element="f.059FC4A88359120989B29AFDDBEF72FA.d.3C6394F83AE6B2359111370CCB1683A2.e.951")>
+2024-04-15 13:36:11.208389 : ['28.4. (Ne) / 7 nocí\nHurghada (Egypt)\nBratislava\n639 €', '5.5. (Ne) / 7 nocí\nMarsa Alam (Egypt)\nBratislava\n584 €', '19.5. (Ne) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n441 €', '22.5. (St) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n441 €', '22.5. (St) / 7 nocí\nMarsa Alam (Egypt)\nBratislava\n584 €', '23.5. (Št) / 7 nocí\nHurghada (Egypt)\nBratislava\n617 €', '24.5. (Pi) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n441 €', '26.5. (Ne) / 7 nocí\nMarsa Alam (Egypt)\nBratislava\n584 €', '26.5. (Ne) / 7 nocí\nHurghada (Egypt)\nBratislava\n617 €', '28.5. (Út) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n510 €', '29.5. (St) / 7 nocí\nMarsa Alam (Egypt)\nBratislava\n584 €', '31.5. (Pi) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n522 €']
+2024-04-15 13:36:11.208389 : ['2.6. (Ne) / 7 nocí\nHurghada (Egypt)\nKošice\n625 €', '3.6. (Po) / 7 nocí\nJužný Cyprus (Cyprus)\nBratislava\n699 €', '4.6. (Út) / 10 nocí\nRhodos (Grécko)\nBratislava\n926 €', '5.6. (St) / 7 nocí\nMallorca (Španielsko)\nKošice\n647 €', '5.6. (St) / 7 nocí\nKréta (Grécko)\nBratislava\n594 €', '10.6. (Po) / 10 nocí\nZakynthos (Grécko)\nBratislava\n624 €', '10.6. (Po) / 7 nocí\nZakynthos (Grécko)\nBratislava\n537 €', '11.6. (Út) / 7 nocí\nRhodos (Grécko)\nKošice\n496 €', '12.6. (St) / 7 nocí\nPobrežie (Èierna Hora)\nBratislava\n699 €', '12.6. (St) / 7 nocí\nKréta (Grécko)\nKošice\n538 €', '12.6. (St) / 7 nocí\nDurrës (Albánsko)\nBratislava\n616 €', '18.6. (Út) / 7 nocí\nBurgas (Bulharsko)\nKošice\n414 €']
+2024-04-15 13:36:11.208389 : https://kartagosk.web3.dtweb.cz/
+2024-04-15 13:36:18.552805 : <selenium.webdriver.remote.webelement.WebElement (session="29b1714ec70c75aa4c3ddd7e4c3398dc", element="f.8A72CC36251A9CD7127DB56227BCFF4B.d.78DC8D1116D25422FE840186CEFC32EB.e.485")>
+2024-04-15 13:36:46.334160 : ------------------------------------------
+2024-04-15 13:36:46.334160 : LIST FROM PUBLIC WWW PRODUCTION https://www.kartago.sk/
+2024-04-15 13:36:46.334160 : ['324 zájazdov v 1 destinácii', '16 zájazdov v 1 destinácii', '17 zájazdov v 1 destinácii', '154 zájazdov v 1 destinácii']
+2024-04-15 13:36:46.334160 : ------------------------------------------
+2024-04-15 13:36:46.334160 : LIST FROM DEPLOYING WEB https://kartagosk.web3.dtweb.cz/
+2024-04-15 13:36:46.334160 : ['324 zájazdov v 1 destinácii', '16 zájazdov v 1 destinácii', '17 zájazdov v 1 destinácii', '154 zájazdov v 1 destinácii']
+2024-04-15 13:36:46.334160 : ------------------------------------------
+2024-04-15 13:36:46.334160 : Banners are GOOD, TEST OK https://www.kartago.sk/ VS https://kartagosk.web3.dtweb.cz/
+2024-04-15 13:36:46.334160 : https://kartagosk.web3.dtweb.cz/
+2024-04-15 13:39:20.295151 : len(pocet_vysledku_list_default)
+2024-04-15 13:39:20.295151 : 12
+2024-04-15 13:39:20.295151 :              
+2024-04-15 13:39:20.295151 : len(pocet_vysledku_list_dev))
+2024-04-15 13:39:20.296148 : 12
+2024-04-15 13:39:20.296148 : 20 zájazdov v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2024-07-01&ic1=1&ka1=12&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2024-07-01&ic1=1&ka1=12&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  2
+2024-04-15 13:39:20.296148 : 479 zájazdov vo 2 destináciách
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  3
+2024-04-15 13:39:20.296148 : 3 zájazdy v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&ac2=4&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2024-07-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&sc=residential&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&ac2=4&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2024-07-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&sc=residential&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  4
+2024-04-15 13:39:20.296148 : 175 zájazdov vo 2 destináciách
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  5
+2024-04-15 13:39:20.296148 : 113 zájazdov v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  6
+2024-04-15 13:39:20.296148 : 16 zájazdov vo 3 destináciách
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&ac2=4&d=63484|64420|64423|63220|63316|63319|63324|63333|63402|63471|63719|63483|63281|63311|63314|63373|63390|63408|63409|63442&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&ac2=4&d=63484|64420|64423|63220|63316|63319|63324|63333|63402|63471|63719|63483|63281|63311|63314|63373|63390|63408|63409|63442&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  7
+2024-04-15 13:39:20.296148 : 2 zájazdy v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  8
+2024-04-15 13:39:20.296148 : 16 zájazdov v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  9
+2024-04-15 13:39:20.296148 : 176 zájazdov v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  10
+2024-04-15 13:39:20.296148 : 3 zájazdy vo 2 destináciách
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=2&ac2=3&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63582|63581|63580|63707|63708|63710|63972|63984|63977|63979|63981|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|64037|63983&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=2&ac2=3&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63582|63581|63580|63707|63708|63710|63972|63984|63977|63979|63981|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|64037|63983&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  11
+2024-04-15 13:39:20.296148 : 28 zájazdov vo 2 destináciách
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=1&ac2=3&d=64419|64420|64423|211764|63350|64425|63582|63581|63580|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=1&ac2=3&d=64419|64420|64423|211764|63350|64425|63582|63581|63580|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2024-07-01&ic1=1&ka1=12&ka2=4|16&kc1=1&kc2=2&nn=7|8|9|10|11|12|13&rd=2024-08-31&to=483|1837|2933|3437|4312|4305|2682|4308&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  12
+2024-04-15 13:39:20.296148 : 22 zájazdov v 1 destinácii
+2024-04-15 13:39:20.296148 : nenašli ste, èo ste h¾adali?
+2024-04-15 13:39:20.296148 : https://kartagosk.web3.dtweb.cz//vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 : https://kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-04-15 13:39:20.296148 :              
+2024-04-15 13:39:20.296148 : URL cislo  13
+2024-04-15 13:39:20.296148 : 12
+2024-04-15 13:39:20.301135 : https://www.kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1

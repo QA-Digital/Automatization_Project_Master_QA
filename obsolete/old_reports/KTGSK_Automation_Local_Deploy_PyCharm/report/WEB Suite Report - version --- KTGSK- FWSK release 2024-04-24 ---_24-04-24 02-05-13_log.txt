@@ -1,0 +1,37 @@
+2024-04-24 14:05:25.738162 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-24 14:05:40.644431 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-24 14:06:01.582100 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-24 14:06:17.722827 : https://kartagosk.web3.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-24 14:06:40.255260 : <selenium.webdriver.remote.webelement.WebElement (session="282b6a2ca674ee12294e0f05744bd156", element="f.B2AAEE4E5A0288260CB3AACBA9E626C2.d.E61F2E951323F51F1DA17BA4E69D8045.e.463")>
+2024-04-24 14:06:41.461633 : benefit item
+2024-04-24 14:06:41.521042 : benefit item
+2024-04-24 14:06:41.587884 : benefit item
+2024-04-24 14:06:41.595909 : benefit item
+2024-04-24 14:06:41.607878 : benefit item
+2024-04-24 14:06:41.620844 : benefit item
+2024-04-24 14:06:41.630116 : benefit item
+2024-04-24 14:06:41.630116 : benefit item
+2024-04-24 14:06:41.778313 : grind container
+2024-04-24 14:06:41.787290 : grind container
+2024-04-24 14:06:41.795268 : grind container
+2024-04-24 14:06:41.804333 : grind container
+2024-04-24 14:06:41.815305 : grind container
+2024-04-24 14:06:41.825279 : grind container
+2024-04-24 14:06:41.834255 : grind container
+2024-04-24 14:06:41.844288 : grind container
+2024-04-24 14:06:41.855258 : grind container
+2024-04-24 14:06:41.864234 : grind container
+2024-04-24 14:06:41.874281 : grind container
+2024-04-24 14:06:41.883258 : grind container
+2024-04-24 14:06:41.892233 : grind container
+2024-04-24 14:06:41.901210 : grind container
+2024-04-24 14:06:42.039745 : tile img
+2024-04-24 14:06:42.049718 : tile img
+2024-04-24 14:06:42.058693 : tile img
+2024-04-24 14:06:42.069750 : tile img
+2024-04-24 14:06:42.078726 : tile img
+2024-04-24 14:06:42.087701 : tile img
+2024-04-24 14:06:42.096678 : tile img
+2024-04-24 14:06:42.106722 : tile img
+2024-04-24 14:06:42.111709 : https://kartagosk.web3.dtweb.cz/uzitocne-informacie/mango-club
+2024-04-24 14:06:56.020136 : <selenium.webdriver.remote.webelement.WebElement (session="49a3bbcf4034ced115f3ccdefda53592", element="f.85AB907B32BA32BA4E60F4ED9C7ECB4B.d.F2D95224D3BFC99495498D235789CCC3.e.918")>

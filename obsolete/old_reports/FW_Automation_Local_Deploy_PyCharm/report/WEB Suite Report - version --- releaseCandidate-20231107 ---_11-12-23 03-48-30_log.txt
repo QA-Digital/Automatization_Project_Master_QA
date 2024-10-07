@@ -1,0 +1,159 @@
+2023-12-11 15:49:09.092330 : nenasle se exponea banner
+2023-12-11 15:49:09.154404 : gridy jdou videt
+2023-12-11 15:49:09.154404 : gridy jdou videt
+2023-12-11 15:49:09.169912 : gridy jdou videt
+2023-12-11 15:49:09.185538 : gridy jdou videt
+2023-12-11 15:49:09.185538 : gridy jdou videt
+2023-12-11 15:49:09.201160 : gridy jdou videt
+2023-12-11 15:49:09.216781 : gridy jdou videt
+2023-12-11 15:49:09.216781 : gridy jdou videt
+2023-12-11 15:49:09.233595 : gridy jdou videt
+2023-12-11 15:49:09.233595 : gridy jdou videt
+2023-12-11 15:49:09.249218 : gridy jdou videt
+2023-12-11 15:49:09.263725 : gridy jdou videt
+2023-12-11 15:49:09.263725 : gridy jdou videt
+2023-12-11 15:49:09.279350 : gridy jdou videt
+2023-12-11 15:49:09.294859 : gridy jdou videt
+2023-12-11 15:49:09.294859 : gridy jdou videt
+2023-12-11 15:49:09.310485 : gridy jdou videt
+2023-12-11 15:49:09.326106 : gridy jdou videt
+2023-12-11 15:49:09.326106 : gridy jdou videt
+2023-12-11 15:49:09.342874 : gridy jdou videt
+2023-12-11 15:49:09.342874 : gridy jdou videt
+2023-12-11 15:49:09.357379 : gridy jdou videt
+2023-12-11 15:49:09.373005 : gridy jdou videt
+2023-12-11 15:49:09.373005 : gridy jdou videt
+2023-12-11 15:49:09.388627 : gridy jdou videt
+2023-12-11 15:49:09.404252 : gridy jdou videt
+2023-12-11 15:49:09.404252 : gridy jdou videt
+2023-12-11 15:49:09.419870 : gridy jdou videt
+2023-12-11 15:49:09.419870 : gridy jdou videt
+2023-12-11 15:49:09.435492 : gridy jdou videt
+2023-12-11 15:49:09.452766 : gridy jdou videt
+2023-12-11 15:49:09.452766 : gridy jdou videt
+2023-12-11 15:49:09.468389 : gridy jdou videt
+2023-12-11 15:49:09.482398 : gridy jdou videt
+2023-12-11 15:49:09.482398 : gridy jdou videt
+2023-12-11 15:49:09.498024 : gridy jdou videt
+2023-12-11 15:49:09.513645 : gridy jdou videt
+2023-12-11 15:49:09.513645 : gridy jdou videt
+2023-12-11 15:49:09.529267 : gridy jdou videt
+2023-12-11 15:49:09.529267 : gridy jdou videt
+2023-12-11 15:49:09.544889 : gridy jdou videt
+2023-12-11 15:49:09.561696 : gridy jdou videt
+2023-12-11 15:49:09.561696 : gridy jdou videt
+2023-12-11 15:49:09.576201 : gridy jdou videt
+2023-12-11 15:49:09.591827 : gridy jdou videt
+2023-12-11 15:49:09.591827 : gridy jdou videt
+2023-12-11 15:49:09.607336 : gridy jdou videt
+2023-12-11 15:49:09.622970 : gridy jdou videt
+2023-12-11 15:49:09.638586 : gridy jdou videt
+2023-12-11 15:49:09.638586 : gridy jdou videt
+2023-12-11 15:49:09.654206 : gridy jdou videt
+2023-12-11 15:49:09.670954 : gridy jdou videt
+2023-12-11 15:49:09.671994 : gridy jdou videt
+2023-12-11 15:49:09.687617 : gridy jdou videt
+2023-12-11 15:49:09.747996 : content jdou videt
+2023-12-11 15:49:09.747996 : content jdou videt
+2023-12-11 15:49:09.763617 : content jdou videt
+2023-12-11 15:49:09.780346 : content jdou videt
+2023-12-11 15:49:09.794851 : content jdou videt
+2023-12-11 15:49:09.794851 : content jdou videt
+2023-12-11 15:49:09.810477 : content jdou videt
+2023-12-11 15:49:09.826098 : content jdou videt
+2023-12-11 15:49:09.826098 : content jdou videt
+2023-12-11 15:49:09.841720 : content jdou videt
+2023-12-11 15:49:09.841720 : content jdou videt
+2023-12-11 15:49:09.857342 : content jdou videt
+2023-12-11 15:49:09.872964 : content jdou videt
+2023-12-11 15:49:09.888586 : content jdou videt
+2023-12-11 15:49:09.889999 : content jdou videt
+2023-12-11 15:49:09.905621 : content jdou videt
+2023-12-11 15:49:09.905621 : content jdou videt
+2023-12-11 15:49:09.920127 : content jdou videt
+2023-12-11 15:49:09.935753 : content jdou videt
+2023-12-11 15:49:09.935753 : content jdou videt
+2023-12-11 15:49:09.951261 : content jdou videt
+2023-12-11 15:49:09.966887 : content jdou videt
+2023-12-11 15:49:09.982396 : content jdou videt
+2023-12-11 15:49:09.982396 : content jdou videt
+2023-12-11 15:49:10.003462 : content jdou videt
+2023-12-11 15:49:10.013131 : content jdou videt
+2023-12-11 15:49:10.024716 : content jdou videt
+2023-12-11 15:49:10.034975 : content jdou videt
+2023-12-11 15:49:10.046552 : content jdou videt
+2023-12-11 15:49:10.057392 : content jdou videt
+2023-12-11 15:49:10.067789 : content jdou videt
+2023-12-11 15:49:10.078509 : content jdou videt
+2023-12-11 15:49:10.089292 : content jdou videt
+2023-12-11 15:49:10.099748 : content jdou videt
+2023-12-11 15:49:10.107811 : content jdou videt
+2023-12-11 15:49:10.107811 : content jdou videt
+2023-12-11 15:49:10.123437 : content jdou videt
+2023-12-11 15:49:10.138945 : content jdou videt
+2023-12-11 15:49:10.138945 : content jdou videt
+2023-12-11 15:49:10.154571 : content jdou videt
+2023-12-11 15:49:10.170079 : content jdou videt
+2023-12-11 15:49:10.170079 : content jdou videt
+2023-12-11 15:49:10.185705 : content jdou videt
+2023-12-11 15:49:10.202395 : content jdou videt
+2023-12-11 15:49:10.202395 : content jdou videt
+2023-12-11 15:49:10.279291 : content jdou videt
+2023-12-11 15:49:10.294912 : content jdou videt
+2023-12-11 15:49:10.311628 : content jdou videt
+2023-12-11 15:49:10.326133 : content jdou videt
+2023-12-11 15:49:10.326133 : content jdou videt
+2023-12-11 15:49:10.341758 : content jdou videt
+2023-12-11 15:49:10.357380 : content jdou videt
+2023-12-11 15:49:10.357380 : content jdou videt
+2023-12-11 15:49:10.373002 : content jdou videt
+2023-12-11 15:49:10.373002 : https://fischer.web1.dtweb.cz/covid-info
+2023-12-11 15:49:20.545583 : https://fischer.web1.dtweb.cz/egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2023-12-11 15:49:39.577843 : its ok
+2023-12-11 15:49:39.577843 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/king-tut-resort/271244-uprava2.jpg
+2023-12-11 15:49:56.156047 : else departure not true
+2023-12-11 15:50:04.531268 : all inclusive
+2023-12-11 15:50:06.547383 : 0
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ok
+2023-12-11 15:50:06.734242 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-12-11 15:50:06.749868 : https://fischer.web1.dtweb.cz/egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-12-11 15:50:22.444212 : if departure==True
+2023-12-11 15:50:38.813381 : equal to brno
+2023-12-11 15:50:38.984981 : equal to brno
+2023-12-11 15:50:39.011100 : equal to brno
+2023-12-11 15:50:39.037188 : equal to brno
+2023-12-11 15:50:39.060479 : equal to brno
+2023-12-11 15:50:39.085781 : equal to brno
+2023-12-11 15:50:39.138041 : equal to brno
+2023-12-11 15:50:39.177774 : equal to brno
+2023-12-11 15:50:39.212401 : equal to brno
+2023-12-11 15:50:39.238332 : equal to brno
+2023-12-11 15:50:39.277229 : equal to brno
+2023-12-11 15:50:39.439507 : equal to brno
+2023-12-11 15:50:39.473575 : equal to brno
+2023-12-11 15:50:39.519732 : equal to brno
+2023-12-11 15:50:39.552936 : equal to brno
+2023-12-11 15:50:39.606710 : equal to brno
+2023-12-11 15:50:39.657002 : equal to brno
+2023-12-11 15:50:39.673517 : equal to brno
+2023-12-11 15:50:39.720869 : equal to brno
+2023-12-11 15:50:40.013717 : https://fischer.web1.dtweb.cz/egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=4305&tt=1&ttm=1#/terminy

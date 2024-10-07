@@ -1,0 +1,610 @@
+2023-04-03 09:36:40.605870 : 
+                             
+                             
+2023-04-03 09:36:40.605870 : ====== WebDriver manager ======
+                             
+2023-04-03 09:36:40.648694 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:36:40.648694 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:36:40.808080 : Trying to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+                             
+2023-04-03 09:36:41.320441 : Driver has been saved in cache [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64]
+                             
+2023-04-03 09:37:13.722256 : <selenium.webdriver.remote.webelement.WebElement (session="1fcaea0d3c0019d9af771741d7de3301", element="6eed35fe-15e8-46ca-a54a-bef66e5b4004")>
+2023-04-03 09:37:13.843666 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
+2023-04-03 09:37:13.931168 : its ok
+2023-04-03 09:37:14.013948 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
+2023-04-03 09:37:16.127195 : 
+                             
+                             
+2023-04-03 09:37:16.127195 : ====== WebDriver manager ======
+                             
+2023-04-03 09:37:16.172549 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:37:16.173546 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:37:16.258966 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:37:27.504052 : <selenium.webdriver.remote.webelement.WebElement (session="e63159d05dce9d424d243295eb3dda43", element="ca328da8-ae0d-44f5-a09f-56accc6dae75")>
+2023-04-03 09:37:53.732463 : []
+2023-04-03 09:37:53.738295 : https://etravel.stg.dtweb.cz/egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&mmt=5
+2023-04-03 09:37:55.855577 : 
+                             
+                             
+2023-04-03 09:37:55.855577 : ====== WebDriver manager ======
+                             
+2023-04-03 09:37:55.907435 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:37:55.907435 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:37:55.994214 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:37:59.431226 : http://etravel.stg.dtweb.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-04-03 09:38:06.582063 : <selenium.webdriver.remote.webelement.WebElement (session="658e1099ee73d9b5d766ff2be461b12e", element="046a9de7-b9ff-41d9-92d9-1749d259a43d")>
+2023-04-03 09:38:32.751923 : []
+2023-04-03 09:38:32.756910 : https://etravel.stg.dtweb.cz/egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-04-03 09:38:34.916914 : 
+                             
+                             
+2023-04-03 09:38:34.916914 : ====== WebDriver manager ======
+                             
+2023-04-03 09:38:34.943943 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:38:34.943943 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:38:35.025488 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:38:46.797061 : <selenium.webdriver.remote.webelement.WebElement (session="c370d2c6ad5d78b47da44147ae5c782a", element="206387a0-e525-4644-94d5-78fc6c8ed9d5")>
+2023-04-03 09:38:59.982274 : wait done
+2023-04-03 09:38:59.982274 : TRY block start
+2023-04-03 09:39:03.044682 : JDOU VIDET
+2023-04-03 09:39:03.055653 : JDOU VIDET
+2023-04-03 09:39:03.064629 : JDOU VIDET
+2023-04-03 09:39:03.073605 : JDOU VIDET
+2023-04-03 09:39:03.107514 : wait done
+2023-04-03 09:39:03.107514 : TRY block start
+2023-04-03 09:39:06.148455 : JDOU VIDET
+2023-04-03 09:39:06.157431 : JDOU VIDET
+2023-04-03 09:39:06.166407 : JDOU VIDET
+2023-04-03 09:39:06.174386 : JDOU VIDET
+2023-04-03 09:39:06.183362 : JDOU VIDET
+2023-04-03 09:39:06.192338 : JDOU VIDET
+2023-04-03 09:39:06.202311 : JDOU VIDET
+2023-04-03 09:39:06.210290 : JDOU VIDET
+2023-04-03 09:39:06.219267 : JDOU VIDET
+2023-04-03 09:39:06.227245 : JDOU VIDET
+2023-04-03 09:39:06.236221 : JDOU VIDET
+2023-04-03 09:39:06.244200 : JDOU VIDET
+2023-04-03 09:39:06.251181 : JDOU VIDET
+2023-04-03 09:39:06.258162 : JDOU VIDET
+2023-04-03 09:39:06.266141 : JDOU VIDET
+2023-04-03 09:39:06.316009 : https://etravel.stg.dtweb.cz/first-minute
+2023-04-03 09:39:08.414285 : 
+                             
+                             
+2023-04-03 09:39:08.414285 : ====== WebDriver manager ======
+                             
+2023-04-03 09:39:08.437223 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:39:08.437223 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:39:08.559360 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:39:24.536452 : <selenium.webdriver.remote.webelement.WebElement (session="5af0d1019580270045c4106f9e665ef5", element="f7e6db63-e622-4481-aaca-f896ce14105c")>
+2023-04-03 09:39:34.694711 : wait done
+2023-04-03 09:39:34.694711 : TRY block start
+2023-04-03 09:39:37.733880 : JDOU VIDET
+2023-04-03 09:39:37.741947 : JDOU VIDET
+2023-04-03 09:39:37.750271 : JDOU VIDET
+2023-04-03 09:39:37.757710 : JDOU VIDET
+2023-04-03 09:39:37.794838 : wait done
+2023-04-03 09:39:37.794838 : TRY block start
+2023-04-03 09:39:40.861250 : JDOU VIDET
+2023-04-03 09:39:40.869197 : JDOU VIDET
+2023-04-03 09:39:40.877164 : JDOU VIDET
+2023-04-03 09:39:40.884447 : JDOU VIDET
+2023-04-03 09:39:40.893083 : JDOU VIDET
+2023-04-03 09:39:40.901345 : JDOU VIDET
+2023-04-03 09:39:40.909528 : JDOU VIDET
+2023-04-03 09:39:40.917695 : JDOU VIDET
+2023-04-03 09:39:40.925943 : JDOU VIDET
+2023-04-03 09:39:40.933904 : JDOU VIDET
+2023-04-03 09:39:40.941886 : JDOU VIDET
+2023-04-03 09:39:40.949668 : JDOU VIDET
+2023-04-03 09:39:40.958337 : JDOU VIDET
+2023-04-03 09:39:40.966519 : JDOU VIDET
+2023-04-03 09:39:40.974475 : JDOU VIDET
+2023-04-03 09:39:40.982175 : JDOU VIDET
+2023-04-03 09:39:40.990793 : JDOU VIDET
+2023-04-03 09:39:40.999501 : JDOU VIDET
+2023-04-03 09:39:41.052035 : https://etravel.stg.dtweb.cz/exoticka-dovolena
+2023-04-03 09:39:43.174288 : 
+                             
+                             
+2023-04-03 09:39:43.174288 : ====== WebDriver manager ======
+                             
+2023-04-03 09:39:43.233047 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:39:43.233047 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:39:43.316382 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:39:53.067686 : <selenium.webdriver.remote.webelement.WebElement (session="41df54758da9349817ddade7a62eb6d8", element="d05b7181-f589-455d-98e8-47f38aa99a13")>
+2023-04-03 09:39:58.000910 : ZANZIBAR
+2023-04-03 09:40:01.336017 : hote dlazdice klik
+2023-04-03 09:40:06.817330 : ØECKO
+2023-04-03 09:40:10.124577 : hote dlazdice klik
+2023-04-03 09:40:15.537667 : TURECKO
+2023-04-03 09:40:20.376550 : hote dlazdice klik
+2023-04-03 09:40:25.651195 : EGYPT
+2023-04-03 09:40:27.143217 : hote dlazdice klik
+2023-04-03 09:40:32.560351 : KAPVERDY
+2023-04-03 09:40:33.705515 : hote dlazdice klik
+2023-04-03 09:40:38.860186 : OMAN
+2023-04-03 09:40:39.857799 : hote dlazdice klik
+2023-04-03 09:40:46.048298 : KEFALONIA
+2023-04-03 09:40:48.275360 : hote dlazdice klik
+2023-04-03 09:40:54.412898 : MIRAGE BAY
+2023-04-03 09:40:56.175199 : hote dlazdice klik
+2023-04-03 09:41:02.361276 : PORTO SKALA 7
+2023-04-03 09:41:04.281997 : hote dlazdice klik
+2023-04-03 09:41:09.484086 : DOUBLETREE
+2023-04-03 09:41:11.117857 : hote dlazdice klik
+2023-04-03 09:41:11.137804 : https://etravel.stg.dtweb.cz/spojene-arabske-emiraty/ras-al-khaimah/ras-al-khaimah/double-tree-by-hilton-ras-al-khaimah?DS=256&GIATA=227394&D=64091&HID=1364&DF=2023-04-06|2023-05-04&RD=2023-04-22&DD=2023-04-20&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=RKT90004&DPR=FISCHER%20ATCOM
+2023-04-03 09:41:13.323428 : 
+                             
+                             
+2023-04-03 09:41:13.323428 : ====== WebDriver manager ======
+                             
+2023-04-03 09:41:13.374292 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:41:13.374292 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:41:13.461060 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:41:23.807451 : <selenium.webdriver.remote.webelement.WebElement (session="7370bc2ac80adef5aed9eb32798a32d8", element="4ff5a295-7051-4e68-9bf6-13a92845b80b")>
+2023-04-03 09:41:23.931121 : ZANZIBAR
+2023-04-03 09:41:27.344019 : ØECKO
+2023-04-03 09:41:34.000574 : TURECKO
+2023-04-03 09:42:02.724841 : EGYPT
+2023-04-03 09:42:32.953942 : KAPVERDY
+2023-04-03 09:42:35.565939 : OMAN
+2023-04-03 09:42:38.622955 : KEFALONIA
+2023-04-03 09:42:42.374044 : MIRAGE BAY
+2023-04-03 09:42:44.442528 : PORTO SKALA 7
+2023-04-03 09:42:47.975106 : DOUBLETREE
+2023-04-03 09:42:48.974597 : https://etravel.stg.dtweb.cz/hledani-vysledky?q=Doubletree
+2023-04-03 09:42:52.513752 : 
+                             
+                             
+2023-04-03 09:42:52.513752 : ====== WebDriver manager ======
+                             
+2023-04-03 09:42:52.554961 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:42:52.554961 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:42:52.637947 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:43:02.232674 : <selenium.webdriver.remote.webelement.WebElement (session="a4a405f9915b9cd4bd6ba8a201e9cc8d", element="d7f5a847-f27e-412c-88ee-49200a625d7a")>
+2023-04-03 09:46:23.975625 : následující destinace mají prázdný teaser obrazek
+2023-04-03 09:46:23.975625 : []
+2023-04-03 09:46:23.980557 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?tt=1&dd=2022-08-04&rd=2022-09-30&nn=7|8|9&ka1=5&kc1=1&ac1=2
+2023-04-03 09:46:26.086078 : 
+                             
+                             
+2023-04-03 09:46:26.086078 : ====== WebDriver manager ======
+                             
+2023-04-03 09:46:26.112424 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:46:26.112424 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:46:26.214318 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:46:35.188960 : <selenium.webdriver.remote.webelement.WebElement (session="569b8f14a27937ec30cbf900f2a218d6", element="e1be6812-7f75-4590-81f7-5460b68ba7d1")>
+2023-04-03 09:46:35.429309 : https://etravel.stg.dtweb.cz/
+2023-04-03 09:46:37.517609 : 
+                             
+                             
+2023-04-03 09:46:37.517609 : ====== WebDriver manager ======
+                             
+2023-04-03 09:46:37.543539 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:46:37.543539 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:46:37.627204 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:46:52.338107 : <selenium.webdriver.remote.webelement.WebElement (session="d0b2e1b05b6f3fc80a705400a16ccac6", element="ad84e8f1-3bbc-4ab2-845e-9bb480ae75c0")>
+2023-04-03 09:47:02.502767 : wait done
+2023-04-03 09:47:02.502767 : TRY block start
+2023-04-03 09:47:05.555897 : JDOU VIDET
+2023-04-03 09:47:05.564086 : JDOU VIDET
+2023-04-03 09:47:05.572310 : JDOU VIDET
+2023-04-03 09:47:05.580393 : JDOU VIDET
+2023-04-03 09:47:05.611135 : wait done
+2023-04-03 09:47:05.611135 : TRY block start
+2023-04-03 09:47:08.671524 : JDOU VIDET
+2023-04-03 09:47:08.680499 : JDOU VIDET
+2023-04-03 09:47:08.689229 : JDOU VIDET
+2023-04-03 09:47:08.696623 : JDOU VIDET
+2023-04-03 09:47:08.705602 : JDOU VIDET
+2023-04-03 09:47:08.714743 : JDOU VIDET
+2023-04-03 09:47:11.758560 : https://etravel.stg.dtweb.cz/last-minute
+2023-04-03 09:47:13.865662 : 
+                             
+                             
+2023-04-03 09:47:13.865662 : ====== WebDriver manager ======
+                             
+2023-04-03 09:47:13.893338 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:47:13.893338 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:47:13.974127 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:47:43.581382 : <selenium.webdriver.remote.webelement.WebElement (session="8973781b79fdee3969ae5d8ab359c7e3", element="a7212ced-8867-4ead-bf8f-f18ca65783c1")>
+2023-04-03 09:48:01.508017 : wait done
+2023-04-03 09:48:01.508017 : TRY block start
+2023-04-03 09:48:04.561293 : JDOU VIDET
+2023-04-03 09:48:04.569876 : JDOU VIDET
+2023-04-03 09:48:04.578161 : JDOU VIDET
+2023-04-03 09:48:04.586326 : JDOU VIDET
+2023-04-03 09:48:04.619671 : wait done
+2023-04-03 09:48:04.619671 : TRY block start
+2023-04-03 09:48:07.666233 : JDOU VIDET
+2023-04-03 09:48:07.698544 : JDOU VIDET
+2023-04-03 09:48:07.707800 : JDOU VIDET
+2023-04-03 09:48:07.716698 : JDOU VIDET
+2023-04-03 09:48:07.725032 : JDOU VIDET
+2023-04-03 09:48:07.732836 : JDOU VIDET
+2023-04-03 09:48:07.741802 : JDOU VIDET
+2023-04-03 09:48:07.749603 : JDOU VIDET
+2023-04-03 09:48:07.758528 : JDOU VIDET
+2023-04-03 09:48:07.767483 : JDOU VIDET
+2023-04-03 09:48:07.775686 : JDOU VIDET
+2023-04-03 09:48:07.783858 : JDOU VIDET
+2023-04-03 09:48:07.792002 : JDOU VIDET
+2023-04-03 09:48:07.800471 : JDOU VIDET
+2023-04-03 09:48:07.809640 : JDOU VIDET
+2023-04-03 09:48:07.840760 : sdo section visible true :  True
+2023-04-03 09:48:07.845751 : https://etravel.stg.dtweb.cz/spanelsko
+2023-04-03 09:48:10.125009 : 
+                             
+                             
+2023-04-03 09:48:10.125009 : ====== WebDriver manager ======
+                             
+2023-04-03 09:48:10.159285 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:48:10.159285 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:48:10.277986 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:48:21.840525 : <selenium.webdriver.remote.webelement.WebElement (session="0aa09a61658dfc892c7675805b806702", element="f3b92c32-ca7a-47b5-b7a3-1383bfc3c008")>
+2023-04-03 09:48:26.262317 : Razeni od nejlevnejsiho je OK
+2023-04-03 09:48:26.262317 : [47160, 47220, 47440, 48590, 48700, 49760, 50120, 50160, 50370, 50900, 51110, 52210, 52450, 52550, 52560, 53040, 53230, 53410, 53820, 53890]
+2023-04-03 09:48:26.262317 : [47160, 47220, 47440, 48590, 48700, 49760, 50120, 50160, 50370, 50900, 51110, 52210, 52450, 52550, 52560, 53040, 53230, 53410, 53820, 53890]
+2023-04-03 09:48:26.266765 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?sortby=ByRecommedation&d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2&sortorder=0
+2023-04-03 09:48:28.364304 : 
+                             
+                             
+2023-04-03 09:48:28.364304 : ====== WebDriver manager ======
+                             
+2023-04-03 09:48:28.410312 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:48:28.410312 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:48:28.491694 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:48:37.284849 : <selenium.webdriver.remote.webelement.WebElement (session="741be2a18419e053221abe0be015a352", element="a880d7c0-397f-49c9-825b-9ba2032f970a")>
+2023-04-03 09:48:45.363480 : Razeni od nejdrazsiho je OK
+2023-04-03 09:48:45.363480 : [243380, 183860, 178260, 160032, 153560, 152000, 149530, 149200, 148560, 147770, 140400, 139200, 135350, 132950, 132850, 131400, 131200, 130200, 129640, 129600]
+2023-04-03 09:48:45.363480 : [243380, 183860, 178260, 160032, 153560, 152000, 149530, 149200, 148560, 147770, 140400, 139200, 135350, 132950, 132850, 131400, 131200, 130200, 129640, 129600]
+2023-04-03 09:48:45.368467 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?sortorder=1&d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2
+2023-04-03 09:48:47.516368 : 
+                             
+                             
+2023-04-03 09:48:47.516368 : ====== WebDriver manager ======
+                             
+2023-04-03 09:48:47.542358 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:48:47.542358 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:48:47.624542 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:49:01.503318 : <selenium.webdriver.remote.webelement.WebElement (session="751803d5372d9d540cd7003bc4d9a13d", element="d3e10d30-be93-4348-b566-c6070ad07521")>
+2023-04-03 09:49:22.896395 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:49:27.222053 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:49:31.532060 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:49:57.879146 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:50:26.162719 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:50:55.767295 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2023-04-03 09:51:25.221802 : actually OK
+2023-04-03 09:51:29.188366 : https://etravel.stg.dtweb.cz/spanelsko/andalusie/estepona/hotel-h10-estepona-palace?KEY=2530184122&DS=4&GIATA=34017&D=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&HID=8172&PF=0&PT=900000&MT=2&RT=15&NN=7&DF=2023-08-20|2023-09-30&RD=2023-09-28&DD=2023-09-21&ERM=0&AC1=2&KC1=2&KA1=8|6&IC1=0&DP=4312&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=8172&DPR=ETRAVEL
+2023-04-03 09:51:29.188366 : http://etravel.stg.dtweb.cz//vysledky-vyhledavani?sortby=ByRecommedation&d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2
+2023-04-03 09:51:29.305894 : https://etravel.stg.dtweb.cz/spanelsko/andalusie/estepona/hotel-h10-estepona-palace?KEY=2530184122&DS=4&GIATA=34017&D=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&HID=8172&PF=0&PT=900000&MT=2&RT=15&NN=7&DF=2023-08-20|2023-09-30&RD=2023-09-28&DD=2023-09-21&ERM=0&AC1=2&KC1=2&KA1=8|6&IC1=0&DP=4312&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=8172&DPR=ETRAVEL
+2023-04-03 09:51:31.447315 : 
+                             
+                             
+2023-04-03 09:51:31.447315 : ====== WebDriver manager ======
+                             
+2023-04-03 09:51:31.473245 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:51:31.473245 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:51:31.572592 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:51:45.452300 : <selenium.webdriver.remote.webelement.WebElement (session="01b64aae917ad213b027b78291a8040b", element="9e8de40a-c4c7-441d-9f99-8c84a448e0d5")>
+2023-04-03 09:51:53.112396 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2&m=5
+2023-04-03 09:51:55.211505 : 
+                             
+                             
+2023-04-03 09:51:55.211505 : ====== WebDriver manager ======
+                             
+2023-04-03 09:51:55.241426 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:51:55.241426 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:51:55.323207 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:52:07.753983 : <selenium.webdriver.remote.webelement.WebElement (session="f27f49a511f96073ef9da7fce0929ee7", element="8755a34a-3ebf-404f-b1d5-b5668321ddb3")>
+2023-04-03 09:52:16.904689 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:16.904689 : 1
+2023-04-03 09:52:16.904689 : 1
+2023-04-03 09:52:16.904689 : 1
+2023-04-03 09:52:16.949042 : 47 160
+2023-04-03 09:52:22.150618 : 47 160
+2023-04-03 09:52:22.150618 : ceny all sedi srl vs detail
+2023-04-03 09:52:22.242950 : 1
+2023-04-03 09:52:22.242950 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:22.242950 : 2
+2023-04-03 09:52:22.242950 : 2
+2023-04-03 09:52:22.242950 : 2
+2023-04-03 09:52:22.290825 : 47 220
+2023-04-03 09:52:27.470133 : 47 220
+2023-04-03 09:52:27.470133 : ceny all sedi srl vs detail
+2023-04-03 09:52:27.659059 : 2
+2023-04-03 09:52:27.659059 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:27.659059 : 3
+2023-04-03 09:52:27.659059 : 3
+2023-04-03 09:52:27.659059 : 3
+2023-04-03 09:52:27.708597 : 47 440
+2023-04-03 09:52:32.908989 : 47 440
+2023-04-03 09:52:32.908989 : ceny all sedi srl vs detail
+2023-04-03 09:52:33.021692 : 3
+2023-04-03 09:52:36.557347 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:36.557347 : 6
+2023-04-03 09:52:36.557347 : 6
+2023-04-03 09:52:36.557347 : 6
+2023-04-03 09:52:36.625167 : 49 760
+2023-04-03 09:52:41.832857 : 49 760
+2023-04-03 09:52:41.832857 : ceny all sedi srl vs detail
+2023-04-03 09:52:41.919626 : 6
+2023-04-03 09:52:41.919626 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:41.919626 : 7
+2023-04-03 09:52:41.919626 : 7
+2023-04-03 09:52:41.919626 : 7
+2023-04-03 09:52:41.977471 : 50 120
+2023-04-03 09:52:47.142142 : 50 120
+2023-04-03 09:52:47.142142 : ceny all sedi srl vs detail
+2023-04-03 09:52:47.224581 : 7
+2023-04-03 09:52:47.224581 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:47.224581 : 8
+2023-04-03 09:52:47.224581 : 8
+2023-04-03 09:52:47.224581 : 8
+2023-04-03 09:52:47.285676 : 50 160
+2023-04-03 09:52:52.450474 : 50 160
+2023-04-03 09:52:52.450474 : ceny all sedi srl vs detail
+2023-04-03 09:52:52.536481 : 8
+2023-04-03 09:52:52.536481 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:52.536481 : 9
+2023-04-03 09:52:52.536481 : 9
+2023-04-03 09:52:52.536481 : 9
+2023-04-03 09:52:52.595990 : 50 370
+2023-04-03 09:52:57.765355 : 50 370
+2023-04-03 09:52:57.765355 : ceny all sedi srl vs detail
+2023-04-03 09:52:57.853121 : 9
+2023-04-03 09:52:58.854342 : |||||HOTEL CISLO|||||||
+2023-04-03 09:52:58.854342 : 11
+2023-04-03 09:52:58.854342 : 11
+2023-04-03 09:52:58.854342 : 11
+2023-04-03 09:52:58.899190 : 51 110
+2023-04-03 09:53:04.129740 : 51 110
+2023-04-03 09:53:04.129740 : ceny all sedi srl vs detail
+2023-04-03 09:53:04.217901 : 11
+2023-04-03 09:53:04.217901 : |||||HOTEL CISLO|||||||
+2023-04-03 09:53:04.217901 : 12
+2023-04-03 09:53:04.217901 : 12
+2023-04-03 09:53:04.217901 : 12
+2023-04-03 09:53:04.276124 : 52 210
+2023-04-03 09:53:09.518997 : 52 210
+2023-04-03 09:53:09.518997 : ceny all sedi srl vs detail
+2023-04-03 09:53:09.675579 : 12
+2023-04-03 09:53:09.675579 : |||||HOTEL CISLO|||||||
+2023-04-03 09:53:09.675579 : 13
+2023-04-03 09:53:09.675579 : 13
+2023-04-03 09:53:09.675579 : 13
+2023-04-03 09:53:09.741403 : 52 450
+2023-04-03 09:53:15.053788 : 52 450
+2023-04-03 09:53:15.053788 : ceny all sedi srl vs detail
+2023-04-03 09:53:15.138562 : 13
+2023-04-03 09:53:15.144547 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?sortby=ByRecommedation&d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2&sortorder=0
+2023-04-03 09:53:17.292862 : 
+                             
+                             
+2023-04-03 09:53:17.292862 : ====== WebDriver manager ======
+                             
+2023-04-03 09:53:17.341164 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:53:17.341164 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:53:17.477039 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:53:27.329082 : <selenium.webdriver.remote.webelement.WebElement (session="be34dff8574c6dd91f2b1a2c67df9666", element="a5d5bd3b-c1da-476d-b978-42f6e3713291")>
+2023-04-03 09:53:30.789212 : True
+2023-04-03 09:53:30.798268 : True
+2023-04-03 09:53:30.808071 : True
+2023-04-03 09:53:30.815811 : True
+2023-04-03 09:53:30.827040 : True
+2023-04-03 09:53:30.836065 : True
+2023-04-03 09:53:30.844414 : True
+2023-04-03 09:53:30.853777 : True
+2023-04-03 09:53:30.861386 : True
+2023-04-03 09:53:30.871098 : True
+2023-04-03 09:53:30.878446 : True
+2023-04-03 09:53:30.888525 : True
+2023-04-03 09:53:30.898000 : True
+2023-04-03 09:53:30.906052 : True
+2023-04-03 09:53:30.916520 : True
+2023-04-03 09:53:30.925125 : True
+2023-04-03 09:53:30.935212 : True
+2023-04-03 09:53:30.944348 : True
+2023-04-03 09:53:30.952407 : True
+2023-04-03 09:53:30.962582 : True
+2023-04-03 09:53:30.971561 : True
+2023-04-03 09:53:30.982501 : True
+2023-04-03 09:53:30.993472 : True
+2023-04-03 09:53:34.071344 : True
+2023-04-03 09:53:34.080302 : True
+2023-04-03 09:53:34.091278 : True
+2023-04-03 09:53:34.102231 : True
+2023-04-03 09:53:34.178029 : True
+2023-04-03 09:53:34.206953 : True
+2023-04-03 09:53:34.215929 : True
+2023-04-03 09:53:34.225902 : True
+2023-04-03 09:53:34.235875 : True
+2023-04-03 09:53:34.246846 : True
+2023-04-03 09:53:34.372511 : ceny
+2023-04-03 09:53:34.379492 : ceny
+2023-04-03 09:53:34.389465 : ceny
+2023-04-03 09:53:34.397445 : ceny
+2023-04-03 09:53:34.404426 : ceny
+2023-04-03 09:53:34.412405 : ceny
+2023-04-03 09:53:34.419386 : ceny
+2023-04-03 09:53:34.427364 : ceny
+2023-04-03 09:53:34.437338 : ceny
+2023-04-03 09:53:34.444335 : ceny
+2023-04-03 09:53:34.454342 : ceny
+2023-04-03 09:53:34.462291 : ceny
+2023-04-03 09:53:34.471294 : ceny
+2023-04-03 09:53:34.479245 : ceny
+2023-04-03 09:53:34.488220 : ceny
+2023-04-03 09:53:34.496200 : ceny
+2023-04-03 09:53:34.505177 : ceny
+2023-04-03 09:53:34.514151 : ceny
+2023-04-03 09:53:34.523156 : ceny
+2023-04-03 09:53:34.532113 : ceny
+2023-04-03 09:53:34.544073 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425|63213|63241|63267|74459|74460|63284|74464|63350|63354|63360|63226|74465|64422|64423|63216|63242|63244|74462|63313|74461|74463|63349|63455&tt=0&dd=2023-08-20&rd=2023-09-30&nn=7|8|9&ka1=8|6&kc1=2&ac1=2
+2023-04-03 09:53:36.647542 : 
+                             
+                             
+2023-04-03 09:53:36.647542 : ====== WebDriver manager ======
+                             
+2023-04-03 09:53:36.675468 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:53:36.675468 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:53:36.760293 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:53:45.489140 : <selenium.webdriver.remote.webelement.WebElement (session="912de55003dfd306bf3c1547fe7ef86e", element="eef90f25-6c72-40eb-8ac4-796a0b2d737a")>
+2023-04-03 09:53:56.824641 : True
+2023-04-03 09:53:56.833616 : True
+2023-04-03 09:53:56.842594 : True
+2023-04-03 09:53:56.849574 : True
+2023-04-03 09:53:56.858550 : True
+2023-04-03 09:53:56.891463 : True
+2023-04-03 09:53:56.912407 : True
+2023-04-03 09:53:56.921382 : True
+2023-04-03 09:53:56.928364 : True
+2023-04-03 09:53:56.937340 : True
+2023-04-03 09:53:56.946316 : True
+2023-04-03 09:53:56.956289 : True
+2023-04-03 09:53:56.964268 : True
+2023-04-03 09:53:56.973246 : True
+2023-04-03 09:53:56.983218 : True
+2023-04-03 09:53:56.991197 : True
+2023-04-03 09:53:56.999175 : True
+2023-04-03 09:53:57.007154 : True
+2023-04-03 09:53:57.015132 : True
+2023-04-03 09:53:57.023111 : True
+2023-04-03 09:53:57.031090 : True
+2023-04-03 09:53:57.045053 : True
+2023-04-03 09:53:57.052035 : True
+2023-04-03 09:54:00.124630 : True
+2023-04-03 09:54:00.132508 : True
+2023-04-03 09:54:00.142699 : True
+2023-04-03 09:54:00.151335 : True
+2023-04-03 09:54:00.160900 : True
+2023-04-03 09:54:00.170446 : True
+2023-04-03 09:54:00.179064 : True
+2023-04-03 09:54:00.188986 : True
+2023-04-03 09:54:00.197869 : True
+2023-04-03 09:54:00.206443 : True
+2023-04-03 09:54:00.263910 : ceny
+2023-04-03 09:54:00.272885 : ceny
+2023-04-03 09:54:00.281862 : ceny
+2023-04-03 09:54:00.290839 : ceny
+2023-04-03 09:54:00.299815 : ceny
+2023-04-03 09:54:00.308796 : ceny
+2023-04-03 09:54:00.318773 : ceny
+2023-04-03 09:54:00.328737 : ceny
+2023-04-03 09:54:00.336715 : ceny
+2023-04-03 09:54:00.346689 : ceny
+2023-04-03 09:54:00.357685 : ceny
+2023-04-03 09:54:00.366635 : ceny
+2023-04-03 09:54:00.376609 : ceny
+2023-04-03 09:54:00.385586 : ceny
+2023-04-03 09:54:00.394561 : ceny
+2023-04-03 09:54:00.403538 : ceny
+2023-04-03 09:54:00.412876 : ceny
+2023-04-03 09:54:00.421303 : ceny
+2023-04-03 09:54:00.429450 : ceny
+2023-04-03 09:54:00.441135 : ceny
+2023-04-03 09:54:00.456075 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425|64422|64423&tt=1&dd=2023-07-01&rd=2023-08-31&nn=7|8|9|10|11|12|13&ic1=2&ac1=2
+2023-04-03 09:54:03.670555 : 
+                             
+                             
+2023-04-03 09:54:03.670555 : ====== WebDriver manager ======
+                             
+2023-04-03 09:54:03.707457 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:54:03.707457 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:54:03.792126 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:54:12.588435 : <selenium.webdriver.remote.webelement.WebElement (session="2b29ecbed827f1b7602ecda74f142ae7", element="a4096097-1b30-496c-993d-fd2d731ed401")>
+2023-04-03 09:54:17.039598 : Arménie
+                             2 hotely od 39 800 Kè / osoba
+2023-04-03 09:54:17.061496 : Japonsko
+                             2 hotely od 72 800 Kè / osoba
+2023-04-03 09:54:17.088424 : Zimbabwe
+                             1 hotel od 166 990 Kè / osoba
+2023-04-03 09:54:17.088424 : následující destinace mají prázdný teaser obrazek
+2023-04-03 09:54:17.088424 : ['Arménie\n2 hotely od 39 800 Kè / osoba', 'Japonsko\n2 hotely od 72 800 Kè / osoba', 'Zimbabwe\n1 hotel od 166 990 Kè / osoba']
+2023-04-03 09:54:17.096402 : https://etravel.stg.dtweb.cz/vysledky-vyhledavani?tt=1&dd=2023-04-03&rd=2023-06-03&nn=7|8|9|10|11|12|13&ac1=2
+2023-04-03 09:54:19.240602 : 
+                             
+                             
+2023-04-03 09:54:19.240602 : ====== WebDriver manager ======
+                             
+2023-04-03 09:54:19.267530 : Current google-chrome version is 111.0.5563
+                             
+2023-04-03 09:54:19.267530 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-04-03 09:54:19.353301 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-04-03 09:54:28.092265 : <selenium.webdriver.remote.webelement.WebElement (session="bbbc46b85fe7c649d4bd16dce2d383ab", element="daa9a936-ec8c-40ec-bc4e-cbf9b3da6d4b")>
+2023-04-03 09:54:52.397117 : wait done
+2023-04-03 09:54:52.397117 : TRY block start
+2023-04-03 09:54:55.449941 : JDOU VIDET
+2023-04-03 09:54:55.458076 : JDOU VIDET
+2023-04-03 09:54:55.465906 : JDOU VIDET
+2023-04-03 09:54:55.474892 : JDOU VIDET
+2023-04-03 09:54:55.507228 : wait done
+2023-04-03 09:54:55.507228 : TRY block start
+2023-04-03 09:54:58.554129 : JDOU VIDET
+2023-04-03 09:54:58.562099 : JDOU VIDET
+2023-04-03 09:54:58.570246 : JDOU VIDET
+2023-04-03 09:54:58.577920 : JDOU VIDET
+2023-04-03 09:54:58.599703 : JDOU VIDET
+2023-04-03 09:54:58.613666 : JDOU VIDET
+2023-04-03 09:54:58.644398 : sdo section visible true :  True
+2023-04-03 09:54:58.648993 : https://etravel.stg.dtweb.cz/recko

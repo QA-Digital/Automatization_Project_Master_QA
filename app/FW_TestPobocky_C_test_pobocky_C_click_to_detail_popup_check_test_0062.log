@@ -1,0 +1,13 @@
+INFO - Starting process to open Pobocka box and display the popup for Objednavka Navstevy.
+INFO - Clicking on the Anchor Oblibene Volby element.
+INFO - Anchor Oblibene Volby clicked.
+INFO - Clicking on the Pobocka box element.
+INFO - Pobocka box clicked.
+INFO - Scrolling to and clicking on the Detail Pobocky element.
+INFO - Detail Pobocky clicked.
+INFO - Clicking on 'Objednat Schuzku' button.
+INFO - 'Objednat Schuzku' button clicked.
+INFO - Verifying if the popup for Objednavka Navstevy is displayed.
+INFO - Popup visibility: True
+INFO - Popup for Objednavka Navstevy is successfully displayed.
+INFO - https://fischer.web3.dtweb.cz/pobocky/brno-vankovka#modal-contactus-visitbranch

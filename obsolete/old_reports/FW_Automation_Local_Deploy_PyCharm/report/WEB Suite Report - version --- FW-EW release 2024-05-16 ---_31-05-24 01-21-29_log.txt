@@ -1,0 +1,227 @@
+2024-05-31 13:21:54.385774 : https://fischer.web2.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-05-31 13:22:19.340284 : its ok
+2024-05-31 13:22:19.355264 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/king-tut-resort/271244-uprava2.jpg
+2024-05-31 13:22:36.466087 : else departure not true
+2024-05-31 13:22:44.964488 : all inclusive
+2024-05-31 13:22:46.979299 : 0
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ok
+2024-05-31 13:22:47.184117 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-05-31 13:22:47.189103 : https://fischer.web2.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2024-05-31 13:23:03.903646 : if departure==True
+2024-05-31 13:23:20.700246 : equal to brno
+2024-05-31 13:23:20.731611 : equal to brno
+2024-05-31 13:23:20.747233 : equal to brno
+2024-05-31 13:23:20.778100 : equal to brno
+2024-05-31 13:23:20.809452 : equal to brno
+2024-05-31 13:23:20.825321 : equal to brno
+2024-05-31 13:23:20.856794 : equal to brno
+2024-05-31 13:23:20.887663 : equal to brno
+2024-05-31 13:23:20.903286 : equal to brno
+2024-05-31 13:23:20.934798 : equal to brno
+2024-05-31 13:23:20.965708 : equal to brno
+2024-05-31 13:23:20.997159 : equal to brno
+2024-05-31 13:23:21.012999 : equal to brno
+2024-05-31 13:23:21.043859 : equal to brno
+2024-05-31 13:23:21.075193 : equal to brno
+2024-05-31 13:23:21.122263 : equal to brno
+2024-05-31 13:23:21.137517 : equal to brno
+2024-05-31 13:23:21.168875 : equal to brno
+2024-05-31 13:23:21.184497 : equal to brno
+2024-05-31 13:23:21.418930 : https://fischer.web2.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=4305&tt=1&ttm=1#/terminy
+2024-05-31 13:23:51.923653 : benefit item
+2024-05-31 13:23:51.955085 : benefit item
+2024-05-31 13:23:51.974035 : benefit item
+2024-05-31 13:23:51.983011 : benefit item
+2024-05-31 13:23:51.996973 : benefit item
+2024-05-31 13:23:52.011933 : benefit item
+2024-05-31 13:23:52.311190 : grind container
+2024-05-31 13:23:52.324700 : grind container
+2024-05-31 13:23:52.368230 : grind container
+2024-05-31 13:23:52.386182 : grind container
+2024-05-31 13:23:52.395158 : grind container
+2024-05-31 13:23:52.405132 : grind container
+2024-05-31 13:23:52.437047 : grind container
+2024-05-31 13:23:52.447022 : grind container
+2024-05-31 13:23:52.455998 : grind container
+2024-05-31 13:23:52.464973 : grind container
+2024-05-31 13:23:52.474947 : grind container
+2024-05-31 13:23:52.494894 : grind container
+2024-05-31 13:23:52.507859 : grind container
+2024-05-31 13:23:52.646330 : tile img
+2024-05-31 13:23:52.659296 : tile img
+2024-05-31 13:23:52.668272 : tile img
+2024-05-31 13:23:52.675772 : tile img
+2024-05-31 13:23:52.683751 : tile img
+2024-05-31 13:23:52.691729 : tile img
+2024-05-31 13:23:52.696716 : https://fischer.web2.dtweb.cz//kluby/funtazie-leto
+2024-05-31 13:24:06.095740 : Položka menu existuje
+2024-05-31 13:24:34.714297 : https://fischer.web2.dtweb.cz/
+2024-05-31 13:25:02.342882 : https://fischer.web2.dtweb.cz/first-minute/exotika-zima
+2024-05-31 13:25:20.123132 : ZANZIBAR
+2024-05-31 13:25:27.518697 : hote dlazdice klik
+2024-05-31 13:25:31.419529 : ØECKO
+2024-05-31 13:25:33.622690 : hote dlazdice klik
+2024-05-31 13:25:38.794717 : TURECKO
+2024-05-31 13:25:41.746403 : hote dlazdice klik
+2024-05-31 13:25:46.483521 : EGYPT
+2024-05-31 13:25:48.051550 : hote dlazdice klik
+2024-05-31 13:25:52.325982 : KAPVERDY
+2024-05-31 13:25:55.725340 : hote dlazdice klik
+2024-05-31 13:26:00.185735 : OMAN
+2024-05-31 13:26:03.173052 : hote dlazdice klik
+2024-05-31 13:26:07.483098 : KEFALONIA
+2024-05-31 13:26:10.556302 : hote dlazdice klik
+2024-05-31 13:26:15.435967 : MIRAGE BAY
+2024-05-31 13:26:17.952139 : hote dlazdice klik
+2024-05-31 13:26:23.435746 : PORTO SKALA 7
+2024-05-31 13:26:26.185912 : hote dlazdice klik
+2024-05-31 13:26:30.467497 : DOUBLETREE
+2024-05-31 13:26:31.943552 : hote dlazdice klik
+2024-05-31 13:26:31.952237 : https://fischer.web2.dtweb.cz/turecko/istanbul-a-okoli/istanbul/doubletree-by-hilton-istanbul-moda?DS=2&GIATA=232224&D=684&HID=30312&DF=2025-01-03%7C2025-01-31&RD=2025-01-24&DD=2025-01-17&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&PID=ATRISTBBBE&DPR=OTSCKF
+2024-05-31 13:26:43.715533 : ZANZIBAR
+2024-05-31 13:26:50.128621 : ØECKO
+2024-05-31 13:26:54.649775 : TURECKO
+2024-05-31 13:27:23.328033 : EGYPT
+2024-05-31 13:27:26.092905 : KAPVERDY
+2024-05-31 13:27:31.265834 : OMAN
+2024-05-31 13:27:36.281943 : KEFALONIA
+2024-05-31 13:27:42.586802 : MIRAGE BAY
+2024-05-31 13:27:46.531462 : PORTO SKALA 7
+2024-05-31 13:27:51.104137 : DOUBLETREE
+2024-05-31 13:27:55.000197 : https://fischer.web2.dtweb.cz/hledani-vysledky?q=Doubletree
+2024-05-31 13:28:10.485245 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-02-26&to=4312|4305|2682|4308&tt=1
+2024-05-31 13:28:26.016605 : https://fischer.web2.dtweb.cz/
+2024-05-31 13:28:42.903779 : https://fischer.web2.dtweb.cz/last-minute
+2024-05-31 13:29:11.314419 : [<selenium.webdriver.remote.webelement.WebElement (session="0e6bbb0a59ca30ccafcff2db9a34c7e1", element="f.B6EB9ADAB90BB17BBDC00DBE20278FED.d.14DB5E6B513D34FC9BD50A987FD0D3CF.e.227")>, <selenium.webdriver.remote.webelement.WebElement (session="0e6bbb0a59ca30ccafcff2db9a34c7e1", element="f.B6EB9ADAB90BB17BBDC00DBE20278FED.d.14DB5E6B513D34FC9BD50A987FD0D3CF.e.228")>, <selenium.webdriver.remote.webelement.WebElement (session="0e6bbb0a59ca30ccafcff2db9a34c7e1", element="f.B6EB9ADAB90BB17BBDC00DBE20278FED.d.14DB5E6B513D34FC9BD50A987FD0D3CF.e.229")>]
+2024-05-31 13:29:11.348519 : true imgdisplay
+2024-05-31 13:29:11.348519 : true imgdisplay
+2024-05-31 13:29:11.360976 : true imgdisplay
+2024-05-31 13:29:11.441756 : grid true
+2024-05-31 13:29:11.444618 : grid true
+2024-05-31 13:29:11.466607 : grid true
+2024-05-31 13:29:11.479580 : grid true
+2024-05-31 13:29:11.490158 : grid true
+2024-05-31 13:29:11.500132 : grid true
+2024-05-31 13:29:11.511965 : grid true
+2024-05-31 13:29:11.522249 : grid true
+2024-05-31 13:29:11.530226 : grid true
+2024-05-31 13:29:11.561166 : big grid ture
+2024-05-31 13:29:11.566153 : https://fischer.web2.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+2024-05-31 13:29:26.658742 : [<selenium.webdriver.remote.webelement.WebElement (session="ca9b0f1d9331fa6fce2d98ef010786de", element="f.8F8EFBA6F698CBFBA827591C37C997EB.d.E51D9D68288A365E36D9F7C02E68B765.e.227")>, <selenium.webdriver.remote.webelement.WebElement (session="ca9b0f1d9331fa6fce2d98ef010786de", element="f.8F8EFBA6F698CBFBA827591C37C997EB.d.E51D9D68288A365E36D9F7C02E68B765.e.228")>, <selenium.webdriver.remote.webelement.WebElement (session="ca9b0f1d9331fa6fce2d98ef010786de", element="f.8F8EFBA6F698CBFBA827591C37C997EB.d.E51D9D68288A365E36D9F7C02E68B765.e.229")>, <selenium.webdriver.remote.webelement.WebElement (session="ca9b0f1d9331fa6fce2d98ef010786de", element="f.8F8EFBA6F698CBFBA827591C37C997EB.d.E51D9D68288A365E36D9F7C02E68B765.e.230")>]
+2024-05-31 13:29:26.689203 : true imgdisplay
+2024-05-31 13:29:26.689203 : true imgdisplay
+2024-05-31 13:29:26.704919 : true imgdisplay
+2024-05-31 13:29:26.704919 : true imgdisplay
+2024-05-31 13:29:26.762495 : grid true
+2024-05-31 13:29:26.776290 : grid true
+2024-05-31 13:29:26.791911 : grid true
+2024-05-31 13:29:26.798875 : grid true
+2024-05-31 13:29:26.814499 : grid true
+2024-05-31 13:29:26.831700 : grid true
+2024-05-31 13:29:26.842156 : grid true
+2024-05-31 13:29:26.846551 : grid true
+2024-05-31 13:29:26.865120 : grid true
+2024-05-31 13:29:26.897034 : big grid ture
+2024-05-31 13:29:26.902021 : https://fischer.web2.dtweb.cz/poznavaci-zajezdy/prodlouzene-vikendy
+2024-05-31 13:30:32.935839 : https://fischer.web2.dtweb.cz/spanelsko
+2024-05-31 13:31:06.643634 : Cheap sorter is OK
+2024-05-31 13:31:06.643634 : LIST FROM WEB:
+2024-05-31 13:31:06.643634 : [16780, 19980, 19980, 21180, 21700, 21980, 21980, 21980, 22980, 23980, 23980, 23980, 24980, 25180, 25396, 25526, 25580, 25580, 25743, 25780]
+2024-05-31 13:31:06.643634 : CORRECTLY SORTED LIST
+2024-05-31 13:31:06.643634 : [16780, 19980, 19980, 21180, 21700, 21980, 21980, 21980, 22980, 23980, 23980, 23980, 24980, 25180, 25396, 25526, 25580, 25580, 25743, 25780]
+2024-05-31 13:31:06.643634 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-03-31&sortby=PriceTotal&to=4312|4305|2682|4308&tt=1
+2024-05-31 13:31:34.701983 : Expensive sorter is OK
+2024-05-31 13:31:34.701983 : LIST FROM WEB:
+2024-05-31 13:31:34.701983 : [219312, 176611, 175380, 169980, 159157, 154884, 150192, 139973, 128761, 128454, 120343, 118025, 113180, 113080, 111117, 107776, 106335, 103380, 103180, 102673]
+2024-05-31 13:31:34.701983 : CORRECTLY SORTED LIST
+2024-05-31 13:31:34.701983 : [219312, 176611, 175380, 169980, 159157, 154884, 150192, 139973, 128761, 128454, 120343, 118025, 113180, 113080, 111117, 107776, 106335, 103380, 103180, 102673]
+2024-05-31 13:31:34.705096 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-03-31&sortby=PriceTotal&sortorder=1&to=4312|4305|2682|4308&tt=1
+2024-05-31 13:32:34.441581 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-05-31 13:33:05.408960 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-05-31 13:33:33.721821 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-05-31 13:34:02.144254 : actually OK
+2024-05-31 13:34:06.441313 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-03-31&to=4312|4305|2682|4308&tt=1
+2024-05-31 13:34:24.739580 : 0
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ok
+2024-05-31 13:34:24.926848 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive premium', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive premium', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-05-31 13:34:24.926848 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2023-02-01&m=5&nn=7|8|9|10|11|12|13&rd=2023-03-31&to=4312|4305|2682|4308&tt=1
+2024-05-31 13:34:36.318088 : |||||HOTEL CISLO|||||||
+2024-05-31 13:34:36.318088 : 1
+2024-05-31 13:34:36.318088 : 1
+2024-05-31 13:34:36.318088 : 1
+2024-05-31 13:35:04.254567 : nenasle se exponea banner
+2024-05-31 13:35:05.285265 : All Inclusive
+2024-05-31 13:35:05.317019 : Dvoulùžkový pokoj , Annex
+2024-05-31 13:35:05.332665 : 19 980 Kè
+2024-05-31 13:35:05.363884 : 9 990 Kè
+2024-05-31 13:35:05.423201 : pokoje sedi srl vs detail
+2024-05-31 13:35:05.423201 : stravy sedi srl vs detail
+2024-05-31 13:35:05.423201 : ceny all sedi srl vs detail
+2024-05-31 13:35:05.423201 :  cena adult sedi srl vs detail
+2024-05-31 13:35:05.434096 : 1
+2024-05-31 13:35:05.434096 : 2
+2024-05-31 13:35:05.434096 : |||||HOTEL CISLO|||||||
+2024-05-31 13:35:05.434096 : 2
+2024-05-31 13:35:05.434096 : 2
+2024-05-31 13:35:05.434096 : 2
+2024-05-31 13:35:34.689581 : nenasle se exponea banner
+2024-05-31 13:35:35.708436 : All Inclusive
+2024-05-31 13:35:35.724059 : Dvoulùžkový pokoj
+2024-05-31 13:35:35.755463 : 42 980 Kè
+2024-05-31 13:35:35.771417 : 21 490 Kè
+2024-05-31 13:35:35.838210 : pokoje sedi srl vs detail
+2024-05-31 13:35:35.838210 : stravy sedi srl vs detail
+2024-05-31 13:35:35.838210 : ceny all sedi srl vs detail
+2024-05-31 13:35:35.838210 :  cena adult sedi srl vs detail
+2024-05-31 13:35:35.846189 : 2
+2024-05-31 13:35:35.846189 : 3
+2024-05-31 13:35:35.846189 : |||||HOTEL CISLO|||||||
+2024-05-31 13:35:35.846189 : 3
+2024-05-31 13:35:35.846189 : 3
+2024-05-31 13:35:35.846189 : 3
+2024-05-31 13:36:07.408894 : nenasle se exponea banner
+2024-05-31 13:36:08.426934 : All Inclusive
+2024-05-31 13:36:08.442560 : Dvoulùžkový pokoj
+2024-05-31 13:36:08.473695 : 33 980 Kè
+2024-05-31 13:36:08.504830 : 16 990 Kè
+2024-05-31 13:36:08.573015 : pokoje sedi srl vs detail
+2024-05-31 13:36:08.573015 : stravy sedi srl vs detail
+2024-05-31 13:37:04.005807 : https://fischer.web2.dtweb.cz/vysledky-vyhledavani?ac1=2&dd=2024-05-31&nn=7|8|9|10|11|12|13|14&rd=2024-06-30&to=4312|4305|2682|4308|4392|4309&tt=0

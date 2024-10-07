@@ -1,0 +1,481 @@
+2023-11-05 13:58:48.997849 : <selenium.webdriver.remote.webelement.WebElement (session="1ec1c810839fc229d09e474f1ae8e901", element="B098582E08A10278CDC3E4BDFE557B09_element_264")>
+2023-11-05 13:59:16.766568 : nenasle se exponea banner
+2023-11-05 13:59:16.826891 : gridy jdou videt
+2023-11-05 13:59:16.836747 : gridy jdou videt
+2023-11-05 13:59:16.846279 : gridy jdou videt
+2023-11-05 13:59:16.855719 : gridy jdou videt
+2023-11-05 13:59:16.865204 : gridy jdou videt
+2023-11-05 13:59:16.875232 : gridy jdou videt
+2023-11-05 13:59:16.885237 : gridy jdou videt
+2023-11-05 13:59:16.895027 : gridy jdou videt
+2023-11-05 13:59:16.904958 : gridy jdou videt
+2023-11-05 13:59:16.914788 : gridy jdou videt
+2023-11-05 13:59:16.924235 : gridy jdou videt
+2023-11-05 13:59:16.934621 : gridy jdou videt
+2023-11-05 13:59:16.944893 : gridy jdou videt
+2023-11-05 13:59:16.954706 : gridy jdou videt
+2023-11-05 13:59:16.964827 : gridy jdou videt
+2023-11-05 13:59:16.974469 : gridy jdou videt
+2023-11-05 13:59:16.984440 : gridy jdou videt
+2023-11-05 13:59:16.994645 : gridy jdou videt
+2023-11-05 13:59:17.004521 : gridy jdou videt
+2023-11-05 13:59:17.014241 : gridy jdou videt
+2023-11-05 13:59:17.068916 : content jdou videt
+2023-11-05 13:59:17.078404 : content jdou videt
+2023-11-05 13:59:17.088574 : content jdou videt
+2023-11-05 13:59:17.098474 : content jdou videt
+2023-11-05 13:59:17.108482 : content jdou videt
+2023-11-05 13:59:17.118627 : content jdou videt
+2023-11-05 13:59:17.128953 : content jdou videt
+2023-11-05 13:59:17.138987 : content jdou videt
+2023-11-05 13:59:17.149243 : content jdou videt
+2023-11-05 13:59:17.159307 : content jdou videt
+2023-11-05 13:59:17.169465 : content jdou videt
+2023-11-05 13:59:17.179315 : content jdou videt
+2023-11-05 13:59:17.189351 : content jdou videt
+2023-11-05 13:59:17.199931 : content jdou videt
+2023-11-05 13:59:17.208915 : content jdou videt
+2023-11-05 13:59:17.218880 : content jdou videt
+2023-11-05 13:59:17.228853 : content jdou videt
+2023-11-05 13:59:17.238826 : content jdou videt
+2023-11-05 13:59:17.248800 : content jdou videt
+2023-11-05 13:59:17.258773 : content jdou videt
+2023-11-05 13:59:17.263790 : https://fischersk.stg.dtweb.cz/covid-info
+2023-11-05 13:59:27.807890 : <selenium.webdriver.remote.webelement.WebElement (session="15c92b46c4afede1853c5a16f4e21931", element="37EA5B5FC6230F703087A3D2FD723080_element_335")>
+2023-11-05 13:59:28.571447 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&nnm=7&tt=1&ttm=1#/preh%C4%BEad
+2023-11-05 13:59:37.210428 : <selenium.webdriver.remote.webelement.WebElement (session="5607d5755fb65d334225042cdcd86914", element="3C809CBF48476D5FB4DAE5DB5A2BD35E_element_336")>
+2023-11-05 13:59:47.515388 : its ok
+2023-11-05 13:59:47.520375 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/sentido-mamlouk-palace-resort-a-spa/18033016.jpg
+2023-11-05 14:00:00.007469 : <selenium.webdriver.remote.webelement.WebElement (session="7bda85da1f505b9a8bfa07dfd1a3f645", element="BB1CE8D3FB89A9F6CBA5994987B10ED0_element_337")>
+2023-11-05 14:00:06.241745 : else departure not true
+2023-11-05 14:00:14.697048 : all inclusive
+2023-11-05 14:00:16.706652 : 0
+2023-11-05 14:00:41.711210 : []
+2023-11-05 14:00:41.722794 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&mtm=5&nnm=7&ptm=0&tt=1&ttm=1#/terminy
+2023-11-05 14:00:53.337261 : <selenium.webdriver.remote.webelement.WebElement (session="5a7344c37b43dc7a3f2da71b0000ad7d", element="784E1D6BF3F238C6C659B08F8EBC695C_element_338")>
+2023-11-05 14:00:59.608516 : if departure==True
+2023-11-05 14:02:06.287695 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&nnm=7&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2023-11-05 14:02:15.082743 : <selenium.webdriver.remote.webelement.WebElement (session="c4d0330b1badb4548d14954baeb23a83", element="3F3F84F6811B04F4E41708C1E2CDFCC2_element_260")>
+2023-11-05 14:02:15.992318 : benefit item
+2023-11-05 14:02:16.080083 : benefit item
+2023-11-05 14:02:16.187797 : benefit item
+2023-11-05 14:02:16.344379 : grind container
+2023-11-05 14:02:16.352356 : grind container
+2023-11-05 14:02:16.360336 : grind container
+2023-11-05 14:02:16.368314 : grind container
+2023-11-05 14:02:16.378288 : grind container
+2023-11-05 14:02:16.386267 : grind container
+2023-11-05 14:02:16.426161 : grind container
+2023-11-05 14:02:16.434139 : grind container
+2023-11-05 14:02:16.443116 : grind container
+2023-11-05 14:02:16.451094 : grind container
+2023-11-05 14:02:16.461067 : grind container
+2023-11-05 14:02:16.472038 : grind container
+2023-11-05 14:02:16.480017 : grind container
+2023-11-05 14:02:16.490988 : grind container
+2023-11-05 14:02:16.640588 : tile img
+2023-11-05 14:02:16.650562 : tile img
+2023-11-05 14:02:16.659538 : tile img
+2023-11-05 14:02:16.668514 : tile img
+2023-11-05 14:02:16.676493 : tile img
+2023-11-05 14:02:16.686467 : tile img
+2023-11-05 14:02:16.695443 : tile img
+2023-11-05 14:02:16.703421 : tile img
+2023-11-05 14:02:16.712397 : tile img
+2023-11-05 14:02:16.723368 : tile img
+2023-11-05 14:02:16.734338 : tile img
+2023-11-05 14:02:16.742317 : tile img
+2023-11-05 14:02:16.747305 : https://fischersk.stg.dtweb.cz/dovolenka-animacne-kluby
+2023-11-05 14:02:29.201321 : <selenium.webdriver.remote.webelement.WebElement (session="930f4736ad836b3e8e9f38653a0011e4", element="8A9FE5E048A77429FB2AF54337886E6C_element_533")>
+2023-11-05 14:02:29.329765 : Položka menu existuje
+2023-11-05 14:02:56.783863 : https://fischersk.stg.dtweb.cz/
+2023-11-05 14:03:09.460259 : <selenium.webdriver.remote.webelement.WebElement (session="6c9f3ca9708db6388467ad639530c2d6", element="8ABB132B4313D04F6192BCBC08AD13B2_element_494")>
+2023-11-05 14:03:11.277221 : https://fischersk.stg.dtweb.cz/first-minute
+2023-11-05 14:03:21.877783 : <selenium.webdriver.remote.webelement.WebElement (session="d94271d01de6c825c8f5ff3e93ae0488", element="8ACCF1E7A9C81F34731B995F7DBDB63B_element_273")>
+2023-11-05 14:03:25.382427 : GRÉCKO
+2023-11-05 14:03:26.857402 : hote dlazdice klik
+2023-11-05 14:03:30.586993 : TURECKO
+2023-11-05 14:03:31.560349 : hote dlazdice klik
+2023-11-05 14:03:35.779097 : EGYPT
+2023-11-05 14:03:37.007821 : hote dlazdice klik
+2023-11-05 14:03:41.392814 : KAPVERDY
+2023-11-05 14:03:42.706314 : hote dlazdice klik
+2023-11-05 14:03:46.663849 : WHITE GOLD
+2023-11-05 14:03:47.932468 : hote dlazdice klik
+2023-11-05 14:03:52.125679 : POISTENIE
+2023-11-05 14:03:53.279291 : hote dlazdice klik
+2023-11-05 14:03:57.508229 : PARKOVANIE
+2023-11-05 14:03:59.231634 : hote dlazdice klik
+2023-11-05 14:03:59.689413 : https://fischersk.stg.dtweb.cz/cierna-hora/cerna-hora/sutomore/sato?DS=256&GIATA=419506&D=1005&HID=898&DF=2024-08-28|2024-09-25&RD=2024-09-14&DD=2024-09-11&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=TIV11051&DPR=FISCHER%20SK%20ATCOM
+2023-11-05 14:04:11.219074 : <selenium.webdriver.remote.webelement.WebElement (session="12b5d4073487cfebd1c40efad1151999", element="16A595D8A00A54B58F69104CDC9FE135_element_262")>
+2023-11-05 14:04:11.457525 : GRÉCKO
+2023-11-05 14:04:13.910915 : TURECKO
+2023-11-05 14:04:18.621350 : EGYPT
+2023-11-05 14:04:21.689142 : KAPVERDY
+2023-11-05 14:04:23.894262 : WHITE GOLD
+2023-11-05 14:04:26.612014 : POISTENIE
+2023-11-05 14:04:28.262209 : PARKOVANIE
+2023-11-05 14:04:29.403167 : https://fischersk.stg.dtweb.cz/hladanie-vysledky?q=parkovanie
+2023-11-05 14:04:41.304791 : <selenium.webdriver.remote.webelement.WebElement (session="45fc9fa6dc994a6560abef23d14df062", element="8F7C3420CD00FE7A96C396FF52AD5C06_element_273")>
+2023-11-05 14:04:42.395881 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2023-07-01&nn=7|8|9&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437&tt=1
+2023-11-05 14:04:57.480322 : <selenium.webdriver.remote.webelement.WebElement (session="854d2d0183923e5fa7e098dca0532383", element="E79FC2F137EC90F4B7739A192661C728_element_539")>
+2023-11-05 14:04:59.495487 : https://fischersk.stg.dtweb.cz/
+2023-11-05 14:05:15.345864 : <selenium.webdriver.remote.webelement.WebElement (session="c005735ebd0e82f7c01d7479b525b08a", element="FCAB70BEE245F5895F95364EA02E04B5_element_477")>
+2023-11-05 14:05:18.510945 : https://fischersk.stg.dtweb.cz/last-minute
+2023-11-05 14:05:31.771303 : <selenium.webdriver.remote.webelement.WebElement (session="bb8d4875671c30521a3e22f180487145", element="A0B66B93FA2B51AFFEFFABA7DD55F8DB_element_323")>
+2023-11-05 14:05:57.085220 : boxiky
+2023-11-05 14:05:57.095471 : boxiky
+2023-11-05 14:05:57.105889 : boxiky
+2023-11-05 14:05:57.116462 : boxiky
+2023-11-05 14:05:57.126743 : boxiky
+2023-11-05 14:05:57.137842 : boxiky
+2023-11-05 14:05:57.148461 : boxiky
+2023-11-05 14:05:57.158712 : boxiky
+2023-11-05 14:05:57.168679 : boxiky
+2023-11-05 14:05:57.180631 : boxiky
+2023-11-05 14:05:57.191315 : boxiky
+2023-11-05 14:05:57.202447 : boxiky
+2023-11-05 14:05:57.213009 : boxiky
+2023-11-05 14:05:57.223349 : boxiky
+2023-11-05 14:05:57.233322 : boxiky
+2023-11-05 14:05:57.243344 : boxiky
+2023-11-05 14:05:57.254251 : boxiky
+2023-11-05 14:05:57.264224 : boxiky
+2023-11-05 14:05:57.275628 : boxiky
+2023-11-05 14:05:57.286094 : boxiky
+2023-11-05 14:05:57.333997 : basic info 
+2023-11-05 14:05:57.344689 : basic info 
+2023-11-05 14:05:57.354895 : basic info 
+2023-11-05 14:05:57.365395 : basic info 
+2023-11-05 14:05:57.376121 : basic info 
+2023-11-05 14:05:57.386143 : basic info 
+2023-11-05 14:05:57.396935 : basic info 
+2023-11-05 14:05:57.407082 : basic info 
+2023-11-05 14:05:57.418268 : basic info 
+2023-11-05 14:05:57.428136 : basic info 
+2023-11-05 14:05:57.438759 : basic info 
+2023-11-05 14:05:57.448548 : basic info 
+2023-11-05 14:05:57.459215 : basic info 
+2023-11-05 14:05:57.470218 : basic info 
+2023-11-05 14:05:57.479968 : basic info 
+2023-11-05 14:05:57.490954 : basic info 
+2023-11-05 14:05:57.501230 : basic info 
+2023-11-05 14:05:57.511360 : basic info 
+2023-11-05 14:05:57.522329 : basic info 
+2023-11-05 14:05:57.533289 : basic info 
+2023-11-05 14:05:57.539530 : https://fischersk.stg.dtweb.cz/kontakty/zoznam-pobociek
+2023-11-05 14:06:11.458975 : <selenium.webdriver.remote.webelement.WebElement (session="962d9a3330c85a8f96444d692faed59c", element="CFD3D07750A862BEAF3C38E1DAA04D1C_element_469")>
+2023-11-05 14:06:12.693718 : https://fischersk.stg.dtweb.cz/spanielsko
+2023-11-05 14:06:23.458826 : <selenium.webdriver.remote.webelement.WebElement (session="7a1983bece784513c569d410c4af5bd9", element="68250CCE0B8AC4436D304C4A569D358D_element_338")>
+2023-11-05 14:06:35.024450 : Cheap sorter is OK
+2023-11-05 14:06:35.024450 : LIST FROM WEB:
+2023-11-05 14:06:35.024450 : [850, 866, 888, 902, 902, 914, 914, 914, 914, 914, 920, 926, 928, 928, 928, 950, 950, 972, 980, 986]
+2023-11-05 14:06:35.024450 : CORRECTLY SORTED LIST
+2023-11-05 14:06:35.024450 : [850, 866, 888, 902, 902, 914, 914, 914, 914, 914, 920, 926, 928, 928, 928, 950, 950, 972, 980, 986]
+2023-11-05 14:06:35.029437 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:06:47.787194 : <selenium.webdriver.remote.webelement.WebElement (session="1c77a1db7b8bd9796a61b0104282dea0", element="121B0924452EEFF77A280D964E6F343B_element_336")>
+2023-11-05 14:06:59.374096 : Expensive sorter is OK
+2023-11-05 14:06:59.374096 : LIST FROM WEB:
+2023-11-05 14:06:59.374096 : [3258, 2850, 2764, 2610, 2608, 2420, 2332, 2314, 2314, 2278, 2194, 2190, 2168, 2134, 2116, 2096, 2056, 2054, 2048, 2014]
+2023-11-05 14:06:59.374096 : CORRECTLY SORTED LIST
+2023-11-05 14:06:59.374096 : [3258, 2850, 2764, 2610, 2608, 2420, 2332, 2314, 2314, 2278, 2194, 2190, 2168, 2134, 2116, 2096, 2056, 2054, 2048, 2014]
+2023-11-05 14:06:59.380080 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:07:12.445280 : <selenium.webdriver.remote.webelement.WebElement (session="5a3729a697fc2953cef0e23c82ee98f1", element="48B1774145304E296491FBB77F9B1C3F_element_336")>
+2023-11-05 14:07:55.699823 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-05 14:08:23.924126 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-05 14:08:52.161856 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-11-05 14:09:21.776799 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-11-05 14:09:51.517449 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2023-11-05 14:10:19.893249 : actually OK
+2023-11-05 14:10:24.814704 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:10:38.382275 : <selenium.webdriver.remote.webelement.WebElement (session="ce43620d8fcc823ca5e3cd0fed5bc500", element="0AC44834358B9B5606DB530D3F16E00A_element_336")>
+2023-11-05 14:10:44.655969 : 0
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ok
+2023-11-05 14:10:44.880344 : ['all inclusive', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-11-05 14:10:44.886328 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&m=5&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:10:55.658552 : <selenium.webdriver.remote.webelement.WebElement (session="21b3eb96e3e53ad23f1f4546be9e019e", element="29C65BF372BBF3BA9F609AC368B813F8_element_337")>
+2023-11-05 14:10:57.822931 : |||||HOTEL CISLO|||||||
+2023-11-05 14:10:57.822931 : 1
+2023-11-05 14:10:57.822931 : 1
+2023-11-05 14:10:57.822931 : 1
+2023-11-05 14:11:26.071381 : nenasle se exponea banner
+2023-11-05 14:11:27.106966 : All Inclusive
+2023-11-05 14:11:27.137885 : Dvojlôžková izba , Záhrada
+2023-11-05 14:11:27.179773 : 1 044 €
+2023-11-05 14:11:27.209694 : 522 €
+2023-11-05 14:11:27.209694 : pokoje sedi srl vs detail
+2023-11-05 14:11:27.209694 : stravy sedi srl vs detail
+2023-11-05 14:11:27.209694 : ceny all sedi srl vs detail
+2023-11-05 14:11:27.209694 :  cena adult sedi srl vs detail
+2023-11-05 14:11:27.230637 : 1
+2023-11-05 14:11:27.230637 : 2
+2023-11-05 14:11:27.230637 : |||||HOTEL CISLO|||||||
+2023-11-05 14:11:27.230637 : 2
+2023-11-05 14:11:27.230637 : 2
+2023-11-05 14:11:27.230637 : 2
+2023-11-05 14:11:55.888556 : nenasle se exponea banner
+2023-11-05 14:11:56.910593 : All Inclusive
+2023-11-05 14:11:56.934914 : Dvojlôžková izba , Výh¾ad do záhrady
+2023-11-05 14:11:56.961188 : 1 124 €
+2023-11-05 14:11:56.984483 : 562 €
+2023-11-05 14:11:56.984483 : pokoje sedi srl vs detail
+2023-11-05 14:11:56.984483 : stravy sedi srl vs detail
+2023-11-05 14:11:56.984483 : ceny all sedi srl vs detail
+2023-11-05 14:11:56.984483 :  cena adult sedi srl vs detail
+2023-11-05 14:11:57.010602 : 2
+2023-11-05 14:11:57.010602 : 3
+2023-11-05 14:11:57.010602 : |||||HOTEL CISLO|||||||
+2023-11-05 14:11:57.010602 : 3
+2023-11-05 14:11:57.010602 : 3
+2023-11-05 14:11:57.010602 : 3
+2023-11-05 14:12:25.479459 : nenasle se exponea banner
+2023-11-05 14:12:26.504748 : All Inclusive Ultra
+2023-11-05 14:12:26.526690 : Dvojlôžková izba , Superior, Výh¾ad do záhrady , Hlavná budova
+2023-11-05 14:12:26.552620 : 1 638 €
+2023-11-05 14:12:26.576557 : 819 €
+2023-11-05 14:12:26.576557 : pokoje sedi srl vs detail
+2023-11-05 14:12:26.576557 : stravy sedi srl vs detail
+2023-11-05 14:12:26.576557 : ceny all sedi srl vs detail
+2023-11-05 14:12:26.576557 :  cena adult sedi srl vs detail
+2023-11-05 14:12:26.590520 : 3
+2023-11-05 14:12:26.590520 : 4
+2023-11-05 14:12:26.590520 : |||||HOTEL CISLO|||||||
+2023-11-05 14:12:26.590520 : 4
+2023-11-05 14:12:26.590520 : 4
+2023-11-05 14:12:26.590520 : 4
+2023-11-05 14:12:54.318718 : nenasle se exponea banner
+2023-11-05 14:12:55.338690 : All Inclusive
+2023-11-05 14:12:55.360632 : Dvojlôžková izba
+2023-11-05 14:12:55.384581 : 1 044 €
+2023-11-05 14:12:55.403518 : 522 €
+2023-11-05 14:12:55.403518 : pokoje sedi srl vs detail
+2023-11-05 14:12:55.403518 : stravy sedi srl vs detail
+2023-11-05 14:12:55.403518 : ceny all sedi srl vs detail
+2023-11-05 14:12:55.403518 :  cena adult sedi srl vs detail
+2023-11-05 14:12:55.416484 : 4
+2023-11-05 14:12:55.416484 : 5
+2023-11-05 14:12:55.416484 : |||||HOTEL CISLO|||||||
+2023-11-05 14:12:55.416484 : 5
+2023-11-05 14:12:55.416484 : 5
+2023-11-05 14:12:55.416484 : 5
+2023-11-05 14:13:23.241223 : nenasle se exponea banner
+2023-11-05 14:13:24.278200 : All Inclusive
+2023-11-05 14:13:24.302371 : Dvojlôžková izba , Superior
+2023-11-05 14:13:24.327651 : 1 664 €
+2023-11-05 14:13:24.352545 : 832 €
+2023-11-05 14:13:24.352545 : pokoje sedi srl vs detail
+2023-11-05 14:13:24.352545 : stravy sedi srl vs detail
+2023-11-05 14:13:24.352545 : ceny all sedi srl vs detail
+2023-11-05 14:13:24.352545 :  cena adult sedi srl vs detail
+2023-11-05 14:13:24.417373 : 5
+2023-11-05 14:13:24.417373 : 6
+2023-11-05 14:13:24.417373 : |||||HOTEL CISLO|||||||
+2023-11-05 14:13:24.417373 : 6
+2023-11-05 14:13:24.417373 : 6
+2023-11-05 14:13:24.417373 : 6
+2023-11-05 14:13:52.549550 : nenasle se exponea banner
+2023-11-05 14:13:53.584746 : All Inclusive
+2023-11-05 14:13:53.608686 : Dvojlôžková izba
+2023-11-05 14:13:53.635611 : 1 298 €
+2023-11-05 14:13:53.661173 : 649 €
+2023-11-05 14:13:53.661173 : pokoje sedi srl vs detail
+2023-11-05 14:13:53.661173 : stravy sedi srl vs detail
+2023-11-05 14:13:53.661173 : ceny all sedi srl vs detail
+2023-11-05 14:13:53.662170 :  cena adult sedi srl vs detail
+2023-11-05 14:13:53.680123 : 6
+2023-11-05 14:13:53.680123 : 7
+2023-11-05 14:13:53.687104 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:14:05.540222 : <selenium.webdriver.remote.webelement.WebElement (session="26d652c336bb19fa6af0e36fee1c4d73", element="DEBFEC502BC663A6234F40988060E8B7_element_335")>
+2023-11-05 14:14:05.979052 : True
+2023-11-05 14:14:06.073799 : True
+2023-11-05 14:14:06.152591 : True
+2023-11-05 14:14:06.269278 : True
+2023-11-05 14:14:06.368014 : True
+2023-11-05 14:14:06.376991 : True
+2023-11-05 14:14:06.388959 : True
+2023-11-05 14:14:06.400927 : True
+2023-11-05 14:14:06.413893 : True
+2023-11-05 14:14:06.422869 : True
+2023-11-05 14:14:06.432843 : True
+2023-11-05 14:14:06.444811 : True
+2023-11-05 14:14:06.453786 : True
+2023-11-05 14:14:06.506646 : True
+2023-11-05 14:14:06.514624 : True
+2023-11-05 14:14:06.524598 : True
+2023-11-05 14:14:06.536565 : True
+2023-11-05 14:14:06.545541 : True
+2023-11-05 14:14:06.555515 : True
+2023-11-05 14:14:06.567483 : True
+2023-11-05 14:14:06.652257 : True
+2023-11-05 14:14:06.664226 : True
+2023-11-05 14:14:06.673201 : True
+2023-11-05 14:14:06.684172 : True
+2023-11-05 14:14:06.696140 : True
+2023-11-05 14:14:06.706114 : True
+2023-11-05 14:14:06.716087 : True
+2023-11-05 14:14:06.729053 : True
+2023-11-05 14:14:06.740023 : True
+2023-11-05 14:14:06.749996 : True
+2023-11-05 14:14:06.765953 : True
+2023-11-05 14:14:06.776925 : True
+2023-11-05 14:14:06.788892 : True
+2023-11-05 14:14:06.796871 : True
+2023-11-05 14:14:06.807841 : True
+2023-11-05 14:14:06.820808 : True
+2023-11-05 14:14:06.828785 : True
+2023-11-05 14:14:06.838759 : True
+2023-11-05 14:14:06.851725 : True
+2023-11-05 14:14:06.860701 : True
+2023-11-05 14:14:06.964425 : ceny
+2023-11-05 14:14:06.976392 : ceny
+2023-11-05 14:14:06.988361 : ceny
+2023-11-05 14:14:06.997336 : ceny
+2023-11-05 14:14:07.012296 : ceny
+2023-11-05 14:14:07.022270 : ceny
+2023-11-05 14:14:07.032244 : ceny
+2023-11-05 14:14:07.045209 : ceny
+2023-11-05 14:14:07.055182 : ceny
+2023-11-05 14:14:07.068147 : ceny
+2023-11-05 14:14:07.077123 : ceny
+2023-11-05 14:14:07.087097 : ceny
+2023-11-05 14:14:07.099065 : ceny
+2023-11-05 14:14:07.108041 : ceny
+2023-11-05 14:14:07.118015 : ceny
+2023-11-05 14:14:07.125993 : ceny
+2023-11-05 14:14:07.135967 : ceny
+2023-11-05 14:14:07.146939 : ceny
+2023-11-05 14:14:07.154916 : ceny
+2023-11-05 14:14:07.166885 : ceny
+2023-11-05 14:14:07.176858 : ceny
+2023-11-05 14:14:07.185834 : ceny
+2023-11-05 14:14:07.197802 : ceny
+2023-11-05 14:14:07.207775 : ceny
+2023-11-05 14:14:07.217749 : ceny
+2023-11-05 14:14:07.229717 : ceny
+2023-11-05 14:14:07.239690 : ceny
+2023-11-05 14:14:07.247668 : ceny
+2023-11-05 14:14:07.260634 : ceny
+2023-11-05 14:14:07.270608 : ceny
+2023-11-05 14:14:07.279584 : ceny
+2023-11-05 14:14:07.292549 : ceny
+2023-11-05 14:14:07.302522 : ceny
+2023-11-05 14:14:07.311499 : ceny
+2023-11-05 14:14:07.323467 : ceny
+2023-11-05 14:14:07.333440 : ceny
+2023-11-05 14:14:07.342416 : ceny
+2023-11-05 14:14:07.354384 : ceny
+2023-11-05 14:14:07.364357 : ceny
+2023-11-05 14:14:07.372336 : ceny
+2023-11-05 14:14:07.388294 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2023-11-05 14:14:18.726401 : <selenium.webdriver.remote.webelement.WebElement (session="782e312077f9aad627b17c71aaef229f", element="B152FF46B6C3CDE0D60F6E70FAADCCD1_element_541")>
+2023-11-05 14:14:50.087113 : https://fischersk.stg.dtweb.cz/
+2023-11-05 14:15:08.957508 : <selenium.webdriver.remote.webelement.WebElement (session="d4502b4716d414eea4e68442614f4290", element="3AC6CD97F87C1ACA6C0417F0798013FC_element_532")>
+2023-11-05 14:15:13.230456 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2023-11-05&nn=7|8|9|10|11|12|13|14|15&rd=2024-01-05&to=483|1837|2933|3437&tt=1
+2023-11-05 14:15:29.537223 : <selenium.webdriver.remote.webelement.WebElement (session="581ffae2583a1dbb1d00108e22737cba", element="F2767E7D63EA01DE3CAD445E7B2E43E1_element_301")>
+2023-11-05 14:15:59.727926 : ------------------------------------------
+2023-11-05 14:15:59.727926 : LIST FROM PUBLIC WWW PRODUCTION https://www.fischer.sk/
+2023-11-05 14:15:59.733362 : ['', '11 zájazdov v 1 destinácii', '50 zájazdov v 1 destinácii', '46 zájazdov v 1 destinácii']
+2023-11-05 14:15:59.733362 : ------------------------------------------
+2023-11-05 14:15:59.733362 : LIST FROM DEPLOYING WEB https://fischersk.stg.dtweb.cz/
+2023-11-05 14:15:59.733362 : ['', '11 zájazdov v 1 destinácii', '50 zájazdov v 1 destinácii', '46 zájazdov v 1 destinácii']
+2023-11-05 14:15:59.733362 : ------------------------------------------
+2023-11-05 14:15:59.733362 : Banners are GOOD, TEST OK https://www.fischer.sk/ VS https://fischersk.stg.dtweb.cz/
+2023-11-05 14:15:59.750420 : https://fischersk.stg.dtweb.cz/
+2023-11-05 14:18:05.016919 : len(pocet_vysledku_list_default)
+2023-11-05 14:18:05.016919 : 12
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : len(pocet_vysledku_list_dev))
+2023-11-05 14:18:05.016919 : 12
+2023-11-05 14:18:05.016919 : 29 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : 29 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=958|664&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=958|664&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 0
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 1
+2023-11-05 14:18:05.016919 : 39 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : 39 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 2
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 3
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 4
+2023-11-05 14:18:05.016919 : 50 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : 50 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 5
+2023-11-05 14:18:05.016919 : 30 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : 30 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 6
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 7
+2023-11-05 14:18:05.016919 : 40 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : 40 zájazdov v 1 destinácii
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 8
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=593&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=593&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 9
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 10
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : nenašli ste, èo ste h¾adali?
+2023-11-05 14:18:05.016919 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-11-05 14:18:05.016919 :              
+2023-11-05 14:18:05.016919 : 11
+2023-11-05 14:18:05.016919 : 12
+2023-11-05 14:18:05.067783 : https://www.fischer.sk/vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1

@@ -1,0 +1,55 @@
+2023-09-22 16:47:54.903899 : <selenium.webdriver.remote.webelement.WebElement (session="909173ed036b430e80ebe6eec4abb863", element="AC78011CABFEC42111A411C0F00B63DE_element_493")>
+2023-09-22 16:47:55.000437 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000-179.jpg
+2023-09-22 16:47:55.122291 : its ok
+2023-09-22 16:47:55.209557 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000-179.jpg
+2023-09-22 16:48:10.703184 : <selenium.webdriver.remote.webelement.WebElement (session="b161b96c5167e5f160ae25e08095f87c", element="9E54C6EA811F86FF2DEA00A9481E6E8C_element_456")>
+2023-09-22 16:48:37.547960 : []
+2023-09-22 16:48:37.567392 : https://www.pennydovolena.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&mmt=5
+2023-09-22 16:48:45.753225 : https://www.pennydovolena.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-09-22 16:48:52.980628 : <selenium.webdriver.remote.webelement.WebElement (session="cca74e13538d8da2350ea3f750cb46b2", element="470426860ECD65B6120A13191D8F5465_element_456")>
+2023-09-22 16:49:19.728906 : []
+2023-09-22 16:49:19.753704 : https://www.pennydovolena.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-09-22 16:49:33.680801 : <selenium.webdriver.remote.webelement.WebElement (session="f7cf1a1b94e14a425f1f5e9d753f514e", element="71E7B1D3B03E937C79F90B9AD3A3581A_element_435")>
+2023-09-22 16:49:46.876255 : wait done
+2023-09-22 16:49:46.876255 : TRY block start
+2023-09-22 16:49:49.930644 : JDOU VIDET
+2023-09-22 16:49:49.940199 : JDOU VIDET
+2023-09-22 16:49:49.950440 : JDOU VIDET
+2023-09-22 16:49:49.961139 : JDOU VIDET
+2023-09-22 16:49:50.005771 : wait done
+2023-09-22 16:49:50.005771 : TRY block start
+2023-09-22 16:49:53.082162 : JDOU VIDET
+2023-09-22 16:49:53.092587 : JDOU VIDET
+2023-09-22 16:49:53.102859 : JDOU VIDET
+2023-09-22 16:49:53.111972 : JDOU VIDET
+2023-09-22 16:49:53.122072 : JDOU VIDET
+2023-09-22 16:49:53.132103 : JDOU VIDET
+2023-09-22 16:49:53.142077 : JDOU VIDET
+2023-09-22 16:49:53.152050 : JDOU VIDET
+2023-09-22 16:50:18.192861 : https://www.pennydovolena.cz/first-minute
+2023-09-22 16:50:41.355712 : <selenium.webdriver.remote.webelement.WebElement (session="abeb07d67f0740f7cb1f12a23f57e76e", element="CA55618B117A188D3DACD6AD5F4C5921_element_38")>
+2023-09-22 16:53:21.510545 : https://www.pennydovolena.cz/exoticka-dovolena
+2023-09-22 16:53:43.726087 : <selenium.webdriver.remote.webelement.WebElement (session="db59c26e1922f5ee9ba7aee8217bef63", element="EA82EA9D0C31A41A6B8F916B5D01DD7A_element_466")>
+2023-09-22 16:53:48.386447 : ZANZIBAR
+2023-09-22 16:54:15.293982 : last no such ele except
+2023-09-22 16:54:21.318432 : ØECKO
+2023-09-22 16:54:47.111803 : last no such ele except
+2023-09-22 16:54:53.328883 : TURECKO
+2023-09-22 16:55:19.195013 : last no such ele except
+2023-09-22 16:55:25.669901 : EGYPT
+2023-09-22 16:55:51.429603 : last no such ele except
+2023-09-22 16:55:57.917935 : KAPVERDY
+2023-09-22 16:56:23.724862 : last no such ele except
+2023-09-22 16:56:30.423487 : OMAN
+2023-09-22 16:56:56.319996 : last no such ele except
+2023-09-22 16:57:02.092529 : KEFALONIA
+2023-09-22 16:57:27.892083 : last no such ele except
+2023-09-22 16:57:33.982644 : MIRAGE BAY
+2023-09-22 16:57:59.682261 : last no such ele except
+2023-09-22 16:58:05.989981 : PORTO SKALA 7
+2023-09-22 16:58:31.690727 : last no such ele except
+2023-09-22 16:58:38.273674 : DOUBLETREE
+2023-09-22 16:59:28.384943 : https://www.pennydovolena.cz/
+2023-09-22 16:59:50.006252 : <selenium.webdriver.remote.webelement.WebElement (session="580e2dec0ec5549f633991dee7207ac8", element="F50FED7311BB4B8DC00FAA9C502A73EF_element_262")>
+2023-09-22 16:59:50.109741 : ZANZIBAR
+2023-09-22 16:59:53.493989 : ØECKO

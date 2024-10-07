@@ -1,0 +1,11 @@
+2023-04-20 10:09:16.926770 : 
+                             
+                             
+2023-04-20 10:09:16.926770 : ====== WebDriver manager ======
+                             
+2023-04-20 10:09:16.963900 : Current google-chrome version is 112.0.5615
+                             
+2023-04-20 10:09:16.963900 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-04-20 10:09:17.171192 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             

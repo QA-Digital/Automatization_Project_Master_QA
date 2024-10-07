@@ -1,0 +1,890 @@
+2023-05-05 13:49:21.554885 : 
+                             
+                             
+2023-05-05 13:49:21.554885 : ====== WebDriver manager ======
+                             
+2023-05-05 13:49:21.592388 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:49:21.592388 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:49:21.707003 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:49:28.619751 : <selenium.webdriver.remote.webelement.WebElement (session="582fa0f7f1f7fda7d0a7d9c035a5d5e0", element="caabcd2a-c39d-4a74-9274-3c537d37c986")>
+2023-05-05 13:49:56.415850 : nenasle se exponea banner
+2023-05-05 13:49:56.485082 : gridy jdou videt
+2023-05-05 13:49:56.493527 : gridy jdou videt
+2023-05-05 13:49:56.501650 : gridy jdou videt
+2023-05-05 13:49:56.509878 : gridy jdou videt
+2023-05-05 13:49:56.517684 : gridy jdou videt
+2023-05-05 13:49:56.526354 : gridy jdou videt
+2023-05-05 13:49:56.535255 : gridy jdou videt
+2023-05-05 13:49:56.543940 : gridy jdou videt
+2023-05-05 13:49:56.552378 : gridy jdou videt
+2023-05-05 13:49:56.560623 : gridy jdou videt
+2023-05-05 13:49:56.569552 : gridy jdou videt
+2023-05-05 13:49:56.577887 : gridy jdou videt
+2023-05-05 13:49:56.585827 : gridy jdou videt
+2023-05-05 13:49:56.593852 : gridy jdou videt
+2023-05-05 13:49:56.602270 : gridy jdou videt
+2023-05-05 13:49:56.610534 : gridy jdou videt
+2023-05-05 13:49:56.618818 : gridy jdou videt
+2023-05-05 13:49:56.627269 : gridy jdou videt
+2023-05-05 13:49:56.635421 : gridy jdou videt
+2023-05-05 13:49:56.643377 : gridy jdou videt
+2023-05-05 13:49:56.691447 : content jdou videt
+2023-05-05 13:49:56.700328 : content jdou videt
+2023-05-05 13:49:56.708558 : content jdou videt
+2023-05-05 13:49:56.716037 : content jdou videt
+2023-05-05 13:49:56.724220 : content jdou videt
+2023-05-05 13:49:56.732505 : content jdou videt
+2023-05-05 13:49:56.740833 : content jdou videt
+2023-05-05 13:49:56.748728 : content jdou videt
+2023-05-05 13:49:56.756346 : content jdou videt
+2023-05-05 13:49:56.764851 : content jdou videt
+2023-05-05 13:49:56.772645 : content jdou videt
+2023-05-05 13:49:56.780626 : content jdou videt
+2023-05-05 13:49:56.788782 : content jdou videt
+2023-05-05 13:49:56.796737 : content jdou videt
+2023-05-05 13:49:56.804335 : content jdou videt
+2023-05-05 13:49:56.812884 : content jdou videt
+2023-05-05 13:49:56.821299 : content jdou videt
+2023-05-05 13:49:56.829866 : content jdou videt
+2023-05-05 13:49:56.838563 : content jdou videt
+2023-05-05 13:49:56.846777 : content jdou videt
+2023-05-05 13:49:56.850587 : https://fischersk.web1.dtweb.cz/covid-info
+2023-05-05 13:49:58.967117 : 
+                             
+                             
+2023-05-05 13:49:58.967117 : ====== WebDriver manager ======
+                             
+2023-05-05 13:49:59.013009 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:49:59.013009 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:49:59.168738 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:50:05.431086 : <selenium.webdriver.remote.webelement.WebElement (session="aeb86c1ce46efd56d2808df4d9ad6e9e", element="d1b34668-5d0e-4fc5-9059-3a50cfbf95b1")>
+2023-05-05 13:50:05.713334 : https://fischersk.web1.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&nnm=7&tt=1&ttm=1#/preh%C4%BEad
+2023-05-05 13:50:07.953181 : 
+                             
+                             
+2023-05-05 13:50:07.953181 : ====== WebDriver manager ======
+                             
+2023-05-05 13:50:07.982569 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:50:07.982569 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:50:08.066872 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:50:13.730238 : <selenium.webdriver.remote.webelement.WebElement (session="01569b386426b3bcc9c710fa5d652393", element="c520add0-c91e-45bf-852e-880debc4b0b9")>
+2023-05-05 13:50:23.971458 : its ok
+2023-05-05 13:50:23.975445 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/sentido-mamlouk-palace-resort-a-spa/48638.jpg
+2023-05-05 13:50:26.157789 : 
+                             
+                             
+2023-05-05 13:50:26.157789 : ====== WebDriver manager ======
+                             
+2023-05-05 13:50:26.194662 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:50:26.194662 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:50:26.278050 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:50:33.884002 : <selenium.webdriver.remote.webelement.WebElement (session="5a317fc9c50663de59c119adc896c5aa", element="ee6e3b01-21e8-4277-b749-62ea64773998")>
+2023-05-05 13:50:40.778875 : else departure not true
+2023-05-05 13:50:49.247864 : all inclusive
+2023-05-05 13:50:51.248038 : 0
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ok
+2023-05-05 13:50:51.550162 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-05-05 13:50:51.563128 : https://fischersk.web1.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&mtm=5&nnm=7&tt=1&ttm=1#/terminy
+2023-05-05 13:50:53.718046 : 
+                             
+                             
+2023-05-05 13:50:53.718046 : ====== WebDriver manager ======
+                             
+2023-05-05 13:50:53.750142 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:50:53.750142 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:50:53.835704 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:51:01.317599 : <selenium.webdriver.remote.webelement.WebElement (session="4ec7fde403b3a8a491f7510e324bc6aa", element="3d66ce91-1f3c-4190-b9b2-2ca79cebf298")>
+2023-05-05 13:51:07.651155 : if departure==True
+2023-05-05 13:51:23.973979 : equal to koöice
+2023-05-05 13:51:24.007922 : equal to koöice
+2023-05-05 13:51:24.038852 : equal to koöice
+2023-05-05 13:51:24.068773 : equal to koöice
+2023-05-05 13:51:24.099690 : equal to koöice
+2023-05-05 13:51:24.131605 : equal to koöice
+2023-05-05 13:51:24.161540 : equal to koöice
+2023-05-05 13:51:24.193456 : equal to koöice
+2023-05-05 13:51:24.225209 : equal to koöice
+2023-05-05 13:51:24.254253 : equal to koöice
+2023-05-05 13:51:24.285406 : equal to koöice
+2023-05-05 13:51:24.516715 : https://fischersk.web1.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&nnm=7&tom=1837&tt=1&ttm=1#/terminy
+2023-05-05 13:51:26.626419 : 
+                             
+                             
+2023-05-05 13:51:26.626419 : ====== WebDriver manager ======
+                             
+2023-05-05 13:51:26.663349 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:51:26.664340 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:51:26.747084 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:51:32.895701 : <selenium.webdriver.remote.webelement.WebElement (session="2d0d374ff888c993db27d50a6a81aaf1", element="e08547ae-e892-4334-abad-44198923f249")>
+2023-05-05 13:51:33.555941 : benefit item
+2023-05-05 13:51:33.631738 : benefit item
+2023-05-05 13:51:33.696566 : benefit item
+2023-05-05 13:51:33.916978 : grind container
+2023-05-05 13:51:33.923959 : grind container
+2023-05-05 13:51:33.961858 : grind container
+2023-05-05 13:51:33.970833 : grind container
+2023-05-05 13:51:33.977815 : grind container
+2023-05-05 13:51:34.014716 : grind container
+2023-05-05 13:51:34.021698 : grind container
+2023-05-05 13:51:34.088520 : grind container
+2023-05-05 13:51:34.097496 : grind container
+2023-05-05 13:51:34.104477 : grind container
+2023-05-05 13:51:34.111458 : grind container
+2023-05-05 13:51:34.118439 : grind container
+2023-05-05 13:51:34.128413 : grind container
+2023-05-05 13:51:34.135394 : grind container
+2023-05-05 13:51:34.142375 : grind container
+2023-05-05 13:51:34.150354 : grind container
+2023-05-05 13:51:35.404010 : tile img
+2023-05-05 13:51:35.411989 : tile img
+2023-05-05 13:51:35.419967 : tile img
+2023-05-05 13:51:35.426949 : tile img
+2023-05-05 13:51:35.436922 : tile img
+2023-05-05 13:51:35.444901 : tile img
+2023-05-05 13:51:35.456869 : tile img
+2023-05-05 13:51:35.464848 : tile img
+2023-05-05 13:51:35.472827 : tile img
+2023-05-05 13:51:35.480810 : tile img
+2023-05-05 13:51:35.488784 : tile img
+2023-05-05 13:51:35.496762 : tile img
+2023-05-05 13:51:35.500752 : https://fischersk.web1.dtweb.cz/dovolenka-s-klubovym-programom
+2023-05-05 13:51:37.630097 : 
+                             
+                             
+2023-05-05 13:51:37.631094 : ====== WebDriver manager ======
+                             
+2023-05-05 13:51:37.675831 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:51:37.675831 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:51:37.768709 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:51:45.115959 : <selenium.webdriver.remote.webelement.WebElement (session="a7e783f8de5aa57adeb933c029b8a329", element="801295f1-8688-443f-b0f1-0fd1ac2fd756")>
+2023-05-05 13:51:45.384245 : Poloûka menu existuje
+2023-05-05 13:52:12.766641 : https://fischersk.web1.dtweb.cz/
+2023-05-05 13:52:14.911630 : 
+                             
+                             
+2023-05-05 13:52:14.911630 : ====== WebDriver manager ======
+                             
+2023-05-05 13:52:14.970091 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:52:14.970091 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:52:15.071729 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:52:22.569082 : <selenium.webdriver.remote.webelement.WebElement (session="575601abd56083023d705ae2315e7f69", element="705a1a61-6810-4d64-ba9f-4593f4b41131")>
+2023-05-05 13:52:24.317012 : https://fischersk.web1.dtweb.cz/first-minute
+2023-05-05 13:52:26.428106 : 
+                             
+                             
+2023-05-05 13:52:26.428106 : ====== WebDriver manager ======
+                             
+2023-05-05 13:52:26.458366 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:52:26.459364 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:52:26.543937 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:52:32.504154 : <selenium.webdriver.remote.webelement.WebElement (session="87f142620351576bbbd923ce0c5c868f", element="143300fc-2124-4722-8e45-3cf0fb7b5096")>
+2023-05-05 13:52:36.459919 : GR…CKO
+2023-05-05 13:52:38.871294 : hote dlazdice klik
+2023-05-05 13:52:43.068799 : TURECKO
+2023-05-05 13:52:44.881688 : hote dlazdice klik
+2023-05-05 13:52:48.676225 : EGYPT
+2023-05-05 13:52:49.849480 : hote dlazdice klik
+2023-05-05 13:52:54.108274 : KAPVERDY
+2023-05-05 13:52:55.959308 : hote dlazdice klik
+2023-05-05 13:52:59.881191 : WHITE GOLD
+2023-05-05 13:53:01.681727 : hote dlazdice klik
+2023-05-05 13:53:05.677898 : POISTENIE
+2023-05-05 13:53:07.172803 : hote dlazdice klik
+2023-05-05 13:53:11.318566 : PARKOVANIE
+2023-05-05 13:53:12.399959 : hote dlazdice klik
+2023-05-05 13:53:12.812876 : https://fischersk.web1.dtweb.cz/cierna-hora/cerna-hora/sutomore/sato?DS=256&GIATA=419506&D=1005&HID=898&DF=2023-06-06|2023-07-04&RD=2023-06-27&DD=2023-06-20&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=TIV11051&DPR=FISCHER%20SK%20ATCOM
+2023-05-05 13:53:14.979499 : 
+                             
+                             
+2023-05-05 13:53:14.979499 : ====== WebDriver manager ======
+                             
+2023-05-05 13:53:15.020155 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:53:15.020155 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:53:15.124034 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:53:20.599921 : <selenium.webdriver.remote.webelement.WebElement (session="d1618da54cdc5df233398c4d7dc6ec99", element="3a315c0c-8f57-4799-bcd7-5141ac02982f")>
+2023-05-05 13:53:21.059674 : GR…CKO
+2023-05-05 13:53:48.654898 : TURECKO
+2023-05-05 13:53:51.592126 : EGYPT
+2023-05-05 13:53:53.718759 : KAPVERDY
+2023-05-05 13:53:56.412101 : WHITE GOLD
+2023-05-05 13:53:58.874339 : POISTENIE
+2023-05-05 13:54:00.639499 : https://fischersk.web1.dtweb.cz/hladanie-vysledky?q=poistenie
+2023-05-05 13:54:02.785577 : 
+                             
+                             
+2023-05-05 13:54:02.785577 : ====== WebDriver manager ======
+                             
+2023-05-05 13:54:02.820123 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:54:02.820123 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:54:02.925434 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:54:08.230544 : <selenium.webdriver.remote.webelement.WebElement (session="b3817e7132734dd64849cc5a63b0b7a4", element="5a19dd73-c35f-4689-a3ee-5e2d92a0c9ad")>
+2023-05-05 13:54:09.830926 : https://fischersk.web1.dtweb.cz/vysledky-vyhladavania?dd=2023-07-01&nn=7|8|9&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437&tt=1
+2023-05-05 13:54:11.954938 : 
+                             
+                             
+2023-05-05 13:54:11.954938 : ====== WebDriver manager ======
+                             
+2023-05-05 13:54:11.981866 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:54:11.981866 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:54:12.071142 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:54:20.906493 : <selenium.webdriver.remote.webelement.WebElement (session="9d59731cf88bfda4b19a31284e55dab4", element="8eec535c-578d-4674-bcbc-4a5c8d91ffbc")>
+2023-05-05 13:54:23.028087 : https://fischersk.web1.dtweb.cz/
+2023-05-05 13:54:25.165039 : 
+                             
+                             
+2023-05-05 13:54:25.165039 : ====== WebDriver manager ======
+                             
+2023-05-05 13:54:25.194623 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:54:25.194623 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:54:25.279668 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:54:33.294675 : <selenium.webdriver.remote.webelement.WebElement (session="a047e47958521d1d07cc71411cb665f1", element="3e184099-8b7c-4d58-bd0f-0062fab3d9e8")>
+2023-05-05 13:54:36.326498 : https://fischersk.web1.dtweb.cz/last-minute
+2023-05-05 13:54:38.470606 : 
+                             
+                             
+2023-05-05 13:54:38.470606 : ====== WebDriver manager ======
+                             
+2023-05-05 13:54:38.499388 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:54:38.499388 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:54:38.582502 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:54:46.039476 : <selenium.webdriver.remote.webelement.WebElement (session="0e768fd47a53d296d87825d7f4722331", element="8573d6d7-60f0-42eb-a882-3d89937f7b8d")>
+2023-05-05 13:55:11.294800 : boxiky
+2023-05-05 13:55:11.302455 : boxiky
+2023-05-05 13:55:11.310512 : boxiky
+2023-05-05 13:55:11.319348 : boxiky
+2023-05-05 13:55:11.326613 : boxiky
+2023-05-05 13:55:11.334998 : boxiky
+2023-05-05 13:55:11.342104 : boxiky
+2023-05-05 13:55:11.350679 : boxiky
+2023-05-05 13:55:11.358862 : boxiky
+2023-05-05 13:55:11.366622 : boxiky
+2023-05-05 13:55:11.375162 : boxiky
+2023-05-05 13:55:11.383638 : boxiky
+2023-05-05 13:55:11.391568 : boxiky
+2023-05-05 13:55:11.399833 : boxiky
+2023-05-05 13:55:11.407912 : boxiky
+2023-05-05 13:55:11.415751 : boxiky
+2023-05-05 13:55:11.423103 : boxiky
+2023-05-05 13:55:11.431766 : boxiky
+2023-05-05 13:55:11.439837 : boxiky
+2023-05-05 13:55:11.447799 : boxiky
+2023-05-05 13:55:11.455964 : boxiky
+2023-05-05 13:55:11.493711 : basic info 
+2023-05-05 13:55:11.502000 : basic info 
+2023-05-05 13:55:11.510285 : basic info 
+2023-05-05 13:55:11.518633 : basic info 
+2023-05-05 13:55:11.526916 : basic info 
+2023-05-05 13:55:11.534574 : basic info 
+2023-05-05 13:55:11.542973 : basic info 
+2023-05-05 13:55:11.551458 : basic info 
+2023-05-05 13:55:11.560279 : basic info 
+2023-05-05 13:55:11.569369 : basic info 
+2023-05-05 13:55:11.577945 : basic info 
+2023-05-05 13:55:11.586508 : basic info 
+2023-05-05 13:55:11.595401 : basic info 
+2023-05-05 13:55:11.604414 : basic info 
+2023-05-05 13:55:11.613223 : basic info 
+2023-05-05 13:55:11.622118 : basic info 
+2023-05-05 13:55:11.631693 : basic info 
+2023-05-05 13:55:11.640279 : basic info 
+2023-05-05 13:55:11.648882 : basic info 
+2023-05-05 13:55:11.657970 : basic info 
+2023-05-05 13:55:11.666407 : basic info 
+2023-05-05 13:55:11.670823 : https://fischersk.web1.dtweb.cz/kontakty/zoznam-pobociek
+2023-05-05 13:55:13.802821 : 
+                             
+                             
+2023-05-05 13:55:13.802821 : ====== WebDriver manager ======
+                             
+2023-05-05 13:55:13.832544 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:55:13.832544 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:55:13.958244 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:55:22.829481 : <selenium.webdriver.remote.webelement.WebElement (session="ab68fda54e707a4dab9d087ce7108e34", element="1a20accf-4ec5-4a4e-9b2c-d0bea64c930f")>
+2023-05-05 13:55:24.325283 : https://fischersk.web1.dtweb.cz/spanielsko
+2023-05-05 13:55:26.704132 : 
+                             
+                             
+2023-05-05 13:55:26.704132 : ====== WebDriver manager ======
+                             
+2023-05-05 13:55:26.733248 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:55:26.733248 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:55:26.817693 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:55:34.394484 : <selenium.webdriver.remote.webelement.WebElement (session="0ea933ec5cd2a25617f9d0e8d5fcfdff", element="e775a2e6-dbba-4943-b412-380bf5bf2be1")>
+2023-05-05 13:55:46.077761 : Cheap sorter is OK
+2023-05-05 13:55:46.077761 : LIST FROM WEB:
+2023-05-05 13:55:46.077761 : [1622, 1687, 1692, 1706, 1732, 1737, 1739, 1748, 1748, 1755, 1776, 1799, 1823, 1828, 1836, 1874, 1874, 1879, 1912, 1914]
+2023-05-05 13:55:46.077761 : CORRECTLY SORTED LIST
+2023-05-05 13:55:46.077761 : [1622, 1687, 1692, 1706, 1732, 1737, 1739, 1748, 1748, 1755, 1776, 1799, 1823, 1828, 1836, 1874, 1874, 1879, 1912, 1914]
+2023-05-05 13:55:46.082226 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&rd=2023-09-30&sortby=PriceTotal&to=483|1837|2933|3437&tt=1
+2023-05-05 13:55:48.394895 : 
+                             
+                             
+2023-05-05 13:55:48.395924 : ====== WebDriver manager ======
+                             
+2023-05-05 13:55:48.431243 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:55:48.431243 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:55:48.514246 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:55:56.523345 : <selenium.webdriver.remote.webelement.WebElement (session="f7ce49e953d42d980fcdbd9b9cfd3aaa", element="608e5730-a6f6-45a9-80c2-b2acb7c2564e")>
+2023-05-05 13:56:08.230320 : Expensive sorter is OK
+2023-05-05 13:56:08.230320 : LIST FROM WEB:
+2023-05-05 13:56:08.230320 : [10885, 7320, 7257, 7152, 5403, 4963, 4786, 4595, 4545, 4303, 4297, 4282, 4102, 4081, 4057, 4035, 4002, 3992, 3981, 3981]
+2023-05-05 13:56:08.230320 : CORRECTLY SORTED LIST
+2023-05-05 13:56:08.230320 : [10885, 7320, 7257, 7152, 5403, 4963, 4786, 4595, 4545, 4303, 4297, 4282, 4102, 4081, 4057, 4035, 4002, 3992, 3981, 3981]
+2023-05-05 13:56:08.235336 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&rd=2023-09-30&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437&tt=1
+2023-05-05 13:56:10.344534 : 
+                             
+                             
+2023-05-05 13:56:10.344534 : ====== WebDriver manager ======
+                             
+2023-05-05 13:56:10.375169 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:56:10.375169 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:56:10.460267 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:56:18.686966 : <selenium.webdriver.remote.webelement.WebElement (session="e2103188e7a9da0bec1ba7b1af200383", element="469c940e-d008-48f8-98bf-1e650075b32e")>
+2023-05-05 13:57:01.986003 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-05-05 13:57:30.255325 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-05-05 13:57:58.602137 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-05-05 13:58:28.481652 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-05-05 13:59:01.451246 : actually OK
+2023-05-05 13:59:05.822934 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&pf=0&pt=900000&qf=108_1_0|109_1_0|386_1_0&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-05-05 13:59:07.964828 : 
+                             
+                             
+2023-05-05 13:59:07.964828 : ====== WebDriver manager ======
+                             
+2023-05-05 13:59:08.010201 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:59:08.010201 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:59:08.099605 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:59:16.658913 : <selenium.webdriver.remote.webelement.WebElement (session="8bd3844413d179a588a5d74a6003ad58", element="1d6119f0-2a31-4d4c-87f4-e9ad1f9e0bd6")>
+2023-05-05 13:59:23.037324 : 0
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ok
+2023-05-05 13:59:23.376342 : ['all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-05-05 13:59:23.381331 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&m=5&nn=7|8|9&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-05-05 13:59:25.488902 : 
+                             
+                             
+2023-05-05 13:59:25.488902 : ====== WebDriver manager ======
+                             
+2023-05-05 13:59:25.519945 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 13:59:25.519945 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 13:59:25.613036 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 13:59:33.057260 : <selenium.webdriver.remote.webelement.WebElement (session="4080baee35d773d3f411d47409709b81", element="2fb7b7cb-dbfc-46ff-a32d-8f28c71b578e")>
+2023-05-05 14:00:01.924763 : nenasle se exponea banner
+2023-05-05 14:00:01.978230 : |||||HOTEL CISLO|||||||
+2023-05-05 14:00:01.978230 : 1
+2023-05-05 14:00:01.978230 : 1
+2023-05-05 14:00:01.978230 : 1
+2023-05-05 14:00:29.937946 : nenasle se exponea banner
+2023-05-05 14:00:30.978909 : All Inclusive Ultra
+2023-05-05 14:00:31.006626 : Rodinn· izba , 2 sp·lne , V˝hæad do z·hrady
+2023-05-05 14:00:31.039161 : 2 789,00 Ä
+2023-05-05 14:00:31.069847 : 1 193,00 Ä
+2023-05-05 14:00:31.069847 : pokoje sedi srl vs detail
+2023-05-05 14:00:31.069847 : stravy sedi srl vs detail
+2023-05-05 14:00:31.069847 : ceny all sedi srl vs detail
+2023-05-05 14:00:31.069847 :  cena adult sedi srl vs detail
+2023-05-05 14:00:31.084491 : 1
+2023-05-05 14:00:31.084491 : 2
+2023-05-05 14:00:31.084491 : |||||HOTEL CISLO|||||||
+2023-05-05 14:00:31.084491 : 2
+2023-05-05 14:00:31.084491 : 2
+2023-05-05 14:00:31.084491 : 2
+2023-05-05 14:00:59.856756 : nenasle se exponea banner
+2023-05-05 14:01:00.902380 : All Inclusive Ultra
+2023-05-05 14:01:00.929388 : DvojlÙûkov· izba , Promo
+2023-05-05 14:01:00.958428 : 2 449,00 Ä
+2023-05-05 14:01:00.984430 : 1 023,00 Ä
+2023-05-05 14:01:00.984430 : pokoje sedi srl vs detail
+2023-05-05 14:01:00.984430 : stravy sedi srl vs detail
+2023-05-05 14:01:00.984430 : ceny all sedi srl vs detail
+2023-05-05 14:01:00.984430 :  cena adult sedi srl vs detail
+2023-05-05 14:01:01.000392 : 2
+2023-05-05 14:01:01.000392 : 3
+2023-05-05 14:01:01.000392 : |||||HOTEL CISLO|||||||
+2023-05-05 14:01:01.000392 : 3
+2023-05-05 14:01:01.000392 : 3
+2023-05-05 14:01:01.000392 : 3
+2023-05-05 14:01:29.211058 : nenasle se exponea banner
+2023-05-05 14:01:30.248165 : All Inclusive Ultra
+2023-05-05 14:01:30.273690 : DvojlÙûkov· izba , Club
+2023-05-05 14:01:30.300670 : 2 189,00 Ä
+2023-05-05 14:01:30.325452 : 886,00 Ä
+2023-05-05 14:01:30.325452 : pokoje sedi srl vs detail
+2023-05-05 14:01:30.325452 : stravy sedi srl vs detail
+2023-05-05 14:01:30.325452 : ceny all sedi srl vs detail
+2023-05-05 14:01:30.325452 :  cena adult sedi srl vs detail
+2023-05-05 14:01:30.341406 : 3
+2023-05-05 14:01:30.341406 : 4
+2023-05-05 14:01:30.341406 : |||||HOTEL CISLO|||||||
+2023-05-05 14:01:30.341406 : 4
+2023-05-05 14:01:30.341406 : 4
+2023-05-05 14:01:30.341406 : 4
+2023-05-05 14:01:58.131526 : nenasle se exponea banner
+2023-05-05 14:01:59.201763 : All Inclusive Ultra
+2023-05-05 14:01:59.230491 : DvojlÙûkov· izba
+2023-05-05 14:01:59.258136 : 2 673,00 Ä
+2023-05-05 14:01:59.283661 : 1 135,00 Ä
+2023-05-05 14:01:59.283661 : pokoje sedi srl vs detail
+2023-05-05 14:01:59.283661 : stravy sedi srl vs detail
+2023-05-05 14:01:59.283661 : ceny all sedi srl vs detail
+2023-05-05 14:01:59.283661 :  cena adult sedi srl vs detail
+2023-05-05 14:01:59.300012 : 4
+2023-05-05 14:01:59.300012 : 5
+2023-05-05 14:01:59.300012 : |||||HOTEL CISLO|||||||
+2023-05-05 14:01:59.300012 : 5
+2023-05-05 14:01:59.300012 : 5
+2023-05-05 14:01:59.300012 : 5
+2023-05-05 14:02:27.125011 : nenasle se exponea banner
+2023-05-05 14:02:28.167063 : All Inclusive Ultra
+2023-05-05 14:02:28.192326 : DvojlÙûkov· izba
+2023-05-05 14:02:28.220529 : 2 817,00 Ä
+2023-05-05 14:02:28.245489 : 1 198,00 Ä
+2023-05-05 14:02:28.245489 : pokoje sedi srl vs detail
+2023-05-05 14:02:28.245489 : stravy sedi srl vs detail
+2023-05-05 14:02:28.245489 : ceny all sedi srl vs detail
+2023-05-05 14:02:28.245489 :  cena adult sedi srl vs detail
+2023-05-05 14:02:28.262287 : 5
+2023-05-05 14:02:28.262287 : 6
+2023-05-05 14:02:28.262287 : |||||HOTEL CISLO|||||||
+2023-05-05 14:02:28.262287 : 6
+2023-05-05 14:02:28.262287 : 6
+2023-05-05 14:02:28.262287 : 6
+2023-05-05 14:02:55.867288 : nenasle se exponea banner
+2023-05-05 14:02:56.896674 : All Inclusive
+2023-05-05 14:02:56.922605 : Rodinn· izba , Economy
+2023-05-05 14:02:56.950530 : 2 602,00 Ä
+2023-05-05 14:02:56.973468 : 1 100,00 Ä
+2023-05-05 14:02:56.973468 : pokoje sedi srl vs detail
+2023-05-05 14:02:56.973468 : stravy sedi srl vs detail
+2023-05-05 14:02:56.973468 : ceny all sedi srl vs detail
+2023-05-05 14:02:56.973468 :  cena adult sedi srl vs detail
+2023-05-05 14:02:56.989428 : 6
+2023-05-05 14:02:56.989428 : 7
+2023-05-05 14:02:57.005385 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&pf=0&pt=900000&qf=108_1_0|109_1_0|386_1_0&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-05-05 14:02:59.146914 : 
+                             
+                             
+2023-05-05 14:02:59.146914 : ====== WebDriver manager ======
+                             
+2023-05-05 14:02:59.177832 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 14:02:59.177832 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 14:02:59.301533 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 14:03:04.978060 : <selenium.webdriver.remote.webelement.WebElement (session="4c7f55e5385b49c7fcfd8e8b667520b5", element="6aa3788a-66fd-4826-9e7c-03fb30ff274a")>
+2023-05-05 14:03:05.355468 : True
+2023-05-05 14:03:05.394218 : True
+2023-05-05 14:03:05.404162 : True
+2023-05-05 14:03:05.460012 : True
+2023-05-05 14:03:05.505890 : True
+2023-05-05 14:03:05.516861 : True
+2023-05-05 14:03:05.574615 : True
+2023-05-05 14:03:05.599549 : True
+2023-05-05 14:03:05.610520 : True
+2023-05-05 14:03:05.654404 : True
+2023-05-05 14:03:05.713246 : True
+2023-05-05 14:03:05.727208 : True
+2023-05-05 14:03:05.763746 : True
+2023-05-05 14:03:05.807601 : True
+2023-05-05 14:03:05.843505 : True
+2023-05-05 14:03:05.855224 : True
+2023-05-05 14:03:05.896117 : True
+2023-05-05 14:03:05.955957 : True
+2023-05-05 14:03:05.986988 : True
+2023-05-05 14:03:06.001921 : True
+2023-05-05 14:03:06.252253 : True
+2023-05-05 14:03:06.260232 : True
+2023-05-05 14:03:06.269208 : True
+2023-05-05 14:03:06.282173 : True
+2023-05-05 14:03:06.289155 : True
+2023-05-05 14:03:06.299128 : True
+2023-05-05 14:03:06.307446 : True
+2023-05-05 14:03:06.317420 : True
+2023-05-05 14:03:06.329387 : True
+2023-05-05 14:03:06.431956 : True
+2023-05-05 14:03:06.443928 : True
+2023-05-05 14:03:06.458766 : True
+2023-05-05 14:03:06.467741 : True
+2023-05-05 14:03:06.479709 : True
+2023-05-05 14:03:06.494669 : True
+2023-05-05 14:03:06.502670 : True
+2023-05-05 14:03:06.513632 : True
+2023-05-05 14:03:06.526584 : True
+2023-05-05 14:03:06.534563 : True
+2023-05-05 14:03:06.546170 : True
+2023-05-05 14:03:06.652702 : ceny
+2023-05-05 14:03:06.660680 : ceny
+2023-05-05 14:03:06.673647 : ceny
+2023-05-05 14:03:06.684617 : ceny
+2023-05-05 14:03:06.695588 : ceny
+2023-05-05 14:03:06.703566 : ceny
+2023-05-05 14:03:06.715534 : ceny
+2023-05-05 14:03:06.728500 : ceny
+2023-05-05 14:03:06.737476 : ceny
+2023-05-05 14:03:06.748447 : ceny
+2023-05-05 14:03:06.759418 : ceny
+2023-05-05 14:03:06.772251 : ceny
+2023-05-05 14:03:06.781539 : ceny
+2023-05-05 14:03:06.793005 : ceny
+2023-05-05 14:03:06.804423 : ceny
+2023-05-05 14:03:06.813759 : ceny
+2023-05-05 14:03:06.824873 : ceny
+2023-05-05 14:03:06.836517 : ceny
+2023-05-05 14:03:06.845182 : ceny
+2023-05-05 14:03:06.859074 : ceny
+2023-05-05 14:03:06.872323 : ceny
+2023-05-05 14:03:06.883244 : ceny
+2023-05-05 14:03:06.892944 : ceny
+2023-05-05 14:03:06.903972 : ceny
+2023-05-05 14:03:06.917970 : ceny
+2023-05-05 14:03:06.929713 : ceny
+2023-05-05 14:03:06.938730 : ceny
+2023-05-05 14:03:06.950440 : ceny
+2023-05-05 14:03:06.963437 : ceny
+2023-05-05 14:03:06.974950 : ceny
+2023-05-05 14:03:06.983639 : ceny
+2023-05-05 14:03:06.994912 : ceny
+2023-05-05 14:03:07.008910 : ceny
+2023-05-05 14:03:07.018552 : ceny
+2023-05-05 14:03:07.029565 : ceny
+2023-05-05 14:03:07.042184 : ceny
+2023-05-05 14:03:07.055996 : ceny
+2023-05-05 14:03:07.068041 : ceny
+2023-05-05 14:03:07.076509 : ceny
+2023-05-05 14:03:07.088767 : ceny
+2023-05-05 14:03:07.105747 : https://fischersk.web1.dtweb.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|684|955|596&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=7|8|9&pf=0&pt=900000&qf=108_1_0|109_1_0|386_1_0&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-05-05 14:03:09.213607 : 
+                             
+                             
+2023-05-05 14:03:09.213607 : ====== WebDriver manager ======
+                             
+2023-05-05 14:03:09.244372 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 14:03:09.244372 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 14:03:09.327195 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 14:03:15.856404 : <selenium.webdriver.remote.webelement.WebElement (session="8aefc64d9ba7364e134fe479ebf8d0f4", element="5c5e352b-b841-4b8c-b348-61a5dd556643")>
+2023-05-05 14:03:32.107195 : True
+2023-05-05 14:03:32.118193 : True
+2023-05-05 14:03:32.130273 : True
+2023-05-05 14:03:32.139066 : True
+2023-05-05 14:03:32.150065 : True
+2023-05-05 14:03:32.158769 : True
+2023-05-05 14:03:32.169371 : True
+2023-05-05 14:03:32.181873 : True
+2023-05-05 14:03:32.193367 : True
+2023-05-05 14:03:32.201664 : True
+2023-05-05 14:03:32.212894 : True
+2023-05-05 14:03:32.224577 : True
+2023-05-05 14:03:32.232782 : True
+2023-05-05 14:03:32.318886 : True
+2023-05-05 14:03:32.326942 : True
+2023-05-05 14:03:32.338627 : True
+2023-05-05 14:03:32.347930 : True
+2023-05-05 14:03:32.358661 : True
+2023-05-05 14:03:32.370322 : True
+2023-05-05 14:03:32.381564 : True
+2023-05-05 14:03:32.390185 : True
+2023-05-05 14:03:32.401225 : True
+2023-05-05 14:03:32.414026 : True
+2023-05-05 14:03:32.422052 : True
+2023-05-05 14:03:32.434215 : True
+2023-05-05 14:03:32.445765 : True
+2023-05-05 14:03:32.547558 : ceny
+2023-05-05 14:03:32.557297 : ceny
+2023-05-05 14:03:32.568811 : ceny
+2023-05-05 14:03:32.577409 : ceny
+2023-05-05 14:03:32.588544 : ceny
+2023-05-05 14:03:32.600512 : ceny
+2023-05-05 14:03:32.609501 : ceny
+2023-05-05 14:03:32.620459 : ceny
+2023-05-05 14:03:32.632427 : ceny
+2023-05-05 14:03:32.644395 : ceny
+2023-05-05 14:03:32.653383 : ceny
+2023-05-05 14:03:32.664352 : ceny
+2023-05-05 14:03:32.673340 : ceny
+2023-05-05 14:03:32.685310 : ceny
+2023-05-05 14:03:32.697278 : ceny
+2023-05-05 14:03:32.709247 : ceny
+2023-05-05 14:03:32.718224 : ceny
+2023-05-05 14:03:32.729194 : ceny
+2023-05-05 14:03:32.740164 : ceny
+2023-05-05 14:03:32.749141 : ceny
+2023-05-05 14:03:32.762106 : ceny
+2023-05-05 14:03:32.773108 : ceny
+2023-05-05 14:03:32.786108 : ceny
+2023-05-05 14:03:32.794132 : ceny
+2023-05-05 14:03:32.806100 : ceny
+2023-05-05 14:03:32.817071 : ceny
+2023-05-05 14:03:32.833644 : https://fischersk.web1.dtweb.cz/vysledky-vyhladavania?ac1=2&d=642|1133|870|1098|770|606|1050|1134|823|1039|1109|644|643|674|871|1172|805|875|791|815|1040|1041|869|629|1078|616|859|1079|962|1042|1043|1044|1045|860|1057&dd=2023-07-01&ic1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1
+2023-05-05 14:03:35.087871 : 
+                             
+                             
+2023-05-05 14:03:35.087871 : ====== WebDriver manager ======
+                             
+2023-05-05 14:03:35.116060 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 14:03:35.116060 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 14:03:35.199231 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 14:03:41.938451 : <selenium.webdriver.remote.webelement.WebElement (session="df82757363dadf4f61457cbdd81fe5f2", element="ca14c8e8-8ed0-42d9-9937-8f4ac1bfc36e")>
+2023-05-05 14:03:45.828483 : https://fischersk.web1.dtweb.cz/vysledky-vyhladavania?dd=2023-05-05&nn=7|8|9|10|11|12|13|14|15&rd=2023-07-05&to=483|1837|2933|3437&tt=1
+2023-05-05 14:03:47.943725 : 
+                             
+                             
+2023-05-05 14:03:47.943725 : ====== WebDriver manager ======
+                             
+2023-05-05 14:03:47.972679 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 14:03:47.972679 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 14:03:48.063328 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 14:03:59.164176 : <selenium.webdriver.remote.webelement.WebElement (session="729517608b283c8d64d8b85de23156ff", element="06f4c993-94cc-44e4-8ba8-9b3adc2dbbe7")>
+2023-05-05 14:04:36.999969 : ------------------------------------------
+2023-05-05 14:04:36.999969 : LIST FROM PUBLIC WWW PRODUCTION https://www.fischer.sk/
+2023-05-05 14:04:36.999969 : ['öùastnÈ t˝ûdne', '22 z·jazdov v 1 destin·cii', '83 z·jazdov v 1 destin·cii', '69 z·jazdov v 1 destin·cii', '7 z·jazdov v 1 destin·cii', '48 z·jazdov v 1 destin·cii']
+2023-05-05 14:04:36.999969 : ------------------------------------------
+2023-05-05 14:04:36.999969 : LIST FROM DEPLOYING WEB https://fischersk.web1.dtweb.cz/
+2023-05-05 14:04:36.999969 : ['öùastnÈ t˝ûdne', '22 z·jazdov v 1 destin·cii', '83 z·jazdov v 1 destin·cii', '69 z·jazdov v 1 destin·cii', '7 z·jazdov v 1 destin·cii', '48 z·jazdov v 1 destin·cii']
+2023-05-05 14:04:36.999969 : ------------------------------------------
+2023-05-05 14:04:36.999969 : Banners are GOOD, TEST OK https://www.fischer.sk/ VS https://fischersk.web1.dtweb.cz/
+2023-05-05 14:04:37.004924 : https://fischersk.web1.dtweb.cz/
+2023-05-05 14:04:39.184109 : 
+                             
+                             
+2023-05-05 14:04:39.184109 : ====== WebDriver manager ======
+                             
+2023-05-05 14:04:39.221011 : Current google-chrome version is 112.0.5615
+                             
+2023-05-05 14:04:39.221011 : Get LATEST chromedriver version for 112.0.5615 google-chrome
+                             
+2023-05-05 14:04:39.302793 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\112.0.5615.49\chromedriver.exe] found in cache
+                             
+2023-05-05 14:08:43.078892 : len(pocet_vysledku_list_default)
+2023-05-05 14:08:43.078892 : 20
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : len(pocet_vysledku_list_dev))
+2023-05-05 14:08:43.078892 : 20
+2023-05-05 14:08:43.078892 : 818 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 818 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-09-30&sc=residential&to=4312|4305|2682|4308&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-09-30&sc=residential&to=4312|4305|2682|4308&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 0
+2023-05-05 14:08:43.078892 : 439 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 439 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|648|972|620|746&dd=2023-09-01&ic1=2&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|648|972|620|746&dd=2023-09-01&ic1=2&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 1
+2023-05-05 14:08:43.078892 : 243 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 243 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 2
+2023-05-05 14:08:43.078892 : 51 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 51 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=650|651|649|876&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=650|651|649|876&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 3
+2023-05-05 14:08:43.078892 : 98 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 98 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 4
+2023-05-05 14:08:43.078892 : 115 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : 115 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654|634&dd=2023-07-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654|634&dd=2023-07-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 5
+2023-05-05 14:08:43.078892 : 98 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 98 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=607|591&dd=2023-07-01&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=607|591&dd=2023-07-01&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 6
+2023-05-05 14:08:43.078892 : 321 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 321 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|596&dd=2023-07-01&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=627|974|712|596&dd=2023-07-01&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 7
+2023-05-05 14:08:43.078892 : 5 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 5 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=635&dd=2023-07-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=635&dd=2023-07-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 8
+2023-05-05 14:08:43.078892 : 80 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 80 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=605|677|745|1061|965|822&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=605|677|745|1061|965|822&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 9
+2023-05-05 14:08:43.078892 : 105 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 105 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 10
+2023-05-05 14:08:43.078892 : 37 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 37 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=631&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=631&dd=2023-09-01&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 11
+2023-05-05 14:08:43.078892 : 62 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : 62 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=638|1214|635&dd=2023-10-01&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=638|1214|635&dd=2023-10-01&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 12
+2023-05-05 14:08:43.078892 : 121 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 121 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654&dd=2023-10-01&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654&dd=2023-10-01&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 13
+2023-05-05 14:08:43.078892 : 13 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 13 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=633&dd=2023-10-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=633&dd=2023-10-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 14
+2023-05-05 14:08:43.078892 : 22 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 22 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=1005&dd=2023-08-01&ka1=15&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=1005&dd=2023-08-01&ka1=15&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 15
+2023-05-05 14:08:43.078892 : 172 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 172 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=687|604&dd=2023-08-01&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=687|604&dd=2023-08-01&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 16
+2023-05-05 14:08:43.078892 : 116 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : 116 z·jezd˘ ve 2 destinacÌch
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=650|651|649|876|644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2023-09-01&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=650|651|649|876|644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2023-09-01&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-09-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 17
+2023-05-05 14:08:43.078892 : 229 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 229 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2023-09-01&ka1=3&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2023-09-01&ka1=3&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 18
+2023-05-05 14:08:43.078892 : 112 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : 112 z·jezd˘ v 1 destinaci
+2023-05-05 14:08:43.078892 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=664&dd=2023-10-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=664&dd=2023-10-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-05-05 14:08:43.078892 :              
+2023-05-05 14:08:43.078892 : 19
+2023-05-05 14:08:43.078892 : 20
+2023-05-05 14:08:43.112774 : https://www.fischer.cz/vysledky-vyhledavani?ac1=2&d=664&dd=2023-10-01&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1

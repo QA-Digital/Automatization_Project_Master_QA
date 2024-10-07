@@ -1,0 +1,28 @@
+2024-05-16 12:36:15.853459 : https://fischer.web3.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-05-16 12:36:37.245749 : its ok
+2024-05-16 12:36:37.250737 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/king-tut-resort/271244-uprava2.jpg
+2024-05-16 12:36:54.369488 : else departure not true
+2024-05-16 12:37:03.182048 : all inclusive
+2024-05-16 12:37:05.197505 : 0
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ok
+2024-05-16 12:37:05.417195 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-05-16 12:37:05.432816 : https://fischer.web3.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy

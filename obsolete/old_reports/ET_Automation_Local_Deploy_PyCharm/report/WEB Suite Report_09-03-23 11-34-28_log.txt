@@ -1,0 +1,187 @@
+2023-03-09 11:34:28.714987 : 
+                             
+                             
+2023-03-09 11:34:28.714987 : ====== WebDriver manager ======
+                             
+2023-03-09 11:34:28.761208 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:34:28.761208 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:34:28.932485 : Trying to download new driver from https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_win32.zip
+                             
+2023-03-09 11:34:29.321950 : Driver has been saved in cache [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77]
+                             
+2023-03-09 11:34:59.909836 : <selenium.webdriver.remote.webelement.WebElement (session="f496f1d57437d837758f54467c9c26c9", element="8ae8d47f-0bfc-4d21-8091-f87c57d04421")>
+2023-03-09 11:35:00.109363 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
+2023-03-09 11:35:00.191141 : its ok
+2023-03-09 11:35:00.282753 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
+2023-03-09 11:35:02.438876 : 
+                             
+                             
+2023-03-09 11:35:02.438876 : ====== WebDriver manager ======
+                             
+2023-03-09 11:35:02.504352 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:35:02.504352 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:35:02.585711 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-09 11:35:12.697586 : <selenium.webdriver.remote.webelement.WebElement (session="71bee4489b859ee9479a70343c34000e", element="8228648e-371c-47af-91a9-2038c133a3f9")>
+2023-03-09 11:35:14.683724 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.683724 : ok
+2023-03-09 11:35:14.698382 : http://etravel.stg.dtweb.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&mmt=5
+2023-03-09 11:35:16.864923 : 
+                             
+                             
+2023-03-09 11:35:16.864923 : ====== WebDriver manager ======
+                             
+2023-03-09 11:35:16.946700 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:35:16.946700 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:35:17.036183 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-09 11:35:19.779745 : http://etravel.stg.dtweb.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-03-09 11:35:27.075858 : <selenium.webdriver.remote.webelement.WebElement (session="19c59dd0082955684fc0a1407f8fcc60", element="dcedfdbd-e336-41eb-bdd6-4dbf1800ce41")>
+2023-03-09 11:35:28.748125 : ['Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha', 'Praha']
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.748125 : ok
+2023-03-09 11:35:28.761741 : http://etravel.stg.dtweb.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
+2023-03-09 11:35:30.890335 : 
+                             
+                             
+2023-03-09 11:35:30.890335 : ====== WebDriver manager ======
+                             
+2023-03-09 11:35:30.990108 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:35:30.990108 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:35:31.073803 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-09 11:35:42.034290 : <selenium.webdriver.remote.webelement.WebElement (session="fe8f0a33f2002bc0f17d98393921d875", element="914c0c71-d82c-467f-9132-4c53b2380647")>
+2023-03-09 11:35:55.242808 : wait done
+2023-03-09 11:35:55.242808 : TRY block start
+2023-03-09 11:35:58.294486 : JDOU VIDET
+2023-03-09 11:35:58.304457 : JDOU VIDET
+2023-03-09 11:35:58.312436 : JDOU VIDET
+2023-03-09 11:35:58.320416 : JDOU VIDET
+2023-03-09 11:35:58.361306 : wait done
+2023-03-09 11:35:58.361306 : TRY block start
+2023-03-09 11:36:01.471961 : JDOU VIDET
+2023-03-09 11:36:01.480349 : JDOU VIDET
+2023-03-09 11:36:01.487677 : JDOU VIDET
+2023-03-09 11:36:01.495794 : JDOU VIDET
+2023-03-09 11:36:01.503603 : JDOU VIDET
+2023-03-09 11:36:01.511800 : JDOU VIDET
+2023-03-09 11:36:01.519989 : JDOU VIDET
+2023-03-09 11:36:01.528360 : JDOU VIDET
+2023-03-09 11:36:01.536739 : JDOU VIDET
+2023-03-09 11:36:01.545245 : JDOU VIDET
+2023-03-09 11:36:01.553970 : JDOU VIDET
+2023-03-09 11:36:01.562524 : JDOU VIDET
+2023-03-09 11:36:01.570541 : JDOU VIDET
+2023-03-09 11:36:01.579123 : JDOU VIDET
+2023-03-09 11:36:01.587187 : JDOU VIDET
+2023-03-09 11:36:01.639579 : http://etravel.stg.dtweb.cz/first-minute
+2023-03-09 11:36:03.834160 : 
+                             
+                             
+2023-03-09 11:36:03.834160 : ====== WebDriver manager ======
+                             
+2023-03-09 11:36:03.923173 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:36:03.923173 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:36:04.006367 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-09 11:36:20.750050 : <selenium.webdriver.remote.webelement.WebElement (session="d5bebd6175c4d139bba455177996d524", element="eaa7cf9a-b6f5-49cf-9343-7411e51b7953")>
+2023-03-09 11:36:30.879359 : wait done
+2023-03-09 11:36:30.879359 : TRY block start
+2023-03-09 11:36:33.918259 : JDOU VIDET
+2023-03-09 11:36:33.926238 : JDOU VIDET
+2023-03-09 11:36:33.934218 : JDOU VIDET
+2023-03-09 11:36:33.943193 : JDOU VIDET
+2023-03-09 11:36:33.977108 : wait done
+2023-03-09 11:36:33.978100 : TRY block start
+2023-03-09 11:36:37.022904 : JDOU VIDET
+2023-03-09 11:36:37.031880 : JDOU VIDET
+2023-03-09 11:36:37.040484 : JDOU VIDET
+2023-03-09 11:36:37.048463 : JDOU VIDET
+2023-03-09 11:36:37.057438 : JDOU VIDET
+2023-03-09 11:36:37.065417 : JDOU VIDET
+2023-03-09 11:36:37.074413 : JDOU VIDET
+2023-03-09 11:36:37.082372 : JDOU VIDET
+2023-03-09 11:36:37.090375 : JDOU VIDET
+2023-03-09 11:36:37.098329 : JDOU VIDET
+2023-03-09 11:36:37.106308 : JDOU VIDET
+2023-03-09 11:36:37.114287 : JDOU VIDET
+2023-03-09 11:36:37.122266 : JDOU VIDET
+2023-03-09 11:36:37.131242 : JDOU VIDET
+2023-03-09 11:36:37.139120 : JDOU VIDET
+2023-03-09 11:36:37.148099 : JDOU VIDET
+2023-03-09 11:36:37.157076 : JDOU VIDET
+2023-03-09 11:36:37.165054 : JDOU VIDET
+2023-03-09 11:36:37.212904 : http://etravel.stg.dtweb.cz/exoticka-dovolena
+2023-03-09 11:36:39.330760 : 
+                             
+                             
+2023-03-09 11:36:39.330760 : ====== WebDriver manager ======
+                             
+2023-03-09 11:36:39.359682 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:36:39.360681 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:36:39.441465 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-09 11:36:48.962897 : <selenium.webdriver.remote.webelement.WebElement (session="1d2f213ab61ad9eda7beea878670d2b1", element="5fa0d29a-aca0-469e-9aaf-3291bea0246c")>
+2023-03-09 11:36:53.625797 : ZANZIBAR
+2023-03-09 11:37:19.732308 : last no such ele except
+2023-03-09 11:37:24.929177 : ØECKO
+2023-03-09 11:37:49.689288 : 
+                             
+                             
+2023-03-09 11:37:49.689288 : ====== WebDriver manager ======
+                             
+2023-03-09 11:37:49.723209 : Current google-chrome version is 110.0.5481
+                             
+2023-03-09 11:37:49.723209 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-09 11:37:49.805977 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             

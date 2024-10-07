@@ -1,0 +1,59 @@
+2023-03-02 17:54:24.303129 : 
+                             
+                             
+2023-03-02 17:54:24.303129 : ====== WebDriver manager ======
+                             
+2023-03-02 17:54:24.339678 : Current google-chrome version is 110.0.5481
+                             
+2023-03-02 17:54:24.339678 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-02 17:54:24.497072 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-02 17:54:29.889979 : https://fischer.web1.dtweb.cz/covid-info
+2023-03-02 17:54:32.022888 : 
+                             
+                             
+2023-03-02 17:54:32.022888 : ====== WebDriver manager ======
+                             
+2023-03-02 17:54:32.093385 : Current google-chrome version is 110.0.5481
+                             
+2023-03-02 17:54:32.093385 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-02 17:54:32.182069 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-02 17:54:36.514499 : https://fischer.web1.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled
+2023-03-02 17:54:38.692966 : 
+                             
+                             
+2023-03-02 17:54:38.692966 : ====== WebDriver manager ======
+                             
+2023-03-02 17:54:38.736958 : Current google-chrome version is 110.0.5481
+                             
+2023-03-02 17:54:38.736958 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-02 17:54:38.820466 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-02 17:54:43.277106 : https://fischer.web1.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled
+2023-03-02 17:54:45.388152 : 
+                             
+                             
+2023-03-02 17:54:45.388152 : ====== WebDriver manager ======
+                             
+2023-03-02 17:54:45.416223 : Current google-chrome version is 110.0.5481
+                             
+2023-03-02 17:54:45.417209 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-02 17:54:45.520237 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             
+2023-03-02 17:54:51.803126 : https://fischer.web1.dtweb.cz//recko/korfu/roda/angela-beach?D=1126|1129|826|1225|1124|1128|623|1059|1118|1119|1121|741|735|618|619|624|1127|973|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|993|1131|595|614|648|972|1123|1093|1198|1114|1122|620|746&DD=2023-08-24&DP=4305&DPR=FISCHER+ATCOM&DS=256&GIATA=632&HID=794&MNN=7&MT=5&NN=7&PID=CFU50152&RD=2023-08-31&TO=4305&df=2023-08-01|2023-09-30&nnm=7|8|9|10|11|12|13&sortby=Departure&tt=1&ttm=1#/prehled
+2023-03-02 17:54:53.926452 : 
+                             
+                             
+2023-03-02 17:54:53.926452 : ====== WebDriver manager ======
+                             
+2023-03-02 17:54:53.985634 : Current google-chrome version is 110.0.5481
+                             
+2023-03-02 17:54:53.985634 : Get LATEST chromedriver version for 110.0.5481 google-chrome
+                             
+2023-03-02 17:54:54.071440 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\110.0.5481.77\chromedriver.exe] found in cache
+                             

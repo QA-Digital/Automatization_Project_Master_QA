@@ -1,0 +1,650 @@
+2023-11-10 13:16:50.864139 : <selenium.webdriver.remote.webelement.WebElement (session="761e4377f00d98501ba003f08d0f86a5", element="E5053F60D402C0BAD3F3DFA7EA2F2B32_element_68")>
+2023-11-10 13:16:52.041132 : gridy jdou videt
+2023-11-10 13:16:52.051524 : gridy jdou videt
+2023-11-10 13:16:52.062229 : gridy jdou videt
+2023-11-10 13:16:52.072567 : gridy jdou videt
+2023-11-10 13:16:52.082504 : gridy jdou videt
+2023-11-10 13:16:52.092827 : gridy jdou videt
+2023-11-10 13:16:52.103240 : gridy jdou videt
+2023-11-10 13:16:52.112873 : gridy jdou videt
+2023-11-10 13:16:52.123329 : gridy jdou videt
+2023-11-10 13:16:52.133665 : gridy jdou videt
+2023-11-10 13:16:52.143999 : gridy jdou videt
+2023-11-10 13:16:52.154558 : gridy jdou videt
+2023-11-10 13:16:52.164596 : gridy jdou videt
+2023-11-10 13:16:52.178274 : gridy jdou videt
+2023-11-10 13:16:52.187870 : gridy jdou videt
+2023-11-10 13:16:52.199047 : gridy jdou videt
+2023-11-10 13:16:52.209925 : gridy jdou videt
+2023-11-10 13:16:52.219871 : gridy jdou videt
+2023-11-10 13:16:52.230385 : gridy jdou videt
+2023-11-10 13:16:52.240874 : gridy jdou videt
+2023-11-10 13:16:52.250400 : gridy jdou videt
+2023-11-10 13:16:52.261617 : gridy jdou videt
+2023-11-10 13:16:52.271832 : gridy jdou videt
+2023-11-10 13:16:52.282511 : gridy jdou videt
+2023-11-10 13:16:52.293225 : gridy jdou videt
+2023-11-10 13:16:52.304292 : gridy jdou videt
+2023-11-10 13:16:52.314007 : gridy jdou videt
+2023-11-10 13:16:52.324609 : gridy jdou videt
+2023-11-10 13:16:52.335416 : gridy jdou videt
+2023-11-10 13:16:52.345553 : gridy jdou videt
+2023-11-10 13:16:52.355268 : gridy jdou videt
+2023-11-10 13:16:52.365927 : gridy jdou videt
+2023-11-10 13:16:52.375931 : gridy jdou videt
+2023-11-10 13:16:52.385860 : gridy jdou videt
+2023-11-10 13:16:52.395604 : gridy jdou videt
+2023-11-10 13:16:52.453926 : content jdou videt
+2023-11-10 13:16:52.464162 : content jdou videt
+2023-11-10 13:16:52.474360 : content jdou videt
+2023-11-10 13:16:52.484323 : content jdou videt
+2023-11-10 13:16:52.494610 : content jdou videt
+2023-11-10 13:16:52.504871 : content jdou videt
+2023-11-10 13:16:52.515269 : content jdou videt
+2023-11-10 13:16:52.525650 : content jdou videt
+2023-11-10 13:16:52.535117 : content jdou videt
+2023-11-10 13:16:52.547109 : content jdou videt
+2023-11-10 13:16:52.557808 : content jdou videt
+2023-11-10 13:16:52.568093 : content jdou videt
+2023-11-10 13:16:52.578514 : content jdou videt
+2023-11-10 13:16:52.588938 : content jdou videt
+2023-11-10 13:16:52.599185 : content jdou videt
+2023-11-10 13:16:52.609380 : content jdou videt
+2023-11-10 13:16:52.620353 : content jdou videt
+2023-11-10 13:16:52.630325 : content jdou videt
+2023-11-10 13:16:52.640301 : content jdou videt
+2023-11-10 13:16:52.651269 : content jdou videt
+2023-11-10 13:16:52.661243 : content jdou videt
+2023-11-10 13:16:52.672214 : content jdou videt
+2023-11-10 13:16:52.682187 : content jdou videt
+2023-11-10 13:16:52.692161 : content jdou videt
+2023-11-10 13:16:52.703165 : content jdou videt
+2023-11-10 13:16:52.713138 : content jdou videt
+2023-11-10 13:16:52.724109 : content jdou videt
+2023-11-10 13:16:52.734082 : content jdou videt
+2023-11-10 13:16:52.744056 : content jdou videt
+2023-11-10 13:16:52.754029 : content jdou videt
+2023-11-10 13:16:52.765998 : content jdou videt
+2023-11-10 13:16:52.776967 : content jdou videt
+2023-11-10 13:16:52.787938 : content jdou videt
+2023-11-10 13:16:52.797470 : content jdou videt
+2023-11-10 13:16:52.808440 : content jdou videt
+2023-11-10 13:16:52.814425 : https://exim.web12.dtweb.cz/covid-info
+2023-11-10 13:17:01.566988 : <selenium.webdriver.remote.webelement.WebElement (session="df34f1248eb9be44bade0944b9403875", element="A04BCEAF6458619DB3E6E5731EEF72F0_element_44")>
+2023-11-10 13:17:01.790097 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2023-11-10 13:17:09.007661 : None
+2023-11-10 13:17:09.007661 : consent pass
+2023-11-10 13:17:14.316776 : its ok
+2023-11-10 13:17:14.322169 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864-15.jpeg
+2023-11-10 13:17:22.950296 : <selenium.webdriver.remote.webelement.WebElement (session="e979426a14ae9497ebdf4b6cf62d9e71", element="22E711D338C037270C2511FD1A1D7099_element_54")>
+2023-11-10 13:17:29.245786 : else departure not true
+2023-11-10 13:17:37.759589 : all inclusive
+2023-11-10 13:17:39.761267 : 0
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ok
+2023-11-10 13:17:39.966352 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-11-10 13:17:39.972336 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-11-10 13:17:47.615758 : <selenium.webdriver.remote.webelement.WebElement (session="7aee975065413c03cea04c48a721daf4", element="621A1A450A65A04EAD8691FE7D706063_element_64")>
+2023-11-10 13:17:53.869038 : if departure==True
+2023-11-10 13:18:11.387118 : else trigger
+2023-11-10 13:18:11.414465 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-11-10 13:18:23.128315 : <selenium.webdriver.remote.webelement.WebElement (session="4e7f11fb14da43a0eea4b9e5a7d044a7", element="AFDA858394C930E94016A9CCDBD6AA9D_element_38")>
+2023-11-10 13:18:26.291676 : https://exim.web12.dtweb.cz//kluby/mango-leto
+2023-11-10 13:18:34.865522 : <selenium.webdriver.remote.webelement.WebElement (session="2f60702fb3c9fd664e669be73cdf8c70", element="67AD16462B8683499E186192FEFEDBAB_element_43")>
+2023-11-10 13:18:36.710610 : benefit items jdou videt
+2023-11-10 13:18:36.715587 : https://exim.web12.dtweb.cz/first-minute/leto
+2023-11-10 13:18:49.212101 : <selenium.webdriver.remote.webelement.WebElement (session="51b5265e2d6b3a0bd25fc42d12ef74fa", element="5589582A6EBD0DFD96759D3E2F5A3EA6_element_61")>
+2023-11-10 13:18:51.961642 : ZANZIBAR
+2023-11-10 13:18:54.578339 : hote dlazdice klik
+2023-11-10 13:18:58.111125 : ØECKO
+2023-11-10 13:19:04.184111 : hote dlazdice klik
+2023-11-10 13:19:07.641105 : TURECKO
+2023-11-10 13:19:09.505659 : hote dlazdice klik
+2023-11-10 13:19:13.648391 : EGYPT
+2023-11-10 13:19:15.094857 : hote dlazdice klik
+2023-11-10 13:19:18.593084 : KAPVERDY
+2023-11-10 13:19:21.418921 : hote dlazdice klik
+2023-11-10 13:19:25.020815 : OMAN
+2023-11-10 13:19:26.585209 : hote dlazdice klik
+2023-11-10 13:19:30.100570 : KEFALONIA
+2023-11-10 13:19:31.577923 : hote dlazdice klik
+2023-11-10 13:19:35.158474 : MIRAGE BAY
+2023-11-10 13:19:37.292908 : hote dlazdice klik
+2023-11-10 13:19:41.184176 : PORTO SKALA 7
+2023-11-10 13:19:42.600757 : hote dlazdice klik
+2023-11-10 13:19:46.292361 : DOUBLETREE
+2023-11-10 13:19:47.745248 : hote dlazdice klik
+2023-11-10 13:19:47.799613 : https://exim.web12.dtweb.cz/portugalsko/lisabon/lisabon/double-tree-by-hilton-lisboa-fontana-park?DS=2&GIATA=93908&D=63343&HID=15498&DF=2023-11-21|2023-12-19&RD=2023-12-08&DD=2023-12-05&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=AMTSPT16U6&DPR=OTSCKF
+2023-11-10 13:19:59.314057 : <selenium.webdriver.remote.webelement.WebElement (session="4af846e19a6841b4b47d1c0c6deda76a", element="4C380571CDF1A0F5D185D8B8C1F8876A_element_42")>
+2023-11-10 13:19:59.539453 : ZANZIBAR
+2023-11-10 13:20:03.762974 : ØECKO
+2023-11-10 13:20:10.044306 : TURECKO
+2023-11-10 13:20:40.975034 : EGYPT
+2023-11-10 13:21:12.394461 : KAPVERDY
+2023-11-10 13:21:44.287506 : OMAN
+2023-11-10 13:21:46.865550 : KEFALONIA
+2023-11-10 13:21:52.091865 : MIRAGE BAY
+2023-11-10 13:21:54.424667 : PORTO SKALA 7
+2023-11-10 13:21:56.753444 : DOUBLETREE
+2023-11-10 13:21:58.222929 : https://exim.web12.dtweb.cz/hledani-vysledky?q=Doubletree
+2023-11-10 13:22:07.005099 : <selenium.webdriver.remote.webelement.WebElement (session="75a5cbb661139839adacf54d0072cdd3", element="ED8263D7EAEDCC117C22664DE2AB84F8_element_60")>
+2023-11-10 13:22:10.177323 : https://exim.web12.dtweb.cz/vysledky-vyhledavani?tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ic1=1&ac1=2
+2023-11-10 13:22:25.270472 : <selenium.webdriver.remote.webelement.WebElement (session="dff826b790cb375b85832b474e20cf30", element="0AC1F9115324AE13D2A3CBB50BF6E8FD_element_59")>
+2023-11-10 13:22:27.265823 : https://exim.web12.dtweb.cz/
+2023-11-10 13:22:36.106641 : <selenium.webdriver.remote.webelement.WebElement (session="381fcf56953f0b3373aa16228b8fc6d8", element="3D46F64ABBA7364B360FAAFFE1D0B139_element_34")>
+2023-11-10 13:22:39.164217 : https://exim.web12.dtweb.cz/last-minute
+2023-11-10 13:22:53.293269 : <selenium.webdriver.remote.webelement.WebElement (session="792f053f81cdd604784cf9b8fd1adefa", element="8254B312DA875ECB4D921A08AB20CB6E_element_44")>
+2023-11-10 13:23:20.446819 : https://exim.web12.dtweb.cz/kontakty/nase-pobocky
+2023-11-10 13:23:29.281524 : <selenium.webdriver.remote.webelement.WebElement (session="4a049633ea7508f487bc5f4e8a4f6a4d", element="C010DE4CA0437934CC1E55A6431C85D8_element_35")>
+2023-11-10 13:23:35.409440 : grid true
+2023-11-10 13:23:35.423421 : grid true
+2023-11-10 13:23:35.432379 : grid true
+2023-11-10 13:23:35.444347 : grid true
+2023-11-10 13:23:35.453322 : grid true
+2023-11-10 13:23:35.463296 : grid true
+2023-11-10 13:23:35.476261 : grid true
+2023-11-10 13:23:35.486235 : grid true
+2023-11-10 13:23:35.496208 : grid true
+2023-11-10 13:23:35.506182 : grid true
+2023-11-10 13:23:35.516155 : grid true
+2023-11-10 13:23:35.525131 : grid true
+2023-11-10 13:23:35.534107 : grid true
+2023-11-10 13:23:35.542086 : grid true
+2023-11-10 13:23:35.551062 : grid true
+2023-11-10 13:23:35.559041 : grid true
+2023-11-10 13:23:35.567019 : grid true
+2023-11-10 13:23:35.575254 : grid true
+2023-11-10 13:23:35.585230 : grid true
+2023-11-10 13:23:35.595891 : grid true
+2023-11-10 13:23:35.604895 : grid true
+2023-11-10 13:23:35.615838 : grid true
+2023-11-10 13:23:35.624814 : grid true
+2023-11-10 13:23:35.635752 : grid true
+2023-11-10 13:23:35.644738 : grid true
+2023-11-10 13:23:35.653546 : grid true
+2023-11-10 13:23:35.663769 : grid true
+2023-11-10 13:23:35.673742 : grid true
+2023-11-10 13:23:35.714393 : big grid ture
+2023-11-10 13:23:35.724367 : big grid ture
+2023-11-10 13:23:35.734508 : big grid ture
+2023-11-10 13:23:35.744233 : big grid ture
+2023-11-10 13:23:35.754297 : big grid ture
+2023-11-10 13:23:35.759067 : https://exim.web12.dtweb.cz/poznavaci-zajezdy
+2023-11-10 13:23:44.538190 : <selenium.webdriver.remote.webelement.WebElement (session="512a02590c455da891a71bab82af4cab", element="9D3A5A6A6B5312BC0BA3BE30D0814562_element_42")>
+2023-11-10 13:23:50.689239 : grid true
+2023-11-10 13:23:50.702867 : grid true
+2023-11-10 13:23:50.713634 : grid true
+2023-11-10 13:23:50.723492 : grid true
+2023-11-10 13:23:50.733942 : grid true
+2023-11-10 13:23:50.745844 : grid true
+2023-11-10 13:23:50.756283 : grid true
+2023-11-10 13:23:50.766851 : grid true
+2023-11-10 13:23:50.776401 : grid true
+2023-11-10 13:23:50.787300 : grid true
+2023-11-10 13:23:50.797997 : grid true
+2023-11-10 13:23:50.808607 : grid true
+2023-11-10 13:23:50.818998 : grid true
+2023-11-10 13:23:50.829692 : grid true
+2023-11-10 13:23:50.839983 : grid true
+2023-11-10 13:23:50.850322 : grid true
+2023-11-10 13:23:50.860994 : grid true
+2023-11-10 13:23:50.872084 : grid true
+2023-11-10 13:23:50.881926 : grid true
+2023-11-10 13:23:50.892970 : grid true
+2023-11-10 13:23:50.903290 : grid true
+2023-11-10 13:23:50.913178 : grid true
+2023-11-10 13:23:50.925134 : grid true
+2023-11-10 13:23:50.935295 : grid true
+2023-11-10 13:23:50.949607 : grid true
+2023-11-10 13:23:50.960564 : grid true
+2023-11-10 13:23:50.969540 : grid true
+2023-11-10 13:23:50.980511 : grid true
+2023-11-10 13:23:51.014533 : big grid ture
+2023-11-10 13:23:51.025571 : big grid ture
+2023-11-10 13:23:51.036394 : big grid ture
+2023-11-10 13:23:51.047388 : big grid ture
+2023-11-10 13:23:51.057353 : big grid ture
+2023-11-10 13:23:51.072667 : https://exim.web12.dtweb.cz/poznavaci-zajezdy#vikendy
+2023-11-10 13:23:59.957344 : <selenium.webdriver.remote.webelement.WebElement (session="c1b9d871f9d2ef88b112c7d7bcbc3885", element="7D866EA45C2CF096EE7BFF5B270F50BE_element_38")>
+2023-11-10 13:24:08.110252 : grid true
+2023-11-10 13:24:08.122216 : grid true
+2023-11-10 13:24:08.132190 : grid true
+2023-11-10 13:24:08.141166 : grid true
+2023-11-10 13:24:08.150141 : grid true
+2023-11-10 13:24:08.162110 : grid true
+2023-11-10 13:24:08.171085 : grid true
+2023-11-10 13:24:08.180061 : grid true
+2023-11-10 13:24:08.189037 : grid true
+2023-11-10 13:24:08.198013 : grid true
+2023-11-10 13:24:08.205992 : grid true
+2023-11-10 13:24:08.214970 : grid true
+2023-11-10 13:24:08.223944 : grid true
+2023-11-10 13:24:08.234916 : grid true
+2023-11-10 13:24:08.243891 : grid true
+2023-11-10 13:24:08.252867 : grid true
+2023-11-10 13:24:08.260846 : grid true
+2023-11-10 13:24:08.268825 : grid true
+2023-11-10 13:24:08.278797 : grid true
+2023-11-10 13:24:08.288772 : grid true
+2023-11-10 13:24:08.297779 : grid true
+2023-11-10 13:24:08.306724 : grid true
+2023-11-10 13:24:08.314703 : grid true
+2023-11-10 13:24:08.323425 : grid true
+2023-11-10 13:24:08.332404 : grid true
+2023-11-10 13:24:08.342378 : grid true
+2023-11-10 13:24:08.353349 : grid true
+2023-11-10 13:24:08.363191 : grid true
+2023-11-10 13:24:08.397653 : big grid ture
+2023-11-10 13:24:08.408019 : big grid ture
+2023-11-10 13:24:08.418943 : big grid ture
+2023-11-10 13:24:08.430911 : big grid ture
+2023-11-10 13:24:08.440884 : big grid ture
+2023-11-10 13:24:08.455845 : https://exim.web12.dtweb.cz/poznavaci-zajezdy#rodiny
+2023-11-10 13:24:17.240032 : <selenium.webdriver.remote.webelement.WebElement (session="22758385a0f9b7dda17b5e9ad6626230", element="25BEA4121F96F922639BDF431596894D_element_50")>
+2023-11-10 13:24:25.381764 : grid true
+2023-11-10 13:24:25.396352 : grid true
+2023-11-10 13:24:25.407050 : grid true
+2023-11-10 13:24:25.417628 : grid true
+2023-11-10 13:24:25.428043 : grid true
+2023-11-10 13:24:25.437702 : grid true
+2023-11-10 13:24:25.448128 : grid true
+2023-11-10 13:24:25.459099 : grid true
+2023-11-10 13:24:25.469682 : grid true
+2023-11-10 13:24:25.480223 : grid true
+2023-11-10 13:24:25.492070 : grid true
+2023-11-10 13:24:25.503082 : grid true
+2023-11-10 13:24:25.513983 : grid true
+2023-11-10 13:24:25.524415 : grid true
+2023-11-10 13:24:25.535176 : grid true
+2023-11-10 13:24:25.545334 : grid true
+2023-11-10 13:24:25.555815 : grid true
+2023-11-10 13:24:25.566168 : grid true
+2023-11-10 13:24:25.576485 : grid true
+2023-11-10 13:24:25.587456 : grid true
+2023-11-10 13:24:25.598433 : grid true
+2023-11-10 13:24:25.608410 : grid true
+2023-11-10 13:24:25.618380 : grid true
+2023-11-10 13:24:25.628368 : grid true
+2023-11-10 13:24:25.638356 : grid true
+2023-11-10 13:24:25.649316 : grid true
+2023-11-10 13:24:25.660286 : grid true
+2023-11-10 13:24:25.670260 : grid true
+2023-11-10 13:24:25.706173 : big grid ture
+2023-11-10 13:24:25.717143 : big grid ture
+2023-11-10 13:24:25.728113 : big grid ture
+2023-11-10 13:24:25.738087 : big grid ture
+2023-11-10 13:24:25.748060 : big grid ture
+2023-11-10 13:24:25.763050 : https://exim.web12.dtweb.cz/poznavaci-zajezdy#rodiny
+2023-11-10 13:24:36.143669 : <selenium.webdriver.remote.webelement.WebElement (session="a35791cce64ea7ba6dea817e9287e23b", element="F9F55C70E69C0165F7CDC0EECF4A84DF_element_33")>
+2023-11-10 13:24:42.186734 : https://exim.web12.dtweb.cz/spanelsko
+2023-11-10 13:24:50.848086 : <selenium.webdriver.remote.webelement.WebElement (session="a9295eec4cacd3ad4ef17005c8d7ebc4", element="3D03DEC65FE6153C83A436104D759823_element_59")>
+2023-11-10 13:25:20.529638 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:25:30.399195 : <selenium.webdriver.remote.webelement.WebElement (session="351415fc5fa24dcf70c544bfeb414a42", element="D7EF3F5187B799374F3C43CB45D03FAB_element_35")>
+2023-11-10 13:26:00.581434 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:26:09.328465 : <selenium.webdriver.remote.webelement.WebElement (session="50bc5217d640d8ac83ff0cba8157be37", element="1C4A44095AA4E20B3B6EB6CC31570BE6_element_59")>
+2023-11-10 13:26:36.480646 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:26:45.062928 : <selenium.webdriver.remote.webelement.WebElement (session="eba1f9b40997ce49548657d4d6bab997", element="23C5B0B87624611B02D6815567A61DDE_element_60")>
+2023-11-10 13:27:12.208369 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:27:21.293551 : <selenium.webdriver.remote.webelement.WebElement (session="b048590f56a2ddfdf0bc2c9176d10fb2", element="0D27262DA5481D3BE9EAAC9AC36254DF_element_60")>
+2023-11-10 13:27:22.436699 : |||||HOTEL CISLO|||||||
+2023-11-10 13:27:22.436699 : 1
+2023-11-10 13:27:22.436699 : 1
+2023-11-10 13:27:22.436699 : 1
+2023-11-10 13:28:12.484316 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:28:19.178029 : <selenium.webdriver.remote.webelement.WebElement (session="58e64680651f72746b4cfb8b644d1a35", element="0A700DA2EA8828FAD794E67FE84CB37E_element_57")>
+2023-11-10 13:28:25.397892 : None
+2023-11-10 13:28:25.397892 : consent pass
+2023-11-10 13:28:25.494298 : True
+2023-11-10 13:28:25.505580 : True
+2023-11-10 13:28:25.516279 : True
+2023-11-10 13:28:25.526793 : True
+2023-11-10 13:28:25.538998 : True
+2023-11-10 13:28:25.550508 : True
+2023-11-10 13:28:25.560737 : True
+2023-11-10 13:28:25.571854 : True
+2023-11-10 13:28:25.583284 : True
+2023-11-10 13:28:25.593568 : True
+2023-11-10 13:28:25.606131 : True
+2023-11-10 13:28:25.617154 : True
+2023-11-10 13:28:25.626300 : True
+2023-11-10 13:28:25.638072 : True
+2023-11-10 13:28:25.648881 : True
+2023-11-10 13:28:25.659466 : True
+2023-11-10 13:28:25.669070 : True
+2023-11-10 13:28:25.680872 : True
+2023-11-10 13:28:25.691536 : True
+2023-11-10 13:28:25.703414 : True
+2023-11-10 13:28:25.784804 : True
+2023-11-10 13:28:25.796246 : True
+2023-11-10 13:28:25.806200 : True
+2023-11-10 13:28:25.816794 : True
+2023-11-10 13:28:25.827134 : True
+2023-11-10 13:28:25.838184 : True
+2023-11-10 13:28:25.850267 : True
+2023-11-10 13:28:25.860528 : True
+2023-11-10 13:28:25.871511 : True
+2023-11-10 13:28:25.883479 : True
+2023-11-10 13:28:25.894439 : True
+2023-11-10 13:28:25.906408 : True
+2023-11-10 13:28:25.917861 : True
+2023-11-10 13:28:25.928058 : True
+2023-11-10 13:28:25.938692 : True
+2023-11-10 13:28:25.949538 : True
+2023-11-10 13:28:25.961797 : True
+2023-11-10 13:28:25.985336 : True
+2023-11-10 13:28:25.996072 : True
+2023-11-10 13:28:26.006470 : True
+2023-11-10 13:28:26.074555 : ceny
+2023-11-10 13:28:26.084445 : ceny
+2023-11-10 13:28:26.095232 : ceny
+2023-11-10 13:28:26.105469 : ceny
+2023-11-10 13:28:26.116284 : ceny
+2023-11-10 13:28:26.126523 : ceny
+2023-11-10 13:28:26.138117 : ceny
+2023-11-10 13:28:26.149676 : ceny
+2023-11-10 13:28:26.160111 : ceny
+2023-11-10 13:28:26.170913 : ceny
+2023-11-10 13:28:26.182592 : ceny
+2023-11-10 13:28:26.192230 : ceny
+2023-11-10 13:28:26.204846 : ceny
+2023-11-10 13:28:26.218009 : ceny
+2023-11-10 13:28:26.227246 : ceny
+2023-11-10 13:28:26.239251 : ceny
+2023-11-10 13:28:26.250207 : ceny
+2023-11-10 13:28:26.260529 : ceny
+2023-11-10 13:28:26.272354 : ceny
+2023-11-10 13:28:26.282327 : ceny
+2023-11-10 13:28:26.328345 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:28:41.616088 : <selenium.webdriver.remote.webelement.WebElement (session="78411a7424530a4a1b50ddd43ca602ec", element="40FAFCFA03C1405497C78E2502824AE8_element_60")>
+2023-11-10 13:29:09.776281 : ------------------------------------------
+2023-11-10 13:29:09.776281 : LIST FROM PUBLIC WWW PRODUCTION https://www.eximtours.cz/
+2023-11-10 13:29:09.776281 : ['', '11 zájezdù v 1 destinaci', '12 zájezdù v 1 destinaci', '2 zájezdy v 1 destinaci', '14 zájezdù v 1 destinaci', '']
+2023-11-10 13:29:09.776281 : ------------------------------------------
+2023-11-10 13:29:09.776281 : LIST FROM DEPLOYING WEB https://exim.web12.dtweb.cz/
+2023-11-10 13:29:09.776281 : ['', '11 zájezdù v 1 destinaci', '12 zájezdù v 1 destinaci', '2 zájezdy v 1 destinaci', '14 zájezdù v 1 destinaci', '']
+2023-11-10 13:29:09.776281 : ------------------------------------------
+2023-11-10 13:29:09.776281 : Banners are GOOD, TEST OK https://www.eximtours.cz/ VS https://exim.web12.dtweb.cz/
+2023-11-10 13:29:09.782270 : https://exim.web12.dtweb.cz/
+2023-11-10 13:29:20.417855 : <selenium.webdriver.remote.webelement.WebElement (session="524d4867a81141aff11176e9faf5ea05", element="715E413F49BE646923C484D056BD6967_element_34")>
+2023-11-10 13:29:28.533981 : https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-hatsepsut?DS=0&TT=0&D=64419|64420|64424&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=9182|9183|9573|9575|9162|9582|9161|9580|9164|9163|9578|9577
+2023-11-10 13:29:28.543955 : https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-faraon?DS=0&TT=0&D=64419&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=9175|9178|9176|9173
+2023-11-10 13:29:28.550936 : https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-horus?DS=0&TT=0&D=64419&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=143635|143637
+2023-11-10 13:29:28.556920 : https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/maroko-okruh-kralovskymi-mesty?DS=0&TT=0&D=63708&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=141956|141955|141954|141953
+2023-11-10 13:29:28.564899 : https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/maroko-velky-okruh-marokem?DS=0&TT=0&D=63708&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=141957|141960
+2023-11-10 13:29:28.570883 : https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-denni?DS=256&GIATA=0&HID=1991&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.577864 : https://exim.web12.dtweb.cz/spojene-arabske-emiraty/dubaj/dubaj/emiraty-krizem-krazem?DS=256&GIATA=0&HID=143013&MT=7&RC=DR01&NN=7&DF=2023-12-04|2024-01-01&RD=2023-12-18&DD=2023-12-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=AER00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.583848 : https://exim.web12.dtweb.cz/kuba/vnitrozemi/vnitrozemi/krasy-kuby-s-prodlouzenim-na-ostrove-cayo-santa-maria?DS=256&GIATA=0&HID=150057&MT=7&RC=DR01&NN=7&DF=2023-12-05|2024-01-03&RD=2023-12-20&DD=2023-12-12&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=CUR00002&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.589832 : https://exim.web12.dtweb.cz/kuba/vnitrozemi/vnitrozemi/krasy-kuby-s-prodlouzenim-v-hotelu-starfish-cayo-santa-maria?DS=256&GIATA=0&HID=154157&MT=7&RC=DR01&NN=14&DF=2023-12-05|2024-01-10&RD=2023-12-27&DD=2023-12-12&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=14&NNM=14&TT=1&TTM=0&PID=CUR00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.595816 : https://exim.web12.dtweb.cz/bahrajn/hlavni-provincie/manama/luxus-a-kontrasty-zemi-perskeho-zalivu?DS=256&GIATA=0&HID=147590&MT=1&RC=DR01&NN=7&DF=2024-02-04|2024-03-03&RD=2024-02-18&DD=2024-02-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=BHR00002&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.601815 : https://exim.web12.dtweb.cz/bahrajn/hlavni-provincie/manama/pohadkova-kralovstvi-zemi-orientu?DS=256&GIATA=0&HID=147554&MT=1&RC=DR01&NN=9&DF=2024-01-26|2024-02-25&RD=2024-02-11&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=9&NNM=9&TT=1&TTM=0&PID=BHR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.608781 : https://exim.web12.dtweb.cz/kuba/havana/havana/krasy-kuby-s-prodlouzenim-ve-varaderu?DS=256&GIATA=0&HID=142531&MT=7&RC=DR01&NN=9&DF=2024-01-26|2024-02-26&RD=2024-02-12&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=9&NNM=9&TT=1&TTM=0&PID=CUR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.616760 : https://exim.web12.dtweb.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&RC=DR01&NN=3&DF=2023-11-10|2023-12-03&RD=2023-11-19&DD=2023-11-16&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.623742 : https://exim.web12.dtweb.cz/italie/rim-a-okoli/rim/rim-letecke-vikendy-4?DS=256&GIATA=0&HID=142360&MT=1&RC=DR01&NN=3&DF=2023-12-07|2023-12-31&RD=2023-12-17&DD=2023-12-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.631720 : https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-denni?DS=256&GIATA=0&HID=1991&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.637704 : https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-v-centru?DS=256&GIATA=0&HID=145683&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00002&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.644690 : https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/vanocni-londyn-letecke-vikendy?DS=256&GIATA=0&HID=147403&MT=1&RC=DR01&NN=3&DF=2023-11-30|2023-12-24&RD=2023-12-10&DD=2023-12-07&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=GBR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.652664 : https://exim.web12.dtweb.cz/spanelsko/barcelona-a-okoli/barcelona/barcelona-letecky-vikend?DS=8192&GIATA=0&HID=142729&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ESR00004&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:29:28.659646 : https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/vanocni-londyn-letecke-vikendy?DS=256&GIATA=0&HID=147403&MT=1&RC=DR01&NN=3&DF=2023-11-30|2023-12-24&RD=2023-12-10&DD=2023-12-07&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.667624 : https://exim.web12.dtweb.cz/vietnam/severni-vietnam/hanoi/vietnam-pohodlne-relax-u-more-i-poznavani?DS=8192&GIATA=0&HID=147588&MT=1&RC=DR01&NN=7&DF=2024-03-16|2024-04-15&RD=2024-04-01&DD=2024-03-23&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=VNR00003&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:29:28.674069 : https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/londyn-letecke-vikendy?DS=256&GIATA=0&HID=142358&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00002&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.680053 : https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/londyn-letecke-vikendy-z-brna?DS=256&GIATA=0&HID=142829&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=2682&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00005&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.687035 : https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/harry-potter-a-londyn--letecke-vikendy?DS=256&GIATA=0&HID=142377&MT=1&RC=DR01&NN=3&DF=2024-04-18|2024-05-12&RD=2024-04-28&DD=2024-04-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.694016 : https://exim.web12.dtweb.cz/finsko/laponsko/laponsko/za-polarni-zari-na-sever-finska-s-navstevou-vesnicky-santa-clause?DS=256&GIATA=0&HID=142704&MT=1&RC=DR01&NN=4&DF=2024-01-26|2024-02-20&RD=2024-02-06&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=4&TT=1&TTM=0&PID=FIR00002&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.700000 : https://exim.web12.dtweb.cz/italie/sicilie/lipari/na-skok-na-sicilii-a-liparske-ostrovy?DS=256&GIATA=0&HID=145724&MT=2&RC=DR01&NN=4&DF=2024-04-26|2024-05-21&RD=2024-05-07&DD=2024-05-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ITR00009&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.706982 : https://exim.web12.dtweb.cz/island/jizni-penissula/jizni-penissula/islandska-mozaika-s-janem-burianem-letecke-vikendy?DS=256&GIATA=0&HID=142445&MT=1&RC=DR01&NN=4&DF=2024-04-24|2024-05-20&RD=2024-05-06&DD=2024-05-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ISR00015&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.712965 : https://exim.web12.dtweb.cz/jihoafricka-republika/kapske-mesto/kapske-mesto/to-nejkrasnejsi-z-jihoafricke-republiky?DS=256&GIATA=0&HID=151540&MT=7&RC=DR01&NN=11&DF=2024-04-12|2024-05-16&RD=2024-05-02&DD=2024-04-19&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=11&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ZAR00001&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.719947 : https://exim.web12.dtweb.cz/island/jizni-penissula/jizni-penissula/grand-tour-islandem-s-janem-burianem?DS=256&GIATA=0&HID=142415&MT=2&RC=DR01&NN=7&DF=2024-07-07|2024-08-04&RD=2024-07-21&DD=2024-07-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ISR00013&DPR=FISCHER%20ATCOM
+2023-11-10 13:29:28.719947 : ['https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-hatsepsut?DS=0&TT=0&D=64419|64420|64424&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=9182|9183|9573|9575|9162|9582|9161|9580|9164|9163|9578|9577', 'https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-faraon?DS=0&TT=0&D=64419&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=9175|9178|9176|9173', 'https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/egypt-horus?DS=0&TT=0&D=64419&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=143635|143637', 'https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/maroko-okruh-kralovskymi-mesty?DS=0&TT=0&D=63708&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=141956|141955|141954|141953', 'https://exim.web12.dtweb.cz/poznavaci-zajezdy/dle-destinace/maroko-velky-okruh-marokem?DS=0&TT=0&D=63708&DD=2023-11-10&RD=2025-05-10&ER=0&NN=3|4|5|6|7|8|9|10|11|12|13|14&AC1=2&KC1=0&IC1=0&EA=525|518&IDH=141957|141960', 'https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-denni?DS=256&GIATA=0&HID=1991&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/spojene-arabske-emiraty/dubaj/dubaj/emiraty-krizem-krazem?DS=256&GIATA=0&HID=143013&MT=7&RC=DR01&NN=7&DF=2023-12-04|2024-01-01&RD=2023-12-18&DD=2023-12-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=AER00003&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/kuba/vnitrozemi/vnitrozemi/krasy-kuby-s-prodlouzenim-na-ostrove-cayo-santa-maria?DS=256&GIATA=0&HID=150057&MT=7&RC=DR01&NN=7&DF=2023-12-05|2024-01-03&RD=2023-12-20&DD=2023-12-12&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=CUR00002&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/kuba/vnitrozemi/vnitrozemi/krasy-kuby-s-prodlouzenim-v-hotelu-starfish-cayo-santa-maria?DS=256&GIATA=0&HID=154157&MT=7&RC=DR01&NN=14&DF=2023-12-05|2024-01-10&RD=2023-12-27&DD=2023-12-12&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=14&NNM=14&TT=1&TTM=0&PID=CUR00003&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/bahrajn/hlavni-provincie/manama/luxus-a-kontrasty-zemi-perskeho-zalivu?DS=256&GIATA=0&HID=147590&MT=1&RC=DR01&NN=7&DF=2024-02-04|2024-03-03&RD=2024-02-18&DD=2024-02-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=BHR00002&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/bahrajn/hlavni-provincie/manama/pohadkova-kralovstvi-zemi-orientu?DS=256&GIATA=0&HID=147554&MT=1&RC=DR01&NN=9&DF=2024-01-26|2024-02-25&RD=2024-02-11&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=9&NNM=9&TT=1&TTM=0&PID=BHR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/kuba/havana/havana/krasy-kuby-s-prodlouzenim-ve-varaderu?DS=256&GIATA=0&HID=142531&MT=7&RC=DR01&NN=9&DF=2024-01-26|2024-02-26&RD=2024-02-12&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=9&NNM=9&TT=1&TTM=0&PID=CUR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&RC=DR01&NN=3&DF=2023-11-10|2023-12-03&RD=2023-11-19&DD=2023-11-16&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/italie/rim-a-okoli/rim/rim-letecke-vikendy-4?DS=256&GIATA=0&HID=142360&MT=1&RC=DR01&NN=3&DF=2023-12-07|2023-12-31&RD=2023-12-17&DD=2023-12-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-denni?DS=256&GIATA=0&HID=1991&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/turecko/istanbul-a-okoli/istanbul/istanbul-mesto-dvou-kontinentu-4-v-centru?DS=256&GIATA=0&HID=145683&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=TRR00002&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/vanocni-londyn-letecke-vikendy?DS=256&GIATA=0&HID=147403&MT=1&RC=DR01&NN=3&DF=2023-11-30|2023-12-24&RD=2023-12-10&DD=2023-12-07&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=GBR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/spanelsko/barcelona-a-okoli/barcelona/barcelona-letecky-vikend?DS=8192&GIATA=0&HID=142729&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ESR00004&DPR=EXIM%20TOURS%20ATCOM', 'https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/vanocni-londyn-letecke-vikendy?DS=256&GIATA=0&HID=147403&MT=1&RC=DR01&NN=3&DF=2023-11-30|2023-12-24&RD=2023-12-10&DD=2023-12-07&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/vietnam/severni-vietnam/hanoi/vietnam-pohodlne-relax-u-more-i-poznavani?DS=8192&GIATA=0&HID=147588&MT=1&RC=DR01&NN=7&DF=2024-03-16|2024-04-15&RD=2024-04-01&DD=2024-03-23&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=VNR00003&DPR=EXIM%20TOURS%20ATCOM', 'https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/londyn-letecke-vikendy?DS=256&GIATA=0&HID=142358&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00002&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/londyn-letecke-vikendy-z-brna?DS=256&GIATA=0&HID=142829&MT=1&RC=DR01&NN=3&DF=2024-01-26|2024-02-19&RD=2024-02-05&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=2682&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00005&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/velka-britanie/londyn/londyn/harry-potter-a-londyn--letecke-vikendy?DS=256&GIATA=0&HID=142377&MT=1&RC=DR01&NN=3&DF=2024-04-18|2024-05-12&RD=2024-04-28&DD=2024-04-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=GBR00003&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/finsko/laponsko/laponsko/za-polarni-zari-na-sever-finska-s-navstevou-vesnicky-santa-clause?DS=256&GIATA=0&HID=142704&MT=1&RC=DR01&NN=4&DF=2024-01-26|2024-02-20&RD=2024-02-06&DD=2024-02-02&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=4&TT=1&TTM=0&PID=FIR00002&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/italie/sicilie/lipari/na-skok-na-sicilii-a-liparske-ostrovy?DS=256&GIATA=0&HID=145724&MT=2&RC=DR01&NN=4&DF=2024-04-26|2024-05-21&RD=2024-05-07&DD=2024-05-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ITR00009&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/island/jizni-penissula/jizni-penissula/islandska-mozaika-s-janem-burianem-letecke-vikendy?DS=256&GIATA=0&HID=142445&MT=1&RC=DR01&NN=4&DF=2024-04-24|2024-05-20&RD=2024-05-06&DD=2024-05-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=4&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ISR00015&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/jihoafricka-republika/kapske-mesto/kapske-mesto/to-nejkrasnejsi-z-jihoafricke-republiky?DS=256&GIATA=0&HID=151540&MT=7&RC=DR01&NN=11&DF=2024-04-12|2024-05-16&RD=2024-05-02&DD=2024-04-19&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=11&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ZAR00001&DPR=FISCHER%20ATCOM', 'https://exim.web12.dtweb.cz/island/jizni-penissula/jizni-penissula/grand-tour-islandem-s-janem-burianem?DS=256&GIATA=0&HID=142415&MT=2&RC=DR01&NN=7&DF=2024-07-07|2024-08-04&RD=2024-07-21&DD=2024-07-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14&TT=1&TTM=0&PID=ISR00013&DPR=FISCHER%20ATCOM']
+2023-11-10 13:29:28.971743 : 200
+2023-11-10 13:29:29.172825 : 200
+2023-11-10 13:29:29.334504 : 200
+2023-11-10 13:29:29.591876 : 200
+2023-11-10 13:29:29.751124 : 200
+2023-11-10 13:29:29.879914 : 200
+2023-11-10 13:29:30.023283 : 200
+2023-11-10 13:29:30.158568 : 200
+2023-11-10 13:29:30.318534 : 200
+2023-11-10 13:29:30.464592 : 200
+2023-11-10 13:29:30.618429 : 200
+2023-11-10 13:29:30.820164 : 200
+2023-11-10 13:29:30.963800 : 200
+2023-11-10 13:29:31.101431 : 200
+2023-11-10 13:29:31.233846 : 200
+2023-11-10 13:29:31.360212 : 200
+2023-11-10 13:29:31.497134 : 200
+2023-11-10 13:29:31.639753 : 200
+2023-11-10 13:29:31.771400 : 200
+2023-11-10 13:29:31.918284 : 200
+2023-11-10 13:29:32.034971 : 200
+2023-11-10 13:29:32.148047 : 200
+2023-11-10 13:29:32.322582 : 200
+2023-11-10 13:29:32.450437 : 200
+2023-11-10 13:29:32.632928 : 200
+2023-11-10 13:29:32.777654 : 200
+2023-11-10 13:29:32.935568 : 200
+2023-11-10 13:29:33.145977 : 200
+2023-11-10 13:29:33.166728 : https://exim.web12.dtweb.cz/poznavaci-zajezdy
+2023-11-10 13:29:43.730584 : <selenium.webdriver.remote.webelement.WebElement (session="5d0d800b2c32ad6e75562799597aa467", element="57729DA425B27B58930D4568E97AB7A0_element_53")>
+2023-11-10 13:30:15.413151 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-11-10 13:30:26.095754 : <selenium.webdriver.remote.webelement.WebElement (session="99dbd300e896dc1a8dba834468776f49", element="25F43977B810ECDF3821CD2D2B09B4DC_element_44")>
+2023-11-10 13:30:57.245148 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-11-10 13:31:04.735888 : <selenium.webdriver.remote.webelement.WebElement (session="97a306d777154f8504fb29dacf74209b", element="EDEBA7433DD57A35155B657FCE5A8AA7_element_28")>
+2023-11-10 13:31:18.672479 : https://exim.web12.dtweb.cz/spojene-arabske-emiraty/dubaj/dubaj/emiraty-krizem-krazem?DS=256&GIATA=0&HID=143013&MT=7&RC=DR01&NN=7&DF=2023-12-04|2024-01-01&RD=2023-12-18&DD=2023-12-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=AER00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:31:18.771210 : True
+2023-11-10 13:31:18.776196 : https://exim.web12.dtweb.cz/spojene-arabske-emiraty/dubaj/dubaj/emiraty-krizem-krazem?DS=256&GIATA=0&HID=143013&MT=7&RC=DR01&NN=7&DF=2023-12-04|2024-01-01&RD=2023-12-18&DD=2023-12-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&MNN=7&NNM=7&TT=1&TTM=0&PID=AER00003&DPR=FISCHER%20ATCOM
+2023-11-10 13:31:27.967502 : <selenium.webdriver.remote.webelement.WebElement (session="6fd86f03f3ebd13f23286b01d38ff33e", element="DBEA1E4B2EE134F1FFCC6810F4B3FC40_element_57")>
+2023-11-10 13:31:33.154312 : https://exim.web12.dtweb.cz/recko/evia/amarinthos/evia-riviera?DS=8192&GIATA=0&HID=152221&MT=5&MMT=5&RC=DR01&NN=7&DF=2024-06-03|2024-07-17&RD=2024-06-14&DD=2024-06-07&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=ATH90012&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.163289 : https://exim.web12.dtweb.cz/italie/ischia/lacco-ameno/terme-principe?DS=8192&GIATA=80746&HID=139982&MT=2&RC=DR01&NN=7&DF=2024-05-20|2024-06-19&RD=2024-06-08&DD=2024-06-01&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=NAP14000&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.171267 : https://exim.web12.dtweb.cz/turecko/turecka-riviera/colakli/side-star-resort?DS=8192&GIATA=29637&HID=8570&MT=5&RC=DR01&NN=7&DF=2024-04-27|2024-05-30&RD=2024-05-17&DD=2024-05-10&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=AYT14043&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.179186 : https://exim.web12.dtweb.cz/italie/kalabrie/tropea/borgo-di-riaci?DS=8192&GIATA=54481&HID=145174&MT=3&MMT=3&RC=DR01&NN=7&DF=2024-05-31|2024-06-20&RD=2024-06-07&DD=2024-05-31&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=SUF10009&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.187167 : https://exim.web12.dtweb.cz/recko/kreta/hersonissos/aldemar-knossos-royal?DS=8192&GIATA=836&HID=2325&MT=5&MMT=5&RC=DR01&NN=7&DF=2024-05-22|2024-06-19&RD=2024-06-05&DD=2024-05-29&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=HER70000&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.196141 : https://exim.web12.dtweb.cz/turecko/turecka-riviera/titreyengol/bieno-venus?DS=8192&GIATA=4932&HID=143979&MT=5&RC=DR01&NN=7&DF=2024-09-25|2024-10-24&RD=2024-10-02&DD=2024-09-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4308&TO=4308&TOM=4308&MNN=7&NNM=7&TT=1&TTM=1&PID=AYT14154&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.206114 : https://exim.web12.dtweb.cz/egypt/marsa-alam/marsa-alam/pickalbatros-portofino-villaggio?DS=8192&GIATA=1355574&HID=146027&MT=5&MMT=5&RC=DR01&NN=7&DF=2023-11-18|2023-12-16&RD=2023-12-02&DD=2023-11-25&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=RMF90030&DPR=EXIM%20TOURS%20ATCOM
+2023-11-10 13:31:33.448974 : 200
+2023-11-10 13:31:33.969849 : 200
+2023-11-10 13:31:34.124437 : 200
+2023-11-10 13:31:34.286902 : 200
+2023-11-10 13:31:34.543051 : 200
+2023-11-10 13:31:34.713838 : 200
+2023-11-10 13:31:34.887681 : 200
+2023-11-10 13:31:34.894101 : https://exim.web12.dtweb.cz/
+2023-11-10 13:31:41.801122 : None
+2023-11-10 13:31:41.801122 : consent pass
+2023-11-10 13:31:47.442161 : https://exim.web12.dtweb.cz/
+2023-11-10 13:31:54.427792 : <selenium.webdriver.remote.webelement.WebElement (session="be8605eafdbe108e8445e87d248ce3b5", element="FC805AFD1CCC35FFB43BDE79693E2940_element_54")>
+2023-11-10 13:37:04.164895 : https://exim.web12.dtweb.cz/poznavaci-zajezdy
+2023-11-10 13:37:18.332433 : <selenium.webdriver.remote.webelement.WebElement (session="95126f748d4599fa373ceea161776b06", element="949B1827A41732B0906A8350B25095CA_element_57")>
+2023-11-10 13:37:22.327673 : https://exim.web12.dtweb.cz/vysledky-vyhledavani?dd=2023-11-10&nn=7|8|9|10|11|12|13|14&rd=2024-01-10&to=4312|4305|2682|4308|4392|4309&tt=1
+2023-11-10 13:37:32.097612 : <selenium.webdriver.remote.webelement.WebElement (session="c50827d333da023b0b9bfbcab585e9dd", element="60E1589561208AF478A546F4EB0B71B4_element_45")>
+2023-11-10 13:42:36.098587 : https://exim.web12.dtweb.cz/poznavaci-zajezdy
+2023-11-10 13:42:44.413183 : <selenium.webdriver.remote.webelement.WebElement (session="7a934452baa0cafe0b2867ae998ad203", element="15FD9CFEBA8C98AF4038563B7454FF86_element_49")>
+2023-11-10 13:42:55.542136 : None
+2023-11-10 13:42:55.542136 : consent pass
+2023-11-10 13:42:55.628691 : True
+2023-11-10 13:42:55.640147 : True
+2023-11-10 13:42:55.650490 : True
+2023-11-10 13:42:55.660071 : True
+2023-11-10 13:42:55.671875 : True
+2023-11-10 13:42:55.682135 : True
+2023-11-10 13:42:55.691726 : True
+2023-11-10 13:42:55.703264 : True
+2023-11-10 13:42:55.782151 : True
+2023-11-10 13:42:55.792634 : True
+2023-11-10 13:42:55.803604 : True
+2023-11-10 13:42:55.814278 : True
+2023-11-10 13:42:55.824782 : True
+2023-11-10 13:42:55.835559 : True
+2023-11-10 13:42:55.846383 : True
+2023-11-10 13:42:55.857969 : True
+2023-11-10 13:42:55.925298 : ceny
+2023-11-10 13:42:55.936484 : ceny
+2023-11-10 13:42:55.946600 : ceny
+2023-11-10 13:42:55.957493 : ceny
+2023-11-10 13:42:55.967471 : ceny
+2023-11-10 13:42:55.977853 : ceny
+2023-11-10 13:42:55.989922 : ceny
+2023-11-10 13:42:56.001524 : ceny
+2023-11-10 13:42:56.046124 : https://exim.web12.dtweb.cz/vysledky-vyhledavani?ac1=2&d=63888&dd=2023-07-01&nn=7|8|9|10|11|12|13|14|15|16|17|18|19|20|21&rd=2023-08-31&to=4312|4305|2682|4308&tt=1
+2023-11-10 13:46:54.568958 : len(pocet_vysledku_list_default)
+2023-11-10 13:46:54.568958 : 23
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : len(pocet_vysledku_list_dev))
+2023-11-10 13:46:54.568958 : 23
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63258|63294|63337|63443&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63258|63294|63337|63443&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 0
+2023-11-10 13:46:54.568958 : 27 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 27 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63484|63483&dd=2023-09-20&ic1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63484|63483&dd=2023-09-20&ic1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 1
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63487|63488|63489&dd=2023-09-20&ic1=1&ka1=5&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63487|63488|63489&dd=2023-09-20&ic1=1&ka1=5&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 2
+2023-11-10 13:46:54.568958 : 40 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 40 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63865|63862|63863|63866|63864&dd=2023-09-20&ic1=1&ka1=5&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63865|63862|63863|63866|63864&dd=2023-09-20&ic1=1&ka1=5&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 3
+2023-11-10 13:46:54.568958 : 119 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 119 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=64419|64420|64425&dd=2023-09-20&ic1=1&ka1=5|9&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=64419|64420|64425&dd=2023-09-20&ic1=1&ka1=5|9&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 4
+2023-11-10 13:46:54.568958 : 27 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 27 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63287|63296|63410|63426|63205|63212|63215|63539|63229|63255|64427|63265|63271|63298|63329|63330|63339|63436|63356|63538|63376|64428|63391|63404|63406|63422|63425|63429|63444|63537|63453|63454|63456|63457|63459&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63287|63296|63410|63426|63205|63212|63215|63539|63229|63255|64427|63265|63271|63298|63329|63330|63339|63436|63356|63538|63376|64428|63391|63404|63406|63422|63425|63429|63444|63537|63453|63454|63456|63457|63459&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 5
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=64204|64205|74847|64203&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=64204|64205|74847|64203&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 6
+2023-11-10 13:46:54.568958 : 21 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.568958 : 21 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63720|63719|64190&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63720|63719|64190&dd=2023-09-20&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 7
+2023-11-10 13:46:54.568958 : 12 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 12 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63725&dd=2023-09-20&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63725&dd=2023-09-20&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 8
+2023-11-10 13:46:54.568958 : 19 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : 19 zájezdù v 1 destinaci
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63889|63891|63888|63890&dd=2023-09-20&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63889|63891|63888|63890&dd=2023-09-20&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.568958 : 9
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.568958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63541&dd=2023-09-20&ka1=6|3&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63541&dd=2023-09-20&ka1=6|3&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.568958 :              
+2023-11-10 13:46:54.569958 : 10
+2023-11-10 13:46:54.569958 : 42 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.569958 : 42 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63582|63581|63580&dd=2023-09-20&ka1=15|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63582|63581|63580&dd=2023-09-20&ka1=15|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 11
+2023-11-10 13:46:54.569958 : 60 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 60 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63738&dd=2023-09-20&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63738&dd=2023-09-20&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 12
+2023-11-10 13:46:54.569958 : 43 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 43 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63982&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63982&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 13
+2023-11-10 13:46:54.569958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.569958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63220|63281|63311|63314|63316|63319|63324|63333|63373|63390|63402|63408|63409|63442|63471&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63220|63281|63311|63314|63316|63319|63324|63333|63373|63390|63402|63408|63409|63442|63471&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 14
+2023-11-10 13:46:54.569958 : 19 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.569958 : 19 zájezdù ve 2 destinacích
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63823|63756|63757|63758|63759&dd=2023-09-20&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63823|63756|63757|63758|63759&dd=2023-09-20&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 15
+2023-11-10 13:46:54.569958 : 335 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 335 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63242|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=211764|63241|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63242|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2023-09-20&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 16
+2023-11-10 13:46:54.569958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.569958 : nenašli jste, co jste hledali?
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63252|63447&dd=2023-09-20&ic1=1&ka1=6|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63252|63447&dd=2023-09-20&ic1=1&ka1=6|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 17
+2023-11-10 13:46:54.569958 : 96 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 96 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211801|211814|63260|63448&dd=2023-09-20&ic1=1&ka1=6|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=211801|211814|63260|63448&dd=2023-09-20&ic1=1&ka1=6|10&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 18
+2023-11-10 13:46:54.569958 : 117 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 117 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=64087|64094|64089|64090|64091|64086|64092&dd=2023-09-20&ka1=4&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=64087|64094|64089|64090|64091|64086|64092&dd=2023-09-20&ka1=4&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-11-30&to=4305|2682|4308|4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 19
+2023-11-10 13:46:54.569958 : 524 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 524 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63242|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&to=4312&tt=1&DS=2
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=211764|63241|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63242|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&to=4312&tt=1&DS=2
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 20
+2023-11-10 13:46:54.569958 : 56 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 56 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&to=4312&tt=1&DS=2
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&to=4312&tt=1&DS=2
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 21
+2023-11-10 13:46:54.569958 : 83 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : 83 zájezdù v 1 destinaci
+2023-11-10 13:46:54.569958 : https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=63982&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2023-11-10 13:46:54.569958 : https://eximtours.cz/vysledky-vyhledavani?ac1=2&d=63982&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2023-11-10 13:46:54.569958 :              
+2023-11-10 13:46:54.569958 : 22
+2023-11-10 13:46:54.569958 : 23
+2023-11-10 13:46:54.575961 : https://www.eximtours.cz/vysledky-vyhledavani?ac1=2&d=63982&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1

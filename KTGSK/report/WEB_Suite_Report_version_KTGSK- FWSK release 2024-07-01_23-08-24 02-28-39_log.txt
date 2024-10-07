@@ -1,0 +1,5 @@
+2024-08-23 14:28:50.570115 : <selenium.webdriver.remote.webelement.WebElement (session="1d76b494e0764fd9cbdf320261570fbd", element="f.C43922AB404DFDDB95F37BA81A754C98.d.0C3CC98D79600686E79318697D347824.e.850")>
+2024-08-23 14:28:51.398236 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-08-23 14:28:59.914782 : <selenium.webdriver.remote.webelement.WebElement (session="115a9805e28f87051bce07bbfe2a8350", element="f.3894DB9AC1E2E1424A12831AFDBE0883.d.ECCEEFD147FE8AAD54D2716D74586D21.e.482")>
+2024-08-23 14:29:05.336589 : its ok
+2024-08-23 14:29:05.352211 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/273195.jpg

@@ -1,0 +1,442 @@
+2023-07-18 21:49:23.139268 : 
+                             
+                             
+2023-07-18 21:49:23.139268 : ====== WebDriver manager ======
+                             
+2023-07-18 21:49:23.183151 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:49:23.183151 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:49:23.334916 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:49:34.761561 : <selenium.webdriver.remote.webelement.WebElement (session="6f1eb37f9029373f89fecc38889ba74b", element="D638079A9CF52862B611FD90820D7AAC_element_97")>
+2023-07-18 21:49:35.021697 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="6f1eb37f9029373f89fecc38889ba74b", element="D638079A9CF52862B611FD90820D7AAC_element_98")>>
+2023-07-18 21:49:35.161325 : https://www.kartagotours.hu/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tt=1&ttm=1#/prehled
+2023-07-18 21:49:37.301506 : 
+                             
+                             
+2023-07-18 21:49:37.301506 : ====== WebDriver manager ======
+                             
+2023-07-18 21:49:37.336403 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:49:37.336403 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:49:37.422229 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:49:43.606006 : <selenium.webdriver.remote.webelement.WebElement (session="7bb3d6e50ffc1b05ace75ca8a9a129bd", element="F3CFC79ADF03331D5EBBEB645248EA9B_element_62")>
+2023-07-18 21:50:11.481975 : nenasle se exponea banner
+2023-07-18 21:50:11.745273 : its ok
+2023-07-18 21:50:11.749262 : https://img.fischer.cz/hotels/egypt/oblast-marsa-alam/marsa-alam/blue-reef-resort/273357.jpg
+2023-07-18 21:50:13.897649 : 
+                             
+                             
+2023-07-18 21:50:13.897649 : ====== WebDriver manager ======
+                             
+2023-07-18 21:50:13.937959 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:50:13.937959 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:50:14.029835 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:50:24.556891 : <selenium.webdriver.remote.webelement.WebElement (session="1bee51f429a8f2ac6073730dfcaf3df8", element="CA56FEE159BDD6FB3B9889A6033B98B8_element_110")>
+2023-07-18 21:50:30.949664 : else departure not true
+2023-07-18 21:50:39.440239 : all inclusive
+2023-07-18 21:50:41.444816 : 0
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ok
+2023-07-18 21:50:41.599467 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-07-18 21:51:01.633482 : https://www.kartagotours.hu/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&mtm=5&nnm=7&tt=1&ttm=1#/terminy-a-ceny
+2023-07-18 21:51:03.802280 : 
+                             
+                             
+2023-07-18 21:51:03.802280 : ====== WebDriver manager ======
+                             
+2023-07-18 21:51:03.848396 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:51:03.848396 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:51:03.958971 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:51:11.503247 : <selenium.webdriver.remote.webelement.WebElement (session="42dc7d6b61699e1e4af6029d9a42e39f", element="6A985870C6C23784ECC5A8EC6EE3D8D7_element_80")>
+2023-07-18 21:51:17.852680 : if departure==True
+2023-07-18 21:51:19.487553 : https://www.kartagotours.hu/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tt=1&ttm=1#/terminy-a-ceny
+2023-07-18 21:51:29.905726 : 
+                             
+                             
+2023-07-18 21:51:29.905726 : ====== WebDriver manager ======
+                             
+2023-07-18 21:51:29.934395 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:51:29.934395 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:51:30.037482 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:51:37.084699 : <selenium.webdriver.remote.webelement.WebElement (session="cc6ad600a485c80a1f943aedf29b94ed", element="7B76120624D0647B7D64F55ACBFA84CB_element_66")>
+2023-07-18 21:51:41.826202 : GÖRÖGORSZÁG
+2023-07-18 21:52:06.945545 : first no such ele except
+2023-07-18 21:52:08.171648 : last no such ele except
+2023-07-18 21:52:12.341664 : TÖRÖKORSZÁG
+2023-07-18 21:52:37.452270 : first no such ele except
+2023-07-18 21:52:38.642508 : last no such ele except
+2023-07-18 21:52:43.119013 : EGYIPTOM
+2023-07-18 21:53:08.260936 : first no such ele except
+2023-07-18 21:53:09.235625 : last no such ele except
+2023-07-18 21:53:13.626888 : BULGÁRIA
+2023-07-18 21:53:38.722767 : first no such ele except
+2023-07-18 21:53:39.736961 : last no such ele except
+2023-07-18 21:53:40.446070 : https://www.kartagotours.hu/keresesi-eredmenyek?DS=0&ac1=2&d=63483|63484|63485|63486&dd=2023-07-19&nn=7|8|9&rd=2023-09-19&to=489|4371&tt=0
+2023-07-18 21:53:42.709228 : 
+                             
+                             
+2023-07-18 21:53:42.710235 : ====== WebDriver manager ======
+                             
+2023-07-18 21:53:42.746006 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:53:42.746006 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:53:42.829989 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:53:48.656334 : <selenium.webdriver.remote.webelement.WebElement (session="602adb7925c7fce09683333417aa691a", element="345BCC693ECE94B22FD799B12047723C_element_61")>
+2023-07-18 21:53:49.333530 : GÖRÖGORSZÁG
+2023-07-18 21:53:56.475195 : TÖRÖKORSZÁG
+2023-07-18 21:53:58.531333 : EGYIPTOM
+2023-07-18 21:54:00.991401 : BULGÁRIA
+2023-07-18 21:54:27.086708 : https://www.kartagotours.hu//kereses?q=Bulg%C3%A1ria
+2023-07-18 21:54:29.239938 : 
+                             
+                             
+2023-07-18 21:54:29.239938 : ====== WebDriver manager ======
+                             
+2023-07-18 21:54:29.284358 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:54:29.284358 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:54:29.418001 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:54:35.447645 : <selenium.webdriver.remote.webelement.WebElement (session="4f9b4f285fcd0873a8ac13e869876d46", element="AC17FC257FC590BD6F7043F0BE3E5F83_element_52")>
+2023-07-18 21:54:36.791706 : https://www.kartagotours.hu/keresesi-eredmenyek?dd=2022-09-01&nn=7|8|9|10|11|12|13|14&rd=2022-10-31&to=489&tt=1
+2023-07-18 21:54:38.918301 : 
+                             
+                             
+2023-07-18 21:54:38.918301 : ====== WebDriver manager ======
+                             
+2023-07-18 21:54:38.946966 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:54:38.946966 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:54:39.030293 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:54:50.765386 : <selenium.webdriver.remote.webelement.WebElement (session="58e14b31fbc7c286edcdd62c4cd55b4a", element="73CCDEA5529ECC91BD327266959BC50A_element_142")>
+2023-07-18 21:54:55.661201 : https://www.kartagotours.hu/
+2023-07-18 21:54:57.818206 : 
+                             
+                             
+2023-07-18 21:54:57.819213 : ====== WebDriver manager ======
+                             
+2023-07-18 21:54:57.872405 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:54:57.872405 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:54:57.957659 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:55:06.843681 : <selenium.webdriver.remote.webelement.WebElement (session="069798ea6691cb32a36a740f59461e6c", element="85F41AB48A75FCC2D8478E7D386F757A_element_64")>
+2023-07-18 21:55:10.022485 : https://www.kartagotours.hu/last-minute
+2023-07-18 21:55:12.167515 : 
+                             
+                             
+2023-07-18 21:55:12.167515 : ====== WebDriver manager ======
+                             
+2023-07-18 21:55:12.225507 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:55:12.225507 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:55:12.308222 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:55:18.450964 : <selenium.webdriver.remote.webelement.WebElement (session="04a11c53d206633a30fb13a985c16f68", element="5202226AE8B1D8BEBB888A7B022BAC96_element_55")>
+2023-07-18 21:55:46.378612 : basic info 
+2023-07-18 21:55:46.388594 : basic info 
+2023-07-18 21:55:46.398398 : basic info 
+2023-07-18 21:55:46.407341 : basic info 
+2023-07-18 21:55:46.417355 : basic info 
+2023-07-18 21:55:46.426097 : basic info 
+2023-07-18 21:55:46.436594 : basic info 
+2023-07-18 21:55:46.463161 : boxiky
+2023-07-18 21:55:46.472930 : boxiky
+2023-07-18 21:55:46.482541 : boxiky
+2023-07-18 21:55:46.492592 : boxiky
+2023-07-18 21:55:46.503124 : boxiky
+2023-07-18 21:55:46.514073 : boxiky
+2023-07-18 21:55:46.524355 : boxiky
+2023-07-18 21:55:46.534197 : boxiky
+2023-07-18 21:55:46.544370 : boxiky
+2023-07-18 21:55:46.554279 : boxiky
+2023-07-18 21:55:46.563653 : boxiky
+2023-07-18 21:55:46.573839 : boxiky
+2023-07-18 21:55:46.582789 : boxiky
+2023-07-18 21:55:46.593183 : boxiky
+2023-07-18 21:55:46.607881 : https://www.kartagotours.hu/irodaink
+2023-07-18 21:55:48.786856 : 
+                             
+                             
+2023-07-18 21:55:48.787881 : ====== WebDriver manager ======
+                             
+2023-07-18 21:55:48.826460 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:55:48.826460 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:55:48.911796 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:55:58.415834 : <selenium.webdriver.remote.webelement.WebElement (session="26590c80751529acd81d50bde2c48a30", element="0AC049318283F6816AEC3D25BCFF3C7F_element_56")>
+2023-07-18 21:55:59.693428 : https://www.kartagotours.hu/egyiptom
+2023-07-18 21:56:01.865485 : 
+                             
+                             
+2023-07-18 21:56:01.865485 : ====== WebDriver manager ======
+                             
+2023-07-18 21:56:01.894564 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:56:01.894564 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:56:01.980401 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:56:09.846156 : <selenium.webdriver.remote.webelement.WebElement (session="e64eec49913abb6ac96d1477aea11794", element="53EBDB35D661EE1F7F29E98ED4C56422_element_92")>
+2023-07-18 21:56:39.533337 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 21:56:49.847976 : 
+                             
+                             
+2023-07-18 21:56:49.847976 : ====== WebDriver manager ======
+                             
+2023-07-18 21:56:49.876224 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:56:49.876224 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:56:49.960567 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:56:57.743794 : <selenium.webdriver.remote.webelement.WebElement (session="c8296542334616042b35d4f1cf39e494", element="799805CA7D60E47B3A52A4DB4F81ACB8_element_103")>
+2023-07-18 21:57:29.973543 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 21:57:40.329840 : 
+                             
+                             
+2023-07-18 21:57:40.329840 : ====== WebDriver manager ======
+                             
+2023-07-18 21:57:40.391618 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:57:40.391618 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:57:40.475473 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:57:46.206292 : <selenium.webdriver.remote.webelement.WebElement (session="7f97e2caccd483b7a41d067723b08ac0", element="E7EA6BF1FBFE886564020563884979E4_element_89")>
+2023-07-18 21:58:13.431640 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 21:58:23.775948 : 
+                             
+                             
+2023-07-18 21:58:23.775948 : ====== WebDriver manager ======
+                             
+2023-07-18 21:58:23.805007 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:58:23.805007 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:58:23.888261 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:58:31.841399 : <selenium.webdriver.remote.webelement.WebElement (session="83f1b1499502c3d9cf5a6f96aebb0d65", element="D450D72D6E0E225BA93833E3FC1D167A_element_89")>
+2023-07-18 21:58:59.036290 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 21:59:09.373641 : 
+                             
+                             
+2023-07-18 21:59:09.373641 : ====== WebDriver manager ======
+                             
+2023-07-18 21:59:09.416303 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 21:59:09.416303 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 21:59:09.501578 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 21:59:17.526882 : <selenium.webdriver.remote.webelement.WebElement (session="2ffcebd881d7ac75626cac54d3e34069", element="C3778FA55AA90D10B50BB6D3FC09A891_element_97")>
+2023-07-18 21:59:46.213040 : nenasle se exponea banner
+2023-07-18 22:00:11.278666 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 22:00:21.638281 : 
+                             
+                             
+2023-07-18 22:00:21.638281 : ====== WebDriver manager ======
+                             
+2023-07-18 22:00:21.669164 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:00:21.669164 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:00:21.787848 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:00:28.104932 : <selenium.webdriver.remote.webelement.WebElement (session="1c307898aaf2899995b462bbe0bcdf24", element="40B5F3D39BBB3161EF310242DDAA1498_element_103")>
+2023-07-18 22:00:53.333125 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-06-01&nn=7|8|9&rd=2023-07-31&to=489|4371&tt=1
+2023-07-18 22:01:03.699136 : 
+                             
+                             
+2023-07-18 22:01:03.699136 : ====== WebDriver manager ======
+                             
+2023-07-18 22:01:03.738169 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:01:03.738169 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:01:03.821592 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:01:10.483319 : <selenium.webdriver.remote.webelement.WebElement (session="5a6fe772491920a98fed9e1c4d77433d", element="7B10E5DC4879A6F0579ACDA1238E0FCB_element_80")>
+2023-07-18 22:01:17.835903 : https://www.kartagotours.hu/
+2023-07-18 22:01:28.208852 : 
+                             
+                             
+2023-07-18 22:01:28.208852 : ====== WebDriver manager ======
+                             
+2023-07-18 22:01:28.237773 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:01:28.237773 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:01:28.325725 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:01:35.143253 : <selenium.webdriver.remote.webelement.WebElement (session="b3f5519d95ba8cca1754410101d8d564", element="087C2B219DF242C75B56D138D80D2DE2_element_75")>
+2023-07-18 22:01:39.960399 : https://www.kartagotours.hu/keresesi-eredmenyek?dd=2023-07-18&nn=7|8|9|10|11|12|13|14&rd=2023-09-17&to=489|4371&tt=1
+2023-07-18 22:01:42.116998 : 
+                             
+                             
+2023-07-18 22:01:42.118036 : ====== WebDriver manager ======
+                             
+2023-07-18 22:01:42.179180 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:01:42.179180 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:01:42.297261 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:01:51.651098 : <selenium.webdriver.remote.webelement.WebElement (session="12574d7c4ba00e1cda2a702858ba8e85", element="73B88FBCABD33AE7919685288D23543C_element_137")>
+2023-07-18 22:06:53.125561 : https://www.kartagotours.hu/
+2023-07-18 22:07:03.497923 : 
+                             
+                             
+2023-07-18 22:07:03.497923 : ====== WebDriver manager ======
+                             
+2023-07-18 22:07:03.528611 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:07:03.528611 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:07:03.668206 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:07:11.330690 : <selenium.webdriver.remote.webelement.WebElement (session="e4e1c235c85360738837ea82ace40f72", element="73EB6DEB5B3752F1C84C27D5031D7D22_element_140")>
+2023-07-18 22:07:22.824914 : https://www.kartagotours.hu/egyiptom/hurghada/makadi-bay/prima-life-makadi-resort-and-spa?DS=65536&GIATA=77592&D=64419|64420|64425|63219|63281|63311|63314|63316|63324|63362|63373|63402|63409|63431|63471|211801|211814|63260|63288|63448|63252|63447&HID=9193&MT=5&MMT=5&NN=7&DF=2023-07-26|2023-08-23&RD=2023-08-09&DD=2023-08-02&ERM=0&AC1=2&KC1=1&KA1=6&IC1=0&DP=489&TO=489|4371&TOM=489|4371&MNN=7&NNM=7|8|9|10|11|12|13|14&TT=1&TTM=1&PID=HRG20068&DPR=KARTAGO-HU-ATCOM
+2023-07-18 22:07:25.042834 : 
+                             
+                             
+2023-07-18 22:07:25.042834 : ====== WebDriver manager ======
+                             
+2023-07-18 22:07:25.104635 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:07:25.104635 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:07:25.189934 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:07:36.775015 : <selenium.webdriver.remote.webelement.WebElement (session="6ffdf16a2bb998868c26c38e87c23be8", element="FE37A24623A0B1AEB127D82E5573D403_element_99")>
+2023-07-18 22:08:14.937939 : ------------------------------------------
+2023-07-18 22:08:14.937939 : LIST FROM PUBLIC WWW PRODUCTION https://www.kartagotours.hu/
+2023-07-18 22:08:14.942930 : ['', '163 ajánlat 1 úticélon', '25 ajánlat 1 úticélon', '89 ajánlat 1 úticélon', '49 ajánlat 1 úticélon', '101 ajánlat 1 úticélon']
+2023-07-18 22:08:14.942930 : ------------------------------------------
+2023-07-18 22:08:14.942930 : LIST FROM DEPLOYING WEB https://www.kartagotours.hu/
+2023-07-18 22:08:14.942930 : ['', '163 ajánlat 1 úticélon', '25 ajánlat 1 úticélon', '89 ajánlat 1 úticélon', '49 ajánlat 1 úticélon', '101 ajánlat 1 úticélon']
+2023-07-18 22:08:14.942930 : ------------------------------------------
+2023-07-18 22:08:14.942930 : Banners are GOOD, TEST OK https://www.kartagotours.hu/ VS https://www.kartagotours.hu/
+2023-07-18 22:08:14.948867 : https://www.kartagotours.hu/
+2023-07-18 22:08:17.153801 : 
+                             
+                             
+2023-07-18 22:08:17.153801 : ====== WebDriver manager ======
+                             
+2023-07-18 22:08:17.182229 : Current google-chrome version is 114.0.5735
+                             
+2023-07-18 22:08:17.182229 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-18 22:08:17.266064 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-18 22:10:35.789778 : len(pocet_vysledku_list_default)
+2023-07-18 22:10:35.789778 : 12
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : len(pocet_vysledku_list_dev))
+2023-07-18 22:10:35.789778 : 12
+2023-07-18 22:10:35.789778 : 331 ajánlat 2 úticélon
+2023-07-18 22:10:35.789778 : 331 ajánlat 2 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=64419|64420|64425|211801|211814|63260|63288|63448&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=64419|64420|64425|211801|211814|63260|63288|63448&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 0
+2023-07-18 22:10:35.789778 : 100 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 100 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 1
+2023-07-18 22:10:35.789778 : 121 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 121 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ic1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ic1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 2
+2023-07-18 22:10:35.789778 : 30 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 30 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-09-01&ds=0&ic1=1&ka1=5&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-09-01&ds=0&ic1=1&ka1=5&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 3
+2023-07-18 22:10:35.789778 : 120 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 120 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ic1=1&ka1=5&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ic1=1&ka1=5&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 4
+2023-07-18 22:10:35.789778 : 48 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 48 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ds=0&ic1=1&ka1=5|7&kc1=2&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ds=0&ic1=1&ka1=5|7&kc1=2&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 5
+2023-07-18 22:10:35.789778 : 97 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 97 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63252|63447&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 6
+2023-07-18 22:10:35.789778 : 18 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 18 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-11-30&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 7
+2023-07-18 22:10:35.789778 : 20 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 20 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=4&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-09-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=4&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-09-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 8
+2023-07-18 22:10:35.789778 : 174 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 174 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 9
+2023-07-18 22:10:35.789778 : 155 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 155 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-09-01&ds=0&ic1=1&ka1=10&kc1=1&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 10
+2023-07-18 22:10:35.789778 : 178 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : 178 ajánlat 1 úticélon
+2023-07-18 22:10:35.789778 : https://www.kartagotours.hu//keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 : https://kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0
+2023-07-18 22:10:35.789778 :              
+2023-07-18 22:10:35.789778 : 11
+2023-07-18 22:10:35.789778 : 12
+2023-07-18 22:10:35.863582 : https://www.kartagotours.hu/keresesi-eredmenyek?ac1=2&d=63213|63216|63218|63226|63227|63231|63241|63242|63243|63244|63245|63263|63267|63272|63284|63299|63312|63313|63328|63334|63349|63350|63354|63360|63363|63455|64429|64430|74459|74460|74461|74462|74463|74464|74465|77806|211764&dd=2023-10-01&ds=0&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2023-10-31&to=489|4371&tt=0

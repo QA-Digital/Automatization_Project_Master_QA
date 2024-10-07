@@ -1,0 +1,36 @@
+2024-07-19 18:11:45.892809 : <selenium.webdriver.remote.webelement.WebElement (session="4770699bf114166cc5f37d95c65a61d6", element="f.E717A63071BD0F6D9C9FC966A13DB8F3.d.FB9EAD2C0F5686E5961691E475AC1CB0.e.47")>
+2024-07-19 18:11:47.014365 : https://exim.stg.dtweb.cz//hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-17&DI=AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-24&RT=0&TO=4305&acm1=2&df=2024-10-14|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-07-19 18:11:58.947600 : <selenium.webdriver.remote.webelement.WebElement (session="7aba709da1d7aac9fa5aa789214da9fb", element="f.9FD2790DC214641023FB2717473C8379.d.5972B76C29F26F01A7563579F5BDC643.e.41")>
+2024-07-19 18:12:04.315004 : its ok
+2024-07-19 18:12:04.323531 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/minamark-beach-resort/1.jpg
+2024-07-19 18:12:15.348920 : <selenium.webdriver.remote.webelement.WebElement (session="e49a029b395ad169d219ddbb126c6fce", element="f.C50AF93E383CD28BD34A31598DF58404.d.86D1A4D695CB513B65457F46B0F30409.e.40")>
+2024-07-19 18:12:22.739991 : else departure not true
+2024-07-19 18:12:31.132542 : all inclusive
+2024-07-19 18:12:33.148055 : 0
+2024-07-19 18:12:33.304148 : ok
+2024-07-19 18:12:33.304148 : ok
+2024-07-19 18:12:33.304148 : https://exim.stg.dtweb.cz//hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-17&DI=AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-24&RT=0&TO=4305&acm1=2&df=2024-10-14|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2024-07-19 18:12:43.351302 : <selenium.webdriver.remote.webelement.WebElement (session="8e0479431215b93a3f69ee3c11595539", element="f.BECB29716A7EF732C6247B64740C492B.d.C90AA7001E76F6A40135833F5495A262.e.48")>
+2024-07-19 18:12:49.834919 : if departure==True
+2024-07-19 18:13:06.085192 : equal to brno
+2024-07-19 18:13:06.101319 : equal to brno
+2024-07-19 18:13:06.132454 : equal to brno
+2024-07-19 18:13:06.148081 : equal to brno
+2024-07-19 18:13:06.179216 : equal to brno
+2024-07-19 18:13:06.194724 : equal to brno
+2024-07-19 18:13:06.225973 : equal to brno
+2024-07-19 18:13:06.257217 : equal to brno
+2024-07-19 18:13:06.272838 : equal to brno
+2024-07-19 18:13:06.304082 : equal to brno
+2024-07-19 18:13:06.319704 : equal to brno
+2024-07-19 18:13:06.350948 : equal to brno
+2024-07-19 18:13:06.366570 : equal to brno
+2024-07-19 18:13:06.397814 : equal to brno
+2024-07-19 18:13:06.413436 : equal to brno
+2024-07-19 18:13:06.444680 : equal to brno
+2024-07-19 18:13:06.460302 : equal to brno
+2024-07-19 18:13:06.475924 : equal to brno
+2024-07-19 18:13:06.507168 : equal to brno
+2024-07-19 18:13:06.522790 : https://exim.stg.dtweb.cz//hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-17&DI=AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-24&RT=0&TO=4305&acm1=2&df=2024-10-14|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2024-07-19 18:14:32.494919 : <selenium.webdriver.remote.webelement.WebElement (session="263167b1c1e92c36495a1602ad45b69d", element="f.630D56713A9FFB043F39F171CA323D82.d.83677E8DD065B862F3E2A120E078FAC5.e.16")>
+2024-07-19 18:14:43.038554 : https://exim.stg.dtweb.cz//kluby/mango-leto

@@ -1,0 +1,4 @@
+2024-10-04 17:17:37,350 - INFO - Starting test suite: suite_EW_full for URL: https://exim.stg.dtweb.cz/ with run number: 0055
+2024-10-04 17:17:42,101 - INFO - 127.0.0.1 - - [04/Oct/2024 17:17:42] "[37mOPTIONS /run_suite HTTP/1.1[0m" 200 -
+2024-10-04 17:17:42,416 - INFO - 127.0.0.1 - - [04/Oct/2024 17:17:42] "[37mPOST /run_suite HTTP/1.1[0m" 200 -
+2024-10-04 17:17:42,416 - INFO - Starting test suite: FW for URL: https://fischer.stg.dtweb.cz/

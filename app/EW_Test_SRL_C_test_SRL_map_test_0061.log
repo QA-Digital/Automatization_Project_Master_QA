@@ -1,0 +1,35 @@
+INFO - Starting map test: Clicking through map circles.
+ERROR - Failed to click on 'Zobrazit na Mapì' element. Error: Message: element click intercepted: Element <span class="f_bar-item f_bar-map">...</span> is not clickable at point (1378, 284). Other element would receive the click: <div id="usercentrics-root" data-created-at="1728297264754" style=""></div>
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+INFO - Waiting for map circles to load (10 seconds).
+INFO - Clicking on large circles.
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+INFO - Clicking on medium circles.
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+INFO - Clicking on small circles.
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+INFO - Finished map test: Clicking through circles.
+INFO - Starting map test: clicking on pin and checking hotel bubble.
+ERROR - An error occurred during the map test: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.65)
+
+INFO - https://exim.web12.dtweb.cz//vysledky-vyhledavani?ac1=2&d=211764|63241|63242|213028|63243|63245|74459|74460|63284|74464|63350|63354|74465|63213|63216|63218|63226|63227|63231|64429|63244|74462|63263|63267|63272|63299|63312|63334|63313|74461|77806|74463|63328|63349|64430|63363|63455&dd=2024-09-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1

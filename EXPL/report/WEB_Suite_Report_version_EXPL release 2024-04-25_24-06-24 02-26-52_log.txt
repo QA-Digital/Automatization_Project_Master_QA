@@ -1,0 +1,425 @@
+2024-06-24 14:26:58.690428 : <selenium.webdriver.remote.webelement.WebElement (session="fe0f55e98516ae5e969c4fd900f6fd60", element="f.1EED12D813E5D44ED8E6643EE58EED51.d.B6AEAAD4F36FE9B32AD32D49CFEDF16A.e.620")>
+2024-06-24 14:26:59.042898 : https://eximpl.stg.dtweb.cz//kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?D=64419|64420|64425&DD=2024-08-29&DP=4382&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=77592&HID=156229&IFM=0&ILM=0&KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3D%3D&MNN=7&MT=5&NN=7&PID=391633&RD=2024-09-05&RT=0&acm1=2&df=2024-07-01|2024-08-31&nnm=1|2|3|4|5|6|7|8|9|10&ptm=0&tt=1&ttm=1#/prehled
+2024-06-24 14:27:09.286685 : <selenium.webdriver.remote.webelement.WebElement (session="edfffebe79bbebaf9aed1b5f9d9fc66f", element="f.B6649F033154E8E62BAC8FE54151AF7C.d.9C1D0EDA00FC831FD8FFE6AA5EDC03CA.e.321")>
+2024-06-24 14:27:09.569742 : its ok
+2024-06-24 14:27:09.569742 : https://img.exim.pl/hotels/egypt/oblast-hurghada/makadi-bay/prima-life-makadi-resort-pl/7175/ae741134d6ab045881d057047ea52180_2__copy_-199.jpg
+2024-06-24 14:27:17.050276 : <selenium.webdriver.remote.webelement.WebElement (session="f903f46c608f08bcb84806e2f0dd7908", element="f.3252CCD21DE40C0C2D060C265C9E0FC8.d.DEEB06FF331908F43451620ACA6E0368.e.327")>
+2024-06-24 14:27:23.285381 : if departure==True
+2024-06-24 14:27:26.661270 : all inclusive
+2024-06-24 14:27:28.676579 : 0
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ok
+2024-06-24 14:27:28.848169 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-06-24 14:27:28.863791 : https://eximpl.stg.dtweb.cz//kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?D=64419|64420|64425&DD=2024-08-29&DP=4382&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=77592&HID=156229&IFM=0&ILM=0&KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3D%3D&MNN=7&MT=5&NN=7&PID=391633&RD=2024-09-05&RT=0&acm1=2&df=2024-07-01|2024-08-31&mtm=5&nnm=1|2|3|4|5|6|7|8|9|10&ptm=0&tt=1&ttm=1#/terminy
+2024-06-24 14:27:37.332611 : <selenium.webdriver.remote.webelement.WebElement (session="b63b4434b96f0100aee820c77322a95e", element="f.5FBB161A2BD2147740BBC527F8A522AD.d.31892ECCCB2E61B9FA0D6934D48392F9.e.319")>
+2024-06-24 14:27:46.567281 : if departure==True
+2024-06-24 14:28:02.784503 : equal to warszawa
+2024-06-24 14:28:02.815714 : equal to warszawa
+2024-06-24 14:28:02.846957 : equal to warszawa
+2024-06-24 14:28:02.878200 : equal to warszawa
+2024-06-24 14:28:02.893821 : equal to warszawa
+2024-06-24 14:28:02.925078 : equal to warszawa
+2024-06-24 14:28:02.956307 : equal to warszawa
+2024-06-24 14:28:02.971928 : equal to warszawa
+2024-06-24 14:28:03.003170 : equal to warszawa
+2024-06-24 14:28:03.034413 : equal to warszawa
+2024-06-24 14:28:03.050035 : equal to warszawa
+2024-06-24 14:28:03.081278 : equal to warszawa
+2024-06-24 14:28:03.096899 : equal to warszawa
+2024-06-24 14:28:03.128142 : equal to warszawa
+2024-06-24 14:28:03.143763 : equal to warszawa
+2024-06-24 14:28:03.175006 : equal to warszawa
+2024-06-24 14:28:03.190629 : equal to warszawa
+2024-06-24 14:28:03.222376 : equal to warszawa
+2024-06-24 14:28:03.238001 : equal to warszawa
+2024-06-24 14:28:03.456413 : https://eximpl.stg.dtweb.cz//kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?D=64419|64420|64425&DD=2024-08-29&DP=4382&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=77592&HID=156229&IFM=0&ILM=0&KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3D%3D&MNN=7&MT=5&NN=7&PID=391633&RD=2024-09-05&RT=0&acm1=2&df=2024-07-01|2024-08-31&nnm=1|2|3|4|5|6|7|8|9|10&ptm=0&tom=3850&tt=1&ttm=1#/terminy
+2024-06-24 14:28:13.317449 : <selenium.webdriver.remote.webelement.WebElement (session="129f84d03ecb5beba10b9984436c4534", element="f.0D5A5127CD842498F4CF7ADA0170FFCB.d.E06A17DF435B057E822737DA68BBDE3C.e.334")>
+2024-06-24 14:28:16.397962 : GRECJA
+2024-06-24 14:28:18.769250 : hotel dlazdice klik
+2024-06-24 14:28:22.003964 : TURCJA
+2024-06-24 14:28:23.644423 : hotel dlazdice klik
+2024-06-24 14:28:26.957056 : EGIPT
+2024-06-24 14:28:28.394598 : hotel dlazdice klik
+2024-06-24 14:28:31.550729 : OMAN
+2024-06-24 14:28:33.050768 : hotel dlazdice klik
+2024-06-24 14:28:36.347475 : MALEDIWY
+2024-06-24 14:28:37.925325 : hotel dlazdice klik
+2024-06-24 14:28:41.082375 : DUBAJ
+2024-06-24 14:28:43.332417 : hotel dlazdice klik
+2024-06-24 14:28:46.534864 : BULGARIA
+2024-06-24 14:28:47.831867 : hotel dlazdice klik
+2024-06-24 14:28:51.004185 : CHORWACJA
+2024-06-24 14:28:52.437453 : hotel dlazdice klik
+2024-06-24 14:28:55.597929 : PORTUGALIA
+2024-06-24 14:28:56.956823 : hotel dlazdice klik
+2024-06-24 14:29:00.081701 : FALCON HILLS
+2024-06-24 14:29:01.578613 : hotel dlazdice klik
+2024-06-24 14:29:04.394281 : APRILIS HOTEL
+2024-06-24 14:29:09.113131 : hotel dlazdice klik
+2024-06-24 14:29:12.800573 : PRIMA LIFE MAKADI RESORT
+2024-06-24 14:29:15.503687 : hotel dlazdice klik
+2024-06-24 14:29:18.941184 : MYRTO HOTEL
+2024-06-24 14:29:20.175562 : hotel dlazdice klik
+2024-06-24 14:29:23.113336 : COCOON MALDIVES
+2024-06-24 14:29:24.582025 : hotel dlazdice klik
+2024-06-24 14:29:27.691712 : TITANIC PALACE
+2024-06-24 14:29:29.019405 : hotel dlazdice klik
+2024-06-24 14:29:29.019405 : https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/titanic-palace-resort?DS=1024&GIATA=227755&D=64419&HID=160170&DF=2024-08-31%7C2024-09-28&RD=2024-09-17&DD=2024-09-14&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&PID=384479&DPR=EXIM+TOURS+POLAND
+2024-06-24 14:29:37.786829 : <selenium.webdriver.remote.webelement.WebElement (session="991a3a05e7260255498f3f816be10551", element="f.774571D47ECF0B3C8A3098768520B186.d.FFC539C261A498C10B2C11B440AEF623.e.316")>
+2024-06-24 14:29:38.015574 : GRECJA
+2024-06-24 14:29:42.360632 : TURCJA
+2024-06-24 14:29:46.091116 : EGIPT
+2024-06-24 14:29:51.084745 : OMAN
+2024-06-24 14:29:54.524385 : MALEDIWY
+2024-06-24 14:29:58.631244 : DUBAJ
+2024-06-24 14:30:02.213146 : BULGARIA
+2024-06-24 14:30:08.343637 : CHORWACJA
+2024-06-24 14:30:13.244034 : PORTUGALIA
+2024-06-24 14:30:22.087246 : FALCON HILLS
+2024-06-24 14:30:24.490962 : APRILIS HOTEL
+2024-06-24 14:30:27.142387 : PRIMA LIFE MAKADI RESORT
+2024-06-24 14:30:29.821000 : MYRTO HOTEL
+2024-06-24 14:30:32.921721 : COCOON MALDIVES
+2024-06-24 14:30:35.957719 : TITANIC PALACE
+2024-06-24 14:30:38.504101 : https://eximpl.stg.dtweb.cz/wyniki-wyszukiwania?q=Titanic%20palace
+2024-06-24 14:30:48.037126 : <selenium.webdriver.remote.webelement.WebElement (session="27cbf03554fcae74e114a52ef5e9fa3f", element="f.48D6B8F0A349CF8D599614A8EA5EB210.d.25ABA7955639F3A1877C64ABCA92B672.e.338")>
+2024-06-24 14:30:53.552468 : https://eximpl.stg.dtweb.cz/wyszukanie?dd=2024-06-24&nn=7|8|9|10|11|12|13&rd=2024-09-01&tt=1
+2024-06-24 14:31:01.277397 : <selenium.webdriver.remote.webelement.WebElement (session="7fa7a2316ea6f319a3452f0c76fce0a8", element="f.FE82E1B24B9F14606F9005FF54615023.d.C019C71999628CCE430A8E5A4301ABD6.e.674")>
+2024-06-24 14:31:03.474454 : https://eximpl.web13.dtweb.cz/
+2024-06-24 14:31:12.535667 : <selenium.webdriver.remote.webelement.WebElement (session="e00e822879b40a1f580df0e89b80e629", element="f.C6D03528734D2D0622F87562D20BA4F9.d.35BEE6A8A4E43519C61EF35D8E00E7C4.e.634")>
+2024-06-24 14:31:22.405985 : https://eximpl.stg.dtweb.cz/last-minute
+2024-06-24 14:31:34.568923 : <selenium.webdriver.remote.webelement.WebElement (session="7f90c5588eb87d1f0c832d44102d848e", element="f.168BDFF4CB30D303C04A52CD4D04C49C.d.0F008048C157770CD28982A442E5909D.e.314")>
+2024-06-24 14:31:36.700174 : Map is displayed
+2024-06-24 14:32:05.317128 : basic info 
+2024-06-24 14:32:05.348372 : basic info 
+2024-06-24 14:32:05.363994 : basic info 
+2024-06-24 14:32:05.363994 : basic info 
+2024-06-24 14:32:05.395236 : boxiky
+2024-06-24 14:32:05.395236 : boxiky
+2024-06-24 14:32:05.410856 : boxiky
+2024-06-24 14:32:05.410856 : boxiky
+2024-06-24 14:32:05.426478 : boxiky
+2024-06-24 14:32:05.426478 : boxiky
+2024-06-24 14:32:05.442099 : boxiky
+2024-06-24 14:32:05.442099 : boxiky
+2024-06-24 14:32:05.457720 : https://eximpl.stg.dtweb.cz/punkty-sprzedazy
+2024-06-24 14:32:16.066472 : <selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.622")>
+2024-06-24 14:32:21.209593 : ['https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/hawaii-caesar-palace-hotel-a-aqua-park?KEY=MTE3Mzk5N3w4NDEyNTA2OTN8NjI3MzI3&DS=1024&GIATA=411448&D=64419%7C64420%7C64425&HID=151241&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-06-25%7C2024-08-24&RD=2024-07-04&DD=2024-06-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=1862&TOM=1862&MNN=7&NNM=7&TT=1&MS=1&PID=384392&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0', [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.624")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.625")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.626")>]]
+2024-06-24 14:32:25.209735 : ['https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/hawaii-caesar-palace-hotel-a-aqua-park?KEY=MTE3Mzk5N3w4NDEyNTA2OTN8NjI3MzI3&DS=1024&GIATA=411448&D=64419%7C64420%7C64425&HID=151241&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-06-25%7C2024-08-24&RD=2024-07-04&DD=2024-06-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=1862&TOM=1862&MNN=7&NNM=7&TT=1&MS=1&PID=384392&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0', [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.624")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.625")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.626")>]]
+2024-06-24 14:32:25.209735 : ['https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/hawaii-caesar-palace-hotel-a-aqua-park?KEY=MTE3Mzk5N3w4NDEyNTA2OTN8NjI3MzI3&DS=1024&GIATA=411448&D=64419%7C64420%7C64425&HID=151241&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-06-25%7C2024-08-24&RD=2024-07-04&DD=2024-06-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=1862&TOM=1862&MNN=7&NNM=7&TT=1&MS=1&PID=384392&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0', [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.624")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.625")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.626")>]]
+2024-06-24 14:32:25.209735 : ['https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/hawaii-caesar-palace-hotel-a-aqua-park?KEY=MTE3Mzk5N3w4NDEyNTA2OTN8NjI3MzI3&DS=1024&GIATA=411448&D=64419%7C64420%7C64425&HID=151241&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-06-25%7C2024-08-24&RD=2024-07-04&DD=2024-06-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=1862&TOM=1862&MNN=7&NNM=7&TT=1&MS=1&PID=384392&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0', [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.624")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.625")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.626")>]]
+2024-06-24 14:32:25.209735 : ['https://eximpl.stg.dtweb.cz/kierunki/egipt/hurghada/hurghada/hawaii-caesar-palace-hotel-a-aqua-park?KEY=MTE3Mzk5N3w4NDEyNTA2OTN8NjI3MzI3&DS=1024&GIATA=411448&D=64419%7C64420%7C64425&HID=151241&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-06-25%7C2024-08-24&RD=2024-07-04&DD=2024-06-27&ERM=0&AC1=2&KC1=0&IC1=0&DP=1862&TOM=1862&MNN=7&NNM=7&TT=1&MS=1&PID=384392&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0', [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.624")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.625")>], [<selenium.webdriver.remote.webelement.WebElement (session="720c65d66479f70fd240b932ea06d6cb", element="f.361F029132538CD083B6213E49C6AD2C.d.4A20DB76F1DB79ED0A423729B640DD11.e.626")>]]
+2024-06-24 14:32:25.217194 : https://eximpl.stg.dtweb.cz/kierunki/egipt
+2024-06-24 14:32:33.583019 : <selenium.webdriver.remote.webelement.WebElement (session="753af5318ff8ca382b35d2f189eb1ed4", element="f.B8D2F2783D86F0137C3F78F20D8265CB.d.6C341E003805CD9D1CDC0F041CEF4D19.e.312")>
+2024-06-24 14:32:40.476400 : Hotely jdou videt
+2024-06-24 14:32:40.509237 : Hotely jdou videt
+2024-06-24 14:32:40.520208 : Hotely jdou videt
+2024-06-24 14:32:40.535168 : Hotely jdou videt
+2024-06-24 14:32:40.545831 : Hotely jdou videt
+2024-06-24 14:32:40.671136 : Hotely jdou videt
+2024-06-24 14:32:40.695858 : Hotely jdou videt
+2024-06-24 14:32:40.717800 : Hotely jdou videt
+2024-06-24 14:32:40.739741 : Hotely jdou videt
+2024-06-24 14:32:40.803836 : Hotely jdou videt
+2024-06-24 14:32:40.828412 : Hotely jdou videt
+2024-06-24 14:32:40.841318 : Hotely jdou videt
+2024-06-24 14:32:40.852290 : Hotely jdou videt
+2024-06-24 14:32:40.861265 : Hotely jdou videt
+2024-06-24 14:32:40.870241 : Hotely jdou videt
+2024-06-24 14:32:40.903795 : Hotely jdou videt
+2024-06-24 14:32:40.914827 : Hotely jdou videt
+2024-06-24 14:32:40.914827 : Hotely jdou videt
+2024-06-24 14:32:40.930449 : Hotely jdou videt
+2024-06-24 14:32:40.950529 : Hotely jdou videt
+2024-06-24 14:32:40.962497 : Hotely jdou videt
+2024-06-24 14:32:40.973468 : Hotely jdou videt
+2024-06-24 14:32:40.986668 : Hotely jdou videt
+2024-06-24 14:32:40.994647 : Hotely jdou videt
+2024-06-24 14:32:41.015462 : Hotely jdou videt
+2024-06-24 14:32:41.031083 : Hotely jdou videt
+2024-06-24 14:32:41.041177 : Hotely jdou videt
+2024-06-24 14:32:41.051151 : Hotely jdou videt
+2024-06-24 14:32:41.073473 : Hotely jdou videt
+2024-06-24 14:32:41.083446 : Hotely jdou videt
+2024-06-24 14:32:41.109575 : https://eximpl.stg.dtweb.cz/kierunki/egipt
+2024-06-24 14:32:46.954977 : <selenium.webdriver.remote.webelement.WebElement (session="5bf0229aea0ef35ff44d8c970bd62b31", element="f.74D2612681810A565B4C8829E92F889B.d.967937C27FABFFD2ADB0FEC16EB155A4.e.315")>
+2024-06-24 14:33:14.114617 : https://eximpl.stg.dtweb.cz/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1
+2024-06-24 14:33:22.692979 : <selenium.webdriver.remote.webelement.WebElement (session="f0b2eb834ae5c38b82cf9d553e4c89a6", element="f.154EFA8BAB6A07A18926F80C9D10FB02.d.791733CC0269369D01D294CD2F36870A.e.373")>
+2024-06-24 14:33:29.999298 : 0
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ok
+2024-06-24 14:33:30.180431 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-06-24 14:33:30.180431 : https://eximpl.stg.dtweb.cz/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&m=5&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1
+2024-06-24 14:33:38.209349 : <selenium.webdriver.remote.webelement.WebElement (session="d60f043ec868df45a9e630fd57f2b9af", element="f.7036511F027A71C37078B18A6E2317EA.d.BA1C0342A6703282BED65875B722A16F.e.373")>
+2024-06-24 14:33:39.364992 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:39.364992 : 1
+2024-06-24 14:33:39.364992 : 1
+2024-06-24 14:33:39.364992 : 1
+2024-06-24 14:33:42.724216 : All inclusive
+2024-06-24 14:33:42.755459 : DBL Standard
+2024-06-24 14:33:42.771080 : 8827 z³
+2024-06-24 14:33:42.802324 : 3529 z³
+2024-06-24 14:33:42.802324 : pokoje sedi srl vs detail
+2024-06-24 14:33:42.802324 : stravy sedi srl vs detail
+2024-06-24 14:33:42.802324 : ceny all sedi srl vs detail
+2024-06-24 14:33:42.802324 :  cena adult sedi srl vs detail
+2024-06-24 14:33:42.872602 : 1
+2024-06-24 14:33:42.872602 : 2
+2024-06-24 14:33:42.872602 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:42.872602 : 2
+2024-06-24 14:33:42.872602 : 2
+2024-06-24 14:33:42.872602 : 2
+2024-06-24 14:33:46.286412 : All inclusive
+2024-06-24 14:33:46.302033 : DBL Standard Garden View
+2024-06-24 14:33:46.318161 : 7597 z³
+2024-06-24 14:33:46.349270 : 3299 z³
+2024-06-24 14:33:46.349270 : pokoje sedi srl vs detail
+2024-06-24 14:33:46.349270 : stravy sedi srl vs detail
+2024-06-24 14:33:46.349270 : ceny all sedi srl vs detail
+2024-06-24 14:33:46.349270 :  cena adult sedi srl vs detail
+2024-06-24 14:33:46.420575 : 2
+2024-06-24 14:33:46.420575 : 3
+2024-06-24 14:33:46.420575 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:46.420575 : 3
+2024-06-24 14:33:46.420575 : 3
+2024-06-24 14:33:46.420575 : 3
+2024-06-24 14:33:49.817683 : All inclusive
+2024-06-24 14:33:49.833304 : QUAD Superior
+2024-06-24 14:33:49.864546 : 7317 z³
+2024-06-24 14:33:49.880171 : 3159 z³
+2024-06-24 14:33:49.880171 : pokoje sedi srl vs detail
+2024-06-24 14:33:49.880171 : stravy sedi srl vs detail
+2024-06-24 14:33:49.880171 : ceny all sedi srl vs detail
+2024-06-24 14:33:49.880171 :  cena adult sedi srl vs detail
+2024-06-24 14:33:49.989273 : 3
+2024-06-24 14:33:49.989273 : 4
+2024-06-24 14:33:49.989273 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:49.989273 : 4
+2024-06-24 14:33:49.989273 : 4
+2024-06-24 14:33:49.989273 : 4
+2024-06-24 14:33:53.709679 : All inclusive
+2024-06-24 14:33:53.725440 : DBL Standard [Main Building]
+2024-06-24 14:33:53.756107 : 6997 z³
+2024-06-24 14:33:53.772350 : 2999 z³
+2024-06-24 14:33:53.772350 : pokoje sedi srl vs detail
+2024-06-24 14:33:53.772350 : stravy sedi srl vs detail
+2024-06-24 14:33:53.772350 : ceny all sedi srl vs detail
+2024-06-24 14:33:53.772350 :  cena adult sedi srl vs detail
+2024-06-24 14:33:53.837596 : 4
+2024-06-24 14:33:53.837596 : 5
+2024-06-24 14:33:53.837596 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:53.837596 : 5
+2024-06-24 14:33:53.837596 : 5
+2024-06-24 14:33:53.837596 : 5
+2024-06-24 14:33:58.272622 : All inclusive
+2024-06-24 14:33:58.288014 : DBL Standard Garden View
+2024-06-24 14:33:58.303636 : 7107 z³
+2024-06-24 14:33:58.319415 : 2759 z³
+2024-06-24 14:33:58.319415 : pokoje sedi srl vs detail
+2024-06-24 14:33:58.319415 : stravy sedi srl vs detail
+2024-06-24 14:33:58.319415 : ceny all sedi srl vs detail
+2024-06-24 14:33:58.319415 :  cena adult sedi srl vs detail
+2024-06-24 14:33:58.384015 : 5
+2024-06-24 14:33:58.384015 : 6
+2024-06-24 14:33:58.384015 : |||||HOTEL CISLO|||||||
+2024-06-24 14:33:58.384015 : 6
+2024-06-24 14:33:58.384015 : 6
+2024-06-24 14:33:58.384015 : 6
+2024-06-24 14:34:02.636118 : All inclusive
+2024-06-24 14:34:02.655068 : DBL Standard
+2024-06-24 14:34:02.663072 : 5697 z³
+2024-06-24 14:34:02.678696 : 2349 z³
+2024-06-24 14:34:02.678696 : pokoje sedi srl vs detail
+2024-06-24 14:34:02.678696 : stravy sedi srl vs detail
+2024-06-24 14:34:02.678696 : ceny all sedi srl vs detail
+2024-06-24 14:34:02.678696 :  cena adult sedi srl vs detail
+2024-06-24 14:34:02.752255 : 6
+2024-06-24 14:34:02.752255 : 7
+2024-06-24 14:34:02.756129 : https://eximpl.stg.dtweb.cz/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1
+2024-06-24 14:34:08.451647 : None
+2024-06-24 14:34:08.451647 : consent pass
+2024-06-24 14:34:14.460385 : <selenium.webdriver.remote.webelement.WebElement (session="fc0ff55d47d95d0cd654e0ea039b870b", element="f.6E0787A52DF6380B02F76832EA2D8DDE.d.525817C4D7DD6C019C2B6A7F9083808A.e.373")>
+2024-06-24 14:34:14.867341 : True
+2024-06-24 14:34:14.931058 : True
+2024-06-24 14:34:15.038032 : True
+2024-06-24 14:34:15.085748 : True
+2024-06-24 14:34:15.116083 : True
+2024-06-24 14:34:15.163288 : True
+2024-06-24 14:34:15.225923 : True
+2024-06-24 14:34:15.225923 : True
+2024-06-24 14:34:15.241544 : True
+2024-06-24 14:34:15.241544 : True
+2024-06-24 14:34:15.256902 : True
+2024-06-24 14:34:15.256902 : True
+2024-06-24 14:34:15.272525 : True
+2024-06-24 14:34:15.272525 : True
+2024-06-24 14:34:15.288176 : True
+2024-06-24 14:34:15.288176 : True
+2024-06-24 14:34:15.303798 : True
+2024-06-24 14:34:15.335187 : True
+2024-06-24 14:34:15.335187 : True
+2024-06-24 14:34:15.350293 : True
+2024-06-24 14:34:15.413079 : ceny
+2024-06-24 14:34:15.428702 : ceny
+2024-06-24 14:34:15.443287 : ceny
+2024-06-24 14:34:15.444500 : ceny
+2024-06-24 14:34:15.460122 : ceny
+2024-06-24 14:34:15.460122 : ceny
+2024-06-24 14:34:15.475905 : ceny
+2024-06-24 14:34:15.475905 : ceny
+2024-06-24 14:34:15.491527 : ceny
+2024-06-24 14:34:15.506827 : ceny
+2024-06-24 14:34:15.506827 : ceny
+2024-06-24 14:34:15.522449 : ceny
+2024-06-24 14:34:15.522449 : ceny
+2024-06-24 14:34:15.538070 : ceny
+2024-06-24 14:34:15.553692 : ceny
+2024-06-24 14:34:15.553692 : ceny
+2024-06-24 14:34:15.569470 : ceny
+2024-06-24 14:34:15.569470 : ceny
+2024-06-24 14:34:15.585093 : ceny
+2024-06-24 14:34:15.585093 : ceny
+2024-06-24 14:34:15.600424 : ceny
+2024-06-24 14:34:15.616048 : ceny
+2024-06-24 14:34:15.616048 : ceny
+2024-06-24 14:34:15.632070 : ceny
+2024-06-24 14:34:15.632070 : ceny
+2024-06-24 14:34:15.647692 : ceny
+2024-06-24 14:34:15.662918 : ceny
+2024-06-24 14:34:15.662918 : ceny
+2024-06-24 14:34:15.678536 : ceny
+2024-06-24 14:34:15.678536 : ceny
+2024-06-24 14:34:15.694334 : ceny
+2024-06-24 14:34:15.709955 : ceny
+2024-06-24 14:34:15.709955 : ceny
+2024-06-24 14:34:15.726040 : ceny
+2024-06-24 14:34:15.726040 : ceny
+2024-06-24 14:34:15.741661 : ceny
+2024-06-24 14:34:15.756909 : ceny
+2024-06-24 14:34:15.756909 : ceny
+2024-06-24 14:34:15.772532 : ceny
+2024-06-24 14:34:15.772532 : ceny
+2024-06-24 14:34:20.819357 : https://eximpl.stg.dtweb.cz/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1
+2024-06-24 14:34:35.616132 : <selenium.webdriver.remote.webelement.WebElement (session="32b6d71335db2c4a10a5a85735149895", element="f.FEC9CBA1C497C46A91D2A299E0B19DF4.d.AB02B37A8F5A79B2EDCAC3DE40EBBD1B.e.667")>
+2024-06-24 14:34:45.739898 : https://eximpl.stg.dtweb.cz/wyszukanie?dd=2024-06-25&nn=6|7|8|9|10|11|12|13|14&rd=2024-08-25&tt=1
+2024-06-24 14:34:53.945211 : <selenium.webdriver.remote.webelement.WebElement (session="9a1d2f6c01d2b7c5be1ef9d09e68fc42", element="f.AE479FEED81D37B0508AD50F0D9A74B9.d.C7D2A578D834432DBAD6DDA434D99F0E.e.321")>
+2024-06-24 14:35:29.162057 : https://eximpl.stg.dtweb.cz/
+2024-06-24 14:35:37.210752 : <selenium.webdriver.remote.webelement.WebElement (session="1424eb32b81f9c55d253757c01998a9c", element="f.06D5C136BBA8281949DD7C767113AB25.d.65126C0708B3EA83EF5E8FB6F29FCFE4.e.326")>
+2024-06-24 14:35:48.505910 : https://eximpl.stg.dtweb.cz/kierunki/grecja/kreta/hersonissos/eri-beach-resort?KEY=MTI2MTQ5Mnw5NzI4OTI4NjN8NjM5NzE0&DS=1024&GIATA=12170&D=63541%7C63542%7C63258%7C63324%7C63350%7C63402%7C63484%7C63471&HID=127984&PF=100&PT=99999&MT=5&DI=GT06-AI&RT=0&NN=7&DF=2024-10-11%7C2024-11-08&RD=2024-10-25&DD=2024-10-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=1149&TOM=1149&MNN=7&NNM=7&TT=1&MS=1&PID=2253&DPR=EXIM+TOURS+POLAND&ILM=0&IFM=0
+2024-06-24 14:35:55.693854 : <selenium.webdriver.remote.webelement.WebElement (session="2787dd2dacdfc18ddffe66e78549aedb", element="f.5D8C0E9B4035AB56DB943D84B5CCE0DE.d.90376178580EEE6A70159D39A79A93D5.e.325")>
+2024-06-24 14:37:22.132055 : <selenium.webdriver.remote.webelement.WebElement (session="d18402881f3e3f00cc446546dc4a959f", element="f.50315F622036C019743101FD87F4904C.d.599D339DC14696FFF8939124455FEFF8.e.327")>
+2024-06-24 14:37:29.960434 : Destinace jdou videt
+2024-06-24 14:37:29.978683 : Destinace jdou videt
+2024-06-24 14:37:29.986661 : Destinace jdou videt
+2024-06-24 14:37:29.993642 : Destinace jdou videt
+2024-06-24 14:37:30.001620 : Destinace jdou videt
+2024-06-24 14:37:30.010310 : Destinace jdou videt
+2024-06-24 14:37:30.018288 : Destinace jdou videt
+2024-06-24 14:37:30.026267 : Destinace jdou videt
+2024-06-24 14:37:30.034246 : Destinace jdou videt
+2024-06-24 14:37:30.038390 : Destinace jdou videt
+2024-06-24 14:37:30.038390 : Destinace jdou videt
+2024-06-24 14:37:30.054015 : Destinace jdou videt
+2024-06-24 14:37:30.054015 : Destinace jdou videt
+2024-06-24 14:37:30.069022 : Destinace jdou videt
+2024-06-24 14:37:30.084649 : Destinace jdou videt
+2024-06-24 14:37:30.084649 : Destinace jdou videt
+2024-06-24 14:37:30.100170 : Destinace jdou videt
+2024-06-24 14:37:30.100170 : Destinace jdou videt
+2024-06-24 14:37:30.115797 : Destinace jdou videt
+2024-06-24 14:37:30.131417 : Destinace jdou videt
+2024-06-24 14:37:30.131417 : Destinace jdou videt
+2024-06-24 14:37:30.147039 : Destinace jdou videt
+2024-06-24 14:37:30.147039 : https://eximpl.stg.dtweb.cz/wyloty-z-poznania
+2024-06-24 14:37:37.444531 : <selenium.webdriver.remote.webelement.WebElement (session="0ab2934ecad2cac63523d521133bedc9", element="f.163C8D99B9A0577C803228A77C1383FE.d.0AF756D4CDF0B08456D5FE628BEEE0DE.e.325")>
+2024-06-24 14:37:45.054304 : Destinace jdou videt
+2024-06-24 14:37:45.054304 : Destinace jdou videt
+2024-06-24 14:37:45.069570 : Destinace jdou videt
+2024-06-24 14:37:45.069570 : Destinace jdou videt
+2024-06-24 14:37:45.122861 : Destinace jdou videt
+2024-06-24 14:37:45.143272 : Destinace jdou videt
+2024-06-24 14:37:45.158893 : Destinace jdou videt
+2024-06-24 14:37:45.207894 : Destinace jdou videt
+2024-06-24 14:37:45.274331 : Destinace jdou videt
+2024-06-24 14:37:45.350225 : Destinace jdou videt
+2024-06-24 14:37:45.350225 : Destinace jdou videt
+2024-06-24 14:37:45.365846 : Destinace jdou videt
+2024-06-24 14:37:45.365846 : Destinace jdou videt
+2024-06-24 14:37:45.381467 : Destinace jdou videt
+2024-06-24 14:37:45.397088 : Destinace jdou videt
+2024-06-24 14:37:45.397088 : Destinace jdou videt
+2024-06-24 14:37:45.412711 : Destinace jdou videt
+2024-06-24 14:37:45.412711 : Destinace jdou videt
+2024-06-24 14:37:45.428331 : Destinace jdou videt
+2024-06-24 14:37:45.428331 : Destinace jdou videt
+2024-06-24 14:37:45.443953 : Destinace jdou videt
+2024-06-24 14:37:45.459575 : Destinace jdou videt
+2024-06-24 14:37:45.475701 : https://eximpl.stg.dtweb.cz/wyloty-z-wroclawia
+2024-06-24 14:37:53.225531 : <selenium.webdriver.remote.webelement.WebElement (session="6a54a958e245ba0a76c6667e99ca507f", element="f.902E907C8885246A2E9A9EF721AC210E.d.2117C7B5E4A5347A12478A6DE485A56C.e.327")>
+2024-06-24 14:38:00.975566 : Destinace jdou videt
+2024-06-24 14:38:01.022736 : Destinace jdou videt
+2024-06-24 14:38:01.046347 : Destinace jdou videt
+2024-06-24 14:38:01.054325 : Destinace jdou videt
+2024-06-24 14:38:01.065457 : Destinace jdou videt
+2024-06-24 14:38:01.075530 : Destinace jdou videt
+2024-06-24 14:38:01.083509 : Destinace jdou videt
+2024-06-24 14:38:01.091487 : Destinace jdou videt
+2024-06-24 14:38:01.099466 : Destinace jdou videt
+2024-06-24 14:38:01.103055 : Destinace jdou videt
+2024-06-24 14:38:01.103055 : Destinace jdou videt
+2024-06-24 14:38:01.118678 : Destinace jdou videt
+2024-06-24 14:38:01.131686 : Destinace jdou videt
+2024-06-24 14:38:01.147313 : Destinace jdou videt
+2024-06-24 14:38:01.162822 : Destinace jdou videt
+2024-06-24 14:38:01.162822 : Destinace jdou videt
+2024-06-24 14:38:01.178448 : Destinace jdou videt
+2024-06-24 14:38:01.178448 : Destinace jdou videt
+2024-06-24 14:38:01.194069 : Destinace jdou videt
+2024-06-24 14:38:01.194069 : Destinace jdou videt
+2024-06-24 14:38:01.209691 : Destinace jdou videt
+2024-06-24 14:38:01.209691 : https://eximpl.stg.dtweb.cz/wyloty-z-gdanska
+2024-06-24 14:38:08.579216 : <selenium.webdriver.remote.webelement.WebElement (session="0a0ad5b826bfde174377ceeba1a59f1f", element="f.4202F0EDCB105E8E04103DE3E80ABCF9.d.089E827DF7186774AAFEC5F75738BA6F.e.635")>
+2024-06-24 14:38:09.649474 : https://eximpl.stg.dtweb.cz/lato
+2024-06-24 14:38:17.725785 : <selenium.webdriver.remote.webelement.WebElement (session="66ec97ab3875a2b583b7b49c25e9fa3e", element="f.7F063EA55ACAFC26F536D7270FD5E336.d.8FC27198AE83846A472D56F94ED56519.e.644")>
+2024-06-24 14:38:18.756685 : https://eximpl.stg.dtweb.cz/zima
+2024-06-24 14:38:35.342447 : <selenium.webdriver.remote.webelement.WebElement (session="b44b7dce3c76d3200329b35812098480", element="f.4827F4F6017EE11933C6DDAE1D6BAE56.d.C223DA824902B97FD8A7748F0AD754FF.e.643")>
+2024-06-24 14:38:36.116298 : https://eximpl.stg.dtweb.cz/egzotyka
+2024-06-24 14:38:43.710170 : <selenium.webdriver.remote.webelement.WebElement (session="687e0af91defdc2d338aa8f9c9797f68", element="f.8DC7E6C49036706E6F52858407592B3D.d.64899728DF067F7DD63708B012343506.e.630")>
+2024-06-24 14:38:44.602612 : https://eximpl.stg.dtweb.cz/all-inclusive
+2024-06-24 14:42:35.148758 : https://www.exim.pl/wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1

@@ -1,0 +1,225 @@
+2023-08-02 11:06:13.665184 : 
+                             
+                             
+2023-08-02 11:06:13.665184 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:13.726477 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:13.726477 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:14.038973 : 
+                             
+                             
+2023-08-02 11:06:14.038973 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:14.103711 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:14.103711 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:14.305176 : 
+                             
+                             
+2023-08-02 11:06:14.305176 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:14.338694 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:14.338694 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:14.560448 : 
+                             
+                             
+2023-08-02 11:06:14.560448 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:14.601622 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:14.601622 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:14.789396 : 
+                             
+                             
+2023-08-02 11:06:14.789396 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:14.820530 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:14.820530 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:15.038959 : 
+                             
+                             
+2023-08-02 11:06:15.038959 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:15.070211 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:15.070211 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:15.273768 : 
+                             
+                             
+2023-08-02 11:06:15.273768 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:15.306304 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:15.306304 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:15.508353 : 
+                             
+                             
+2023-08-02 11:06:15.508353 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:15.554893 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:15.554893 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:15.758201 : 
+                             
+                             
+2023-08-02 11:06:15.758201 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:15.789394 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:15.789394 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:16.008075 : 
+                             
+                             
+2023-08-02 11:06:16.008075 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:16.070411 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:16.070411 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:16.258222 : 
+                             
+                             
+2023-08-02 11:06:16.258222 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:16.304779 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:16.304779 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:16.508079 : 
+                             
+                             
+2023-08-02 11:06:16.508079 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:16.554917 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:16.554917 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:16.758033 : 
+                             
+                             
+2023-08-02 11:06:16.758033 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:16.804837 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:16.804837 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:17.008021 : 
+                             
+                             
+2023-08-02 11:06:17.008021 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:17.043845 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:17.043845 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:17.242336 : 
+                             
+                             
+2023-08-02 11:06:17.242336 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:17.320277 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:17.320277 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:17.524002 : 
+                             
+                             
+2023-08-02 11:06:17.524002 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:17.554669 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:17.554669 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:17.773449 : 
+                             
+                             
+2023-08-02 11:06:17.773449 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:17.806093 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:17.806093 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:18.004709 : 
+                             
+                             
+2023-08-02 11:06:18.004709 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:18.038593 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:18.038593 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:18.231315 : 
+                             
+                             
+2023-08-02 11:06:18.231315 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:18.304858 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:18.304858 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:18.508256 : 
+                             
+                             
+2023-08-02 11:06:18.508256 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:18.539426 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:18.539426 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:18.726573 : 
+                             
+                             
+2023-08-02 11:06:18.726573 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:18.757818 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:18.757818 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:18.981291 : 
+                             
+                             
+2023-08-02 11:06:18.981291 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:19.023892 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:19.023892 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:19.226539 : 
+                             
+                             
+2023-08-02 11:06:19.226539 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:19.257786 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:19.257786 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:19.477001 : 
+                             
+                             
+2023-08-02 11:06:19.477001 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:19.540535 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:19.540535 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             
+2023-08-02 11:06:19.742215 : 
+                             
+                             
+2023-08-02 11:06:19.742215 : ====== WebDriver manager ======
+                             
+2023-08-02 11:06:19.775688 : Current google-chrome version is 115.0.5790
+                             
+2023-08-02 11:06:19.775688 : Get LATEST chromedriver version for 115.0.5790 google-chrome
+                             

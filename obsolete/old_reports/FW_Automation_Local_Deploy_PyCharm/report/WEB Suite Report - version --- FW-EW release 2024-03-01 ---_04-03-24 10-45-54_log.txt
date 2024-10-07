@@ -1,0 +1,82 @@
+2024-03-04 10:46:28.399356 : nenasle se exponea banner
+2024-03-04 10:47:18.481175 : https://covidinfo.dertouristik.cz/
+2024-03-04 10:47:27.695198 : https://fischer.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-03-04 10:47:47.571075 : its ok
+2024-03-04 10:47:47.580051 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/king-tut-resort/271244-uprava2.jpg
+2024-03-04 10:48:05.643125 : else departure not true
+2024-03-04 10:48:14.104075 : all inclusive
+2024-03-04 10:48:16.107875 : 0
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ok
+2024-03-04 10:48:16.530667 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-03-04 10:48:16.544049 : https://fischer.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2024-03-04 10:48:33.215322 : if departure==True
+2024-03-04 10:48:49.433160 : equal to brno
+2024-03-04 10:48:49.466742 : equal to brno
+2024-03-04 10:48:49.496373 : equal to brno
+2024-03-04 10:48:49.511608 : equal to brno
+2024-03-04 10:48:49.542621 : equal to brno
+2024-03-04 10:48:49.558243 : equal to brno
+2024-03-04 10:48:49.593003 : equal to brno
+2024-03-04 10:48:49.605378 : equal to brno
+2024-03-04 10:48:49.636728 : equal to brno
+2024-03-04 10:48:49.652350 : equal to brno
+2024-03-04 10:48:49.685284 : equal to brno
+2024-03-04 10:48:49.699802 : equal to brno
+2024-03-04 10:48:49.740090 : equal to brno
+2024-03-04 10:48:49.778187 : equal to brno
+2024-03-04 10:48:49.802913 : equal to brno
+2024-03-04 10:48:49.840066 : equal to brno
+2024-03-04 10:48:49.869979 : equal to brno
+2024-03-04 10:48:49.886970 : equal to brno
+2024-03-04 10:48:49.906536 : equal to brno
+2024-03-04 10:48:50.139327 : https://fischer.stg.dtweb.cz//egypt/egypt-hurghada/hurghada/king-tut?AC1=2&D=653|819|724&DD=2024-10-05&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=48205&HID=9185&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90027&RC=DR01&RD=2024-10-12&TO=4312|4305|2682|4308|4309&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=4305&tt=1&ttm=1#/terminy
+2024-03-04 10:49:08.770480 : benefit item
+2024-03-04 10:49:08.873064 : benefit item
+2024-03-04 10:49:08.919019 : benefit item
+2024-03-04 10:49:08.927995 : benefit item
+2024-03-04 10:49:08.939963 : benefit item
+2024-03-04 10:49:08.949580 : benefit item
+2024-03-04 10:49:09.007292 : grind container
+2024-03-04 10:49:09.019259 : grind container
+2024-03-04 10:49:09.029233 : grind container
+2024-03-04 10:49:09.037211 : grind container
+2024-03-04 10:49:09.081867 : grind container
+2024-03-04 10:49:09.097825 : grind container
+2024-03-04 10:49:09.109794 : grind container
+2024-03-04 10:49:09.118769 : grind container
+2024-03-04 10:49:09.127745 : grind container
+2024-03-04 10:49:09.135724 : grind container
+2024-03-04 10:49:09.260393 : grind container
+2024-03-04 10:49:09.430963 : grind container
+2024-03-04 10:49:09.487644 : grind container
+2024-03-04 10:49:09.599396 : tile img
+2024-03-04 10:49:09.610163 : tile img
+2024-03-04 10:49:09.610163 : tile img
+2024-03-04 10:49:09.625785 : tile img
+2024-03-04 10:49:09.641378 : tile img
+2024-03-04 10:49:09.650355 : tile img
+2024-03-04 10:49:09.656338 : https://fischer.stg.dtweb.cz//kluby/funtazie-leto
+2024-03-04 10:49:23.440495 : Položka menu existuje
+2024-03-04 10:49:51.403015 : https://fischer.stg.dtweb.cz/
+2024-03-04 10:50:03.497033 : https://fischer.stg.dtweb.cz/first-minute/exotika-zima
+2024-03-04 10:50:16.309591 : ZANZIBAR
+2024-03-04 10:50:18.424350 : hote dlazdice klik

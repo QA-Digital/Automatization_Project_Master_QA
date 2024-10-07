@@ -1,0 +1,1282 @@
+2024-09-25 11:17:11,835 - __main__ - INFO - Starting test suite: suite_FW_full for URL: https://fischer.web3.dtweb.cz/
+2024-09-25 11:17:19,482 - TestDetailHotelu_D - INFO - https://fischer.web3.dtweb.cz//hotely/spanelsko/andalusie-costa-del-sol/benalmadena/globales-gardenia?AC1=2&D=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&DD=2024-10-19&DI=AI&DP=4312&DPR=Hotelbeds&DS=2&GIATA=37867&HID=162&IC1=1&IFM=0&ILM=0&KC1=0&MMT=5&MNN=7&MT=5&NN=7&PID=4195&RC=DBT-BL&RCS=DBT-BL&RD=2024-10-27&RT=15&TO=4312&acm1=2&df=2024-10-07|2024-10-31&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-09-25 11:17:39,491 - TestDetailHotelu_C - INFO - its ok
+2024-09-25 11:17:39,497 - TestDetailHotelu_C - INFO - https://img.fischer.cz/hotels/velka-britanie/oblast-londyn/londyn/londyn-letecke-vikendy/piccadilly-circus-londyn.jpg
+2024-09-25 11:17:49,305 - TestDetailHotelu_C - INFO - Starting filtering process with filter type: airport
+2024-09-25 11:17:55,755 - TestDetailHotelu_C - INFO - Filter type is 'airport'. Executing airport filter logic.
+2024-09-25 11:17:57,937 - TestDetailHotelu_C - INFO - Completed filtering process for filter type: airport
+2024-09-25 11:18:06,941 - TestDetailHotelu_C - INFO - Starting departure check.
+2024-09-25 11:18:06,963 - TestDetailHotelu_C - INFO - Found 18 visible departure terms.
+2024-09-25 11:18:06,981 - TestDetailHotelu_C - INFO - Found 18 departure terms.
+2024-09-25 11:18:10,004 - TestDetailHotelu_C - INFO - Departure term at position 1 matches praha.
+2024-09-25 11:18:10,014 - TestDetailHotelu_C - INFO - Departure term at position 2 matches praha.
+2024-09-25 11:18:10,024 - TestDetailHotelu_C - INFO - Departure term at position 3 matches praha.
+2024-09-25 11:18:10,033 - TestDetailHotelu_C - INFO - Departure term at position 4 matches praha.
+2024-09-25 11:18:10,043 - TestDetailHotelu_C - INFO - Departure term at position 5 matches praha.
+2024-09-25 11:18:10,053 - TestDetailHotelu_C - INFO - Departure term at position 6 matches praha.
+2024-09-25 11:18:10,063 - TestDetailHotelu_C - INFO - Departure term at position 7 matches praha.
+2024-09-25 11:18:10,072 - TestDetailHotelu_C - INFO - Departure term at position 8 matches praha.
+2024-09-25 11:18:10,083 - TestDetailHotelu_C - INFO - Departure term at position 9 matches praha.
+2024-09-25 11:18:10,093 - TestDetailHotelu_C - INFO - Departure term at position 10 matches praha.
+2024-09-25 11:18:10,102 - TestDetailHotelu_C - INFO - Departure term at position 11 matches praha.
+2024-09-25 11:18:10,112 - TestDetailHotelu_C - INFO - Departure term at position 12 matches praha.
+2024-09-25 11:18:10,146 - TestDetailHotelu_C - INFO - Departure term at position 13 matches praha.
+2024-09-25 11:18:10,168 - TestDetailHotelu_C - INFO - Departure term at position 14 matches praha.
+2024-09-25 11:18:10,178 - TestDetailHotelu_C - INFO - Departure term at position 15 matches praha.
+2024-09-25 11:18:10,188 - TestDetailHotelu_C - INFO - Departure term at position 16 matches praha.
+2024-09-25 11:18:10,188 - TestDetailHotelu_C - INFO - Completed departure check.
+2024-09-25 11:18:10,428 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-26&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-26&sortby=Departure&tom=4312&tt=1&ttm=1#hotelDetailFilterStart
+2024-09-25 11:18:24,866 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:24,877 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:24,889 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:24,900 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:24,911 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:24,921 - TestDetskeKluby_D - INFO - benefit item
+2024-09-25 11:18:25,217 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,226 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,240 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,251 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,260 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,270 - TestDetskeKluby_D - INFO - tile img
+2024-09-25 11:18:25,276 - TestDetskeKluby_D - INFO - https://fischer.web3.dtweb.cz//kluby/funtazie-leto
+2024-09-25 11:18:35,309 - TestDovolena_D - INFO - Položka menu neexistuje
+2024-09-25 11:18:35,316 - TestDovolena_D - INFO - https://fischer.web3.dtweb.cz/
+2024-09-25 11:18:47,812 - TestFMexotika_D - INFO - https://fischer.web3.dtweb.cz/first-minute/exotika-zima
+2024-09-25 11:19:03,021 - Test_Fulltext_C - INFO - ZANZIBAR
+2024-09-25 11:19:04,797 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:19:08,513 - Test_Fulltext_C - INFO - ØECKO
+2024-09-25 11:19:33,547 - Test_Fulltext_C - INFO - first no such ele except
+2024-09-25 11:19:34,297 - Test_Fulltext_C - INFO - last no such ele except
+2024-09-25 11:19:38,311 - Test_Fulltext_C - INFO - TURECKO
+2024-09-25 11:19:39,206 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:19:42,805 - Test_Fulltext_C - INFO - EGYPT
+2024-09-25 11:19:43,772 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:19:47,562 - Test_Fulltext_C - INFO - KAPVERDY
+2024-09-25 11:19:48,394 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:19:52,231 - Test_Fulltext_C - INFO - OMAN
+2024-09-25 11:19:53,315 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:19:56,815 - Test_Fulltext_C - INFO - KEFALONIA
+2024-09-25 11:20:21,944 - Test_Fulltext_C - INFO - first no such ele except
+2024-09-25 11:20:22,691 - Test_Fulltext_C - INFO - last no such ele except
+2024-09-25 11:20:26,821 - Test_Fulltext_C - INFO - MIRAGE BAY
+2024-09-25 11:20:27,787 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:20:31,770 - Test_Fulltext_C - INFO - PORTO SKALA 7
+2024-09-25 11:20:32,758 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:20:36,356 - Test_Fulltext_C - INFO - DOUBLETREE
+2024-09-25 11:20:37,579 - Test_Fulltext_C - INFO - hote dlazdice klik
+2024-09-25 11:20:37,763 - Test_Fulltext_C - INFO - https://fischer.web3.dtweb.cz/egypt/egypt-sharm-el-sheikh/hilton-sharks-bay?DS=8192&GIATA=26627&D=64425&HID=9724&DF=2024-10-07%7C2024-11-04&RD=2024-10-24&DD=2024-10-21&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&TT=0&PID=SSH90011&DPR=EXIM+TOURS+ATCOM
+2024-09-25 11:20:46,473 - Test_Fulltext_C - INFO - ZANZIBAR
+2024-09-25 11:20:50,169 - Test_Fulltext_C - INFO - ØECKO
+2024-09-25 11:21:22,557 - Test_Fulltext_C - INFO - TURECKO
+2024-09-25 11:21:50,470 - Test_Fulltext_C - INFO - EGYPT
+2024-09-25 11:21:53,744 - Test_Fulltext_C - INFO - KAPVERDY
+2024-09-25 11:22:22,725 - Test_Fulltext_C - INFO - OMAN
+2024-09-25 11:22:28,040 - Test_Fulltext_C - INFO - KEFALONIA
+2024-09-25 11:22:56,369 - Test_Fulltext_C - INFO - MIRAGE BAY
+2024-09-25 11:22:59,662 - Test_Fulltext_C - INFO - PORTO SKALA 7
+2024-09-25 11:23:03,890 - Test_Fulltext_C - INFO - DOUBLETREE
+2024-09-25 11:23:05,773 - Test_Fulltext_C - INFO - https://fischer.web3.dtweb.cz/hledani-vysledky?q=Doubletree
+2024-09-25 11:23:19,029 - Test_Groupsearch_D - INFO - Starting group search check.
+2024-09-25 11:23:21,073 - Test_Groupsearch_D - INFO - Found 43 teaser items in the group search section.
+2024-09-25 11:23:21,083 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.539")>.
+2024-09-25 11:23:21,092 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.540")>.
+2024-09-25 11:23:21,102 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.541")>.
+2024-09-25 11:23:21,112 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.542")>.
+2024-09-25 11:23:21,123 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.543")>.
+2024-09-25 11:23:21,133 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.544")>.
+2024-09-25 11:23:21,143 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.545")>.
+2024-09-25 11:23:21,151 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.546")>.
+2024-09-25 11:23:21,162 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.547")>.
+2024-09-25 11:23:21,171 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.548")>.
+2024-09-25 11:23:21,182 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.549")>.
+2024-09-25 11:23:21,191 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.550")>.
+2024-09-25 11:23:21,203 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.551")>.
+2024-09-25 11:23:21,213 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.552")>.
+2024-09-25 11:23:21,222 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.553")>.
+2024-09-25 11:23:21,233 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.554")>.
+2024-09-25 11:23:21,243 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.555")>.
+2024-09-25 11:23:21,253 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.556")>.
+2024-09-25 11:23:21,263 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.557")>.
+2024-09-25 11:23:21,273 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.558")>.
+2024-09-25 11:23:21,282 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.559")>.
+2024-09-25 11:23:21,292 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.560")>.
+2024-09-25 11:23:21,302 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.561")>.
+2024-09-25 11:23:21,313 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.562")>.
+2024-09-25 11:23:21,323 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.563")>.
+2024-09-25 11:23:21,332 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.564")>.
+2024-09-25 11:23:21,342 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.565")>.
+2024-09-25 11:23:21,352 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.566")>.
+2024-09-25 11:23:21,361 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.567")>.
+2024-09-25 11:23:21,371 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.568")>.
+2024-09-25 11:23:21,381 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.569")>.
+2024-09-25 11:23:21,391 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.570")>.
+2024-09-25 11:23:21,400 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.571")>.
+2024-09-25 11:23:21,411 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.572")>.
+2024-09-25 11:23:21,421 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.573")>.
+2024-09-25 11:23:21,431 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.574")>.
+2024-09-25 11:23:21,441 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.575")>.
+2024-09-25 11:23:21,451 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.576")>.
+2024-09-25 11:23:21,460 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.577")>.
+2024-09-25 11:23:21,470 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.578")>.
+2024-09-25 11:23:21,480 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.579")>.
+2024-09-25 11:23:21,490 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.580")>.
+2024-09-25 11:23:21,501 - Test_Groupsearch_D - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.581")>.
+2024-09-25 11:23:21,509 - Test_Groupsearch_D - INFO - First teaser item is displayed.
+2024-09-25 11:23:21,531 - Test_Groupsearch_D - INFO - Found 1 Groupsearch items.
+2024-09-25 11:23:21,541 - Test_Groupsearch_D - INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="a234742ef353d69ebc09e7c6e1c498a9", element="f.E6B611F754142BA3610DB88EF47869AA.d.97F513A377BBE4309695AC1EFC2203EB.e.582")>.
+2024-09-25 11:23:21,551 - Test_Groupsearch_D - INFO - Groupsearch is displayed.
+2024-09-25 11:23:21,552 - Test_Groupsearch_D - INFO - Group search check completed.
+2024-09-25 11:23:21,557 - Test_Groupsearch_D - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?ac1=2&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-02-26&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:23:35,291 - TestHP_D - INFO - https://fischer.web3.dtweb.cz/
+2024-09-25 11:23:46,691 - TestLM_D - INFO - Starting FM/LM tour expansion check.
+2024-09-25 11:23:49,495 - TestLM_D - INFO - Successfully clicked to expand FM/LM tour section.
+2024-09-25 11:23:49,569 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1047")> visibility: True
+2024-09-25 11:23:49,580 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1048")> visibility: True
+2024-09-25 11:23:49,590 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1049")> visibility: True
+2024-09-25 11:23:49,601 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1050")> visibility: True
+2024-09-25 11:23:49,611 - TestLM_D - INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="7687676c6436072a939632bc79810cba", element="f.0359F3BF3045877F1FFF16B055786967.d.4437C74363C08CF4E6CAB8A62D07043C.e.1051")> visibility: True
+2024-09-25 11:23:49,620 - TestLM_D - INFO - FM/LM tour expansion check completed successfully.
+2024-09-25 11:23:49,627 - TestLM_D - INFO - https://fischer.web3.dtweb.cz/last-minute
+2024-09-25 11:23:58,903 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:58,913 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:58,924 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:58,935 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:58,946 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:58,957 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:59,013 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:59,110 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:59,122 - TestPobocky_C - INFO - mapa kolecka
+2024-09-25 11:23:59,174 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,184 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,195 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,206 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,217 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,228 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,239 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,249 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,260 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,271 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,282 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,294 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,304 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,320 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,331 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,342 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,354 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,365 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,376 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,387 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,399 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,410 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,421 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,432 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,443 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,454 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,465 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,476 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,488 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,499 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,510 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,521 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,532 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,544 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,555 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,567 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,578 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,590 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,601 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,612 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,624 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,635 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,740 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,753 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,765 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,776 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,788 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,800 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,812 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,825 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,836 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,847 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,858 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,870 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,882 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,896 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,908 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,919 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,931 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,943 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,954 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,966 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,978 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:23:59,990 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,002 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,014 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,026 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,038 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,050 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,061 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,073 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,085 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,096 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,108 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,121 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,132 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,144 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,156 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,167 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,179 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,191 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,203 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,215 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,228 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,240 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,253 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,264 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,276 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,288 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,299 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,311 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,323 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,336 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,348 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,360 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,372 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,384 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,396 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,408 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,421 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,433 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,445 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,458 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,470 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,482 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,494 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,506 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,518 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,530 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,542 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,555 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,568 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,580 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,592 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,604 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,617 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,630 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,642 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,749 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,763 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,775 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,787 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,800 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,812 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,824 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,837 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,849 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,861 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,874 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,886 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,899 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,912 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,926 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,939 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,956 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,969 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,981 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:00,996 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,009 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,021 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,034 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,046 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,059 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,071 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,084 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,096 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,109 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,121 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,134 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,146 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,159 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,171 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,184 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,197 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,210 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,222 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,235 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,248 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,261 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,274 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,286 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,299 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,312 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,327 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,340 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,354 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,368 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,382 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,395 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,408 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,421 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,434 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,446 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,460 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,472 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,485 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,498 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,511 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,524 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,537 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,550 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,563 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,577 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,590 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,603 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,616 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,628 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,641 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,750 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,765 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,778 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,792 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,805 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,818 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,831 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,844 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,857 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,870 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,884 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,897 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,910 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,923 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,936 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,950 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,963 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,976 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:01,989 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,003 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,016 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,030 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,043 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,057 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,069 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,083 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,096 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,109 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,123 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,136 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,150 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,163 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,177 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,190 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,203 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,218 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,232 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,246 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,259 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,273 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,286 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,300 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,313 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,327 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,341 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,355 - TestPobocky_C - INFO - basic info 
+2024-09-25 11:24:02,405 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,418 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,432 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,445 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,459 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,473 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,488 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,502 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,518 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,532 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,546 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,564 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,578 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,592 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,606 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,620 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,633 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,744 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,767 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,782 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,796 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,810 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,825 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,839 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,854 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,869 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,895 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,909 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,923 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,937 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,954 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,968 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,982 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:02,999 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,014 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,028 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,043 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,059 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,075 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,090 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,105 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,119 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,132 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,147 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,161 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,176 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,189 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,204 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,218 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,232 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,246 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,261 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,275 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,290 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,304 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,318 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,332 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,346 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,361 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,375 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,389 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,403 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,417 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,431 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,446 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,460 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,475 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,491 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,505 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,519 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,533 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,548 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,563 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,577 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,591 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,606 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,620 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,635 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,743 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,759 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,774 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,789 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,803 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,818 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,835 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,849 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,864 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,879 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,893 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,910 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,924 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,938 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,953 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,968 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,983 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:03,997 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,012 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,027 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,041 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,056 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,071 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,085 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,100 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,115 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,130 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,145 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,160 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,174 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,190 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,205 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,237 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,252 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,267 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,282 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,297 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,311 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,326 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,341 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,356 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,372 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,386 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,401 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,416 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,431 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,446 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,461 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,476 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,491 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,506 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,521 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,537 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,552 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,566 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,582 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,597 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,612 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,627 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,643 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,755 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,771 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,786 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,802 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,817 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,833 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,849 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,864 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,879 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,895 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,910 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,925 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,940 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,956 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,971 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:04,986 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,002 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,017 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,033 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,049 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,065 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,081 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,096 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,112 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,128 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,143 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,158 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,173 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,189 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,204 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,220 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,236 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,251 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,267 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,282 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,299 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,315 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,331 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,347 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,363 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,378 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,394 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,409 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,425 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,441 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,457 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,472 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,488 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,504 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,519 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,535 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,551 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,567 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,583 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,598 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,614 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,630 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,646 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,753 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,769 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,785 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,801 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,817 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,833 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,849 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,865 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,881 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,897 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,913 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,929 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,946 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,961 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,977 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:05,993 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,009 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,026 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,041 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,058 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,074 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,090 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,106 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,122 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,138 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,154 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,170 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,186 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,202 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,219 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,235 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,251 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,267 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,283 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,300 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,316 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,332 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,349 - TestPobocky_C - INFO - boxiky
+2024-09-25 11:24:06,367 - TestPobocky_C - INFO - https://fischer.web3.dtweb.cz/kontakty/seznam-pobocek
+2024-09-25 11:24:17,792 - TestPoznavacky_D - INFO - Starting 'Poznavacky' tiles and images check.
+2024-09-25 11:24:22,842 - TestPoznavacky_D - INFO - Found 21 images to check.
+2024-09-25 11:24:22,858 - TestPoznavacky_D - INFO - The first image is displayed correctly.
+2024-09-25 11:24:22,871 - TestPoznavacky_D - INFO - Image 1/21 visibility: True
+2024-09-25 11:24:22,882 - TestPoznavacky_D - INFO - Image 2/21 visibility: True
+2024-09-25 11:24:22,893 - TestPoznavacky_D - INFO - Image 3/21 visibility: True
+2024-09-25 11:24:22,902 - TestPoznavacky_D - INFO - Image 4/21 visibility: True
+2024-09-25 11:24:22,914 - TestPoznavacky_D - INFO - Image 5/21 visibility: True
+2024-09-25 11:24:22,925 - TestPoznavacky_D - INFO - Image 6/21 visibility: True
+2024-09-25 11:24:22,935 - TestPoznavacky_D - INFO - Image 7/21 visibility: True
+2024-09-25 11:24:22,946 - TestPoznavacky_D - INFO - Image 8/21 visibility: True
+2024-09-25 11:24:22,957 - TestPoznavacky_D - INFO - Image 9/21 visibility: True
+2024-09-25 11:24:22,968 - TestPoznavacky_D - INFO - Image 10/21 visibility: True
+2024-09-25 11:24:22,978 - TestPoznavacky_D - INFO - Image 11/21 visibility: True
+2024-09-25 11:24:22,989 - TestPoznavacky_D - INFO - Image 12/21 visibility: True
+2024-09-25 11:24:23,000 - TestPoznavacky_D - INFO - Image 13/21 visibility: True
+2024-09-25 11:24:23,010 - TestPoznavacky_D - INFO - Image 14/21 visibility: True
+2024-09-25 11:24:23,021 - TestPoznavacky_D - INFO - Image 15/21 visibility: True
+2024-09-25 11:24:23,031 - TestPoznavacky_D - INFO - Image 16/21 visibility: True
+2024-09-25 11:24:23,042 - TestPoznavacky_D - INFO - Image 17/21 visibility: True
+2024-09-25 11:24:23,053 - TestPoznavacky_D - INFO - Image 18/21 visibility: True
+2024-09-25 11:24:23,064 - TestPoznavacky_D - INFO - Image 19/21 visibility: True
+2024-09-25 11:24:23,074 - TestPoznavacky_D - INFO - Image 20/21 visibility: True
+2024-09-25 11:24:23,085 - TestPoznavacky_D - INFO - Image 21/21 visibility: True
+2024-09-25 11:24:23,125 - TestPoznavacky_D - INFO - First grid item is displayed correctly.
+2024-09-25 11:24:23,136 - TestPoznavacky_D - INFO - Grid item 1/18 visibility: True
+2024-09-25 11:24:23,149 - TestPoznavacky_D - INFO - Grid item 2/18 visibility: True
+2024-09-25 11:24:23,162 - TestPoznavacky_D - INFO - Grid item 3/18 visibility: True
+2024-09-25 11:24:23,176 - TestPoznavacky_D - INFO - Grid item 4/18 visibility: True
+2024-09-25 11:24:23,190 - TestPoznavacky_D - INFO - Grid item 5/18 visibility: True
+2024-09-25 11:24:23,202 - TestPoznavacky_D - INFO - Grid item 6/18 visibility: True
+2024-09-25 11:24:23,214 - TestPoznavacky_D - INFO - Grid item 7/18 visibility: True
+2024-09-25 11:24:23,225 - TestPoznavacky_D - INFO - Grid item 8/18 visibility: True
+2024-09-25 11:24:23,236 - TestPoznavacky_D - INFO - Grid item 9/18 visibility: True
+2024-09-25 11:24:23,246 - TestPoznavacky_D - INFO - Grid item 10/18 visibility: True
+2024-09-25 11:24:23,256 - TestPoznavacky_D - INFO - Grid item 11/18 visibility: True
+2024-09-25 11:24:23,266 - TestPoznavacky_D - INFO - Grid item 12/18 visibility: True
+2024-09-25 11:24:23,276 - TestPoznavacky_D - INFO - Grid item 13/18 visibility: True
+2024-09-25 11:24:23,287 - TestPoznavacky_D - INFO - Grid item 14/18 visibility: True
+2024-09-25 11:24:23,298 - TestPoznavacky_D - INFO - Grid item 15/18 visibility: True
+2024-09-25 11:24:23,309 - TestPoznavacky_D - INFO - Grid item 16/18 visibility: True
+2024-09-25 11:24:23,320 - TestPoznavacky_D - INFO - Grid item 17/18 visibility: True
+2024-09-25 11:24:23,331 - TestPoznavacky_D - INFO - Grid item 18/18 visibility: True
+2024-09-25 11:24:23,357 - TestPoznavacky_D - INFO - Main grid is displayed correctly.
+2024-09-25 11:24:23,367 - TestPoznavacky_D - INFO - Big grid 1/2 visibility: True
+2024-09-25 11:24:23,378 - TestPoznavacky_D - INFO - Big grid 2/2 visibility: True
+2024-09-25 11:24:23,378 - TestPoznavacky_D - INFO - 'Poznavacky' tiles and images check completed.
+2024-09-25 11:24:23,390 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+2024-09-25 11:24:33,287 - TestPoznavacky_D - INFO - Starting 'Poznavacky' tiles and images check.
+2024-09-25 11:24:38,324 - TestPoznavacky_D - INFO - Found 13 images to check.
+2024-09-25 11:24:38,338 - TestPoznavacky_D - INFO - The first image is displayed correctly.
+2024-09-25 11:24:38,350 - TestPoznavacky_D - INFO - Image 1/13 visibility: True
+2024-09-25 11:24:38,362 - TestPoznavacky_D - INFO - Image 2/13 visibility: True
+2024-09-25 11:24:38,372 - TestPoznavacky_D - INFO - Image 3/13 visibility: True
+2024-09-25 11:24:38,382 - TestPoznavacky_D - INFO - Image 4/13 visibility: True
+2024-09-25 11:24:38,393 - TestPoznavacky_D - INFO - Image 5/13 visibility: True
+2024-09-25 11:24:38,404 - TestPoznavacky_D - INFO - Image 6/13 visibility: True
+2024-09-25 11:24:38,415 - TestPoznavacky_D - INFO - Image 7/13 visibility: True
+2024-09-25 11:24:38,427 - TestPoznavacky_D - INFO - Image 8/13 visibility: True
+2024-09-25 11:24:38,437 - TestPoznavacky_D - INFO - Image 9/13 visibility: True
+2024-09-25 11:24:38,448 - TestPoznavacky_D - INFO - Image 10/13 visibility: True
+2024-09-25 11:24:38,460 - TestPoznavacky_D - INFO - Image 11/13 visibility: True
+2024-09-25 11:24:38,471 - TestPoznavacky_D - INFO - Image 12/13 visibility: True
+2024-09-25 11:24:38,481 - TestPoznavacky_D - INFO - Image 13/13 visibility: True
+2024-09-25 11:24:38,517 - TestPoznavacky_D - INFO - First grid item is displayed correctly.
+2024-09-25 11:24:38,530 - TestPoznavacky_D - INFO - Grid item 1/9 visibility: True
+2024-09-25 11:24:38,545 - TestPoznavacky_D - INFO - Grid item 2/9 visibility: True
+2024-09-25 11:24:38,558 - TestPoznavacky_D - INFO - Grid item 3/9 visibility: True
+2024-09-25 11:24:38,570 - TestPoznavacky_D - INFO - Grid item 4/9 visibility: True
+2024-09-25 11:24:38,582 - TestPoznavacky_D - INFO - Grid item 5/9 visibility: True
+2024-09-25 11:24:38,593 - TestPoznavacky_D - INFO - Grid item 6/9 visibility: True
+2024-09-25 11:24:38,605 - TestPoznavacky_D - INFO - Grid item 7/9 visibility: True
+2024-09-25 11:24:38,616 - TestPoznavacky_D - INFO - Grid item 8/9 visibility: True
+2024-09-25 11:24:38,627 - TestPoznavacky_D - INFO - Grid item 9/9 visibility: True
+2024-09-25 11:24:38,653 - TestPoznavacky_D - INFO - Main grid is displayed correctly.
+2024-09-25 11:24:38,663 - TestPoznavacky_D - INFO - Big grid 1/1 visibility: True
+2024-09-25 11:24:38,663 - TestPoznavacky_D - INFO - 'Poznavacky' tiles and images check completed.
+2024-09-25 11:24:38,670 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/poznavaci-zajezdy/prodlouzene-vikendy
+2024-09-25 11:24:50,449 - TestPoznavacky_D - INFO - Starting 'Poznavacky' tiles and images check.
+2024-09-25 11:24:55,478 - TestPoznavacky_D - INFO - Found 12 images to check.
+2024-09-25 11:24:55,492 - TestPoznavacky_D - INFO - The first image is displayed correctly.
+2024-09-25 11:24:55,505 - TestPoznavacky_D - INFO - Image 1/12 visibility: True
+2024-09-25 11:24:55,516 - TestPoznavacky_D - INFO - Image 2/12 visibility: True
+2024-09-25 11:24:55,527 - TestPoznavacky_D - INFO - Image 3/12 visibility: True
+2024-09-25 11:24:55,537 - TestPoznavacky_D - INFO - Image 4/12 visibility: True
+2024-09-25 11:24:55,548 - TestPoznavacky_D - INFO - Image 5/12 visibility: True
+2024-09-25 11:24:55,559 - TestPoznavacky_D - INFO - Image 6/12 visibility: True
+2024-09-25 11:24:55,569 - TestPoznavacky_D - INFO - Image 7/12 visibility: True
+2024-09-25 11:24:55,580 - TestPoznavacky_D - INFO - Image 8/12 visibility: True
+2024-09-25 11:24:55,590 - TestPoznavacky_D - INFO - Image 9/12 visibility: True
+2024-09-25 11:24:55,600 - TestPoznavacky_D - INFO - Image 10/12 visibility: True
+2024-09-25 11:24:55,610 - TestPoznavacky_D - INFO - Image 11/12 visibility: True
+2024-09-25 11:24:55,620 - TestPoznavacky_D - INFO - Image 12/12 visibility: True
+2024-09-25 11:24:55,653 - TestPoznavacky_D - INFO - First grid item is displayed correctly.
+2024-09-25 11:24:55,662 - TestPoznavacky_D - INFO - Grid item 1/9 visibility: True
+2024-09-25 11:24:55,673 - TestPoznavacky_D - INFO - Grid item 2/9 visibility: True
+2024-09-25 11:24:55,684 - TestPoznavacky_D - INFO - Grid item 3/9 visibility: True
+2024-09-25 11:24:55,695 - TestPoznavacky_D - INFO - Grid item 4/9 visibility: True
+2024-09-25 11:24:55,705 - TestPoznavacky_D - INFO - Grid item 5/9 visibility: True
+2024-09-25 11:24:55,715 - TestPoznavacky_D - INFO - Grid item 6/9 visibility: True
+2024-09-25 11:24:55,725 - TestPoznavacky_D - INFO - Grid item 7/9 visibility: True
+2024-09-25 11:24:55,734 - TestPoznavacky_D - INFO - Grid item 8/9 visibility: True
+2024-09-25 11:24:55,759 - TestPoznavacky_D - INFO - Grid item 9/9 visibility: True
+2024-09-25 11:24:55,785 - TestPoznavacky_D - INFO - Main grid is displayed correctly.
+2024-09-25 11:24:55,794 - TestPoznavacky_D - INFO - Big grid 1/1 visibility: True
+2024-09-25 11:24:55,794 - TestPoznavacky_D - INFO - 'Poznavacky' tiles and images check completed.
+2024-09-25 11:24:55,800 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/poznavaci-zajezdy/pro-rodiny
+2024-09-25 11:25:11,926 - TestSDO_C - INFO - https://fischer.web3.dtweb.cz/spanelsko
+2024-09-25 11:25:37,433 - Test_SRL_C - INFO - Starting price sorting test for type: cheap
+2024-09-25 11:25:37,433 - Test_SRL_C - INFO - Cheap sorter is OK
+2024-09-25 11:25:37,434 - Test_SRL_C - INFO - Original List from Web: [22301, 22368, 22670, 22880, 23030, 24165, 24270, 24352, 24440, 24774, 24861, 25270, 25270, 25361, 25670, 25688, 25947, 26370, 26503, 26609]
+2024-09-25 11:25:37,434 - Test_SRL_C - INFO - Correctly Sorted List: [22301, 22368, 22670, 22880, 23030, 24165, 24270, 24352, 24440, 24774, 24861, 25270, 25270, 25361, 25670, 25688, 25947, 26370, 26503, 26609]
+2024-09-25 11:25:37,434 - Test_SRL_C - INFO - LIST FROM WEB: [22301, 22368, 22670, 22880, 23030, 24165, 24270, 24352, 24440, 24774, 24861, 25270, 25270, 25361, 25670, 25688, 25947, 26370, 26503, 26609]
+2024-09-25 11:25:37,434 - Test_SRL_C - INFO - CORRECTLY SORTED LIST: [22301, 22368, 22670, 22880, 23030, 24165, 24270, 24352, 24440, 24774, 24861, 25270, 25270, 25361, 25670, 25688, 25947, 26370, 26503, 26609]
+2024-09-25 11:25:37,441 - Test_SRL_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:26:03,822 - Test_SRL_C - INFO - Starting price sorting test for type: expensive
+2024-09-25 11:26:03,822 - Test_SRL_C - INFO - Expensive sorter is OK
+2024-09-25 11:26:03,823 - Test_SRL_C - INFO - Original List from Web: [255245, 188178, 137812, 112814, 109604, 106330, 105530, 105510, 105480, 105417, 104906, 102799, 100322, 99574, 98975, 98829, 98592, 97938, 97873, 96282]
+2024-09-25 11:26:03,823 - Test_SRL_C - INFO - Correctly Sorted List: [255245, 188178, 137812, 112814, 109604, 106330, 105530, 105510, 105480, 105417, 104906, 102799, 100322, 99574, 98975, 98829, 98592, 97938, 97873, 96282]
+2024-09-25 11:26:03,823 - Test_SRL_C - INFO - LIST FROM WEB: [255245, 188178, 137812, 112814, 109604, 106330, 105530, 105510, 105480, 105417, 104906, 102799, 100322, 99574, 98975, 98829, 98592, 97938, 97873, 96282]
+2024-09-25 11:26:03,823 - Test_SRL_C - INFO - CORRECTLY SORTED LIST: [255245, 188178, 137812, 112814, 109604, 106330, 105530, 105510, 105480, 105417, 104906, 102799, 100322, 99574, 98975, 98829, 98592, 97938, 97873, 96282]
+2024-09-25 11:26:03,830 - Test_SRL_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&sortorder=1&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:26:17,184 - Test_SRL_C - INFO - Starting map test: Clicking through map circles.
+2024-09-25 11:26:17,266 - Test_SRL_C - INFO - Clicked on 'Zobrazit na Mapì' element with XPath: //*[@class='f_bar-item f_bar-map']
+2024-09-25 11:26:17,267 - Test_SRL_C - INFO - Waiting for map circles to load (10 seconds).
+2024-09-25 11:26:27,280 - Test_SRL_C - INFO - Clicking on large circles.
+2024-09-25 11:26:27,374 - Test_SRL_C - INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-09-25 11:26:30,693 - Test_SRL_C - INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-09-25 11:26:58,934 - Test_SRL_C - ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']. Error: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"}
+  (Session info: MicrosoftEdge=129.0.2792.52)
+
+2024-09-25 11:27:00,135 - Test_SRL_C - INFO - Clicking on medium circles.
+2024-09-25 11:27:00,219 - Test_SRL_C - INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2024-09-25 11:27:03,521 - Test_SRL_C - INFO - Clicked on circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2024-09-25 11:27:04,731 - Test_SRL_C - INFO - Clicking on small circles.
+2024-09-25 11:27:29,843 - Test_SRL_C - ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']. Error: Message: element not interactable
+  (Session info: MicrosoftEdge=129.0.2792.52)
+
+2024-09-25 11:27:58,156 - Test_SRL_C - ERROR - Failed to find or click circle with XPath: //*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']. Error: Message: element not interactable
+  (Session info: MicrosoftEdge=129.0.2792.52)
+
+2024-09-25 11:27:59,360 - Test_SRL_C - INFO - Finished map test: Clicking through circles.
+2024-09-25 11:28:01,370 - Test_SRL_C - INFO - Starting map test: clicking on pin and checking hotel bubble.
+2024-09-25 11:28:01,586 - Test_SRL_C - INFO - Hotel pin clicked successfully.
+2024-09-25 11:28:26,647 - Test_SRL_C - INFO - No missing image found, everything is OK.
+2024-09-25 11:28:28,815 - Test_SRL_C - INFO - Hotel bubble clicked successfully.
+2024-09-25 11:28:30,997 - Test_SRL_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:28:42,513 - Test_SRL_C - INFO - Starting list string sorter test.
+2024-09-25 11:28:44,528 - Test_SRL_C - INFO - Initial list_web_elements_Position: 0
+2024-09-25 11:28:44,565 - Test_SRL_C - INFO - Found 20 web elements with XPath: //*[@class='f_list-item f_icon f_icon--cutlery']
+2024-09-25 11:28:44,827 - Test_SRL_C - INFO - List of web elements after processing: ['all inclusive premium', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive light', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive plus']
+2024-09-25 11:28:44,828 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 0: all inclusive premium
+2024-09-25 11:28:44,828 - Test_SRL_C - INFO - Assertion passed for element at position 0: 'all inclusive premium' contains 'all inclusive'
+2024-09-25 11:28:44,828 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 1: all inclusive
+2024-09-25 11:28:44,828 - Test_SRL_C - INFO - Assertion passed for element at position 1: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,828 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 2: all inclusive
+2024-09-25 11:28:44,829 - Test_SRL_C - INFO - Assertion passed for element at position 2: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,829 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 3: all inclusive
+2024-09-25 11:28:44,829 - Test_SRL_C - INFO - Assertion passed for element at position 3: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,829 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 4: all inclusive
+2024-09-25 11:28:44,829 - Test_SRL_C - INFO - Assertion passed for element at position 4: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 5: all inclusive
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Assertion passed for element at position 5: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 6: all inclusive
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Assertion passed for element at position 6: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 7: all inclusive
+2024-09-25 11:28:44,830 - Test_SRL_C - INFO - Assertion passed for element at position 7: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,831 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 8: all inclusive
+2024-09-25 11:28:44,831 - Test_SRL_C - INFO - Assertion passed for element at position 8: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,831 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 9: all inclusive
+2024-09-25 11:28:44,831 - Test_SRL_C - INFO - Assertion passed for element at position 9: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,831 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 10: all inclusive light
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Assertion passed for element at position 10: 'all inclusive light' contains 'all inclusive'
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 11: all inclusive
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Assertion passed for element at position 11: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 12: all inclusive
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Assertion passed for element at position 12: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,832 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 13: all inclusive
+2024-09-25 11:28:44,833 - Test_SRL_C - INFO - Assertion passed for element at position 13: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,833 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 14: all inclusive
+2024-09-25 11:28:44,833 - Test_SRL_C - INFO - Assertion passed for element at position 14: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,833 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 15: all inclusive
+2024-09-25 11:28:44,833 - Test_SRL_C - INFO - Assertion passed for element at position 15: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 16: all inclusive
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Assertion passed for element at position 16: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 17: all inclusive
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Assertion passed for element at position 17: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 18: all inclusive
+2024-09-25 11:28:44,834 - Test_SRL_C - INFO - Assertion passed for element at position 18: 'all inclusive' contains 'all inclusive'
+2024-09-25 11:28:44,835 - Test_SRL_C - INFO - Checking if 'all inclusive' is in element 19: all inclusive plus
+2024-09-25 11:28:44,835 - Test_SRL_C - INFO - Assertion passed for element at position 19: 'all inclusive plus' contains 'all inclusive'
+2024-09-25 11:28:44,835 - Test_SRL_C - INFO - Completed list string sorter test.
+2024-09-25 11:28:44,843 - Test_SRL_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&m=5&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:28:56,729 - Test_SRL_C - INFO - |||||HOTEL CISLO|||||||
+2024-09-25 11:28:56,729 - Test_SRL_C - INFO - 1
+2024-09-25 11:28:56,730 - Test_SRL_C - INFO - 1
+2024-09-25 11:28:56,730 - Test_SRL_C - INFO - 1
+2024-09-25 11:30:16,414 - Test_SRL_C - INFO - https://fischer.web3.dtweb.cz/spanelsko/mallorca/alcudia/mariant?DS=256&GIATA=21437&D=63242%7C63244%7C63455%7C63350%7C63354%7C63245%7C63241%7C63213%7C63243%7C63226%7C63349%7C63363%7C63360%7C213028%7C74459%7C74460%7C74465%7C211764%7C74464&HID=21&MT=5&DI=AM&RC=DR03&RCS=DR03&NN=7&DF=2024-10-12%7C2024-11-09&RD=2024-10-26&DD=2024-10-19&ERM=0&AC1=2&KC1=0&IC1=1&DP=4312&TO=4312&TOM=4312&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=PMI14448&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=12270260%2F2%2F1753%2F7&IFC=37274239%2F163484&OFC=37273325%2F163483
+2024-09-25 11:30:25,778 - TestSRL_D - INFO - Starting search results listing check.
+2024-09-25 11:30:31,847 - TestSRL_D - INFO - Found 20 hotel cards in the search results.
+2024-09-25 11:30:31,871 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,881 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,892 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,903 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,913 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,924 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,935 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,946 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,957 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,968 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,979 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,990 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,000 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,011 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,022 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,032 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,043 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,054 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,065 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,075 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:35,095 - TestSRL_D - INFO - First hotel card is displayed.
+2024-09-25 11:30:35,169 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,180 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,192 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,203 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,213 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,224 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,236 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,246 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,257 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,269 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,279 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,290 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,302 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,313 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,325 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,337 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,348 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,359 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,370 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,381 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,392 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,404 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,415 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,427 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,438 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,448 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,460 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,470 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,483 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,494 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,506 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,517 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,529 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,541 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,552 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,562 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,574 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,586 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,597 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,608 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,618 - TestSRL_D - INFO - First hotel price is displayed.
+2024-09-25 11:30:40,651 - TestSRL_D - INFO - No loading images found in the SRL.
+2024-09-25 11:30:40,652 - TestSRL_D - INFO - Search results listing check completed.
+2024-09-25 11:30:40,659 - TestSRL_D - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-09-25 11:31:14,984 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/
+2024-09-25 11:31:39,282 - TestDetailHotelu_C - INFO - [23980, 29980, 30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34580, 34720, 34960, 34980, 35600, 38960]
+2024-09-25 11:31:42,287 - TestDetailHotelu_C - INFO - Starting price sorting test for type: cheap
+2024-09-25 11:31:42,288 - TestDetailHotelu_C - INFO - Cheap sorter is OK
+2024-09-25 11:31:42,289 - TestDetailHotelu_C - INFO - Original List from Web: [23980, 29980, 30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34580, 34720, 34960, 34980, 35600, 38960]
+2024-09-25 11:31:42,289 - TestDetailHotelu_C - INFO - Correctly Sorted List: [23980, 29980, 30980, 30980, 31980, 31980, 31980, 32780, 32940, 33440, 33980, 34580, 34720, 34960, 34980, 35600, 38960]
+2024-09-25 11:31:42,314 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-26&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-26&tt=1&ttm=1#hotelDetailFilterStart
+2024-09-25 11:32:09,486 - TestDetailHotelu_C - INFO - [38960, 35600, 34980, 34960, 34720, 34580, 33980, 33440, 32940, 32780, 31980, 31980, 31980, 30980, 30980, 29980, 23980]
+2024-09-25 11:32:12,494 - TestDetailHotelu_C - INFO - Starting price sorting test for type: expensive
+2024-09-25 11:32:12,494 - TestDetailHotelu_C - INFO - Expensive sorter is OK
+2024-09-25 11:32:12,494 - TestDetailHotelu_C - INFO - Original List from Web: [38960, 35600, 34980, 34960, 34720, 34580, 33980, 33440, 32940, 32780, 31980, 31980, 31980, 30980, 30980, 29980, 23980]
+2024-09-25 11:32:12,494 - TestDetailHotelu_C - INFO - Correctly Sorted List: [38960, 35600, 34980, 34960, 34720, 34580, 33980, 33440, 32940, 32780, 31980, 31980, 31980, 30980, 30980, 29980, 23980]
+2024-09-25 11:32:12,503 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-26&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-26&sortorder=1&tt=1&ttm=1#hotelDetailFilterStart
+2024-09-25 11:32:35,693 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/tunisko/tunisko/monastir-skanes/kombinovany-pobyt-v-tunisku-5-pevnina-sahara-djerba?DS=256&GIATA=0&HID=158202&MT=7&DI=IT&RC=DR01&RCS=DR01&NN=7&DF=2024-10-15%7C2024-11-12&RD=2024-10-29&DD=2024-10-22&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C21&TT=1&TTM=0&PID=TNR00007&DPR=FISCHER+ATCOM&PC=65128099%2F2%2F1756%2F7&IFC=36328954%2F271888&OFC=39580192%2F271551
+2024-09-25 11:32:36,817 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/tunisko/tunisko/monastir-skanes/kombinovany-pobyt-v-tunisku-5-pevnina-sahara-djerba?DS=256&GIATA=0&HID=158202&MT=7&DI=IT&RC=DR01&RCS=DR01&NN=7&DF=2024-10-15%7C2024-11-12&RD=2024-10-29&DD=2024-10-22&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C21&TT=1&TTM=0&PID=TNR00007&DPR=FISCHER+ATCOM&PC=65128099%2F2%2F1756%2F7&IFC=36328954%2F271888&OFC=39580192%2F271551
+2024-09-25 11:32:51,535 - TestPoznavacky_D - INFO - Starting process to click on Kostka hotel and check Sedivka element.
+2024-09-25 11:32:51,535 - TestPoznavacky_D - INFO - Scrolling to Kostka Poznavacka element.
+2024-09-25 11:32:53,576 - TestPoznavacky_D - INFO - Clicking on Kostka Poznavacka element.
+2024-09-25 11:32:55,682 - TestPoznavacky_D - INFO - Switching to the new window.
+2024-09-25 11:32:57,146 - TestPoznavacky_D - INFO - Current URL after switch: https://fischer.web3.dtweb.cz/italie/poznavaci-zajezdy-italie/rim/rim-letecke-vikendy?DS=256&GIATA=0&HID=142360&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-10-04%7C2024-10-28&RD=2024-10-14&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER+ATCOM&PC=12223955%2F2%2F1745%2F3&IFC=48560743%2F225261&OFC=48560736%2F225260
+2024-09-25 11:32:57,147 - TestPoznavacky_D - INFO - Checking the Sedivka element.
+2024-09-25 11:32:57,178 - TestPoznavacky_D - INFO - Sedivka element check completed.
+2024-09-25 11:32:57,185 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/italie/poznavaci-zajezdy-italie/rim/rim-letecke-vikendy?DS=256&GIATA=0&HID=142360&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-10-04%7C2024-10-28&RD=2024-10-14&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER+ATCOM&PC=12223955%2F2%2F1745%2F3&IFC=48560743%2F225261&OFC=48560736%2F225260
+2024-09-25 11:33:11,563 - TestPoznavacky_D - INFO - Starting process to click on Kostka hotel and check Sedivka element.
+2024-09-25 11:33:11,563 - TestPoznavacky_D - INFO - Scrolling to Kostka Poznavacka element.
+2024-09-25 11:33:13,600 - TestPoznavacky_D - INFO - Clicking on Kostka Poznavacka element.
+2024-09-25 11:33:15,708 - TestPoznavacky_D - INFO - Switching to the new window.
+2024-09-25 11:33:17,069 - TestPoznavacky_D - INFO - Current URL after switch: https://fischer.web3.dtweb.cz/italie/poznavaci-zajezdy-italie/rim/rim-letecke-vikendy?DS=256&GIATA=0&HID=142360&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-10-04%7C2024-10-28&RD=2024-10-14&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER+ATCOM&PC=12223955%2F2%2F1745%2F3&IFC=48560743%2F225261&OFC=48560736%2F225260
+2024-09-25 11:33:17,070 - TestPoznavacky_D - INFO - Checking the Sedivka element.
+2024-09-25 11:33:17,100 - TestPoznavacky_D - INFO - Sedivka element check completed.
+2024-09-25 11:33:17,109 - TestPoznavacky_D - INFO - https://fischer.web3.dtweb.cz/italie/poznavaci-zajezdy-italie/rim/rim-letecke-vikendy?DS=256&GIATA=0&HID=142360&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-10-04%7C2024-10-28&RD=2024-10-14&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=ITR00005&DPR=FISCHER+ATCOM&PC=12223955%2F2%2F1745%2F3&IFC=48560743%2F225261&OFC=48560736%2F225260
+2024-09-25 11:33:29,713 - Test_HP_C - INFO - Starting the process to search using the SRL flow on HP Zlutak.
+2024-09-25 11:33:31,222 - Test_HP_C - INFO - Clicking on 'Kam Pojedete'.
+2024-09-25 11:33:31,379 - Test_HP_C - INFO - Selecting the destination.
+2024-09-25 11:33:32,086 - Test_HP_C - INFO - Clicking on the first 'Pokracovat' button.
+2024-09-25 11:33:33,736 - Test_HP_C - INFO - Clicking on the second 'Pokracovat' button.
+2024-09-25 11:33:35,403 - Test_HP_C - INFO - Selecting the 'Termin'.
+2024-09-25 11:33:37,023 - Test_HP_C - INFO - Clicking on the third 'Pokracovat' button.
+2024-09-25 11:33:37,136 - Test_HP_C - INFO - Handling 'Obsazenost' setting.
+2024-09-25 11:33:37,750 - Test_HP_C - INFO - Clicking on 'Potvrdit a Vyhledat'.
+2024-09-25 11:33:40,122 - Test_HP_C - INFO - Search completed, waiting for the results.
+2024-09-25 11:33:44,122 - Test_HP_C - INFO - Starting search results listing check.
+2024-09-25 11:33:50,191 - Test_HP_C - INFO - Found 20 hotel cards in the search results.
+2024-09-25 11:33:50,212 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,224 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,234 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,245 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,255 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,266 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,276 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,288 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,299 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,310 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,321 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,332 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,343 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,354 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,365 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,376 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,387 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,399 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,409 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:50,421 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:33:53,433 - Test_HP_C - INFO - First hotel card is displayed.
+2024-09-25 11:33:53,510 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,521 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,532 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,544 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,554 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,566 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,577 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,588 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,599 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,611 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,622 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,633 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,645 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,656 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,668 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,680 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,693 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,706 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,717 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,729 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,741 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,753 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,765 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,776 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,788 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,800 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,812 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,823 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,835 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,846 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,857 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,868 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,880 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,891 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,903 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,914 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,926 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,938 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,949 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,961 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:33:53,971 - Test_HP_C - INFO - First hotel price is displayed.
+2024-09-25 11:33:59,007 - Test_HP_C - INFO - No loading images found in the SRL.
+2024-09-25 11:33:59,007 - Test_HP_C - INFO - Search results listing check completed.
+2024-09-25 11:33:59,017 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?ac1=2&d=64419|64420|64425&dd=2024-09-25&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:34:15,578 - Test_HP_C - INFO - Starting the process to search using the SRL flow on HP Zlutak.
+2024-09-25 11:34:17,092 - Test_HP_C - INFO - Clicking on 'Kam Pojedete'.
+2024-09-25 11:34:17,241 - Test_HP_C - INFO - Selecting the destination.
+2024-09-25 11:34:17,860 - Test_HP_C - INFO - Clicking on the first 'Pokracovat' button.
+2024-09-25 11:34:19,497 - Test_HP_C - INFO - Clicking on the second 'Pokracovat' button.
+2024-09-25 11:34:21,146 - Test_HP_C - INFO - Selecting the 'Termin'.
+2024-09-25 11:34:22,771 - Test_HP_C - INFO - Clicking on the third 'Pokracovat' button.
+2024-09-25 11:34:22,864 - Test_HP_C - INFO - Handling 'Obsazenost' setting.
+2024-09-25 11:34:23,554 - Test_HP_C - INFO - Clicking on 'Potvrdit a Vyhledat'.
+2024-09-25 11:34:25,609 - Test_HP_C - INFO - Search completed, waiting for the results.
+2024-09-25 11:34:39,624 - Test_HP_C - INFO - Starting search results listing check.
+2024-09-25 11:34:45,693 - Test_HP_C - INFO - Found 2 hotel cards in the search results.
+2024-09-25 11:34:45,713 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:34:45,724 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:34:48,740 - Test_HP_C - INFO - First hotel card is displayed.
+2024-09-25 11:34:48,802 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:34:48,814 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:34:48,824 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:34:48,835 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:34:48,846 - Test_HP_C - INFO - First hotel price is displayed.
+2024-09-25 11:34:53,920 - Test_HP_C - INFO - No loading images found in the SRL.
+2024-09-25 11:34:53,921 - Test_HP_C - INFO - Search results listing check completed.
+2024-09-25 11:34:53,944 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=63972|63984|63977|63979|63981|63976|63978|63975|63980|63982|63974|63973|63985|63987|63986|64037|63983&dd=2025-03-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=0
+2024-09-25 11:35:10,866 - Test_HP_C - INFO - Starting the process to search using the SRL flow on HP Zlutak.
+2024-09-25 11:35:12,377 - Test_HP_C - INFO - Clicking on 'Kam Pojedete'.
+2024-09-25 11:35:12,508 - Test_HP_C - INFO - Selecting the destination.
+2024-09-25 11:35:13,143 - Test_HP_C - INFO - Clicking on the first 'Pokracovat' button.
+2024-09-25 11:35:14,806 - Test_HP_C - INFO - Clicking on the second 'Pokracovat' button.
+2024-09-25 11:35:16,455 - Test_HP_C - INFO - Selecting the 'Termin'.
+2024-09-25 11:35:18,077 - Test_HP_C - INFO - Clicking on the third 'Pokracovat' button.
+2024-09-25 11:35:18,199 - Test_HP_C - INFO - Handling 'Obsazenost' setting.
+2024-09-25 11:35:18,798 - Test_HP_C - INFO - Clicking on 'Potvrdit a Vyhledat'.
+2024-09-25 11:35:21,005 - Test_HP_C - INFO - Search completed, waiting for the results.
+2024-09-25 11:35:28,014 - Test_HP_C - INFO - Starting search results listing check.
+2024-09-25 11:35:34,071 - Test_HP_C - INFO - Found 20 hotel cards in the search results.
+2024-09-25 11:35:34,092 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,103 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,116 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,128 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,140 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,152 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,165 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,178 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,190 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,202 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,215 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,229 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,241 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,253 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,262 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,273 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,283 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,293 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,303 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:34,313 - Test_HP_C - INFO - Hotel card visible: True
+2024-09-25 11:35:37,330 - Test_HP_C - INFO - First hotel card is displayed.
+2024-09-25 11:35:37,403 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,415 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,426 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,437 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,448 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,459 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,470 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,483 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,494 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,505 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,517 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,528 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,539 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,551 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,562 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,574 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,586 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,597 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,609 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,621 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,632 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,645 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,657 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,668 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,679 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,691 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,703 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,714 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,726 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,738 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,749 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,760 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,771 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,783 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,796 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,807 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,819 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,836 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,848 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,860 - Test_HP_C - INFO - Hotel price visible: True
+2024-09-25 11:35:37,870 - Test_HP_C - INFO - First hotel price is displayed.
+2024-09-25 11:35:42,923 - Test_HP_C - INFO - No loading images found in the SRL.
+2024-09-25 11:35:42,924 - Test_HP_C - INFO - Search results listing check completed.
+2024-09-25 11:35:42,937 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/first-minute/exotika-zima/vysledky-vyhledavani?ac1=2&d=219200|63865|63866|63864|64419|64420|64425|64245|64243|64241|64247|63881|63880|63720|63719|218467|64190|63726|63725|63727|63889|63891|63885|63888|63886|63890|63892|63887|64161|64167|64171|64166|64169|64172|64174|64159|64168|64162|64170|64164|64176|64160|64173|64175|64163|64165|63738|63976|63975|63982|64102|64099|63992|63823|63750|63751|63752|63753|63754|63755|64443|63756|63757|218503|63758|63759|63760|64087|64094|64089|64090|64091|64086|64092|63765|64126|64127|64447&dd=2025-01-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-02-28&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:35:55,783 - Test_HP_C - INFO - Starting group search check.
+2024-09-25 11:35:57,850 - Test_HP_C - INFO - Found 43 teaser items in the group search section.
+2024-09-25 11:35:57,860 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1654")>.
+2024-09-25 11:35:57,871 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1655")>.
+2024-09-25 11:35:57,882 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1656")>.
+2024-09-25 11:35:57,893 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1657")>.
+2024-09-25 11:35:57,904 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1658")>.
+2024-09-25 11:35:57,914 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1659")>.
+2024-09-25 11:35:57,925 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1660")>.
+2024-09-25 11:35:57,936 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1661")>.
+2024-09-25 11:35:57,948 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1662")>.
+2024-09-25 11:35:57,959 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1663")>.
+2024-09-25 11:35:57,969 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1664")>.
+2024-09-25 11:35:57,980 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1665")>.
+2024-09-25 11:35:57,991 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1666")>.
+2024-09-25 11:35:58,002 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1667")>.
+2024-09-25 11:35:58,012 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1668")>.
+2024-09-25 11:35:58,023 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1669")>.
+2024-09-25 11:35:58,034 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1670")>.
+2024-09-25 11:35:58,045 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1671")>.
+2024-09-25 11:35:58,056 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1672")>.
+2024-09-25 11:35:58,068 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1673")>.
+2024-09-25 11:35:58,079 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1674")>.
+2024-09-25 11:35:58,090 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1675")>.
+2024-09-25 11:35:58,101 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1676")>.
+2024-09-25 11:35:58,113 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1677")>.
+2024-09-25 11:35:58,126 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1678")>.
+2024-09-25 11:35:58,137 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1679")>.
+2024-09-25 11:35:58,148 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1680")>.
+2024-09-25 11:35:58,159 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1681")>.
+2024-09-25 11:35:58,171 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1682")>.
+2024-09-25 11:35:58,182 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1683")>.
+2024-09-25 11:35:58,193 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1684")>.
+2024-09-25 11:35:58,205 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1685")>.
+2024-09-25 11:35:58,216 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1686")>.
+2024-09-25 11:35:58,228 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1687")>.
+2024-09-25 11:35:58,238 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1688")>.
+2024-09-25 11:35:58,251 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1689")>.
+2024-09-25 11:35:58,262 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1690")>.
+2024-09-25 11:35:58,273 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1691")>.
+2024-09-25 11:35:58,285 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1692")>.
+2024-09-25 11:35:58,296 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1693")>.
+2024-09-25 11:35:58,306 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1694")>.
+2024-09-25 11:35:58,317 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1695")>.
+2024-09-25 11:35:58,329 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1696")>.
+2024-09-25 11:35:58,338 - Test_HP_C - INFO - First teaser item is displayed.
+2024-09-25 11:35:58,359 - Test_HP_C - INFO - Found 1 Groupsearch items.
+2024-09-25 11:35:58,370 - Test_HP_C - INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="bcec5f0e637422026c6b2fc824108e7d", element="f.5EFF64C7F17378C0985C5B49AA509BB7.d.2E83B6F99881E53774973D0EDC9B068A.e.1697")>.
+2024-09-25 11:35:58,378 - Test_HP_C - INFO - Groupsearch is displayed.
+2024-09-25 11:35:58,379 - Test_HP_C - INFO - Group search check completed.
+2024-09-25 11:35:58,385 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?dd=2024-09-25&nn=7|8|9|10|11|12|13|14&rd=2024-11-25&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:36:14,661 - Test_HP_C - INFO - Starting group search check.
+2024-09-25 11:36:16,720 - Test_HP_C - INFO - Found 15 teaser items in the group search section.
+2024-09-25 11:36:16,731 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1470")>.
+2024-09-25 11:36:16,743 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1471")>.
+2024-09-25 11:36:16,755 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1472")>.
+2024-09-25 11:36:16,765 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1473")>.
+2024-09-25 11:36:16,776 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1474")>.
+2024-09-25 11:36:16,787 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1475")>.
+2024-09-25 11:36:16,798 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1476")>.
+2024-09-25 11:36:16,810 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1477")>.
+2024-09-25 11:36:16,821 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1478")>.
+2024-09-25 11:36:16,832 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1479")>.
+2024-09-25 11:36:16,843 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1480")>.
+2024-09-25 11:36:16,855 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1481")>.
+2024-09-25 11:36:16,866 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1482")>.
+2024-09-25 11:36:16,877 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1483")>.
+2024-09-25 11:36:16,889 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1484")>.
+2024-09-25 11:36:16,899 - Test_HP_C - INFO - First teaser item is displayed.
+2024-09-25 11:36:16,915 - Test_HP_C - INFO - Found 1 Groupsearch items.
+2024-09-25 11:36:16,926 - Test_HP_C - INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="e84a7c293d05bdba31e382a552167e61", element="f.802A3351291A95EC9EAAAE41DF2E429C.d.B7D0795CC00EAB7B6D37AB1338CAD412.e.1485")>.
+2024-09-25 11:36:16,938 - Test_HP_C - INFO - Groupsearch is displayed.
+2024-09-25 11:36:16,938 - Test_HP_C - INFO - Group search check completed.
+2024-09-25 11:36:16,945 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?dd=2024-09-25&nn=3|4|5|6|7|8|9|10|11|12|13|14&rd=2024-11-25&to=4312|4305|2682|4308|4392|4309&tt=0
+2024-09-25 11:36:48,494 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,505 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,515 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,526 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,536 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,547 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,558 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,568 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,579 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,590 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,602 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,612 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,623 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,634 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,645 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,657 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,668 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,679 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,690 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,701 - TestSDO_C - INFO - True
+2024-09-25 11:36:48,782 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,802 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,813 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,824 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,835 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,846 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,857 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,868 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,879 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,890 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,902 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,913 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,924 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,935 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,947 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,958 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,969 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,980 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:48,992 - TestSDO_C - INFO - ceny
+2024-09-25 11:36:49,004 - TestSDO_C - INFO - ceny
+2024-09-25 11:38:29,129 - TestSDO_C - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?d=64419|64420|64425&dd=2024-09-25&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:38:44,311 - TestPobocky_C - INFO - Starting process to open Pobocka box and display the popup for Objednavka Navstevy.
+2024-09-25 11:38:44,311 - TestPobocky_C - INFO - Clicking on the Anchor Oblibene Volby element.
+2024-09-25 11:38:44,487 - TestPobocky_C - INFO - Anchor Oblibene Volby clicked.
+2024-09-25 11:38:46,496 - TestPobocky_C - INFO - Clicking on the Pobocka box element.
+2024-09-25 11:38:46,615 - TestPobocky_C - INFO - Pobocka box clicked.
+2024-09-25 11:38:48,622 - TestPobocky_C - INFO - Scrolling to and clicking on the Detail Pobocky element.
+2024-09-25 11:38:49,772 - TestPobocky_C - INFO - Detail Pobocky clicked.
+2024-09-25 11:38:53,281 - TestPobocky_C - INFO - Clicking on 'Objednat Schuzku' button.
+2024-09-25 11:38:54,189 - TestPobocky_C - INFO - 'Objednat Schuzku' button clicked.
+2024-09-25 11:38:56,704 - TestPobocky_C - INFO - Verifying if the popup for Objednavka Navstevy is displayed.
+2024-09-25 11:38:56,741 - TestPobocky_C - INFO - Popup visibility: True
+2024-09-25 11:38:56,741 - TestPobocky_C - INFO - Popup for Objednavka Navstevy is successfully displayed.
+2024-09-25 11:38:56,749 - TestPobocky_C - INFO - https://fischer.web3.dtweb.cz/pobocky/brno-vankovka#modal-contactus-visitbranch
+2024-09-25 11:39:00,201 - Test_SRL_C_comparer - INFO - Starting SRL number of results collection.
+2024-09-25 11:42:20,941 - Test_SRL_C_comparer - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&ac2=3&d=64419|64420|64425|63215|63287|63296|63410|63426|63220|63281|63373|63431|63311|63314|63316|63319|63324|63333|63341|63362|63220|63390|63402|63437|63408|63409|63442|63471|63213|63241|63242|63360|213028|211764|63243|63245|63267|74459|74460|63284|74464|63350|63354|74465|219503|63212|63215|63539|63229|63271|219502|63255|64427|219503|63265|63444|63271|63229|63271|219502|63298|63330|63425|63339|63330|63356|63391|63425|63376|63356|63391|63425|63457|63406|63271|219502|63376|63425|63429|63436|64427|219503|63444|64428|63453|63454|63456|63391|63457|63459|63226|63244|63455|63242|74463&dd=2024-06-01&ic1=1&ic2=1&ka1=5&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:42:37,447 - Test_HP_C - INFO - Starting the process to search using the SRL flow on HP Zlutak.
+2024-09-25 11:42:38,957 - Test_HP_C - INFO - Clicking on 'Kam Pojedete'.
+2024-09-25 11:42:39,076 - Test_HP_C - INFO - Selecting the destination.
+2024-09-25 11:42:39,715 - Test_HP_C - INFO - Clicking on the first 'Pokracovat' button.
+2024-09-25 11:42:41,362 - Test_HP_C - INFO - Clicking on the second 'Pokracovat' button.
+2024-09-25 11:42:42,999 - Test_HP_C - INFO - Selecting the 'Termin'.
+2024-09-25 11:42:44,618 - Test_HP_C - INFO - Clicking on the third 'Pokracovat' button.
+2024-09-25 11:42:44,712 - Test_HP_C - INFO - Handling 'Obsazenost' setting.
+2024-09-25 11:42:45,323 - Test_HP_C - INFO - Clicking on 'Potvrdit a Vyhledat'.
+2024-09-25 11:42:47,531 - Test_HP_C - INFO - Search completed, waiting for the results.
+2024-09-25 11:42:51,542 - Test_HP_C - INFO - Starting SRL letenky results verification process.
+2024-09-25 11:42:51,564 - Test_HP_C - INFO - Found 5 elements for letenky SRL results.
+2024-09-25 11:42:51,564 - Test_HP_C - INFO - Verifying visibility of element at position 0.
+2024-09-25 11:42:51,576 - Test_HP_C - INFO - Element at position 0 is displayed.
+2024-09-25 11:42:51,576 - Test_HP_C - INFO - Verifying visibility of element at position 1.
+2024-09-25 11:42:51,588 - Test_HP_C - INFO - Element at position 1 is displayed.
+2024-09-25 11:42:51,589 - Test_HP_C - INFO - Verifying visibility of element at position 2.
+2024-09-25 11:42:51,599 - Test_HP_C - INFO - Element at position 2 is displayed.
+2024-09-25 11:42:51,599 - Test_HP_C - INFO - Verifying visibility of element at position 3.
+2024-09-25 11:42:51,611 - Test_HP_C - INFO - Element at position 3 is displayed.
+2024-09-25 11:42:51,611 - Test_HP_C - INFO - Verifying visibility of element at position 4.
+2024-09-25 11:42:51,621 - Test_HP_C - INFO - Element at position 4 is displayed.
+2024-09-25 11:42:51,621 - Test_HP_C - INFO - SRL letenky results verification completed successfully.
+2024-09-25 11:42:51,628 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/letenky/vysledky-vyhledavani?ac1=2&d=63863&dd=2025-03-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:43:06,111 - Test_HP_C - INFO - Starting group search check.
+2024-09-25 11:43:08,173 - Test_HP_C - INFO - Found 17 teaser items in the group search section.
+2024-09-25 11:43:08,183 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1582")>.
+2024-09-25 11:43:08,194 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1583")>.
+2024-09-25 11:43:08,205 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1584")>.
+2024-09-25 11:43:08,216 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1585")>.
+2024-09-25 11:43:08,227 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1586")>.
+2024-09-25 11:43:08,238 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1587")>.
+2024-09-25 11:43:08,249 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1588")>.
+2024-09-25 11:43:08,261 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1589")>.
+2024-09-25 11:43:08,272 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1590")>.
+2024-09-25 11:43:08,283 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1591")>.
+2024-09-25 11:43:08,294 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1592")>.
+2024-09-25 11:43:08,305 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1593")>.
+2024-09-25 11:43:08,316 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1594")>.
+2024-09-25 11:43:08,327 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1595")>.
+2024-09-25 11:43:08,338 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1596")>.
+2024-09-25 11:43:08,349 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1597")>.
+2024-09-25 11:43:08,361 - Test_HP_C - INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1598")>.
+2024-09-25 11:43:08,371 - Test_HP_C - INFO - First teaser item is displayed.
+2024-09-25 11:43:08,388 - Test_HP_C - INFO - Found 1 Groupsearch items.
+2024-09-25 11:43:08,400 - Test_HP_C - INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="eb659e275ed9f5a650163ed3e3484aac", element="f.B0116FD1E3C26F749A6842F1D8B3B313.d.091BCE65995603D869B650F0AF89A735.e.1599")>.
+2024-09-25 11:43:08,410 - Test_HP_C - INFO - Groupsearch is displayed.
+2024-09-25 11:43:08,410 - Test_HP_C - INFO - Group search check completed.
+2024-09-25 11:43:08,417 - Test_HP_C - INFO - https://fischer.web3.dtweb.cz/letenky/vysledky-vyhledavani?dd=2024-09-25&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2024-11-25&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-09-25 11:43:24,970 - Test_darkove_poukazy - INFO - [<selenium.webdriver.remote.webelement.WebElement (session="ba4b938c7de59886d06c7ea75e87842a", element="f.42C00E5F79ED5F4338FF9B32CF26B6DA.d.AB97F462AA6D7DDF15FC4C5702D061EB.e.528")>, <selenium.webdriver.remote.webelement.WebElement (session="ba4b938c7de59886d06c7ea75e87842a", element="f.42C00E5F79ED5F4338FF9B32CF26B6DA.d.AB97F462AA6D7DDF15FC4C5702D061EB.e.527")>, <selenium.webdriver.remote.webelement.WebElement (session="ba4b938c7de59886d06c7ea75e87842a", element="f.42C00E5F79ED5F4338FF9B32CF26B6DA.d.AB97F462AA6D7DDF15FC4C5702D061EB.e.529")>]
+2024-09-25 11:43:24,991 - Test_darkove_poukazy - INFO - 0
+2024-09-25 11:43:27,021 - Test_darkove_poukazy - INFO - 1
+2024-09-25 11:43:29,047 - Test_darkove_poukazy - INFO - 2
+2024-09-25 11:43:37,172 - Test_darkove_poukazy - INFO - https://fischer.web3.dtweb.cz//poukazy-benefity/darkove-poukazy
+2024-09-25 11:43:54,548 - Test_darkove_poukazy - INFO - 0
+2024-09-25 11:43:56,575 - Test_darkove_poukazy - INFO - 1
+2024-09-25 11:43:58,610 - Test_darkove_poukazy - INFO - 2
+2024-09-25 11:44:03,831 - Test_darkove_poukazy - INFO - https://fischer.web3.dtweb.cz//poukazy-benefity/darkove-poukazy
+2024-09-25 11:44:34,633 - Test_darkove_poukazy - INFO - https://gate.gopay.com/gp-gw/cs/desktop/web2/card
+2024-09-25 11:44:37,033 - __main__ - INFO - Completed test suite: suite_FW_full
+2024-09-26 13:21:29,714 - __main__ - INFO - Starting test suite: suite_FW_full for URL: https://fischer.web3.dtweb.cz/
+2024-09-26 13:21:29,714 - __main__ - ERROR - Error running test suite suite_FW_full: Expecting value: line 1 column 1 (char 0)

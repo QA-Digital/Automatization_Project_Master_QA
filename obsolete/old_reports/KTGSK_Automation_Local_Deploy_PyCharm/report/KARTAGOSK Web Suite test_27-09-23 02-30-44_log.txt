@@ -1,0 +1,137 @@
+2023-09-27 14:30:56.680185 : <selenium.webdriver.remote.webelement.WebElement (session="3c7a5c97ac8e53e6ea89096cd516fe1b", element="5C30392FF44E09F03A822DB7D84C8662_element_269")>
+2023-09-27 14:31:24.710738 : nenasle se exponea banner
+2023-09-27 14:31:24.771650 : gridy jdou videt
+2023-09-27 14:31:24.782652 : gridy jdou videt
+2023-09-27 14:31:24.792595 : gridy jdou videt
+2023-09-27 14:31:24.803566 : gridy jdou videt
+2023-09-27 14:31:24.814536 : gridy jdou videt
+2023-09-27 14:31:24.824509 : gridy jdou videt
+2023-09-27 14:31:24.835480 : gridy jdou videt
+2023-09-27 14:31:24.847029 : gridy jdou videt
+2023-09-27 14:31:24.857004 : gridy jdou videt
+2023-09-27 14:31:24.867974 : gridy jdou videt
+2023-09-27 14:31:24.877947 : gridy jdou videt
+2023-09-27 14:31:24.888917 : gridy jdou videt
+2023-09-27 14:31:24.898891 : gridy jdou videt
+2023-09-27 14:31:24.909862 : gridy jdou videt
+2023-09-27 14:31:24.919864 : gridy jdou videt
+2023-09-27 14:31:24.930806 : gridy jdou videt
+2023-09-27 14:31:24.940780 : gridy jdou videt
+2023-09-27 14:31:24.996630 : content jdou videt
+2023-09-27 14:31:25.006604 : content jdou videt
+2023-09-27 14:31:25.016578 : content jdou videt
+2023-09-27 14:31:25.027701 : content jdou videt
+2023-09-27 14:31:25.037677 : content jdou videt
+2023-09-27 14:31:25.047651 : content jdou videt
+2023-09-27 14:31:25.057625 : content jdou videt
+2023-09-27 14:31:25.067597 : content jdou videt
+2023-09-27 14:31:25.077571 : content jdou videt
+2023-09-27 14:31:25.088542 : content jdou videt
+2023-09-27 14:31:25.098516 : content jdou videt
+2023-09-27 14:31:25.107492 : content jdou videt
+2023-09-27 14:31:25.116468 : content jdou videt
+2023-09-27 14:31:25.127439 : content jdou videt
+2023-09-27 14:31:25.136415 : content jdou videt
+2023-09-27 14:31:25.145392 : content jdou videt
+2023-09-27 14:31:25.154367 : content jdou videt
+2023-09-27 14:31:25.160351 : https://kartagosk.stg.dtweb.cz/covid-info
+2023-09-27 14:31:42.999823 : <selenium.webdriver.remote.webelement.WebElement (session="f14193ac72f57e405e74e442779276c6", element="12B19CB38ABDF86C9ED8CAB18A22F940_element_521")>
+2023-09-27 14:31:43.142237 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="f14193ac72f57e405e74e442779276c6", element="12B19CB38ABDF86C9ED8CAB18A22F940_element_522")>>
+2023-09-27 14:31:43.347690 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/preh%C4%BEad
+2023-09-27 14:31:55.230717 : <selenium.webdriver.remote.webelement.WebElement (session="1eda94017014a1d3f6a214bb4685197b", element="25DB678458B23F7E1E6F95173064E71C_element_306")>
+2023-09-27 14:32:00.550966 : its ok
+2023-09-27 14:32:00.557947 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864.jpeg
+2023-09-27 14:32:13.792850 : <selenium.webdriver.remote.webelement.WebElement (session="323c2be01971d4c1a5502b5b3247babc", element="05A5EDB93CD02E36378D73A0FAC692DA_element_302")>
+2023-09-27 14:32:20.040235 : else departure not true
+2023-09-27 14:32:28.766001 : all inclusive
+2023-09-27 14:32:30.772031 : 0
+2023-09-27 14:32:55.827683 : []
+2023-09-27 14:32:55.833084 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&mtm=5&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/terminy-a-ceny
+2023-09-27 14:33:08.152198 : <selenium.webdriver.remote.webelement.WebElement (session="a1c6cb1b128fdff83c0d83ec73cec4c5", element="8A9F388331B1931EEA788B24D4BBA443_element_301")>
+2023-09-27 14:33:14.441477 : if departure==True
+2023-09-27 14:34:20.984667 : https://kartagosk.stg.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&ptm=0&tom=483&tt=1&ttm=1#/terminy-a-ceny
+2023-09-27 14:34:32.300532 : <selenium.webdriver.remote.webelement.WebElement (session="be0dcc598c12664de03202f611e5ec5f", element="F8B81A0F06ADABD763CE8C14EB10DFCB_element_267")>
+2023-09-27 14:34:33.106473 : benefit item
+2023-09-27 14:34:33.213188 : benefit item
+2023-09-27 14:34:33.266048 : benefit item
+2023-09-27 14:34:33.340871 : benefit item
+2023-09-27 14:34:33.350347 : benefit item
+2023-09-27 14:34:33.360880 : benefit item
+2023-09-27 14:34:33.573314 : grind container
+2023-09-27 14:34:33.582291 : grind container
+2023-09-27 14:34:33.595257 : grind container
+2023-09-27 14:34:33.606226 : grind container
+2023-09-27 14:34:33.616200 : grind container
+2023-09-27 14:34:33.626174 : grind container
+2023-09-27 14:34:33.644128 : grind container
+2023-09-27 14:34:33.653102 : grind container
+2023-09-27 14:34:33.664073 : grind container
+2023-09-27 14:34:33.708952 : grind container
+2023-09-27 14:34:33.725909 : grind container
+2023-09-27 14:34:33.737878 : grind container
+2023-09-27 14:34:33.749844 : grind container
+2023-09-27 14:34:33.759818 : grind container
+2023-09-27 14:34:33.899446 : tile img
+2023-09-27 14:34:33.909420 : tile img
+2023-09-27 14:34:33.918396 : tile img
+2023-09-27 14:34:33.927372 : tile img
+2023-09-27 14:34:33.936348 : tile img
+2023-09-27 14:34:33.944327 : tile img
+2023-09-27 14:34:33.948316 : https://kartagosk.stg.dtweb.cz/uzitocne-informacie/mango-club
+2023-09-27 14:34:47.869750 : <selenium.webdriver.remote.webelement.WebElement (session="460c5e5cc208487a06ca581a50739ca2", element="B6788831FEFE3F0E10D4224FC634DC15_element_489")>
+2023-09-27 14:34:49.674359 : https://kartagosk.stg.dtweb.cz/first-minute/leto
+2023-09-27 14:35:10.356368 : <selenium.webdriver.remote.webelement.WebElement (session="07cd34a14e68093d74d3b9df9d2635ee", element="9D0BAE6E4FA4F1DAA1470602041F8E39_element_273")>
+2023-09-27 14:35:14.250846 : ZANZIBAR
+2023-09-27 14:35:16.746969 : hote dlazdice klik
+2023-09-27 14:35:23.666606 : GRÉCKO
+2023-09-27 14:35:28.043531 : hote dlazdice klik
+2023-09-27 14:35:32.332598 : TURECKO
+2023-09-27 14:35:33.697791 : hote dlazdice klik
+2023-09-27 14:35:38.430196 : EGYPT
+2023-09-27 14:35:39.610814 : hote dlazdice klik
+2023-09-27 14:35:44.120226 : KAPVERDY
+2023-09-27 14:35:47.689239 : hote dlazdice klik
+2023-09-27 14:35:51.892053 : MALEDIVY
+2023-09-27 14:35:54.316624 : hote dlazdice klik
+2023-09-27 14:35:58.054866 : DUBAJ
+2023-09-27 14:35:59.325485 : hote dlazdice klik
+2023-09-27 14:36:03.255570 : POISTENIE
+2023-09-27 14:36:04.276382 : hote dlazdice klik
+2023-09-27 14:36:09.524015 : PARKOVANIE
+2023-09-27 14:36:10.918105 : hote dlazdice klik
+2023-09-27 14:36:15.124386 : MIRAGE BAY
+2023-09-27 14:36:16.212816 : hote dlazdice klik
+2023-09-27 14:36:20.477151 : MITSIS
+2023-09-27 14:36:21.687254 : hote dlazdice klik
+2023-09-27 14:36:26.058871 : PRIMA LIFE
+2023-09-27 14:36:27.802680 : hote dlazdice klik
+2023-09-27 14:36:32.005057 : PICKALBATROS
+2023-09-27 14:36:33.169958 : hote dlazdice klik
+2023-09-27 14:36:37.131081 : TITANIC
+2023-09-27 14:36:38.328655 : hote dlazdice klik
+2023-09-27 14:36:42.264937 : MIRAGE
+2023-09-27 14:36:43.406544 : hote dlazdice klik
+2023-09-27 14:36:43.627954 : https://kartagosk.stg.dtweb.cz/spojene-arabske-emiraty/dubaj/dubaj/centara-mirage-beach-resort-dubai?DS=65536&GIATA=1248562&D=64089&HID=142108&DF=2023-10-22|2023-11-19&RD=2023-11-12&DD=2023-11-05&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=DXB75000&DPR=KARTAGO-SK-ATCOM
+2023-09-27 14:36:54.527139 : <selenium.webdriver.remote.webelement.WebElement (session="ecbb6b085ade7257cce48c3d885b4e3d", element="878617E68C738E45663A546954808A45_element_267")>
+2023-09-27 14:36:54.804401 : ZANZIBAR
+2023-09-27 14:36:58.480865 : GRÉCKO
+2023-09-27 14:37:02.684969 : TURECKO
+2023-09-27 14:37:05.759690 : EGYPT
+2023-09-27 14:37:08.424599 : KAPVERDY
+2023-09-27 14:37:11.632432 : MALEDIVY
+2023-09-27 14:37:14.991492 : DUBAJ
+2023-09-27 14:37:17.771630 : POISTENIE
+2023-09-27 14:37:21.201186 : PARKOVANIE
+2023-09-27 14:37:23.700427 : MIRAGE BAY
+2023-09-27 14:37:26.594097 : MITSIS
+2023-09-27 14:37:28.973787 : PRIMA LIFE
+2023-09-27 14:37:31.734628 : PICKALBATROS
+2023-09-27 14:37:34.442778 : TITANIC
+2023-09-27 14:37:37.125638 : MIRAGE
+2023-09-27 14:37:37.238338 : https://kartagosk.stg.dtweb.cz/hladanie-vysledky?q=Mirage
+2023-09-27 14:37:49.096074 : <selenium.webdriver.remote.webelement.WebElement (session="518a1fae0204397a676c7a043123fb71", element="4836C89AF98609FEB99B9A24655803A2_element_270")>
+2023-09-27 14:37:50.345749 : https://kartagosk.stg.dtweb.cz/vysledky-vyhladavania?tt=1&to=483|1837|2933|3437&dd=2022-09-01&rd=2022-09-25&nn=7|8|9|10|11|12|13&ka1=6&kc1=1&ac1=2
+2023-09-27 14:38:34.286298 : <selenium.webdriver.remote.webelement.WebElement (session="a6628cce80e58fef6ac5f2121e66b8f5", element="18AFBE4263B84A288724D3E1BA87400F_element_535")>
+2023-09-27 14:38:41.421285 : ['15.10. (Ne) / 7 nocí\nHurghada (Egypt)\nBratislava\n645 €', '22.10. (Ne) / 7 nocí\nHurghada (Egypt)\nBratislava\n645 €', '22.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n1 446 €', '22.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n1 446 €', '24.10. (Út) / 7 nocí\nJardines del Rey (Kuba)\nBratislava\n1 399 €', '2.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n839 €', '5.11. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n839 €', '5.11. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n839 €', '9.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n839 €', '12.11. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n839 €', '16.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n810 €', '19.11. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n788 €']
+2023-09-27 14:38:41.421285 : ['25.10. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 459 €', '29.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n927 €', '31.10. (Út) / 7 nocí\nKuba\nBratislava\n1 467 €', '3.11. (Pi) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 399 €', '7.11. (Út) / 7 nocí\nKuba\nBratislava\n1 466 €', '10.11. (Pi) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 399 €', '14.11. (Út) / 7 nocí\nKuba\nBratislava\n1 417 €', '15.11. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 499 €', '16.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n810 €', '21.11. (Út) / 7 nocí\nKuba\nBratislava\n1 417 €', '22.11. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 628 €', '24.11. (Pi) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 662 €']
+2023-09-27 14:38:41.425277 : https://kartagosk.stg.dtweb.cz/

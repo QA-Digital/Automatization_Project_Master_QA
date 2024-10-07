@@ -1,0 +1,93 @@
+2024-04-15 10:20:46.896569 : <selenium.webdriver.remote.webelement.WebElement (session="b6a765deccc1b15e23d1b60fcceb199c", element="f.727A7E45356F3E294A2F5F71D3572CCF.d.29E008FF6F6334BC925438BE4A4FBE62.e.41")>
+2024-04-15 10:21:14.802786 : nenasle se exponea banner
+2024-04-15 10:21:15.365186 : gridy jdou videt
+2024-04-15 10:21:15.537108 : gridy jdou videt
+2024-04-15 10:21:15.552730 : gridy jdou videt
+2024-04-15 10:21:15.552730 : gridy jdou videt
+2024-04-15 10:21:15.568351 : gridy jdou videt
+2024-04-15 10:21:15.568351 : gridy jdou videt
+2024-04-15 10:21:15.583973 : gridy jdou videt
+2024-04-15 10:21:15.599595 : gridy jdou videt
+2024-04-15 10:21:15.599595 : gridy jdou videt
+2024-04-15 10:21:15.615216 : gridy jdou videt
+2024-04-15 10:21:15.615216 : gridy jdou videt
+2024-04-15 10:21:15.630836 : gridy jdou videt
+2024-04-15 10:21:15.646460 : gridy jdou videt
+2024-04-15 10:21:15.646460 : gridy jdou videt
+2024-04-15 10:21:15.662079 : gridy jdou videt
+2024-04-15 10:21:15.662079 : gridy jdou videt
+2024-04-15 10:21:15.677701 : gridy jdou videt
+2024-04-15 10:21:15.677701 : gridy jdou videt
+2024-04-15 10:21:15.693322 : gridy jdou videt
+2024-04-15 10:21:15.693322 : gridy jdou videt
+2024-04-15 10:21:15.740186 : content jdou videt
+2024-04-15 10:21:15.755808 : content jdou videt
+2024-04-15 10:21:15.755808 : content jdou videt
+2024-04-15 10:21:15.771935 : content jdou videt
+2024-04-15 10:21:15.771935 : content jdou videt
+2024-04-15 10:21:15.787560 : content jdou videt
+2024-04-15 10:21:15.787560 : content jdou videt
+2024-04-15 10:21:15.803068 : content jdou videt
+2024-04-15 10:21:15.803068 : content jdou videt
+2024-04-15 10:21:15.818694 : content jdou videt
+2024-04-15 10:21:15.834495 : content jdou videt
+2024-04-15 10:21:15.834495 : content jdou videt
+2024-04-15 10:21:15.850117 : content jdou videt
+2024-04-15 10:21:15.850117 : content jdou videt
+2024-04-15 10:21:15.865843 : content jdou videt
+2024-04-15 10:21:15.881466 : content jdou videt
+2024-04-15 10:21:15.881466 : content jdou videt
+2024-04-15 10:21:15.896474 : content jdou videt
+2024-04-15 10:21:15.896474 : content jdou videt
+2024-04-15 10:21:15.912100 : content jdou videt
+2024-04-15 10:21:15.912100 : https://fischersk2.stg.dtweb.cz/covid-info
+2024-04-15 10:21:47.772012 : <selenium.webdriver.remote.webelement.WebElement (session="7aad95177b5616df805c3fe43f9c3fb2", element="f.95D743EA25BB2BB7953F93C122A6047C.d.A834A6B866DFDFC6BAE74F75F56EB738.e.817")>
+2024-04-15 10:21:48.133787 : https://fischersk2.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-15 10:21:55.100611 : <selenium.webdriver.remote.webelement.WebElement (session="25e2425c14094af745e4b3284093c80a", element="f.591CB79BDBC403B7F5841C343C58B4A4.d.0B23C9363A0FECF3B0337632F0115DBC.e.440")>
+2024-04-15 10:22:30.209365 : https://fischersk2.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-04-15 10:22:48.193798 : <selenium.webdriver.remote.webelement.WebElement (session="f9d7b623973cf9d406ebb84fdc907d52", element="f.A476CBD7B8290CDBB65DEDBEF797D254.d.A8436511B93FA9B909C561F5E9F97E1E.e.472")>
+2024-04-15 10:22:54.412717 : else departure not true
+2024-04-15 10:23:02.829920 : all inclusive
+2024-04-15 10:23:04.834443 : 0
+2024-04-15 10:23:29.850367 : []
+2024-04-15 10:23:29.865886 : https://fischersk2.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terminy
+2024-04-15 10:23:39.256897 : <selenium.webdriver.remote.webelement.WebElement (session="8432e6ca93dddf6147885eb9e0eff37b", element="f.483C37447D01CB954B28492F3D8C3C17.d.B250C28DC871F5F4D3885B6CBB2507D8.e.447")>
+2024-04-15 10:23:45.537789 : if departure==True
+2024-04-15 10:24:52.015265 : https://fischersk2.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2024-04-15 10:25:19.985430 : <selenium.webdriver.remote.webelement.WebElement (session="cfbe9ffeac358e300e21ade2fdc733c0", element="f.7C4FDEF49EF9B4425BA56ABB61481984.d.A8831969EC3DCF85EDA5CEB5931C251A.e.410")>
+2024-04-15 10:25:21.537566 : benefit item
+2024-04-15 10:25:21.548538 : benefit item
+2024-04-15 10:25:21.560067 : benefit item
+2024-04-15 10:25:21.560067 : benefit item
+2024-04-15 10:25:21.710460 : grind container
+2024-04-15 10:25:21.726085 : grind container
+2024-04-15 10:25:21.726085 : grind container
+2024-04-15 10:25:21.743530 : grind container
+2024-04-15 10:25:21.743530 : grind container
+2024-04-15 10:25:21.759151 : grind container
+2024-04-15 10:25:21.772659 : grind container
+2024-04-15 10:25:21.772659 : grind container
+2024-04-15 10:25:21.788285 : grind container
+2024-04-15 10:25:21.788285 : grind container
+2024-04-15 10:25:21.803907 : grind container
+2024-04-15 10:25:21.819528 : grind container
+2024-04-15 10:25:21.819528 : grind container
+2024-04-15 10:25:21.835149 : grind container
+2024-04-15 10:25:22.038222 : tile img
+2024-04-15 10:25:22.053843 : tile img
+2024-04-15 10:25:22.053843 : https://fischersk2.stg.dtweb.cz/dovolenka-animacne-kluby
+2024-04-15 10:25:39.531507 : <selenium.webdriver.remote.webelement.WebElement (session="4e43dd20cbfb95d088ea4a9aa75ef638", element="f.729F6FC6AC67E9983C7A408E61C7220A.d.0E23D8EAD64F33855540FB0073A86CAA.e.845")>
+2024-04-15 10:25:39.878182 : Položka menu existuje
+2024-04-15 10:26:07.420429 : https://fischersk2.stg.dtweb.cz/
+2024-04-15 10:26:22.997569 : <selenium.webdriver.remote.webelement.WebElement (session="1eb0cfd62a2b7c97ac93e39b21fffa61", element="f.CC78FA28B83EC46640522DD8D2F331AE.d.EFE9A91B70CEC5F62D59EE52C0958329.e.793")>
+2024-04-15 10:26:24.788596 : https://fischersk2.stg.dtweb.cz/first-minute
+2024-04-15 10:26:31.002156 : <selenium.webdriver.remote.webelement.WebElement (session="e620e176e9ae62af39986470d1507f93", element="f.912C7B1B90FE53EC59B10B2A7B4E4BEF.d.BFC4170B4342B58663BEA82D7268E73A.e.433")>
+2024-04-15 10:26:35.273479 : GRÉCKO
+2024-04-15 10:26:38.540250 : hote dlazdice klik
+2024-04-15 10:26:42.149277 : TURECKO
+2024-04-15 10:26:45.187319 : hote dlazdice klik
+2024-04-15 10:26:48.835724 : EGYPT
+2024-04-15 10:26:49.779522 : hote dlazdice klik
+2024-04-15 10:26:53.228948 : KAPVERDY
+2024-04-15 10:26:58.853055 : <selenium.webdriver.remote.webelement.WebElement (session="599c816aa364d575a42776300c8284f5", element="f.1C8E3985C005F5910226A5617DBA36D1.d.09BFAB0824E479DF795EEDE8A55A0553.e.417")>
+2024-04-15 10:26:59.171969 : GRÉCKO

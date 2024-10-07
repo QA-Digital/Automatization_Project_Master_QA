@@ -1,0 +1,5 @@
+2023-12-14 09:48:19.745554 : <selenium.webdriver.remote.webelement.WebElement (session="4480f89d350f005a87836edb9808cafe", element="A774671B16C84FE1B3262F60274C53E7_element_469")>
+2023-12-14 09:48:20.624208 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2023-12-14 09:48:27.370194 : <selenium.webdriver.remote.webelement.WebElement (session="bf6a8cfdd0e7d666b022f005b3c90992", element="4CAAACA517D4E44DE2653307A0D1596C_element_267")>
+2023-12-14 09:48:32.672536 : its ok
+2023-12-14 09:48:32.678521 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864-15.jpeg

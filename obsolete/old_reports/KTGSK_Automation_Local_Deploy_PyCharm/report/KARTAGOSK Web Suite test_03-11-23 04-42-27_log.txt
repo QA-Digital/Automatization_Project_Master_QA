@@ -1,0 +1,37 @@
+2023-11-03 16:42:39.559298 : <selenium.webdriver.remote.webelement.WebElement (session="93c556b174c48aedf2578a75f490c4e6", element="CD5141055497AE0E5AC610C776475754_element_269")>
+2023-11-03 16:43:07.797579 : nenasle se exponea banner
+2023-11-03 16:43:07.883144 : gridy jdou videt
+2023-11-03 16:43:07.892835 : gridy jdou videt
+2023-11-03 16:43:07.902808 : gridy jdou videt
+2023-11-03 16:43:07.912782 : gridy jdou videt
+2023-11-03 16:43:07.921758 : gridy jdou videt
+2023-11-03 16:43:07.930733 : gridy jdou videt
+2023-11-03 16:43:07.940707 : gridy jdou videt
+2023-11-03 16:43:07.950680 : gridy jdou videt
+2023-11-03 16:43:07.959657 : gridy jdou videt
+2023-11-03 16:43:07.968633 : gridy jdou videt
+2023-11-03 16:43:07.976611 : gridy jdou videt
+2023-11-03 16:43:07.984590 : gridy jdou videt
+2023-11-03 16:43:07.995560 : gridy jdou videt
+2023-11-03 16:43:08.005533 : gridy jdou videt
+2023-11-03 16:43:08.014510 : gridy jdou videt
+2023-11-03 16:43:08.025481 : gridy jdou videt
+2023-11-03 16:43:08.035454 : gridy jdou videt
+2023-11-03 16:43:08.090308 : content jdou videt
+2023-11-03 16:43:08.098286 : content jdou videt
+2023-11-03 16:43:08.107263 : content jdou videt
+2023-11-03 16:43:08.115242 : content jdou videt
+2023-11-03 16:43:08.124218 : content jdou videt
+2023-11-03 16:43:08.133193 : content jdou videt
+2023-11-03 16:43:08.141173 : content jdou videt
+2023-11-03 16:43:08.150148 : content jdou videt
+2023-11-03 16:43:08.158127 : content jdou videt
+2023-11-03 16:43:08.167103 : content jdou videt
+2023-11-03 16:43:08.181066 : content jdou videt
+2023-11-03 16:43:08.198021 : content jdou videt
+2023-11-03 16:43:08.249882 : content jdou videt
+2023-11-03 16:43:08.276811 : content jdou videt
+2023-11-03 16:43:08.303739 : content jdou videt
+2023-11-03 16:43:08.314709 : content jdou videt
+2023-11-03 16:43:08.323685 : content jdou videt
+2023-11-03 16:43:08.328672 : https://kartagosk.stg.dtweb.cz/covid-info

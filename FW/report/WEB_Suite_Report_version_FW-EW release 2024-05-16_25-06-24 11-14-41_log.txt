@@ -1,0 +1,5 @@
+2024-06-25 11:15:08.500772 : its ok
+2024-06-25 11:15:08.504786 : https://img.fischer.cz/hotels/spanelsko/andalusie/fuengirola/globales-gardenia/8272424.jpg
+2024-06-25 11:16:53.826170 : Popup formuláø je zobrazený:    
+2024-06-25 11:16:53.857412 : True
+2024-06-25 11:16:53.888654 : https://fischer.stg.dtweb.cz/pobocky/brno-vankovka

@@ -1,0 +1,205 @@
+2024-02-01 16:20:42.399748 : <selenium.webdriver.remote.webelement.WebElement (session="de7ff846ccaf4137ea05fcd596deb6e3", element="13575EF451F628FAAC199171D5077A63_element_425")>
+2024-02-01 16:21:10.587760 : nenasle se exponea banner
+2024-02-01 16:21:10.652111 : gridy jdou videt
+2024-02-01 16:21:10.667734 : gridy jdou videt
+2024-02-01 16:21:10.667734 : gridy jdou videt
+2024-02-01 16:21:10.681242 : gridy jdou videt
+2024-02-01 16:21:10.681242 : gridy jdou videt
+2024-02-01 16:21:10.696868 : gridy jdou videt
+2024-02-01 16:21:10.712376 : gridy jdou videt
+2024-02-01 16:21:10.712376 : gridy jdou videt
+2024-02-01 16:21:10.728002 : gridy jdou videt
+2024-02-01 16:21:10.728002 : gridy jdou videt
+2024-02-01 16:21:10.743623 : gridy jdou videt
+2024-02-01 16:21:10.760318 : gridy jdou videt
+2024-02-01 16:21:10.761324 : gridy jdou videt
+2024-02-01 16:21:10.775332 : gridy jdou videt
+2024-02-01 16:21:10.775332 : gridy jdou videt
+2024-02-01 16:21:10.790958 : gridy jdou videt
+2024-02-01 16:21:10.806467 : gridy jdou videt
+2024-02-01 16:21:10.806467 : gridy jdou videt
+2024-02-01 16:21:10.822093 : gridy jdou videt
+2024-02-01 16:21:10.822093 : gridy jdou videt
+2024-02-01 16:21:10.884680 : content jdou videt
+2024-02-01 16:21:10.884680 : content jdou videt
+2024-02-01 16:21:10.900188 : content jdou videt
+2024-02-01 16:21:10.900188 : content jdou videt
+2024-02-01 16:21:10.915814 : content jdou videt
+2024-02-01 16:21:10.931322 : content jdou videt
+2024-02-01 16:21:10.931322 : content jdou videt
+2024-02-01 16:21:10.946947 : content jdou videt
+2024-02-01 16:21:10.946947 : content jdou videt
+2024-02-01 16:21:10.964548 : content jdou videt
+2024-02-01 16:21:10.980170 : content jdou videt
+2024-02-01 16:21:10.980170 : content jdou videt
+2024-02-01 16:21:10.993679 : content jdou videt
+2024-02-01 16:21:11.009306 : content jdou videt
+2024-02-01 16:21:11.009306 : content jdou videt
+2024-02-01 16:21:11.024925 : content jdou videt
+2024-02-01 16:21:11.040546 : content jdou videt
+2024-02-01 16:21:11.040546 : content jdou videt
+2024-02-01 16:21:11.056168 : content jdou videt
+2024-02-01 16:21:11.056168 : content jdou videt
+2024-02-01 16:21:11.073901 : https://fischersk.web2.dtweb.cz/covid-info
+2024-02-01 16:21:25.667772 : <selenium.webdriver.remote.webelement.WebElement (session="201127f2650b21fbec7c88d82632c82a", element="E994520D1DFC4C62CCC28ABBF9BF451A_element_860")>
+2024-02-01 16:21:26.004747 : https://fischersk.web2.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-02-01 16:21:33.730508 : <selenium.webdriver.remote.webelement.WebElement (session="ff71ac71dd71efa7c28f04d0e33f8041", element="25DA74C321EE30F73DD08691551FE960_element_471")>
+2024-02-01 16:21:43.948028 : its ok
+2024-02-01 16:21:43.948028 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/_h7a7868.jpg
+2024-02-01 16:21:53.593585 : <selenium.webdriver.remote.webelement.WebElement (session="40109aabac296c77866d0a835b94e1a2", element="EC45B970F5A3790A12355254E46DEC94_element_451")>
+2024-02-01 16:21:59.839709 : else departure not true
+2024-02-01 16:22:08.260556 : all inclusive
+2024-02-01 16:22:10.275617 : 0
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ok
+2024-02-01 16:22:10.462804 : ['all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra']
+2024-02-01 16:22:10.478430 : https://fischersk.web2.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terminy
+2024-02-01 16:22:19.337881 : <selenium.webdriver.remote.webelement.WebElement (session="46aa2445ca2594ecc6a2656a96a90f58", element="781EF092952CC8E642E9D98DDD4AB8DB_element_451")>
+2024-02-01 16:22:25.635042 : if departure==True
+2024-02-01 16:22:41.963169 : equal to košice
+2024-02-01 16:22:41.994336 : equal to košice
+2024-02-01 16:22:42.025583 : equal to košice
+2024-02-01 16:22:42.059053 : equal to košice
+2024-02-01 16:22:42.088185 : equal to košice
+2024-02-01 16:22:42.103810 : equal to košice
+2024-02-01 16:22:42.134958 : equal to košice
+2024-02-01 16:22:42.167441 : equal to košice
+2024-02-01 16:22:42.197571 : equal to košice
+2024-02-01 16:22:42.213080 : equal to košice
+2024-02-01 16:22:42.244327 : equal to košice
+2024-02-01 16:22:42.259949 : equal to košice
+2024-02-01 16:22:42.293358 : equal to košice
+2024-02-01 16:22:42.322502 : equal to košice
+2024-02-01 16:22:42.338010 : equal to košice
+2024-02-01 16:22:42.369257 : equal to košice
+2024-02-01 16:22:42.400494 : equal to košice
+2024-02-01 16:22:42.431743 : equal to košice
+2024-02-01 16:22:42.462985 : equal to košice
+2024-02-01 16:22:42.731895 : https://fischersk.web2.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2024-02-01 16:22:56.666361 : <selenium.webdriver.remote.webelement.WebElement (session="5944bc279feb7aa093df03b920d798d1", element="0485E990D94A0511F753EE7809C6D955_element_411")>
+2024-02-01 16:22:58.117362 : benefit item
+2024-02-01 16:22:58.126338 : benefit item
+2024-02-01 16:22:58.134317 : benefit item
+2024-02-01 16:22:58.142296 : benefit item
+2024-02-01 16:22:58.151271 : benefit item
+2024-02-01 16:22:58.997014 : grind container
+2024-02-01 16:22:59.005990 : grind container
+2024-02-01 16:22:59.106721 : grind container
+2024-02-01 16:22:59.213760 : grind container
+2024-02-01 16:22:59.244381 : grind container
+2024-02-01 16:22:59.244381 : grind container
+2024-02-01 16:22:59.260007 : grind container
+2024-02-01 16:22:59.277439 : grind container
+2024-02-01 16:22:59.293060 : grind container
+2024-02-01 16:22:59.307070 : grind container
+2024-02-01 16:22:59.309972 : grind container
+2024-02-01 16:22:59.309972 : grind container
+2024-02-01 16:22:59.338101 : grind container
+2024-02-01 16:22:59.486849 : tile img
+2024-02-01 16:22:59.498541 : tile img
+2024-02-01 16:22:59.501179 : https://fischersk.web2.dtweb.cz/dovolenka-s-klubovym-programom
+2024-02-01 16:23:09.779526 : <selenium.webdriver.remote.webelement.WebElement (session="e1de890d022848d8cb711757ff4696da", element="B07BD7C30BA41F641C1B4BE4741EC106_element_844")>
+2024-02-01 16:23:09.937473 : Položka menu existuje
+2024-02-01 16:23:37.463830 : https://fischersk.web2.dtweb.cz/
+2024-02-01 16:23:51.995166 : <selenium.webdriver.remote.webelement.WebElement (session="08bb3632c3bbbf44cdbd7a4046a63cd2", element="20C945BE27E7D8E772720400AC545432_element_803")>
+2024-02-01 16:23:53.729095 : https://fischersk.web2.dtweb.cz/first-minute
+2024-02-01 16:24:01.135782 : <selenium.webdriver.remote.webelement.WebElement (session="94498768b34a71ad4b9f1fdd5a471a87", element="5634BB9B9058431B91696CD8A6BCE58B_element_418")>
+2024-02-01 16:24:04.681795 : GRÉCKO
+2024-02-01 16:24:07.970651 : hote dlazdice klik
+2024-02-01 16:24:10.924536 : TURECKO
+2024-02-01 16:24:13.380598 : hote dlazdice klik
+2024-02-01 16:24:16.980987 : EGYPT
+2024-02-01 16:24:17.948193 : hote dlazdice klik
+2024-02-01 16:24:21.198450 : KAPVERDY
+2024-02-01 16:24:23.163854 : hote dlazdice klik
+2024-02-01 16:34:28.608191 : <selenium.webdriver.remote.webelement.WebElement (session="ecc788926256b6a095fc14a536f3f577", element="CD626A42F62D78EBF9E39A2A9B04E12A_element_420")>
+2024-02-01 16:34:28.931768 : GRÉCKO
+2024-02-01 16:34:37.479935 : TURECKO
+2024-02-01 16:34:44.055394 : EGYPT
+2024-02-01 16:34:47.252704 : KAPVERDY
+2024-02-01 16:34:51.259827 : WHITE GOLD
+2024-02-01 16:34:55.637274 : POISTENIE
+2024-02-01 16:35:00.013640 : PARKOVANIE
+2024-02-01 16:35:03.266135 : https://fischersk.web2.dtweb.cz/hladanie-vysledky?q=parkovanie
+2024-02-01 16:35:12.084738 : <selenium.webdriver.remote.webelement.WebElement (session="5ffe3306a8f750bfc784301016a54546", element="483129F7EEDA58377A3AEE45C47B92D4_element_422")>
+2024-02-01 16:35:13.023190 : https://fischersk.web2.dtweb.cz/vysledky-vyhladavania?dd=2023-07-01&nn=7|8|9&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437&tt=1
+2024-02-01 16:35:24.124425 : <selenium.webdriver.remote.webelement.WebElement (session="4c7c860f779d819b56ef9146f5a082a5", element="282A835B588E04E3319675407CD8299A_element_843")>
+2024-02-01 16:35:26.249301 : https://fischersk.web2.dtweb.cz/
+2024-02-01 16:35:44.343141 : <selenium.webdriver.remote.webelement.WebElement (session="e84a4eb0d527c7d5acb286b31202eccb", element="7DB5F9CE6D3355629827849F3CF91B34_element_825")>
+2024-02-01 16:36:16.968090 : https://fischersk.web2.dtweb.cz/last-minute
+2024-02-01 16:36:27.968573 : <selenium.webdriver.remote.webelement.WebElement (session="bf67c8ba88f3eb744b5da75bb624309a", element="DB111DCCCE0B1BC62C87036A72A90382_element_431")>
+2024-02-01 16:36:53.158031 : boxiky
+2024-02-01 16:36:53.158031 : boxiky
+2024-02-01 16:36:53.173654 : boxiky
+2024-02-01 16:36:53.187162 : boxiky
+2024-02-01 16:36:53.187162 : boxiky
+2024-02-01 16:36:53.202788 : boxiky
+2024-02-01 16:36:53.202788 : boxiky
+2024-02-01 16:36:53.218409 : boxiky
+2024-02-01 16:36:53.218409 : boxiky
+2024-02-01 16:36:53.245596 : boxiky
+2024-02-01 16:36:53.256208 : boxiky
+2024-02-01 16:36:53.266729 : boxiky
+2024-02-01 16:36:53.276702 : boxiky
+2024-02-01 16:36:53.282144 : boxiky
+2024-02-01 16:36:53.282144 : boxiky
+2024-02-01 16:36:53.297766 : boxiky
+2024-02-01 16:36:53.321521 : boxiky
+2024-02-01 16:36:53.333488 : boxiky
+2024-02-01 16:36:53.342465 : boxiky
+2024-02-01 16:36:53.353016 : boxiky
+2024-02-01 16:36:53.415585 : basic info 
+2024-02-01 16:36:53.426555 : basic info 
+2024-02-01 16:36:53.437526 : basic info 
+2024-02-01 16:36:53.449959 : basic info 
+2024-02-01 16:36:53.461002 : basic info 
+2024-02-01 16:36:53.473706 : basic info 
+2024-02-01 16:36:53.481684 : basic info 
+2024-02-01 16:36:53.490661 : basic info 
+2024-02-01 16:36:53.503514 : basic info 
+2024-02-01 16:36:53.513487 : basic info 
+2024-02-01 16:36:53.522178 : basic info 
+2024-02-01 16:36:53.530156 : basic info 
+2024-02-01 16:36:53.535130 : basic info 
+2024-02-01 16:36:53.550753 : basic info 
+2024-02-01 16:36:53.565878 : basic info 
+2024-02-01 16:36:53.573855 : basic info 
+2024-02-01 16:36:53.582831 : basic info 
+2024-02-01 16:36:53.598569 : basic info 
+2024-02-01 16:36:53.607545 : basic info 
+2024-02-01 16:36:53.609649 : basic info 
+2024-02-01 16:36:53.609649 : https://fischersk.web2.dtweb.cz/kontakty/zoznam-pobociek
+2024-02-01 16:37:14.750289 : <selenium.webdriver.remote.webelement.WebElement (session="2caeaae690c2147b185a1e7836691c53", element="844ACD003AF61E0207DB6F28E7FF7FEF_element_795")>
+2024-02-01 16:37:16.016707 : https://fischersk.web2.dtweb.cz/spanielsko
+2024-02-01 16:37:25.824362 : <selenium.webdriver.remote.webelement.WebElement (session="b2f10694227bf5156ee76e1a45878ab6", element="CED62C768A077A8C04D4B7AED7619E09_element_531")>
+2024-02-01 16:37:41.507975 : Cheap sorter is OK
+2024-02-01 16:37:41.507975 : LIST FROM WEB:
+2024-02-01 16:37:41.507975 : [996, 1038, 1048, 1062, 1094, 1100, 1128, 1168, 1194, 1220, 1222, 1234, 1238, 1246, 1254, 1254, 1258, 1268, 1268, 1268]
+2024-02-01 16:37:41.507975 : CORRECTLY SORTED LIST
+2024-02-01 16:37:41.507975 : [996, 1038, 1048, 1062, 1094, 1100, 1128, 1168, 1194, 1220, 1222, 1234, 1238, 1246, 1254, 1254, 1258, 1268, 1268, 1268]
+2024-02-01 16:37:41.507975 : https://fischersk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-01 16:37:51.750660 : <selenium.webdriver.remote.webelement.WebElement (session="532280a1a789b50175be7db0b25e649f", element="F498DA6043D03B0080AA84F4CE614C15_element_549")>
+2024-02-01 16:38:07.281589 : Expensive sorter is OK
+2024-02-01 16:38:07.281589 : LIST FROM WEB:
+2024-02-01 16:38:07.281589 : [3330, 3318, 3226, 3050, 2970, 2696, 2626, 2490, 2448, 2430, 2422, 2364, 2334, 2324, 2320, 2242, 2170, 2170, 2116, 2100]
+2024-02-01 16:38:07.281589 : CORRECTLY SORTED LIST
+2024-02-01 16:38:07.281589 : [3330, 3318, 3226, 3050, 2970, 2696, 2626, 2490, 2448, 2430, 2422, 2364, 2334, 2324, 2320, 2242, 2170, 2170, 2116, 2100]
+2024-02-01 16:38:07.297215 : https://fischersk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1

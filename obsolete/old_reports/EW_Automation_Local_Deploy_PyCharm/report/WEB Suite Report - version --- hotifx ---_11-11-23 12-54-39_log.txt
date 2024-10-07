@@ -1,0 +1,16 @@
+2023-11-11 12:54:51.942584 : None
+2023-11-11 12:54:51.942584 : consent pass
+2023-11-11 12:54:52.995797 : gridy jdou videt
+2023-11-11 12:54:53.007765 : gridy jdou videt
+2023-11-11 12:54:53.020731 : gridy jdou videt
+2023-11-11 12:54:53.056635 : https://exim.web12.dtweb.cz/covid-info
+2023-11-11 12:55:05.184050 : <selenium.webdriver.firefox.webelement.FirefoxWebElement (session="814c4e18-4cf8-4974-9626-4fead1ac485a", element="66786271-2c81-4496-a823-9dcf1ba8be8c")>
+2023-11-11 12:55:05.581440 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2023-11-11 12:55:19.191506 : None
+2023-11-11 12:55:19.191506 : consent pass
+2023-11-11 12:55:24.371562 : its ok
+2023-11-11 12:55:24.373548 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864-15.jpeg
+2023-11-11 12:55:39.083677 : None
+2023-11-11 12:55:39.083677 : consent pass
+2023-11-11 12:55:45.263977 : else departure not true
+2023-11-11 12:55:50.808622 : https://exim.web12.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy

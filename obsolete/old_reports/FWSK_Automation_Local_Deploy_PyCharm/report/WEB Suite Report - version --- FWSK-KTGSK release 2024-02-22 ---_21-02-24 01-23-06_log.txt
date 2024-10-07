@@ -1,0 +1,696 @@
+2024-02-21 13:23:13.878719 : <selenium.webdriver.remote.webelement.WebElement (session="8b288adcaa959b0afbbdb2e4a959a668", element="D41C29B75F5B4E7BCE19D4D58352DDEB_element_426")>
+2024-02-21 13:23:41.833033 : nenasle se exponea banner
+2024-02-21 13:23:41.902222 : gridy jdou videt
+2024-02-21 13:23:41.912206 : gridy jdou videt
+2024-02-21 13:23:41.921327 : gridy jdou videt
+2024-02-21 13:23:41.930339 : gridy jdou videt
+2024-02-21 13:23:41.939690 : gridy jdou videt
+2024-02-21 13:23:41.949254 : gridy jdou videt
+2024-02-21 13:23:41.959233 : gridy jdou videt
+2024-02-21 13:23:41.968265 : gridy jdou videt
+2024-02-21 13:23:41.977094 : gridy jdou videt
+2024-02-21 13:23:41.986333 : gridy jdou videt
+2024-02-21 13:23:41.995911 : gridy jdou videt
+2024-02-21 13:23:42.005821 : gridy jdou videt
+2024-02-21 13:23:42.014743 : gridy jdou videt
+2024-02-21 13:23:42.024863 : gridy jdou videt
+2024-02-21 13:23:42.034161 : gridy jdou videt
+2024-02-21 13:23:42.045513 : gridy jdou videt
+2024-02-21 13:23:42.055209 : gridy jdou videt
+2024-02-21 13:23:42.064562 : gridy jdou videt
+2024-02-21 13:23:42.073210 : gridy jdou videt
+2024-02-21 13:23:42.083774 : gridy jdou videt
+2024-02-21 13:23:42.133977 : content jdou videt
+2024-02-21 13:23:42.143118 : content jdou videt
+2024-02-21 13:23:42.152074 : content jdou videt
+2024-02-21 13:23:42.161713 : content jdou videt
+2024-02-21 13:23:42.171744 : content jdou videt
+2024-02-21 13:23:42.181647 : content jdou videt
+2024-02-21 13:23:42.191619 : content jdou videt
+2024-02-21 13:23:42.201193 : content jdou videt
+2024-02-21 13:23:42.210853 : content jdou videt
+2024-02-21 13:23:42.220299 : content jdou videt
+2024-02-21 13:23:42.230246 : content jdou videt
+2024-02-21 13:23:42.239767 : content jdou videt
+2024-02-21 13:23:42.248617 : content jdou videt
+2024-02-21 13:23:42.258681 : content jdou videt
+2024-02-21 13:23:42.268654 : content jdou videt
+2024-02-21 13:23:42.278109 : content jdou videt
+2024-02-21 13:23:42.287820 : content jdou videt
+2024-02-21 13:23:42.297759 : content jdou videt
+2024-02-21 13:23:42.307200 : content jdou videt
+2024-02-21 13:23:42.316900 : content jdou videt
+2024-02-21 13:23:42.321588 : https://fischersk.stg.dtweb.cz/covid-info
+2024-02-21 13:23:50.304968 : <selenium.webdriver.remote.webelement.WebElement (session="63a5d1700be95e60ff2138b87a7b0631", element="69F3F56C4025079AEC62E0B51042A501_element_867")>
+2024-02-21 13:23:51.106579 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-02-21 13:24:00.994123 : <selenium.webdriver.remote.webelement.WebElement (session="13839f7096d3ccb35f55cc78898b7779", element="07539235EA892AA1A5E7BE680661BAC7_element_457")>
+2024-02-21 13:24:11.217478 : its ok
+2024-02-21 13:24:11.223462 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/_h7a7868.jpg
+2024-02-21 13:24:20.615134 : <selenium.webdriver.remote.webelement.WebElement (session="af144757a6eeb60bb657d06eb1c84d33", element="658B503A21404257A4A8CE654F349AC1_element_451")>
+2024-02-21 13:24:26.951312 : else departure not true
+2024-02-21 13:24:35.378805 : all inclusive
+2024-02-21 13:24:37.388919 : 0
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ok
+2024-02-21 13:24:37.593905 : ['all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra']
+2024-02-21 13:24:37.598892 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terminy
+2024-02-21 13:24:48.335952 : <selenium.webdriver.remote.webelement.WebElement (session="7df27881885e66b7287c7a046d847fd1", element="9E59675713B9ABF889FFEA9986C0AE69_element_467")>
+2024-02-21 13:24:54.669500 : if departure==True
+2024-02-21 13:25:10.968423 : equal to košice
+2024-02-21 13:25:10.998690 : equal to košice
+2024-02-21 13:25:11.029109 : equal to košice
+2024-02-21 13:25:11.059056 : equal to košice
+2024-02-21 13:25:11.088915 : equal to košice
+2024-02-21 13:25:11.118365 : equal to košice
+2024-02-21 13:25:11.148248 : equal to košice
+2024-02-21 13:25:11.176299 : equal to košice
+2024-02-21 13:25:11.206497 : equal to košice
+2024-02-21 13:25:11.234049 : equal to košice
+2024-02-21 13:25:11.262694 : equal to košice
+2024-02-21 13:25:11.292281 : equal to košice
+2024-02-21 13:25:11.319960 : equal to košice
+2024-02-21 13:25:11.350550 : equal to košice
+2024-02-21 13:25:11.380637 : equal to košice
+2024-02-21 13:25:11.410493 : equal to košice
+2024-02-21 13:25:11.441175 : equal to košice
+2024-02-21 13:25:11.470098 : equal to košice
+2024-02-21 13:25:11.502002 : equal to košice
+2024-02-21 13:25:11.743951 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2024-02-21 13:25:19.615682 : <selenium.webdriver.remote.webelement.WebElement (session="97941798942bb717af78b38874dce679", element="C38BC65DA3A95F846DE07CD93E1DB9BE_element_411")>
+2024-02-21 13:25:20.535233 : benefit item
+2024-02-21 13:25:20.640952 : benefit item
+2024-02-21 13:25:20.774596 : benefit item
+2024-02-21 13:25:20.803518 : benefit item
+2024-02-21 13:25:20.952122 : grind container
+2024-02-21 13:25:20.961123 : grind container
+2024-02-21 13:25:20.969079 : grind container
+2024-02-21 13:25:20.976059 : grind container
+2024-02-21 13:25:20.984038 : grind container
+2024-02-21 13:25:20.992016 : grind container
+2024-02-21 13:25:20.998999 : grind container
+2024-02-21 13:25:21.006978 : grind container
+2024-02-21 13:25:21.015953 : grind container
+2024-02-21 13:25:21.024930 : grind container
+2024-02-21 13:25:21.032909 : grind container
+2024-02-21 13:25:21.043879 : grind container
+2024-02-21 13:25:21.051889 : grind container
+2024-02-21 13:25:21.198468 : tile img
+2024-02-21 13:25:21.207461 : tile img
+2024-02-21 13:25:21.215423 : tile img
+2024-02-21 13:25:21.224426 : tile img
+2024-02-21 13:25:21.232377 : tile img
+2024-02-21 13:25:21.240357 : tile img
+2024-02-21 13:25:21.249332 : tile img
+2024-02-21 13:25:21.258307 : tile img
+2024-02-21 13:25:21.267284 : tile img
+2024-02-21 13:25:21.276260 : tile img
+2024-02-21 13:25:21.284238 : tile img
+2024-02-21 13:25:21.292219 : tile img
+2024-02-21 13:25:21.301222 : tile img
+2024-02-21 13:25:21.310194 : tile img
+2024-02-21 13:25:21.315157 : https://fischersk.stg.dtweb.cz/dovolenka-animacne-kluby
+2024-02-21 13:25:30.631462 : <selenium.webdriver.remote.webelement.WebElement (session="1aeedce51a677f84ff2e46e403db5a9d", element="4C7221D08D72D3E360C1154BF2A099CA_element_847")>
+2024-02-21 13:25:30.800011 : Položka menu existuje
+2024-02-21 13:25:58.366631 : https://fischersk.stg.dtweb.cz/
+2024-02-21 13:26:08.843792 : <selenium.webdriver.remote.webelement.WebElement (session="74997ad07093c1ed947058229752e593", element="2FC88703B18AAF370288060693FD042C_element_800")>
+2024-02-21 13:26:10.657974 : https://fischersk.stg.dtweb.cz/first-minute
+2024-02-21 13:26:16.683938 : <selenium.webdriver.remote.webelement.WebElement (session="3f61fc88d3c97f7d1aeafceed3d29c20", element="15FDC4747B7919527E2AE2C2B26DA288_element_427")>
+2024-02-21 13:26:20.232700 : GRÉCKO
+2024-02-21 13:26:21.785210 : hote dlazdice klik
+2024-02-21 13:26:25.358901 : TURECKO
+2024-02-21 13:26:26.827902 : hote dlazdice klik
+2024-02-21 13:26:30.220500 : EGYPT
+2024-02-21 13:26:30.951698 : hote dlazdice klik
+2024-02-21 13:26:35.126489 : KAPVERDY
+2024-02-21 13:26:36.168084 : hote dlazdice klik
+2024-02-21 13:26:40.098541 : WHITE GOLD
+2024-02-21 13:26:41.159717 : hote dlazdice klik
+2024-02-21 13:26:44.931701 : POISTENIE
+2024-02-21 13:26:45.854757 : hote dlazdice klik
+2024-02-21 13:26:49.780304 : PARKOVANIE
+2024-02-21 13:26:51.908639 : hote dlazdice klik
+2024-02-21 13:26:51.928586 : https://fischersk.stg.dtweb.cz/arabske-emiraty/arabske-emiraty/jebel-ali/millennium-place-barsha-heights?DS=256&GIATA=1154445&D=664&HID=146147&DF=2024-02-25|2024-03-24&RD=2024-03-17&DD=2024-03-10&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=DXB12115&DPR=FISCHER%20SK%20ATCOM
+2024-02-21 13:27:00.087531 : <selenium.webdriver.remote.webelement.WebElement (session="2c11d668187bc27de37f21c8858a708e", element="C4DA24DB69F11EFD443FBD62CF1C87DB_element_418")>
+2024-02-21 13:27:00.363753 : GRÉCKO
+2024-02-21 13:27:04.125932 : TURECKO
+2024-02-21 13:27:31.548992 : EGYPT
+2024-02-21 13:27:33.583840 : KAPVERDY
+2024-02-21 13:27:35.641443 : WHITE GOLD
+2024-02-21 13:27:37.434493 : POISTENIE
+2024-02-21 13:27:39.232706 : PARKOVANIE
+2024-02-21 13:27:40.369678 : https://fischersk.stg.dtweb.cz/hladanie-vysledky?q=parkovanie
+2024-02-21 13:27:47.684521 : <selenium.webdriver.remote.webelement.WebElement (session="2a87f0f29b1892205e556a820eed12f2", element="1F3EDCEF11F08EE109806D38F86E0C2D_element_420")>
+2024-02-21 13:27:48.437617 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2023-07-01&nn=7|8|9&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437&tt=1
+2024-02-21 13:27:58.959970 : <selenium.webdriver.remote.webelement.WebElement (session="31d4049f55ab95041fdc183922d35cfb", element="A3D61B0CFEC29A131D8E01CD9D9B8203_element_836")>
+2024-02-21 13:28:01.076505 : https://fischersk.stg.dtweb.cz/
+2024-02-21 13:28:11.495757 : <selenium.webdriver.remote.webelement.WebElement (session="333cd652c89f25e80e7bc6e8ee430162", element="98E15ADAE17CE54880AF86A4989E4CE3_element_818")>
+2024-02-21 13:28:41.306163 : https://fischersk.stg.dtweb.cz/last-minute
+2024-02-21 13:28:49.517956 : <selenium.webdriver.remote.webelement.WebElement (session="e686964d29eb16c8c08352a76508307b", element="9728373EB38F2F59E17B063CA26F5B9B_element_416")>
+2024-02-21 13:29:14.759941 : boxiky
+2024-02-21 13:29:14.769915 : boxiky
+2024-02-21 13:29:14.779888 : boxiky
+2024-02-21 13:29:14.789861 : boxiky
+2024-02-21 13:29:14.799848 : boxiky
+2024-02-21 13:29:14.809809 : boxiky
+2024-02-21 13:29:14.819782 : boxiky
+2024-02-21 13:29:14.829756 : boxiky
+2024-02-21 13:29:14.839729 : boxiky
+2024-02-21 13:29:14.849702 : boxiky
+2024-02-21 13:29:14.859686 : boxiky
+2024-02-21 13:29:14.869649 : boxiky
+2024-02-21 13:29:14.879622 : boxiky
+2024-02-21 13:29:14.888600 : boxiky
+2024-02-21 13:29:14.897575 : boxiky
+2024-02-21 13:29:14.909543 : boxiky
+2024-02-21 13:29:14.918532 : boxiky
+2024-02-21 13:29:14.928492 : boxiky
+2024-02-21 13:29:14.938466 : boxiky
+2024-02-21 13:29:14.948439 : boxiky
+2024-02-21 13:29:14.991325 : basic info 
+2024-02-21 13:29:15.001299 : basic info 
+2024-02-21 13:29:15.010275 : basic info 
+2024-02-21 13:29:15.020248 : basic info 
+2024-02-21 13:29:15.029224 : basic info 
+2024-02-21 13:29:15.038201 : basic info 
+2024-02-21 13:29:15.047177 : basic info 
+2024-02-21 13:29:15.058147 : basic info 
+2024-02-21 13:29:15.119983 : basic info 
+2024-02-21 13:29:15.131957 : basic info 
+2024-02-21 13:29:15.140938 : basic info 
+2024-02-21 13:29:15.149903 : basic info 
+2024-02-21 13:29:15.157882 : basic info 
+2024-02-21 13:29:15.165861 : basic info 
+2024-02-21 13:29:15.173839 : basic info 
+2024-02-21 13:29:15.181818 : basic info 
+2024-02-21 13:29:15.189797 : basic info 
+2024-02-21 13:29:15.198773 : basic info 
+2024-02-21 13:29:15.206752 : basic info 
+2024-02-21 13:29:15.214731 : basic info 
+2024-02-21 13:29:15.218720 : https://fischersk.stg.dtweb.cz/kontakty/zoznam-pobociek
+2024-02-21 13:29:26.312934 : <selenium.webdriver.remote.webelement.WebElement (session="9414b1a8add8166527155e2a99d92346", element="F404936F73E74C366ECD3C9372F8B36A_element_788")>
+2024-02-21 13:29:27.613945 : https://fischersk.stg.dtweb.cz/spanielsko
+2024-02-21 13:29:36.961600 : <selenium.webdriver.remote.webelement.WebElement (session="ff783b64bc533800db06893a63643add", element="11F0352011628D0D2FF7FEDD63C83644_element_530")>
+2024-02-21 13:29:52.629078 : Cheap sorter is OK
+2024-02-21 13:29:52.629078 : LIST FROM WEB:
+2024-02-21 13:29:52.629078 : [876, 904, 904, 914, 916, 916, 916, 916, 916, 928, 956, 994, 1010, 1020, 1040, 1080, 1080, 1084, 1086, 1090]
+2024-02-21 13:29:52.629078 : CORRECTLY SORTED LIST
+2024-02-21 13:29:52.629078 : [876, 904, 904, 914, 916, 916, 916, 916, 916, 928, 956, 994, 1010, 1020, 1040, 1080, 1080, 1084, 1086, 1090]
+2024-02-21 13:29:52.634459 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:30:01.780962 : <selenium.webdriver.remote.webelement.WebElement (session="c1908a5f6c925c0603519b7613518d91", element="35A86D702CC52AFF6AFAC197EDE9DFD0_element_535")>
+2024-02-21 13:30:17.318370 : Expensive sorter is OK
+2024-02-21 13:30:17.318370 : LIST FROM WEB:
+2024-02-21 13:30:17.318370 : [2792, 2656, 2634, 2626, 2618, 2602, 2564, 2494, 2420, 2418, 2372, 2288, 2262, 2262, 2218, 2154, 2144, 2138, 2114, 2064]
+2024-02-21 13:30:17.318370 : CORRECTLY SORTED LIST
+2024-02-21 13:30:17.318370 : [2792, 2656, 2634, 2626, 2618, 2602, 2564, 2494, 2420, 2418, 2372, 2288, 2262, 2262, 2218, 2154, 2144, 2138, 2114, 2064]
+2024-02-21 13:30:17.323877 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:30:27.666060 : <selenium.webdriver.remote.webelement.WebElement (session="9ebe22752ddf2b333fdf92d24c165d32", element="128F5AC962D3520F898746E367686340_element_550")>
+2024-02-21 13:31:10.883786 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:31:39.183039 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:32:07.469166 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:32:37.036024 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:33:03.377660 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:33:31.678142 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-02-21 13:34:00.103458 : actually OK
+2024-02-21 13:34:04.324569 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:34:14.436091 : <selenium.webdriver.remote.webelement.WebElement (session="0672de42b33e707a785a10289ce4bd8d", element="498A8E1E03B53AA31E5136DDF92BD358_element_553")>
+2024-02-21 13:34:20.676260 : 0
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ok
+2024-02-21 13:34:20.965457 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-02-21 13:34:20.970444 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&m=5&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:34:29.997708 : <selenium.webdriver.remote.webelement.WebElement (session="a3d984ae13884f6d8a3b01b18b4a6e7b", element="51E272733701A42CB8FE94226BE6BE39_element_535")>
+2024-02-21 13:34:32.125617 : |||||HOTEL CISLO|||||||
+2024-02-21 13:34:32.125617 : 1
+2024-02-21 13:34:32.125617 : 1
+2024-02-21 13:34:32.125617 : 1
+2024-02-21 13:35:00.051881 : nenasle se exponea banner
+2024-02-21 13:35:01.081721 : All Inclusive
+2024-02-21 13:35:01.107651 : Dvojlôžková izba , Výh¾ad do záhrady
+2024-02-21 13:35:01.135599 : 1 332 €
+2024-02-21 13:35:01.160241 : 666 €
+2024-02-21 13:35:01.160241 : pokoje sedi srl vs detail
+2024-02-21 13:35:01.160241 : stravy sedi srl vs detail
+2024-02-21 13:35:01.160241 : ceny all sedi srl vs detail
+2024-02-21 13:35:01.160241 :  cena adult sedi srl vs detail
+2024-02-21 13:35:01.187150 : 1
+2024-02-21 13:35:01.187150 : 2
+2024-02-21 13:35:01.187150 : |||||HOTEL CISLO|||||||
+2024-02-21 13:35:01.187150 : 2
+2024-02-21 13:35:01.187150 : 2
+2024-02-21 13:35:01.187150 : 2
+2024-02-21 13:35:28.997627 : nenasle se exponea banner
+2024-02-21 13:35:30.031770 : All Inclusive
+2024-02-21 13:35:30.053712 : Dvojlôžková izba , Záhrada
+2024-02-21 13:35:30.078645 : 1 234 €
+2024-02-21 13:35:30.101585 : 617 €
+2024-02-21 13:35:30.101585 : pokoje sedi srl vs detail
+2024-02-21 13:35:30.101585 : stravy sedi srl vs detail
+2024-02-21 13:35:30.101585 : ceny all sedi srl vs detail
+2024-02-21 13:35:30.101585 :  cena adult sedi srl vs detail
+2024-02-21 13:35:30.114550 : 2
+2024-02-21 13:35:30.114550 : 3
+2024-02-21 13:35:30.114550 : |||||HOTEL CISLO|||||||
+2024-02-21 13:35:30.114550 : 3
+2024-02-21 13:35:30.114550 : 3
+2024-02-21 13:35:30.114550 : 3
+2024-02-21 13:35:58.035520 : nenasle se exponea banner
+2024-02-21 13:35:59.061090 : All Inclusive
+2024-02-21 13:35:59.083420 : Dvojlôžková izba , Výh¾ad do záhrady
+2024-02-21 13:35:59.107830 : 1 086 €
+2024-02-21 13:35:59.129996 : 543 €
+2024-02-21 13:35:59.129996 : pokoje sedi srl vs detail
+2024-02-21 13:35:59.129996 : stravy sedi srl vs detail
+2024-02-21 13:35:59.129996 : ceny all sedi srl vs detail
+2024-02-21 13:35:59.129996 :  cena adult sedi srl vs detail
+2024-02-21 13:35:59.143760 : 3
+2024-02-21 13:35:59.143760 : 4
+2024-02-21 13:35:59.143760 : |||||HOTEL CISLO|||||||
+2024-02-21 13:35:59.143760 : 4
+2024-02-21 13:35:59.143760 : 4
+2024-02-21 13:35:59.143760 : 4
+2024-02-21 13:36:27.038163 : nenasle se exponea banner
+2024-02-21 13:36:28.071411 : All Inclusive Ultra
+2024-02-21 13:36:28.095349 : Dvojlôžková izba , Superior, Výh¾ad do záhrady , Hlavná budova
+2024-02-21 13:36:28.122277 : 1 790 €
+2024-02-21 13:36:28.146240 : 895 €
+2024-02-21 13:36:28.146240 : pokoje sedi srl vs detail
+2024-02-21 13:36:28.146240 : stravy sedi srl vs detail
+2024-02-21 13:36:28.146240 : ceny all sedi srl vs detail
+2024-02-21 13:36:28.146240 :  cena adult sedi srl vs detail
+2024-02-21 13:36:28.160175 : 4
+2024-02-21 13:36:28.160175 : 5
+2024-02-21 13:36:28.160175 : |||||HOTEL CISLO|||||||
+2024-02-21 13:36:28.160175 : 5
+2024-02-21 13:36:28.160175 : 5
+2024-02-21 13:36:28.160175 : 5
+2024-02-21 13:36:56.217080 : nenasle se exponea banner
+2024-02-21 13:36:57.246433 : All Inclusive
+2024-02-21 13:36:57.266422 : Dvojlôžková izba , Superior
+2024-02-21 13:36:57.290358 : 1 848 €
+2024-02-21 13:36:57.311301 : 924 €
+2024-02-21 13:36:57.311301 : pokoje sedi srl vs detail
+2024-02-21 13:36:57.311301 : stravy sedi srl vs detail
+2024-02-21 13:36:57.311301 : ceny all sedi srl vs detail
+2024-02-21 13:36:57.311301 :  cena adult sedi srl vs detail
+2024-02-21 13:36:57.324269 : 5
+2024-02-21 13:36:57.324269 : 6
+2024-02-21 13:36:57.324269 : |||||HOTEL CISLO|||||||
+2024-02-21 13:36:57.324269 : 6
+2024-02-21 13:36:57.324269 : 6
+2024-02-21 13:36:57.324269 : 6
+2024-02-21 13:37:25.162743 : nenasle se exponea banner
+2024-02-21 13:37:26.189977 : All Inclusive
+2024-02-21 13:37:26.213944 : Dvojlôžková izba
+2024-02-21 13:37:26.239845 : 1 122 €
+2024-02-21 13:37:26.263781 : 561 €
+2024-02-21 13:37:26.263781 : pokoje sedi srl vs detail
+2024-02-21 13:37:26.263781 : stravy sedi srl vs detail
+2024-02-21 13:37:26.263781 : ceny all sedi srl vs detail
+2024-02-21 13:37:26.263781 :  cena adult sedi srl vs detail
+2024-02-21 13:37:26.276746 : 6
+2024-02-21 13:37:26.276746 : 7
+2024-02-21 13:37:26.276746 : |||||HOTEL CISLO|||||||
+2024-02-21 13:37:26.276746 : 7
+2024-02-21 13:37:26.276746 : 7
+2024-02-21 13:37:26.276746 : 7
+2024-02-21 13:37:54.466386 : nenasle se exponea banner
+2024-02-21 13:37:55.497611 : All Inclusive
+2024-02-21 13:37:55.518555 : Dvojlôžková izba
+2024-02-21 13:37:55.544486 : 1 218 €
+2024-02-21 13:37:55.568422 : 609 €
+2024-02-21 13:37:55.568422 : pokoje sedi srl vs detail
+2024-02-21 13:37:55.568422 : stravy sedi srl vs detail
+2024-02-21 13:37:55.568422 : ceny all sedi srl vs detail
+2024-02-21 13:37:55.568422 :  cena adult sedi srl vs detail
+2024-02-21 13:37:55.581388 : 7
+2024-02-21 13:37:55.581388 : 8
+2024-02-21 13:37:55.581388 : |||||HOTEL CISLO|||||||
+2024-02-21 13:37:55.581388 : 8
+2024-02-21 13:37:55.581388 : 8
+2024-02-21 13:37:55.581388 : 8
+2024-02-21 13:38:23.428256 : nenasle se exponea banner
+2024-02-21 13:38:24.481903 : All Inclusive
+2024-02-21 13:38:24.503354 : Dvojlôžková izba
+2024-02-21 13:38:24.528437 : 1 100 €
+2024-02-21 13:38:24.551228 : 550 €
+2024-02-21 13:38:24.551228 : pokoje sedi srl vs detail
+2024-02-21 13:38:24.551228 : stravy sedi srl vs detail
+2024-02-21 13:38:24.551228 : ceny all sedi srl vs detail
+2024-02-21 13:38:24.551228 :  cena adult sedi srl vs detail
+2024-02-21 13:38:24.564761 : 8
+2024-02-21 13:38:24.564761 : 9
+2024-02-21 13:38:24.564761 : |||||HOTEL CISLO|||||||
+2024-02-21 13:38:24.564761 : 9
+2024-02-21 13:38:24.564761 : 9
+2024-02-21 13:38:24.564761 : 9
+2024-02-21 13:38:52.392964 : nenasle se exponea banner
+2024-02-21 13:38:53.461365 : All Inclusive
+2024-02-21 13:38:53.485852 : Dvojlôžková izba
+2024-02-21 13:38:53.509659 : 1 106 €
+2024-02-21 13:38:53.534266 : 553 €
+2024-02-21 13:38:53.534266 : pokoje sedi srl vs detail
+2024-02-21 13:38:53.534266 : stravy sedi srl vs detail
+2024-02-21 13:38:53.534266 : ceny all sedi srl vs detail
+2024-02-21 13:38:53.534266 :  cena adult sedi srl vs detail
+2024-02-21 13:38:53.548956 : 9
+2024-02-21 13:38:53.548956 : 10
+2024-02-21 13:38:53.548956 : |||||HOTEL CISLO|||||||
+2024-02-21 13:38:53.548956 : 10
+2024-02-21 13:38:53.548956 : 10
+2024-02-21 13:38:53.548956 : 10
+2024-02-21 13:39:21.429734 : nenasle se exponea banner
+2024-02-21 13:39:22.453008 : All Inclusive
+2024-02-21 13:39:22.472955 : Dvojlôžková izba , Superior
+2024-02-21 13:39:22.492902 : 1 040 €
+2024-02-21 13:39:22.513847 : 520 €
+2024-02-21 13:39:22.513847 : pokoje sedi srl vs detail
+2024-02-21 13:39:22.513847 : stravy sedi srl vs detail
+2024-02-21 13:39:22.513847 : ceny all sedi srl vs detail
+2024-02-21 13:39:22.513847 :  cena adult sedi srl vs detail
+2024-02-21 13:39:22.549750 : 10
+2024-02-21 13:39:22.549750 : 11
+2024-02-21 13:39:22.549750 : |||||HOTEL CISLO|||||||
+2024-02-21 13:39:22.549750 : 11
+2024-02-21 13:39:22.549750 : 11
+2024-02-21 13:39:22.549750 : 11
+2024-02-21 13:39:50.263724 : nenasle se exponea banner
+2024-02-21 13:39:51.290360 : All Inclusive
+2024-02-21 13:39:51.313298 : Dvojlôžková izba , Premium
+2024-02-21 13:39:51.335981 : 1 390 €
+2024-02-21 13:39:51.359936 : 695 €
+2024-02-21 13:39:51.359936 : pokoje sedi srl vs detail
+2024-02-21 13:39:51.359936 : stravy sedi srl vs detail
+2024-02-21 13:39:51.359936 : ceny all sedi srl vs detail
+2024-02-21 13:39:51.359936 :  cena adult sedi srl vs detail
+2024-02-21 13:39:51.374763 : 11
+2024-02-21 13:39:51.374763 : 12
+2024-02-21 13:39:51.374763 : |||||HOTEL CISLO|||||||
+2024-02-21 13:39:51.374763 : 12
+2024-02-21 13:39:51.374763 : 12
+2024-02-21 13:39:51.374763 : 12
+2024-02-21 13:40:19.086390 : nenasle se exponea banner
+2024-02-21 13:40:20.124222 : All Inclusive
+2024-02-21 13:40:20.147185 : Dvojlôžková izba , Economy
+2024-02-21 13:40:20.181070 : 1 080 €
+2024-02-21 13:40:20.205006 : 540 €
+2024-02-21 13:40:20.205006 : pokoje sedi srl vs detail
+2024-02-21 13:40:20.205006 : stravy sedi srl vs detail
+2024-02-21 13:40:20.205006 : ceny all sedi srl vs detail
+2024-02-21 13:40:20.205006 :  cena adult sedi srl vs detail
+2024-02-21 13:40:20.220968 : 12
+2024-02-21 13:40:20.220968 : 13
+2024-02-21 13:40:20.234927 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:40:27.555767 : <selenium.webdriver.remote.webelement.WebElement (session="9e2836fd07d175a224d08cbdddfecbf2", element="2D407439DAF4AFEE87780C8746324BB1_element_95")>
+2024-02-21 13:40:32.780869 : True
+2024-02-21 13:40:32.788848 : True
+2024-02-21 13:40:32.797824 : True
+2024-02-21 13:40:32.805803 : True
+2024-02-21 13:40:32.816774 : True
+2024-02-21 13:40:32.824752 : True
+2024-02-21 13:40:32.834725 : True
+2024-02-21 13:40:32.843702 : True
+2024-02-21 13:40:32.851680 : True
+2024-02-21 13:40:32.861654 : True
+2024-02-21 13:40:32.869633 : True
+2024-02-21 13:40:32.879606 : True
+2024-02-21 13:40:32.889580 : True
+2024-02-21 13:40:32.897559 : True
+2024-02-21 13:40:32.909526 : True
+2024-02-21 13:40:32.917505 : True
+2024-02-21 13:40:32.926481 : True
+2024-02-21 13:40:32.937452 : True
+2024-02-21 13:40:32.946428 : True
+2024-02-21 13:40:32.956402 : True
+2024-02-21 13:40:33.031203 : True
+2024-02-21 13:40:33.039181 : True
+2024-02-21 13:40:33.048157 : True
+2024-02-21 13:40:33.056136 : True
+2024-02-21 13:40:33.066109 : True
+2024-02-21 13:40:33.074088 : True
+2024-02-21 13:40:33.084062 : True
+2024-02-21 13:40:33.094035 : True
+2024-02-21 13:40:33.102014 : True
+2024-02-21 13:40:33.111987 : True
+2024-02-21 13:40:33.122958 : True
+2024-02-21 13:40:33.131934 : True
+2024-02-21 13:40:33.140910 : True
+2024-02-21 13:40:33.148888 : True
+2024-02-21 13:40:33.160857 : True
+2024-02-21 13:40:33.168836 : True
+2024-02-21 13:40:33.179807 : True
+2024-02-21 13:40:33.191775 : True
+2024-02-21 13:40:33.201748 : True
+2024-02-21 13:40:33.210725 : True
+2024-02-21 13:40:33.311455 : ceny
+2024-02-21 13:40:33.321429 : ceny
+2024-02-21 13:40:33.332400 : ceny
+2024-02-21 13:40:33.343371 : ceny
+2024-02-21 13:40:33.351350 : ceny
+2024-02-21 13:40:33.361323 : ceny
+2024-02-21 13:40:33.370299 : ceny
+2024-02-21 13:40:33.379275 : ceny
+2024-02-21 13:40:33.387254 : ceny
+2024-02-21 13:40:33.396230 : ceny
+2024-02-21 13:40:33.407201 : ceny
+2024-02-21 13:40:33.416177 : ceny
+2024-02-21 13:40:33.426150 : ceny
+2024-02-21 13:40:33.437122 : ceny
+2024-02-21 13:40:33.446097 : ceny
+2024-02-21 13:40:33.458066 : ceny
+2024-02-21 13:40:33.470036 : ceny
+2024-02-21 13:40:33.479010 : ceny
+2024-02-21 13:40:33.489981 : ceny
+2024-02-21 13:40:33.500951 : ceny
+2024-02-21 13:40:33.508931 : ceny
+2024-02-21 13:40:33.533863 : ceny
+2024-02-21 13:40:33.542839 : ceny
+2024-02-21 13:40:33.552813 : ceny
+2024-02-21 13:40:33.563784 : ceny
+2024-02-21 13:40:33.572760 : ceny
+2024-02-21 13:40:33.583731 : ceny
+2024-02-21 13:40:33.594701 : ceny
+2024-02-21 13:40:33.603678 : ceny
+2024-02-21 13:40:33.614648 : ceny
+2024-02-21 13:40:33.626617 : ceny
+2024-02-21 13:40:33.634596 : ceny
+2024-02-21 13:40:33.644569 : ceny
+2024-02-21 13:40:33.656537 : ceny
+2024-02-21 13:40:33.665513 : ceny
+2024-02-21 13:40:33.674489 : ceny
+2024-02-21 13:40:33.689449 : ceny
+2024-02-21 13:40:33.698425 : ceny
+2024-02-21 13:40:33.708398 : ceny
+2024-02-21 13:40:33.721364 : ceny
+2024-02-21 13:40:33.733332 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-02-21 13:40:41.954231 : <selenium.webdriver.remote.webelement.WebElement (session="74798b057e84d4f46800d1e07becdaac", element="05802067620794C9D830171518E9CD17_element_846")>
+2024-02-21 13:40:56.336928 : True
+2024-02-21 13:40:56.347899 : True
+2024-02-21 13:40:56.357873 : True
+2024-02-21 13:40:56.365851 : True
+2024-02-21 13:40:56.376821 : True
+2024-02-21 13:40:56.385798 : True
+2024-02-21 13:40:56.394774 : True
+2024-02-21 13:40:56.404747 : True
+2024-02-21 13:40:56.413723 : True
+2024-02-21 13:40:56.421702 : True
+2024-02-21 13:40:56.429680 : True
+2024-02-21 13:40:56.439655 : True
+2024-02-21 13:40:56.446636 : True
+2024-02-21 13:40:56.455612 : True
+2024-02-21 13:40:56.462593 : True
+2024-02-21 13:40:56.471569 : True
+2024-02-21 13:40:56.479548 : True
+2024-02-21 13:40:56.488524 : True
+2024-02-21 13:40:56.497500 : True
+2024-02-21 13:40:56.505479 : True
+2024-02-21 13:40:56.575293 : True
+2024-02-21 13:40:56.583272 : True
+2024-02-21 13:40:56.593245 : True
+2024-02-21 13:40:56.601224 : True
+2024-02-21 13:40:56.610200 : True
+2024-02-21 13:40:56.618179 : True
+2024-02-21 13:40:56.627155 : True
+2024-02-21 13:40:56.636131 : True
+2024-02-21 13:40:56.645107 : True
+2024-02-21 13:40:56.655080 : True
+2024-02-21 13:40:56.663059 : True
+2024-02-21 13:40:56.672036 : True
+2024-02-21 13:40:56.680014 : True
+2024-02-21 13:40:56.690984 : True
+2024-02-21 13:40:56.698963 : True
+2024-02-21 13:40:56.708937 : True
+2024-02-21 13:40:56.717913 : True
+2024-02-21 13:40:56.726889 : True
+2024-02-21 13:40:56.735866 : True
+2024-02-21 13:40:56.743844 : True
+2024-02-21 13:40:56.829615 : ceny
+2024-02-21 13:40:56.837594 : ceny
+2024-02-21 13:40:56.847568 : ceny
+2024-02-21 13:40:56.855546 : ceny
+2024-02-21 13:40:56.865520 : ceny
+2024-02-21 13:40:56.875494 : ceny
+2024-02-21 13:40:56.884470 : ceny
+2024-02-21 13:40:56.893457 : ceny
+2024-02-21 13:40:56.904416 : ceny
+2024-02-21 13:40:56.913392 : ceny
+2024-02-21 13:40:56.922369 : ceny
+2024-02-21 13:40:56.931344 : ceny
+2024-02-21 13:40:56.942315 : ceny
+2024-02-21 13:40:56.952289 : ceny
+2024-02-21 13:40:56.961265 : ceny
+2024-02-21 13:40:56.972244 : ceny
+2024-02-21 13:40:56.981211 : ceny
+2024-02-21 13:40:56.991185 : ceny
+2024-02-21 13:40:57.003153 : ceny
+2024-02-21 13:40:57.012129 : ceny
+2024-02-21 13:40:57.021105 : ceny
+2024-02-21 13:40:57.032088 : ceny
+2024-02-21 13:40:57.041052 : ceny
+2024-02-21 13:40:57.050028 : ceny
+2024-02-21 13:40:57.060999 : ceny
+2024-02-21 13:40:57.069975 : ceny
+2024-02-21 13:40:57.079955 : ceny
+2024-02-21 13:40:57.090919 : ceny
+2024-02-21 13:40:57.099895 : ceny
+2024-02-21 13:40:57.109868 : ceny
+2024-02-21 13:40:57.118845 : ceny
+2024-02-21 13:40:57.128818 : ceny
+2024-02-21 13:40:57.137795 : ceny
+2024-02-21 13:40:57.146771 : ceny
+2024-02-21 13:40:57.156744 : ceny
+2024-02-21 13:40:57.164722 : ceny
+2024-02-21 13:40:57.174696 : ceny
+2024-02-21 13:40:57.185667 : ceny
+2024-02-21 13:40:57.193646 : ceny
+2024-02-21 13:40:57.203619 : ceny
+2024-02-21 13:40:57.217582 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?ac1=2&d=953|590|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|726|683|609&dd=2024-06-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-02-21 13:41:04.998073 : <selenium.webdriver.remote.webelement.WebElement (session="37f9e13bcd8688c821260ed8a346d04d", element="933119E5A113211E75BA215826660271_element_418")>
+2024-02-21 13:41:09.064353 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2024-02-21&nn=7|8|9|10|11|12|13|14|15&rd=2024-04-22&to=483|1837|3437&tt=1
+2024-02-21 13:41:16.650526 : <selenium.webdriver.remote.webelement.WebElement (session="13c93f692488c0396195389a137fdbda", element="4B2868F89B7093E9E59BE962927E3BC6_element_436")>
+2024-02-21 13:41:39.605962 : PROBLEM BANNERS
+2024-02-21 13:41:39.605962 : s kódom valentin50  ||| VS |||  11 zájazdov v 1 destinácii
+2024-02-21 13:41:39.605962 : https://www.fischer.sk/valentinska-zlava
+2024-02-21 13:41:39.605962 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?d=764&dd=2023-11-01&nn=7|8|9|10|11|12|13|14|15&rd=2024-05-31&to=483|1837|2933|3437&tt=1
+2024-02-21 13:41:39.605962 : ----------------------------------------
+2024-02-21 13:41:42.380986 : ------------------------------------------
+2024-02-21 13:41:42.380986 : LIST FROM PUBLIC WWW PRODUCTION https://www.fischer.sk/
+2024-02-21 13:41:42.380986 : ['', '', 's kódom valentin50', '52 zájazdov v 1 destinácii']
+2024-02-21 13:41:42.380986 : ------------------------------------------
+2024-02-21 13:41:42.380986 : LIST FROM DEPLOYING WEB https://fischersk.stg.dtweb.cz/
+2024-02-21 13:41:42.380986 : ['', '', '11 zájazdov v 1 destinácii', '52 zájazdov v 1 destinácii']
+2024-02-21 13:41:42.386943 : https://fischersk.stg.dtweb.cz/
+2024-02-21 13:43:47.959891 : len(pocet_vysledku_list_default)
+2024-02-21 13:43:47.959891 : 12
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : len(pocet_vysledku_list_dev))
+2024-02-21 13:43:47.959891 : 12
+2024-02-21 13:43:47.959891 : 29 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : 29 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=958|664&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=958|664&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 0
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 1
+2024-02-21 13:43:47.959891 : 86 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : 86 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 2
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 3
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 4
+2024-02-21 13:43:47.959891 : 49 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : 49 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 5
+2024-02-21 13:43:47.959891 : 30 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : 30 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=664&dd=2023-11-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 6
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 7
+2024-02-21 13:43:47.959891 : 90 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : 90 zájazdov v 1 destinácii
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 8
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=593&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=593&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.959891 : 9
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.959891 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.959891 :              
+2024-02-21 13:43:47.960889 : 10
+2024-02-21 13:43:47.960889 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.960889 : nenašli ste, èo ste h¾adali?
+2024-02-21 13:43:47.960889 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.960889 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-02-21 13:43:47.960889 :              
+2024-02-21 13:43:47.960889 : 11
+2024-02-21 13:43:47.960889 : 12
+2024-02-21 13:43:47.965875 : https://www.fischer.sk/vysledky-vyhladavania?ac1=2&d=1005&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1

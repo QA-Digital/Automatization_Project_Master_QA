@@ -1,0 +1,96 @@
+2024-09-19 12:19:49.292212 : 2024-09-19 12:19:49,292 - TestDetailHotelu_D - INFO - https://fischer.web3.dtweb.cz//hotely/spanelsko/andalusie-costa-del-sol/benalmadena/globales-gardenia?AC1=2&D=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&DD=2024-10-19&DI=AI&DP=4312&DPR=Hotelbeds&DS=2&GIATA=37867&HID=162&IC1=1&IFM=0&ILM=0&KC1=0&MMT=5&MNN=7&MT=5&NN=7&PID=4195&RC=DBT-BL&RCS=DBT-BL&RD=2024-10-27&RT=15&TO=4312&acm1=2&df=2024-10-07|2024-10-31&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+                             
+2024-09-19 12:20:35.462938 : 2024-09-19 12:20:35,462 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//hotely/spanelsko/andalusie-costa-del-sol/benalmadena/globales-gardenia?AC1=2&D=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&DD=2024-10-19&DI=AI&DP=4312&DPR=Hotelbeds&DS=2&GIATA=37867&HID=162&IC1=1&IFM=0&ILM=0&KC1=0&MMT=5&MNN=7&MT=5&NN=7&PID=4195&RC=DBT-BL&RCS=DBT-BL&RD=2024-10-27&RT=15&TO=4312&acm1=2&df=2024-10-07|2024-10-31&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+                             
+2024-09-19 12:20:48.370174 : 2024-09-19 12:20:48,370 - TestDetailHotelu_C - INFO - Starting filtering process with filter type: airport
+                             
+2024-09-19 12:20:48.370174 : 2024-09-19 12:20:48,370 - TestDetailHotelu_C - INFO - Starting filtering process with filter type: airport
+                             
+2024-09-19 12:20:54.541577 : 2024-09-19 12:20:54,541 - TestDetailHotelu_C - INFO - Filter type is 'airport'. Executing airport filter logic.
+                             
+2024-09-19 12:20:54.541577 : 2024-09-19 12:20:54,541 - TestDetailHotelu_C - INFO - Filter type is 'airport'. Executing airport filter logic.
+                             
+2024-09-19 12:20:56.728666 : 2024-09-19 12:20:56,728 - TestDetailHotelu_C - INFO - Completed filtering process for filter type: airport
+                             
+2024-09-19 12:20:56.728666 : 2024-09-19 12:20:56,728 - TestDetailHotelu_C - INFO - Completed filtering process for filter type: airport
+                             
+2024-09-19 12:21:05.728937 : 2024-09-19 12:21:05,728 - TestDetailHotelu_C - INFO - Starting departure check.
+                             
+2024-09-19 12:21:05.728937 : 2024-09-19 12:21:05,728 - TestDetailHotelu_C - INFO - Starting departure check.
+                             
+2024-09-19 12:21:05.744448 : 2024-09-19 12:21:05,744 - TestDetailHotelu_C - INFO - Found 17 visible departure terms.
+                             
+2024-09-19 12:21:05.744448 : 2024-09-19 12:21:05,744 - TestDetailHotelu_C - INFO - Found 17 visible departure terms.
+                             
+2024-09-19 12:21:05.760074 : 2024-09-19 12:21:05,760 - TestDetailHotelu_C - INFO - Found 17 departure terms.
+                             
+2024-09-19 12:21:05.760074 : 2024-09-19 12:21:05,760 - TestDetailHotelu_C - INFO - Found 17 departure terms.
+                             
+2024-09-19 12:21:08.775529 : 2024-09-19 12:21:08,775 - TestDetailHotelu_C - INFO - Departure term at position 1 matches praha.
+                             
+2024-09-19 12:21:08.775529 : 2024-09-19 12:21:08,775 - TestDetailHotelu_C - INFO - Departure term at position 1 matches praha.
+                             
+2024-09-19 12:21:08.791155 : 2024-09-19 12:21:08,791 - TestDetailHotelu_C - INFO - Departure term at position 2 matches praha.
+                             
+2024-09-19 12:21:08.791155 : 2024-09-19 12:21:08,791 - TestDetailHotelu_C - INFO - Departure term at position 2 matches praha.
+                             
+2024-09-19 12:21:08.806663 : 2024-09-19 12:21:08,806 - TestDetailHotelu_C - INFO - Departure term at position 3 matches praha.
+                             
+2024-09-19 12:21:08.806663 : 2024-09-19 12:21:08,806 - TestDetailHotelu_C - INFO - Departure term at position 3 matches praha.
+                             
+2024-09-19 12:21:08.806663 : 2024-09-19 12:21:08,806 - TestDetailHotelu_C - INFO - Departure term at position 4 matches praha.
+                             
+2024-09-19 12:21:08.806663 : 2024-09-19 12:21:08,806 - TestDetailHotelu_C - INFO - Departure term at position 4 matches praha.
+                             
+2024-09-19 12:21:08.822288 : 2024-09-19 12:21:08,822 - TestDetailHotelu_C - INFO - Departure term at position 5 matches praha.
+                             
+2024-09-19 12:21:08.822288 : 2024-09-19 12:21:08,822 - TestDetailHotelu_C - INFO - Departure term at position 5 matches praha.
+                             
+2024-09-19 12:21:08.822288 : 2024-09-19 12:21:08,822 - TestDetailHotelu_C - INFO - Departure term at position 6 matches praha.
+                             
+2024-09-19 12:21:08.822288 : 2024-09-19 12:21:08,822 - TestDetailHotelu_C - INFO - Departure term at position 6 matches praha.
+                             
+2024-09-19 12:21:08.837910 : 2024-09-19 12:21:08,837 - TestDetailHotelu_C - INFO - Departure term at position 7 matches praha.
+                             
+2024-09-19 12:21:08.837910 : 2024-09-19 12:21:08,837 - TestDetailHotelu_C - INFO - Departure term at position 7 matches praha.
+                             
+2024-09-19 12:21:08.853532 : 2024-09-19 12:21:08,853 - TestDetailHotelu_C - INFO - Departure term at position 8 matches praha.
+                             
+2024-09-19 12:21:08.853532 : 2024-09-19 12:21:08,853 - TestDetailHotelu_C - INFO - Departure term at position 8 matches praha.
+                             
+2024-09-19 12:21:08.853532 : 2024-09-19 12:21:08,853 - TestDetailHotelu_C - INFO - Departure term at position 9 matches praha.
+                             
+2024-09-19 12:21:08.853532 : 2024-09-19 12:21:08,853 - TestDetailHotelu_C - INFO - Departure term at position 9 matches praha.
+                             
+2024-09-19 12:21:08.869153 : 2024-09-19 12:21:08,869 - TestDetailHotelu_C - INFO - Departure term at position 10 matches praha.
+                             
+2024-09-19 12:21:08.869153 : 2024-09-19 12:21:08,869 - TestDetailHotelu_C - INFO - Departure term at position 10 matches praha.
+                             
+2024-09-19 12:21:08.869153 : 2024-09-19 12:21:08,869 - TestDetailHotelu_C - INFO - Departure term at position 11 matches praha.
+                             
+2024-09-19 12:21:08.869153 : 2024-09-19 12:21:08,869 - TestDetailHotelu_C - INFO - Departure term at position 11 matches praha.
+                             
+2024-09-19 12:21:08.884773 : 2024-09-19 12:21:08,884 - TestDetailHotelu_C - INFO - Departure term at position 12 matches praha.
+                             
+2024-09-19 12:21:08.884773 : 2024-09-19 12:21:08,884 - TestDetailHotelu_C - INFO - Departure term at position 12 matches praha.
+                             
+2024-09-19 12:21:08.900396 : 2024-09-19 12:21:08,900 - TestDetailHotelu_C - INFO - Departure term at position 13 matches praha.
+                             
+2024-09-19 12:21:08.900396 : 2024-09-19 12:21:08,900 - TestDetailHotelu_C - INFO - Departure term at position 13 matches praha.
+                             
+2024-09-19 12:21:08.900396 : 2024-09-19 12:21:08,900 - TestDetailHotelu_C - INFO - Departure term at position 14 matches praha.
+                             
+2024-09-19 12:21:08.900396 : 2024-09-19 12:21:08,900 - TestDetailHotelu_C - INFO - Departure term at position 14 matches praha.
+                             
+2024-09-19 12:21:08.916016 : 2024-09-19 12:21:08,916 - TestDetailHotelu_C - INFO - Departure term at position 15 matches praha.
+                             
+2024-09-19 12:21:08.916016 : 2024-09-19 12:21:08,916 - TestDetailHotelu_C - INFO - Departure term at position 15 matches praha.
+                             
+2024-09-19 12:21:08.916016 : 2024-09-19 12:21:08,916 - TestDetailHotelu_C - INFO - Completed departure check.
+                             
+2024-09-19 12:21:08.916016 : 2024-09-19 12:21:08,916 - TestDetailHotelu_C - INFO - Completed departure check.
+                             
+2024-09-19 12:21:09.119673 : 2024-09-19 12:21:09,119 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-20&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-20&sortby=Departure&tom=4312&tt=1&ttm=1#hotelDetailFilterStart
+                             
+2024-09-19 12:21:09.119673 : 2024-09-19 12:21:09,119 - TestDetailHotelu_C - INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-20&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-20&sortby=Departure&tom=4312&tt=1&ttm=1#hotelDetailFilterStart
+                             

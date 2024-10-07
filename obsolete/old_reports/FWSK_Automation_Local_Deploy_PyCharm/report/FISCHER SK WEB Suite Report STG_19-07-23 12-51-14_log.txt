@@ -1,0 +1,13 @@
+2023-07-19 12:51:14.884838 : 
+                             
+                             
+2023-07-19 12:51:14.884838 : ====== WebDriver manager ======
+                             
+2023-07-19 12:51:14.931825 : Current google-chrome version is 114.0.5735
+                             
+2023-07-19 12:51:14.931825 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-19 12:51:15.079575 : Trying to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip
+                             
+2023-07-19 12:51:15.580596 : Driver has been saved in cache [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90]
+                             

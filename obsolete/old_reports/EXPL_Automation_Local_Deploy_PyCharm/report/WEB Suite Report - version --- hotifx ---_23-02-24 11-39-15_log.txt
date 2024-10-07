@@ -1,0 +1,303 @@
+2024-02-23 11:39:25.313766 : <selenium.webdriver.remote.webelement.WebElement (session="28fe76c1bccee0423766d342459142e0", element="f.9A1CDE417E56A85DDAECF8885F81CA00.d.03AE2AE335610CC2E3B0945BE45E19FB.e.666")>
+2024-02-23 11:39:46.642323 : https://eximpl.web11.dtweb.cz//kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2024-02-23 11:39:53.184925 : None
+2024-02-23 11:39:53.184925 : consent pass
+2024-02-23 11:39:58.330410 : its ok
+2024-02-23 11:39:58.330410 : https://img.exim.pl/hotels/egypt/oblast-hurghada/safaga/kairaba-aqua-mondo-resort-pl/a-bay_7421_209588_3x2.jpg
+2024-02-23 11:40:06.704922 : None
+2024-02-23 11:40:06.704922 : consent pass
+2024-02-23 11:40:12.863470 : if departure==True
+2024-02-23 11:40:14.514629 : https://eximpl.web11.dtweb.cz//kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2024-02-23 11:40:22.261417 : <selenium.webdriver.remote.webelement.WebElement (session="4ed63719353b33f4cf15177878cda679", element="f.6CDD9EDB65997A7F280ECAB011F0D9DE.d.07284CD86224AA4705168E472BB47760.e.350")>
+2024-02-23 11:40:28.580357 : if departure==True
+2024-02-23 11:40:44.751725 : equal to warszawa
+2024-02-23 11:40:44.782861 : equal to warszawa
+2024-02-23 11:40:44.816098 : equal to warszawa
+2024-02-23 11:40:44.845229 : equal to warszawa
+2024-02-23 11:40:44.860854 : equal to warszawa
+2024-02-23 11:40:44.892096 : equal to warszawa
+2024-02-23 11:40:44.925422 : equal to warszawa
+2024-02-23 11:40:44.955056 : equal to warszawa
+2024-02-23 11:40:44.986189 : equal to warszawa
+2024-02-23 11:40:45.017322 : equal to warszawa
+2024-02-23 11:40:45.050766 : equal to warszawa
+2024-02-23 11:40:45.269157 : https://eximpl.web11.dtweb.cz//kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&sortby=Departure&tom=3850&tt=1&ttm=1#/terminy
+2024-02-23 11:40:54.204753 : <selenium.webdriver.remote.webelement.WebElement (session="e3af2af15ceb369c0dcee8b0505d6aa4", element="f.F98A0320E58BA2F0DE72ACC76E7B7A7A.d.A5C27DA3700007477035A8726961212A.e.344")>
+2024-02-23 11:41:06.407975 : [8077, 8077, 8077, 8077, 8077, 8077, 8077, 8197, 8197, 8197, 8197, 8197, 8197, 8197, 8397, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:09.423759 : Cheap sorter is OK
+2024-02-23 11:41:09.423759 : LIST FROM WEB:
+2024-02-23 11:41:09.423759 : [8077, 8077, 8077, 8077, 8077, 8077, 8077, 8197, 8197, 8197, 8197, 8197, 8197, 8197, 8397, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:09.423759 : CORRECTLY SORTED LIST
+2024-02-23 11:41:09.423759 : [8077, 8077, 8077, 8077, 8077, 8077, 8077, 8197, 8197, 8197, 8197, 8197, 8197, 8197, 8397, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:09.423759 : https://eximpl.web11.dtweb.cz//kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/terminy
+2024-02-23 11:41:20.111403 : <selenium.webdriver.remote.webelement.WebElement (session="23d9d33cbb26c64b38c6d7c1da72547d", element="f.F0BEC4110CE50255634BB50758A1A356.d.DC6993AA267FA62D3204A2C5C7358AAB.e.357")>
+2024-02-23 11:41:35.157905 : [10177, 10177, 9537, 9537, 9257, 9257, 9057, 9057, 8857, 8857, 8857, 8857, 8857, 8857, 8857, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:38.158008 : Expensive sorter is OK
+2024-02-23 11:41:38.158008 : LIST FROM WEB:
+2024-02-23 11:41:38.158008 : [10177, 10177, 9537, 9537, 9257, 9257, 9057, 9057, 8857, 8857, 8857, 8857, 8857, 8857, 8857, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:38.158008 : CORRECTLY SORTED LIST
+2024-02-23 11:41:38.158008 : [10177, 10177, 9537, 9537, 9257, 9257, 9057, 9057, 8857, 8857, 8857, 8857, 8857, 8857, 8857, 8397, 8397, 8397, 8397, 8397]
+2024-02-23 11:41:38.158008 : https://eximpl.web11.dtweb.cz//kierunki/egipt/hurghada/safaga/kairaba-aqua-mondo-resort?AC1=2&D=64419|64420|64425&DD=2024-10-20&DP=3850&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=1162463&HID=154315&IC1=0&IFM=0&ILM=0&KA1=9&KC1=1&KEY=3224271613&MNN=7&MT=5&NN=7&PID=388167&RD=2024-10-27&RT=0&TO=3850&acm1=2&df=2024-10-14|2024-10-31&icm1=0&kam1=9&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&sortorder=1&tt=1&ttm=1#/terminy
+2024-02-23 11:41:49.893190 : <selenium.webdriver.remote.webelement.WebElement (session="7442cb7ba18209075927ca98c9857235", element="f.808EF24CC3836FD2EA4052AD66B08F6F.d.1A5BD6AB3C4127D4706F1B8473D1A847.e.355")>
+2024-02-23 11:41:53.236288 : GRECJA
+2024-02-23 11:41:55.202268 : hotel dlazdice klik
+2024-02-23 11:41:58.923383 : TURCJA
+2024-02-23 11:42:00.426242 : hotel dlazdice klik
+2024-02-23 11:42:03.767554 : EGIPT
+2024-02-23 11:42:05.293996 : hotel dlazdice klik
+2024-02-23 11:42:08.486850 : OMAN
+2024-02-23 11:42:10.031733 : hotel dlazdice klik
+2024-02-23 11:42:13.283246 : MALEDIWY
+2024-02-23 11:42:14.767827 : hotel dlazdice klik
+2024-02-23 11:42:18.112477 : DUBAJ
+2024-02-23 11:42:19.486879 : hotel dlazdice klik
+2024-02-23 11:42:22.768084 : BULGARIA
+2024-02-23 11:42:24.220856 : hotel dlazdice klik
+2024-02-23 11:42:27.674191 : CHORWACJA
+2024-02-23 11:42:29.658160 : hotel dlazdice klik
+2024-02-23 11:42:32.939468 : PORTUGALIA
+2024-02-23 11:42:34.441245 : hotel dlazdice klik
+2024-02-23 11:42:37.955020 : FALCON HILLS
+2024-02-23 11:42:39.330284 : hotel dlazdice klik
+2024-02-23 11:42:42.611371 : APRILIS HOTEL
+2024-02-23 11:42:44.095718 : hotel dlazdice klik
+2024-02-23 11:42:47.486382 : PRIMA LIFE MAKADI RESORT
+2024-02-23 11:42:48.802865 : hotel dlazdice klik
+2024-02-23 11:42:52.207100 : MYRTO HOTEL
+2024-02-23 11:42:53.640136 : hotel dlazdice klik
+2024-02-23 11:42:57.111531 : COCOON MALDIVES
+2024-02-23 11:42:58.673868 : hotel dlazdice klik
+2024-02-23 11:43:01.908364 : TITANIC PALACE
+2024-02-23 11:43:03.332176 : hotel dlazdice klik
+2024-02-23 11:43:03.439678 : https://eximpl.web11.dtweb.cz/kierunki/egipt/hurghada/hurghada/titanic-palace-resort?DS=1024&GIATA=227755&D=64419&HID=147950&DF=2024-03-30|2024-04-27&RD=2024-04-16&DD=2024-04-13&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=380472&DPR=EXIM%20TOURS%20POLAND
+2024-02-23 11:43:15.158153 : <selenium.webdriver.remote.webelement.WebElement (session="7104ec1dfcb32357ca928c8ceb4cf37c", element="f.618858440228F9724334A1DB23F80539.d.360E5F51A4878D8C88A6035C9AAFC088.e.344")>
+2024-02-23 11:43:15.400827 : GRECJA
+2024-02-23 11:43:19.796977 : TURCJA
+2024-02-23 11:43:23.097831 : EGIPT
+2024-02-23 11:43:26.691723 : OMAN
+2024-02-23 11:43:29.981285 : MALEDIWY
+2024-02-23 11:43:37.704085 : DUBAJ
+2024-02-23 11:44:01.566272 : BULGARIA
+2024-02-23 11:44:06.252807 : CHORWACJA
+2024-02-23 11:44:11.444330 : PORTUGALIA
+2024-02-23 11:44:15.950991 : FALCON HILLS
+2024-02-23 11:44:17.787982 : APRILIS HOTEL
+2024-02-23 11:44:19.894371 : PRIMA LIFE MAKADI RESORT
+2024-02-23 11:44:21.986248 : MYRTO HOTEL
+2024-02-23 11:44:24.170491 : COCOON MALDIVES
+2024-02-23 11:44:26.186383 : TITANIC PALACE
+2024-02-23 11:44:27.750137 : https://eximpl.web11.dtweb.cz/wyniki-wyszukiwania?q=Titanic%20palace
+2024-02-23 11:44:36.701218 : <selenium.webdriver.remote.webelement.WebElement (session="c09a7adad2000bfbec4e9c12be78a965", element="f.ED331E1010C3C710DF881951C126F039.d.368E3F0A06D2F5FE89C438A442DA58EA.e.361")>
+2024-02-23 11:44:39.752283 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&dd=2023-12-16&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-01-07&tt=1
+2024-02-23 11:44:48.621211 : <selenium.webdriver.remote.webelement.WebElement (session="cc5521f3f491203afdba8c5fd3d466f0", element="f.3824268715DD50C501CC236142D9FA34.d.511E8205855BA995FDDD255184A07A0C.e.741")>
+2024-02-23 11:44:51.066839 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:45:00.517855 : <selenium.webdriver.remote.webelement.WebElement (session="0d0a46caf1b4a0b98de34992c4736581", element="f.92F885AD69E6E6EB8ED1CE13DC6B8184.d.9AC6441727B4D08B51032A8C373E1187.e.680")>
+2024-02-23 11:45:05.660092 : https://eximpl.web11.dtweb.cz/last-minute
+2024-02-23 11:45:18.755147 : <selenium.webdriver.remote.webelement.WebElement (session="d505f8f69fe104bd48fc18b18f0096e3", element="f.4B9ED58EA1EF36D68EFB6B2C0629CCB9.d.8638DAF4D69779DAE627BFE9CF454045.e.342")>
+2024-02-23 11:45:20.950433 : Map is displayed
+2024-02-23 11:45:49.564955 : basic info 
+2024-02-23 11:45:49.564955 : basic info 
+2024-02-23 11:45:49.580581 : basic info 
+2024-02-23 11:45:49.596090 : basic info 
+2024-02-23 11:45:49.611719 : boxiky
+2024-02-23 11:45:49.627338 : boxiky
+2024-02-23 11:45:49.627338 : boxiky
+2024-02-23 11:45:49.645078 : boxiky
+2024-02-23 11:45:49.658585 : boxiky
+2024-02-23 11:45:49.658585 : boxiky
+2024-02-23 11:45:49.674211 : boxiky
+2024-02-23 11:45:49.674211 : boxiky
+2024-02-23 11:45:49.689834 : https://eximpl.web11.dtweb.cz/punkty-sprzedazy
+2024-02-23 11:45:59.200055 : <selenium.webdriver.remote.webelement.WebElement (session="4c430e6500655a8e64c1ec09c842618f", element="f.AAE79ED9705DC7DBE7A5D05901C81DD4.d.03F5C1B1A7514673729A4F4B9F7BFCAA.e.327")>
+2024-02-23 11:46:04.861792 : https://eximpl.web11.dtweb.cz/kierunki/egipt
+2024-02-23 11:46:13.236822 : <selenium.webdriver.remote.webelement.WebElement (session="4379f494a2a8277d5bb48cb170730205", element="f.9BBACAA606520B95553DC0EA09A269E2.d.B03B286F0E0EA01B76C6F601A1BAD293.e.361")>
+2024-02-23 11:46:45.408990 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:46:54.550709 : <selenium.webdriver.remote.webelement.WebElement (session="f54c6db99598b6745368da00026f7894", element="f.24F413F9F221286B1B52F91CAF62B4CD.d.17E4FA75EED968672317821F3051D17D.e.361")>
+2024-02-23 11:47:28.721496 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:47:36.753214 : <selenium.webdriver.remote.webelement.WebElement (session="333ad18c0a6cc2c5e0f862f2af1c9e41", element="f.21A1FD009A6687B4829DD221F0C83BFA.d.A02859C037E1AD39FD44322178530DAD.e.343")>
+2024-02-23 11:48:03.909181 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:48:16.440339 : <selenium.webdriver.remote.webelement.WebElement (session="27547adfb0d15daa4bf64fc54bd9707c", element="f.054ED747777EFD0D2D2EA47FC4F98586.d.B96B81B71DC8D9477EBB33548A3371BA.e.364")>
+2024-02-23 11:48:43.580966 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:48:51.893556 : <selenium.webdriver.remote.webelement.WebElement (session="d9abe62759d7aba5c09e0066f662b41d", element="f.8B2BF47E173C357EBC89E903FCAA1B44.d.12B8A03521F437FAB7B658221F7CA035.e.359")>
+2024-02-23 11:49:18.068083 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:49:24.706599 : <selenium.webdriver.remote.webelement.WebElement (session="8c0ee06aa11f250d07df65b7eebc34e3", element="f.53EA01285CC13F40412A193247EEF797.d.F2477221734D10974CEF5311CED68075.e.345")>
+2024-02-23 11:49:30.800787 : None
+2024-02-23 11:49:30.800787 : consent pass
+2024-02-23 11:49:55.862824 : https://eximpl.web11.dtweb.cz/wyszukanie?ac1=2&d=64419%7C64420%7C64425&dd=2024-01-15&nn=7%7C8%7C9%7C10%7C11%7C12%7C13&rd=2024-02-25&tt=1
+2024-02-23 11:50:02.925462 : None
+2024-02-23 11:50:02.925462 : consent pass
+2024-02-23 11:50:09.020867 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:50:15.635266 : <selenium.webdriver.remote.webelement.WebElement (session="7529044d5ba94d08f75879def01bc6f9", element="f.201327429B6A4DE76DF45B4E4121DEFA.d.010CFF0626525A7A0E2CE6354FBACC4F.e.348")>
+2024-02-23 11:50:53.440922 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:51:02.769419 : None
+2024-02-23 11:51:02.769419 : consent pass
+2024-02-23 11:51:10.362822 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:51:21.706700 : <selenium.webdriver.remote.webelement.WebElement (session="d5de0635b155f226f49525ec2ab7d59a", element="f.83E326F9E27D32D7B4EE6CD39688ECBB.d.A3C9A4F76200C4E7C330F90AE8D408AB.e.351")>
+2024-02-23 11:52:07.128588 : ------------------------------------------
+2024-02-23 11:52:07.128588 : LIST FROM PUBLIC WWW PRODUCTION https://www.exim.pl/
+2024-02-23 11:52:07.128588 : ['35 ofert w 1 miejscu docelowym', '132 oferty w 1 miejscu docelowym', '17 ofert w 1 miejscu docelowym', '4 oferty w 1 miejscu docelowym', '10 ofert w 1 miejscu docelowym', '23 oferty w 1 miejscu docelowym']
+2024-02-23 11:52:07.128588 : ------------------------------------------
+2024-02-23 11:52:07.128588 : LIST FROM DEPLOYING WEB https://eximpl.web11.dtweb.cz/
+2024-02-23 11:52:07.128588 : ['35 ofert w 1 miejscu docelowym', '132 oferty w 1 miejscu docelowym', '17 ofert w 1 miejscu docelowym', '4 oferty w 1 miejscu docelowym', '10 ofert w 1 miejscu docelowym', '23 oferty w 1 miejscu docelowym']
+2024-02-23 11:52:07.128588 : ------------------------------------------
+2024-02-23 11:52:07.128588 : Banners are GOOD, TEST OK https://www.exim.pl/ VS https://eximpl.web11.dtweb.cz/
+2024-02-23 11:52:07.128588 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:52:16.415688 : <selenium.webdriver.remote.webelement.WebElement (session="b61ca3f2931c9ae8f9b805f546cf1577", element="f.E3F60F93F71F9A07732534D7AAC7464D.d.7FFF0D5C54F6BB1E9CEEF3226C482F11.e.349")>
+2024-02-23 11:52:23.270084 : Destinace jdou videt
+2024-02-23 11:52:23.285119 : Destinace jdou videt
+2024-02-23 11:52:23.303666 : Destinace jdou videt
+2024-02-23 11:52:23.303666 : Destinace jdou videt
+2024-02-23 11:52:23.316171 : Destinace jdou videt
+2024-02-23 11:52:23.331796 : Destinace jdou videt
+2024-02-23 11:52:23.347304 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:52:34.597475 : <selenium.webdriver.remote.webelement.WebElement (session="5f61f329519908ae9ecf03c956b401c2", element="f.A396B529973B0E555F9C7B0A44E559E7.d.53035E66771030C22C5BF18B61D6551F.e.349")>
+2024-02-23 11:52:41.394139 : Destinace jdou videt
+2024-02-23 11:52:41.409789 : Destinace jdou videt
+2024-02-23 11:52:41.409789 : Destinace jdou videt
+2024-02-23 11:52:41.425383 : Destinace jdou videt
+2024-02-23 11:52:41.444481 : Destinace jdou videt
+2024-02-23 11:52:41.444481 : Destinace jdou videt
+2024-02-23 11:52:41.460104 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:52:50.547118 : <selenium.webdriver.remote.webelement.WebElement (session="c3bfe3bb0e791e9650c55d4df919b955", element="f.C09BB8E4655F3BED8FAF7FE825457850.d.121C792D9EDAA7623EA213A1F30159BF.e.360")>
+2024-02-23 11:52:57.331767 : Destinace jdou videt
+2024-02-23 11:52:57.347276 : Destinace jdou videt
+2024-02-23 11:52:57.365022 : Destinace jdou videt
+2024-02-23 11:52:57.365920 : Destinace jdou videt
+2024-02-23 11:52:57.378926 : Destinace jdou videt
+2024-02-23 11:52:57.394552 : Destinace jdou videt
+2024-02-23 11:52:57.410060 : https://eximpl.web11.dtweb.cz/
+2024-02-23 11:53:06.380540 : <selenium.webdriver.remote.webelement.WebElement (session="520874c397e42ef93e8b3950ac0de46a", element="f.625B42AD0A50963038FF79DE39AD8701.d.5232720366BA973184634B793AED6F15.e.339")>
+2024-02-23 11:53:07.410198 : https://eximpl.web11.dtweb.cz/lato
+2024-02-23 11:53:17.153355 : <selenium.webdriver.remote.webelement.WebElement (session="715442f07528732f115335b8f9bbc491", element="f.796D11F3856252FC550B82636FA7C5B7.d.081F645CD927BCC71D360AC8FAFD96E4.e.692")>
+2024-02-23 11:53:18.253522 : https://eximpl.web11.dtweb.cz/zima
+2024-02-23 11:53:27.472306 : <selenium.webdriver.remote.webelement.WebElement (session="33105ab0eabebaf9f746efd8f74d38f0", element="f.777C0B71944A9A3DDF3CA693E2F10636.d.D55B8D952F8E04AA992D7BDBB1052ACF.e.686")>
+2024-02-23 11:53:28.317313 : https://eximpl.web11.dtweb.cz/egzotyka
+2024-02-23 11:53:37.503754 : <selenium.webdriver.remote.webelement.WebElement (session="ca5440b16007555fafa406bbf4f7d8fc", element="f.EAF02E8892424F0A00FC27405D5BC591.d.57163FBBE03A48BA7F40016FC1C8BF16.e.679")>
+2024-02-23 11:53:38.425460 : https://eximpl.web11.dtweb.cz/all-inclusive
+2024-02-23 11:56:57.629105 : len(pocet_vysledku_list_default)
+2024-02-23 11:56:57.629105 : 20
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : len(pocet_vysledku_list_dev))
+2024-02-23 11:56:57.629105 : 20
+2024-02-23 11:56:57.629105 : 181 ofert w 2 miejscach docelowych
+2024-02-23 11:56:57.629105 : 181 ofert w 2 miejscach docelowych
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63484|63483|64419|64420|64425&dd=2023-11-01&nn=6|7|8|9|10|11|12|13|14&rd=2023-11-30&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63484|63483|64419|64420|64425&dd=2023-11-01&nn=6|7|8|9|10|11|12|13|14&rd=2023-11-30&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 0
+2024-02-23 11:56:57.629105 : 5 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 5 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63448|63288&dd=2024-01-15&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63448|63288&dd=2024-01-15&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 1
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63252|63447&dd=2024-01-15&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63252|63447&dd=2024-01-15&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 2
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 3
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63580|63581&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63580|63581&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 4
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63738&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63738&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 5
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 6
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64076&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64076&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 7
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63252&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63252&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 8
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63864|63865&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63864|63865&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 9
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64246&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64246&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 10
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63757|63758|63759&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63757|63758|63759&dd=2024-01-15&ds=0&ic1=1&ifm=0&ilm=0&ka1=9&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-02-25&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 11
+2024-02-23 11:56:57.629105 : 8 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 8 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 12
+2024-02-23 11:56:57.629105 : 13 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 13 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63213|63241|74459|74460|74463|74464|74465&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 13
+2024-02-23 11:56:57.629105 : 2 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 2 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63707|63710&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63707|63710&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 14
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64126|64127|64128&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 15
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : nie znaleŸliœmy oferty dla wskazanego kierunku, transportu, terminu, uczestników. zmieñ podane parametry i spróbuj ponownie.
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63252&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63252&dd=2024-01-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=9|5&kc1=2&nn=7|8|9|10|11|12|13&rd=2024-02-29&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 16
+2024-02-23 11:56:57.629105 : 28 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 28 ofert w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63343|63348&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63343|63348&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 17
+2024-02-23 11:56:57.629105 : 43 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 43 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=63982&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=63982&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 18
+2024-02-23 11:56:57.629105 : 153 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : 153 oferty w 1 miejscu docelowym
+2024-02-23 11:56:57.629105 : https://eximpl.web11.dtweb.cz//wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 : https://www.exim.pl/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1
+2024-02-23 11:56:57.629105 :              
+2024-02-23 11:56:57.629105 : 19
+2024-02-23 11:56:57.629105 : 20
+2024-02-23 11:56:58.160655 : https://www.exim.pl/wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-03-01&ds=0&ifm=0&ilm=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&sc=residential&tt=1

@@ -1,0 +1,2412 @@
+2024-10-04 17:06:44.581873 : INFO - https://exim.stg.dtweb.cz//hotely/egypt/hurghada/hurghada/minamark?AC1=2&D=64419%7C64420%7C64421%7C64422%7C64423%7C64424%7C64425%7C64426&DD=2024-10-22&DI=GT06-AI&DP=4305&DPR=OTSCKF&DS=2&GIATA=17487&HID=145043&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&MT=5&NN=7&PID=AEGHRG10SU&RC=RMCLDB0000&RCS=RMCLDB0000&RD=2024-10-22&RT=0&TO=483&acm1=2&df=2024-10-14%7C2024-10-31&nnm=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&ptm=0&sortby=Departure&tt=1&ttm=1&DF=2024-10-14%7C2024-10-31&ERM=0&TOM=483&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PC=7-RMCLDB0000-GT06-AI&IFC=0-HRGBTS-8215-DT29-10-13-15-S&OFC=0-BTSHRG-8216-DT22-10-18-50-T#/prehled
+                             
+2024-10-04 17:06:55.086913 : INFO - its ok
+                             
+2024-10-04 17:06:55.092897 : INFO - https://img.fischer.cz/hotels/velka-britanie/oblast-londyn/londyn/londyn-letecke-vikendy/piccadilly-circus-londyn.jpg
+                             
+2024-10-04 17:07:08.119423 : INFO - Starting filtering process with filter type: airport
+                             
+2024-10-04 17:07:14.987541 : INFO - Filter type is 'airport'. Executing airport filter logic.
+                             
+2024-10-04 17:07:17.036077 : if departure==True
+2024-10-04 17:07:17.192296 : INFO - Completed filtering process for filter type: airport
+                             
+2024-10-04 17:07:26.223248 : INFO - Starting departure check.
+                             
+2024-10-04 17:07:26.255266 : INFO - Found 15 visible departure terms.
+                             
+2024-10-04 17:07:26.269630 : INFO - Found 15 departure terms.
+                             
+2024-10-04 17:07:29.317924 : INFO - Departure term at position 1 matches praha.
+                             
+2024-10-04 17:07:29.332864 : INFO - Departure term at position 2 matches praha.
+                             
+2024-10-04 17:07:29.342681 : INFO - Departure term at position 3 matches praha.
+                             
+2024-10-04 17:07:29.347334 : INFO - Departure term at position 4 matches praha.
+                             
+2024-10-04 17:07:29.362428 : INFO - Departure term at position 5 matches praha.
+                             
+2024-10-04 17:07:29.372567 : INFO - Departure term at position 6 matches praha.
+                             
+2024-10-04 17:07:29.377590 : INFO - Departure term at position 7 matches praha.
+                             
+2024-10-04 17:07:29.377590 : INFO - Departure term at position 8 matches praha.
+                             
+2024-10-04 17:07:29.402955 : INFO - Departure term at position 9 matches praha.
+                             
+2024-10-04 17:07:29.409651 : INFO - Departure term at position 10 matches praha.
+                             
+2024-10-04 17:07:29.409651 : INFO - Departure term at position 11 matches praha.
+                             
+2024-10-04 17:07:29.432320 : INFO - Departure term at position 12 matches praha.
+                             
+2024-10-04 17:07:29.440235 : INFO - Departure term at position 13 matches praha.
+                             
+2024-10-04 17:07:29.440235 : INFO - Completed departure check.
+                             
+2024-10-04 17:07:29.667001 : INFO - https://fischer.stg.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-10-05&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-08-05&sortby=Departure&tom=4312&tt=1&ttm=1#hotelDetailFilterStart
+                             
+2024-10-04 17:07:45.455480 : INFO - benefit item
+                             
+2024-10-04 17:07:45.471101 : INFO - benefit item
+                             
+2024-10-04 17:07:45.471101 : INFO - benefit item
+                             
+2024-10-04 17:07:45.486722 : INFO - benefit item
+                             
+2024-10-04 17:07:45.502357 : INFO - benefit item
+                             
+2024-10-04 17:07:45.517965 : INFO - benefit item
+                             
+2024-10-04 17:07:45.598962 : grind container
+2024-10-04 17:07:45.610934 : grind container
+2024-10-04 17:07:45.623863 : grind container
+2024-10-04 17:07:45.633836 : grind container
+2024-10-04 17:07:45.642812 : grind container
+2024-10-04 17:07:45.647570 : grind container
+2024-10-04 17:07:45.663192 : grind container
+2024-10-04 17:07:45.685672 : grind container
+2024-10-04 17:07:45.688252 : grind container
+2024-10-04 17:07:45.716410 : grind container
+2024-10-04 17:07:45.716410 : grind container
+2024-10-04 17:07:45.742228 : grind container
+2024-10-04 17:07:45.752862 : grind container
+2024-10-04 17:07:45.861261 : INFO - tile img
+                             
+2024-10-04 17:07:45.891328 : INFO - tile img
+                             
+2024-10-04 17:07:45.894459 : INFO - tile img
+                             
+2024-10-04 17:07:45.910081 : INFO - tile img
+                             
+2024-10-04 17:07:45.928457 : INFO - tile img
+                             
+2024-10-04 17:07:45.928457 : INFO - tile img
+                             
+2024-10-04 17:07:45.944080 : INFO - https://fischer.stg.dtweb.cz//kluby/funtazie-leto
+                             
+2024-10-04 17:07:58.563006 : INFO - Položka menu neexistuje
+                             
+2024-10-04 17:07:59.236874 : INFO - https://fischer.stg.dtweb.cz/
+                             
+2024-10-04 17:08:14.709582 : INFO - https://fischer.stg.dtweb.cz/first-minute/exotika-zima
+                             
+2024-10-04 17:09:46.441350 : INFO - ZANZIBAR
+                             
+2024-10-04 17:09:51.754184 : INFO - ØECKO
+                             
+2024-10-04 17:09:54.316066 : INFO - first no such ele except
+                             
+2024-10-04 17:09:55.038514 : INFO - last no such ele except
+                             
+2024-10-04 17:09:59.378587 : INFO - MIRAGE BAY
+                             
+2024-10-04 17:10:00.356877 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:10:04.471841 : INFO - PORTO SKALA 7
+                             
+2024-10-04 17:10:05.673335 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:10:09.628351 : INFO - DOUBLETREE
+                             
+2024-10-04 17:10:10.636856 : INFO - hote dlazdice klik
+                             
+2024-10-04 17:10:10.914161 : INFO - https://fischer.stg.dtweb.cz/egypt/egypt-sharm-el-sheikh/hilton-sharks-bay?DS=8192&GIATA=26627&D=64425&HID=9724&DF=2024-10-07%7C2024-11-04&RD=2024-10-21&DD=2024-10-21&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&TT=0&PID=SSH90011&DPR=EXIM+TOURS+ATCOM&DI=AI&RCS=DR03&TO=4312&TOM=4312&PC=15262649%2F2%2F1755%2F3&IFC=46383814%2F212166&OFC=46363350%2F212107
+                             
+2024-10-04 17:11:22.228034 : INFO - EGYPT
+                             
+2024-10-04 17:11:26.385393 : INFO - KAPVERDY
+                             
+2024-10-04 17:11:27.452585 : INFO - Starting group search check.
+                             
+2024-10-04 17:11:29.487859 : INFO - Found 41 teaser items in the group search section.
+                             
+2024-10-04 17:11:29.503511 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.536")>.
+                             
+2024-10-04 17:11:29.503511 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.537")>.
+                             
+2024-10-04 17:11:29.519019 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.538")>.
+                             
+2024-10-04 17:11:29.534645 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.539")>.
+                             
+2024-10-04 17:11:29.550267 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.540")>.
+                             
+2024-10-04 17:11:29.565888 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.541")>.
+                             
+2024-10-04 17:11:29.565888 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.542")>.
+                             
+2024-10-04 17:11:29.581509 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.543")>.
+                             
+2024-10-04 17:11:29.597131 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.544")>.
+                             
+2024-10-04 17:11:29.612751 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.545")>.
+                             
+2024-10-04 17:11:29.612751 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.546")>.
+                             
+2024-10-04 17:11:29.628373 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.547")>.
+                             
+2024-10-04 17:11:29.628373 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.548")>.
+                             
+2024-10-04 17:11:29.643995 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.549")>.
+                             
+2024-10-04 17:11:29.659616 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.550")>.
+                             
+2024-10-04 17:11:29.659616 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.551")>.
+                             
+2024-10-04 17:11:29.675238 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.552")>.
+                             
+2024-10-04 17:11:29.690860 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.553")>.
+                             
+2024-10-04 17:11:29.690860 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.554")>.
+                             
+2024-10-04 17:11:29.706481 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.555")>.
+                             
+2024-10-04 17:11:29.722126 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.556")>.
+                             
+2024-10-04 17:11:29.722126 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.557")>.
+                             
+2024-10-04 17:11:29.737724 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.558")>.
+                             
+2024-10-04 17:11:29.753370 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.559")>.
+                             
+2024-10-04 17:11:29.753370 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.560")>.
+                             
+2024-10-04 17:11:29.768967 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.561")>.
+                             
+2024-10-04 17:11:29.784588 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.562")>.
+                             
+2024-10-04 17:11:29.800208 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.563")>.
+                             
+2024-10-04 17:11:29.800208 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.564")>.
+                             
+2024-10-04 17:11:29.815831 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.565")>.
+                             
+2024-10-04 17:11:29.831453 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.566")>.
+                             
+2024-10-04 17:11:29.831453 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.567")>.
+                             
+2024-10-04 17:11:29.847101 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.568")>.
+                             
+2024-10-04 17:11:29.862768 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.569")>.
+                             
+2024-10-04 17:11:29.862768 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.570")>.
+                             
+2024-10-04 17:11:29.878412 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.571")>.
+                             
+2024-10-04 17:11:29.900314 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.572")>.
+                             
+2024-10-04 17:11:29.910287 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.573")>.
+                             
+2024-10-04 17:11:29.920260 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.574")>.
+                             
+2024-10-04 17:11:29.931655 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.575")>.
+                             
+2024-10-04 17:11:29.941628 : INFO - Teaser item is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.576")>.
+                             
+2024-10-04 17:11:29.950392 : INFO - First teaser item is displayed.
+                             
+2024-10-04 17:11:29.958401 : INFO - Found 1 Groupsearch items.
+                             
+2024-10-04 17:11:29.974024 : INFO - Groupsearch is visible: <selenium.webdriver.remote.webelement.WebElement (session="195f09331eea1e667e8cb2907ebc21f2", element="f.7A5A9427164FC837A6DB2450C1D7CB7C.d.F74BDAED12FFDDB7BBFB43B7E475514E.e.577")>.
+                             
+2024-10-04 17:11:29.988033 : INFO - Groupsearch is displayed.
+                             
+2024-10-04 17:11:29.988033 : INFO - Group search check completed.
+                             
+2024-10-04 17:11:29.988033 : INFO - https://exim.stg.dtweb.cz/vysledky-vyhledavani?tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ic1=1&ac1=2
+                             
+2024-10-04 17:11:43.769381 : INFO - https://exim.stg.dtweb.cz/
+                             
+2024-10-04 17:11:53.935650 : INFO - OMAN
+                             
+2024-10-04 17:11:54.630905 : INFO - Starting FM/LM tour expansion check.
+                             
+2024-10-04 17:11:57.976087 : INFO - KEFALONIA
+                             
+2024-10-04 17:12:04.694613 : ERROR - Could not expand FM/LM tour section. URL: https://exim.stg.dtweb.cz/last-minute
+                             
+2024-10-04 17:12:04.700659 : INFO - https://exim.stg.dtweb.cz/last-minute
+                             
+2024-10-04 17:12:21.735941 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.748084 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.759747 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.771336 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.782860 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.794128 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.805588 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:21.816638 : INFO - mapa kolecka
+                             
+2024-10-04 17:12:25.342675 : INFO - MIRAGE BAY
+                             
+2024-10-04 17:12:25.383565 : INFO - basic info 
+                             
+2024-10-04 17:12:25.400520 : INFO - basic info 
+                             
+2024-10-04 17:12:25.412489 : INFO - basic info 
+                             
+2024-10-04 17:12:25.423459 : INFO - basic info 
+                             
+2024-10-04 17:12:25.434430 : INFO - basic info 
+                             
+2024-10-04 17:12:25.446398 : INFO - basic info 
+                             
+2024-10-04 17:12:25.461357 : INFO - basic info 
+                             
+2024-10-04 17:12:25.487288 : INFO - basic info 
+                             
+2024-10-04 17:12:25.509230 : INFO - basic info 
+                             
+2024-10-04 17:12:25.523192 : INFO - basic info 
+                             
+2024-10-04 17:12:25.600985 : INFO - basic info 
+                             
+2024-10-04 17:12:25.768539 : INFO - basic info 
+                             
+2024-10-04 17:12:25.782501 : INFO - basic info 
+                             
+2024-10-04 17:12:25.793471 : INFO - basic info 
+                             
+2024-10-04 17:12:25.804442 : INFO - basic info 
+                             
+2024-10-04 17:12:25.817407 : INFO - basic info 
+                             
+2024-10-04 17:12:25.827381 : INFO - basic info 
+                             
+2024-10-04 17:12:25.839349 : INFO - basic info 
+                             
+2024-10-04 17:12:25.850321 : INFO - basic info 
+                             
+2024-10-04 17:12:25.861356 : INFO - basic info 
+                             
+2024-10-04 17:12:25.873325 : INFO - basic info 
+                             
+2024-10-04 17:12:25.883298 : INFO - basic info 
+                             
+2024-10-04 17:12:25.893271 : INFO - basic info 
+                             
+2024-10-04 17:12:25.904312 : INFO - basic info 
+                             
+2024-10-04 17:12:25.917277 : INFO - basic info 
+                             
+2024-10-04 17:12:25.929312 : INFO - basic info 
+                             
+2024-10-04 17:12:25.940282 : INFO - basic info 
+                             
+2024-10-04 17:12:25.951252 : INFO - basic info 
+                             
+2024-10-04 17:12:26.094208 : INFO - basic info 
+                             
+2024-10-04 17:12:26.104181 : INFO - basic info 
+                             
+2024-10-04 17:12:26.116149 : INFO - basic info 
+                             
+2024-10-04 17:12:26.127184 : INFO - basic info 
+                             
+2024-10-04 17:12:26.138155 : INFO - basic info 
+                             
+2024-10-04 17:12:26.149126 : INFO - basic info 
+                             
+2024-10-04 17:12:26.160165 : INFO - basic info 
+                             
+2024-10-04 17:12:26.170137 : INFO - basic info 
+                             
+2024-10-04 17:12:26.181109 : INFO - basic info 
+                             
+2024-10-04 17:12:26.192143 : INFO - basic info 
+                             
+2024-10-04 17:12:26.203115 : INFO - basic info 
+                             
+2024-10-04 17:12:26.213088 : INFO - basic info 
+                             
+2024-10-04 17:12:26.224115 : INFO - basic info 
+                             
+2024-10-04 17:12:26.236083 : INFO - basic info 
+                             
+2024-10-04 17:12:26.246056 : INFO - basic info 
+                             
+2024-10-04 17:12:26.257100 : INFO - basic info 
+                             
+2024-10-04 17:12:26.268072 : INFO - basic info 
+                             
+2024-10-04 17:12:26.278045 : INFO - basic info 
+                             
+2024-10-04 17:12:26.288019 : INFO - basic info 
+                             
+2024-10-04 17:12:26.298055 : INFO - basic info 
+                             
+2024-10-04 17:12:26.310023 : INFO - basic info 
+                             
+2024-10-04 17:12:26.319997 : INFO - basic info 
+                             
+2024-10-04 17:12:26.330038 : INFO - basic info 
+                             
+2024-10-04 17:12:26.340012 : INFO - basic info 
+                             
+2024-10-04 17:12:26.350983 : INFO - basic info 
+                             
+2024-10-04 17:12:26.363010 : INFO - basic info 
+                             
+2024-10-04 17:12:26.372983 : INFO - basic info 
+                             
+2024-10-04 17:12:26.382956 : INFO - basic info 
+                             
+2024-10-04 17:12:26.392996 : INFO - basic info 
+                             
+2024-10-04 17:12:26.403966 : INFO - basic info 
+                             
+2024-10-04 17:12:26.413941 : INFO - basic info 
+                             
+2024-10-04 17:12:26.423980 : INFO - basic info 
+                             
+2024-10-04 17:12:26.433952 : INFO - basic info 
+                             
+2024-10-04 17:12:26.444923 : INFO - basic info 
+                             
+2024-10-04 17:12:26.454954 : INFO - basic info 
+                             
+2024-10-04 17:12:26.465927 : INFO - basic info 
+                             
+2024-10-04 17:12:26.475900 : INFO - basic info 
+                             
+2024-10-04 17:12:26.485872 : INFO - basic info 
+                             
+2024-10-04 17:12:26.497914 : INFO - basic info 
+                             
+2024-10-04 17:12:26.507888 : INFO - basic info 
+                             
+2024-10-04 17:12:26.517861 : INFO - basic info 
+                             
+2024-10-04 17:12:26.567880 : INFO - basic info 
+                             
+2024-10-04 17:12:26.618815 : INFO - basic info 
+                             
+2024-10-04 17:12:26.631842 : INFO - basic info 
+                             
+2024-10-04 17:12:26.642812 : INFO - basic info 
+                             
+2024-10-04 17:12:26.652847 : INFO - basic info 
+                             
+2024-10-04 17:12:26.663819 : INFO - basic info 
+                             
+2024-10-04 17:12:26.674790 : INFO - basic info 
+                             
+2024-10-04 17:12:26.685826 : INFO - basic info 
+                             
+2024-10-04 17:12:26.706773 : INFO - basic info 
+                             
+2024-10-04 17:12:26.718811 : INFO - basic info 
+                             
+2024-10-04 17:12:26.737761 : INFO - basic info 
+                             
+2024-10-04 17:12:26.751804 : INFO - basic info 
+                             
+2024-10-04 17:12:26.764772 : INFO - basic info 
+                             
+2024-10-04 17:12:26.776739 : INFO - basic info 
+                             
+2024-10-04 17:12:26.790775 : INFO - basic info 
+                             
+2024-10-04 17:12:26.802743 : INFO - basic info 
+                             
+2024-10-04 17:12:26.814710 : INFO - basic info 
+                             
+2024-10-04 17:12:26.826753 : INFO - basic info 
+                             
+2024-10-04 17:12:26.838721 : INFO - basic info 
+                             
+2024-10-04 17:12:26.850754 : INFO - basic info 
+                             
+2024-10-04 17:12:26.861725 : INFO - basic info 
+                             
+2024-10-04 17:12:26.871699 : INFO - basic info 
+                             
+2024-10-04 17:12:26.881672 : INFO - basic info 
+                             
+2024-10-04 17:12:26.892713 : INFO - basic info 
+                             
+2024-10-04 17:12:26.902687 : INFO - basic info 
+                             
+2024-10-04 17:12:26.912659 : INFO - basic info 
+                             
+2024-10-04 17:12:26.923689 : INFO - basic info 
+                             
+2024-10-04 17:12:26.933662 : INFO - basic info 
+                             
+2024-10-04 17:12:26.944633 : INFO - basic info 
+                             
+2024-10-04 17:12:26.954661 : INFO - basic info 
+                             
+2024-10-04 17:12:27.100583 : INFO - basic info 
+                             
+2024-10-04 17:12:27.111554 : INFO - basic info 
+                             
+2024-10-04 17:12:27.121588 : INFO - basic info 
+                             
+2024-10-04 17:12:27.131561 : INFO - basic info 
+                             
+2024-10-04 17:12:27.141534 : INFO - basic info 
+                             
+2024-10-04 17:12:27.152563 : INFO - basic info 
+                             
+2024-10-04 17:12:27.162537 : INFO - basic info 
+                             
+2024-10-04 17:12:27.173520 : INFO - basic info 
+                             
+2024-10-04 17:12:27.188519 : INFO - basic info 
+                             
+2024-10-04 17:12:27.200486 : INFO - basic info 
+                             
+2024-10-04 17:12:27.212455 : INFO - basic info 
+                             
+2024-10-04 17:12:27.223632 : INFO - basic info 
+                             
+2024-10-04 17:12:27.234603 : INFO - basic info 
+                             
+2024-10-04 17:12:27.245574 : INFO - basic info 
+                             
+2024-10-04 17:12:27.256622 : INFO - basic info 
+                             
+2024-10-04 17:12:27.266595 : INFO - basic info 
+                             
+2024-10-04 17:12:27.277566 : INFO - basic info 
+                             
+2024-10-04 17:12:27.287539 : INFO - basic info 
+                             
+2024-10-04 17:12:27.299578 : INFO - basic info 
+                             
+2024-10-04 17:12:27.309551 : INFO - basic info 
+                             
+2024-10-04 17:12:27.320522 : INFO - basic info 
+                             
+2024-10-04 17:12:27.331586 : INFO - basic info 
+                             
+2024-10-04 17:12:27.342558 : INFO - basic info 
+                             
+2024-10-04 17:12:27.353528 : INFO - basic info 
+                             
+2024-10-04 17:12:27.364617 : INFO - basic info 
+                             
+2024-10-04 17:12:27.375588 : INFO - basic info 
+                             
+2024-10-04 17:12:27.386559 : INFO - basic info 
+                             
+2024-10-04 17:12:27.398594 : INFO - basic info 
+                             
+2024-10-04 17:12:27.409564 : INFO - basic info 
+                             
+2024-10-04 17:12:27.421598 : INFO - basic info 
+                             
+2024-10-04 17:12:27.434564 : INFO - basic info 
+                             
+2024-10-04 17:12:27.446532 : INFO - basic info 
+                             
+2024-10-04 17:12:27.458560 : INFO - basic info 
+                             
+2024-10-04 17:12:27.469532 : INFO - basic info 
+                             
+2024-10-04 17:12:27.481499 : INFO - basic info 
+                             
+2024-10-04 17:12:27.492544 : INFO - basic info 
+                             
+2024-10-04 17:12:27.503514 : INFO - basic info 
+                             
+2024-10-04 17:12:27.514485 : INFO - basic info 
+                             
+2024-10-04 17:12:27.526512 : INFO - basic info 
+                             
+2024-10-04 17:12:27.536485 : INFO - basic info 
+                             
+2024-10-04 17:12:27.547456 : INFO - basic info 
+                             
+2024-10-04 17:12:27.558529 : INFO - basic info 
+                             
+2024-10-04 17:12:27.568502 : INFO - basic info 
+                             
+2024-10-04 17:12:27.580470 : INFO - basic info 
+                             
+2024-10-04 17:12:27.591703 : INFO - basic info 
+                             
+2024-10-04 17:12:27.603983 : INFO - basic info 
+                             
+2024-10-04 17:12:27.615938 : INFO - basic info 
+                             
+2024-10-04 17:12:27.629263 : INFO - basic info 
+                             
+2024-10-04 17:12:27.641271 : INFO - basic info 
+                             
+2024-10-04 17:12:27.653381 : INFO - basic info 
+                             
+2024-10-04 17:12:27.666174 : INFO - basic info 
+                             
+2024-10-04 17:12:27.678993 : INFO - basic info 
+                             
+2024-10-04 17:12:27.693100 : INFO - basic info 
+                             
+2024-10-04 17:12:27.705542 : INFO - basic info 
+                             
+2024-10-04 17:12:27.718036 : INFO - basic info 
+                             
+2024-10-04 17:12:27.731067 : INFO - basic info 
+                             
+2024-10-04 17:12:27.743507 : INFO - basic info 
+                             
+2024-10-04 17:12:27.755866 : INFO - basic info 
+                             
+2024-10-04 17:12:27.768695 : INFO - basic info 
+                             
+2024-10-04 17:12:27.780846 : INFO - basic info 
+                             
+2024-10-04 17:12:27.793624 : INFO - basic info 
+                             
+2024-10-04 17:12:27.806041 : INFO - basic info 
+                             
+2024-10-04 17:12:27.819017 : INFO - basic info 
+                             
+2024-10-04 17:12:27.831150 : INFO - basic info 
+                             
+2024-10-04 17:12:27.845134 : INFO - basic info 
+                             
+2024-10-04 17:12:27.857822 : INFO - basic info 
+                             
+2024-10-04 17:12:27.870450 : INFO - basic info 
+                             
+2024-10-04 17:12:27.882892 : INFO - basic info 
+                             
+2024-10-04 17:12:27.896637 : INFO - basic info 
+                             
+2024-10-04 17:12:27.908421 : INFO - basic info 
+                             
+2024-10-04 17:12:27.921600 : INFO - basic info 
+                             
+2024-10-04 17:12:27.933452 : INFO - basic info 
+                             
+2024-10-04 17:12:27.946407 : INFO - basic info 
+                             
+2024-10-04 17:12:28.082278 : INFO - basic info 
+                             
+2024-10-04 17:12:28.096053 : INFO - basic info 
+                             
+2024-10-04 17:12:28.109060 : INFO - basic info 
+                             
+2024-10-04 17:12:28.122684 : INFO - basic info 
+                             
+2024-10-04 17:12:28.135875 : INFO - basic info 
+                             
+2024-10-04 17:12:28.149071 : INFO - basic info 
+                             
+2024-10-04 17:12:28.162319 : INFO - basic info 
+                             
+2024-10-04 17:12:28.175733 : INFO - basic info 
+                             
+2024-10-04 17:12:28.189037 : INFO - basic info 
+                             
+2024-10-04 17:12:28.202658 : INFO - basic info 
+                             
+2024-10-04 17:12:28.216059 : INFO - basic info 
+                             
+2024-10-04 17:12:28.228835 : INFO - basic info 
+                             
+2024-10-04 17:12:28.242614 : INFO - basic info 
+                             
+2024-10-04 17:12:28.256291 : INFO - basic info 
+                             
+2024-10-04 17:12:28.269920 : INFO - basic info 
+                             
+2024-10-04 17:12:28.283843 : INFO - basic info 
+                             
+2024-10-04 17:12:28.296811 : INFO - basic info 
+                             
+2024-10-04 17:12:28.311440 : INFO - basic info 
+                             
+2024-10-04 17:12:28.328213 : INFO - basic info 
+                             
+2024-10-04 17:12:28.342220 : INFO - basic info 
+                             
+2024-10-04 17:12:28.356621 : INFO - basic info 
+                             
+2024-10-04 17:12:28.370629 : INFO - basic info 
+                             
+2024-10-04 17:12:28.383829 : INFO - basic info 
+                             
+2024-10-04 17:12:28.397319 : INFO - basic info 
+                             
+2024-10-04 17:12:28.411720 : INFO - basic info 
+                             
+2024-10-04 17:12:28.426917 : INFO - basic info 
+                             
+2024-10-04 17:12:28.440944 : INFO - basic info 
+                             
+2024-10-04 17:12:28.458767 : INFO - basic info 
+                             
+2024-10-04 17:12:28.483700 : INFO - basic info 
+                             
+2024-10-04 17:12:28.503647 : INFO - basic info 
+                             
+2024-10-04 17:12:28.519605 : INFO - basic info 
+                             
+2024-10-04 17:12:28.534564 : INFO - basic info 
+                             
+2024-10-04 17:12:28.548527 : INFO - basic info 
+                             
+2024-10-04 17:12:28.562299 : INFO - basic info 
+                             
+2024-10-04 17:12:28.576125 : INFO - basic info 
+                             
+2024-10-04 17:12:28.589385 : INFO - basic info 
+                             
+2024-10-04 17:12:28.603404 : INFO - basic info 
+                             
+2024-10-04 17:12:28.617023 : INFO - basic info 
+                             
+2024-10-04 17:12:28.630470 : INFO - basic info 
+                             
+2024-10-04 17:12:28.644435 : INFO - basic info 
+                             
+2024-10-04 17:12:28.657575 : INFO - basic info 
+                             
+2024-10-04 17:12:28.671658 : INFO - basic info 
+                             
+2024-10-04 17:12:28.685580 : INFO - basic info 
+                             
+2024-10-04 17:12:28.699050 : INFO - basic info 
+                             
+2024-10-04 17:12:28.712767 : INFO - basic info 
+                             
+2024-10-04 17:12:28.726315 : INFO - basic info 
+                             
+2024-10-04 17:12:28.742126 : INFO - basic info 
+                             
+2024-10-04 17:12:28.756087 : INFO - basic info 
+                             
+2024-10-04 17:12:28.773053 : INFO - basic info 
+                             
+2024-10-04 17:12:28.789015 : INFO - basic info 
+                             
+2024-10-04 17:12:28.805955 : INFO - basic info 
+                             
+2024-10-04 17:12:28.831886 : INFO - basic info 
+                             
+2024-10-04 17:12:28.849838 : INFO - basic info 
+                             
+2024-10-04 17:12:28.863800 : INFO - basic info 
+                             
+2024-10-04 17:12:28.880755 : INFO - basic info 
+                             
+2024-10-04 17:12:28.896713 : INFO - basic info 
+                             
+2024-10-04 17:12:28.915663 : INFO - basic info 
+                             
+2024-10-04 17:12:28.929625 : INFO - basic info 
+                             
+2024-10-04 17:12:28.946580 : INFO - basic info 
+                             
+2024-10-04 17:12:29.103162 : INFO - basic info 
+                             
+2024-10-04 17:12:29.116127 : INFO - basic info 
+                             
+2024-10-04 17:12:29.180954 : INFO - boxiky
+                             
+2024-10-04 17:12:29.193921 : INFO - boxiky
+                             
+2024-10-04 17:12:29.194917 : INFO - PORTO SKALA 7
+                             
+2024-10-04 17:12:29.208880 : INFO - boxiky
+                             
+2024-10-04 17:12:29.222843 : INFO - boxiky
+                             
+2024-10-04 17:12:29.237803 : INFO - boxiky
+                             
+2024-10-04 17:12:29.250769 : INFO - boxiky
+                             
+2024-10-04 17:12:29.264731 : INFO - boxiky
+                             
+2024-10-04 17:12:29.278693 : INFO - boxiky
+                             
+2024-10-04 17:12:29.293654 : INFO - boxiky
+                             
+2024-10-04 17:12:29.309610 : INFO - boxiky
+                             
+2024-10-04 17:12:29.323574 : INFO - boxiky
+                             
+2024-10-04 17:12:29.340528 : INFO - boxiky
+                             
+2024-10-04 17:12:29.356486 : INFO - boxiky
+                             
+2024-10-04 17:12:29.381419 : INFO - boxiky
+                             
+2024-10-04 17:12:29.400368 : INFO - boxiky
+                             
+2024-10-04 17:12:29.428294 : INFO - boxiky
+                             
+2024-10-04 17:12:29.443254 : INFO - boxiky
+                             
+2024-10-04 17:12:29.456220 : INFO - boxiky
+                             
+2024-10-04 17:12:29.472177 : INFO - boxiky
+                             
+2024-10-04 17:12:29.487136 : INFO - boxiky
+                             
+2024-10-04 17:12:29.502097 : INFO - boxiky
+                             
+2024-10-04 17:12:29.515062 : INFO - boxiky
+                             
+2024-10-04 17:12:29.533015 : INFO - boxiky
+                             
+2024-10-04 17:12:29.546977 : INFO - boxiky
+                             
+2024-10-04 17:12:29.561937 : INFO - boxiky
+                             
+2024-10-04 17:12:29.574903 : INFO - boxiky
+                             
+2024-10-04 17:12:29.587869 : INFO - boxiky
+                             
+2024-10-04 17:12:29.600834 : INFO - boxiky
+                             
+2024-10-04 17:12:29.614796 : INFO - boxiky
+                             
+2024-10-04 17:12:29.633746 : INFO - boxiky
+                             
+2024-10-04 17:12:29.647708 : INFO - boxiky
+                             
+2024-10-04 17:12:29.660673 : INFO - boxiky
+                             
+2024-10-04 17:12:29.677628 : INFO - boxiky
+                             
+2024-10-04 17:12:29.691660 : INFO - boxiky
+                             
+2024-10-04 17:12:29.704626 : INFO - boxiky
+                             
+2024-10-04 17:12:29.718588 : INFO - boxiky
+                             
+2024-10-04 17:12:29.730626 : INFO - boxiky
+                             
+2024-10-04 17:12:29.742594 : INFO - boxiky
+                             
+2024-10-04 17:12:29.757629 : INFO - boxiky
+                             
+2024-10-04 17:12:29.773586 : INFO - boxiky
+                             
+2024-10-04 17:12:29.787615 : INFO - boxiky
+                             
+2024-10-04 17:12:29.800578 : INFO - boxiky
+                             
+2024-10-04 17:12:29.812545 : INFO - boxiky
+                             
+2024-10-04 17:12:29.825610 : INFO - boxiky
+                             
+2024-10-04 17:12:29.837578 : INFO - boxiky
+                             
+2024-10-04 17:12:29.849724 : INFO - boxiky
+                             
+2024-10-04 17:12:29.863751 : INFO - boxiky
+                             
+2024-10-04 17:12:29.876546 : INFO - boxiky
+                             
+2024-10-04 17:12:29.890653 : INFO - boxiky
+                             
+2024-10-04 17:12:29.904638 : INFO - boxiky
+                             
+2024-10-04 17:12:29.918654 : INFO - boxiky
+                             
+2024-10-04 17:12:29.935609 : INFO - boxiky
+                             
+2024-10-04 17:12:29.948600 : INFO - boxiky
+                             
+2024-10-04 17:12:30.084870 : INFO - boxiky
+                             
+2024-10-04 17:12:30.099772 : INFO - boxiky
+                             
+2024-10-04 17:12:30.114807 : INFO - boxiky
+                             
+2024-10-04 17:12:30.130833 : INFO - boxiky
+                             
+2024-10-04 17:12:30.146151 : INFO - boxiky
+                             
+2024-10-04 17:12:30.161210 : INFO - boxiky
+                             
+2024-10-04 17:12:30.175908 : INFO - boxiky
+                             
+2024-10-04 17:12:30.191976 : INFO - boxiky
+                             
+2024-10-04 17:12:30.206296 : INFO - boxiky
+                             
+2024-10-04 17:12:30.221317 : INFO - boxiky
+                             
+2024-10-04 17:12:30.235827 : INFO - boxiky
+                             
+2024-10-04 17:12:30.250918 : INFO - boxiky
+                             
+2024-10-04 17:12:30.265531 : INFO - boxiky
+                             
+2024-10-04 17:12:30.280043 : INFO - boxiky
+                             
+2024-10-04 17:12:30.294826 : INFO - boxiky
+                             
+2024-10-04 17:12:30.310048 : INFO - boxiky
+                             
+2024-10-04 17:12:30.325158 : INFO - boxiky
+                             
+2024-10-04 17:12:30.339910 : INFO - boxiky
+                             
+2024-10-04 17:12:30.452445 : INFO - boxiky
+                             
+2024-10-04 17:12:30.504380 : INFO - boxiky
+                             
+2024-10-04 17:12:30.545457 : INFO - boxiky
+                             
+2024-10-04 17:12:30.559420 : INFO - boxiky
+                             
+2024-10-04 17:12:30.572385 : INFO - boxiky
+                             
+2024-10-04 17:12:30.585408 : INFO - boxiky
+                             
+2024-10-04 17:12:30.598373 : INFO - boxiky
+                             
+2024-10-04 17:12:30.611400 : INFO - boxiky
+                             
+2024-10-04 17:12:30.624731 : INFO - boxiky
+                             
+2024-10-04 17:12:30.638118 : INFO - boxiky
+                             
+2024-10-04 17:12:30.652305 : INFO - boxiky
+                             
+2024-10-04 17:12:30.665422 : INFO - boxiky
+                             
+2024-10-04 17:12:30.680360 : INFO - boxiky
+                             
+2024-10-04 17:12:30.694310 : INFO - boxiky
+                             
+2024-10-04 17:12:30.710331 : INFO - boxiky
+                             
+2024-10-04 17:12:30.724303 : INFO - boxiky
+                             
+2024-10-04 17:12:30.738269 : INFO - boxiky
+                             
+2024-10-04 17:12:30.753773 : INFO - boxiky
+                             
+2024-10-04 17:12:30.768781 : INFO - boxiky
+                             
+2024-10-04 17:12:30.782885 : INFO - boxiky
+                             
+2024-10-04 17:12:30.797494 : INFO - boxiky
+                             
+2024-10-04 17:12:30.812610 : INFO - boxiky
+                             
+2024-10-04 17:12:30.827568 : INFO - boxiky
+                             
+2024-10-04 17:12:30.843624 : INFO - boxiky
+                             
+2024-10-04 17:12:30.858586 : INFO - boxiky
+                             
+2024-10-04 17:12:30.873580 : INFO - boxiky
+                             
+2024-10-04 17:12:30.888567 : INFO - boxiky
+                             
+2024-10-04 17:12:30.903499 : INFO - boxiky
+                             
+2024-10-04 17:12:30.919553 : INFO - boxiky
+                             
+2024-10-04 17:12:30.934513 : INFO - boxiky
+                             
+2024-10-04 17:12:30.948547 : INFO - boxiky
+                             
+2024-10-04 17:12:31.086729 : INFO - boxiky
+                             
+2024-10-04 17:12:31.103758 : INFO - boxiky
+                             
+2024-10-04 17:12:31.118748 : INFO - boxiky
+                             
+2024-10-04 17:12:31.135755 : INFO - boxiky
+                             
+2024-10-04 17:12:31.150652 : INFO - boxiky
+                             
+2024-10-04 17:12:31.165379 : INFO - boxiky
+                             
+2024-10-04 17:12:31.181494 : INFO - boxiky
+                             
+2024-10-04 17:12:31.195457 : INFO - boxiky
+                             
+2024-10-04 17:12:31.211524 : INFO - boxiky
+                             
+2024-10-04 17:12:31.226485 : INFO - boxiky
+                             
+2024-10-04 17:12:31.242718 : INFO - boxiky
+                             
+2024-10-04 17:12:31.258628 : INFO - boxiky
+                             
+2024-10-04 17:12:31.274194 : INFO - boxiky
+                             
+2024-10-04 17:12:31.288249 : INFO - boxiky
+                             
+2024-10-04 17:12:31.304387 : INFO - boxiky
+                             
+2024-10-04 17:12:31.318969 : INFO - boxiky
+                             
+2024-10-04 17:12:31.334041 : INFO - boxiky
+                             
+2024-10-04 17:12:31.348955 : INFO - boxiky
+                             
+2024-10-04 17:12:31.364915 : INFO - boxiky
+                             
+2024-10-04 17:12:31.380201 : INFO - boxiky
+                             
+2024-10-04 17:12:31.394568 : INFO - boxiky
+                             
+2024-10-04 17:12:31.409932 : INFO - boxiky
+                             
+2024-10-04 17:12:31.425647 : INFO - boxiky
+                             
+2024-10-04 17:12:31.440679 : INFO - boxiky
+                             
+2024-10-04 17:12:31.454970 : INFO - boxiky
+                             
+2024-10-04 17:12:31.470133 : INFO - boxiky
+                             
+2024-10-04 17:12:31.485089 : INFO - boxiky
+                             
+2024-10-04 17:12:31.500799 : INFO - boxiky
+                             
+2024-10-04 17:12:31.515778 : INFO - boxiky
+                             
+2024-10-04 17:12:31.530974 : INFO - boxiky
+                             
+2024-10-04 17:12:31.545931 : INFO - boxiky
+                             
+2024-10-04 17:12:31.561888 : INFO - boxiky
+                             
+2024-10-04 17:12:31.576546 : INFO - boxiky
+                             
+2024-10-04 17:12:31.591679 : INFO - boxiky
+                             
+2024-10-04 17:12:31.606731 : INFO - boxiky
+                             
+2024-10-04 17:12:31.621368 : INFO - boxiky
+                             
+2024-10-04 17:12:31.636356 : INFO - boxiky
+                             
+2024-10-04 17:12:31.652786 : INFO - boxiky
+                             
+2024-10-04 17:12:31.666796 : INFO - boxiky
+                             
+2024-10-04 17:12:31.684611 : INFO - boxiky
+                             
+2024-10-04 17:12:31.699457 : INFO - boxiky
+                             
+2024-10-04 17:12:31.715201 : INFO - boxiky
+                             
+2024-10-04 17:12:31.731015 : INFO - boxiky
+                             
+2024-10-04 17:12:31.746189 : INFO - boxiky
+                             
+2024-10-04 17:12:31.761183 : INFO - boxiky
+                             
+2024-10-04 17:12:31.777510 : INFO - boxiky
+                             
+2024-10-04 17:12:31.792525 : INFO - boxiky
+                             
+2024-10-04 17:12:31.809120 : INFO - boxiky
+                             
+2024-10-04 17:12:31.824245 : INFO - boxiky
+                             
+2024-10-04 17:12:31.840257 : INFO - boxiky
+                             
+2024-10-04 17:12:31.854275 : INFO - boxiky
+                             
+2024-10-04 17:12:31.870932 : INFO - boxiky
+                             
+2024-10-04 17:12:31.885763 : INFO - boxiky
+                             
+2024-10-04 17:12:31.901245 : INFO - boxiky
+                             
+2024-10-04 17:12:31.916685 : INFO - boxiky
+                             
+2024-10-04 17:12:31.933247 : INFO - boxiky
+                             
+2024-10-04 17:12:31.948486 : INFO - boxiky
+                             
+2024-10-04 17:12:32.088650 : INFO - boxiky
+                             
+2024-10-04 17:12:32.104779 : INFO - boxiky
+                             
+2024-10-04 17:12:32.120737 : INFO - boxiky
+                             
+2024-10-04 17:12:32.136782 : INFO - boxiky
+                             
+2024-10-04 17:12:32.152762 : INFO - boxiky
+                             
+2024-10-04 17:12:32.167783 : INFO - boxiky
+                             
+2024-10-04 17:12:32.183742 : INFO - boxiky
+                             
+2024-10-04 17:12:32.199843 : INFO - boxiky
+                             
+2024-10-04 17:12:32.214803 : INFO - boxiky
+                             
+2024-10-04 17:12:32.229819 : INFO - boxiky
+                             
+2024-10-04 17:12:32.244779 : INFO - boxiky
+                             
+2024-10-04 17:12:32.259738 : INFO - boxiky
+                             
+2024-10-04 17:12:32.273954 : INFO - boxiky
+                             
+2024-10-04 17:12:32.288915 : INFO - boxiky
+                             
+2024-10-04 17:12:32.303931 : INFO - boxiky
+                             
+2024-10-04 17:12:32.318891 : INFO - boxiky
+                             
+2024-10-04 17:12:32.335986 : INFO - boxiky
+                             
+2024-10-04 17:12:32.350923 : INFO - boxiky
+                             
+2024-10-04 17:12:32.366475 : INFO - boxiky
+                             
+2024-10-04 17:12:32.381462 : INFO - boxiky
+                             
+2024-10-04 17:12:32.396511 : INFO - boxiky
+                             
+2024-10-04 17:12:32.411054 : INFO - boxiky
+                             
+2024-10-04 17:12:32.427011 : INFO - boxiky
+                             
+2024-10-04 17:12:32.442796 : INFO - boxiky
+                             
+2024-10-04 17:12:32.458164 : INFO - boxiky
+                             
+2024-10-04 17:12:32.474890 : INFO - boxiky
+                             
+2024-10-04 17:12:32.490291 : INFO - boxiky
+                             
+2024-10-04 17:12:32.506347 : INFO - boxiky
+                             
+2024-10-04 17:12:32.521642 : INFO - boxiky
+                             
+2024-10-04 17:12:32.537623 : INFO - boxiky
+                             
+2024-10-04 17:12:32.553475 : INFO - boxiky
+                             
+2024-10-04 17:12:32.569946 : INFO - boxiky
+                             
+2024-10-04 17:12:32.585019 : INFO - boxiky
+                             
+2024-10-04 17:12:32.601081 : INFO - boxiky
+                             
+2024-10-04 17:12:32.620041 : INFO - boxiky
+                             
+2024-10-04 17:12:32.635459 : INFO - boxiky
+                             
+2024-10-04 17:12:32.650720 : INFO - boxiky
+                             
+2024-10-04 17:12:32.666884 : INFO - boxiky
+                             
+2024-10-04 17:12:32.682912 : INFO - boxiky
+                             
+2024-10-04 17:12:32.698609 : INFO - boxiky
+                             
+2024-10-04 17:12:32.714029 : INFO - boxiky
+                             
+2024-10-04 17:12:32.729924 : INFO - boxiky
+                             
+2024-10-04 17:12:32.746030 : INFO - boxiky
+                             
+2024-10-04 17:12:32.762229 : INFO - boxiky
+                             
+2024-10-04 17:12:32.777187 : INFO - boxiky
+                             
+2024-10-04 17:12:32.793197 : INFO - boxiky
+                             
+2024-10-04 17:12:32.809593 : INFO - boxiky
+                             
+2024-10-04 17:12:32.825558 : INFO - boxiky
+                             
+2024-10-04 17:12:32.841217 : INFO - boxiky
+                             
+2024-10-04 17:12:32.858789 : INFO - boxiky
+                             
+2024-10-04 17:12:32.875578 : INFO - boxiky
+                             
+2024-10-04 17:12:32.891630 : INFO - boxiky
+                             
+2024-10-04 17:12:32.907208 : INFO - boxiky
+                             
+2024-10-04 17:12:32.924238 : INFO - boxiky
+                             
+2024-10-04 17:12:32.940196 : INFO - boxiky
+                             
+2024-10-04 17:12:32.956311 : INFO - boxiky
+                             
+2024-10-04 17:12:33.094561 : INFO - boxiky
+                             
+2024-10-04 17:12:33.112153 : INFO - boxiky
+                             
+2024-10-04 17:12:33.129765 : INFO - boxiky
+                             
+2024-10-04 17:12:33.146441 : INFO - boxiky
+                             
+2024-10-04 17:12:33.163454 : INFO - boxiky
+                             
+2024-10-04 17:12:33.183446 : INFO - boxiky
+                             
+2024-10-04 17:12:33.200559 : INFO - boxiky
+                             
+2024-10-04 17:12:33.217068 : INFO - boxiky
+                             
+2024-10-04 17:12:33.233236 : INFO - boxiky
+                             
+2024-10-04 17:12:33.250663 : INFO - boxiky
+                             
+2024-10-04 17:12:33.266829 : INFO - boxiky
+                             
+2024-10-04 17:12:33.283610 : INFO - boxiky
+                             
+2024-10-04 17:12:33.299529 : INFO - boxiky
+                             
+2024-10-04 17:12:33.318375 : INFO - boxiky
+                             
+2024-10-04 17:12:33.334811 : INFO - boxiky
+                             
+2024-10-04 17:12:33.351780 : INFO - boxiky
+                             
+2024-10-04 17:12:33.368638 : INFO - boxiky
+                             
+2024-10-04 17:12:33.386105 : INFO - boxiky
+                             
+2024-10-04 17:12:33.402714 : INFO - boxiky
+                             
+2024-10-04 17:12:33.419813 : INFO - boxiky
+                             
+2024-10-04 17:12:33.430787 : INFO - boxiky
+                             
+2024-10-04 17:12:33.442120 : INFO - boxiky
+                             
+2024-10-04 17:12:33.453418 : INFO - boxiky
+                             
+2024-10-04 17:12:33.464310 : INFO - boxiky
+                             
+2024-10-04 17:12:33.479524 : INFO - boxiky
+                             
+2024-10-04 17:12:33.611605 : INFO - boxiky
+                             
+2024-10-04 17:12:33.623987 : INFO - boxiky
+                             
+2024-10-04 17:12:33.634732 : INFO - boxiky
+                             
+2024-10-04 17:12:33.645867 : INFO - boxiky
+                             
+2024-10-04 17:12:33.657124 : INFO - boxiky
+                             
+2024-10-04 17:12:33.667289 : INFO - boxiky
+                             
+2024-10-04 17:12:33.678375 : INFO - boxiky
+                             
+2024-10-04 17:12:33.689727 : INFO - boxiky
+                             
+2024-10-04 17:12:33.700581 : INFO - boxiky
+                             
+2024-10-04 17:12:33.712036 : INFO - boxiky
+                             
+2024-10-04 17:12:33.722959 : INFO - boxiky
+                             
+2024-10-04 17:12:33.733291 : INFO - boxiky
+                             
+2024-10-04 17:12:33.746397 : INFO - boxiky
+                             
+2024-10-04 17:12:33.757370 : INFO - boxiky
+                             
+2024-10-04 17:12:33.766360 : INFO - boxiky
+                             
+2024-10-04 17:12:33.777384 : INFO - boxiky
+                             
+2024-10-04 17:12:33.789352 : INFO - boxiky
+                             
+2024-10-04 17:12:33.800324 : INFO - boxiky
+                             
+2024-10-04 17:12:33.812230 : INFO - boxiky
+                             
+2024-10-04 17:12:33.822998 : INFO - boxiky
+                             
+2024-10-04 17:12:33.834255 : INFO - boxiky
+                             
+2024-10-04 17:12:33.845320 : INFO - boxiky
+                             
+2024-10-04 17:12:33.856172 : INFO - boxiky
+                             
+2024-10-04 17:12:33.868300 : INFO - boxiky
+                             
+2024-10-04 17:12:33.880281 : INFO - boxiky
+                             
+2024-10-04 17:12:33.891318 : INFO - boxiky
+                             
+2024-10-04 17:12:33.903054 : INFO - boxiky
+                             
+2024-10-04 17:12:33.914171 : INFO - boxiky
+                             
+2024-10-04 17:12:33.926102 : INFO - boxiky
+                             
+2024-10-04 17:12:33.939257 : INFO - boxiky
+                             
+2024-10-04 17:12:33.950243 : INFO - boxiky
+                             
+2024-10-04 17:12:33.962316 : INFO - boxiky
+                             
+2024-10-04 17:12:34.086138 : INFO - boxiky
+                             
+2024-10-04 17:12:34.102147 : INFO - boxiky
+                             
+2024-10-04 17:12:34.113450 : INFO - boxiky
+                             
+2024-10-04 17:12:34.125418 : INFO - boxiky
+                             
+2024-10-04 17:12:34.136786 : INFO - boxiky
+                             
+2024-10-04 17:12:34.147970 : INFO - boxiky
+                             
+2024-10-04 17:12:34.159445 : INFO - boxiky
+                             
+2024-10-04 17:12:34.170724 : INFO - boxiky
+                             
+2024-10-04 17:12:34.181704 : INFO - boxiky
+                             
+2024-10-04 17:12:34.193276 : INFO - boxiky
+                             
+2024-10-04 17:12:34.205429 : INFO - boxiky
+                             
+2024-10-04 17:12:34.215968 : INFO - boxiky
+                             
+2024-10-04 17:12:34.227211 : INFO - boxiky
+                             
+2024-10-04 17:12:34.239240 : INFO - boxiky
+                             
+2024-10-04 17:12:34.251193 : INFO - boxiky
+                             
+2024-10-04 17:12:34.262905 : INFO - boxiky
+                             
+2024-10-04 17:12:34.274389 : INFO - boxiky
+                             
+2024-10-04 17:12:34.285360 : INFO - boxiky
+                             
+2024-10-04 17:12:34.297772 : INFO - boxiky
+                             
+2024-10-04 17:12:34.308795 : INFO - boxiky
+                             
+2024-10-04 17:12:34.320324 : INFO - boxiky
+                             
+2024-10-04 17:12:34.332714 : INFO - boxiky
+                             
+2024-10-04 17:12:34.344012 : INFO - boxiky
+                             
+2024-10-04 17:12:34.355474 : INFO - boxiky
+                             
+2024-10-04 17:12:34.367556 : INFO - boxiky
+                             
+2024-10-04 17:12:34.380445 : INFO - boxiky
+                             
+2024-10-04 17:12:34.391454 : INFO - boxiky
+                             
+2024-10-04 17:12:34.403806 : INFO - boxiky
+                             
+2024-10-04 17:12:34.415286 : INFO - boxiky
+                             
+2024-10-04 17:12:34.427733 : INFO - boxiky
+                             
+2024-10-04 17:12:34.440406 : INFO - boxiky
+                             
+2024-10-04 17:12:34.452012 : INFO - boxiky
+                             
+2024-10-04 17:12:34.464711 : INFO - boxiky
+                             
+2024-10-04 17:12:34.476703 : INFO - boxiky
+                             
+2024-10-04 17:12:34.488674 : INFO - boxiky
+                             
+2024-10-04 17:12:34.500986 : INFO - boxiky
+                             
+2024-10-04 17:12:34.512855 : INFO - boxiky
+                             
+2024-10-04 17:12:34.525073 : INFO - boxiky
+                             
+2024-10-04 17:12:34.536468 : INFO - boxiky
+                             
+2024-10-04 17:12:34.548937 : INFO - boxiky
+                             
+2024-10-04 17:12:34.561745 : INFO - boxiky
+                             
+2024-10-04 17:12:34.573354 : INFO - boxiky
+                             
+2024-10-04 17:12:34.585297 : INFO - boxiky
+                             
+2024-10-04 17:12:34.597084 : INFO - boxiky
+                             
+2024-10-04 17:12:34.610082 : INFO - boxiky
+                             
+2024-10-04 17:12:34.622342 : INFO - boxiky
+                             
+2024-10-04 17:12:34.635165 : INFO - boxiky
+                             
+2024-10-04 17:12:34.646930 : INFO - boxiky
+                             
+2024-10-04 17:12:34.658941 : INFO - boxiky
+                             
+2024-10-04 17:12:34.671158 : INFO - boxiky
+                             
+2024-10-04 17:12:34.684272 : INFO - boxiky
+                             
+2024-10-04 17:12:34.696331 : INFO - boxiky
+                             
+2024-10-04 17:12:34.708313 : INFO - boxiky
+                             
+2024-10-04 17:12:34.720471 : INFO - boxiky
+                             
+2024-10-04 17:12:34.733435 : INFO - boxiky
+                             
+2024-10-04 17:12:34.745500 : INFO - boxiky
+                             
+2024-10-04 17:12:34.757908 : INFO - boxiky
+                             
+2024-10-04 17:12:34.769832 : INFO - boxiky
+                             
+2024-10-04 17:12:34.782785 : INFO - boxiky
+                             
+2024-10-04 17:12:34.795485 : INFO - boxiky
+                             
+2024-10-04 17:12:34.808223 : INFO - boxiky
+                             
+2024-10-04 17:12:34.820479 : INFO - boxiky
+                             
+2024-10-04 17:12:34.832698 : INFO - boxiky
+                             
+2024-10-04 17:12:34.846257 : INFO - boxiky
+                             
+2024-10-04 17:12:34.858058 : INFO - boxiky
+                             
+2024-10-04 17:12:34.871212 : INFO - boxiky
+                             
+2024-10-04 17:12:34.883396 : INFO - boxiky
+                             
+2024-10-04 17:12:34.896294 : INFO - boxiky
+                             
+2024-10-04 17:12:34.921846 : INFO - boxiky
+                             
+2024-10-04 17:12:34.933814 : INFO - boxiky
+                             
+2024-10-04 17:12:34.947349 : INFO - boxiky
+                             
+2024-10-04 17:12:34.961440 : INFO - boxiky
+                             
+2024-10-04 17:12:35.095231 : INFO - boxiky
+                             
+2024-10-04 17:12:35.107638 : INFO - boxiky
+                             
+2024-10-04 17:12:35.122759 : INFO - boxiky
+                             
+2024-10-04 17:12:35.134494 : INFO - boxiky
+                             
+2024-10-04 17:12:35.147569 : INFO - boxiky
+                             
+2024-10-04 17:12:35.159310 : INFO - boxiky
+                             
+2024-10-04 17:12:35.172800 : INFO - boxiky
+                             
+2024-10-04 17:12:35.185844 : INFO - boxiky
+                             
+2024-10-04 17:12:35.203546 : INFO - boxiky
+                             
+2024-10-04 17:12:35.216804 : INFO - boxiky
+                             
+2024-10-04 17:12:35.229531 : INFO - boxiky
+                             
+2024-10-04 17:12:35.243127 : INFO - boxiky
+                             
+2024-10-04 17:12:35.256382 : INFO - boxiky
+                             
+2024-10-04 17:12:35.269102 : INFO - boxiky
+                             
+2024-10-04 17:12:35.282160 : INFO - boxiky
+                             
+2024-10-04 17:12:35.295093 : INFO - boxiky
+                             
+2024-10-04 17:12:35.308061 : INFO - boxiky
+                             
+2024-10-04 17:12:35.321353 : INFO - boxiky
+                             
+2024-10-04 17:12:35.333653 : INFO - boxiky
+                             
+2024-10-04 17:12:35.346275 : INFO - boxiky
+                             
+2024-10-04 17:12:35.359983 : INFO - boxiky
+                             
+2024-10-04 17:12:35.372944 : INFO - boxiky
+                             
+2024-10-04 17:12:35.385580 : INFO - boxiky
+                             
+2024-10-04 17:12:35.398372 : INFO - boxiky
+                             
+2024-10-04 17:12:35.410091 : INFO - boxiky
+                             
+2024-10-04 17:12:35.423879 : INFO - boxiky
+                             
+2024-10-04 17:12:35.436627 : INFO - boxiky
+                             
+2024-10-04 17:12:35.449549 : INFO - boxiky
+                             
+2024-10-04 17:12:35.462064 : INFO - boxiky
+                             
+2024-10-04 17:12:35.474517 : INFO - boxiky
+                             
+2024-10-04 17:12:35.487482 : INFO - boxiky
+                             
+2024-10-04 17:12:35.500860 : INFO - boxiky
+                             
+2024-10-04 17:12:35.513578 : INFO - boxiky
+                             
+2024-10-04 17:12:35.526454 : INFO - boxiky
+                             
+2024-10-04 17:12:35.542144 : INFO - boxiky
+                             
+2024-10-04 17:12:35.555728 : INFO - boxiky
+                             
+2024-10-04 17:12:35.569012 : INFO - boxiky
+                             
+2024-10-04 17:12:35.582043 : INFO - boxiky
+                             
+2024-10-04 17:12:35.594822 : INFO - boxiky
+                             
+2024-10-04 17:12:35.607877 : INFO - boxiky
+                             
+2024-10-04 17:12:35.621308 : INFO - boxiky
+                             
+2024-10-04 17:12:35.633923 : INFO - boxiky
+                             
+2024-10-04 17:12:35.646902 : INFO - boxiky
+                             
+2024-10-04 17:12:35.659714 : INFO - boxiky
+                             
+2024-10-04 17:12:35.673831 : INFO - boxiky
+                             
+2024-10-04 17:12:35.687961 : INFO - boxiky
+                             
+2024-10-04 17:12:35.700235 : INFO - boxiky
+                             
+2024-10-04 17:12:35.713545 : INFO - boxiky
+                             
+2024-10-04 17:12:35.726386 : INFO - boxiky
+                             
+2024-10-04 17:12:35.740822 : INFO - boxiky
+                             
+2024-10-04 17:12:35.753847 : INFO - boxiky
+                             
+2024-10-04 17:12:35.766343 : INFO - boxiky
+                             
+2024-10-04 17:12:35.780157 : INFO - boxiky
+                             
+2024-10-04 17:12:35.793801 : INFO - boxiky
+                             
+2024-10-04 17:12:35.807309 : INFO - boxiky
+                             
+2024-10-04 17:12:35.820400 : INFO - boxiky
+                             
+2024-10-04 17:12:35.833487 : INFO - boxiky
+                             
+2024-10-04 17:12:35.847521 : INFO - boxiky
+                             
+2024-10-04 17:12:35.861820 : INFO - boxiky
+                             
+2024-10-04 17:12:35.874740 : INFO - boxiky
+                             
+2024-10-04 17:12:35.888077 : INFO - boxiky
+                             
+2024-10-04 17:12:35.901319 : INFO - boxiky
+                             
+2024-10-04 17:12:35.915165 : INFO - boxiky
+                             
+2024-10-04 17:12:35.928708 : INFO - boxiky
+                             
+2024-10-04 17:12:35.942360 : INFO - boxiky
+                             
+2024-10-04 17:12:35.954992 : INFO - boxiky
+                             
+2024-10-04 17:12:35.968153 : INFO - boxiky
+                             
+2024-10-04 17:12:36.103839 : INFO - boxiky
+                             
+2024-10-04 17:12:36.116732 : INFO - boxiky
+                             
+2024-10-04 17:12:36.130377 : INFO - boxiky
+                             
+2024-10-04 17:12:36.144031 : INFO - boxiky
+                             
+2024-10-04 17:12:36.157631 : INFO - boxiky
+                             
+2024-10-04 17:12:36.170654 : INFO - boxiky
+                             
+2024-10-04 17:12:36.184617 : INFO - boxiky
+                             
+2024-10-04 17:12:36.198678 : INFO - boxiky
+                             
+2024-10-04 17:12:36.211838 : INFO - boxiky
+                             
+2024-10-04 17:12:36.224860 : INFO - boxiky
+                             
+2024-10-04 17:12:36.238942 : INFO - boxiky
+                             
+2024-10-04 17:12:36.253018 : INFO - boxiky
+                             
+2024-10-04 17:12:36.266833 : INFO - boxiky
+                             
+2024-10-04 17:12:36.279542 : INFO - boxiky
+                             
+2024-10-04 17:12:36.292926 : INFO - boxiky
+                             
+2024-10-04 17:12:36.306918 : INFO - boxiky
+                             
+2024-10-04 17:12:36.321119 : INFO - boxiky
+                             
+2024-10-04 17:12:36.333945 : INFO - boxiky
+                             
+2024-10-04 17:12:36.347309 : INFO - boxiky
+                             
+2024-10-04 17:12:36.362052 : INFO - boxiky
+                             
+2024-10-04 17:12:36.375983 : INFO - boxiky
+                             
+2024-10-04 17:12:36.389408 : INFO - boxiky
+                             
+2024-10-04 17:12:36.402747 : INFO - boxiky
+                             
+2024-10-04 17:12:36.416254 : INFO - boxiky
+                             
+2024-10-04 17:12:36.431114 : INFO - boxiky
+                             
+2024-10-04 17:12:36.446644 : INFO - boxiky
+                             
+2024-10-04 17:12:36.460316 : INFO - boxiky
+                             
+2024-10-04 17:12:36.473898 : INFO - boxiky
+                             
+2024-10-04 17:12:36.487631 : INFO - boxiky
+                             
+2024-10-04 17:12:36.502409 : INFO - boxiky
+                             
+2024-10-04 17:12:36.515791 : INFO - boxiky
+                             
+2024-10-04 17:12:36.529849 : INFO - boxiky
+                             
+2024-10-04 17:12:36.543494 : INFO - boxiky
+                             
+2024-10-04 17:12:36.557616 : INFO - boxiky
+                             
+2024-10-04 17:12:36.571324 : INFO - boxiky
+                             
+2024-10-04 17:12:36.584259 : INFO - boxiky
+                             
+2024-10-04 17:12:36.597935 : INFO - boxiky
+                             
+2024-10-04 17:12:36.612389 : INFO - boxiky
+                             
+2024-10-04 17:12:36.626776 : INFO - boxiky
+                             
+2024-10-04 17:12:36.640091 : INFO - boxiky
+                             
+2024-10-04 17:12:36.653567 : INFO - boxiky
+                             
+2024-10-04 17:12:36.667334 : INFO - boxiky
+                             
+2024-10-04 17:12:36.682103 : INFO - boxiky
+                             
+2024-10-04 17:12:36.695961 : INFO - boxiky
+                             
+2024-10-04 17:12:36.709441 : INFO - boxiky
+                             
+2024-10-04 17:12:36.723937 : INFO - boxiky
+                             
+2024-10-04 17:12:36.737653 : INFO - boxiky
+                             
+2024-10-04 17:12:36.751879 : INFO - boxiky
+                             
+2024-10-04 17:12:36.765797 : INFO - boxiky
+                             
+2024-10-04 17:12:36.779152 : INFO - boxiky
+                             
+2024-10-04 17:12:36.794017 : INFO - boxiky
+                             
+2024-10-04 17:12:36.808251 : INFO - boxiky
+                             
+2024-10-04 17:12:36.822204 : INFO - boxiky
+                             
+2024-10-04 17:12:36.835392 : INFO - boxiky
+                             
+2024-10-04 17:12:36.849958 : INFO - boxiky
+                             
+2024-10-04 17:12:36.868804 : INFO - https://exim.stg.dtweb.cz/kontakty/nase-pobocky
+                             
+2024-10-04 17:12:52.720302 : INFO - Starting 'Poznavacky' tiles and images check.
+                             
+2024-10-04 17:12:57.377408 : INFO - DOUBLETREE
+                             
+2024-10-04 17:12:57.748416 : INFO - Found 30 images to check.
+                             
+2024-10-04 17:12:57.761382 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:12:57.773350 : INFO - Image 1/30 visibility: True
+                             
+2024-10-04 17:12:57.784321 : INFO - Image 2/30 visibility: True
+                             
+2024-10-04 17:12:57.794294 : INFO - Image 3/30 visibility: True
+                             
+2024-10-04 17:12:57.807259 : INFO - Image 4/30 visibility: True
+                             
+2024-10-04 17:12:57.817232 : INFO - Image 5/30 visibility: True
+                             
+2024-10-04 17:12:57.827207 : INFO - Image 6/30 visibility: True
+                             
+2024-10-04 17:12:57.837180 : INFO - Image 7/30 visibility: True
+                             
+2024-10-04 17:12:57.849296 : INFO - Image 8/30 visibility: True
+                             
+2024-10-04 17:12:57.892254 : INFO - Image 9/30 visibility: True
+                             
+2024-10-04 17:12:57.904223 : INFO - Image 10/30 visibility: True
+                             
+2024-10-04 17:12:57.915256 : INFO - Image 11/30 visibility: True
+                             
+2024-10-04 17:12:57.925230 : INFO - Image 12/30 visibility: True
+                             
+2024-10-04 17:12:57.935202 : INFO - Image 13/30 visibility: True
+                             
+2024-10-04 17:12:57.945236 : INFO - Image 14/30 visibility: True
+                             
+2024-10-04 17:12:57.955210 : INFO - Image 15/30 visibility: True
+                             
+2024-10-04 17:12:57.965183 : INFO - Image 16/30 visibility: True
+                             
+2024-10-04 17:12:57.974246 : INFO - Image 17/30 visibility: True
+                             
+2024-10-04 17:12:57.984219 : INFO - Image 18/30 visibility: True
+                             
+2024-10-04 17:12:57.993195 : INFO - Image 19/30 visibility: True
+                             
+2024-10-04 17:12:58.003168 : INFO - Image 20/30 visibility: True
+                             
+2024-10-04 17:12:58.012216 : INFO - Image 21/30 visibility: True
+                             
+2024-10-04 17:12:58.022191 : INFO - Image 22/30 visibility: True
+                             
+2024-10-04 17:12:58.031165 : INFO - Image 23/30 visibility: True
+                             
+2024-10-04 17:12:58.043198 : INFO - Image 24/30 visibility: True
+                             
+2024-10-04 17:12:58.053170 : INFO - Image 25/30 visibility: True
+                             
+2024-10-04 17:12:58.064141 : INFO - Image 26/30 visibility: True
+                             
+2024-10-04 17:12:58.073177 : INFO - Image 27/30 visibility: True
+                             
+2024-10-04 17:12:58.082153 : INFO - Image 28/30 visibility: True
+                             
+2024-10-04 17:12:58.091128 : INFO - Image 29/30 visibility: True
+                             
+2024-10-04 17:12:58.101103 : INFO - Image 30/30 visibility: True
+                             
+2024-10-04 17:12:58.136383 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:12:58.146257 : INFO - Grid item 1/30 visibility: True
+                             
+2024-10-04 17:12:58.157228 : INFO - Grid item 2/30 visibility: True
+                             
+2024-10-04 17:12:58.168199 : INFO - Grid item 3/30 visibility: True
+                             
+2024-10-04 17:12:58.179673 : INFO - Grid item 4/30 visibility: True
+                             
+2024-10-04 17:12:58.189622 : INFO - Grid item 5/30 visibility: True
+                             
+2024-10-04 17:12:58.199609 : INFO - Grid item 6/30 visibility: True
+                             
+2024-10-04 17:12:58.209569 : INFO - Grid item 7/30 visibility: True
+                             
+2024-10-04 17:12:58.219544 : INFO - Grid item 8/30 visibility: True
+                             
+2024-10-04 17:12:58.228519 : INFO - Grid item 9/30 visibility: True
+                             
+2024-10-04 17:12:58.239490 : INFO - Grid item 10/30 visibility: True
+                             
+2024-10-04 17:12:58.248466 : INFO - Grid item 11/30 visibility: True
+                             
+2024-10-04 17:12:58.257442 : INFO - Grid item 12/30 visibility: True
+                             
+2024-10-04 17:12:58.267415 : INFO - Grid item 13/30 visibility: True
+                             
+2024-10-04 17:12:58.277094 : INFO - Grid item 14/30 visibility: True
+                             
+2024-10-04 17:12:58.287549 : INFO - Grid item 15/30 visibility: True
+                             
+2024-10-04 17:12:58.298377 : INFO - Grid item 16/30 visibility: True
+                             
+2024-10-04 17:12:58.309718 : INFO - Grid item 17/30 visibility: True
+                             
+2024-10-04 17:12:58.319971 : INFO - Grid item 18/30 visibility: True
+                             
+2024-10-04 17:12:58.336078 : INFO - Grid item 19/30 visibility: True
+                             
+2024-10-04 17:12:58.350040 : INFO - Grid item 20/30 visibility: True
+                             
+2024-10-04 17:12:58.362441 : INFO - Grid item 21/30 visibility: True
+                             
+2024-10-04 17:12:58.373822 : INFO - Grid item 22/30 visibility: True
+                             
+2024-10-04 17:12:58.385347 : INFO - Grid item 23/30 visibility: True
+                             
+2024-10-04 17:12:58.396316 : INFO - Grid item 24/30 visibility: True
+                             
+2024-10-04 17:12:58.407935 : INFO - Grid item 25/30 visibility: True
+                             
+2024-10-04 17:12:58.418213 : INFO - Grid item 26/30 visibility: True
+                             
+2024-10-04 17:12:58.428981 : INFO - Grid item 27/30 visibility: True
+                             
+2024-10-04 17:12:58.440639 : INFO - Grid item 28/30 visibility: True
+                             
+2024-10-04 17:12:58.451669 : INFO - Grid item 29/30 visibility: True
+                             
+2024-10-04 17:12:58.463665 : INFO - Grid item 30/30 visibility: True
+                             
+2024-10-04 17:12:58.490638 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:12:58.642595 : INFO - Big grid 1/5 visibility: True
+                             
+2024-10-04 17:12:58.668615 : INFO - Big grid 2/5 visibility: True
+                             
+2024-10-04 17:12:58.712594 : INFO - Big grid 3/5 visibility: True
+                             
+2024-10-04 17:12:58.727554 : INFO - Big grid 4/5 visibility: True
+                             
+2024-10-04 17:12:58.740600 : INFO - Big grid 5/5 visibility: True
+                             
+2024-10-04 17:12:58.741598 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:12:58.748579 : INFO - https://exim.stg.dtweb.cz/poznavaci-zajezdy
+                             
+2024-10-04 17:13:02.757640 : INFO - https://fischer.stg.dtweb.cz/hledani-vysledky?q=Doubletree
+                             
+2024-10-04 17:13:35.978340 : INFO - https://fischer.stg.dtweb.cz/
+                             
+2024-10-04 17:13:50.249086 : INFO - Starting FM/LM tour expansion check.
+                             
+2024-10-04 17:13:53.022998 : INFO - Successfully clicked to expand FM/LM tour section.
+                             
+2024-10-04 17:13:53.093809 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="243a794abe30f8a8e71067d01b57642e", element="f.150271F40CB298B835CCF6E6871FC215.d.7954F3D193B82421DCF61855C42C2C25.e.1005")> visibility: True
+                             
+2024-10-04 17:13:53.104781 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="243a794abe30f8a8e71067d01b57642e", element="f.150271F40CB298B835CCF6E6871FC215.d.7954F3D193B82421DCF61855C42C2C25.e.1006")> visibility: True
+                             
+2024-10-04 17:13:53.116748 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="243a794abe30f8a8e71067d01b57642e", element="f.150271F40CB298B835CCF6E6871FC215.d.7954F3D193B82421DCF61855C42C2C25.e.1007")> visibility: True
+                             
+2024-10-04 17:13:53.128716 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="243a794abe30f8a8e71067d01b57642e", element="f.150271F40CB298B835CCF6E6871FC215.d.7954F3D193B82421DCF61855C42C2C25.e.1008")> visibility: True
+                             
+2024-10-04 17:13:53.138690 : INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="243a794abe30f8a8e71067d01b57642e", element="f.150271F40CB298B835CCF6E6871FC215.d.7954F3D193B82421DCF61855C42C2C25.e.1009")> visibility: True
+                             
+2024-10-04 17:13:53.147666 : INFO - FM/LM tour expansion check completed successfully.
+                             
+2024-10-04 17:13:53.154647 : INFO - https://fischer.stg.dtweb.cz/last-minute
+                             
+2024-10-04 17:14:12.057882 : INFO - boxiky
+                             
+2024-10-04 17:14:12.071845 : INFO - boxiky
+                             
+2024-10-04 17:14:12.086946 : INFO - boxiky
+                             
+2024-10-04 17:14:12.100442 : INFO - boxiky
+                             
+2024-10-04 17:14:12.113880 : INFO - boxiky
+                             
+2024-10-04 17:14:12.127842 : INFO - boxiky
+                             
+2024-10-04 17:14:12.141031 : INFO - boxiky
+                             
+2024-10-04 17:14:12.155044 : INFO - boxiky
+                             
+2024-10-04 17:14:12.168402 : INFO - boxiky
+                             
+2024-10-04 17:14:12.181746 : INFO - boxiky
+                             
+2024-10-04 17:14:12.195332 : INFO - boxiky
+                             
+2024-10-04 17:14:12.209220 : INFO - boxiky
+                             
+2024-10-04 17:14:12.222765 : INFO - boxiky
+                             
+2024-10-04 17:14:12.236097 : INFO - boxiky
+                             
+2024-10-04 17:14:12.249809 : INFO - boxiky
+                             
+2024-10-04 17:14:12.264239 : INFO - boxiky
+                             
+2024-10-04 17:14:12.277611 : INFO - boxiky
+                             
+2024-10-04 17:14:12.291277 : INFO - boxiky
+                             
+2024-10-04 17:14:12.305642 : INFO - boxiky
+                             
+2024-10-04 17:14:12.319796 : INFO - boxiky
+                             
+2024-10-04 17:14:12.333069 : INFO - boxiky
+                             
+2024-10-04 17:14:12.349532 : INFO - boxiky
+                             
+2024-10-04 17:14:12.362725 : INFO - boxiky
+                             
+2024-10-04 17:14:12.376059 : INFO - boxiky
+                             
+2024-10-04 17:14:12.390733 : INFO - boxiky
+                             
+2024-10-04 17:14:12.403610 : INFO - boxiky
+                             
+2024-10-04 17:14:12.418383 : INFO - boxiky
+                             
+2024-10-04 17:14:12.431759 : INFO - boxiky
+                             
+2024-10-04 17:14:12.445168 : INFO - boxiky
+                             
+2024-10-04 17:14:12.459152 : INFO - boxiky
+                             
+2024-10-04 17:14:12.473055 : INFO - boxiky
+                             
+2024-10-04 17:14:12.487170 : INFO - boxiky
+                             
+2024-10-04 17:14:12.500463 : INFO - boxiky
+                             
+2024-10-04 17:14:12.514798 : INFO - boxiky
+                             
+2024-10-04 17:14:12.528591 : INFO - boxiky
+                             
+2024-10-04 17:14:12.542073 : INFO - boxiky
+                             
+2024-10-04 17:14:12.556179 : INFO - boxiky
+                             
+2024-10-04 17:14:12.569780 : INFO - boxiky
+                             
+2024-10-04 17:14:12.583935 : INFO - boxiky
+                             
+2024-10-04 17:14:12.598345 : INFO - boxiky
+                             
+2024-10-04 17:14:12.612073 : INFO - boxiky
+                             
+2024-10-04 17:14:12.625597 : INFO - boxiky
+                             
+2024-10-04 17:14:12.639078 : INFO - boxiky
+                             
+2024-10-04 17:14:12.653183 : INFO - boxiky
+                             
+2024-10-04 17:14:12.666950 : INFO - boxiky
+                             
+2024-10-04 17:14:12.681828 : INFO - boxiky
+                             
+2024-10-04 17:14:12.695226 : INFO - boxiky
+                             
+2024-10-04 17:14:12.709340 : INFO - boxiky
+                             
+2024-10-04 17:14:12.723266 : INFO - boxiky
+                             
+2024-10-04 17:14:12.736915 : INFO - boxiky
+                             
+2024-10-04 17:14:12.751302 : INFO - boxiky
+                             
+2024-10-04 17:14:12.765658 : INFO - boxiky
+                             
+2024-10-04 17:14:12.781003 : INFO - boxiky
+                             
+2024-10-04 17:14:12.794531 : INFO - boxiky
+                             
+2024-10-04 17:14:12.808882 : INFO - boxiky
+                             
+2024-10-04 17:14:12.823016 : INFO - boxiky
+                             
+2024-10-04 17:14:12.837080 : INFO - boxiky
+                             
+2024-10-04 17:14:12.851623 : INFO - boxiky
+                             
+2024-10-04 17:14:12.865221 : INFO - boxiky
+                             
+2024-10-04 17:14:12.879828 : INFO - boxiky
+                             
+2024-10-04 17:14:13.021814 : INFO - boxiky
+                             
+2024-10-04 17:14:13.036953 : INFO - boxiky
+                             
+2024-10-04 17:14:13.052844 : INFO - boxiky
+                             
+2024-10-04 17:14:13.066786 : INFO - boxiky
+                             
+2024-10-04 17:14:13.080785 : INFO - boxiky
+                             
+2024-10-04 17:14:13.096733 : INFO - boxiky
+                             
+2024-10-04 17:14:13.111739 : INFO - boxiky
+                             
+2024-10-04 17:14:13.125794 : INFO - boxiky
+                             
+2024-10-04 17:14:13.140557 : INFO - boxiky
+                             
+2024-10-04 17:14:13.154628 : INFO - boxiky
+                             
+2024-10-04 17:14:13.168655 : INFO - boxiky
+                             
+2024-10-04 17:14:13.182632 : INFO - boxiky
+                             
+2024-10-04 17:14:13.197682 : INFO - boxiky
+                             
+2024-10-04 17:14:13.211569 : INFO - boxiky
+                             
+2024-10-04 17:14:13.225573 : INFO - boxiky
+                             
+2024-10-04 17:14:13.240972 : INFO - boxiky
+                             
+2024-10-04 17:14:13.255945 : INFO - boxiky
+                             
+2024-10-04 17:14:13.271060 : INFO - boxiky
+                             
+2024-10-04 17:14:13.285564 : INFO - boxiky
+                             
+2024-10-04 17:14:13.299677 : INFO - boxiky
+                             
+2024-10-04 17:14:13.313929 : INFO - boxiky
+                             
+2024-10-04 17:14:13.328554 : INFO - boxiky
+                             
+2024-10-04 17:14:13.344271 : INFO - boxiky
+                             
+2024-10-04 17:14:13.358611 : INFO - boxiky
+                             
+2024-10-04 17:14:13.373246 : INFO - boxiky
+                             
+2024-10-04 17:14:13.387590 : INFO - boxiky
+                             
+2024-10-04 17:14:13.402006 : INFO - boxiky
+                             
+2024-10-04 17:14:13.416985 : INFO - boxiky
+                             
+2024-10-04 17:14:13.431837 : INFO - boxiky
+                             
+2024-10-04 17:14:13.445950 : INFO - boxiky
+                             
+2024-10-04 17:14:13.459763 : INFO - boxiky
+                             
+2024-10-04 17:14:13.475096 : INFO - boxiky
+                             
+2024-10-04 17:14:13.489759 : INFO - boxiky
+                             
+2024-10-04 17:14:13.504320 : INFO - boxiky
+                             
+2024-10-04 17:14:13.518988 : INFO - boxiky
+                             
+2024-10-04 17:14:13.534131 : INFO - boxiky
+                             
+2024-10-04 17:14:13.548613 : INFO - boxiky
+                             
+2024-10-04 17:14:13.563512 : INFO - boxiky
+                             
+2024-10-04 17:14:13.577740 : INFO - boxiky
+                             
+2024-10-04 17:14:13.592802 : INFO - boxiky
+                             
+2024-10-04 17:14:13.608787 : INFO - boxiky
+                             
+2024-10-04 17:14:13.623522 : INFO - boxiky
+                             
+2024-10-04 17:14:13.638470 : INFO - boxiky
+                             
+2024-10-04 17:14:13.653551 : INFO - boxiky
+                             
+2024-10-04 17:14:13.668002 : INFO - boxiky
+                             
+2024-10-04 17:14:13.682498 : INFO - boxiky
+                             
+2024-10-04 17:14:13.697353 : INFO - boxiky
+                             
+2024-10-04 17:14:13.719069 : INFO - boxiky
+                             
+2024-10-04 17:14:13.734797 : INFO - boxiky
+                             
+2024-10-04 17:14:13.749124 : INFO - boxiky
+                             
+2024-10-04 17:14:13.764303 : INFO - boxiky
+                             
+2024-10-04 17:14:13.778615 : INFO - boxiky
+                             
+2024-10-04 17:14:13.793677 : INFO - boxiky
+                             
+2024-10-04 17:14:13.808795 : INFO - boxiky
+                             
+2024-10-04 17:14:13.823859 : INFO - boxiky
+                             
+2024-10-04 17:14:13.838144 : INFO - boxiky
+                             
+2024-10-04 17:14:13.853174 : INFO - boxiky
+                             
+2024-10-04 17:14:13.867910 : INFO - boxiky
+                             
+2024-10-04 17:14:13.883032 : INFO - boxiky
+                             
+2024-10-04 17:14:14.027216 : INFO - boxiky
+                             
+2024-10-04 17:14:14.042548 : INFO - boxiky
+                             
+2024-10-04 17:14:14.057371 : INFO - boxiky
+                             
+2024-10-04 17:14:14.072776 : INFO - boxiky
+                             
+2024-10-04 17:14:14.087996 : INFO - boxiky
+                             
+2024-10-04 17:14:14.102484 : INFO - boxiky
+                             
+2024-10-04 17:14:14.117967 : INFO - boxiky
+                             
+2024-10-04 17:14:14.132817 : INFO - boxiky
+                             
+2024-10-04 17:14:14.148460 : INFO - boxiky
+                             
+2024-10-04 17:14:14.163236 : INFO - boxiky
+                             
+2024-10-04 17:14:14.178013 : INFO - boxiky
+                             
+2024-10-04 17:14:14.193030 : INFO - boxiky
+                             
+2024-10-04 17:14:14.207982 : INFO - boxiky
+                             
+2024-10-04 17:14:14.223149 : INFO - boxiky
+                             
+2024-10-04 17:14:14.238230 : INFO - boxiky
+                             
+2024-10-04 17:14:14.253300 : INFO - boxiky
+                             
+2024-10-04 17:14:14.268189 : INFO - boxiky
+                             
+2024-10-04 17:14:14.283217 : INFO - boxiky
+                             
+2024-10-04 17:14:14.298135 : INFO - boxiky
+                             
+2024-10-04 17:14:14.315050 : INFO - boxiky
+                             
+2024-10-04 17:14:14.330311 : INFO - boxiky
+                             
+2024-10-04 17:14:14.345469 : INFO - boxiky
+                             
+2024-10-04 17:14:14.360285 : INFO - boxiky
+                             
+2024-10-04 17:14:14.375201 : INFO - boxiky
+                             
+2024-10-04 17:14:14.390692 : INFO - boxiky
+                             
+2024-10-04 17:14:14.406406 : INFO - boxiky
+                             
+2024-10-04 17:14:14.421989 : INFO - boxiky
+                             
+2024-10-04 17:14:14.437134 : INFO - boxiky
+                             
+2024-10-04 17:14:14.452284 : INFO - boxiky
+                             
+2024-10-04 17:14:14.467567 : INFO - boxiky
+                             
+2024-10-04 17:14:14.483283 : INFO - boxiky
+                             
+2024-10-04 17:14:14.498033 : INFO - boxiky
+                             
+2024-10-04 17:14:14.514095 : INFO - boxiky
+                             
+2024-10-04 17:14:14.531048 : INFO - boxiky
+                             
+2024-10-04 17:14:14.547061 : INFO - boxiky
+                             
+2024-10-04 17:14:14.562071 : INFO - boxiky
+                             
+2024-10-04 17:14:14.577950 : INFO - boxiky
+                             
+2024-10-04 17:14:14.592560 : INFO - boxiky
+                             
+2024-10-04 17:14:14.608618 : INFO - boxiky
+                             
+2024-10-04 17:14:14.623382 : INFO - boxiky
+                             
+2024-10-04 17:14:14.639141 : INFO - boxiky
+                             
+2024-10-04 17:14:14.654134 : INFO - boxiky
+                             
+2024-10-04 17:14:14.669325 : INFO - boxiky
+                             
+2024-10-04 17:14:14.685319 : INFO - boxiky
+                             
+2024-10-04 17:14:14.700815 : INFO - boxiky
+                             
+2024-10-04 17:14:14.716438 : INFO - boxiky
+                             
+2024-10-04 17:14:14.732627 : INFO - boxiky
+                             
+2024-10-04 17:14:14.748671 : INFO - boxiky
+                             
+2024-10-04 17:14:14.763505 : INFO - boxiky
+                             
+2024-10-04 17:14:14.778710 : INFO - boxiky
+                             
+2024-10-04 17:14:14.794183 : INFO - boxiky
+                             
+2024-10-04 17:14:14.809452 : INFO - boxiky
+                             
+2024-10-04 17:14:14.825872 : INFO - boxiky
+                             
+2024-10-04 17:14:14.841912 : INFO - boxiky
+                             
+2024-10-04 17:14:14.857418 : INFO - boxiky
+                             
+2024-10-04 17:14:14.872800 : INFO - boxiky
+                             
+2024-10-04 17:14:14.888443 : INFO - boxiky
+                             
+2024-10-04 17:14:15.026363 : INFO - boxiky
+                             
+2024-10-04 17:14:15.041169 : INFO - boxiky
+                             
+2024-10-04 17:14:15.057070 : INFO - boxiky
+                             
+2024-10-04 17:14:15.073111 : INFO - boxiky
+                             
+2024-10-04 17:14:15.090066 : INFO - boxiky
+                             
+2024-10-04 17:14:15.109078 : INFO - boxiky
+                             
+2024-10-04 17:14:15.125035 : INFO - boxiky
+                             
+2024-10-04 17:14:15.142143 : INFO - boxiky
+                             
+2024-10-04 17:14:15.158099 : INFO - boxiky
+                             
+2024-10-04 17:14:15.175174 : INFO - boxiky
+                             
+2024-10-04 17:14:15.192178 : INFO - boxiky
+                             
+2024-10-04 17:14:15.210231 : INFO - boxiky
+                             
+2024-10-04 17:14:15.227186 : INFO - boxiky
+                             
+2024-10-04 17:14:15.246216 : INFO - boxiky
+                             
+2024-10-04 17:14:15.269245 : INFO - boxiky
+                             
+2024-10-04 17:14:15.291187 : INFO - boxiky
+                             
+2024-10-04 17:14:15.315199 : INFO - boxiky
+                             
+2024-10-04 17:14:15.331233 : INFO - boxiky
+                             
+2024-10-04 17:14:15.349185 : INFO - boxiky
+                             
+2024-10-04 17:14:15.366222 : INFO - boxiky
+                             
+2024-10-04 17:14:15.383177 : INFO - boxiky
+                             
+2024-10-04 17:14:15.405241 : INFO - boxiky
+                             
+2024-10-04 17:14:15.422195 : INFO - boxiky
+                             
+2024-10-04 17:14:15.440221 : INFO - boxiky
+                             
+2024-10-04 17:14:15.468409 : INFO - boxiky
+                             
+2024-10-04 17:14:15.521337 : INFO - boxiky
+                             
+2024-10-04 17:14:15.594143 : INFO - boxiky
+                             
+2024-10-04 17:14:15.626059 : INFO - boxiky
+                             
+2024-10-04 17:14:15.650992 : INFO - boxiky
+                             
+2024-10-04 17:14:15.669941 : INFO - boxiky
+                             
+2024-10-04 17:14:15.687893 : INFO - boxiky
+                             
+2024-10-04 17:14:15.704848 : INFO - boxiky
+                             
+2024-10-04 17:14:15.721802 : INFO - boxiky
+                             
+2024-10-04 17:14:15.740753 : INFO - boxiky
+                             
+2024-10-04 17:14:15.762693 : INFO - boxiky
+                             
+2024-10-04 17:14:15.784635 : INFO - boxiky
+                             
+2024-10-04 17:14:15.801589 : INFO - boxiky
+                             
+2024-10-04 17:14:15.817547 : INFO - boxiky
+                             
+2024-10-04 17:14:15.832508 : INFO - boxiky
+                             
+2024-10-04 17:14:15.848465 : INFO - boxiky
+                             
+2024-10-04 17:14:15.863424 : INFO - boxiky
+                             
+2024-10-04 17:14:15.878385 : INFO - boxiky
+                             
+2024-10-04 17:14:16.022101 : INFO - boxiky
+                             
+2024-10-04 17:14:16.040187 : INFO - boxiky
+                             
+2024-10-04 17:14:16.059767 : INFO - https://fischer.stg.dtweb.cz/kontakty/seznam-pobocek
+                             
+2024-10-04 17:14:35.313667 : INFO - Found 21 images to check.
+                             
+2024-10-04 17:14:35.369518 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:14:35.388467 : INFO - Image 1/21 visibility: True
+                             
+2024-10-04 17:14:35.417390 : INFO - Image 2/21 visibility: True
+                             
+2024-10-04 17:14:35.431353 : INFO - Image 3/21 visibility: True
+                             
+2024-10-04 17:14:35.443321 : INFO - Image 4/21 visibility: True
+                             
+2024-10-04 17:14:35.454292 : INFO - Image 5/21 visibility: True
+                             
+2024-10-04 17:14:35.466259 : INFO - Image 6/21 visibility: True
+                             
+2024-10-04 17:14:35.477231 : INFO - Image 7/21 visibility: True
+                             
+2024-10-04 17:14:35.487203 : INFO - Image 8/21 visibility: True
+                             
+2024-10-04 17:14:35.499172 : INFO - Image 9/21 visibility: True
+                             
+2024-10-04 17:14:35.521113 : INFO - Image 10/21 visibility: True
+                             
+2024-10-04 17:14:35.538069 : INFO - Image 11/21 visibility: True
+                             
+2024-10-04 17:14:35.549039 : INFO - Image 12/21 visibility: True
+                             
+2024-10-04 17:14:35.561007 : INFO - Image 13/21 visibility: True
+                             
+2024-10-04 17:14:35.571978 : INFO - Image 14/21 visibility: True
+                             
+2024-10-04 17:14:35.580953 : INFO - Image 15/21 visibility: True
+                             
+2024-10-04 17:14:35.591925 : INFO - Image 16/21 visibility: True
+                             
+2024-10-04 17:14:35.602895 : INFO - Image 17/21 visibility: True
+                             
+2024-10-04 17:14:35.613866 : INFO - Image 18/21 visibility: True
+                             
+2024-10-04 17:14:35.626832 : INFO - Image 19/21 visibility: True
+                             
+2024-10-04 17:14:35.636805 : INFO - Image 20/21 visibility: True
+                             
+2024-10-04 17:14:35.647776 : INFO - Image 21/21 visibility: True
+                             
+2024-10-04 17:14:35.710607 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:14:35.732549 : INFO - Grid item 1/18 visibility: True
+                             
+2024-10-04 17:14:35.743520 : INFO - Grid item 2/18 visibility: True
+                             
+2024-10-04 17:14:35.758480 : INFO - Grid item 3/18 visibility: True
+                             
+2024-10-04 17:14:35.769452 : INFO - Grid item 4/18 visibility: True
+                             
+2024-10-04 17:14:35.779424 : INFO - Grid item 5/18 visibility: True
+                             
+2024-10-04 17:14:35.792389 : INFO - Grid item 6/18 visibility: True
+                             
+2024-10-04 17:14:35.803360 : INFO - Grid item 7/18 visibility: True
+                             
+2024-10-04 17:14:35.815328 : INFO - Grid item 8/18 visibility: True
+                             
+2024-10-04 17:14:35.827296 : INFO - Grid item 9/18 visibility: True
+                             
+2024-10-04 17:14:35.838267 : INFO - Grid item 10/18 visibility: True
+                             
+2024-10-04 17:14:35.848240 : INFO - Grid item 11/18 visibility: True
+                             
+2024-10-04 17:14:35.861206 : INFO - Grid item 12/18 visibility: True
+                             
+2024-10-04 17:14:35.871179 : INFO - Grid item 13/18 visibility: True
+                             
+2024-10-04 17:14:35.882149 : INFO - Grid item 14/18 visibility: True
+                             
+2024-10-04 17:14:35.893120 : INFO - Grid item 15/18 visibility: True
+                             
+2024-10-04 17:14:35.903094 : INFO - Grid item 16/18 visibility: True
+                             
+2024-10-04 17:14:35.914065 : INFO - Grid item 17/18 visibility: True
+                             
+2024-10-04 17:14:35.924038 : INFO - Grid item 18/18 visibility: True
+                             
+2024-10-04 17:14:35.961937 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:14:35.975900 : INFO - Big grid 1/2 visibility: True
+                             
+2024-10-04 17:14:35.987868 : INFO - Big grid 2/2 visibility: True
+                             
+2024-10-04 17:14:35.987868 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:14:35.993851 : INFO - https://fischer.stg.dtweb.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+                             
+2024-10-04 17:14:55.811480 : INFO - Found 13 images to check.
+                             
+2024-10-04 17:14:55.832473 : INFO - The first image is displayed correctly.
+                             
+2024-10-04 17:14:55.847695 : INFO - Image 1/13 visibility: True
+                             
+2024-10-04 17:14:55.858949 : INFO - Image 2/13 visibility: True
+                             
+2024-10-04 17:14:55.870879 : INFO - Image 3/13 visibility: True
+                             
+2024-10-04 17:14:55.881850 : INFO - Image 4/13 visibility: True
+                             
+2024-10-04 17:14:55.892910 : INFO - Image 5/13 visibility: True
+                             
+2024-10-04 17:14:55.904877 : INFO - Image 6/13 visibility: True
+                             
+2024-10-04 17:14:55.915848 : INFO - Image 7/13 visibility: True
+                             
+2024-10-04 17:14:55.925881 : INFO - Image 8/13 visibility: True
+                             
+2024-10-04 17:14:55.937848 : INFO - Image 9/13 visibility: True
+                             
+2024-10-04 17:14:55.949817 : INFO - Image 10/13 visibility: True
+                             
+2024-10-04 17:14:55.961900 : INFO - Image 11/13 visibility: True
+                             
+2024-10-04 17:14:55.971873 : INFO - Image 12/13 visibility: True
+                             
+2024-10-04 17:14:55.981847 : INFO - Image 13/13 visibility: True
+                             
+2024-10-04 17:14:56.014821 : INFO - First grid item is displayed correctly.
+                             
+2024-10-04 17:14:56.023797 : INFO - Grid item 1/9 visibility: True
+                             
+2024-10-04 17:14:56.032773 : INFO - Grid item 2/9 visibility: True
+                             
+2024-10-04 17:14:56.043744 : INFO - Grid item 3/9 visibility: True
+                             
+2024-10-04 17:14:56.055712 : INFO - Grid item 4/9 visibility: True
+                             
+2024-10-04 17:14:56.065686 : INFO - Grid item 5/9 visibility: True
+                             
+2024-10-04 17:14:56.077654 : INFO - Grid item 6/9 visibility: True
+                             
+2024-10-04 17:14:56.086629 : INFO - Grid item 7/9 visibility: True
+                             
+2024-10-04 17:14:56.096603 : INFO - Grid item 8/9 visibility: True
+                             
+2024-10-04 17:14:56.106576 : INFO - Grid item 9/9 visibility: True
+                             
+2024-10-04 17:14:56.129515 : INFO - Main grid is displayed correctly.
+                             
+2024-10-04 17:14:56.137493 : INFO - Big grid 1/1 visibility: True
+                             
+2024-10-04 17:14:56.137493 : INFO - 'Poznavacky' tiles and images check completed.
+                             
+2024-10-04 17:14:56.143477 : INFO - https://fischer.stg.dtweb.cz/poznavaci-zajezdy/prodlouzene-vikendy
+                             

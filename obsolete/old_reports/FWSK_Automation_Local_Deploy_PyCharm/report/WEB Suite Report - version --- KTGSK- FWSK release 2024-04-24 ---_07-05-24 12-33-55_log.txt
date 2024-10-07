@@ -1,0 +1,39 @@
+2024-05-07 00:35:19.289441 : <selenium.webdriver.remote.webelement.WebElement (session="fa9bc2be9d7cf2e5f2d7aa9dbc8ba546", element="f.3DD5A910D18D09A5218DE2ACAC25DDAA.d.5762BAED3E231100041C597271D2439B.e.482")>
+2024-05-07 00:35:20.134270 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-05-07 00:35:27.663643 : <selenium.webdriver.remote.webelement.WebElement (session="8c38ad303a396021ff26ecfdf9a23c32", element="f.B274FF86DAEE4FB6A4BFBECE94E735EB.d.1E6D28C9960761EDFCF7707702B0360E.e.480")>
+2024-05-07 00:35:37.952588 : its ok
+2024-05-07 00:35:37.957820 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/_h7a7868.jpg
+2024-05-07 00:35:48.947968 : None
+2024-05-07 00:35:48.947968 : consent pass
+2024-05-07 00:35:55.113387 : else departure not true
+2024-05-07 00:36:03.598018 : all inclusive
+2024-05-07 00:36:05.612861 : 0
+2024-05-07 00:36:30.708011 : []
+2024-05-07 00:36:30.708011 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terminy
+2024-05-07 00:36:40.753878 : <selenium.webdriver.remote.webelement.WebElement (session="9507bfc8c54adf43341d95c23ed8dd66", element="f.25A19261F7EF592775358769E8D3B34C.d.49DDD7EA117A1B2840F4956E1AC58BAA.e.457")>
+2024-05-07 00:36:47.034920 : if departure==True
+2024-05-07 00:37:53.472476 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2024-05-07 00:38:12.863221 : <selenium.webdriver.remote.webelement.WebElement (session="55df97201015f6892abc40113fc67099", element="f.DC5EA050E4F60FE73897D66935213C56.d.9EF5972FCDF2FCD4A3675FB5C122EB0F.e.412")>
+2024-05-07 00:38:13.973237 : benefit item
+2024-05-07 00:38:14.066321 : benefit item
+2024-05-07 00:38:14.160463 : benefit item
+2024-05-07 00:38:14.176085 : benefit item
+2024-05-07 00:38:14.381005 : grind container
+2024-05-07 00:38:14.396625 : grind container
+2024-05-07 00:38:14.412513 : grind container
+2024-05-07 00:38:14.412513 : grind container
+2024-05-07 00:38:14.428135 : grind container
+2024-05-07 00:38:14.443860 : grind container
+2024-05-07 00:38:14.443860 : grind container
+2024-05-07 00:38:14.457704 : grind container
+2024-05-07 00:38:14.480869 : grind container
+2024-05-07 00:38:14.481876 : grind container
+2024-05-07 00:38:14.497498 : grind container
+2024-05-07 00:38:14.512068 : grind container
+2024-05-07 00:38:14.520046 : grind container
+2024-05-07 00:38:14.666881 : tile img
+2024-05-07 00:38:14.676854 : tile img
+2024-05-07 00:38:14.680843 : https://fischersk.stg.dtweb.cz/dovolenka-animacne-kluby
+2024-05-07 00:38:32.129171 : <selenium.webdriver.remote.webelement.WebElement (session="d2bf5f1dc9d8e85c0163dc5e414b300f", element="f.BADC240CD7BBB84BDB9A41E2C92962AC.d.46309293308C1C4F5D2EC179A8B31AAD.e.450")>
+2024-05-07 00:38:32.295083 : Položka menu existuje
+2024-05-07 00:38:59.691345 : https://fischersk.stg.dtweb.cz/

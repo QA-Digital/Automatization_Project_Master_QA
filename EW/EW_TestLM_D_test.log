@@ -1,0 +1,3 @@
+2024-10-03 17:58:34,031 - TestLM_D - INFO - Starting FM/LM tour expansion check.
+2024-10-03 17:58:44,092 - TestLM_D - ERROR - Could not expand FM/LM tour section. URL: https://exim.stg.dtweb.cz/last-minute
+2024-10-03 17:58:44,092 - TestLM_D - INFO - https://exim.stg.dtweb.cz/last-minute

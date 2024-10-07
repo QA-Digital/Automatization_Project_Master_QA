@@ -1,0 +1,36 @@
+2023-03-27 11:41:33.375324 : 
+                             
+                             
+2023-03-27 11:41:33.375324 : ====== WebDriver manager ======
+                             
+2023-03-27 11:41:33.410177 : Current google-chrome version is 111.0.5563
+                             
+2023-03-27 11:41:33.410177 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-03-27 11:41:33.559624 : Trying to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+                             
+2023-03-27 11:41:34.061259 : Driver has been saved in cache [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64]
+                             
+2023-03-27 11:41:40.473893 : https://fischer.web1.dtweb.cz/covid-info
+2023-03-27 11:41:42.720378 : 
+                             
+                             
+2023-03-27 11:41:42.720378 : ====== WebDriver manager ======
+                             
+2023-03-27 11:41:42.752593 : Current google-chrome version is 111.0.5563
+                             
+2023-03-27 11:41:42.752593 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-03-27 11:41:42.836449 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             
+2023-03-27 11:41:47.566835 : 
+                             
+                             
+2023-03-27 11:41:47.566835 : ====== WebDriver manager ======
+                             
+2023-03-27 11:41:47.595757 : Current google-chrome version is 111.0.5563
+                             
+2023-03-27 11:41:47.595757 : Get LATEST chromedriver version for 111.0.5563 google-chrome
+                             
+2023-03-27 11:41:47.697044 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\111.0.5563.64\chromedriver.exe] found in cache
+                             

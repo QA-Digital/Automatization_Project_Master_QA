@@ -1,0 +1,1117 @@
+2024-06-14 20:40:07.151279 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:40:52.069991 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:41:30.722014 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:42:08.592831 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:42:28.920772 : benefit item
+2024-06-14 20:42:28.936061 : benefit item
+2024-06-14 20:42:28.936061 : benefit item
+2024-06-14 20:42:28.951681 : benefit item
+2024-06-14 20:42:28.967144 : benefit item
+2024-06-14 20:42:28.967144 : benefit item
+2024-06-14 20:42:29.040191 : grind container
+2024-06-14 20:42:29.050163 : grind container
+2024-06-14 20:42:29.059631 : grind container
+2024-06-14 20:42:29.082580 : grind container
+2024-06-14 20:42:29.098058 : grind container
+2024-06-14 20:42:29.106947 : grind container
+2024-06-14 20:42:29.117917 : grind container
+2024-06-14 20:42:29.129908 : grind container
+2024-06-14 20:42:29.140496 : grind container
+2024-06-14 20:42:29.151466 : grind container
+2024-06-14 20:42:29.166729 : grind container
+2024-06-14 20:42:29.176701 : grind container
+2024-06-14 20:42:29.191463 : grind container
+2024-06-14 20:42:29.264018 : tile img
+2024-06-14 20:42:29.274482 : tile img
+2024-06-14 20:42:29.286016 : tile img
+2024-06-14 20:42:29.286016 : tile img
+2024-06-14 20:42:29.301636 : tile img
+2024-06-14 20:42:29.309646 : tile img
+2024-06-14 20:42:29.309646 : https://www.fischer.cz//kluby/funtazie-leto
+2024-06-14 20:42:42.403310 : Položka menu neexistuje
+2024-06-14 20:42:42.528868 : https://www.fischer.cz/
+2024-06-14 20:42:57.886197 : https://www.fischer.cz/first-minute/exotika-zima
+2024-06-14 20:43:34.380392 : https://www.fischer.cz/
+2024-06-14 20:43:46.645105 : ZANZIBAR
+2024-06-14 20:43:49.620564 : ØECKO
+2024-06-14 20:43:55.155575 : TURECKO
+2024-06-14 20:44:22.891656 : EGYPT
+2024-06-14 20:44:25.951473 : KAPVERDY
+2024-06-14 20:44:29.423053 : OMAN
+2024-06-14 20:44:31.814018 : KEFALONIA
+2024-06-14 20:44:34.519313 : MIRAGE BAY
+2024-06-14 20:44:37.539939 : PORTO SKALA 7
+2024-06-14 20:44:40.553453 : DOUBLETREE
+2024-06-14 20:44:42.250449 : https://www.fischer.cz/hledani-vysledky?q=Doubletree
+2024-06-14 20:44:58.986161 : https://www.fischer.cz/vysledky-vyhledavani?ac1=2&dd=2023-02-01&nn=7|8|9|10|11|12|13&rd=2023-02-26&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:45:16.205151 : https://www.fischer.cz/
+2024-06-14 20:45:35.298725 : https://www.fischer.cz/last-minute
+2024-06-14 20:45:48.593725 : mapa kolecka
+2024-06-14 20:45:48.593725 : mapa kolecka
+2024-06-14 20:45:48.609346 : mapa kolecka
+2024-06-14 20:45:48.609346 : mapa kolecka
+2024-06-14 20:45:48.624968 : mapa kolecka
+2024-06-14 20:45:48.624968 : mapa kolecka
+2024-06-14 20:45:48.640589 : mapa kolecka
+2024-06-14 20:45:48.640589 : mapa kolecka
+2024-06-14 20:45:48.734605 : basic info 
+2024-06-14 20:45:48.734605 : basic info 
+2024-06-14 20:45:48.750230 : basic info 
+2024-06-14 20:45:48.750230 : basic info 
+2024-06-14 20:45:48.765738 : basic info 
+2024-06-14 20:45:48.765738 : basic info 
+2024-06-14 20:45:48.781364 : basic info 
+2024-06-14 20:45:48.781364 : basic info 
+2024-06-14 20:45:48.796872 : basic info 
+2024-06-14 20:45:48.796872 : basic info 
+2024-06-14 20:45:48.812497 : basic info 
+2024-06-14 20:45:48.828118 : basic info 
+2024-06-14 20:45:48.828118 : basic info 
+2024-06-14 20:45:48.843739 : basic info 
+2024-06-14 20:45:48.843739 : basic info 
+2024-06-14 20:45:48.859361 : basic info 
+2024-06-14 20:45:48.859361 : basic info 
+2024-06-14 20:45:48.874982 : basic info 
+2024-06-14 20:45:48.874982 : basic info 
+2024-06-14 20:45:48.890604 : basic info 
+2024-06-14 20:45:48.890604 : basic info 
+2024-06-14 20:45:48.906225 : basic info 
+2024-06-14 20:45:48.921868 : basic info 
+2024-06-14 20:45:48.921868 : basic info 
+2024-06-14 20:45:48.937467 : basic info 
+2024-06-14 20:45:48.941698 : basic info 
+2024-06-14 20:45:48.953108 : basic info 
+2024-06-14 20:45:48.968733 : basic info 
+2024-06-14 20:45:48.968733 : basic info 
+2024-06-14 20:45:48.984372 : basic info 
+2024-06-14 20:45:48.984372 : basic info 
+2024-06-14 20:45:48.999993 : basic info 
+2024-06-14 20:45:48.999993 : basic info 
+2024-06-14 20:45:49.015596 : basic info 
+2024-06-14 20:45:49.031217 : basic info 
+2024-06-14 20:45:49.031217 : basic info 
+2024-06-14 20:45:49.046863 : basic info 
+2024-06-14 20:45:49.046863 : basic info 
+2024-06-14 20:45:49.062460 : basic info 
+2024-06-14 20:45:49.062460 : basic info 
+2024-06-14 20:45:49.078099 : basic info 
+2024-06-14 20:45:49.093704 : basic info 
+2024-06-14 20:45:49.093704 : basic info 
+2024-06-14 20:45:49.109828 : basic info 
+2024-06-14 20:45:49.249993 : basic info 
+2024-06-14 20:45:49.249993 : basic info 
+2024-06-14 20:45:49.265613 : basic info 
+2024-06-14 20:45:49.281236 : basic info 
+2024-06-14 20:45:49.281236 : basic info 
+2024-06-14 20:45:49.296856 : basic info 
+2024-06-14 20:45:49.296856 : basic info 
+2024-06-14 20:45:49.312477 : basic info 
+2024-06-14 20:45:49.312477 : basic info 
+2024-06-14 20:45:49.328099 : basic info 
+2024-06-14 20:45:49.343720 : basic info 
+2024-06-14 20:45:49.343720 : basic info 
+2024-06-14 20:45:49.359341 : basic info 
+2024-06-14 20:45:49.359341 : basic info 
+2024-06-14 20:45:49.374962 : basic info 
+2024-06-14 20:45:49.374962 : basic info 
+2024-06-14 20:45:49.390584 : basic info 
+2024-06-14 20:45:49.406206 : basic info 
+2024-06-14 20:45:49.406206 : basic info 
+2024-06-14 20:45:49.422335 : basic info 
+2024-06-14 20:45:49.437985 : basic info 
+2024-06-14 20:45:49.437985 : basic info 
+2024-06-14 20:45:49.453495 : basic info 
+2024-06-14 20:45:49.469120 : basic info 
+2024-06-14 20:45:49.469120 : basic info 
+2024-06-14 20:45:49.484628 : basic info 
+2024-06-14 20:45:49.500254 : basic info 
+2024-06-14 20:45:49.500254 : basic info 
+2024-06-14 20:45:49.515763 : basic info 
+2024-06-14 20:45:49.531412 : basic info 
+2024-06-14 20:45:49.531412 : basic info 
+2024-06-14 20:45:49.546920 : basic info 
+2024-06-14 20:45:49.546920 : basic info 
+2024-06-14 20:45:49.562563 : basic info 
+2024-06-14 20:45:49.578189 : basic info 
+2024-06-14 20:45:49.578189 : basic info 
+2024-06-14 20:45:49.593788 : basic info 
+2024-06-14 20:45:49.609441 : basic info 
+2024-06-14 20:45:49.609441 : basic info 
+2024-06-14 20:45:49.625030 : basic info 
+2024-06-14 20:45:49.640652 : basic info 
+2024-06-14 20:45:49.640652 : basic info 
+2024-06-14 20:45:49.656272 : basic info 
+2024-06-14 20:45:49.671918 : basic info 
+2024-06-14 20:45:49.671918 : basic info 
+2024-06-14 20:45:49.687523 : basic info 
+2024-06-14 20:45:49.703136 : basic info 
+2024-06-14 20:45:49.703136 : basic info 
+2024-06-14 20:45:49.718775 : basic info 
+2024-06-14 20:45:49.734400 : basic info 
+2024-06-14 20:45:49.734400 : basic info 
+2024-06-14 20:45:49.750000 : basic info 
+2024-06-14 20:45:49.765647 : basic info 
+2024-06-14 20:45:49.765647 : basic info 
+2024-06-14 20:45:49.781244 : basic info 
+2024-06-14 20:45:49.796863 : basic info 
+2024-06-14 20:45:49.796863 : basic info 
+2024-06-14 20:45:49.812484 : basic info 
+2024-06-14 20:45:49.828106 : basic info 
+2024-06-14 20:45:49.828106 : basic info 
+2024-06-14 20:45:49.843727 : basic info 
+2024-06-14 20:45:49.859348 : basic info 
+2024-06-14 20:45:49.874969 : basic info 
+2024-06-14 20:45:49.874969 : basic info 
+2024-06-14 20:45:49.890590 : basic info 
+2024-06-14 20:45:49.890590 : basic info 
+2024-06-14 20:45:49.906212 : basic info 
+2024-06-14 20:45:49.921833 : basic info 
+2024-06-14 20:45:49.921833 : basic info 
+2024-06-14 20:45:49.941574 : basic info 
+2024-06-14 20:45:49.953583 : basic info 
+2024-06-14 20:45:49.953583 : basic info 
+2024-06-14 20:45:49.969209 : basic info 
+2024-06-14 20:45:49.969209 : basic info 
+2024-06-14 20:45:49.984718 : basic info 
+2024-06-14 20:45:49.984718 : basic info 
+2024-06-14 20:45:50.000343 : basic info 
+2024-06-14 20:45:50.015851 : basic info 
+2024-06-14 20:45:50.015851 : basic info 
+2024-06-14 20:45:50.031477 : basic info 
+2024-06-14 20:45:50.046986 : basic info 
+2024-06-14 20:45:50.046986 : basic info 
+2024-06-14 20:45:50.062611 : basic info 
+2024-06-14 20:45:50.062611 : basic info 
+2024-06-14 20:45:50.078120 : basic info 
+2024-06-14 20:45:50.093745 : basic info 
+2024-06-14 20:45:50.093745 : basic info 
+2024-06-14 20:45:50.109381 : basic info 
+2024-06-14 20:45:50.249958 : basic info 
+2024-06-14 20:45:50.265578 : basic info 
+2024-06-14 20:45:50.265578 : basic info 
+2024-06-14 20:45:50.281200 : basic info 
+2024-06-14 20:45:50.296841 : basic info 
+2024-06-14 20:45:50.296841 : basic info 
+2024-06-14 20:45:50.312443 : basic info 
+2024-06-14 20:45:50.328082 : basic info 
+2024-06-14 20:45:50.328082 : basic info 
+2024-06-14 20:45:50.343685 : basic info 
+2024-06-14 20:45:50.359325 : basic info 
+2024-06-14 20:45:50.359325 : basic info 
+2024-06-14 20:45:50.374941 : basic info 
+2024-06-14 20:45:50.391072 : basic info 
+2024-06-14 20:45:50.391072 : basic info 
+2024-06-14 20:45:50.406697 : basic info 
+2024-06-14 20:45:50.422205 : basic info 
+2024-06-14 20:45:50.437848 : basic info 
+2024-06-14 20:45:50.437848 : basic info 
+2024-06-14 20:45:50.453357 : basic info 
+2024-06-14 20:45:50.469008 : basic info 
+2024-06-14 20:45:50.469008 : basic info 
+2024-06-14 20:45:50.484516 : basic info 
+2024-06-14 20:45:50.500142 : basic info 
+2024-06-14 20:45:50.515675 : basic info 
+2024-06-14 20:45:50.515675 : basic info 
+2024-06-14 20:45:50.531301 : basic info 
+2024-06-14 20:45:50.546922 : basic info 
+2024-06-14 20:45:50.562542 : basic info 
+2024-06-14 20:45:50.562542 : basic info 
+2024-06-14 20:45:50.578165 : basic info 
+2024-06-14 20:45:50.593786 : basic info 
+2024-06-14 20:45:50.609407 : basic info 
+2024-06-14 20:45:50.609407 : basic info 
+2024-06-14 20:45:50.625027 : basic info 
+2024-06-14 20:45:50.640649 : basic info 
+2024-06-14 20:45:50.640649 : basic info 
+2024-06-14 20:45:50.656270 : basic info 
+2024-06-14 20:45:50.671892 : basic info 
+2024-06-14 20:45:50.671892 : basic info 
+2024-06-14 20:45:50.687512 : basic info 
+2024-06-14 20:45:50.703133 : basic info 
+2024-06-14 20:45:50.703133 : basic info 
+2024-06-14 20:45:50.718755 : basic info 
+2024-06-14 20:45:50.718755 : basic info 
+2024-06-14 20:45:50.734376 : basic info 
+2024-06-14 20:45:50.749998 : basic info 
+2024-06-14 20:45:50.749998 : basic info 
+2024-06-14 20:45:50.765619 : basic info 
+2024-06-14 20:45:50.781261 : basic info 
+2024-06-14 20:45:50.781261 : basic info 
+2024-06-14 20:45:50.796860 : basic info 
+2024-06-14 20:45:50.812500 : basic info 
+2024-06-14 20:45:50.812500 : basic info 
+2024-06-14 20:45:50.828121 : basic info 
+2024-06-14 20:45:50.843725 : basic info 
+2024-06-14 20:45:50.859346 : basic info 
+2024-06-14 20:45:50.859346 : basic info 
+2024-06-14 20:45:50.874967 : basic info 
+2024-06-14 20:45:50.890607 : basic info 
+2024-06-14 20:45:50.890607 : basic info 
+2024-06-14 20:45:50.906209 : basic info 
+2024-06-14 20:45:50.921849 : basic info 
+2024-06-14 20:45:50.921849 : basic info 
+2024-06-14 20:45:50.942179 : basic info 
+2024-06-14 20:45:50.953348 : basic info 
+2024-06-14 20:45:50.968992 : basic info 
+2024-06-14 20:45:50.968992 : basic info 
+2024-06-14 20:45:50.984501 : basic info 
+2024-06-14 20:45:51.000152 : basic info 
+2024-06-14 20:45:51.000152 : basic info 
+2024-06-14 20:45:51.015661 : basic info 
+2024-06-14 20:45:51.031287 : basic info 
+2024-06-14 20:45:51.031287 : basic info 
+2024-06-14 20:45:51.046929 : basic info 
+2024-06-14 20:45:51.062552 : basic info 
+2024-06-14 20:45:51.078151 : basic info 
+2024-06-14 20:45:51.078151 : basic info 
+2024-06-14 20:45:51.093780 : basic info 
+2024-06-14 20:45:51.109393 : basic info 
+2024-06-14 20:45:51.250020 : basic info 
+2024-06-14 20:45:51.250020 : basic info 
+2024-06-14 20:45:51.265662 : basic info 
+2024-06-14 20:45:51.281262 : basic info 
+2024-06-14 20:45:51.296907 : basic info 
+2024-06-14 20:45:51.312505 : basic info 
+2024-06-14 20:45:51.312505 : basic info 
+2024-06-14 20:45:51.328126 : basic info 
+2024-06-14 20:45:51.343771 : basic info 
+2024-06-14 20:45:51.359367 : basic info 
+2024-06-14 20:45:51.359367 : basic info 
+2024-06-14 20:45:51.374989 : basic info 
+2024-06-14 20:45:51.390612 : basic info 
+2024-06-14 20:45:51.390612 : basic info 
+2024-06-14 20:45:51.406231 : basic info 
+2024-06-14 20:45:51.421853 : basic info 
+2024-06-14 20:45:51.437473 : basic info 
+2024-06-14 20:45:51.437473 : basic info 
+2024-06-14 20:45:51.453095 : basic info 
+2024-06-14 20:45:51.468718 : basic info 
+2024-06-14 20:45:51.468718 : basic info 
+2024-06-14 20:45:51.484338 : basic info 
+2024-06-14 20:45:51.499960 : basic info 
+2024-06-14 20:45:51.499960 : basic info 
+2024-06-14 20:45:51.546822 : boxiky
+2024-06-14 20:45:51.562444 : boxiky
+2024-06-14 20:45:51.578065 : boxiky
+2024-06-14 20:45:51.593686 : boxiky
+2024-06-14 20:45:51.593686 : boxiky
+2024-06-14 20:45:51.609812 : boxiky
+2024-06-14 20:45:51.625438 : boxiky
+2024-06-14 20:45:51.625438 : boxiky
+2024-06-14 20:45:51.640948 : boxiky
+2024-06-14 20:45:51.656575 : boxiky
+2024-06-14 20:45:51.672083 : boxiky
+2024-06-14 20:45:51.672083 : boxiky
+2024-06-14 20:45:51.687708 : boxiky
+2024-06-14 20:45:51.703331 : boxiky
+2024-06-14 20:45:51.703331 : boxiky
+2024-06-14 20:45:51.718951 : boxiky
+2024-06-14 20:45:51.734572 : boxiky
+2024-06-14 20:45:51.750194 : boxiky
+2024-06-14 20:45:51.750194 : boxiky
+2024-06-14 20:45:51.765814 : boxiky
+2024-06-14 20:45:51.781436 : boxiky
+2024-06-14 20:45:51.797058 : boxiky
+2024-06-14 20:45:51.797058 : boxiky
+2024-06-14 20:45:51.812678 : boxiky
+2024-06-14 20:45:51.828299 : boxiky
+2024-06-14 20:45:51.828299 : boxiky
+2024-06-14 20:45:51.843920 : boxiky
+2024-06-14 20:45:51.859541 : boxiky
+2024-06-14 20:45:51.875164 : boxiky
+2024-06-14 20:45:51.875164 : boxiky
+2024-06-14 20:45:51.890784 : boxiky
+2024-06-14 20:45:51.906405 : boxiky
+2024-06-14 20:45:51.922028 : boxiky
+2024-06-14 20:45:51.922028 : boxiky
+2024-06-14 20:45:51.942149 : boxiky
+2024-06-14 20:45:51.953157 : boxiky
+2024-06-14 20:45:51.968783 : boxiky
+2024-06-14 20:45:51.968783 : boxiky
+2024-06-14 20:45:51.984403 : boxiky
+2024-06-14 20:45:52.000025 : boxiky
+2024-06-14 20:45:52.015648 : boxiky
+2024-06-14 20:45:52.031268 : boxiky
+2024-06-14 20:45:52.031268 : boxiky
+2024-06-14 20:45:52.046888 : boxiky
+2024-06-14 20:45:52.062509 : boxiky
+2024-06-14 20:45:52.078132 : boxiky
+2024-06-14 20:45:52.078132 : boxiky
+2024-06-14 20:45:52.093752 : boxiky
+2024-06-14 20:45:52.124994 : boxiky
+2024-06-14 20:45:52.265585 : boxiky
+2024-06-14 20:45:52.281206 : boxiky
+2024-06-14 20:45:52.296828 : boxiky
+2024-06-14 20:45:52.312448 : boxiky
+2024-06-14 20:45:52.312448 : boxiky
+2024-06-14 20:45:52.328070 : boxiky
+2024-06-14 20:45:52.343691 : boxiky
+2024-06-14 20:45:52.359313 : boxiky
+2024-06-14 20:45:52.359313 : boxiky
+2024-06-14 20:45:52.374934 : boxiky
+2024-06-14 20:45:52.391061 : boxiky
+2024-06-14 20:45:52.406686 : boxiky
+2024-06-14 20:45:52.406686 : boxiky
+2024-06-14 20:45:52.422194 : boxiky
+2024-06-14 20:45:52.437820 : boxiky
+2024-06-14 20:45:52.453328 : boxiky
+2024-06-14 20:45:52.453328 : boxiky
+2024-06-14 20:45:52.468955 : boxiky
+2024-06-14 20:45:52.484463 : boxiky
+2024-06-14 20:45:52.500090 : boxiky
+2024-06-14 20:45:52.500090 : boxiky
+2024-06-14 20:45:52.515597 : boxiky
+2024-06-14 20:45:52.531224 : boxiky
+2024-06-14 20:45:52.546844 : boxiky
+2024-06-14 20:45:52.546844 : boxiky
+2024-06-14 20:45:52.562466 : boxiky
+2024-06-14 20:45:52.578087 : boxiky
+2024-06-14 20:45:52.593708 : boxiky
+2024-06-14 20:45:52.593708 : boxiky
+2024-06-14 20:45:52.609329 : boxiky
+2024-06-14 20:45:52.624951 : boxiky
+2024-06-14 20:45:52.640573 : boxiky
+2024-06-14 20:45:52.640573 : boxiky
+2024-06-14 20:45:52.656194 : boxiky
+2024-06-14 20:45:52.671815 : boxiky
+2024-06-14 20:45:52.687436 : boxiky
+2024-06-14 20:45:52.703057 : boxiky
+2024-06-14 20:45:52.703057 : boxiky
+2024-06-14 20:45:52.718678 : boxiky
+2024-06-14 20:45:52.734298 : boxiky
+2024-06-14 20:45:52.749920 : boxiky
+2024-06-14 20:45:52.765541 : boxiky
+2024-06-14 20:45:52.765541 : boxiky
+2024-06-14 20:45:52.781162 : boxiky
+2024-06-14 20:45:52.796783 : boxiky
+2024-06-14 20:45:52.812405 : boxiky
+2024-06-14 20:45:52.812405 : boxiky
+2024-06-14 20:45:52.828026 : boxiky
+2024-06-14 20:45:52.843647 : boxiky
+2024-06-14 20:45:52.859268 : boxiky
+2024-06-14 20:45:52.874890 : boxiky
+2024-06-14 20:45:52.874890 : boxiky
+2024-06-14 20:45:52.890511 : boxiky
+2024-06-14 20:45:52.906132 : boxiky
+2024-06-14 20:45:52.921753 : boxiky
+2024-06-14 20:45:52.937374 : boxiky
+2024-06-14 20:45:52.937374 : boxiky
+2024-06-14 20:45:52.953500 : boxiky
+2024-06-14 20:45:52.969124 : boxiky
+2024-06-14 20:45:52.984632 : boxiky
+2024-06-14 20:45:53.000257 : boxiky
+2024-06-14 20:45:53.000257 : boxiky
+2024-06-14 20:45:53.015766 : boxiky
+2024-06-14 20:45:53.031391 : boxiky
+2024-06-14 20:45:53.046900 : boxiky
+2024-06-14 20:45:53.062526 : boxiky
+2024-06-14 20:45:53.062526 : boxiky
+2024-06-14 20:45:53.078147 : boxiky
+2024-06-14 20:45:53.093768 : boxiky
+2024-06-14 20:45:53.109390 : boxiky
+2024-06-14 20:45:53.125010 : boxiky
+2024-06-14 20:45:53.265601 : boxiky
+2024-06-14 20:45:53.281223 : boxiky
+2024-06-14 20:45:53.296845 : boxiky
+2024-06-14 20:45:53.296845 : boxiky
+2024-06-14 20:45:53.312465 : boxiky
+2024-06-14 20:45:53.328086 : boxiky
+2024-06-14 20:45:53.343708 : boxiky
+2024-06-14 20:45:53.359330 : boxiky
+2024-06-14 20:45:53.374950 : boxiky
+2024-06-14 20:45:53.374950 : boxiky
+2024-06-14 20:45:53.390571 : boxiky
+2024-06-14 20:45:53.406192 : boxiky
+2024-06-14 20:45:53.421831 : boxiky
+2024-06-14 20:45:53.437464 : boxiky
+2024-06-14 20:45:53.453085 : boxiky
+2024-06-14 20:45:53.468677 : boxiky
+2024-06-14 20:45:53.468677 : boxiky
+2024-06-14 20:45:53.484803 : boxiky
+2024-06-14 20:45:53.500428 : boxiky
+2024-06-14 20:45:53.515964 : boxiky
+2024-06-14 20:45:53.531591 : boxiky
+2024-06-14 20:45:53.547100 : boxiky
+2024-06-14 20:45:53.547100 : boxiky
+2024-06-14 20:45:53.562725 : boxiky
+2024-06-14 20:45:53.578233 : boxiky
+2024-06-14 20:45:53.593860 : boxiky
+2024-06-14 20:45:53.609402 : boxiky
+2024-06-14 20:45:53.625029 : boxiky
+2024-06-14 20:45:53.625029 : boxiky
+2024-06-14 20:45:53.640649 : boxiky
+2024-06-14 20:45:53.656271 : boxiky
+2024-06-14 20:45:53.671892 : boxiky
+2024-06-14 20:45:53.687532 : boxiky
+2024-06-14 20:45:53.703156 : boxiky
+2024-06-14 20:45:53.703156 : boxiky
+2024-06-14 20:45:53.718755 : boxiky
+2024-06-14 20:45:53.734377 : boxiky
+2024-06-14 20:45:53.750016 : boxiky
+2024-06-14 20:45:53.765644 : boxiky
+2024-06-14 20:45:53.781266 : boxiky
+2024-06-14 20:45:53.796887 : boxiky
+2024-06-14 20:45:53.812483 : boxiky
+2024-06-14 20:45:53.812483 : boxiky
+2024-06-14 20:45:53.828104 : boxiky
+2024-06-14 20:45:53.843726 : boxiky
+2024-06-14 20:45:53.859346 : boxiky
+2024-06-14 20:45:53.874967 : boxiky
+2024-06-14 20:45:53.890623 : boxiky
+2024-06-14 20:45:53.906239 : boxiky
+2024-06-14 20:45:53.921847 : boxiky
+2024-06-14 20:45:53.937453 : boxiky
+2024-06-14 20:45:53.953096 : boxiky
+2024-06-14 20:45:53.968723 : boxiky
+2024-06-14 20:45:53.984346 : boxiky
+2024-06-14 20:45:53.999938 : boxiky
+2024-06-14 20:45:53.999938 : boxiky
+2024-06-14 20:45:54.015582 : boxiky
+2024-06-14 20:45:54.031179 : boxiky
+2024-06-14 20:45:54.046825 : boxiky
+2024-06-14 20:45:54.062421 : boxiky
+2024-06-14 20:45:54.078546 : boxiky
+2024-06-14 20:45:54.094170 : boxiky
+2024-06-14 20:45:54.109697 : boxiky
+2024-06-14 20:45:54.125324 : boxiky
+2024-06-14 20:45:54.265604 : boxiky
+2024-06-14 20:45:54.281226 : boxiky
+2024-06-14 20:45:54.296847 : boxiky
+2024-06-14 20:45:54.312497 : boxiky
+2024-06-14 20:45:54.328089 : boxiky
+2024-06-14 20:45:54.343709 : boxiky
+2024-06-14 20:45:54.343709 : boxiky
+2024-06-14 20:45:54.359330 : boxiky
+2024-06-14 20:45:54.374952 : boxiky
+2024-06-14 20:45:54.390573 : boxiky
+2024-06-14 20:45:54.406195 : boxiky
+2024-06-14 20:45:54.421818 : boxiky
+2024-06-14 20:45:54.437437 : boxiky
+2024-06-14 20:45:54.453059 : boxiky
+2024-06-14 20:45:54.453059 : boxiky
+2024-06-14 20:45:54.468679 : boxiky
+2024-06-14 20:45:54.484313 : boxiky
+2024-06-14 20:45:54.499921 : boxiky
+2024-06-14 20:45:54.515542 : boxiky
+2024-06-14 20:45:54.531165 : boxiky
+2024-06-14 20:45:54.547292 : boxiky
+2024-06-14 20:45:54.562918 : boxiky
+2024-06-14 20:45:54.562918 : boxiky
+2024-06-14 20:45:54.578427 : boxiky
+2024-06-14 20:45:54.594052 : boxiky
+2024-06-14 20:45:54.609560 : boxiky
+2024-06-14 20:45:54.625187 : boxiky
+2024-06-14 20:45:54.640697 : boxiky
+2024-06-14 20:45:54.656325 : boxiky
+2024-06-14 20:45:54.671834 : boxiky
+2024-06-14 20:45:54.671834 : boxiky
+2024-06-14 20:45:54.687460 : boxiky
+2024-06-14 20:45:54.703081 : boxiky
+2024-06-14 20:45:54.718702 : boxiky
+2024-06-14 20:45:54.734323 : boxiky
+2024-06-14 20:45:54.749947 : boxiky
+2024-06-14 20:45:54.765568 : boxiky
+2024-06-14 20:45:54.781189 : boxiky
+2024-06-14 20:45:54.796809 : boxiky
+2024-06-14 20:45:54.812431 : boxiky
+2024-06-14 20:45:54.828051 : boxiky
+2024-06-14 20:45:54.843672 : boxiky
+2024-06-14 20:45:54.843672 : boxiky
+2024-06-14 20:45:54.859293 : boxiky
+2024-06-14 20:45:54.874914 : boxiky
+2024-06-14 20:45:54.890536 : boxiky
+2024-06-14 20:45:54.906157 : boxiky
+2024-06-14 20:45:54.921778 : boxiky
+2024-06-14 20:45:54.937401 : boxiky
+2024-06-14 20:45:54.953021 : boxiky
+2024-06-14 20:45:54.953021 : boxiky
+2024-06-14 20:45:54.968641 : boxiky
+2024-06-14 20:45:54.984767 : https://www.fischer.cz/kontakty/seznam-pobocek
+2024-06-14 20:46:08.640912 : [<selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.206")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.207")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.208")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.209")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.210")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.211")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.212")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.213")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.214")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.215")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.216")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.217")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.218")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.219")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.220")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.221")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.222")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.223")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.224")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.225")>, <selenium.webdriver.remote.webelement.WebElement (session="49c70bfa97452b580afc8fb181d7c3be", element="f.3DA27E4AEAEAC2DA3B18FBE186D0E7D9.d.F0A27D27AA908FB497A1C39E5564F305.e.226")>]
+2024-06-14 20:46:08.656565 : true imgdisplay
+2024-06-14 20:46:08.672072 : true imgdisplay
+2024-06-14 20:46:08.687698 : true imgdisplay
+2024-06-14 20:46:08.687698 : true imgdisplay
+2024-06-14 20:46:08.703206 : true imgdisplay
+2024-06-14 20:46:08.718832 : true imgdisplay
+2024-06-14 20:46:08.718832 : true imgdisplay
+2024-06-14 20:46:08.734367 : true imgdisplay
+2024-06-14 20:46:08.749993 : true imgdisplay
+2024-06-14 20:46:08.749993 : true imgdisplay
+2024-06-14 20:46:08.765502 : true imgdisplay
+2024-06-14 20:46:08.781129 : true imgdisplay
+2024-06-14 20:46:08.781129 : true imgdisplay
+2024-06-14 20:46:08.796773 : true imgdisplay
+2024-06-14 20:46:08.812370 : true imgdisplay
+2024-06-14 20:46:08.812370 : true imgdisplay
+2024-06-14 20:46:08.827991 : true imgdisplay
+2024-06-14 20:46:08.843612 : true imgdisplay
+2024-06-14 20:46:08.859234 : true imgdisplay
+2024-06-14 20:46:08.874854 : true imgdisplay
+2024-06-14 20:46:08.874854 : true imgdisplay
+2024-06-14 20:46:08.926941 : grid true
+2024-06-14 20:46:08.935916 : grid true
+2024-06-14 20:46:08.947884 : grid true
+2024-06-14 20:46:08.953960 : grid true
+2024-06-14 20:46:08.953960 : grid true
+2024-06-14 20:46:08.969584 : grid true
+2024-06-14 20:46:08.984592 : grid true
+2024-06-14 20:46:08.984592 : grid true
+2024-06-14 20:46:09.000217 : grid true
+2024-06-14 20:46:09.000217 : grid true
+2024-06-14 20:46:09.015725 : grid true
+2024-06-14 20:46:09.031351 : grid true
+2024-06-14 20:46:09.046860 : grid true
+2024-06-14 20:46:09.046860 : grid true
+2024-06-14 20:46:09.062486 : grid true
+2024-06-14 20:46:09.077993 : grid true
+2024-06-14 20:46:09.077993 : grid true
+2024-06-14 20:46:09.093622 : grid true
+2024-06-14 20:46:09.124861 : big grid ture
+2024-06-14 20:46:09.124861 : big grid ture
+2024-06-14 20:46:09.140482 : https://www.fischer.cz/poznavaci-zajezdy/okruzni-a-kombinovane
+2024-06-14 20:46:23.641697 : [<selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.206")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.207")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.208")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.209")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.210")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.211")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.212")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.213")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.214")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.215")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.216")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.217")>, <selenium.webdriver.remote.webelement.WebElement (session="fb382b40dc12a87f47e4f0717e310625", element="f.5263B69361A26DA22C45B31FFDC61A5B.d.5B30A24599742E744EA402FBADC5FFC5.e.218")>]
+2024-06-14 20:46:23.673166 : true imgdisplay
+2024-06-14 20:46:23.673166 : true imgdisplay
+2024-06-14 20:46:23.688788 : true imgdisplay
+2024-06-14 20:46:23.704641 : true imgdisplay
+2024-06-14 20:46:23.704641 : true imgdisplay
+2024-06-14 20:46:23.720263 : true imgdisplay
+2024-06-14 20:46:23.735535 : true imgdisplay
+2024-06-14 20:46:23.735535 : true imgdisplay
+2024-06-14 20:46:23.751157 : true imgdisplay
+2024-06-14 20:46:23.767025 : true imgdisplay
+2024-06-14 20:46:23.767025 : true imgdisplay
+2024-06-14 20:46:23.782647 : true imgdisplay
+2024-06-14 20:46:23.797892 : true imgdisplay
+2024-06-14 20:46:23.829334 : grid true
+2024-06-14 20:46:23.844956 : grid true
+2024-06-14 20:46:23.863686 : grid true
+2024-06-14 20:46:23.874666 : grid true
+2024-06-14 20:46:23.883620 : grid true
+2024-06-14 20:46:23.892298 : grid true
+2024-06-14 20:46:23.892298 : grid true
+2024-06-14 20:46:23.907920 : grid true
+2024-06-14 20:46:23.907920 : grid true
+2024-06-14 20:46:23.938972 : big grid ture
+2024-06-14 20:46:23.954234 : https://www.fischer.cz/poznavaci-zajezdy/prodlouzene-vikendy
+2024-06-14 20:46:39.048139 : [<selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.207")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.208")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.209")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.210")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.211")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.212")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.213")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.214")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.215")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.216")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.217")>, <selenium.webdriver.remote.webelement.WebElement (session="d31a4877f167989a019b42bd7ec5ac33", element="f.9D40049D31F9B87125CA08D6BCD04EBE.d.C3560525CCDFBE2672EDE7B18BE5FC92.e.218")>]
+2024-06-14 20:46:39.063761 : true imgdisplay
+2024-06-14 20:46:39.079278 : true imgdisplay
+2024-06-14 20:46:39.094900 : true imgdisplay
+2024-06-14 20:46:39.094900 : true imgdisplay
+2024-06-14 20:46:39.110657 : true imgdisplay
+2024-06-14 20:46:39.126279 : true imgdisplay
+2024-06-14 20:46:39.126279 : true imgdisplay
+2024-06-14 20:46:39.141531 : true imgdisplay
+2024-06-14 20:46:39.157152 : true imgdisplay
+2024-06-14 20:46:39.157152 : true imgdisplay
+2024-06-14 20:46:39.172863 : true imgdisplay
+2024-06-14 20:46:39.172863 : true imgdisplay
+2024-06-14 20:46:39.239349 : grid true
+2024-06-14 20:46:39.250319 : grid true
+2024-06-14 20:46:39.260293 : grid true
+2024-06-14 20:46:39.266966 : grid true
+2024-06-14 20:46:39.266966 : grid true
+2024-06-14 20:46:39.282587 : grid true
+2024-06-14 20:46:39.298090 : grid true
+2024-06-14 20:46:39.298090 : grid true
+2024-06-14 20:46:39.313712 : grid true
+2024-06-14 20:46:39.345141 : big grid ture
+2024-06-14 20:46:39.345141 : https://www.fischer.cz/poznavaci-zajezdy/pro-rodiny
+2024-06-14 20:46:57.954408 : https://www.fischer.cz/spanelsko
+2024-06-14 20:47:27.155919 : Cheap sorter is OK
+2024-06-14 20:47:27.155919 : LIST FROM WEB:
+2024-06-14 20:47:27.155919 : [16270, 21270, 21270, 22270, 22470, 24070, 24270, 25270, 25470, 25670, 27014, 27270, 27270, 28388, 28670, 28728, 28928, 29270, 29270, 29270]
+2024-06-14 20:47:27.155919 : CORRECTLY SORTED LIST
+2024-06-14 20:47:27.155919 : [16270, 21270, 21270, 22270, 22470, 24070, 24270, 25270, 25470, 25670, 27014, 27270, 27270, 28388, 28670, 28728, 28928, 29270, 29270, 29270]
+2024-06-14 20:47:27.155919 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:47:55.827183 : Expensive sorter is OK
+2024-06-14 20:47:55.827183 : LIST FROM WEB:
+2024-06-14 20:47:55.827183 : [269480, 242206, 212270, 178177, 164195, 157293, 132793, 126318, 124920, 113870, 112463, 111353, 111342, 110840, 109102, 107270, 107193, 107085, 106845, 106787]
+2024-06-14 20:47:55.827183 : CORRECTLY SORTED LIST
+2024-06-14 20:47:55.827183 : [269480, 242206, 212270, 178177, 164195, 157293, 132793, 126318, 124920, 113870, 112463, 111353, 111342, 110840, 109102, 107270, 107193, 107085, 106845, 106787]
+2024-06-14 20:47:55.842787 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&sortby=PriceTotal&sortorder=1&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:48:51.873686 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-06-14 20:49:20.092599 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2024-06-14 20:49:50.951427 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-06-14 20:50:19.404246 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-small leaflet-zoom-animated leaflet-interactive']
+2024-06-14 20:50:47.904148 : actually OK
+2024-06-14 20:50:52.459223 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:51:11.280810 : 0
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ok
+2024-06-14 20:51:11.452648 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive premium', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive premium', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive premium', 'all inclusive', 'all inclusive premium']
+2024-06-14 20:51:11.452648 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&m=5&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:51:26.264851 : |||||HOTEL CISLO|||||||
+2024-06-14 20:51:26.264851 : 1
+2024-06-14 20:51:26.264851 : 1
+2024-06-14 20:51:26.264851 : 1
+2024-06-14 20:51:54.638091 : nenasle se exponea banner
+2024-06-14 20:52:45.653785 : https://www.fischer.cz/spanelsko/mallorca/alcudia/mariant?DS=256&GIATA=21437&D=622%7C1086%7C590%7C726%7C670%7C680%7C621%7C669%7C1009%7C1010%7C1108%7C611%7C610%7C609%7C953%7C612&HID=21&MT=5&DI=AI&RC=DR02&RCS=DR02&NN=7&DF=2024-07-03%7C2024-07-10&RD=2024-07-10&DD=2024-07-03&ERM=0&AC1=2&KC1=0&IC1=1&DP=4308&TO=4308&TOM=4308&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=PMI14448&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=12270260%2F2%2F1645%2F7&IFC=37181164%2F162842&OFC=37180252%2F162841#/
+2024-06-14 20:52:56.793858 : True
+2024-06-14 20:52:56.825105 : True
+2024-06-14 20:52:56.871969 : True
+2024-06-14 20:52:56.871969 : True
+2024-06-14 20:52:56.887589 : True
+2024-06-14 20:52:56.887589 : True
+2024-06-14 20:52:56.903211 : True
+2024-06-14 20:52:56.919338 : True
+2024-06-14 20:52:56.919338 : True
+2024-06-14 20:52:56.934963 : True
+2024-06-14 20:52:56.934963 : True
+2024-06-14 20:52:56.950471 : True
+2024-06-14 20:52:56.981606 : True
+2024-06-14 20:52:56.997231 : True
+2024-06-14 20:52:57.012739 : True
+2024-06-14 20:52:57.012739 : True
+2024-06-14 20:52:57.028364 : True
+2024-06-14 20:52:57.028364 : True
+2024-06-14 20:52:57.043873 : True
+2024-06-14 20:52:57.043873 : True
+2024-06-14 20:52:57.121983 : ceny
+2024-06-14 20:52:57.137605 : ceny
+2024-06-14 20:52:57.137605 : ceny
+2024-06-14 20:52:57.153226 : ceny
+2024-06-14 20:52:57.168848 : ceny
+2024-06-14 20:52:57.168848 : ceny
+2024-06-14 20:52:57.184468 : ceny
+2024-06-14 20:52:57.184468 : ceny
+2024-06-14 20:52:57.200090 : ceny
+2024-06-14 20:52:57.200090 : ceny
+2024-06-14 20:52:57.215710 : ceny
+2024-06-14 20:52:57.215710 : ceny
+2024-06-14 20:52:57.231836 : ceny
+2024-06-14 20:52:57.231836 : ceny
+2024-06-14 20:52:57.247462 : ceny
+2024-06-14 20:52:57.262971 : ceny
+2024-06-14 20:52:57.262971 : ceny
+2024-06-14 20:52:57.278603 : ceny
+2024-06-14 20:52:57.294119 : ceny
+2024-06-14 20:52:57.294119 : ceny
+2024-06-14 20:52:57.309745 : ceny
+2024-06-14 20:52:57.309745 : ceny
+2024-06-14 20:52:57.325253 : ceny
+2024-06-14 20:52:57.340879 : ceny
+2024-06-14 20:52:57.340879 : ceny
+2024-06-14 20:52:57.356387 : ceny
+2024-06-14 20:52:57.372014 : ceny
+2024-06-14 20:52:57.372014 : ceny
+2024-06-14 20:52:57.387634 : ceny
+2024-06-14 20:52:57.403255 : ceny
+2024-06-14 20:52:57.403255 : ceny
+2024-06-14 20:52:57.418877 : ceny
+2024-06-14 20:52:57.418877 : ceny
+2024-06-14 20:52:57.434498 : ceny
+2024-06-14 20:52:57.450121 : ceny
+2024-06-14 20:52:57.450121 : ceny
+2024-06-14 20:52:57.465740 : ceny
+2024-06-14 20:52:57.481362 : ceny
+2024-06-14 20:52:57.481362 : ceny
+2024-06-14 20:52:57.496983 : ceny
+2024-06-14 20:54:37.574673 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
+2024-06-14 20:54:57.263146 : https://www.fischer.cz/italie/apulie/ostuni/th-ostuni?DS=256&GIATA=0&D=870&HID=159972&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-06-17%7C2024-06-25&RD=2024-06-25&DD=2024-06-17&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=BDS90001&DPR=FISCHER+ATCOM&PC=46849878%2F2%2F1629%2F7&IFC=46508064%2F212828&OFC=46507023%2F212827#/
+2024-06-14 20:55:07.387076 : <selenium.webdriver.remote.webelement.WebElement (session="af46d0c258cf2fa074b0e09bda38c6ca", element="f.76B73FCA7FCBDA3FD77C058AC2EC976C.d.16719F12AEA23354EC7C700FDFA4DD1C.e.529")>
+2024-06-14 20:55:33.715112 : ------------------------------------------
+2024-06-14 20:55:33.715112 : LIST FROM PUBLIC WWW PRODUCTION https://www.fischer.cz/
+2024-06-14 20:55:33.715112 : ['last minute', '213 zájezdù v 1 destinaci', '683 zájezdù v 1 destinaci', '']
+2024-06-14 20:55:33.715112 : ------------------------------------------
+2024-06-14 20:55:33.715112 : LIST FROM DEPLOYING WEB https://www.fischer.cz/
+2024-06-14 20:55:33.715112 : ['last minute', '213 zájezdù v 1 destinaci', '683 zájezdù v 1 destinaci', '']
+2024-06-14 20:55:33.715112 : ------------------------------------------
+2024-06-14 20:55:33.715112 : Banners are GOOD, TEST OK https://www.fischer.cz/ VS https://www.fischer.cz/
+2024-06-14 20:55:33.715112 : https://www.fischer.cz/
+2024-06-14 20:56:17.387092 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:56:58.217099 : https://www.fischer.cz//egypt/egypt-hurghada/hurghada/king-tut?DS=256&GIATA=48205&D=653%7C819%7C724&HID=9185&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2024-10-11%7C2024-10-11&RD=2024-10-11&DD=2024-10-11&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4305&TOM=4305&MNN=7&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG90027&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=2379159%2F2%2F1745%2F7&IFC=52647480%2F244461&OFC=52646428%2F244460#/prehled
+2024-06-14 20:57:24.996940 : https://www.fischer.cz/italie/kampanie/neapol/to-nejlepsi-z-kampanie-neapol-capri-sorrento-amalfi?DS=256&GIATA=0&HID=154802&MT=2&DI=HB&RC=DR01&RCS=DR01&NN=7&DF=2024-08-24%7C2024-09-21&RD=2024-09-07&DD=2024-08-31&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=ITR00012&DPR=FISCHER+ATCOM&PC=52268360%2F2%2F1704%2F7&IFC=35290654%2F216596&OFC=35289742%2F216595
+2024-06-14 20:57:25.664499 : True
+2024-06-14 20:57:25.781158 : https://www.fischer.cz/italie/kampanie/neapol/to-nejlepsi-z-kampanie-neapol-capri-sorrento-amalfi?DS=256&GIATA=0&HID=154802&MT=2&DI=HB&RC=DR01&RCS=DR01&NN=7&DF=2024-08-24%7C2024-09-21&RD=2024-09-07&DD=2024-08-31&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=7&NNM=3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=ITR00012&DPR=FISCHER+ATCOM&PC=52268360%2F2%2F1704%2F7&IFC=35290654%2F216596&OFC=35289742%2F216595
+2024-06-14 20:57:48.814185 : https://www.fischer.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-06-22%7C2024-07-16&RD=2024-07-02&DD=2024-06-29&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3%7C4%7C5&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER+ATCOM&PC=11405748%2F2%2F1641%2F3&IFC=42547569%2F198352&OFC=42547562%2F198351
+2024-06-14 20:57:48.938140 : True
+2024-06-14 20:57:49.161006 : https://www.fischer.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-06-22%7C2024-07-16&RD=2024-07-02&DD=2024-06-29&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3%7C4%7C5&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER+ATCOM&PC=11405748%2F2%2F1641%2F3&IFC=42547569%2F198352&OFC=42547562%2F198351
+2024-06-14 20:58:09.774742 : https://www.fischer.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-06-22%7C2024-07-16&RD=2024-07-02&DD=2024-06-29&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER+ATCOM&PC=11405748%2F2%2F1641%2F3&IFC=42547569%2F198352&OFC=42547562%2F198351
+2024-06-14 20:58:09.949111 : True
+2024-06-14 20:58:10.443182 : https://www.fischer.cz/francie/pariz-a-okoli/pariz/pariz-letecke-vikendy?DS=256&GIATA=0&HID=142495&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=3&DF=2024-06-22%7C2024-07-16&RD=2024-07-02&DD=2024-06-29&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TOM=4312&MNN=3&NNM=3&TT=1&TTM=0&PID=FRR00003&DPR=FISCHER+ATCOM&PC=11405748%2F2%2F1641%2F3&IFC=42547569%2F198352&OFC=42547562%2F198351
+2024-06-14 20:58:42.144584 : True
+2024-06-14 20:58:42.160227 : True
+2024-06-14 20:58:42.165086 : True
+2024-06-14 20:58:42.176093 : True
+2024-06-14 20:58:42.191719 : True
+2024-06-14 20:58:42.191719 : True
+2024-06-14 20:58:42.207243 : True
+2024-06-14 20:58:42.222870 : True
+2024-06-14 20:58:42.222870 : True
+2024-06-14 20:58:42.238407 : True
+2024-06-14 20:58:42.254057 : True
+2024-06-14 20:58:42.254057 : True
+2024-06-14 20:58:42.269566 : True
+2024-06-14 20:58:42.285193 : True
+2024-06-14 20:58:42.285193 : True
+2024-06-14 20:58:42.300825 : True
+2024-06-14 20:58:42.316456 : True
+2024-06-14 20:58:42.316456 : True
+2024-06-14 20:58:42.332060 : True
+2024-06-14 20:58:42.347682 : True
+2024-06-14 20:58:42.426228 : ceny
+2024-06-14 20:58:42.426228 : ceny
+2024-06-14 20:58:42.441855 : ceny
+2024-06-14 20:58:42.457364 : ceny
+2024-06-14 20:58:42.457364 : ceny
+2024-06-14 20:58:42.472990 : ceny
+2024-06-14 20:58:42.472990 : ceny
+2024-06-14 20:58:42.488499 : ceny
+2024-06-14 20:58:42.504126 : ceny
+2024-06-14 20:58:42.519635 : ceny
+2024-06-14 20:58:42.519635 : ceny
+2024-06-14 20:58:42.535260 : ceny
+2024-06-14 20:58:42.550888 : ceny
+2024-06-14 20:58:42.550888 : ceny
+2024-06-14 20:58:42.566505 : ceny
+2024-06-14 20:58:42.582132 : ceny
+2024-06-14 20:58:42.582132 : ceny
+2024-06-14 20:58:42.597750 : ceny
+2024-06-14 20:58:42.613396 : ceny
+2024-06-14 20:58:42.613396 : ceny
+2024-06-14 20:58:42.629021 : ceny
+2024-06-14 20:58:42.644616 : ceny
+2024-06-14 20:58:42.644616 : ceny
+2024-06-14 20:58:42.660238 : ceny
+2024-06-14 20:58:42.675860 : ceny
+2024-06-14 20:58:42.691483 : ceny
+2024-06-14 20:58:42.691483 : ceny
+2024-06-14 20:58:42.707379 : ceny
+2024-06-14 20:58:42.723006 : ceny
+2024-06-14 20:58:42.723006 : ceny
+2024-06-14 20:58:42.738515 : ceny
+2024-06-14 20:58:42.738515 : ceny
+2024-06-14 20:58:42.754142 : ceny
+2024-06-14 20:58:42.769651 : ceny
+2024-06-14 20:58:42.769651 : ceny
+2024-06-14 20:58:42.785278 : ceny
+2024-06-14 20:58:42.800900 : ceny
+2024-06-14 20:58:42.800900 : ceny
+2024-06-14 20:58:42.816535 : ceny
+2024-06-14 20:58:42.832144 : ceny
+2024-06-14 21:00:22.946865 : https://www.fischer.cz/vysledky-vyhledavani?ac1=2&d=953|621|680|622|1108|669|670|594|611|610|592|612|590|726|609|1009|1086|1194|978|675|683&dd=2024-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:01:06.353229 : True
+2024-06-14 21:01:06.361907 : True
+2024-06-14 21:01:06.370884 : True
+2024-06-14 21:01:06.381588 : True
+2024-06-14 21:01:06.390564 : True
+2024-06-14 21:01:06.399678 : True
+2024-06-14 21:01:06.409314 : True
+2024-06-14 21:01:06.418384 : True
+2024-06-14 21:01:06.426363 : True
+2024-06-14 21:01:06.435571 : True
+2024-06-14 21:01:06.444662 : True
+2024-06-14 21:01:06.452641 : True
+2024-06-14 21:01:06.461735 : True
+2024-06-14 21:01:06.472104 : True
+2024-06-14 21:01:06.480956 : True
+2024-06-14 21:01:06.488935 : True
+2024-06-14 21:01:06.499231 : True
+2024-06-14 21:01:06.508207 : True
+2024-06-14 21:01:06.517184 : True
+2024-06-14 21:01:06.585637 : ceny
+2024-06-14 21:01:06.595944 : ceny
+2024-06-14 21:01:06.605011 : ceny
+2024-06-14 21:01:06.612990 : ceny
+2024-06-14 21:01:06.623687 : ceny
+2024-06-14 21:01:06.632663 : ceny
+2024-06-14 21:01:06.641681 : ceny
+2024-06-14 21:01:06.650657 : ceny
+2024-06-14 21:01:06.661272 : ceny
+2024-06-14 21:01:06.669251 : ceny
+2024-06-14 21:01:06.678227 : ceny
+2024-06-14 21:01:06.688541 : ceny
+2024-06-14 21:01:06.697518 : ceny
+2024-06-14 21:01:06.706494 : ceny
+2024-06-14 21:01:06.716023 : ceny
+2024-06-14 21:01:06.725093 : ceny
+2024-06-14 21:01:06.734069 : ceny
+2024-06-14 21:01:06.743146 : ceny
+2024-06-14 21:01:06.753739 : ceny
+2024-06-14 21:01:06.763823 : ceny
+2024-06-14 21:01:06.772798 : ceny
+2024-06-14 21:01:06.783678 : ceny
+2024-06-14 21:01:06.793652 : ceny
+2024-06-14 21:01:06.802715 : ceny
+2024-06-14 21:01:06.812361 : ceny
+2024-06-14 21:01:06.822992 : ceny
+2024-06-14 21:01:06.832965 : ceny
+2024-06-14 21:01:06.843218 : ceny
+2024-06-14 21:01:06.852194 : ceny
+2024-06-14 21:01:06.863275 : ceny
+2024-06-14 21:01:06.872583 : ceny
+2024-06-14 21:01:06.882649 : ceny
+2024-06-14 21:01:06.892623 : ceny
+2024-06-14 21:01:06.901714 : ceny
+2024-06-14 21:01:06.912286 : ceny
+2024-06-14 21:01:06.922405 : ceny
+2024-06-14 21:01:06.932378 : ceny
+2024-06-14 21:01:06.942706 : ceny
+2024-06-14 21:02:47.032080 : https://www.fischer.cz/poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=0
+2024-06-14 21:03:37.905249 : https://www.fischer.cz/vlastni-doprava
+2024-06-14 21:03:55.126015 : https://www.fischer.cz/vysledky-vyhledavani?dd=2024-06-14&nn=7|8|9|10|11|12|13|14&rd=2024-08-14&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:04:17.800586 : https://www.fischer.cz/poznavaci-zajezdy/vysledky-vyhledavani?dd=2024-06-14&nn=3|4|5|6|7|8|9|10|11|12|13|14&rd=2024-08-14&to=4312|4305|2682|4308|4392|4309&tt=0
+2024-06-14 21:04:53.516295 : True
+2024-06-14 21:04:53.547428 : True
+2024-06-14 21:04:53.562937 : True
+2024-06-14 21:04:53.562937 : True
+2024-06-14 21:04:53.578562 : True
+2024-06-14 21:04:53.594071 : True
+2024-06-14 21:04:53.609697 : True
+2024-06-14 21:04:53.625320 : True
+2024-06-14 21:04:53.640941 : True
+2024-06-14 21:04:53.656562 : True
+2024-06-14 21:04:53.656562 : True
+2024-06-14 21:04:53.672185 : True
+2024-06-14 21:04:53.687805 : True
+2024-06-14 21:04:53.703428 : True
+2024-06-14 21:04:53.703428 : True
+2024-06-14 21:04:53.719049 : True
+2024-06-14 21:04:53.734670 : True
+2024-06-14 21:04:53.734670 : True
+2024-06-14 21:04:53.765915 : True
+2024-06-14 21:04:53.765915 : True
+2024-06-14 21:04:53.859643 : ceny
+2024-06-14 21:04:53.875770 : ceny
+2024-06-14 21:04:53.891396 : ceny
+2024-06-14 21:04:53.891396 : ceny
+2024-06-14 21:04:53.906904 : ceny
+2024-06-14 21:04:53.906904 : ceny
+2024-06-14 21:04:53.922530 : ceny
+2024-06-14 21:04:53.938038 : ceny
+2024-06-14 21:04:53.953664 : ceny
+2024-06-14 21:04:54.016024 : ceny
+2024-06-14 21:04:54.016024 : ceny
+2024-06-14 21:04:54.031533 : ceny
+2024-06-14 21:04:54.031533 : ceny
+2024-06-14 21:04:54.047159 : ceny
+2024-06-14 21:04:54.062781 : ceny
+2024-06-14 21:04:54.062781 : ceny
+2024-06-14 21:04:54.078402 : ceny
+2024-06-14 21:04:54.078402 : ceny
+2024-06-14 21:04:54.094024 : ceny
+2024-06-14 21:04:54.109646 : ceny
+2024-06-14 21:06:34.173646 : https://www.fischer.cz/vysledky-vyhledavani?d=953|621|680|622|1108|669|670|594|611|610|592|612|590|726|609|1009|1086|1194|978|675|683&dd=2024-09-01&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:06:59.783127 : Popup formuláø je zobrazený:    
+2024-06-14 21:06:59.798742 : True
+2024-06-14 21:06:59.814363 : https://www.fischer.cz/pobocky/brno-vankovka
+2024-06-14 21:14:06.747835 : len(pocet_vysledku_list_default)
+2024-06-14 21:14:06.747835 : 30
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : len(pocet_vysledku_list_dev))
+2024-06-14 21:14:06.747835 : 30
+2024-06-14 21:14:06.747835 : 812 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 812 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2024-06-14&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-10-30&sc=residential&to=4312|4305|2682|4308&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2024-06-14&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-10-30&sc=residential&to=4312|4305|2682|4308&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  2
+2024-06-14 21:14:06.747835 : 371 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 371 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|648|972|620|746&dd=2024-06-14&ic1=2&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|993|595|648|972|620|746&dd=2024-06-14&ic1=2&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  3
+2024-06-14 21:14:06.747835 : 282 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 282 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-06-14&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-06-14&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  4
+2024-06-14 21:14:06.747835 : 111 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 111 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=650|651|649|876&dd=2024-06-14&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=650|651|649|876&dd=2024-06-14&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  5
+2024-06-14 21:14:06.747835 : 128 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 128 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-14&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-14&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  6
+2024-06-14 21:14:06.747835 : 148 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : 148 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654|634&dd=2024-06-14&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654|634&dd=2024-06-14&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  7
+2024-06-14 21:14:06.747835 : 100 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 100 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=607|591&dd=2024-06-14&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=607|591&dd=2024-06-14&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  8
+2024-06-14 21:14:06.747835 : 316 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 316 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=627|974|712|596&dd=2024-06-14&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=627|974|712|596&dd=2024-06-14&ic1=1&ka1=10|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  9
+2024-06-14 21:14:06.747835 : 5 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 5 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=635&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=635&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  10
+2024-06-14 21:14:06.747835 : 57 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 57 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=605|677|745|1061|965|822&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=605|677|745|1061|965|822&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  11
+2024-06-14 21:14:06.747835 : 117 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 117 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  12
+2024-06-14 21:14:06.747835 : nenašli jste, co jste hledali?
+2024-06-14 21:14:06.747835 : nenašli jste, co jste hledali?
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=631&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|183
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=631&dd=2024-06-14&ic1=1&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|183
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  13
+2024-06-14 21:14:06.747835 : 87 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : 87 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=638|1214|635&dd=2024-06-14&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=638|1214|635&dd=2024-06-14&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  14
+2024-06-14 21:14:06.747835 : 129 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 129 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=654&dd=2024-06-14&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=654&dd=2024-06-14&ka1=6&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  15
+2024-06-14 21:14:06.747835 : 5 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 5 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=633&dd=2024-06-14&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=633&dd=2024-06-14&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  16
+2024-06-14 21:14:06.747835 : 9 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 9 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=1005&dd=2024-06-14&ka1=15&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=1005&dd=2024-06-14&ka1=15&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  17
+2024-06-14 21:14:06.747835 : 193 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 193 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=687|604&dd=2024-06-14&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=687|604&dd=2024-06-14&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  18
+2024-06-14 21:14:06.747835 : 168 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : 168 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=650|651|649|876|644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-14&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=650|651|649|876|644|674|642|616|1133|606|860|870|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-14&ka1=15|6&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  19
+2024-06-14 21:14:06.747835 : 259 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 259 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-06-14&ka1=3&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=653|819|724&dd=2024-06-14&ka1=3&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  20
+2024-06-14 21:14:06.747835 : 173 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 173 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=664&dd=2024-06-14&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=664&dd=2024-06-14&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2024-10-30&to=4312|4305|2682|4308|483|1837|2933|3437|3248&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  21
+2024-06-14 21:14:06.747835 : 1132 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 1132 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=680|1108|953|669|670|594|611|610|592|612|590|726|609|621|1009|622|1086|1194|978|675|683&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=680|1108|953|669|670|594|611|610|592|612|590|726|609|621|1009|622|1086|1194|978|675|683&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  22
+2024-06-14 21:14:06.747835 : 25 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 25 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=631&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=631&dd=2024-02-01&nn=7|8|9|10|11|12|13|14&rd=2024-03-31&sortby=PriceTotal&sortorder=1&to=4312&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  23
+2024-06-14 21:14:06.747835 : 13 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : 13 zájezdù v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&d=790&dd=2024-08-01&ic1=1&ka1=7&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&d=790&dd=2024-08-01&ic1=1&ka1=7&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  24
+2024-06-14 21:14:06.747835 : 748 zájezdù ve 4 destinacích
+2024-06-14 21:14:06.747835 : 748 zájezdù ve 4 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&ac2=3&d=653|819|724|870|644|674|642|616|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746|621|680|622|1108|953|669|670|594|611|610|592|612|590|726|609|1133|606|860|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057|1009|1086|1194|978|675|683&dd=2024-06-01&ic1=1&ic2=1&ka1=5&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&ac2=3&d=653|819|724|870|644|674|642|616|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746|621|680|622|1108|953|669|670|594|611|610|592|612|590|726|609|1133|606|860|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057|1009|1086|1194|978|675|683&dd=2024-06-01&ic1=1&ic2=1&ka1=5&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  25
+2024-06-14 21:14:06.747835 : 396 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : 396 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&ac2=2&d=664|1111|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746&dd=2024-06-01&ic1=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&ac2=2&d=664|1111|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746&dd=2024-06-01&ic1=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  26
+2024-06-14 21:14:06.747835 : 170 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : 170 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=2&ac2=2&d=664|1111|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746&dd=2024-06-01&ic1=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=2&ac2=2&d=664|1111|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746&dd=2024-06-01&ic1=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  27
+2024-06-14 21:14:06.747835 : 108 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : 108 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=3&ac2=2&d=687|604|1008|1007|607|591|627|974|712|596|1066|1006&dd=2024-06-01&ic1=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=3&ac2=2&d=687|604|1008|1007|607|591|627|974|712|596|1066|1006&dd=2024-06-01&ic1=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  28
+2024-06-14 21:14:06.747835 : 1 zájezd v 1 destinaci
+2024-06-14 21:14:06.747835 : 1 zájezd v 1 destinaci
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=3&ac2=2&d=661|608|605|677|764|745|965|822&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=3&ac2=2&d=661|608|605|677|764|745|965|822&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  29
+2024-06-14 21:14:06.747835 : 48 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : 48 zájezdù ve 3 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=3&ac2=3&d=870|644|674|642|616|634|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746|790|1133|606|860|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|483|1837|2933|3437|3248|298|874|892|983|1091|1293|1956|2397|2563|3352&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=3&ac2=3&d=870|644|674|642|616|634|1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746|790|1133|606|860|1098|770|1050|1134|823|1039|1109|643|871|1172|805|875|791|815|1040|1041|869|629|1078|859|1079|962|1042|1043|1044|1045|1057&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|483|1837|2933|3437|3248|298|874|892|983|1091|1293|1956|2397|2563|3352&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  30
+2024-06-14 21:14:06.747835 : 5 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : 5 zájezdù ve 2 destinacích
+2024-06-14 21:14:06.747835 : https://www.fischer.cz//vysledky-vyhledavani?ac1=3&ac2=4&d=653|819|724|650|651|649|876|756|607|591&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|483|1837|2933|3437|3248|298|874|892|983|1091|1293|1956|2397|2563|3352&tt=1
+2024-06-14 21:14:06.747835 : https://fischer.cz/vysledky-vyhledavani?ac1=3&ac2=4&d=653|819|724|650|651|649|876|756|607|591&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|483|1837|2933|3437|3248|298|874|892|983|1091|1293|1956|2397|2563|3352&tt=1
+2024-06-14 21:14:06.747835 :              
+2024-06-14 21:14:06.747835 : URL cislo  31
+2024-06-14 21:14:06.747835 : 30
+2024-06-14 21:14:06.812768 : https://www.fischer.cz/vysledky-vyhledavani?ac1=3&ac2=4&d=653|819|724|650|651|649|876|756|607|591&dd=2024-06-01&ic1=1&ic2=1&ka1=10|15&ka2=4|13&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=4312|4305|2682|4308|4392|4309|483|1837|2933|3437|3248|298|874|892|983|1091|1293|1956|2397|2563|3352&tt=1
+2024-06-14 21:14:44.494026 : https://www.fischer.cz/letenky/vysledky-vyhledavani?ac1=2&d=1225|623|741|735|618|619|624|973|1115|709|993|595|648|972|620|746&dd=2024-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:15:03.903103 : https://www.fischer.cz/letenky/vysledky-vyhledavani?dd=2024-06-14&nn=4|5|6|7|8|9|10|11|12|13|14&rd=2024-08-14&to=4312|4305|2682|4308|4392|4309&tt=1
+2024-06-14 21:15:24.402043 : [<selenium.webdriver.remote.webelement.WebElement (session="857a66bffc2beb0d91b5717ae94fce30", element="f.E521D4FB97ACAF719A632ABD7554426F.d.4343D3CAC28D6CFDA51744682EA14F0A.e.551")>, <selenium.webdriver.remote.webelement.WebElement (session="857a66bffc2beb0d91b5717ae94fce30", element="f.E521D4FB97ACAF719A632ABD7554426F.d.4343D3CAC28D6CFDA51744682EA14F0A.e.41")>, <selenium.webdriver.remote.webelement.WebElement (session="857a66bffc2beb0d91b5717ae94fce30", element="f.E521D4FB97ACAF719A632ABD7554426F.d.4343D3CAC28D6CFDA51744682EA14F0A.e.552")>]
+2024-06-14 21:15:24.421207 : 0
+2024-06-14 21:15:26.448784 : 1
+2024-06-14 21:15:28.477205 : 2
+2024-06-14 21:15:36.526198 : https://www.fischer.cz//poukazy-benefity/darkove-poukazy
+2024-06-14 21:15:57.955753 : 0
+2024-06-14 21:15:59.992421 : 1
+2024-06-14 21:16:02.030606 : 2
+2024-06-14 21:16:07.251371 : https://www.fischer.cz//poukazy-benefity/darkove-poukazy
+2024-06-14 21:16:44.932521 : https://gate.gopay.com/gp-gw/cs/desktop/web2/card

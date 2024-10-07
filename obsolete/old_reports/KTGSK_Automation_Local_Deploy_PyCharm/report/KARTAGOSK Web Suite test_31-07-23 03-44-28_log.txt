@@ -1,0 +1,694 @@
+2023-07-31 15:44:28.251798 : 
+                             
+                             
+2023-07-31 15:44:28.251798 : ====== WebDriver manager ======
+                             
+2023-07-31 15:44:28.282932 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:44:28.282932 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:44:28.442501 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:44:36.282855 : <selenium.webdriver.remote.webelement.WebElement (session="a152cf2d55b5284b7aaff79bac681c18", element="0DBA54444D81E8CFCFAA56C2D135EE03_element_71")>
+2023-07-31 15:45:04.080596 : nenasle se exponea banner
+2023-07-31 15:45:04.142572 : gridy jdou videt
+2023-07-31 15:45:04.158197 : gridy jdou videt
+2023-07-31 15:45:04.158197 : gridy jdou videt
+2023-07-31 15:45:04.173705 : gridy jdou videt
+2023-07-31 15:45:04.189330 : gridy jdou videt
+2023-07-31 15:45:04.189330 : gridy jdou videt
+2023-07-31 15:45:04.204952 : gridy jdou videt
+2023-07-31 15:45:04.204952 : gridy jdou videt
+2023-07-31 15:45:04.220573 : gridy jdou videt
+2023-07-31 15:45:04.238337 : gridy jdou videt
+2023-07-31 15:45:04.238337 : gridy jdou videt
+2023-07-31 15:45:04.253960 : gridy jdou videt
+2023-07-31 15:45:04.267469 : gridy jdou videt
+2023-07-31 15:45:04.267469 : gridy jdou videt
+2023-07-31 15:45:04.283094 : gridy jdou videt
+2023-07-31 15:45:04.283094 : gridy jdou videt
+2023-07-31 15:45:04.298724 : gridy jdou videt
+2023-07-31 15:45:04.314338 : gridy jdou videt
+2023-07-31 15:45:04.314338 : gridy jdou videt
+2023-07-31 15:45:04.377311 : content jdou videt
+2023-07-31 15:45:04.377311 : content jdou videt
+2023-07-31 15:45:04.392819 : content jdou videt
+2023-07-31 15:45:04.392819 : content jdou videt
+2023-07-31 15:45:04.408444 : content jdou videt
+2023-07-31 15:45:04.423952 : content jdou videt
+2023-07-31 15:45:04.423952 : content jdou videt
+2023-07-31 15:45:04.439577 : content jdou videt
+2023-07-31 15:45:04.455085 : content jdou videt
+2023-07-31 15:45:04.467843 : content jdou videt
+2023-07-31 15:45:04.467843 : content jdou videt
+2023-07-31 15:45:04.486473 : content jdou videt
+2023-07-31 15:45:04.486473 : content jdou videt
+2023-07-31 15:45:04.502098 : content jdou videt
+2023-07-31 15:45:04.517606 : content jdou videt
+2023-07-31 15:45:04.517606 : content jdou videt
+2023-07-31 15:45:04.533231 : content jdou videt
+2023-07-31 15:45:04.533231 : content jdou videt
+2023-07-31 15:45:04.548739 : content jdou videt
+2023-07-31 15:45:04.548739 : https://kartagosk.web2.dtweb.cz/covid-info
+2023-07-31 15:45:06.676533 : 
+                             
+                             
+2023-07-31 15:45:06.676533 : ====== WebDriver manager ======
+                             
+2023-07-31 15:45:06.705305 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:45:06.705305 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:45:06.798893 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:45:18.681757 : <selenium.webdriver.remote.webelement.WebElement (session="6ff104f993a87e031dd594812d0dce8c", element="415A014E8CE03CCA3923C27CF70FD7FF_element_121")>
+2023-07-31 15:45:18.871702 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="6ff104f993a87e031dd594812d0dce8c", element="415A014E8CE03CCA3923C27CF70FD7FF_element_122")>>
+2023-07-31 15:45:19.305882 : https://kartagosk.web2.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/preh%C4%BEad
+2023-07-31 15:45:21.464489 : 
+                             
+                             
+2023-07-31 15:45:21.464489 : ====== WebDriver manager ======
+                             
+2023-07-31 15:45:21.504382 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:45:21.504382 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:45:21.592147 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:45:28.392731 : <selenium.webdriver.remote.webelement.WebElement (session="a19186a740c5afed83065ee88a028cd1", element="08F9B53C29AB2DC8F493D48E342C0A79_element_108")>
+2023-07-31 15:45:33.663037 : its ok
+2023-07-31 15:45:33.667026 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864.jpeg
+2023-07-31 15:45:35.846547 : 
+                             
+                             
+2023-07-31 15:45:35.846547 : ====== WebDriver manager ======
+                             
+2023-07-31 15:45:35.877201 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:45:35.877201 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:45:35.955450 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:45:44.885635 : <selenium.webdriver.remote.webelement.WebElement (session="6f633ce16897b586e90e859731218f1f", element="585D215F01578D885E23640C56E0DDC8_element_111")>
+2023-07-31 15:45:51.253038 : else departure not true
+2023-07-31 15:45:59.690853 : all inclusive
+2023-07-31 15:46:01.705519 : 0
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ok
+2023-07-31 15:46:01.908952 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-07-31 15:46:01.908952 : https://kartagosk.web2.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&mtm=5&nnm=7|8|9|10|11|12|13&tt=1&ttm=1#/terminy-a-ceny
+2023-07-31 15:46:04.049323 : 
+                             
+                             
+2023-07-31 15:46:04.049323 : ====== WebDriver manager ======
+                             
+2023-07-31 15:46:04.097783 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:46:04.097783 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:46:04.174727 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:46:12.258754 : <selenium.webdriver.remote.webelement.WebElement (session="7b6e1a5b9eab8bca7492f9bb532198bd", element="3D05D9EC5B9E4D63AD8C706698B1313F_element_109")>
+2023-07-31 15:46:18.690855 : if departure==True
+2023-07-31 15:46:34.972112 : equal to bratislava
+2023-07-31 15:46:35.002746 : equal to bratislava
+2023-07-31 15:46:35.033988 : equal to bratislava
+2023-07-31 15:46:35.123131 : equal to bratislava
+2023-07-31 15:46:35.153052 : equal to bratislava
+2023-07-31 15:46:35.176115 : equal to bratislava
+2023-07-31 15:46:35.206243 : equal to bratislava
+2023-07-31 15:46:35.221869 : equal to bratislava
+2023-07-31 15:46:35.254111 : equal to bratislava
+2023-07-31 15:46:35.268615 : equal to bratislava
+2023-07-31 15:46:35.299750 : equal to bratislava
+2023-07-31 15:46:35.315375 : equal to bratislava
+2023-07-31 15:46:35.346510 : equal to bratislava
+2023-07-31 15:46:35.364219 : equal to bratislava
+2023-07-31 15:46:35.393846 : equal to bratislava
+2023-07-31 15:46:35.409472 : equal to bratislava
+2023-07-31 15:46:35.440607 : equal to bratislava
+2023-07-31 15:46:35.456115 : equal to bratislava
+2023-07-31 15:46:35.487333 : equal to bratislava
+2023-07-31 15:46:35.706335 : https://kartagosk.web2.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64425&DD=2023-10-01&DP=1837&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=85&HID=9156&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG90013&RD=2023-10-08&TO=483|1837|2933|3437&acm1=2&df=2023-10-01|2023-10-31&nnm=7|8|9|10|11|12|13&tom=483&tt=1&ttm=1#/terminy-a-ceny
+2023-07-31 15:46:37.863551 : 
+                             
+                             
+2023-07-31 15:46:37.863551 : ====== WebDriver manager ======
+                             
+2023-07-31 15:46:37.893678 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:46:37.893678 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:46:37.987558 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:46:46.444989 : <selenium.webdriver.remote.webelement.WebElement (session="79b51c98cfe8621002e86c3f44436c5f", element="0977EFF8AAACD79D4CAE0D71E707EB16_element_68")>
+2023-07-31 15:46:48.248988 : benefit item
+2023-07-31 15:46:48.258961 : benefit item
+2023-07-31 15:46:48.268934 : benefit item
+2023-07-31 15:46:48.277911 : benefit item
+2023-07-31 15:46:48.286887 : benefit item
+2023-07-31 15:46:48.295863 : benefit item
+2023-07-31 15:46:48.618299 : grind container
+2023-07-31 15:46:48.629269 : grind container
+2023-07-31 15:46:48.638245 : grind container
+2023-07-31 15:46:48.647222 : grind container
+2023-07-31 15:46:48.656198 : grind container
+2023-07-31 15:46:48.692102 : grind container
+2023-07-31 15:46:48.701078 : grind container
+2023-07-31 15:46:48.710054 : grind container
+2023-07-31 15:46:48.718032 : grind container
+2023-07-31 15:46:48.726011 : grind container
+2023-07-31 15:46:48.739974 : grind container
+2023-07-31 15:46:48.749948 : grind container
+2023-07-31 15:46:48.758924 : grind container
+2023-07-31 15:46:48.768897 : grind container
+2023-07-31 15:46:48.918498 : tile img
+2023-07-31 15:46:48.929470 : tile img
+2023-07-31 15:46:48.937448 : tile img
+2023-07-31 15:46:48.945427 : tile img
+2023-07-31 15:46:48.954403 : tile img
+2023-07-31 15:46:48.964376 : tile img
+2023-07-31 15:46:48.969363 : https://kartagosk.web2.dtweb.cz/uzitocne-informacie/mango-club
+2023-07-31 15:46:51.270719 : 
+                             
+                             
+2023-07-31 15:46:51.271716 : ====== WebDriver manager ======
+                             
+2023-07-31 15:46:51.304629 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:46:51.304629 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:46:51.394017 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:47:00.876176 : <selenium.webdriver.remote.webelement.WebElement (session="6f67c2e34ab98f21011f6056db65b3d4", element="953E95FBBA02295223DCF2FA38175C31_element_134")>
+2023-07-31 15:47:02.675092 : https://kartagosk.web2.dtweb.cz/first-minute/leto
+2023-07-31 15:47:04.800272 : 
+                             
+                             
+2023-07-31 15:47:04.800272 : ====== WebDriver manager ======
+                             
+2023-07-31 15:47:04.831404 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:47:04.831404 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:47:04.910658 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:47:11.300024 : <selenium.webdriver.remote.webelement.WebElement (session="8ed2554d582840b3c3cbd12a8b1b5313", element="CF202E9D1C2F72492ACA4ACD87A9F6E3_element_92")>
+2023-07-31 15:47:14.786624 : ZANZIBAR
+2023-07-31 15:47:39.878782 : first no such ele except
+2023-07-31 15:47:41.286277 : last no such ele except
+2023-07-31 15:47:45.264834 : GRÉCKO
+2023-07-31 15:47:48.060938 : hote dlazdice klik
+2023-07-31 15:47:51.877517 : TURECKO
+2023-07-31 15:47:52.992547 : hote dlazdice klik
+2023-07-31 15:47:57.633042 : EGYPT
+2023-07-31 15:47:59.856121 : hote dlazdice klik
+2023-07-31 15:48:04.461223 : KAPVERDY
+2023-07-31 15:48:08.967219 : hote dlazdice klik
+2023-07-31 15:48:13.895045 : MALEDIVY
+2023-07-31 15:48:38.960826 : first no such ele except
+2023-07-31 15:48:41.277655 : last no such ele except
+2023-07-31 15:48:45.261569 : DUBAJ
+2023-07-31 15:48:47.346204 : hote dlazdice klik
+2023-07-31 15:48:51.638932 : POISTENIE
+2023-07-31 15:48:52.887053 : hote dlazdice klik
+2023-07-31 15:48:57.538888 : PARKOVANIE
+2023-07-31 15:48:58.611787 : hote dlazdice klik
+2023-07-31 15:49:02.629600 : MIRAGE BAY
+2023-07-31 15:49:04.199709 : hote dlazdice klik
+2023-07-31 15:49:08.614245 : MITSIS
+2023-07-31 15:49:10.414158 : hote dlazdice klik
+2023-07-31 15:49:14.348712 : PRIMA LIFE
+2023-07-31 15:49:15.616146 : hote dlazdice klik
+2023-07-31 15:49:19.700001 : PICKALBATROS
+2023-07-31 15:49:21.200130 : hote dlazdice klik
+2023-07-31 15:49:25.817003 : TITANIC
+2023-07-31 15:49:27.138611 : hote dlazdice klik
+2023-07-31 15:49:31.627944 : MIRAGE
+2023-07-31 15:49:38.206006 : hote dlazdice klik
+2023-07-31 15:49:38.374557 : https://kartagosk.web2.dtweb.cz/tunisko/tunisko-(pevnina)/hammamet-yasmine/the-mirage-resort-a-spa?DS=65536&GIATA=0&D=63447&HID=145267&DF=2023-09-12|2023-10-10&RD=2023-09-30&DD=2023-09-26&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=MIR10031&DPR=KARTAGO-SK-ATCOM
+2023-07-31 15:49:40.755479 : 
+                             
+                             
+2023-07-31 15:49:40.755479 : ====== WebDriver manager ======
+                             
+2023-07-31 15:49:40.805006 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:49:40.805006 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:49:40.895899 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:49:47.620362 : <selenium.webdriver.remote.webelement.WebElement (session="10dbf50110243cb5b647932c2eeb1cde", element="C27501BC8075BEF62258506F01EE73FD_element_58")>
+2023-07-31 15:49:47.892637 : ZANZIBAR
+2023-07-31 15:50:16.136027 : GRÉCKO
+2023-07-31 15:50:18.963414 : TURECKO
+2023-07-31 15:50:46.575543 : EGYPT
+2023-07-31 15:50:49.241894 : KAPVERDY
+2023-07-31 15:50:51.619533 : MALEDIVY
+2023-07-31 15:51:19.936053 : DUBAJ
+2023-07-31 15:51:24.025284 : POISTENIE
+2023-07-31 15:51:25.855121 : PARKOVANIE
+2023-07-31 15:51:29.029418 : MIRAGE BAY
+2023-07-31 15:51:32.089445 : MITSIS
+2023-07-31 15:51:34.923695 : PRIMA LIFE
+2023-07-31 15:51:37.606435 : PICKALBATROS
+2023-07-31 15:51:40.058128 : TITANIC
+2023-07-31 15:51:43.155716 : MIRAGE
+2023-07-31 15:51:43.235503 : https://kartagosk.web2.dtweb.cz/hladanie-vysledky?q=Mirage
+2023-07-31 15:51:45.786579 : 
+                             
+                             
+2023-07-31 15:51:45.786579 : ====== WebDriver manager ======
+                             
+2023-07-31 15:51:45.870344 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:51:45.871340 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:51:45.956114 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:51:51.693823 : <selenium.webdriver.remote.webelement.WebElement (session="cd0e15cb2b0a5428a790f69c01a8dd63", element="796AB26A43A8E31D907588110D27E819_element_65")>
+2023-07-31 15:51:53.128419 : https://kartagosk.web2.dtweb.cz/vysledky-vyhladavania?tt=1&to=483|1837|2933|3437&dd=2022-09-01&rd=2022-09-25&nn=7|8|9|10|11|12|13&ka1=6&kc1=1&ac1=2
+2023-07-31 15:51:55.302466 : 
+                             
+                             
+2023-07-31 15:51:55.302466 : ====== WebDriver manager ======
+                             
+2023-07-31 15:51:55.341322 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:51:55.341322 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:51:55.426571 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:52:05.178210 : <selenium.webdriver.remote.webelement.WebElement (session="b7f4314dd9ebd4c63a6c448e2ce41564", element="622DAF578D14865B909D343B59E2D247_element_160")>
+2023-07-31 15:52:07.852232 : https://kartagosk.web2.dtweb.cz/
+2023-07-31 15:52:10.132459 : 
+                             
+                             
+2023-07-31 15:52:10.132459 : ====== WebDriver manager ======
+                             
+2023-07-31 15:52:10.162589 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:52:10.162589 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:52:10.256318 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:52:20.928189 : <selenium.webdriver.remote.webelement.WebElement (session="763c6dd9e4de93838a13fdf32aa45b62", element="010159765020E9406447C0816F55FF1E_element_70")>
+2023-07-31 15:52:24.037937 : https://kartagosk.web2.dtweb.cz/last-minute
+2023-07-31 15:52:26.194347 : 
+                             
+                             
+2023-07-31 15:52:26.194347 : ====== WebDriver manager ======
+                             
+2023-07-31 15:52:26.225513 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:52:26.225513 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:52:26.303594 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:52:36.844754 : <selenium.webdriver.remote.webelement.WebElement (session="db199448d3732cb15f67c31a900f59bf", element="B0CEA6911EF790C8222302C5255A5C04_element_66")>
+2023-07-31 15:52:39.209591 : mapa kolecka
+2023-07-31 15:52:39.256936 : basic info 
+2023-07-31 15:52:39.264915 : basic info 
+2023-07-31 15:52:39.273133 : basic info 
+2023-07-31 15:52:39.273133 : basic info 
+2023-07-31 15:52:39.288755 : basic info 
+2023-07-31 15:52:39.288755 : basic info 
+2023-07-31 15:52:39.303762 : basic info 
+2023-07-31 15:52:39.303762 : basic info 
+2023-07-31 15:52:39.319388 : basic info 
+2023-07-31 15:52:39.319388 : basic info 
+2023-07-31 15:52:39.334898 : basic info 
+2023-07-31 15:52:39.334898 : basic info 
+2023-07-31 15:52:39.350524 : basic info 
+2023-07-31 15:52:39.350524 : basic info 
+2023-07-31 15:52:39.372451 : basic info 
+2023-07-31 15:52:39.372451 : basic info 
+2023-07-31 15:52:39.388073 : basic info 
+2023-07-31 15:52:39.397081 : basic info 
+2023-07-31 15:52:39.397081 : basic info 
+2023-07-31 15:52:39.412707 : basic info 
+2023-07-31 15:52:39.412707 : basic info 
+2023-07-31 15:52:39.428328 : basic info 
+2023-07-31 15:52:39.428328 : basic info 
+2023-07-31 15:52:39.443949 : basic info 
+2023-07-31 15:52:39.443949 : basic info 
+2023-07-31 15:52:39.459571 : basic info 
+2023-07-31 15:52:39.459571 : basic info 
+2023-07-31 15:52:39.477347 : basic info 
+2023-07-31 15:52:39.477347 : basic info 
+2023-07-31 15:52:39.490854 : basic info 
+2023-07-31 15:52:39.506480 : basic info 
+2023-07-31 15:52:39.506480 : basic info 
+2023-07-31 15:52:39.522101 : basic info 
+2023-07-31 15:52:39.522101 : basic info 
+2023-07-31 15:52:39.553344 : boxiky
+2023-07-31 15:52:39.553344 : boxiky
+2023-07-31 15:52:39.568965 : boxiky
+2023-07-31 15:52:39.568965 : boxiky
+2023-07-31 15:52:39.585989 : boxiky
+2023-07-31 15:52:39.585989 : boxiky
+2023-07-31 15:52:39.601611 : boxiky
+2023-07-31 15:52:39.616117 : boxiky
+2023-07-31 15:52:39.616117 : boxiky
+2023-07-31 15:52:39.631743 : boxiky
+2023-07-31 15:52:39.631743 : boxiky
+2023-07-31 15:52:39.647251 : boxiky
+2023-07-31 15:52:39.647251 : boxiky
+2023-07-31 15:52:39.662877 : boxiky
+2023-07-31 15:52:39.662877 : boxiky
+2023-07-31 15:52:39.678385 : boxiky
+2023-07-31 15:52:39.694104 : boxiky
+2023-07-31 15:52:39.695124 : boxiky
+2023-07-31 15:52:39.709629 : boxiky
+2023-07-31 15:52:39.709629 : boxiky
+2023-07-31 15:52:39.725255 : boxiky
+2023-07-31 15:52:39.725255 : boxiky
+2023-07-31 15:52:39.740877 : boxiky
+2023-07-31 15:52:39.740877 : boxiky
+2023-07-31 15:52:39.756498 : boxiky
+2023-07-31 15:52:39.756498 : boxiky
+2023-07-31 15:52:39.772120 : boxiky
+2023-07-31 15:52:39.772120 : boxiky
+2023-07-31 15:52:39.787741 : boxiky
+2023-07-31 15:52:39.803362 : boxiky
+2023-07-31 15:52:39.812889 : boxiky
+2023-07-31 15:52:39.821866 : boxiky
+2023-07-31 15:52:39.829844 : boxiky
+2023-07-31 15:52:39.838822 : boxiky
+2023-07-31 15:52:39.847797 : boxiky
+2023-07-31 15:52:39.857771 : boxiky
+2023-07-31 15:52:39.866746 : boxiky
+2023-07-31 15:52:39.875722 : boxiky
+2023-07-31 15:52:39.884699 : boxiky
+2023-07-31 15:52:39.892677 : boxiky
+2023-07-31 15:52:39.901653 : boxiky
+2023-07-31 15:52:39.906662 : boxiky
+2023-07-31 15:52:39.906662 : boxiky
+2023-07-31 15:52:39.922285 : boxiky
+2023-07-31 15:52:39.928790 : boxiky
+2023-07-31 15:52:39.944416 : boxiky
+2023-07-31 15:52:39.944416 : boxiky
+2023-07-31 15:52:39.959926 : boxiky
+2023-07-31 15:52:39.959926 : boxiky
+2023-07-31 15:52:39.975552 : boxiky
+2023-07-31 15:52:39.975552 : boxiky
+2023-07-31 15:52:39.991061 : boxiky
+2023-07-31 15:52:40.006890 : boxiky
+2023-07-31 15:52:40.007910 : boxiky
+2023-07-31 15:52:40.022414 : boxiky
+2023-07-31 15:52:40.022414 : boxiky
+2023-07-31 15:52:40.038040 : boxiky
+2023-07-31 15:52:40.038040 : boxiky
+2023-07-31 15:52:40.053548 : boxiky
+2023-07-31 15:52:40.069174 : boxiky
+2023-07-31 15:52:40.069174 : boxiky
+2023-07-31 15:52:40.100311 : boxiky
+2023-07-31 15:52:40.115821 : boxiky
+2023-07-31 15:52:40.118272 : boxiky
+2023-07-31 15:52:40.133895 : boxiky
+2023-07-31 15:52:40.133895 : boxiky
+2023-07-31 15:52:40.147405 : boxiky
+2023-07-31 15:52:40.163030 : boxiky
+2023-07-31 15:52:40.163030 : https://kartagosk.web2.dtweb.cz/kontakty/nase-predajne
+2023-07-31 15:52:42.334737 : 
+                             
+                             
+2023-07-31 15:52:42.334737 : ====== WebDriver manager ======
+                             
+2023-07-31 15:52:42.365913 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:52:42.365913 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:52:42.459903 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:52:52.475604 : <selenium.webdriver.remote.webelement.WebElement (session="f3ab34297503d341c2f692219755ae6e", element="F6C47AABDD4D8CE40C03D37844D407E0_element_66")>
+2023-07-31 15:52:52.752346 : https://kartagosk.web2.dtweb.cz/egypt
+2023-07-31 15:52:54.913648 : 
+                             
+                             
+2023-07-31 15:52:54.913648 : ====== WebDriver manager ======
+                             
+2023-07-31 15:52:54.949055 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:52:54.949055 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:52:55.038195 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:53:03.071376 : <selenium.webdriver.remote.webelement.WebElement (session="f073231dc42ad7acba3360b428346df3", element="A812F7FB7C9ECA47F3E7A41C52AF960D_element_98")>
+2023-07-31 15:53:14.209915 : Cheap sorter is OK
+2023-07-31 15:53:14.209915 : LIST FROM WEB:
+2023-07-31 15:53:14.209915 : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]
+2023-07-31 15:53:14.209915 : CORRECTLY SORTED LIST
+2023-07-31 15:53:14.209915 : [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2]
+2023-07-31 15:53:14.209915 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&ds=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&to=483|1837|2933|3437&tt=1
+2023-07-31 15:53:16.447991 : 
+                             
+                             
+2023-07-31 15:53:16.447991 : ====== WebDriver manager ======
+                             
+2023-07-31 15:53:16.506870 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:53:16.506870 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:53:16.585283 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:53:25.855596 : <selenium.webdriver.remote.webelement.WebElement (session="fd4f83f7f264556c437b02f71e3e5717", element="A80AF26D34314DBB8DF5F49BE25E9480_element_116")>
+2023-07-31 15:53:37.538277 : Expensive sorter is OK
+2023-07-31 15:53:37.538277 : LIST FROM WEB:
+2023-07-31 15:53:37.538277 : [6, 6, 6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3]
+2023-07-31 15:53:37.538277 : CORRECTLY SORTED LIST
+2023-07-31 15:53:37.538277 : [6, 6, 6, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3]
+2023-07-31 15:53:37.555411 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&ds=0&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437&tt=1
+2023-07-31 15:53:39.710533 : 
+                             
+                             
+2023-07-31 15:53:39.710533 : ====== WebDriver manager ======
+                             
+2023-07-31 15:53:39.741698 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:53:39.741698 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:53:39.835358 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:53:46.898407 : <selenium.webdriver.remote.webelement.WebElement (session="1e057a5ed695fbe6cf2b260db8c98d17", element="F00E2724B973769116EE1B4235D06D43_element_100")>
+2023-07-31 15:54:24.257710 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-07-31 15:54:52.492366 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-07-31 15:55:20.711531 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']
+2023-07-31 15:55:50.292024 : nenasel se kolecko//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']
+2023-07-31 15:56:23.728431 : actually OK
+2023-07-31 15:56:41.948330 : https://kartagosk.web2.dtweb.cz/grecko/rhodos/lardos/sun-beach-lindos?DS=65536&GIATA=32273&D=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&HID=4049&PF=50&PT=40000&MT=5&NN=7&DF=2023-07-01|2023-08-31&RD=2023-08-15&DD=2023-08-08&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483|1837|2933|3437&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=RHO90014&DPR=KARTAGO-SK-ATCOM
+2023-07-31 15:56:41.948330 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ds=0&tt=1&to=483|1837|2933|3437&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&rd=2023-08-31&nn=7|8|9|10|11|12|13&ka1=8&kc1=1&ac1=2
+2023-07-31 15:56:42.142826 : https://kartagosk.web2.dtweb.cz/grecko/rhodos/lardos/sun-beach-lindos?DS=65536&GIATA=32273&D=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&HID=4049&PF=50&PT=40000&MT=5&NN=7&DF=2023-07-01|2023-08-31&RD=2023-08-15&DD=2023-08-08&ERM=0&AC1=2&KC1=1&KA1=8&IC1=0&DP=483&TO=483|1837|2933|3437&TOM=483|1837|2933|3437&MNN=7&NNM=7|8|9|10|11|12|13&TT=1&TTM=1&PID=RHO90014&DPR=KARTAGO-SK-ATCOM
+2023-07-31 15:56:44.321522 : 
+                             
+                             
+2023-07-31 15:56:44.321522 : ====== WebDriver manager ======
+                             
+2023-07-31 15:56:44.384219 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:56:44.384219 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:56:44.462279 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:56:52.494708 : <selenium.webdriver.remote.webelement.WebElement (session="b6e5605eab1af0cbc69a37ee4befe052", element="EA29D82C836F5237284FB65BA0613F25_element_99")>
+2023-07-31 15:57:19.650185 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ds=0&tt=1&to=483|1837|2933|3437&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&rd=2023-08-31&nn=7|8|9|10|11|12|13&ka1=8&kc1=1&ac1=2
+2023-07-31 15:57:30.019804 : 
+                             
+                             
+2023-07-31 15:57:30.019804 : ====== WebDriver manager ======
+                             
+2023-07-31 15:57:30.053716 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:57:30.053716 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:57:30.138487 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:57:38.641978 : <selenium.webdriver.remote.webelement.WebElement (session="c432a1a7f74ba85bfcb4c5125f0c6e6d", element="E1239AE2B0951B88A2A3D5C952359C97_element_88")>
+2023-07-31 15:58:07.291769 : nenasle se exponea banner
+2023-07-31 15:58:32.369891 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ds=0&tt=1&to=483|1837|2933|3437&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&rd=2023-08-31&nn=7|8|9|10|11|12|13&ka1=8&kc1=1&ac1=2
+2023-07-31 15:58:42.697648 : 
+                             
+                             
+2023-07-31 15:58:42.697648 : ====== WebDriver manager ======
+                             
+2023-07-31 15:58:42.731299 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:58:42.731299 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:58:42.854395 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:58:49.629909 : <selenium.webdriver.remote.webelement.WebElement (session="376df6fb2b6c794a70cc2489eda60105", element="2EE4BE87F80B78BC05948D327E1F9A7C_element_83")>
+2023-07-31 15:59:14.776502 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ds=0&tt=1&to=483|1837|2933|3437&d=63209|63214|63219|63220|63262|63266|63281|63283|63285|63290|63297|63311|63314|63316|63319|63324|63327|63333|63335|63336|63341|63352|63357|63362|63364|63373|63383|63384|63387|63388|63390|63399|63402|63408|63409|63424|63427|63428|63430|63431|63437|63439|63442|63463|63471|63472|64431|64432|64433|64434|64435|64436|64437|64438|64439|64440|64441|64442|74677&dd=2023-07-01&rd=2023-08-31&nn=7|8|9|10|11|12|13&ka1=8&kc1=1&ac1=2
+2023-07-31 15:59:25.042517 : 
+                             
+                             
+2023-07-31 15:59:25.042517 : ====== WebDriver manager ======
+                             
+2023-07-31 15:59:25.073178 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 15:59:25.073178 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 15:59:25.167451 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 15:59:31.589045 : <selenium.webdriver.remote.webelement.WebElement (session="10b7a091e9e3139be9d7f4bfb2fa4d7d", element="F2CC65EB2F5F5F5C62016D6A8741DAD9_element_101")>
+2023-07-31 15:59:58.214164 : https://kartagosk.web2.dtweb.cz/
+2023-07-31 16:00:08.488133 : 
+                             
+                             
+2023-07-31 16:00:08.488133 : ====== WebDriver manager ======
+                             
+2023-07-31 16:00:08.557947 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 16:00:08.557947 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 16:00:08.653693 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 16:00:15.992101 : <selenium.webdriver.remote.webelement.WebElement (session="f72e0b831786bb866d6d78b17b102146", element="D2E45EF20960D781E6579A4E608B8E30_element_108")>
+2023-07-31 16:00:20.429120 : https://kartagosk.web2.dtweb.cz/vysledky-vyhladavania?dd=2023-07-31&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2023-07-31 16:00:22.576837 : 
+                             
+                             
+2023-07-31 16:00:22.576837 : ====== WebDriver manager ======
+                             
+2023-07-31 16:00:22.615733 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 16:00:22.615733 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 16:00:22.701505 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 16:00:29.579628 : <selenium.webdriver.remote.webelement.WebElement (session="194f21f3e35d994fcebb012806a7eb53", element="D6579A2722AF41A8B427EC4DB12B2C27_element_154")>
+2023-07-31 16:00:36.676312 : ['1.8. (Út) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n743 €', '8.8. (Út) / 7 nocí\nLefkada (Grécko)\nBratislava\n959 €', '11.8. (Pi) / 7 nocí\nGrécko (Grécko)\nBratislava\n610 €', '11.8. (Pi) / 7 nocí\nTurecká riviéra (Turecko)\nBratislava\n655 €', '12.8. (So) / 7 nocí\nKréta (Grécko)\nBratislava\n640 €', '15.8. (Út) / 7 nocí\nGrécko (Grécko)\nBratislava\n818 €', '16.8. (St) / 7 nocí\nMarsa Alam (Egypt)\nBratislava\n713 €', '20.8. (Ne) / 7 nocí\nHurghada (Egypt)\nBratislava\n663 €', '21.8. (Po) / 7 nocí\nKapverdské ostrovy\nBratislava\n901 €', '23.8. (St) / 7 nocí\nMallorca (Španielsko)\nBratislava\n748 €', '28.8. (Po) / 7 nocí\nKapverdské ostrovy\nBratislava\n883 €', '29.8. (Út) / 7 nocí\nLefkada (Grécko)\nBratislava\n639 €']
+2023-07-31 16:00:36.676312 : ['15.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n738 €', '22.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n751 €', '24.10. (Út) / 7 nocí\nKuba\nBratislava\n1 345 €', '25.10. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 405 €', '29.10. (Ne) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n688 €', '31.10. (Út) / 7 nocí\nKuba\nBratislava\n1 287 €', '1.11. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 340 €', '2.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n715 €', '3.11. (Pi) / 7 nocí\nPhu Quoc (Vietnam)\nBratislava\n1 520 €', '7.11. (Út) / 7 nocí\nKuba\nBratislava\n1 305 €', '8.11. (St) / 7 nocí\nDominikánska rep. (Dominikánska rep.)\nBratislava\n1 362 €', '9.11. (Št) / 7 nocí\nSpojené arabské emiráty (Spojené arabské emiráty)\nBratislava\n715 €']
+2023-07-31 16:00:36.680301 : https://kartagosk.web2.dtweb.cz/
+2023-07-31 16:00:38.846871 : 
+                             
+                             
+2023-07-31 16:00:38.847867 : ====== WebDriver manager ======
+                             
+2023-07-31 16:00:38.884021 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 16:00:38.884021 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 16:00:38.970789 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 16:00:51.714686 : <selenium.webdriver.remote.webelement.WebElement (session="f8588b385269d2abfda34a8f93f2dece", element="9E82F9647143D8DC7F826DD790916CE1_element_103")>
+2023-07-31 16:01:47.950017 : PROBLEM BANNERS
+2023-07-31 16:01:47.950017 : 54 zájazdov v 1 destinácii  ||| VS |||  ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:01:47.950017 : https://www.kartago.sk/vysledky-vyhladavania?d=64094|64089|64090|64091&dd=2023-09-01&nn=7|8|9|10|11|12|13&rd=2024-03-27&to=483|1837|2933|3437&tt=1
+2023-07-31 16:01:47.950017 : https://kartagosk.web2.dtweb.cz/vysledky-vyhladavania?d=64094|64089|64090|64091&dd=2023-09-01&nn=7|8|9|10|11|12|13&rd=2024-03-27&to=483|1837|2933|3437&tt=1
+2023-07-31 16:01:47.950017 : ----------------------------------------
+2023-07-31 16:02:23.496792 : ------------------------------------------
+2023-07-31 16:02:23.496792 : LIST FROM PUBLIC WWW PRODUCTION https://www.kartago.sk/
+2023-07-31 16:02:23.496792 : ['', '54 zájazdov v 1 destinácii', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.']
+2023-07-31 16:02:23.497564 : ------------------------------------------
+2023-07-31 16:02:23.497564 : LIST FROM DEPLOYING WEB https://kartagosk.web2.dtweb.cz/
+2023-07-31 16:02:23.497564 : ['', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.', 'ospravedlòujeme sa, nastala chyba.']
+2023-07-31 16:02:23.499618 : https://kartagosk.web2.dtweb.cz/
+2023-07-31 16:02:33.810638 : 
+                             
+                             
+2023-07-31 16:02:33.810638 : ====== WebDriver manager ======
+                             
+2023-07-31 16:02:33.840825 : Current google-chrome version is 114.0.5735
+                             
+2023-07-31 16:02:33.840825 : Get LATEST chromedriver version for 114.0.5735 google-chrome
+                             
+2023-07-31 16:02:33.921536 : Driver [C:\Users\KADOUN\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe] found in cache
+                             
+2023-07-31 16:05:16.049614 : len(pocet_vysledku_list_default)
+2023-07-31 16:05:16.049614 : 12
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : len(pocet_vysledku_list_dev))
+2023-07-31 16:05:16.049614 : 12
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-01-02&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-11-01&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2024-01-02&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 0
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64419|64420|211814|63448|64425|211801|63260&dd=2023-10-01&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 1
+2023-07-31 16:05:16.049614 : nenašli ste, èo ste h¾adali?
+2023-07-31 16:05:16.049614 : nenašli ste, èo ste h¾adali?
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63582|63581|63580&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63582|63581|63580&dd=2023-10-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 2
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63316|63319|63324|63333|63402|63471|211764|63350|63220|63281|63311|63314|63373|63390|63408|63409|63442|63213|63216|63218|63226|63227|63231|64429|63241|63242|63243|63244|63245|74462|63263|63267|74459|63272|74460|63284|63299|63334|63312|63313|74461|77806|74463|63328|74464|63349|64430|63354|63360|63363|74465|63455&dd=2023-09-01&ic1=1&ka1=10&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 3
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63252|63447&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 4
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63483|63484|63485|63486&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63483|63484|63485|63486&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4&kc1=1&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 5
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63205|63212|63215|63229|63255|63265|63271|63287|63296|63298|63329|63330|63339|63356|63376|63391|63404|63406|63410|63422|63425|63426|63429|63436|63444|63453|63454|63456|63457|63459|63537|63538|63539|64427|64428&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 6
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63715|63716|63717|63718|63719|63720|63721|63722|63723|63724&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 7
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63260|63288|63448|64152|64153|64154|64157|211801|211814&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 8
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=63487|63488|63489&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=63487|63488|63489&dd=2023-09-01&ds=0&ic1=1&ifm=0&ilm=0&ka1=4|7&kc1=2&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 9
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=2&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 10
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : ospravedlòujeme sa, nastala chyba.
+2023-07-31 16:05:16.049614 : https://kartagosk.web2.dtweb.cz//vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 : https://kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2023-07-31 16:05:16.049614 :              
+2023-07-31 16:05:16.049614 : 11
+2023-07-31 16:05:16.049614 : 12
+2023-07-31 16:05:16.054600 : https://www.kartago.sk/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2023-10-01&ds=0&ifm=0&ilm=0&nn=3|4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1

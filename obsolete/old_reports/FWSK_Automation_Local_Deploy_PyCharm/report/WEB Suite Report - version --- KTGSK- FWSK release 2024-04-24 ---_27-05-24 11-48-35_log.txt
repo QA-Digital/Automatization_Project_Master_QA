@@ -1,0 +1,617 @@
+2024-05-27 11:48:51.618686 : <selenium.webdriver.remote.webelement.WebElement (session="22c456e7f168500cd8ab841022bcb5d4", element="f.9C0345B34CF4D9F94FEF616D9F3ECBA8.d.9A80A58636D99C8EB155F4A9756035D6.e.847")>
+2024-05-27 11:48:52.243614 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/preh%C4%BEad
+2024-05-27 11:49:06.962535 : <selenium.webdriver.remote.webelement.WebElement (session="432e1d623ab170503779ad5fe2242716", element="f.5BA9ACD2E507EAB55754FC018057BD41.d.FE2CF36CA49269D51D737FBB795EB29D.e.453")>
+2024-05-27 11:49:17.304093 : its ok
+2024-05-27 11:49:17.316062 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/makadi-bay/xanadu-makadi-bay/xanadu-makadi-bay_air-view.jpg
+2024-05-27 11:49:32.712903 : <selenium.webdriver.remote.webelement.WebElement (session="7225b04680803ce50498e1d4849d5251", element="f.2A212B7E0A9CEF336039043B3A7762FD.d.2E788E4102EA4A65E3287C14AF9C9360.e.452")>
+2024-05-27 11:49:39.197516 : else departure not true
+2024-05-27 11:49:47.692353 : all inclusive
+2024-05-27 11:49:49.696089 : 0
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ok
+2024-05-27 11:49:49.867709 : ['all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra', 'all inclusive ultra']
+2024-05-27 11:49:49.867709 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&mtm=5&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terminy
+2024-05-27 11:50:00.354275 : <selenium.webdriver.remote.webelement.WebElement (session="30e1c501cf95cda39f03f01753e763fa", element="f.724EC5ED615D45D6BEF53F90FD10F45B.d.7794985C93BF14B4F78DAC805ED305BA.e.432")>
+2024-05-27 11:50:06.713197 : if departure==True
+2024-05-27 11:50:22.947044 : equal to košice
+2024-05-27 11:50:23.009723 : equal to košice
+2024-05-27 11:50:23.041042 : equal to košice
+2024-05-27 11:50:23.103261 : equal to košice
+2024-05-27 11:50:23.149708 : equal to košice
+2024-05-27 11:50:23.196944 : equal to košice
+2024-05-27 11:50:23.244025 : equal to košice
+2024-05-27 11:50:23.291054 : equal to košice
+2024-05-27 11:50:23.353390 : equal to košice
+2024-05-27 11:50:23.400330 : equal to košice
+2024-05-27 11:50:23.447375 : equal to košice
+2024-05-27 11:50:23.494087 : equal to košice
+2024-05-27 11:50:23.541048 : equal to košice
+2024-05-27 11:50:23.603295 : equal to košice
+2024-05-27 11:50:23.634720 : equal to košice
+2024-05-27 11:50:23.681411 : equal to košice
+2024-05-27 11:50:23.728425 : equal to košice
+2024-05-27 11:50:23.759897 : equal to košice
+2024-05-27 11:50:23.822113 : equal to košice
+2024-05-27 11:50:24.072289 : https://fischersk.stg.dtweb.cz//egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tom=1837&tt=1&ttm=1#/terminy
+2024-05-27 11:50:37.574199 : <selenium.webdriver.remote.webelement.WebElement (session="79efa75ec3ac05bbc42e138b816e77d6", element="f.EFD14A39FC496F0019A85B6A0CE7FF2C.d.7523957D14377C4B9FAB0BC22FBD17CF.e.419")>
+2024-05-27 11:50:38.730251 : benefit item
+2024-05-27 11:50:38.872259 : benefit item
+2024-05-27 11:50:38.945829 : benefit item
+2024-05-27 11:50:38.989130 : benefit item
+2024-05-27 11:50:39.166242 : grind container
+2024-05-27 11:50:39.206613 : grind container
+2024-05-27 11:50:39.224535 : grind container
+2024-05-27 11:50:39.233511 : grind container
+2024-05-27 11:50:39.244482 : grind container
+2024-05-27 11:50:39.263176 : grind container
+2024-05-27 11:50:39.273149 : grind container
+2024-05-27 11:50:39.287585 : grind container
+2024-05-27 11:50:39.297558 : grind container
+2024-05-27 11:50:39.309318 : grind container
+2024-05-27 11:50:39.318293 : grind container
+2024-05-27 11:50:39.328267 : grind container
+2024-05-27 11:50:39.336949 : grind container
+2024-05-27 11:50:39.552895 : tile img
+2024-05-27 11:50:39.576983 : tile img
+2024-05-27 11:50:39.582966 : https://fischersk.stg.dtweb.cz/dovolenka-animacne-kluby
+2024-05-27 11:50:51.447724 : <selenium.webdriver.remote.webelement.WebElement (session="6f589f62264f4d24f15c23f4d259dd74", element="f.474BDF120645331519390859C6B590FA.d.DB5C87F4DE92EB071CB55B914D6D2863.e.424")>
+2024-05-27 11:50:51.585053 : Položka menu neexistuje
+2024-05-27 11:50:51.741885 : https://fischersk.stg.dtweb.cz/
+2024-05-27 11:51:06.448537 : <selenium.webdriver.remote.webelement.WebElement (session="5984f067501d1c99d46aa96ce467f981", element="f.50789C76CCBA6419FE94641AF019B0A6.d.B68162D4AB32C611F0D5024F9260725D.e.802")>
+2024-05-27 11:51:08.291912 : https://fischersk.stg.dtweb.cz/first-minute
+2024-05-27 11:51:30.979806 : <selenium.webdriver.remote.webelement.WebElement (session="e8e0cabc14ab24685d9dbcb302407a6d", element="f.D05885395B7CF8419D980CC9937DAE12.d.9F24641E5C8998AD2AE0247BBCB4D176.e.426")>
+2024-05-27 11:51:34.431400 : GRÉCKO
+2024-05-27 11:51:37.354524 : hote dlazdice klik
+2024-05-27 11:51:42.478949 : TURECKO
+2024-05-27 11:51:47.579378 : hote dlazdice klik
+2024-05-27 11:51:51.260364 : EGYPT
+2024-05-27 11:51:52.325946 : hote dlazdice klik
+2024-05-27 11:51:55.996060 : KAPVERDY
+2024-05-27 11:52:01.885599 : hote dlazdice klik
+2024-05-27 11:52:06.150000 : WHITE GOLD
+2024-05-27 11:52:11.703563 : hote dlazdice klik
+2024-05-27 11:52:16.252266 : POISTENIE
+2024-05-27 11:52:41.434576 : first no such ele except
+2024-05-27 11:52:42.547186 : last no such ele except
+2024-05-27 11:52:47.135865 : PARKOVANIE
+2024-05-27 11:52:52.718226 : hote dlazdice klik
+2024-05-27 11:52:52.733847 : https://fischersk.stg.dtweb.cz/holandsko/holandsko/amsterdam/twenty-eight?DS=2&GIATA=663427&D=1030&HID=145556&DF=2025-01-06%7C2025-02-03&RD=2025-01-23&DD=2025-01-20&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&NNM=0%7C1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26&PID=623306&DPR=Hotelbeds
+2024-05-27 11:53:08.589862 : <selenium.webdriver.remote.webelement.WebElement (session="df133489288884021af1ed589e4b61bf", element="f.9DE47F8070A8726B636A409898ED816A.d.07FA78E805738DB67419502335CC229E.e.427")>
+2024-05-27 11:53:08.806703 : GRÉCKO
+2024-05-27 11:53:15.119738 : TURECKO
+2024-05-27 11:53:43.772577 : EGYPT
+2024-05-27 11:53:51.622867 : KAPVERDY
+2024-05-27 11:53:56.339237 : WHITE GOLD
+2024-05-27 11:53:59.511303 : POISTENIE
+2024-05-27 11:54:26.176998 : PARKOVANIE
+2024-05-27 11:54:27.777031 : https://fischersk.stg.dtweb.cz/hladanie-vysledky?q=parkovanie
+2024-05-27 11:54:37.985126 : <selenium.webdriver.remote.webelement.WebElement (session="3079a7fb83ba6f7df43dafb2dcdf7d83", element="f.54D54B23DA50256C33F113D5C60C538C.d.ECBA3651DA0BB2FFEB6C5DFA7FB5A589.e.427")>
+2024-05-27 11:54:39.091128 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2023-07-01&nn=7|8|9&rd=2023-08-31&to=4312|4305|2682|4308|483|1837|2933|3437&tt=1
+2024-05-27 11:54:57.231999 : <selenium.webdriver.remote.webelement.WebElement (session="4db78a721d7e89a4a327abd5011af5bd", element="f.64F886D9CB60DAF5D15DDA8F5E0BE452.d.D0BFE26CAF0E354E62915E1F134F81EF.e.817")>
+2024-05-27 11:55:26.873000 : https://fischersk.stg.dtweb.cz/last-minute
+2024-05-27 11:55:36.709671 : <selenium.webdriver.remote.webelement.WebElement (session="90ac5c6eefdf7ed8eb6a98d6d5b9605e", element="f.33D0DC8F8239B755B1C2239145484167.d.06D6E5ED065635770A96D1916F1E5EDD.e.427")>
+2024-05-27 11:55:36.895116 : https://fischersk.stg.dtweb.cz/kontakty/zoznam-pobociek
+2024-05-27 11:55:53.653549 : <selenium.webdriver.remote.webelement.WebElement (session="1ce99e0e314855a3d77faa74097b3edf", element="f.ED9ABE3B2DBB251242192B98E8BDE8DC.d.8842974A4F12CF6513F5449475A1ACD3.e.139")>
+2024-05-27 11:56:00.994151 : [<selenium.webdriver.remote.webelement.WebElement (session="1ce99e0e314855a3d77faa74097b3edf", element="f.ED9ABE3B2DBB251242192B98E8BDE8DC.d.8842974A4F12CF6513F5449475A1ACD3.e.230")>, <selenium.webdriver.remote.webelement.WebElement (session="1ce99e0e314855a3d77faa74097b3edf", element="f.ED9ABE3B2DBB251242192B98E8BDE8DC.d.8842974A4F12CF6513F5449475A1ACD3.e.231")>, <selenium.webdriver.remote.webelement.WebElement (session="1ce99e0e314855a3d77faa74097b3edf", element="f.ED9ABE3B2DBB251242192B98E8BDE8DC.d.8842974A4F12CF6513F5449475A1ACD3.e.232")>]
+2024-05-27 11:56:01.054459 : true imgdisplay
+2024-05-27 11:56:01.082990 : true imgdisplay
+2024-05-27 11:56:01.111942 : true imgdisplay
+2024-05-27 11:56:01.447623 : grid true
+2024-05-27 11:56:01.459590 : grid true
+2024-05-27 11:56:01.480534 : grid true
+2024-05-27 11:56:01.489510 : grid true
+2024-05-27 11:56:01.504471 : grid true
+2024-05-27 11:56:01.517436 : grid true
+2024-05-27 11:56:01.547356 : grid true
+2024-05-27 11:56:01.557330 : grid true
+2024-05-27 11:56:01.573873 : grid true
+2024-05-27 11:56:01.624045 : big grid ture
+2024-05-27 11:56:01.630029 : https://fischersk.stg.dtweb.cz/poznavacie-zajazdy/okruhy-a-kombinovane
+2024-05-27 11:56:10.935740 : <selenium.webdriver.remote.webelement.WebElement (session="c6a9bdd12049c544fdab3806fe57aab1", element="f.F7492EB6B21FFEA3D86ECF141C02ED0B.d.3D951DED2599ECB8235E28B017AEEBB6.e.137")>
+2024-05-27 11:56:18.216707 : [<selenium.webdriver.remote.webelement.WebElement (session="c6a9bdd12049c544fdab3806fe57aab1", element="f.F7492EB6B21FFEA3D86ECF141C02ED0B.d.3D951DED2599ECB8235E28B017AEEBB6.e.230")>, <selenium.webdriver.remote.webelement.WebElement (session="c6a9bdd12049c544fdab3806fe57aab1", element="f.F7492EB6B21FFEA3D86ECF141C02ED0B.d.3D951DED2599ECB8235E28B017AEEBB6.e.231")>, <selenium.webdriver.remote.webelement.WebElement (session="c6a9bdd12049c544fdab3806fe57aab1", element="f.F7492EB6B21FFEA3D86ECF141C02ED0B.d.3D951DED2599ECB8235E28B017AEEBB6.e.232")>]
+2024-05-27 11:56:18.232963 : true imgdisplay
+2024-05-27 11:56:18.248452 : true imgdisplay
+2024-05-27 11:56:18.248452 : true imgdisplay
+2024-05-27 11:56:18.320898 : grid true
+2024-05-27 11:56:18.327993 : grid true
+2024-05-27 11:56:18.358149 : grid true
+2024-05-27 11:56:18.372776 : grid true
+2024-05-27 11:56:18.385284 : grid true
+2024-05-27 11:56:18.394261 : grid true
+2024-05-27 11:56:18.407794 : grid true
+2024-05-27 11:56:18.416770 : grid true
+2024-05-27 11:56:18.425746 : grid true
+2024-05-27 11:56:18.457810 : big grid ture
+2024-05-27 11:56:18.461799 : https://fischersk.stg.dtweb.cz/poznavacie-zajazdy/predlzene-vikendy
+2024-05-27 11:56:28.856423 : <selenium.webdriver.remote.webelement.WebElement (session="2b23abc93c8d6358e7e9b5eef0fb9159", element="f.AF9C996EE7B82D7F77BD80F129DE4EB7.d.1BC0080384EEE35E4926906BA4DED894.e.126")>
+2024-05-27 11:56:36.514574 : [<selenium.webdriver.remote.webelement.WebElement (session="2b23abc93c8d6358e7e9b5eef0fb9159", element="f.AF9C996EE7B82D7F77BD80F129DE4EB7.d.1BC0080384EEE35E4926906BA4DED894.e.225")>, <selenium.webdriver.remote.webelement.WebElement (session="2b23abc93c8d6358e7e9b5eef0fb9159", element="f.AF9C996EE7B82D7F77BD80F129DE4EB7.d.1BC0080384EEE35E4926906BA4DED894.e.226")>, <selenium.webdriver.remote.webelement.WebElement (session="2b23abc93c8d6358e7e9b5eef0fb9159", element="f.AF9C996EE7B82D7F77BD80F129DE4EB7.d.1BC0080384EEE35E4926906BA4DED894.e.227")>]
+2024-05-27 11:56:36.546486 : true imgdisplay
+2024-05-27 11:56:36.578063 : true imgdisplay
+2024-05-27 11:56:36.578063 : true imgdisplay
+2024-05-27 11:56:36.673818 : grid true
+2024-05-27 11:56:36.682794 : grid true
+2024-05-27 11:56:36.702369 : grid true
+2024-05-27 11:56:36.702369 : grid true
+2024-05-27 11:56:36.734026 : grid true
+2024-05-27 11:56:36.749718 : grid true
+2024-05-27 11:56:36.765339 : grid true
+2024-05-27 11:56:36.780623 : grid true
+2024-05-27 11:56:36.810217 : grid true
+2024-05-27 11:56:36.858560 : big grid ture
+2024-05-27 11:56:36.858560 : https://fischersk.stg.dtweb.cz/poznavacie-zajazdy/pre-rodiny
+2024-05-27 11:56:56.356807 : <selenium.webdriver.remote.webelement.WebElement (session="3623ade71b1a1d4b702b07ce17024225", element="f.F9EAEF0A712D2F092DE94AA6A95003EE.d.704DB3F9CD738BE2A251C1DCE5EFB4A5.e.138")>
+2024-05-27 11:57:03.604845 : [<selenium.webdriver.remote.webelement.WebElement (session="3623ade71b1a1d4b702b07ce17024225", element="f.F9EAEF0A712D2F092DE94AA6A95003EE.d.704DB3F9CD738BE2A251C1DCE5EFB4A5.e.230")>, <selenium.webdriver.remote.webelement.WebElement (session="3623ade71b1a1d4b702b07ce17024225", element="f.F9EAEF0A712D2F092DE94AA6A95003EE.d.704DB3F9CD738BE2A251C1DCE5EFB4A5.e.231")>, <selenium.webdriver.remote.webelement.WebElement (session="3623ade71b1a1d4b702b07ce17024225", element="f.F9EAEF0A712D2F092DE94AA6A95003EE.d.704DB3F9CD738BE2A251C1DCE5EFB4A5.e.232")>]
+2024-05-27 11:57:03.637757 : true imgdisplay
+2024-05-27 11:57:03.647155 : true imgdisplay
+2024-05-27 11:57:03.678932 : true imgdisplay
+2024-05-27 11:57:03.826766 : grid true
+2024-05-27 11:57:03.853695 : grid true
+2024-05-27 11:57:03.869913 : grid true
+2024-05-27 11:57:03.890240 : grid true
+2024-05-27 11:57:03.912528 : grid true
+2024-05-27 11:57:03.924496 : grid true
+2024-05-27 11:57:03.947436 : grid true
+2024-05-27 11:57:03.950784 : grid true
+2024-05-27 11:57:03.974309 : grid true
+2024-05-27 11:57:04.016490 : big grid ture
+2024-05-27 11:57:04.021476 : https://fischersk.stg.dtweb.cz/poznavacie-zajazdy/zazitkove
+2024-05-27 11:58:04.490930 : <selenium.webdriver.remote.webelement.WebElement (session="232c08a9a51ae267a91c4d17290a01ae", element="f.F32D98EDB429809D4BF21667F3B288C6.d.217BD12C0B859C22A8FA5A6AA653434A.e.789")>
+2024-05-27 11:58:09.029379 : https://fischersk.stg.dtweb.cz/spanielsko
+2024-05-27 11:58:22.389174 : <selenium.webdriver.remote.webelement.WebElement (session="c00db8772a8fe2137b0e9ec7ebf72d56", element="f.10F6C3F7BFD2AF48742D3038675CCF31.d.71310490262175B3BE8F2035ACB879E1.e.550")>
+2024-05-27 11:58:37.857895 : Cheap sorter is OK
+2024-05-27 11:58:37.857895 : LIST FROM WEB:
+2024-05-27 11:58:37.857895 : [660, 684, 690, 694, 726, 726, 726, 726, 726, 740, 740, 740, 740, 754, 756, 766, 766, 770, 770, 770]
+2024-05-27 11:58:37.857895 : CORRECTLY SORTED LIST
+2024-05-27 11:58:37.857895 : [660, 684, 690, 694, 726, 726, 726, 726, 726, 740, 740, 740, 740, 754, 756, 766, 766, 770, 770, 770]
+2024-05-27 11:58:37.873517 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 11:58:48.861862 : <selenium.webdriver.remote.webelement.WebElement (session="09e0fb280d7ac5caf04f5c171cb6aa95", element="f.2A9E23BB336B300304E190A2EEC321D3.d.FA680230E3F11EE6C41A636DB7E26B9C.e.551")>
+2024-05-27 11:59:04.358146 : Expensive sorter is OK
+2024-05-27 11:59:04.358146 : LIST FROM WEB:
+2024-05-27 11:59:04.358146 : [3285, 3246, 2698, 2681, 2642, 2574, 2520, 2226, 2210, 2190, 2126, 2112, 2077, 2002, 1984, 1984, 1966, 1937, 1906, 1875]
+2024-05-27 11:59:04.358146 : CORRECTLY SORTED LIST
+2024-05-27 11:59:04.358146 : [3285, 3246, 2698, 2681, 2642, 2574, 2520, 2226, 2210, 2190, 2126, 2112, 2077, 2002, 1984, 1984, 1966, 1937, 1906, 1875]
+2024-05-27 11:59:04.373765 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&sortby=PriceTotal&sortorder=1&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 11:59:17.078624 : <selenium.webdriver.remote.webelement.WebElement (session="ebbacb51d4f7f7b37f671e3abb4d4102", element="f.8B62E46F3098D22DC7E6E16DAEB2E47D.d.B7C9B822C54F5DA0245C3CFD1E1D63CD.e.550")>
+2024-05-27 12:00:19.905862 : actually OK
+2024-05-27 12:00:24.391865 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 12:00:37.110436 : <selenium.webdriver.remote.webelement.WebElement (session="2808e6c066b95959c841fcce9a10a702", element="f.B31AE2FD125F98E41CBF16ECB0D7FD98.d.E694273AB2A74297264334B4F4658406.e.550")>
+2024-05-27 12:00:43.595151 : 0
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ok
+2024-05-27 12:00:43.860409 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive ultra', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2024-05-27 12:00:43.860409 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&m=5&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 12:00:57.154137 : <selenium.webdriver.remote.webelement.WebElement (session="05a34fefeead7d7a2a2fd9aeb795be42", element="f.4106815253321DEE7A90575E1B453E4B.d.2C51874699E6AE556B50296910CFBADC.e.548")>
+2024-05-27 12:00:59.392728 : |||||HOTEL CISLO|||||||
+2024-05-27 12:00:59.392728 : 1
+2024-05-27 12:00:59.392728 : 1
+2024-05-27 12:00:59.392728 : 1
+2024-05-27 12:01:28.765952 : nenasle se exponea banner
+2024-05-27 12:01:29.781591 : All Inclusive
+2024-05-27 12:01:29.812834 : Dvojlôžková izba , Výh¾ad na more
+2024-05-27 12:01:29.828456 : 1 088 €
+2024-05-27 12:01:29.859698 : 544 €
+2024-05-27 12:01:29.976027 : pokoje sedi srl vs detail
+2024-05-27 12:01:29.976027 : stravy sedi srl vs detail
+2024-05-27 12:01:29.976027 : ceny all sedi srl vs detail
+2024-05-27 12:01:29.976027 :  cena adult sedi srl vs detail
+2024-05-27 12:01:29.976027 : 1
+2024-05-27 12:01:29.976027 : 2
+2024-05-27 12:01:29.976027 : |||||HOTEL CISLO|||||||
+2024-05-27 12:01:29.976027 : 2
+2024-05-27 12:01:29.976027 : 2
+2024-05-27 12:01:29.976027 : 2
+2024-05-27 12:01:58.094365 : nenasle se exponea banner
+2024-05-27 12:01:59.141744 : All Inclusive
+2024-05-27 12:01:59.157255 : Dvojlôžková izba , Výh¾ad do záhrady , Výh¾ad na bazén
+2024-05-27 12:01:59.188391 : 1 406 €
+2024-05-27 12:01:59.204017 : 703 €
+2024-05-27 12:01:59.281087 : pokoje sedi srl vs detail
+2024-05-27 12:01:59.281087 : stravy sedi srl vs detail
+2024-05-27 12:01:59.281087 : ceny all sedi srl vs detail
+2024-05-27 12:01:59.281087 :  cena adult sedi srl vs detail
+2024-05-27 12:01:59.300412 : 2
+2024-05-27 12:01:59.300412 : 3
+2024-05-27 12:01:59.300412 : |||||HOTEL CISLO|||||||
+2024-05-27 12:01:59.300412 : 3
+2024-05-27 12:01:59.300412 : 3
+2024-05-27 12:01:59.300412 : 3
+2024-05-27 12:02:28.517061 : nenasle se exponea banner
+2024-05-27 12:02:29.548209 : All Inclusive
+2024-05-27 12:02:29.579347 : Dvojlôžková izba , Výh¾ad na bazén
+2024-05-27 12:02:29.641621 : 1 008 €
+2024-05-27 12:02:29.672864 : 504 €
+2024-05-27 12:02:29.745446 : pokoje sedi srl vs detail
+2024-05-27 12:02:29.745446 : stravy sedi srl vs detail
+2024-05-27 12:02:29.745446 : ceny all sedi srl vs detail
+2024-05-27 12:02:29.745446 :  cena adult sedi srl vs detail
+2024-05-27 12:02:29.749666 : 3
+2024-05-27 12:02:29.749666 : 4
+2024-05-27 12:02:29.749666 : |||||HOTEL CISLO|||||||
+2024-05-27 12:02:29.749666 : 4
+2024-05-27 12:02:29.749666 : 4
+2024-05-27 12:02:29.749666 : 4
+2024-05-27 12:02:58.360809 : nenasle se exponea banner
+2024-05-27 12:02:59.579562 : All Inclusive
+2024-05-27 12:02:59.796982 : Dvojlôžková izba , Záhrada
+2024-05-27 12:03:00.019389 : 836 €
+2024-05-27 12:03:00.241797 : 418 €
+2024-05-27 12:03:00.366465 : pokoje sedi srl vs detail
+2024-05-27 12:03:00.366465 : stravy sedi srl vs detail
+2024-05-27 12:03:00.366465 : ceny all sedi srl vs detail
+2024-05-27 12:03:00.366465 :  cena adult sedi srl vs detail
+2024-05-27 12:03:00.493126 : 4
+2024-05-27 12:03:00.493126 : 5
+2024-05-27 12:03:00.493126 : |||||HOTEL CISLO|||||||
+2024-05-27 12:03:00.493126 : 5
+2024-05-27 12:03:00.493126 : 5
+2024-05-27 12:03:00.493126 : 5
+2024-05-27 12:03:29.595465 : nenasle se exponea banner
+2024-05-27 12:03:30.626716 : All Inclusive
+2024-05-27 12:03:30.642343 : Dvojlôžková izba , Výh¾ad na bazén
+2024-05-27 12:03:30.673585 : 966 €
+2024-05-27 12:03:30.689229 : 483 €
+2024-05-27 12:03:30.756001 : pokoje sedi srl vs detail
+2024-05-27 12:03:30.756001 : stravy sedi srl vs detail
+2024-05-27 12:03:30.756001 : ceny all sedi srl vs detail
+2024-05-27 12:03:30.756001 :  cena adult sedi srl vs detail
+2024-05-27 12:03:30.766020 : 5
+2024-05-27 12:03:30.766020 : 6
+2024-05-27 12:03:30.766020 : |||||HOTEL CISLO|||||||
+2024-05-27 12:03:30.766020 : 6
+2024-05-27 12:03:30.766020 : 6
+2024-05-27 12:03:30.766020 : 6
+2024-05-27 12:03:58.580812 : nenasle se exponea banner
+2024-05-27 12:03:59.606239 : All Inclusive Ultra
+2024-05-27 12:03:59.635237 : Dvojlôžková izba , Superior, Výh¾ad do záhrady , Hlavná budova
+2024-05-27 12:03:59.660171 : 1 474 €
+2024-05-27 12:03:59.692177 : 737 €
+2024-05-27 12:03:59.757210 : pokoje sedi srl vs detail
+2024-05-27 12:03:59.757210 : stravy sedi srl vs detail
+2024-05-27 12:03:59.757210 : ceny all sedi srl vs detail
+2024-05-27 12:03:59.757210 :  cena adult sedi srl vs detail
+2024-05-27 12:03:59.761852 : 6
+2024-05-27 12:03:59.761852 : 7
+2024-05-27 12:03:59.761852 : |||||HOTEL CISLO|||||||
+2024-05-27 12:03:59.761852 : 7
+2024-05-27 12:03:59.761852 : 7
+2024-05-27 12:03:59.761852 : 7
+2024-05-27 12:04:28.252380 : nenasle se exponea banner
+2024-05-27 12:04:30.049393 : All Inclusive
+2024-05-27 12:04:30.267879 : Dvojlôžková izba , Superior
+2024-05-27 12:04:30.315250 : 1 286 €
+2024-05-27 12:04:30.346384 : 643 €
+2024-05-27 12:04:30.433850 : pokoje sedi srl vs detail
+2024-05-27 12:04:30.433850 : stravy sedi srl vs detail
+2024-05-27 12:04:30.433850 : ceny all sedi srl vs detail
+2024-05-27 12:04:30.433850 :  cena adult sedi srl vs detail
+2024-05-27 12:04:30.456139 : 7
+2024-05-27 12:04:30.456139 : 8
+2024-05-27 12:04:30.456139 : |||||HOTEL CISLO|||||||
+2024-05-27 12:04:30.456139 : 8
+2024-05-27 12:04:30.456139 : 8
+2024-05-27 12:04:30.456139 : 8
+2024-05-27 12:04:59.111910 : nenasle se exponea banner
+2024-05-27 12:05:00.177999 : All Inclusive
+2024-05-27 12:05:00.252287 : Dvojlôžková izba
+2024-05-27 12:05:00.365104 : 840 €
+2024-05-27 12:05:00.391811 : 420 €
+2024-05-27 12:05:00.460819 : pokoje sedi srl vs detail
+2024-05-27 12:05:00.460819 : stravy sedi srl vs detail
+2024-05-27 12:05:00.460819 : ceny all sedi srl vs detail
+2024-05-27 12:05:00.460819 :  cena adult sedi srl vs detail
+2024-05-27 12:05:00.470793 : 8
+2024-05-27 12:05:00.470793 : 9
+2024-05-27 12:05:00.470793 : |||||HOTEL CISLO|||||||
+2024-05-27 12:05:00.470793 : 9
+2024-05-27 12:05:00.470793 : 9
+2024-05-27 12:05:00.470793 : 9
+2024-05-27 12:05:28.373611 : nenasle se exponea banner
+2024-05-27 12:05:29.424217 : All Inclusive
+2024-05-27 12:05:29.446257 : Dvojlôžková izba
+2024-05-27 12:05:29.460189 : 1 012 €
+2024-05-27 12:05:29.477336 : 506 €
+2024-05-27 12:05:29.542491 : pokoje sedi srl vs detail
+2024-05-27 12:05:29.542491 : stravy sedi srl vs detail
+2024-05-27 12:05:29.542491 : ceny all sedi srl vs detail
+2024-05-27 12:05:29.542491 :  cena adult sedi srl vs detail
+2024-05-27 12:05:29.549977 : 9
+2024-05-27 12:05:29.549977 : 10
+2024-05-27 12:05:29.549977 : |||||HOTEL CISLO|||||||
+2024-05-27 12:05:29.549977 : 10
+2024-05-27 12:05:29.549977 : 10
+2024-05-27 12:05:29.549977 : 10
+2024-05-27 12:05:57.550554 : nenasle se exponea banner
+2024-05-27 12:05:58.566073 : All Inclusive
+2024-05-27 12:05:58.581699 : Dvojlôžková izba
+2024-05-27 12:05:58.597209 : 854 €
+2024-05-27 12:05:58.612835 : 427 €
+2024-05-27 12:05:58.683491 : pokoje sedi srl vs detail
+2024-05-27 12:05:58.683491 : stravy sedi srl vs detail
+2024-05-27 12:05:58.683491 : ceny all sedi srl vs detail
+2024-05-27 12:05:58.683491 :  cena adult sedi srl vs detail
+2024-05-27 12:05:58.688163 : 10
+2024-05-27 12:05:58.688163 : 11
+2024-05-27 12:05:58.688163 : |||||HOTEL CISLO|||||||
+2024-05-27 12:05:58.688163 : 11
+2024-05-27 12:05:58.688163 : 11
+2024-05-27 12:05:58.688163 : 11
+2024-05-27 12:06:27.613376 : nenasle se exponea banner
+2024-05-27 12:06:28.644149 : All Inclusive
+2024-05-27 12:06:28.675392 : Dvojlôžková izba , Superior, Výh¾ad na bazén , Boèný výh¾ad na more
+2024-05-27 12:06:28.691014 : 1 364 €
+2024-05-27 12:06:28.726246 : 682 €
+2024-05-27 12:06:28.790509 : pokoje sedi srl vs detail
+2024-05-27 12:06:28.790509 : stravy sedi srl vs detail
+2024-05-27 12:06:28.790509 : ceny all sedi srl vs detail
+2024-05-27 12:06:28.790509 :  cena adult sedi srl vs detail
+2024-05-27 12:06:28.805470 : 11
+2024-05-27 12:06:28.805470 : 12
+2024-05-27 12:06:28.805470 : |||||HOTEL CISLO|||||||
+2024-05-27 12:06:28.805470 : 12
+2024-05-27 12:06:28.805470 : 12
+2024-05-27 12:06:28.805470 : 12
+2024-05-27 12:06:57.363443 : nenasle se exponea banner
+2024-05-27 12:06:58.394546 : All Inclusive
+2024-05-27 12:06:58.410159 : Dvojlôžková izba , Superior
+2024-05-27 12:06:58.441406 : 928 €
+2024-05-27 12:06:58.457023 : 464 €
+2024-05-27 12:06:58.536085 : pokoje sedi srl vs detail
+2024-05-27 12:06:58.536085 : stravy sedi srl vs detail
+2024-05-27 12:06:58.536085 : ceny all sedi srl vs detail
+2024-05-27 12:06:58.536085 :  cena adult sedi srl vs detail
+2024-05-27 12:06:58.540074 : 12
+2024-05-27 12:06:58.540074 : 13
+2024-05-27 12:06:58.545061 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 12:07:08.582276 : <selenium.webdriver.remote.webelement.WebElement (session="641af3a27f70c8d1039f8263992164d3", element="f.E36D9012D1EC0B2E4769ACBF736DFF43.d.3296C79081DF6F092F985D2553846C78.e.551")>
+2024-05-27 12:07:09.410213 : True
+2024-05-27 12:07:09.425834 : True
+2024-05-27 12:07:09.425834 : True
+2024-05-27 12:07:09.442642 : True
+2024-05-27 12:07:09.442642 : True
+2024-05-27 12:07:09.458265 : True
+2024-05-27 12:07:09.458265 : True
+2024-05-27 12:07:09.472771 : True
+2024-05-27 12:07:09.488397 : True
+2024-05-27 12:07:09.488397 : True
+2024-05-27 12:07:09.504018 : True
+2024-05-27 12:07:09.535965 : True
+2024-05-27 12:07:09.551587 : True
+2024-05-27 12:07:09.566594 : True
+2024-05-27 12:07:09.582220 : True
+2024-05-27 12:07:09.582220 : True
+2024-05-27 12:07:09.597729 : True
+2024-05-27 12:07:09.597729 : True
+2024-05-27 12:07:09.613356 : True
+2024-05-27 12:07:09.613356 : True
+2024-05-27 12:08:49.739406 : ceny
+2024-05-27 12:08:49.755027 : ceny
+2024-05-27 12:08:49.755027 : ceny
+2024-05-27 12:08:49.770651 : ceny
+2024-05-27 12:08:49.786775 : ceny
+2024-05-27 12:08:49.786775 : ceny
+2024-05-27 12:08:49.802400 : ceny
+2024-05-27 12:08:49.802400 : ceny
+2024-05-27 12:08:49.817910 : ceny
+2024-05-27 12:08:49.833541 : ceny
+2024-05-27 12:08:49.833541 : ceny
+2024-05-27 12:08:49.849049 : ceny
+2024-05-27 12:08:49.864696 : ceny
+2024-05-27 12:08:49.864696 : ceny
+2024-05-27 12:08:49.880205 : ceny
+2024-05-27 12:08:49.895833 : ceny
+2024-05-27 12:08:49.895833 : ceny
+2024-05-27 12:08:49.911359 : ceny
+2024-05-27 12:08:49.911359 : ceny
+2024-05-27 12:08:49.926985 : ceny
+2024-05-27 12:08:49.926985 : ceny
+2024-05-27 12:08:49.942607 : ceny
+2024-05-27 12:08:49.958229 : ceny
+2024-05-27 12:08:49.958229 : ceny
+2024-05-27 12:08:49.973850 : ceny
+2024-05-27 12:08:49.989473 : ceny
+2024-05-27 12:08:49.989473 : ceny
+2024-05-27 12:08:50.005093 : ceny
+2024-05-27 12:08:50.005093 : ceny
+2024-05-27 12:08:50.020714 : ceny
+2024-05-27 12:08:50.020714 : ceny
+2024-05-27 12:08:50.036336 : ceny
+2024-05-27 12:08:50.051957 : ceny
+2024-05-27 12:08:50.051957 : ceny
+2024-05-27 12:08:50.067579 : ceny
+2024-05-27 12:08:50.067579 : ceny
+2024-05-27 12:08:50.083201 : ceny
+2024-05-27 12:08:50.083201 : ceny
+2024-05-27 12:08:50.098823 : ceny
+2024-05-27 12:08:50.114443 : ceny
+2024-05-27 12:08:50.114443 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1
+2024-05-27 12:09:01.395865 : <selenium.webdriver.remote.webelement.WebElement (session="a7b255de312959d81fae88be73e2ffb1", element="f.4B049C553FBD66006243EC8F7146DCE9.d.2ED37C7717B0AB4D4EB739E6A7ECD91F.e.839")>
+2024-05-27 12:09:25.411744 : True
+2024-05-27 12:09:25.661686 : True
+2024-05-27 12:09:25.865169 : True
+2024-05-27 12:09:26.052388 : True
+2024-05-27 12:09:26.239845 : True
+2024-05-27 12:09:26.458546 : True
+2024-05-27 12:09:26.630513 : True
+2024-05-27 12:09:26.771108 : True
+2024-05-27 12:09:26.990808 : True
+2024-05-27 12:09:27.161706 : True
+2024-05-27 12:09:27.411948 : True
+2024-05-27 12:09:27.646065 : True
+2024-05-27 12:09:27.786958 : True
+2024-05-27 12:09:27.942967 : True
+2024-05-27 12:09:28.036695 : True
+2024-05-27 12:09:28.193200 : True
+2024-05-27 12:09:28.193200 : True
+2024-05-27 12:09:28.208826 : True
+2024-05-27 12:09:28.208826 : True
+2024-05-27 12:09:28.224335 : True
+2024-05-27 12:11:08.444047 : ceny
+2024-05-27 12:11:08.459673 : ceny
+2024-05-27 12:11:08.459673 : ceny
+2024-05-27 12:11:08.475293 : ceny
+2024-05-27 12:11:08.490921 : ceny
+2024-05-27 12:11:08.490921 : ceny
+2024-05-27 12:11:08.506537 : ceny
+2024-05-27 12:11:08.506537 : ceny
+2024-05-27 12:11:08.522159 : ceny
+2024-05-27 12:11:08.537780 : ceny
+2024-05-27 12:11:08.537780 : ceny
+2024-05-27 12:11:08.553401 : ceny
+2024-05-27 12:11:08.553401 : ceny
+2024-05-27 12:11:08.569024 : ceny
+2024-05-27 12:11:08.584645 : ceny
+2024-05-27 12:11:08.584645 : ceny
+2024-05-27 12:11:08.600266 : ceny
+2024-05-27 12:11:08.600266 : ceny
+2024-05-27 12:11:08.615888 : ceny
+2024-05-27 12:11:08.631510 : ceny
+2024-05-27 12:11:08.631510 : ceny
+2024-05-27 12:11:08.647130 : ceny
+2024-05-27 12:11:08.647130 : ceny
+2024-05-27 12:11:08.662752 : ceny
+2024-05-27 12:11:08.678374 : ceny
+2024-05-27 12:11:08.678374 : ceny
+2024-05-27 12:11:08.694499 : ceny
+2024-05-27 12:11:08.710136 : ceny
+2024-05-27 12:11:08.710136 : ceny
+2024-05-27 12:11:08.725645 : ceny
+2024-05-27 12:11:08.725645 : ceny
+2024-05-27 12:11:08.741271 : ceny
+2024-05-27 12:11:08.756779 : ceny
+2024-05-27 12:11:08.756779 : ceny
+2024-05-27 12:11:08.772405 : ceny
+2024-05-27 12:11:08.787927 : ceny
+2024-05-27 12:11:08.787927 : ceny
+2024-05-27 12:11:08.803553 : ceny
+2024-05-27 12:11:08.803553 : ceny
+2024-05-27 12:11:08.819174 : ceny
+2024-05-27 12:11:08.834806 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?ac1=2&d=953|590|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|726|683|609&dd=2024-09-01&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-05-27 12:11:17.803526 : <selenium.webdriver.remote.webelement.WebElement (session="023d4d0b0bbfbf3941885723aa198698", element="f.22B8ABE310B55753F332B2F73DF273E5.d.7F849EF9A47B1EDC611A1ADA170034C9.e.830")>
+2024-05-27 12:11:21.679016 : https://fischersk.stg.dtweb.cz/vysledky-vyhladavania?dd=2024-05-27&nn=7|8|9|10|11|12|13|14|15&rd=2024-07-27&to=483|1837|3437&tt=1
+2024-05-27 12:11:31.554333 : <selenium.webdriver.remote.webelement.WebElement (session="aa9d2ebd17c62804b4ab030defd7edf4", element="f.27A180A9D3A48CC0053B7924E05C147D.d.1FF30C215730EC6C3C91B931B67F72A0.e.828")>
+2024-05-27 12:11:40.196205 : https://fischersk.stg.dtweb.cz/poznavacie-zajazdy/vysledky-vyhladavania?dd=2024-05-27&nn=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20&rd=2024-07-27&to=4305|2682|4308|4312|1837|2933|3437|483&tt=1
+2024-05-27 12:11:48.913753 : <selenium.webdriver.remote.webelement.WebElement (session="42859e59b86a549da7bd149d3cf63cc9", element="f.EFDCAA026F2925B4198B71F395E5F940.d.1DF6A1A8D33CAD238E5C7066C81C7316.e.424")>
+2024-05-27 12:12:27.648388 : ------------------------------------------
+2024-05-27 12:12:27.648388 : LIST FROM PUBLIC WWW PRODUCTION https://www.fischer.sk/
+2024-05-27 12:12:27.648388 : ['', '228 zájazdov v 1 destinácii', '15 zájazdov v 1 destinácii', '391 zájazdov v 1 destinácii']
+2024-05-27 12:12:27.648388 : ------------------------------------------
+2024-05-27 12:12:27.648388 : LIST FROM DEPLOYING WEB https://fischersk.stg.dtweb.cz/
+2024-05-27 12:12:27.648388 : ['', '228 zájazdov v 1 destinácii', '15 zájazdov v 1 destinácii', '391 zájazdov v 1 destinácii']
+2024-05-27 12:12:27.648388 : ------------------------------------------
+2024-05-27 12:12:27.648388 : Banners are GOOD, TEST OK https://www.fischer.sk/ VS https://fischersk.stg.dtweb.cz/
+2024-05-27 12:12:27.663920 : https://fischersk.stg.dtweb.cz/
+2024-05-27 12:15:42.122797 : len(pocet_vysledku_list_default)
+2024-05-27 12:15:42.122797 : 12
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : len(pocet_vysledku_list_dev))
+2024-05-27 12:15:42.122797 : 12
+2024-05-27 12:15:42.122797 : 11 zájazdov vo 3 destináciách
+2024-05-27 12:15:42.122797 : 11 zájazdov vo 3 destináciách
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&ac2=3&d=654|1005|953|590|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|726|683|609&dd=2024-08-01&ic1=1&ka1=12&ka2=15|4&kc1=1&kc2=2&nn=7|8|9|10|11|12|13|14|15&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=2&ac2=3&d=654|1005|953|590|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|726|683|609&dd=2024-08-01&ic1=1&ka1=12&ka2=15|4&kc1=1&kc2=2&nn=7|8|9|10|11|12|13|14|15&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  2
+2024-05-27 12:15:42.122797 : 131 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.122797 : 131 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=687|654|604&dd=2023-09-01&ka1=5|2&kc1=2&nn=7|8|9|10|11|12|13&rd=2023-10-01&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  3
+2024-05-27 12:15:42.122797 : 188 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : 188 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ka1=5|2&kc1=2&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  4
+2024-05-27 12:15:42.122797 : 555 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : 555 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=618|619|624|973|595|746|1225|623|741|735|993|648|972|620&dd=2023-09-01&nn=4|5|6|7|8|9|10|11|12|13&rd=2023-10-31&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  5
+2024-05-27 12:15:42.122797 : 16 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : 16 zájazdov v 1 destinácii
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=1111&dd=2023-08-01&ka1=7&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-09-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  6
+2024-05-27 12:15:42.122797 : 27 zájazdov vo 3 destináciách
+2024-05-27 12:15:42.122797 : 27 zájazdov vo 3 destináciách
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=4&ac2=3&d=819|1235|1225|618|619|624|973|595|746|1111|623|741|735|993|648|972|620&dd=2024-08-01&ic1=1&ka1=12&ka2=15|4&kc1=1&kc2=2&nn=7|8|9|10|11|12|13|14|15&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.122797 : https://fischer.sk/vysledky-vyhladavania?ac1=4&ac2=3&d=819|1235|1225|618|619|624|973|595|746|1111|623|741|735|993|648|972|620&dd=2024-08-01&ic1=1&ka1=12&ka2=15|4&kc1=1&kc2=2&nn=7|8|9|10|11|12|13|14|15&rd=2024-09-30&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.122797 :              
+2024-05-27 12:15:42.122797 : URL cislo  7
+2024-05-27 12:15:42.122797 : 9 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.122797 : 9 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.122797 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=4&ac2=3&d=619|973|746|1111|607|591|627|974|712|596&dd=2024-06-15&ic1=1&ka1=12|10&ka2=15|4|4&kc1=2&kc2=3&nn=7|8|9|10|11|12|13|14|15&rd=2024-07-31&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/vysledky-vyhladavania?ac1=4&ac2=3&d=619|973|746|1111|607|591|627|974|712|596&dd=2024-06-15&ic1=1&ka1=12|10&ka2=15|4|4&kc1=2&kc2=3&nn=7|8|9|10|11|12|13|14|15&rd=2024-07-31&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  8
+2024-05-27 12:15:42.123794 : 408 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : 408 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=627|974|712|684|955|596&dd=2023-10-01&ds=0&ifm=0&ilm=0&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&sc=residential&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  9
+2024-05-27 12:15:42.123794 : 199 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : 199 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-01&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-11-30&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  10
+2024-05-27 12:15:42.123794 : 9 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.123794 : 9 zájazdov vo 2 destináciách
+2024-05-27 12:15:42.123794 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=4&ac2=3&d=619|973|746|1111|607|591|627|974|712|596&dd=2024-06-15&ic1=1&ka1=12|10&ka2=15|4|4&kc1=2&kc2=3&nn=7|8|9|10|11|12|13|14|15&rd=2024-07-31&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/vysledky-vyhladavania?ac1=4&ac2=3&d=619|973|746|1111|607|591|627|974|712|596&dd=2024-06-15&ic1=1&ka1=12|10&ka2=15|4|4&kc1=2&kc2=3&nn=7|8|9|10|11|12|13|14|15&rd=2024-07-31&to=483|1837|3437&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  11
+2024-05-27 12:15:42.123794 : 493 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : 493 zájazdov v 1 destinácii
+2024-05-27 12:15:42.123794 : https://fischersk.stg.dtweb.cz//vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609&dd=2023-09-01&ds=0&ifm=0&ilm=0&nn=5|6|7|8|9|10|11|12|13&rd=2023-10-31&sc=residential&to=483|1837|2933|3437&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  12
+2024-05-27 12:15:42.123794 : 4 zájazdy v 1 destinácii
+2024-05-27 12:15:42.123794 : 4 zájazdy v 1 destinácii
+2024-05-27 12:15:42.123794 : https://fischersk.stg.dtweb.cz//poznavacie-zajazdy/vysledky-vyhladavania?ac1=2&d=653|819|1235|724|826|1225|623|1059|741|735|618|619|624|973|1132|709|711|603|1116|993|595|614|648|972|1093|1198|1114|620|746|1074|1075|698|953|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609|627|974|712|684|955|596&dd=2024-07-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-08-31&to=4305|2682|4308|4312|1837|2933|3437|483&tt=1
+2024-05-27 12:15:42.123794 : https://fischer.sk/poznavacie-zajazdy/vysledky-vyhladavania?ac1=2&d=653|819|1235|724|826|1225|623|1059|741|735|618|619|624|973|1132|709|711|603|1116|993|595|614|648|972|1093|1198|1114|620|746|1074|1075|698|953|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609|627|974|712|684|955|596&dd=2024-07-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-08-31&to=4305|2682|4308|4312|1837|2933|3437|483&tt=1
+2024-05-27 12:15:42.123794 :              
+2024-05-27 12:15:42.123794 : URL cislo  13
+2024-05-27 12:15:42.123794 : 12
+2024-05-27 12:15:42.128780 : https://www.fischer.sk/poznavacie-zajazdy/vysledky-vyhladavania?ac1=2&d=653|819|1235|724|826|1225|623|1059|741|735|618|619|624|973|1132|709|711|603|1116|993|595|614|648|972|1093|1198|1114|620|746|1074|1075|698|953|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609|627|974|712|684|955|596&dd=2024-07-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-08-31&to=4305|2682|4308|4312|1837|2933|3437|483&tt=1

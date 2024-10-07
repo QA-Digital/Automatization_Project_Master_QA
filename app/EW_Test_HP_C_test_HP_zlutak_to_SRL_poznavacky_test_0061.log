@@ -1,0 +1,23 @@
+INFO - Starting the process to search using the SRL flow on HP Zlutak.
+INFO - Clicking on 'Kam Pojedete'.
+INFO - Selecting the destination.
+INFO - Clicking on the first 'Pokracovat' button.
+INFO - Clicking on the second 'Pokracovat' button.
+INFO - Selecting the 'Termin'.
+INFO - Clicking on the third 'Pokracovat' button.
+INFO - Handling 'Obsazenost' setting.
+INFO - Clicking on 'Potvrdit a Vyhledat'.
+INFO - Search completed, waiting for the results.
+INFO - Starting search results listing check.
+INFO - Found 2 hotel cards in the search results.
+INFO - Hotel card visible: True
+INFO - Hotel card visible: True
+INFO - First hotel card is displayed.
+INFO - Hotel price visible: True
+INFO - Hotel price visible: True
+INFO - Hotel price visible: True
+INFO - Hotel price visible: True
+INFO - First hotel price is displayed.
+INFO - No loading images found in the SRL.
+INFO - Search results listing check completed.
+INFO - https://exim.web12.dtweb.cz/poznavaci-zajezdy/vysledky-vyhledavani?ac1=2&d=64144|64142|64140|64132|64128|64134|64138|64136|64126|64281|64127|64139|64146|64131|64141|64130|64135|64133|64129|64143|64145|64137&dd=2025-03-01&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308|4392|4309&tt=0

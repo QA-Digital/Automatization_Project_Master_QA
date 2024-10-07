@@ -1,0 +1,407 @@
+2024-02-28 14:55:13.674585 : <selenium.webdriver.remote.webelement.WebElement (session="331223067228507a8d48763c955faafa", element="f.B7308386D33FE6CCDB0664A8ACED77E8.d.FF2D3965412C58CA1865FE0111281D37.e.1088")>
+2024-02-28 14:55:14.152552 : https://dertourro.web13.dtweb.cz/egipt/hurghada/makadi-bay/prima-life-makadi-spa?DS=2048&GIATA=77592&D=64421|64422|64426|64424|64423|64419|64420|64425&HID=9193&MT=5&NN=7&DF=2024-01-31|2024-04-01&RD=2024-02-11&DD=2024-02-03&ERM=0&AC1=2&KC1=0&IC1=0&DP=2691&MNN=7&NNM=3|4|5|6|7|8|9|10|11|12|13|14|15&TT=1&TTM=1&PID=HRG20068&DPR=DER%20Touristik%20RO%20ATCOM&ILM=0&IFM=0
+2024-02-28 14:55:23.592834 : <selenium.webdriver.remote.webelement.WebElement (session="fe31ff1a1d05c01fde16db79439830cf", element="f.E6E25548041CC8D61B84EF4BA054E188.d.6CDA965C4249191CBC85318232E9BAEF.e.549")>
+2024-02-28 14:55:28.841175 : its ok
+2024-02-28 14:55:28.841175 : https://pics.dertour.ro/hotels/egypt/oblast-hurghada/makadi-bay/prima-life-makadi-resort-a-spa/h13517_c0_133052.jpg
+2024-02-28 14:55:38.745049 : <selenium.webdriver.remote.webelement.WebElement (session="c5f6f8d932aa29cbe7f5f9bd0e2825d8", element="f.E853D86052E753E0136C938425F8B6E4.d.1A939959A90E15D4E60B799186C3BFB7.e.553")>
+2024-02-28 14:55:45.137512 : else departure not true
+2024-02-28 14:56:15.715943 : https://dertourro.web13.dtweb.cz/egipt/hurghada/makadi-bay/prima-life-makadi-spa?AC1=2&D=64421|64422|64426|64424|64423|64419|64420|64425&DD=2024-02-03&DP=2691&DPR=DER+Touristik+RO+ATCOM&DS=2048&GIATA=77592&HID=9193&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG20068&RD=2024-02-11&acm1=2&df=2024-01-31|2024-04-01&nnm=3|4|5|6|7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terms
+2024-02-28 14:56:28.122780 : <selenium.webdriver.remote.webelement.WebElement (session="4cbd4d410ba45623bc8f86b41a3f5132", element="f.797CA0B70E20081416B48AD167A319EA.d.47BF95CB5F6F748A6698646E6E9E2BF6.e.552")>
+2024-02-28 14:56:34.388128 : if departure==True
+2024-02-28 14:56:59.950937 : https://dertourro.web13.dtweb.cz/egipt/hurghada/makadi-bay/prima-life-makadi-spa?AC1=2&D=64421|64422|64426|64424|64423|64419|64420|64425&DD=2024-02-03&DP=2691&DPR=DER+Touristik+RO+ATCOM&DS=2048&GIATA=77592&HID=9193&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG20068&RD=2024-02-11&acm1=2&df=2024-01-31|2024-04-01&nnm=3|4|5|6|7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terms
+2024-02-28 14:57:09.858003 : <selenium.webdriver.remote.webelement.WebElement (session="d2dc5a9123692375cd92cbd07218a30e", element="f.027191C75D170AC1208F2D1FA72D8D01.d.ABC6949F1B1E7FFCB663CAEAC28AD04C.e.554")>
+2024-02-28 14:57:46.592340 : https://dertourro.web13.dtweb.cz/egipt/hurghada/makadi-bay/prima-life-makadi-spa?AC1=2&D=64421|64422|64426|64424|64423|64419|64420|64425&DD=2024-02-03&DP=2691&DPR=DER+Touristik+RO+ATCOM&DS=2048&GIATA=77592&HID=9193&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG20068&RD=2024-02-11&acm1=2&df=2024-01-31|2024-04-01&nnm=3|4|5|6|7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/terms
+2024-02-28 14:57:59.061071 : <selenium.webdriver.remote.webelement.WebElement (session="44a542988f552b22ed57a64de74916e3", element="f.644672D91AD5C5ED93E73B7F3F224637.d.3A48159F3A8DFE572DBAFB00E963FC86.e.551")>
+2024-02-28 14:58:34.423512 : https://dertourro.web13.dtweb.cz/egipt/hurghada/makadi-bay/prima-life-makadi-spa?AC1=2&D=64421|64422|64426|64424|64423|64419|64420|64425&DD=2024-02-03&DP=2691&DPR=DER+Touristik+RO+ATCOM&DS=2048&GIATA=77592&HID=9193&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG20068&RD=2024-02-11&acm1=2&df=2024-01-31|2024-04-01&nnm=3|4|5|6|7|8|9|10|11|12|13|14|15&ptm=0&sortorder=1&tt=1&ttm=1#/terms
+2024-02-28 14:59:23.644903 : <selenium.webdriver.remote.webelement.WebElement (session="9d3a65c3eb792ccb11eb9792b0af1a01", element="f.25A161BBF4188AECAE9A2959266DE2A2.d.5EE6BBC458067D4FA669906223D46F27.e.538")>
+2024-02-28 14:59:27.203480 : GRECIA
+2024-02-28 14:59:29.174109 : hotel dlazdice klik
+2024-02-28 14:59:33.062801 : TURCIA
+2024-02-28 14:59:34.796810 : hotel dlazdice klik
+2024-02-28 14:59:38.312775 : EGIPT
+2024-02-28 14:59:39.984656 : hotel dlazdice klik
+2024-02-28 14:59:43.233567 : OMAN
+2024-02-28 14:59:44.925647 : hotel dlazdice klik
+2024-02-28 14:59:49.062680 : MALDIVE
+2024-02-28 14:59:50.937808 : hotel dlazdice klik
+2024-02-28 14:59:54.875252 : DUBAI
+2024-02-28 14:59:56.547103 : hotel dlazdice klik
+2024-02-28 15:00:00.547790 : MEXIC
+2024-02-28 15:00:02.250350 : hotel dlazdice klik
+2024-02-28 15:00:05.985244 : CIPRU
+2024-02-28 15:00:08.375438 : hotel dlazdice klik
+2024-02-28 15:00:12.829788 : PANAMA
+2024-02-28 15:00:15.297539 : hotel dlazdice klik
+2024-02-28 15:00:19.735910 : LA ROSA WAVES
+2024-02-28 15:00:22.219356 : hotel dlazdice klik
+2024-02-28 15:00:26.953968 : XORIA DELUXE
+2024-02-28 15:00:29.656961 : hotel dlazdice klik
+2024-02-28 15:00:34.453893 : BEACH RESORT SALALAH
+2024-02-28 15:00:37.297764 : hotel dlazdice klik
+2024-02-28 15:00:43.269074 : RIU PLAZA PANAMA
+2024-02-28 15:00:45.251129 : hotel dlazdice klik
+2024-02-28 15:00:48.891570 : CORA CORA MALDIVES
+2024-02-28 15:00:51.644416 : hotel dlazdice klik
+2024-02-28 15:00:55.175139 : BAHIA PRINCIPE LUXURY AUMAL
+2024-02-28 15:00:57.032313 : hotel dlazdice klik
+2024-02-28 15:00:57.047938 : https://dertourro.web13.dtweb.cz/mexic/quintana-roo/akumal/bahia-principe-luxury-aumal?DS=2048&GIATA=247621&D=63982&HID=143529&DF=2024-04-18|2024-05-16&RD=2024-05-11&DD=2024-05-02&ERM=0&AC1=2&KC1=0&IC1=0&MNN=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&NNM=0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26&PID=PCM73002&DPR=DER%20Touristik%20RO%20ATCOM
+2024-02-28 15:01:08.830795 : <selenium.webdriver.remote.webelement.WebElement (session="f44a993034b61f94b24062fee6f99e09", element="f.7A17D01DE92849193B96102A1039D000.d.D1E861B68CD9A6C2C3C4D455691EC889.e.526")>
+2024-02-28 15:01:09.094386 : GRECIA
+2024-02-28 15:01:13.441300 : TURCIA
+2024-02-28 15:01:16.503351 : EGIPT
+2024-02-28 15:01:19.755964 : OMAN
+2024-02-28 15:01:22.599762 : MALDIVE
+2024-02-28 15:01:26.370861 : DUBAI
+2024-02-28 15:01:28.971985 : MEXIC
+2024-02-28 15:01:32.700925 : CIPRU
+2024-02-28 15:01:36.267497 : PANAMA
+2024-02-28 15:01:40.010379 : LA ROSA WAVES
+2024-02-28 15:01:43.127226 : XORIA DELUXE
+2024-02-28 15:01:45.470927 : BEACH RESORT SALALAH
+2024-02-28 15:01:48.648200 : RIU PLAZA PANAMA
+2024-02-28 15:01:51.502436 : CORA CORA MALDIVES
+2024-02-28 15:01:54.143381 : BAHIA PRINCIPE LUXURY AUMAL
+2024-02-28 15:01:56.010298 : https://dertourro.web13.dtweb.cz/rezultate-cautare?q=Bahia%20Principe%20Luxury%20Aumal
+2024-02-28 15:02:07.721927 : <selenium.webdriver.remote.webelement.WebElement (session="b6506b84feba2e9499f889aa6815b400", element="f.70E36FC3E46D7BE3607A88C80C0C494E.d.E47F1890CC1B89DE6CFE888FBCEFD2AF.e.552")>
+2024-02-28 15:02:35.455743 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&dd=2023-11-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-01-01&tt=1
+2024-02-28 15:02:44.378091 : <selenium.webdriver.remote.webelement.WebElement (session="8d132e058fe8d9d031eda7135714e06e", element="f.A1D3034059795ABBE2DD51D72FE83335.d.5ADEA08E9D8A51104A87DBE847F34B20.e.118")>
+2024-02-28 15:02:47.549434 : https://dertourro.web13.dtweb.cz/last-minute
+2024-02-28 15:03:03.313423 : <selenium.webdriver.remote.webelement.WebElement (session="512b9950f3b7cb42f4cf3b32f4346de3", element="f.D080DB316C2BEAD54AF1FC77D7CD280F.d.12E170E87C9586E758951D77B95D7B49.e.531")>
+2024-02-28 15:03:05.473950 : Map is displayed
+2024-02-28 15:03:05.508007 : mapa kolecka
+2024-02-28 15:03:05.518979 : mapa kolecka
+2024-02-28 15:03:09.065520 : basic info 
+2024-02-28 15:03:09.081146 : basic info 
+2024-02-28 15:03:09.081146 : basic info 
+2024-02-28 15:03:09.098980 : basic info 
+2024-02-28 15:03:09.114589 : basic info 
+2024-02-28 15:03:09.114589 : basic info 
+2024-02-28 15:03:09.128097 : basic info 
+2024-02-28 15:03:09.143724 : basic info 
+2024-02-28 15:03:09.143724 : basic info 
+2024-02-28 15:03:09.159231 : basic info 
+2024-02-28 15:03:09.159231 : basic info 
+2024-02-28 15:03:09.174857 : basic info 
+2024-02-28 15:03:09.190365 : basic info 
+2024-02-28 15:03:09.190365 : basic info 
+2024-02-28 15:03:09.207066 : basic info 
+2024-02-28 15:03:09.207066 : basic info 
+2024-02-28 15:03:09.276416 : basic info 
+2024-02-28 15:03:09.285758 : basic info 
+2024-02-28 15:03:09.297223 : basic info 
+2024-02-28 15:03:09.307729 : basic info 
+2024-02-28 15:03:09.318072 : basic info 
+2024-02-28 15:03:09.328380 : basic info 
+2024-02-28 15:03:09.338631 : basic info 
+2024-02-28 15:03:09.349614 : basic info 
+2024-02-28 15:03:09.358872 : basic info 
+2024-02-28 15:03:09.370110 : basic info 
+2024-02-28 15:03:09.380415 : basic info 
+2024-02-28 15:03:09.391225 : basic info 
+2024-02-28 15:03:09.401921 : basic info 
+2024-02-28 15:03:09.412449 : basic info 
+2024-02-28 15:03:09.421527 : basic info 
+2024-02-28 15:03:09.432781 : basic info 
+2024-02-28 15:03:09.443542 : basic info 
+2024-02-28 15:03:09.454010 : basic info 
+2024-02-28 15:03:09.464565 : basic info 
+2024-02-28 15:03:09.475460 : basic info 
+2024-02-28 15:03:09.485833 : basic info 
+2024-02-28 15:03:09.495337 : basic info 
+2024-02-28 15:03:09.506620 : basic info 
+2024-02-28 15:03:09.517733 : basic info 
+2024-02-28 15:03:09.528147 : basic info 
+2024-02-28 15:03:09.539321 : basic info 
+2024-02-28 15:03:09.550060 : basic info 
+2024-02-28 15:03:09.562250 : basic info 
+2024-02-28 15:03:09.566476 : basic info 
+2024-02-28 15:03:09.582126 : basic info 
+2024-02-28 15:03:09.597681 : basic info 
+2024-02-28 15:03:09.613393 : basic info 
+2024-02-28 15:03:09.615558 : basic info 
+2024-02-28 15:03:09.628062 : basic info 
+2024-02-28 15:03:09.643690 : basic info 
+2024-02-28 15:03:09.643690 : basic info 
+2024-02-28 15:03:09.659200 : basic info 
+2024-02-28 15:03:09.674827 : basic info 
+2024-02-28 15:03:09.674827 : basic info 
+2024-02-28 15:03:09.690336 : basic info 
+2024-02-28 15:03:09.721607 : boxiky
+2024-02-28 15:03:09.737233 : boxiky
+2024-02-28 15:03:09.752854 : boxiky
+2024-02-28 15:03:09.752854 : boxiky
+2024-02-28 15:03:09.768475 : boxiky
+2024-02-28 15:03:09.784097 : boxiky
+2024-02-28 15:03:09.784097 : boxiky
+2024-02-28 15:03:09.799718 : boxiky
+2024-02-28 15:03:09.815341 : boxiky
+2024-02-28 15:03:09.815341 : boxiky
+2024-02-28 15:03:09.832107 : boxiky
+2024-02-28 15:03:09.846612 : boxiky
+2024-02-28 15:03:09.846612 : boxiky
+2024-02-28 15:03:09.862237 : boxiky
+2024-02-28 15:03:09.877859 : boxiky
+2024-02-28 15:03:09.877859 : boxiky
+2024-02-28 15:03:09.893481 : boxiky
+2024-02-28 15:03:09.909101 : boxiky
+2024-02-28 15:03:09.909101 : boxiky
+2024-02-28 15:03:09.924723 : boxiky
+2024-02-28 15:03:09.941433 : boxiky
+2024-02-28 15:03:09.942476 : boxiky
+2024-02-28 15:03:09.958099 : boxiky
+2024-02-28 15:03:09.971608 : boxiky
+2024-02-28 15:03:09.971608 : boxiky
+2024-02-28 15:03:09.987236 : boxiky
+2024-02-28 15:03:10.002860 : boxiky
+2024-02-28 15:03:10.002860 : boxiky
+2024-02-28 15:03:10.018479 : boxiky
+2024-02-28 15:03:10.034102 : boxiky
+2024-02-28 15:03:10.034102 : boxiky
+2024-02-28 15:03:10.051843 : boxiky
+2024-02-28 15:03:10.065349 : boxiky
+2024-02-28 15:03:10.080975 : boxiky
+2024-02-28 15:03:10.080975 : boxiky
+2024-02-28 15:03:10.096596 : boxiky
+2024-02-28 15:03:10.112219 : boxiky
+2024-02-28 15:03:10.112219 : boxiky
+2024-02-28 15:03:10.127840 : boxiky
+2024-02-28 15:03:10.143461 : boxiky
+2024-02-28 15:03:10.143461 : boxiky
+2024-02-28 15:03:10.161209 : boxiky
+2024-02-28 15:03:10.176833 : boxiky
+2024-02-28 15:03:10.176833 : boxiky
+2024-02-28 15:03:10.190342 : boxiky
+2024-02-28 15:03:10.205967 : boxiky
+2024-02-28 15:03:10.221590 : boxiky
+2024-02-28 15:03:10.277059 : boxiky
+2024-02-28 15:03:10.290014 : boxiky
+2024-02-28 15:03:10.299989 : boxiky
+2024-02-28 15:03:10.310959 : boxiky
+2024-02-28 15:03:10.322052 : boxiky
+2024-02-28 15:03:10.333024 : boxiky
+2024-02-28 15:03:10.343994 : boxiky
+2024-02-28 15:03:10.355963 : boxiky
+2024-02-28 15:03:10.366933 : boxiky
+2024-02-28 15:03:10.377904 : boxiky
+2024-02-28 15:03:10.388875 : boxiky
+2024-02-28 15:03:10.399845 : boxiky
+2024-02-28 15:03:10.411814 : boxiky
+2024-02-28 15:03:10.422784 : boxiky
+2024-02-28 15:03:10.433755 : boxiky
+2024-02-28 15:03:10.444725 : boxiky
+2024-02-28 15:03:10.455697 : boxiky
+2024-02-28 15:03:10.467665 : boxiky
+2024-02-28 15:03:10.478636 : boxiky
+2024-02-28 15:03:10.489627 : boxiky
+2024-02-28 15:03:10.500597 : boxiky
+2024-02-28 15:03:10.512363 : boxiky
+2024-02-28 15:03:10.523586 : boxiky
+2024-02-28 15:03:10.534591 : boxiky
+2024-02-28 15:03:10.546984 : boxiky
+2024-02-28 15:03:10.558477 : boxiky
+2024-02-28 15:03:10.575134 : boxiky
+2024-02-28 15:03:10.578423 : boxiky
+2024-02-28 15:03:10.599826 : boxiky
+2024-02-28 15:03:10.599826 : boxiky
+2024-02-28 15:03:10.615449 : boxiky
+2024-02-28 15:03:10.627954 : boxiky
+2024-02-28 15:03:10.643581 : boxiky
+2024-02-28 15:03:10.643581 : boxiky
+2024-02-28 15:03:10.659202 : boxiky
+2024-02-28 15:03:10.677565 : boxiky
+2024-02-28 15:03:10.689349 : boxiky
+2024-02-28 15:03:10.700106 : boxiky
+2024-02-28 15:03:10.711364 : boxiky
+2024-02-28 15:03:10.721937 : boxiky
+2024-02-28 15:03:10.721937 : boxiky
+2024-02-28 15:03:10.737563 : boxiky
+2024-02-28 15:03:10.753071 : boxiky
+2024-02-28 15:03:10.753071 : boxiky
+2024-02-28 15:03:10.768696 : boxiky
+2024-02-28 15:03:10.785412 : boxiky
+2024-02-28 15:03:10.785412 : boxiky
+2024-02-28 15:03:10.801035 : boxiky
+2024-02-28 15:03:10.815554 : boxiky
+2024-02-28 15:03:10.831180 : boxiky
+2024-02-28 15:03:10.831180 : boxiky
+2024-02-28 15:03:10.846687 : boxiky
+2024-02-28 15:03:10.862313 : boxiky
+2024-02-28 15:03:10.877935 : boxiky
+2024-02-28 15:03:10.877935 : boxiky
+2024-02-28 15:03:10.895654 : boxiky
+2024-02-28 15:03:10.909160 : boxiky
+2024-02-28 15:03:10.924785 : boxiky
+2024-02-28 15:03:10.924785 : boxiky
+2024-02-28 15:03:10.940407 : boxiky
+2024-02-28 15:03:10.956029 : boxiky
+2024-02-28 15:03:10.956029 : boxiky
+2024-02-28 15:03:10.971651 : boxiky
+2024-02-28 15:03:10.987272 : boxiky
+2024-02-28 15:03:11.004012 : boxiky
+2024-02-28 15:03:11.005023 : https://dertourro.web13.dtweb.cz/agentii-dertour
+2024-02-28 15:03:22.909547 : <selenium.webdriver.remote.webelement.WebElement (session="3fa7c0f670f3ac2ef8588ed8e4f35c1f", element="f.0D18BD809E7EB6AE9E196045841AE9C2.d.A817020B67BAE01623FB9B4FE363E699.e.526")>
+2024-02-28 15:03:28.581262 : https://dertourro.web13.dtweb.cz/egipt
+2024-02-28 15:03:41.113792 : <selenium.webdriver.remote.webelement.WebElement (session="3b296f18f3d7acad2e60835d2c7f9953", element="f.7619E43260DBBF0E04F1C3679F112FF9.d.CCFBC2125E7D51FA102BCAC7943DEE5D.e.548")>
+2024-02-28 15:04:10.251489 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:04:24.925936 : <selenium.webdriver.remote.webelement.WebElement (session="cd640a09e0c10022a3945610f4f94e5a", element="f.B763232011A7F79CE3532ABDC55B9425.d.5E337250316C8A846225702ED0F45509.e.548")>
+2024-02-28 15:04:54.113650 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:05:05.254384 : <selenium.webdriver.remote.webelement.WebElement (session="94d7d4c1ceef5ee7639c3372706606e8", element="f.0A52A9B73C05BA98B06B34E4EA113124.d.3907C1317D2AA162ED9763BE4B1CABAA.e.546")>
+2024-02-28 15:05:32.411105 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:05:49.926931 : <selenium.webdriver.remote.webelement.WebElement (session="18cf2e1ba6c40e7cc5158580b0c6e9c4", element="f.89EB42FB61C3D3AEF75CBA481F6CDC68.d.27F95913AE43284780B7469C59170E37.e.548")>
+2024-02-28 15:06:17.053773 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:06:26.882978 : <selenium.webdriver.remote.webelement.WebElement (session="37a1100af0412ba9a6a4d44975b44eca", element="f.E4EF691346016E9EBB7655A235B2A53B.d.91A4E73B56770FD82353CF680BFD6ACE.e.532")>
+2024-02-28 15:06:53.006233 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:07:08.178337 : <selenium.webdriver.remote.webelement.WebElement (session="827aec026f57e9724a239e99beb5c4e5", element="f.2295AB45101BE0EC8DAEF0BAA125B16B.d.79A3DA41D75B7B6A102242A796AC062D.e.546")>
+2024-02-28 15:07:14.349924 : None
+2024-02-28 15:07:14.349924 : consent pass
+2024-02-28 15:07:39.444261 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2024-01-01&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-02-29&tt=1
+2024-02-28 15:07:49.782247 : <selenium.webdriver.remote.webelement.WebElement (session="e72bcdc7ed38b72ab0891764941d3fe6", element="f.FFB372003CF6367CB69A44786ABAD7C5.d.DE2239B2F39504C9643C1BB29371E604.e.535")>
+2024-02-28 15:08:18.694526 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?dd=2024-02-28&nn=1|2|3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-04-29&tt=1
+2024-02-28 15:08:26.033450 : None
+2024-02-28 15:08:26.033450 : consent pass
+2024-02-28 15:08:30.621096 : https://dertourro.web13.dtweb.cz/
+2024-02-28 15:08:43.179557 : <selenium.webdriver.remote.webelement.WebElement (session="6e1a9235c74d957cec2564519985a90c", element="f.DF0E86F095354AE392DDB63C95876D5C.d.D7D2D338321E06E62A91EB0906F61DD6.e.556")>
+2024-02-28 15:09:22.133399 : ------------------------------------------
+2024-02-28 15:09:22.133399 : LIST FROM PUBLIC WWW PRODUCTION https://www.dertour.ro/
+2024-02-28 15:09:22.133399 : ['1152 rezultate in 6 destinatii', 'profita acum de ofertele last minute!', 'paste 2024', '8 rezultat in 1 destinatie', '31 rezultate in 1 destinatie', '']
+2024-02-28 15:09:22.133399 : ------------------------------------------
+2024-02-28 15:09:22.133399 : LIST FROM DEPLOYING WEB https://dertourro.web13.dtweb.cz/
+2024-02-28 15:09:22.133399 : ['1152 rezultate in 6 destinatii', 'profita acum de ofertele last minute!', 'paste 2024', '8 rezultat in 1 destinatie', '31 rezultate in 1 destinatie', '']
+2024-02-28 15:09:22.133399 : ------------------------------------------
+2024-02-28 15:09:22.133399 : Banners are GOOD, TEST OK https://www.dertour.ro/ VS https://dertourro.web13.dtweb.cz/
+2024-02-28 15:09:22.149226 : https://dertourro.web13.dtweb.cz/
+2024-02-28 15:09:34.418665 : <selenium.webdriver.remote.webelement.WebElement (session="46267dc90ccf62e7822d1e18273dc1bd", element="f.CFBA8080C3AAEA178BAE6957D25E840C.d.2188877CD1B5835F4C38388A14EA0CE2.e.537")>
+2024-02-28 15:09:45.180673 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=64091&dd=2024-02-28&nn=3|4|5|6|7|8|9|10|11|12|13|14|15&rd=2024-04-29&tt=1
+2024-02-28 15:09:56.008541 : <selenium.webdriver.remote.webelement.WebElement (session="a8541cfcd1d2a785aec248c7060ce363", element="f.64BF2EF80E6F9E1D7A8F2BC6C228DE38.d.0858DB8DC8AD6AA983BCC44F536AB67F.e.535")>
+2024-02-28 15:10:07.133803 : https://dertourro.web13.dtweb.cz/early-booking
+2024-02-28 15:10:16.665186 : <selenium.webdriver.remote.webelement.WebElement (session="d3b1f419f005b29dd01d72b90c53828c", element="f.07FE78B6F6915FA6FD26060F22A36A32.d.5FD42762A500574B23E5EA7A2529351F.e.536")>
+2024-02-28 15:10:28.883721 : https://dertourro.web13.dtweb.cz/circuite
+2024-02-28 15:10:38.884173 : <selenium.webdriver.remote.webelement.WebElement (session="2b682f0d9fae082c2293851e604db10c", element="f.68D75F37A0AE712B987863ADC2278E82.d.012D17FA49735E85AD2CFECCEA17E82D.e.1117")>
+2024-02-28 15:10:41.680761 : https://dertourro.web13.dtweb.cz/
+2024-02-28 15:14:19.407305 : len(pocet_vysledku_list_default)
+2024-02-28 15:14:19.407305 : 20
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : len(pocet_vysledku_list_dev))
+2024-02-28 15:14:19.407305 : 20
+2024-02-28 15:14:19.407305 : 188 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 188 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&nn=7|8|9|10|11|12|13&rd=2024-01-01&sortby=PriceTotal&sortorder=1&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&nn=7|8|9|10|11|12|13&rd=2024-01-01&sortby=PriceTotal&sortorder=1&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 0
+2024-02-28 15:14:19.407305 : 166 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 166 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-01-01&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64421|64422|64426|64424|64423|64419|64420|64425&dd=2023-11-01&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-01-01&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 1
+2024-02-28 15:14:19.407305 : 65 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 65 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 2
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64087|64089|64090|64091|64086&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 3
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&ic1=1&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 4
+2024-02-28 15:14:19.407305 : 16 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : 16 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz/rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro/rezultatele-cautarii?ac1=2&d=63885|63890|63891|63889|63892|63888|63886|63887&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 5
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 6
+2024-02-28 15:14:19.407305 : 39 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 39 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64168|64162|64161|64167|64171|64166|64169|64172|64174|64159|64170|64164|64176|64160|64173|64175|64163|64165&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 7
+2024-02-28 15:14:19.407305 : 23 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 23 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 8
+2024-02-28 15:14:19.407305 : 14 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : 14 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63738&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 9
+2024-02-28 15:14:19.407305 : 21 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 21 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&ic1=1&ka1=10&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 10
+2024-02-28 15:14:19.407305 : 28 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 28 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63972|63984|63977|63979|63981|64037|63976|63988|63978|63975|63980|63982|63974|63973|63985|63987|63986|63983&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 11
+2024-02-28 15:14:19.407305 : 8 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : 8 rezultat in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64102|64099&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64102|64099&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 12
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63992|63994|63995|75728|75729|63993|75730|77252|75731|77253&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63992|63994|63995|75728|75729|63993|75730|77252|75731|77253&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 13
+2024-02-28 15:14:19.407305 : 326 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 326 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-05-01&nn=7|8|9|10|11|12|13&rd=2024-06-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-05-01&nn=7|8|9|10|11|12|13&rd=2024-06-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 14
+2024-02-28 15:14:19.407305 : 20 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 20 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=63763|63764|63767|63766|63765&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=63763|63764|63767|63766|63765&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 15
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 42 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 16
+2024-02-28 15:14:19.407305 : 40 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : 40 rezultate in 1 destinatie
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64144|64128|64126|64127|64133|64130&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 17
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&ka1=6&kc1=1&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 18
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : nu ai gasit ce cautai?
+2024-02-28 15:14:19.407305 : https://dertourro.web13.dtweb.cz//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1
+2024-02-28 15:14:19.407305 :              
+2024-02-28 15:14:19.407305 : 19
+2024-02-28 15:14:19.407305 : 20
+2024-02-28 15:14:19.419086 : https://www.dertour.ro//rezultatele-cautarii?ac1=2&d=64157|63288|212113|211801|63260|63448|64152|64153|64154|211814&dd=2024-02-29&nn=7|8|9|10|11|12|13&rd=2024-04-30&tt=1

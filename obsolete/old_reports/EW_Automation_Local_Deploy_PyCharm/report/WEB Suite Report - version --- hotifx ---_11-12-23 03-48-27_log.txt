@@ -1,0 +1,158 @@
+2023-12-11 15:48:32.220703 : <selenium.webdriver.remote.webelement.WebElement (session="fd262ce313868ffebb23cd7fc9df7902", element="F34A7C6270089F77B52270F628068363_element_255")>
+2023-12-11 15:48:33.479117 : gridy jdou videt
+2023-12-11 15:48:33.490840 : gridy jdou videt
+2023-12-11 15:48:33.505801 : gridy jdou videt
+2023-12-11 15:48:33.516903 : gridy jdou videt
+2023-12-11 15:48:33.524881 : gridy jdou videt
+2023-12-11 15:48:33.534855 : gridy jdou videt
+2023-12-11 15:48:33.546479 : gridy jdou videt
+2023-12-11 15:48:33.554458 : gridy jdou videt
+2023-12-11 15:48:33.563434 : gridy jdou videt
+2023-12-11 15:48:33.572411 : gridy jdou videt
+2023-12-11 15:48:33.581911 : gridy jdou videt
+2023-12-11 15:48:33.581911 : gridy jdou videt
+2023-12-11 15:48:33.598756 : gridy jdou videt
+2023-12-11 15:48:33.610035 : gridy jdou videt
+2023-12-11 15:48:33.619011 : gridy jdou videt
+2023-12-11 15:48:33.629982 : gridy jdou videt
+2023-12-11 15:48:33.638958 : gridy jdou videt
+2023-12-11 15:48:33.646936 : gridy jdou videt
+2023-12-11 15:48:33.657908 : gridy jdou videt
+2023-12-11 15:48:33.665887 : gridy jdou videt
+2023-12-11 15:48:33.676858 : gridy jdou videt
+2023-12-11 15:48:33.692817 : gridy jdou videt
+2023-12-11 15:48:33.707776 : gridy jdou videt
+2023-12-11 15:48:33.716753 : gridy jdou videt
+2023-12-11 15:48:33.727724 : gridy jdou videt
+2023-12-11 15:48:33.736700 : gridy jdou videt
+2023-12-11 15:48:33.757645 : gridy jdou videt
+2023-12-11 15:48:33.772605 : gridy jdou videt
+2023-12-11 15:48:33.782578 : gridy jdou videt
+2023-12-11 15:48:33.793549 : gridy jdou videt
+2023-12-11 15:48:33.804520 : gridy jdou videt
+2023-12-11 15:48:33.817486 : gridy jdou videt
+2023-12-11 15:48:33.831451 : gridy jdou videt
+2023-12-11 15:48:33.844415 : gridy jdou videt
+2023-12-11 15:48:33.857380 : gridy jdou videt
+2023-12-11 15:48:33.867354 : gridy jdou videt
+2023-12-11 15:48:33.884309 : gridy jdou videt
+2023-12-11 15:48:33.949593 : content jdou videt
+2023-12-11 15:48:33.960755 : content jdou videt
+2023-12-11 15:48:33.964217 : content jdou videt
+2023-12-11 15:48:33.988439 : content jdou videt
+2023-12-11 15:48:33.998412 : content jdou videt
+2023-12-11 15:48:34.009383 : content jdou videt
+2023-12-11 15:48:34.020355 : content jdou videt
+2023-12-11 15:48:34.030329 : content jdou videt
+2023-12-11 15:48:34.040302 : content jdou videt
+2023-12-11 15:48:34.049278 : content jdou videt
+2023-12-11 15:48:34.059252 : content jdou videt
+2023-12-11 15:48:34.069225 : content jdou videt
+2023-12-11 15:48:34.078202 : content jdou videt
+2023-12-11 15:48:34.080913 : content jdou videt
+2023-12-11 15:48:34.096535 : content jdou videt
+2023-12-11 15:48:34.132598 : content jdou videt
+2023-12-11 15:48:34.149554 : content jdou videt
+2023-12-11 15:48:34.158529 : content jdou videt
+2023-12-11 15:48:34.167506 : content jdou videt
+2023-12-11 15:48:34.177480 : content jdou videt
+2023-12-11 15:48:34.186456 : content jdou videt
+2023-12-11 15:48:34.196429 : content jdou videt
+2023-12-11 15:48:34.205505 : content jdou videt
+2023-12-11 15:48:34.214482 : content jdou videt
+2023-12-11 15:48:34.224455 : content jdou videt
+2023-12-11 15:48:34.233431 : content jdou videt
+2023-12-11 15:48:34.243405 : content jdou videt
+2023-12-11 15:48:34.255373 : content jdou videt
+2023-12-11 15:48:34.266344 : content jdou videt
+2023-12-11 15:48:34.286291 : content jdou videt
+2023-12-11 15:48:34.295267 : content jdou videt
+2023-12-11 15:48:34.305241 : content jdou videt
+2023-12-11 15:48:34.315215 : content jdou videt
+2023-12-11 15:48:34.325188 : content jdou videt
+2023-12-11 15:48:34.337157 : content jdou videt
+2023-12-11 15:48:34.346133 : content jdou videt
+2023-12-11 15:48:34.360331 : content jdou videt
+2023-12-11 15:48:34.365318 : https://exim.web11.dtweb.cz/covid-info
+2023-12-11 15:48:43.242062 : <selenium.webdriver.remote.webelement.WebElement (session="081a8b5c716fa58c316ca35b5cfd1b75", element="20F83CBFF894337CC80C8CFFC6C0A9CC_element_448")>
+2023-12-11 15:48:44.129099 : https://exim.web11.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled
+2023-12-11 15:48:49.530085 : None
+2023-12-11 15:48:49.530085 : consent pass
+2023-12-11 15:48:54.754910 : its ok
+2023-12-11 15:48:54.760229 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/safaga/amarina-abu-soma-resort/197864-15.jpeg
+2023-12-11 15:49:06.279589 : <selenium.webdriver.remote.webelement.WebElement (session="abcad45d93fd65269646d9341a98c496", element="94281263A1989B95C847811C6EEA0E76_element_244")>
+2023-12-11 15:49:12.529664 : else departure not true
+2023-12-11 15:49:21.172707 : all inclusive
+2023-12-11 15:49:23.186681 : 0
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ok
+2023-12-11 15:49:23.389047 : ['all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive', 'all inclusive']
+2023-12-11 15:49:23.389047 : https://exim.web11.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&mtm=5&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/terminy
+2023-12-11 15:49:30.978279 : <selenium.webdriver.remote.webelement.WebElement (session="3937e032f288cee106fef07c81cdc867", element="13F2B4694F9890C5B0E685C5D9DFC430_element_242")>
+2023-12-11 15:49:37.453611 : if departure==True
+2023-12-11 15:49:53.687226 : equal to brno
+2023-12-11 15:49:53.702735 : equal to brno
+2023-12-11 15:49:53.736044 : equal to brno
+2023-12-11 15:49:53.765174 : equal to brno
+2023-12-11 15:49:53.780801 : equal to brno
+2023-12-11 15:49:53.811951 : equal to brno
+2023-12-11 15:49:53.845217 : equal to brno
+2023-12-11 15:49:53.874350 : equal to brno
+2023-12-11 15:49:53.905594 : equal to brno
+2023-12-11 15:49:53.936838 : equal to brno
+2023-12-11 15:49:53.953746 : equal to brno
+2023-12-11 15:49:53.983874 : equal to brno
+2023-12-11 15:49:54.015010 : equal to brno
+2023-12-11 15:49:54.046145 : equal to brno
+2023-12-11 15:49:54.077410 : equal to brno
+2023-12-11 15:49:54.093036 : equal to brno
+2023-12-11 15:49:54.124280 : equal to brno
+2023-12-11 15:49:54.155524 : equal to brno
+2023-12-11 15:49:54.173198 : equal to brno
+2023-12-11 15:49:54.421199 : https://exim.web11.dtweb.cz//egypt/hurghada/hurghada/amarina-abu-soma-resort?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-16&DP=4305&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=85&HID=9156&IC1=1&IFM=0&ILM=0&KA1=10&KC1=1&MNN=7&MT=5&NN=7&PID=HRG90013&RC=DR01&RD=2024-10-23&TO=4305&acm1=2&df=2024-10-14|2024-10-31&icm1=1&kam1=10&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=4305&tt=1&ttm=1#/terminy
+2023-12-11 15:50:04.687899 : <selenium.webdriver.remote.webelement.WebElement (session="0e0032e73c7b2f55d3fad277c416689f", element="873FFA4C80A63683C8D393AD283569D8_element_230")>
+2023-12-11 15:50:07.812458 : benefit item
+2023-12-11 15:50:07.812458 : benefit item
+2023-12-11 15:50:07.828585 : benefit item
+2023-12-11 15:50:07.844207 : benefit item
+2023-12-11 15:50:07.964105 : grind container
+2023-12-11 15:50:07.988863 : grind container
+2023-12-11 15:50:07.998812 : grind container
+2023-12-11 15:50:08.008885 : grind container
+2023-12-11 15:50:08.019404 : grind container
+2023-12-11 15:50:08.028380 : grind container
+2023-12-11 15:50:08.038892 : grind container
+2023-12-11 15:50:08.047562 : grind container
+2023-12-11 15:50:08.047562 : grind container
+2023-12-11 15:50:08.064305 : grind container
+2023-12-11 15:50:08.064305 : grind container
+2023-12-11 15:50:08.077812 : grind container
+2023-12-11 15:50:08.093438 : grind container
+2023-12-11 15:50:08.093438 : grind container
+2023-12-11 15:50:08.109060 : grind container
+2023-12-11 15:50:08.124682 : https://exim.web11.dtweb.cz//kluby/mango-leto
+2023-12-11 15:50:16.309888 : <selenium.webdriver.remote.webelement.WebElement (session="64083bc46d78dc86db8c81304e904e34", element="9EC171B1AFA489CD14022D0A73399992_element_465")>
+2023-12-11 15:50:18.189467 : benefit items jdou videt
+2023-12-11 15:50:18.189467 : https://exim.web11.dtweb.cz/first-minute/leto
+2023-12-11 15:50:28.422374 : <selenium.webdriver.remote.webelement.WebElement (session="a0790ae0b0ff6dfa86170e027683b82f", element="A4C1A34E9D34B9F2BD832B73EA8690CB_element_237")>
+2023-12-11 15:50:31.750434 : ZANZIBAR
+2023-12-11 15:50:33.703970 : hote dlazdice klik
+2023-12-11 15:50:37.297557 : ØECKO

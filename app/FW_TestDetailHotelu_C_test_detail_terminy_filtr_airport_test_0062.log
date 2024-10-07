@@ -1,0 +1,21 @@
+INFO - Starting filtering process with filter type: airport
+INFO - Filter type is 'airport'. Executing airport filter logic.
+INFO - Completed filtering process for filter type: airport
+INFO - Starting departure check.
+INFO - Found 15 visible departure terms.
+INFO - Found 15 departure terms.
+INFO - Departure term at position 1 matches praha.
+INFO - Departure term at position 2 matches praha.
+INFO - Departure term at position 3 matches praha.
+INFO - Departure term at position 4 matches praha.
+INFO - Departure term at position 5 matches praha.
+INFO - Departure term at position 6 matches praha.
+INFO - Departure term at position 7 matches praha.
+INFO - Departure term at position 8 matches praha.
+INFO - Departure term at position 9 matches praha.
+INFO - Departure term at position 10 matches praha.
+INFO - Departure term at position 11 matches praha.
+INFO - Departure term at position 12 matches praha.
+INFO - Departure term at position 13 matches praha.
+INFO - Completed departure check.
+INFO - https://fischer.web3.dtweb.cz//velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-10-08&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-08-08&sortby=Departure&tom=4312&tt=1&ttm=1#hotelDetailFilterStart

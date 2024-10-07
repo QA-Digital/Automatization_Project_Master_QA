@@ -1,0 +1,67 @@
+2024-09-25 11:30:25,778 - TestSRL_D - INFO - Starting search results listing check.
+2024-09-25 11:30:31,847 - TestSRL_D - INFO - Found 20 hotel cards in the search results.
+2024-09-25 11:30:31,871 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,881 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,892 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,903 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,913 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,924 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,935 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,946 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,957 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,968 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,979 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:31,990 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,000 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,011 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,022 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,032 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,043 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,054 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,065 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:32,075 - TestSRL_D - INFO - Hotel card visible: True
+2024-09-25 11:30:35,095 - TestSRL_D - INFO - First hotel card is displayed.
+2024-09-25 11:30:35,169 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,180 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,192 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,203 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,213 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,224 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,236 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,246 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,257 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,269 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,279 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,290 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,302 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,313 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,325 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,337 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,348 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,359 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,370 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,381 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,392 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,404 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,415 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,427 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,438 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,448 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,460 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,470 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,483 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,494 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,506 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,517 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,529 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,541 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,552 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,562 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,574 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,586 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,597 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,608 - TestSRL_D - INFO - Hotel price visible: True
+2024-09-25 11:30:35,618 - TestSRL_D - INFO - First hotel price is displayed.
+2024-09-25 11:30:40,651 - TestSRL_D - INFO - No loading images found in the SRL.
+2024-09-25 11:30:40,652 - TestSRL_D - INFO - Search results listing check completed.
+2024-09-25 11:30:40,659 - TestSRL_D - INFO - https://fischer.web3.dtweb.cz/vysledky-vyhledavani?DS=0&ac1=2&d=63242|63244|63455|63350|63354|63245|63241|63213|63243|63226|63349|63363|63360|213028|74459|74460|74465|211764|74464&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1
