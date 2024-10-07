@@ -1,4 +1,0 @@
-2023-10-03 10:38:47.299034 : <selenium.webdriver.remote.webelement.WebElement (session="90950e108757e62d2be6bfb02a72a35a", element="C7768D081EE0A71E6214CE6B5D1D0FEB_element_472")>
-2023-10-03 10:38:47.493494 : <bound method WebElement.is_displayed of <selenium.webdriver.remote.webelement.WebElement (session="90950e108757e62d2be6bfb02a72a35a", element="C7768D081EE0A71E6214CE6B5D1D0FEB_element_473")>>
-2023-10-03 10:39:13.671551 : https://kartagohu.web3.dtweb.cz/egyiptom/marsa-alam/marsa-alam/blue-reef-resort?AC1=2&D=64419|64420|64425&DD=2023-10-04&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=100548&HID=3968&IC1=0&KC1=0&MNN=7&MT=5&NN=7&PID=RMF20022&RD=2023-10-11&TO=489|4371&acm1=2&df=2023-10-01|2023-10-31&nnm=7&tt=1&ttm=1#/prehled
-2023-10-03 10:39:25.052418 : <selenium.webdriver.remote.webelement.WebElement (session="375a872c89b10b0c9e1819149e0a4fd2", element="81BC38AD44E76EED2D082D4C33887ABA_element_254")>

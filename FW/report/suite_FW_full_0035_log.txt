@@ -1,3 +1,0 @@
-FW - __main__ - INFO - Run Number: 0035
-FW - __main__ - INFO - Run Number: 0035
-FW - TestDetailHotelu_D - INFO - Run Number: 0035

@@ -1,9 +1,0 @@
-INFO - Starting FM/LM tour expansion check.
-INFO - Successfully clicked to expand FM/LM tour section.
-INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="32b5bb14759657123a6e3c98fb3ae518", element="f.B1A9F96142477224DC47956E61FB0434.d.0AF283ED3426CC6AE2B6AF822090BD6D.e.1013")> visibility: True
-INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="32b5bb14759657123a6e3c98fb3ae518", element="f.B1A9F96142477224DC47956E61FB0434.d.0AF283ED3426CC6AE2B6AF822090BD6D.e.1014")> visibility: True
-INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="32b5bb14759657123a6e3c98fb3ae518", element="f.B1A9F96142477224DC47956E61FB0434.d.0AF283ED3426CC6AE2B6AF822090BD6D.e.1015")> visibility: True
-INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="32b5bb14759657123a6e3c98fb3ae518", element="f.B1A9F96142477224DC47956E61FB0434.d.0AF283ED3426CC6AE2B6AF822090BD6D.e.1016")> visibility: True
-INFO - Tour element <selenium.webdriver.remote.webelement.WebElement (session="32b5bb14759657123a6e3c98fb3ae518", element="f.B1A9F96142477224DC47956E61FB0434.d.0AF283ED3426CC6AE2B6AF822090BD6D.e.1017")> visibility: True
-INFO - FM/LM tour expansion check completed successfully.
-INFO - https://exim.web12.dtweb.cz/last-minute

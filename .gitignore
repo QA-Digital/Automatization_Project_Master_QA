@@ -1,9 +1,15 @@
 to_import_secret.py
 to_import_secret_master.py
+report
+EXIM Web Suite test
 __pycache__
+results.html
+ETRAVEL-Web Suite test
 .idea
+FISCHER WEB Suite Report
 workspace.xml
 .idea/workspace.xml
 .idea/workspace.xml
 __pycache__/
 .idea/
+*.log

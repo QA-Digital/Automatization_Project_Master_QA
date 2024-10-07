@@ -1,5 +1,0 @@
-2023-08-15 15:14:58.798838 : <selenium.webdriver.remote.webelement.WebElement (session="39821dc624f5db1568669cb233f25041", element="6BB14E67210C3ACE3859E97D4F87B95C_element_117")>
-2023-08-15 15:14:59.011975 : https://fischersk.web1.dtweb.cz//egypt/egypt-hurghada/hurghada/sentido-mamlouk-palace?AC1=2&D=653|819|724&DD=2023-10-01&DP=1837&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=78630&HID=145866&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG22103&RD=2023-10-08&TO=1837&acm1=2&df=2023-10-01|2023-10-15&nnm=7&tt=1&ttm=1#/preh%C4%BEad
-2023-08-15 15:15:09.887065 : <selenium.webdriver.remote.webelement.WebElement (session="a518dde0341b74b4134ed0fcc906ea46", element="4B5F22B4AED6D704E0E4E32859C496BF_element_142")>
-2023-08-15 15:15:20.204032 : its ok
-2023-08-15 15:15:20.209018 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/sentido-mamlouk-palace-resort-a-spa/18033016.jpg

@@ -1,2 +1,0 @@
-FW - __main__ - INFO - Run Number: 0025
-FW - __main__ - ERROR - Run Number: 0025

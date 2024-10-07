@@ -1,78 +1,0 @@
-2023-04-25 08:22:32.588810 : [WDM] - Downloading:   0%|          | 0.00/6.80M [00:00<?, ?B/s]
-2023-04-25 08:22:32.689476 : [WDM] - Downloading:   7%|7         | 488k/6.80M [00:00<00:01, 4.96MB/s]
-2023-04-25 08:22:32.887790 : [WDM] - Downloading:  14%|#4        | 976k/6.80M [00:00<00:01, 3.16MB/s]
-2023-04-25 08:22:33.012470 : [WDM] - Downloading:  22%|##1       | 1.48M/6.80M [00:00<00:01, 3.66MB/s]
-2023-04-25 08:22:33.113706 : [WDM] - Downloading:  31%|###       | 2.09M/6.80M [00:00<00:01, 4.50MB/s]
-2023-04-25 08:22:33.258449 : [WDM] - Downloading:  38%|###7      | 2.55M/6.80M [00:00<00:01, 4.06MB/s]
-2023-04-25 08:22:33.362642 : [WDM] - Downloading:  48%|####7     | 3.24M/6.80M [00:00<00:00, 4.88MB/s]
-2023-04-25 08:22:33.464786 : [WDM] - Downloading:  57%|#####6    | 3.87M/6.80M [00:00<00:00, 5.34MB/s]
-2023-04-25 08:22:33.565009 : [WDM] - Downloading:  67%|######6   | 4.54M/6.80M [00:00<00:00, 5.81MB/s]
-2023-04-25 08:22:33.669883 : [WDM] - Downloading:  75%|#######5  | 5.12M/6.80M [00:01<00:00, 5.80MB/s]
-2023-04-25 08:22:33.900319 : [WDM] - Downloading:  84%|########3 | 5.69M/6.80M [00:01<00:00, 4.25MB/s]
-2023-04-25 08:22:34.106618 : [WDM] - Downloading:  91%|######### | 6.16M/6.80M [00:01<00:00, 3.55MB/s]
-2023-04-25 08:22:34.245882 : [WDM] - Downloading:  97%|#########6| 6.56M/6.80M [00:01<00:00, 3.41MB/s]
-2023-04-25 08:22:34.512115 : 
-2023-04-25 08:22:34.512115 : [WDM] - Downloading: 100%|##########| 6.80M/6.80M [00:01<00:00, 3.71MB/s]
-2023-04-25 08:22:49.714683 : <selenium.webdriver.remote.webelement.WebElement (session="b9dcf2f0d780b0cd59feffd6b373b153", element="121c7a74-7105-412a-bdb1-152128cc6d84")>
-2023-04-25 08:22:49.841389 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
-2023-04-25 08:22:50.070006 : its ok
-2023-04-25 08:22:50.259005 : https://img.fischer.cz/hotels/egypt/oblast-hurghada/hurghada/la-rosa-waves/egypt-egypt-hurghada-hurghada-la-rosa-waves-0_800x2000.jpg
-2023-04-25 08:23:05.748377 : <selenium.webdriver.remote.webelement.WebElement (session="4bbfd80532affa6e05dbfd7f42cf50d9", element="0e01193a-d7bc-4796-8f6e-7f99767ff90f")>
-2023-04-25 08:23:31.966616 : []
-2023-04-25 08:23:31.977770 : https://www.billatravel.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&mmt=5
-2023-04-25 08:23:41.678559 : https://www.billatravel.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
-2023-04-25 08:23:48.874335 : <selenium.webdriver.remote.webelement.WebElement (session="b1d823ff0b00e686666f524e2557042e", element="167a3526-d90b-44e9-a2b2-79e6bc502652")>
-2023-04-25 08:24:15.081949 : []
-2023-04-25 08:24:15.091498 : https://www.billatravel.cz//egypt/hurghada/hurghada/la-rosa-waves?DS=256&GIATA=1272734&D=64419|64420|64425|64422|64423&HID=128528&MT=5&NN=7&DF=2023-03-01|2023-03-31&RD=2023-03-25&DD=2023-03-18&ERM=0&AC1=2&KC1=0&IC1=0&DP=4305&MNN=7&NNM=7|8|9&TT=1&TTM=0&PID=HRG90011&DPR=FISCHER%20ATCOM&tom=4312
-2023-04-25 08:24:28.639869 : <selenium.webdriver.remote.webelement.WebElement (session="cc24b71e0a9872c609f3991cdc87c5ba", element="1b6e6e54-85dc-4ec2-875f-361e92bf3fa8")>
-2023-04-25 08:24:41.775396 : wait done
-2023-04-25 08:24:41.775396 : TRY block start
-2023-04-25 08:24:44.831636 : JDOU VIDET
-2023-04-25 08:24:44.839488 : JDOU VIDET
-2023-04-25 08:24:44.844782 : JDOU VIDET
-2023-04-25 08:24:44.850834 : JDOU VIDET
-2023-04-25 08:24:44.884035 : wait done
-2023-04-25 08:24:44.884035 : TRY block start
-2023-04-25 08:24:47.932180 : JDOU VIDET
-2023-04-25 08:24:47.940441 : JDOU VIDET
-2023-04-25 08:24:47.949585 : JDOU VIDET
-2023-04-25 08:24:47.957595 : JDOU VIDET
-2023-04-25 08:24:47.965374 : JDOU VIDET
-2023-04-25 08:24:47.973488 : JDOU VIDET
-2023-04-25 08:24:47.983470 : JDOU VIDET
-2023-04-25 08:24:48.014394 : JDOU VIDET
-2023-04-25 08:24:48.034230 : JDOU VIDET
-2023-04-25 08:25:33.375233 : <selenium.webdriver.remote.webelement.WebElement (session="68274506f1b65ed05be44cc16eac7a04", element="4ab644ae-1ce8-41c4-bc5c-be6996029d64")>
-2023-04-25 08:28:37.237089 : <selenium.webdriver.remote.webelement.WebElement (session="bd652a643ae0174a4960daae48cec258", element="c0d1befd-1432-487a-bdec-b354e8e615a6")>
-2023-04-25 08:28:41.911956 : ZANZIBAR
-2023-04-25 08:29:09.435892 : last no such ele except
-2023-04-25 08:29:14.905584 : ØECKO
-2023-04-25 08:29:40.780442 : last no such ele except
-2023-04-25 08:29:46.370373 : TURECKO
-2023-04-25 08:30:12.462523 : last no such ele except
-2023-04-25 08:30:18.105525 : EGYPT
-2023-04-25 08:30:44.895148 : last no such ele except
-2023-04-25 08:30:50.819224 : KAPVERDY
-2023-04-25 08:31:16.694146 : last no such ele except
-2023-04-25 08:31:23.000429 : OMAN
-2023-04-25 08:31:49.080434 : last no such ele except
-2023-04-25 08:31:55.081240 : KEFALONIA
-2023-04-25 08:32:20.779887 : last no such ele except
-2023-04-25 08:32:26.377134 : MIRAGE BAY
-2023-04-25 08:32:52.371269 : last no such ele except
-2023-04-25 08:32:57.681955 : PORTO SKALA 7
-2023-04-25 08:33:23.409615 : last no such ele except
-2023-04-25 08:33:29.608170 : DOUBLETREE
-2023-04-25 08:34:40.199278 : <selenium.webdriver.remote.webelement.WebElement (session="91827ef9595c68c2ca077f6c58683dbf", element="635ed693-03f1-42f4-bf36-f2f5985f6375")>
-2023-04-25 08:34:40.318474 : ZANZIBAR
-2023-04-25 08:34:43.887985 : ØECKO
-2023-04-25 08:34:49.076768 : TURECKO
-2023-04-25 08:34:52.432441 : EGYPT
-2023-04-25 08:34:58.683151 : KAPVERDY
-2023-04-25 08:35:05.205250 : OMAN
-2023-04-25 08:35:08.633098 : KEFALONIA
-2023-04-25 08:35:12.553916 : MIRAGE BAY
-2023-04-25 08:35:16.191679 : PORTO SKALA 7
-2023-04-25 08:35:19.975177 : DOUBLETREE
-2023-04-25 08:35:20.081793 : https://www.billatravel.cz/hledani-vysledky?q=Doubletree
-2023-04-25 08:35:34.954168 : <selenium.webdriver.remote.webelement.WebElement (session="c5c3ffe8f77dacf57bd5efa6d1b952ed", element="ff6d99e2-ea2d-4792-945a-02076b9f24a1")>

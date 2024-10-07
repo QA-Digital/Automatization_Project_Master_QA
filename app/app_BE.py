@@ -103,15 +103,10 @@ def runner_tests_generalized(suite_function, URL, email):
         else:
             logger.warning("Some tests failed.")
 
-        # Append logs to the report
-        append_logs_to_html_report(report_dir, log_file, report_name)
-
-        # Send the report with the appended logs via email
         sendEmailv2(report_title, report_name, email, [report_file, log_file])
 
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
-
 
 def append_logs_to_html_report(report_dir, log_file, report_name):
     """Append logs to the HTML report."""
@@ -128,6 +123,7 @@ def append_logs_to_html_report(report_dir, log_file, report_name):
     with open(report_file, 'a') as rf:
         rf.write('<h2>Test Suite Logs</h2>')
         rf.write('<pre>{}</pre>'.format(log_content))
+
 
 app = Flask(__name__)
 CORS(app, resources={r"/run_suite": {"origins": "*"}})
