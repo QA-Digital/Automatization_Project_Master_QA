@@ -8,7 +8,6 @@ from FW.pobocky import *
 from FW.Detail_D import *
 from FW.Detail_C import *
 from FW.DetskeKluby_D import *
-from FW.dovolena_D import *
 from FW.FM_D import *
 from FW.fulltext_C import *
 from FW.groupsearch_D import *
