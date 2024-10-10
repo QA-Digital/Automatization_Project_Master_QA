@@ -3,6 +3,7 @@ import logging
 import os
 import smtplib
 
+import pytest
 from HTMLTestRunner import HTMLTestRunner
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -105,26 +106,96 @@ def runner_tests_generalized(suite_function, URL, email):
         else:
             logger.warning("Some tests failed.")
 
-        sendEmailv2(report_title, report_name, email, [report_file, log_file])
+        # Check if the report was created successfully
+        if os.path.exists(report_file):
+            sendEmailv2(report_title, report_name, email, [report_file])
 
-        # Append logs to the report
-        append_logs_to_html_report(report_file, log_file)
+            # Merge logs based on the run number
+            merged_log_path = merge_logs_for_report(suite_function.__name__, run_number, report_file)
+
+            if merged_log_path:  # Ensure merged log file was created
+                # Append logs to the report
+                append_logs_to_html_report(merged_log_path, report_file)
+            else:
+                logger.error("Merged log file was not created.")
+        else:
+            logger.error(f"Report file does not exist: {report_file}")
 
     except Exception as e:
         logger.error(f"Error running test suite {suite_function.__name__}: {e}")
 
-<<<<<<< Updated upstream
-def append_logs_to_html_report(report_dir, log_file, report_name):
-=======
-def append_logs_to_html_report(report_file, log_file):
->>>>>>> Stashed changes
-    """Append logs to the HTML report."""
-    with open(log_file, 'r') as lf:
-        log_content = lf.read()
 
-    with open(report_file, 'a') as rf:
-        rf.write('<h2>Test Suite Logs</h2>')
-        rf.write('<pre>{}</pre>'.format(log_content))
+import os
+import re
+import logging
+
+def merge_logs_for_report(run_number, report_path):
+    # Define the log pattern to match logs based on the run number
+    log_pattern = re.compile(rf'_{run_number:04d}_log\.txt$')  # Match all logs ending with the run number
+    logs_dir = os.getcwd()  # Assuming the log files are created in the current working directory
+
+    merged_log_content = ""
+
+    # Check if the logs directory exists
+    if not os.path.exists(logs_dir):
+        logging.error(f"Logs directory does not exist: {logs_dir}")
+        return None
+
+    # Collect all matching log files
+    matching_logs = [log_file for log_file in os.listdir(logs_dir) if log_pattern.search(log_file)]
+
+    # Merge the content of all matched log files
+    if matching_logs:
+        for log_file in matching_logs:
+            log_path = os.path.join(logs_dir, log_file)
+            with open(log_path, 'r') as f:
+                merged_log_content += f"--- Log from {log_file} ---\n"
+                merged_log_content += f.read() + "\n"
+    else:
+        logging.warning(f"No log files matched the pattern for run number: {run_number}")
+        return None
+
+    # Write the merged log content to a new file
+    report_filename = os.path.basename(report_path)
+    merged_log_filename = report_filename.replace('.html', '_merged_log.txt')
+    merged_log_path = os.path.join(logs_dir, merged_log_filename)
+
+    with open(merged_log_path, 'w') as merged_log_file:
+        merged_log_file.write(merged_log_content)
+
+    logging.info(f"Merged log file created: {merged_log_path}")
+    return merged_log_path
+
+
+
+def append_logs_to_html_report(merged_log_path, html_report_path):
+    # Read the HTML report
+    with open(html_report_path, 'r') as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+    # Read the merged log content
+    with open(merged_log_path, 'r') as log_file:
+        merged_log_content = log_file.read()
+
+    # Create a preformatted block for logs
+    pre_tag = soup.new_tag("pre")
+    pre_tag.string = merged_log_content
+
+    # Assuming there is an HTML element where you want to append the logs
+    log_section = soup.find('div', {'id': 'log-section'})  # Example selector, adjust as needed
+    if log_section:
+        log_section.append(pre_tag)
+
+    # Write the modified HTML back
+    with open(html_report_path, 'w') as f:
+        f.write(str(soup))
+
+
+
+from bs4 import BeautifulSoup
+import re
+
+
 
 
 app = Flask(__name__)
@@ -157,11 +228,16 @@ def run_suite_in_thread(url, suite_function, email):
 def run_suite():
     """API endpoint to trigger the suite run."""
     try:
-        data = request.json
+        data = request.get_json()
+        if not data:
+            logging.error('No data received.')
+            return jsonify({'status': 'error', 'message': 'No data received.'}), 400
+
         logging.debug(f'Received data: {data}')
 
         url = data.get('URL')
         email = data.get('email')
+        suite_name = data.get('suiteName')
 
         suite_mapping = {
             'FISCHER web full suite': suite_FW_full,
@@ -175,16 +251,14 @@ def run_suite():
             'NEVDAMA web full suite': suite_ND_full,
         }
 
-        suite_name = data.get('suiteName')
         suite_function = suite_mapping.get(suite_name)
 
         if not suite_function:
             logging.error(f'Suite {suite_name} not found.')
             return jsonify({'status': 'error', 'message': f'Suite {suite_name} not found.'}), 400
 
-        thread = Thread(target=run_suite_in_thread, args=(url, suite_function, email))
-        thread.start()
-        logging.debug(f'Started thread for suite: {suite_name}')
+        runner_tests_generalized(suite_function, url, email)
+        #pytest_runner_generalized(suite_function, url, email)
         return jsonify({'status': 'success', 'message': 'Test suite execution started.'}), 200
     except Exception as e:
         logging.error(f'Error starting test suite: {e}')

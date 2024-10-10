@@ -41,14 +41,24 @@ from selenium import webdriver
 def setUp(self):
   self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
-  # Dynamically get the folder name (assuming folder is two levels up from the test file)
-  test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+  # Dynamically get the base folder (two levels up from the test file)
+  base_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
-  # Get the current test method name (used in unique logger and log file naming)
+  # The folder name representing the project (one level up from the test file)
+  project_name = os.path.basename(base_folder)
+
+  # Specify the "report" folder inside the project folder
+  report_folder = os.path.join(base_folder, 'report')
+
+  # Ensure the "report" folder exists, create it if it doesn't
+  if not os.path.exists(report_folder):
+    os.makedirs(report_folder)
+
+  # Get the current test method name
   test_method = self._testMethodName
 
-  # Generate a unique logger name using folder, class name, run number, and test method
-  logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
+  # Generate a unique logger name using project name, class name, run number, and test method
+  logger_name = f'{project_name}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
 
   # Get the logger (will create a new one if it doesn't exist)
   self.logger = logging.getLogger(logger_name)
@@ -60,8 +70,9 @@ def setUp(self):
   # Set log level
   self.logger.setLevel(logging.INFO)
 
-  # Create a unique log file for this specific test
-  log_filename = f'{test_folder}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log'
+  # Create a unique log file path inside the "report" folder
+  log_filename = os.path.join(report_folder,
+                              f'{project_name}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log')
 
   # Create file handler for logging to file
   file_handler = logging.FileHandler(log_filename, mode='w')

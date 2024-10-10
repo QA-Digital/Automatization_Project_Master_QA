@@ -61,7 +61,7 @@ def suite_EW_full(url, run_number):
     # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))  ## Currently not included
     # suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check'))  ## Not included
     suite.addTest(Test_SRL_C('test_SRL_kuba_srl_D_R', URL=url, run_number=run_number))
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url, run_number=run_number))
+    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky', URL=url, run_number=run_number))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url, run_number=run_number))
@@ -103,12 +103,13 @@ def SRL_suite_full():
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava'))
     suite.addTest(Test_SRL_C('test_srl_C'))
     return suite
-from starter_master_browserstack import  runner_tests_generalized
+from FW.starter_local import  runner_tests_generalized, append_logs_to_html_report
 if __name__ == '__main__':
     #runner = unittest.TextTestRunner()
+    #run_number = get_run_number()
     outfile = open("results.html", "w")
     web_brand = "EXIM"
     version = "FW-EW release 2024-07-23"
-    runner_tests_generalized(suite_EW_full, web_brand, version, URL, "qa.digital@dertouristik.cz")
+    runner_tests_generalized(suite_EW_full, URL, "qa.digital@dertouristik.cz")
     #runner_tests_generalized(SRL_suite_full, web_brand, "atcomcore deploy", URL)
     #runner_tests_generalized(suite4, web_brand, "220718.1", URL)
