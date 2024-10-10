@@ -138,26 +138,31 @@ class Test_Fulltext_C(unittest.TestCase):
             poziceQueryItem=poziceQueryItem+1
             #self.logger.info(len(linksToCheckList))
             assert len(linksToCheckList) > 0        ## check if there are any result, length > 0
-            y = 0
-            #for _ in linksToCheckList:
+            url_index = 0
+
+            # If there are more than 5 links, only check the first 5
             if len(linksToCheckList) > 5:
                 for i in range(5):
-                    response = requests.get(linksToCheckList[y])
+                    current_url = linksToCheckList[url_index]
+                    response = requests.get(current_url)
 
-
-                    #self.logger.info(response.status_code)
-                    #self.logger.info(response.status_code == 200)
+                    # Check if status is not 200, log the failed URL
                     if response.status_code != 200:
-                        self.logger.info(linksToCheckList[y])
+                        self.logger.error(f'Non-200 response for URL {current_url}: {response.status_code}')
+                    assert response.status_code == 200, f'Failed URL: {current_url}'
 
-                    y = y + 1
-                    assert response.status_code == 200
+                    url_index += 1
             else:
-                for _ in linksToCheckList:
-                    #self.logger.info(response.status_code)
-                    #self.logger.info(response.status_code == 200)
+                # If 5 or fewer links, check all of them
+                for current_url in linksToCheckList:
+                    response = requests.get(current_url)
 
-                    y = y + 1
-                    assert response.status_code == 200
+                    # Check if status is not 200, log the failed URL
+                    if response.status_code != 200:
+                        self.logger.error(f'Non-200 response for URL {current_url}: {response.status_code}')
+                    assert response.status_code == 200, f'Failed URL: {current_url}'
 
+                    url_index += 1
+
+            # Mark the test as passed if all assertions succeed
             self.test_passed = True

@@ -701,7 +701,7 @@ class Helpers:
 
         # Scroll to the Kostka Poznavacka element and click
         logger.info("Scrolling to Kostka Poznavacka element.")
-        element = driver.find_element_by_xpath(kostkaPoznavackaXpath)
+        element = driver.find_elements_by_xpath(kostkaPoznavackaXpath)[3]
         driver.execute_script("arguments[0].scrollIntoView();", element)
         time.sleep(2)
 

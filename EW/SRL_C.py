@@ -57,7 +57,7 @@ class Test_SRL_C(unittest.TestCase):
 
         typeOfSort = "expensive"
 
-        Helpers.generalized_SRL_price_sorter(self.driver, sorterCheapXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, self.logger)
+        Helpers.generalized_SRL_price_sorter(self.driver, sorterExpensiveXpath, hotelyKartyXpath, cenaZajezduXpath, typeOfSort, self.logger)
 
         self.test_passed = True
 

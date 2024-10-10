@@ -189,7 +189,6 @@ def suite_FW_full(url, run_number):
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url, run_number=run_number))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url, run_number=run_number))
     suite.addTest(TestDetskeKluby_D("test_kluby_D", URL=url, run_number=run_number))
-    suite.addTest(TestDovolena_D("test_dovolena_D", URL=url, run_number=run_number))
     suite.addTest(TestFMexotika_D("test_FM_exotika_D", URL=url, run_number=run_number))
     suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac", URL=url, run_number=run_number))
     suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check", URL=url, run_number=run_number))

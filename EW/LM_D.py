@@ -31,6 +31,7 @@ class TestLM_D(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(2.5)
         acceptConsent(self.driver)
+        time.sleep(10)
         Helpers.LM_FM_vypis_rozbalit_zajezd_check(self.driver, self.logger)
 
       #  assert rozbalenyZajezd.is_displayed() == True

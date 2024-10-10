@@ -108,7 +108,7 @@ class TestPoznavacky_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(9)
         kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
-        element3 = self.driver.find_elements_by_xpath(kostkaPoznavackaXpath)[6]
+        element3 = self.driver.find_elements_by_xpath(kostkaPoznavackaXpath)[4] ##tady jsou ty spešl dementní zajezdy do egypta ktery neotevrou detail, musi se nekdy zmenit
         self.driver.execute_script("arguments[0].scrollIntoView();", element3)
         time.sleep(2)
         element3.click()

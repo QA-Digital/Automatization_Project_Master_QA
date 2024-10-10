@@ -53,6 +53,8 @@ def setUp(self):
     if not os.path.exists(report_folder):
         os.makedirs(report_folder)
 
+    if self.run_number is None:
+        self.run_number = 0
     # Get the current test method name
     test_method = self._testMethodName
 
