@@ -45,7 +45,8 @@ def setUp(self):
 
     # Get the current test method name (used in unique logger and log file naming)
     test_method = self._testMethodName
-
+    if self.run_number is None:
+        self.run_number = 0
     # Generate a unique logger name using folder, class name, run number, and test method
     logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
 
@@ -56,8 +57,6 @@ def setUp(self):
     if self.logger.hasHandlers():
         self.logger.handlers.clear()
 
-    if self.run_number is None:
-        self.run_number = 0
 
     # Set log level
     self.logger.setLevel(logging.INFO)

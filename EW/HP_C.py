@@ -46,7 +46,7 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
 lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotická dovolená')]"
-HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Září / Říjen 2024')]"
+HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):

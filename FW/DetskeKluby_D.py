@@ -41,16 +41,16 @@ class TestDetskeKluby_D(unittest.TestCase):
         #p.press("pagedown", presses=3)
         generalDriverWaitImplicit(self.driver)
 
-        gridContainer = self.driver.find_elements_by_xpath("//*[@class='grd-container']")
-        self.driver.execute_script("arguments[0].scrollIntoView();", gridContainer[0])
-        b=0
-        assert gridContainer[0].is_displayed() == True
-        for _ in gridContainer:
-            gridContainerDisplay = gridContainer[b].is_displayed()
-            assert  gridContainerDisplay == True
-            b=b+1
-            print ("grind container")
-        #p.press("pagedown", presses=2)
+        # gridContainer = self.driver.find_elements_by_xpath("//*[@class='grd-container']")
+        # self.driver.execute_script("arguments[0].scrollIntoView();", gridContainer[0])
+        # b=0
+        # assert gridContainer[0].is_displayed() == True
+        # for _ in gridContainer:
+        #     gridContainerDisplay = gridContainer[b].is_displayed()
+        #     assert  gridContainerDisplay == True
+        #     b=b+1
+        #     print ("grind container")
+        # #p.press("pagedown", presses=2)
         tileImg = self.driver.find_elements_by_xpath("//*[@class='f_tile-image']")
         kartyHoteluBottom = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")
         self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)

@@ -6,6 +6,8 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
 #URL_local = "https://www.kartago.sk/"
+from definitions import EDGE_DRIVER_PATH
+
 URL_local =  "https://kartagosk.stg.dtweb.cz/"
 URL = "https://kartagosk.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
@@ -54,7 +56,8 @@ desired_cap = desired_cap_Branded("KTGSK", "Optimized - Web Monitor V2")
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
+  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+
   self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
 

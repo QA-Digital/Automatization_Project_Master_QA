@@ -8,6 +8,7 @@ from email.mime.text import MIMEText
 
 from webdriver_manager.chrome import ChromeDriverManager
 
+from definitions import EDGE_DRIVER_PATH
 from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
 
@@ -32,17 +33,17 @@ desired_cap = {
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
  # self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+
+  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
   self.test_passed = False
 
 
-URL_local = "https://eximpl.stg.dtweb.cz/"
+URL_local = "https://eximpl.web13.dtweb.cz/"
 #URL = "https://eximpl.stg.dtweb.cz/"
 URL = "http://eximpl.web13.dtweb.cz/"
 URL_pobocky = "punkty-sprzedazy"
-URL_detail = "/kierunki/egipt/hurghada/macadi-bay/prima-life-makadi-resort?D=64419|64420|64425&DD=2024-08-29&DP=4382&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=77592&HID=156229&IFM=0&ILM=0&KEY=MTI3NDIzNXwxMDA3ODYzOTMzfDYyNzU1NA%3D%3D&MNN=7&MT=5&NN=7&PID=391633&RD=2024-09-05&RT=0&acm1=2&df=2024-07-01|2024-08-31&nnm=1|2|3|4|5|6|7|8|9|10&ptm=0&tt=1&ttm=1#/prehled"
+URL_detail = "/kierunki/egipt/hurghada/safaga/sentido-caribbean-world-soma-bay?AC1=2&D=64419|64420|64425&DD=2025-06-03&DI=GT06-AI&DP=298&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=79878&HID=161716&IC1=0&IFM=0&ILM=0&KC1=0&KEY=MTQ2NDEzM3wxNDYzNTU4ODc4fDgxOTE2Nw%3D%3D&MNN=7&MT=5&NN=7&PID=405138&RD=2025-06-10&RT=0&acm1=2&df=2025-06-01|2025-07-31&nnm=6|7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=298&tt=1&ttm=1#/prehled"
 URL_leto = "lato"
 URL_zima = "zima"
 URL_faq = "faq"
@@ -52,7 +53,7 @@ URL_allInclusive = "all-inclusive"
 URL_stat = "kierunki/egipt"
 URL_groupsearch = "wyszukanie?dd=2024-06-24&nn=7|8|9|10|11|12|13&rd=2024-09-01&tt=1"
 URL_FT_results = "wyniki-wyszukiwania?q="
-URL_SRL= "wyszukanie?ac1=2&d=64419|64420|64425&dd=2024-10-14&ds=0&ifm=0&ilm=0&ka1=9&kc1=1&nn=6|7|8|9|10|11|12|13|14&rd=2024-10-31&sc=residential&tt=1"
+URL_SRL= "/wyszukanie?ac1=2&d=64419|64420|64425&dd=2025-06-01&nn=6|7|8|9|10|11|12|13|14&rd=2025-07-31&tt=1"
 URL_vlastniDoprava = "dojazd-wlasny"
 
 

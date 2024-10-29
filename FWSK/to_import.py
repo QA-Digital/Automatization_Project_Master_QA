@@ -9,6 +9,8 @@ from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
 import smtplib, ssl
 from email.mime.text import MIMEText
+
+from definitions import EDGE_DRIVER_PATH
 from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -30,14 +32,15 @@ desired_cap = {
 
 }
 def setUp(self):
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
 
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
   #chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
   #self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
+
+
 URL_local =  "https://fischersk.stg.dtweb.cz/"
 URL = "https://fischersk.stg.dtweb.cz/"
 URL_poznavacky = "poznavacie-zajazdy/okruhy-a-kombinovane"
@@ -49,7 +52,6 @@ URL_kluby = "dovolena-animacni-kluby"
 URL_SRL = "/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=2023-12-31&sc=residential&to=483|1837|2933|3437|4305|2682|4308|4312&tt=1"
 URL_detail = "/egypt/egypt-hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=653|819|1235|724&DD=2024-10-03&DP=483&DPR=FISCHER+SK+ATCOM&DS=256&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KC1=0&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-10&TO=483|1837|2933|3437&acm1=2&df=2024-10-01|2024-10-31&nnm=7|8|9|10|11|12|13|14|15&ptm=0&tt=1&ttm=1#/prehľad"
 URL_covidInfo = "covid-info"
-URL_kluby = "dovolena-animacni-kluby"
 URL_fmExotika = "first-minute"
 URL_faq = "faq"
 URL_lm = "last-minute"

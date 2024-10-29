@@ -37,8 +37,8 @@ def suite_EXPL_full(url):
     suite.addTest(TestSDO_D('test_SDO_D', URL=url))
     suite.addTest(TestSDO_D('test_SDO_NejHotely', URL=url))
 
-    #suite.addTest(Test_SRL_C('test_SRL_sort_cheapest', URL=url)) #nefunguje a možná ani nebude, info od Vojty
-    #suite.addTest(Test_SRL_C('test_SRL_sort_expensive', URL=url)) #nefunguje a možná ani nebude, info od Vojty
+    suite.addTest(Test_SRL_C('test_SRL_sort_cheapest', URL=url)) #nefunguje a možná ani nebude, info od Vojty
+    suite.addTest(Test_SRL_C('test_SRL_sort_expensive', URL=url)) #nefunguje a možná ani nebude, info od Vojty
     suite.addTest(Test_SRL_C('test_SRL_map', URL=url))
     suite.addTest(Test_SRL_C('test_SRL_filtr_strava', URL=url))
     suite.addTest(Test_SRL_C('test_srl_C', URL=url))
