@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
@@ -16,29 +17,29 @@ def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatB
                      potvrditAvyhledat, generalTimeSleep=1.5, skipObsazenostSetting=False):
     wait = WebDriverWait(driver, 300)
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedete))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, kamPojedete))).click()
 
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(destinace))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, destinace))).click()
 
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn1))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn1))).click()
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn2))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn2))).click()
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(termin))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, termin))).click()
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn3))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn3))).click()
 
     if skipObsazenostSetting == False:
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(obsazenost))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, obsazenost))).click()
 
 
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledat))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, potvrditAvyhledat))).click()
     time.sleep(4)
 
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
-    letenekySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
+    letenekySRLresultsElements = driver.find_elements(By.XPATH, SRLresultsLetenkyXpath)
     pozice = 0
     for i in letenekySRLresultsElements:
         assert letenekySRLresultsElements[pozice].is_displayed() == True
@@ -96,7 +97,7 @@ class Test_HP_C(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)     ##time sleep not the best not pog but it works =)
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
@@ -108,9 +109,9 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
-        self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, poznavackyVeFiltruSwitchXpath).click()
         time.sleep(2.5)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)     ##time sleep not the best not pog but it works =)
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
@@ -122,9 +123,9 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, lyzeVeFiltruSwitchXpath).click()
         time.sleep(2.5)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)     ##time sleep not the best not pog but it works =)
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
@@ -148,7 +149,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         destinaceEgyptXpath = "//*[@value='st63125']"
-        self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, poznavackyVeFiltruSwitchXpath).click()
         HPzlutakBrezenDubenXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
         time.sleep(3)
         Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceEgyptXpath,
@@ -167,7 +168,7 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        self.driver.find_element_by_xpath(exVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, exVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
         destinaceItalieXpath = "//*[@value='st63139']"
         time.sleep(3)
@@ -187,7 +188,7 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, lyzeVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben')]"
         destinaceItalieXpath = "//*[@value='st63081']"
         time.sleep(3)
@@ -208,8 +209,8 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPnejlepsiZajezdyVypisXpath)))
-        nejlepsiNabidkyElement = self.driver.find_elements_by_xpath(HPnejlepsiZajezdyVypisXpath)
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPnejlepsiZajezdyVypisXpath)))
+        nejlepsiNabidkyElement = self.driver.find_elements(By.XPATH, HPnejlepsiZajezdyVypisXpath)
         positionOfCurrentElement = 0
         nejlepsiNabidkyTextList = []
         for _ in nejlepsiNabidkyElement:
@@ -219,12 +220,12 @@ class Test_HP_C(unittest.TestCase):
             positionOfCurrentElement = positionOfCurrentElement+1
 
         time.sleep(1.5)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPnejlepsiZajezdySwitchButtonXpath)))
-        HPnejlepsiZajezdySwitchButtonElement = self.driver.find_element_by_xpath(HPnejlepsiZajezdySwitchButtonXpath)
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPnejlepsiZajezdySwitchButtonXpath)))
+        HPnejlepsiZajezdySwitchButtonElement = self.driver.find_element(By.XPATH, HPnejlepsiZajezdySwitchButtonXpath)
         self.driver.execute_script("arguments[0].click();", HPnejlepsiZajezdySwitchButtonElement)
         time.sleep(6)
         self.driver.implicitly_wait(10)
-        nejlepsiNabidkyElement = self.driver.find_elements_by_xpath(HPnejlepsiZajezdyVypisXpath)
+        nejlepsiNabidkyElement = self.driver.find_elements(By.XPATH, HPnejlepsiZajezdyVypisXpath)
         positionOfCurrentElement2 = 0
         nejlepsiNabidkyTextList2 = []
         for _ in nejlepsiNabidkyElement:
@@ -250,7 +251,7 @@ class Test_HP_C(unittest.TestCase):
 
         self.driver.implicitly_wait(100)
 
-        HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
+        HPnextArrowElement = self.driver.find_element(By.XPATH, HPnextArrowXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
         time.sleep(3)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
@@ -262,11 +263,11 @@ class Test_HP_C(unittest.TestCase):
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
         time.sleep(0.5)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        HPnextkartaHoteluSlider = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPnextkartaHoteluSlider = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         time.sleep(1)
         self.driver.execute_script("arguments[0].click();", HPnextkartaHoteluSlider)
         action = ActionChains(self.driver)
-        HPkartaHoteluSliderElement = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPkartaHoteluSliderElement = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPkartaHoteluSliderElement)
         action.move_to_element(HPkartaHoteluSliderElement).click().perform()
         self.driver.implicitly_wait(100)
@@ -292,7 +293,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3.5)
         destinaceEgyptXpath = "//*[@value='st63038']"
 
-        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, letenkyVeFiltruSwitchXpath).click()
 
         time.sleep(3)
         letenkySrlResultsXpath = "//*[@class='f_searchResult-content-item relative']"
@@ -313,9 +314,9 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(1.3)
-        self.driver.find_element_by_xpath(letenkyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, letenkyVeFiltruSwitchXpath).click()
 
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)     ##time sleep not the best not pog but it works =)
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True

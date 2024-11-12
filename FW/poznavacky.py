@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from FW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
@@ -12,7 +13,7 @@ def poznavacky_check_D(self, driver):
     generalDriverWaitImplicit(self.driver)
     generalDriverWaitImplicit(self.driver)
 
-    imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+    imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
     self.logger.info(imgs)
     x = 0
     assert imgs[0].is_displayed() == True
@@ -23,7 +24,7 @@ def poznavacky_check_D(self, driver):
         assert imgsDisplayed == True
         self.logger.info("true imgdisplay")
 
-    gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+    gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
     self.driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
     assert gridItems[0].is_displayed() == True
     y = 0
@@ -33,7 +34,7 @@ def poznavacky_check_D(self, driver):
         y = y + 1
         self.logger.info("grid true")
 
-    gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+    gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
     a = 0
     assert gridBig[0].is_displayed() == True
     for _ in gridBig:
@@ -43,7 +44,7 @@ def poznavacky_check_D(self, driver):
         self.logger.info("big grid ture")
 
 def proklik_kostkaHotelu_toDetail_check_sedivka(driver):
-            element = driver.find_element_by_xpath(kostkaPoznavackaXpath)
+            element = driver.find_element(By.XPATH, kostkaPoznavackaXpath)
             driver.execute_script("arguments[0].scrollIntoView();", element)
             time.sleep(2)
             element.click()
@@ -119,7 +120,7 @@ class TestPoznavacky_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(10)
         kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
-        element3 = self.driver.find_elements_by_xpath(kostkaPoznavackaXpath)[6]
+        element3 = self.driver.find_elements(By.XPATH, kostkaPoznavackaXpath)[6]
         self.driver.execute_script("arguments[0].scrollIntoView();", element3)
         time.sleep(2)
         element3.click()

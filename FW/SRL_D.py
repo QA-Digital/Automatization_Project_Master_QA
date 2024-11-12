@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
@@ -16,10 +17,10 @@ SRLcenaKartyXpath = "//*[@class='f_price']"
 def SRL_D(self, driver):
     wait = WebDriverWait(self.driver, 15)
     driver.implicitly_wait(100)
-    hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
+    hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
-        hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)  ##
+        hotelyAll = self.driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         ##self.logger.info(hotelyAll)
         if hotelySingle.is_displayed():
@@ -43,8 +44,8 @@ def SRL_D(self, driver):
 
     # try:
     #     self.driver.implicitly_wait(15)
-    #     fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKartyXpath)  ##
-    #     fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKartyXpath)
+    #     fotkyAll = self.driver.find_elements(By.XPATH, SRLfotkyKartyXpath)  ##
+    #     fotkaSingle = self.driver.find_element(By.XPATH, SRLfotkyKartyXpath)
     #     wait.until(EC.visibility_of(fotkaSingle))
     #     ##self.logger.info(fotkaSingle)
     #     if fotkaSingle.is_displayed():
@@ -68,8 +69,8 @@ def SRL_D(self, driver):
 
     try:
         self.driver.implicitly_wait(10)
-        cenaAll = self.driver.find_elements_by_xpath(SRLcenaKartyXpath)  ##
-        cenaSingle = self.driver.find_element_by_xpath(SRLcenaKartyXpath)
+        cenaAll = self.driver.find_elements(By.XPATH, SRLcenaKartyXpath)  ##
+        cenaSingle = self.driver.find_element(By.XPATH, SRLcenaKartyXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:
@@ -95,7 +96,7 @@ def SRL_D(self, driver):
     verticalFilterXpath = "//*[@class='f_additionalFilter']"
     try:
         self.driver.implicitly_wait(100)
-        verticalFilterElement = self.driver.find_element_by_xpath(verticalFilterXpath)
+        verticalFilterElement = self.driver.find_element(By.XPATH, verticalFilterXpath)
         wait.until(EC.visibility_of(verticalFilterElement))
         assert verticalFilterElement.is_displayed() == True
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from FW.to_import import acceptConsent, URL_kluby, setUp, tearDown, generalDriverWaitImplicit
 import unittest
 import pyautogui as p
@@ -30,7 +31,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         self.driver.maximize_window()
         generalDriverWaitImplicit(self.driver)
         time.sleep(5)
-        benefitItem = self.driver.find_elements_by_xpath("//*[@class='f_tile-image']")
+        benefitItem = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image']")
         assert benefitItem[0].is_displayed() == True
         a=0
         for _ in benefitItem:
@@ -41,7 +42,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         #p.press("pagedown", presses=3)
         generalDriverWaitImplicit(self.driver)
 
-        # gridContainer = self.driver.find_elements_by_xpath("//*[@class='grd-container']")
+        # gridContainer = self.driver.find_elements(By.XPATH, "//*[@class='grd-container']")
         # self.driver.execute_script("arguments[0].scrollIntoView();", gridContainer[0])
         # b=0
         # assert gridContainer[0].is_displayed() == True
@@ -51,8 +52,8 @@ class TestDetskeKluby_D(unittest.TestCase):
         #     b=b+1
         #     print ("grind container")
         # #p.press("pagedown", presses=2)
-        tileImg = self.driver.find_elements_by_xpath("//*[@class='f_tile-image']")
-        kartyHoteluBottom = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")
+        tileImg = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image']")
+        kartyHoteluBottom = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--tour']")
         self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)
         c=0
         assert tileImg[0].is_displayed() == True
