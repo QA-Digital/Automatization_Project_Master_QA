@@ -8,15 +8,16 @@ from webdriver_manager.opera import OperaDriverManager
 #URL_local = "https://www.kartago.sk/"
 from definitions import EDGE_DRIVER_PATH
 
-URL_local =  "https://kartagosk.stg.dtweb.cz/"
-URL = "https://kartagosk.stg.dtweb.cz/"
+URL_local =  "https://kartagosk.web1.dtweb.cz/"
+URL = "https://kartagosk.web1.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
 URL_poznavacky_zazitky = "poznavaci-zajezdy#rodiny"
 URL_pobocky = "kontakty/nase-predajne"
 URL_kluby = "uzitocne-informacie/mango-club"
-URL_detail = "/egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/prehľad"
+URL_detail = "/egypt/hurghada/hurghada/hatsepsut-4?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2025-06-04&DI=IT&DP=4312&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=0&HID=9182&IC1=0&IFC=95609728%2F369282&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=95609053%2F358469&PC=6235798%2F2%2F1981%2F7&PID=EGR00007&RC=DR01&RCS=DR01&RD=2025-06-11&acm1=2&dd=2024-11-06&df=2024-11-06|2025-09-06&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-09-06&sortby=Departure&tt=1&ttm=1#/prehľad"
+URL_detail_new = "/egypt/hurghada/makadi-bay/prima-life-makadi-resort-a-spa?DS=65536&GIATA=77592&D=64419%7C64420%7C64422%7C64423%7C64424%7C64425&HID=9193&MT=5&DI=AE&RC=DR01&RCS=DR01&NN=7&DF=2025-05-01%7C2025-07-02&RD=2025-05-29&DD=2025-05-22&ERM=0&AC1=2&KC1=0&IC1=0&DP=1837&TO=1837&TOM=1837&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG20068&DPR=KARTAGO-SK-ATCOM&ILM=0&IFM=0&PC=5335723%2F2%2F1968%2F7&IFC=99810632%2F382846&OFC=99809645%2F382845"
 URL_SRL = "/vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1"
 URL_covidInfo = "covid-info"
 URL_FM = "first-minute/leto"
@@ -57,8 +58,6 @@ def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
   self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
-
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
   self.test_passed = False
 
 

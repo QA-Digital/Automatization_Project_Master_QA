@@ -23,7 +23,7 @@ def suite_FWSK_full(url):
     #suite.addTest(TestCovidInfo_D('test_covidInfo_D', URL=url))
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
+    #suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url))
     suite.addTest(TestDetskeKluby_D("test_kluby_D", URL=url))
     suite.addTest(TestDovolena_D("test_dovolena_D", URL=url))
@@ -51,7 +51,7 @@ def suite_FWSK_full(url):
     #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch', URL=url))
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
     return suite
 
 

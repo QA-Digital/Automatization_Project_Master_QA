@@ -42,7 +42,8 @@ class Test_Fulltext_C(unittest.TestCase):
             else:
                 pass
 
-            FTlupa = self.driver.find_element_by_xpath("//*[@class='f_anchor f_icon f_icon--magnifier']")
+            ftLupaXpath = '//*[@class="block outline-0 border-none bg-transparent p-0 m-0 cursor-pointer"]'
+            FTlupa = self.driver.find_element_by_xpath(ftLupaXpath)
             FTlupa.click()
             inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
             # inputBox.send_keys(queryList[poziceQueryItem])

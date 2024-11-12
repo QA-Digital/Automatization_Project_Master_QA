@@ -71,7 +71,8 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotika/zima u moře')]"
+exVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotika/zima u moře')]"
+lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
 
 class Test_HP_C(unittest.TestCase):
@@ -159,14 +160,14 @@ class Test_HP_C(unittest.TestCase):
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
-    def test_HP_zlutak_to_SRL_lyze(self):
+    def test_HP_zlutak_to_SRL_exotika(self):
         self.driver.get(self.URL)
         self.driver.maximize_window()
         time.sleep(
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        self.driver.find_element_by_xpath(exVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
         destinaceItalieXpath = "//*[@value='st63139']"
         time.sleep(3)
@@ -176,6 +177,26 @@ class Test_HP_C(unittest.TestCase):
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)
+        Helpers.search_results_list_check(self.driver, self.logger)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_lyze(self):
+        self.driver.get(self.URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben')]"
+        destinaceItalieXpath = "//*[@value='st63081']"
+        time.sleep(3)
+
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
+        time.sleep(10)
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 

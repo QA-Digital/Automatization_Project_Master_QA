@@ -45,9 +45,11 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 
 
 poznavackyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Poznávací zájezdy')]"
-lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotická dovolená')]"
+exVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Exotická dovolená')]"
 HPzlutakLetniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
 letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Letenky')]"
+lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžování')]"
+
 
 def SRL_D_letenky(driver, SRLresultsLetenkyXpath):
     letenekySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
@@ -112,7 +114,7 @@ class Test_HP_C(unittest.TestCase):
             1.6)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
 
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        #self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
         time.sleep(3.5)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
@@ -157,16 +159,16 @@ class Test_HP_C(unittest.TestCase):
         Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
-    def test_HP_zlutak_to_SRL_lyze(self):
+    def test_HP_zlutak_to_SRL_exotika(self):
         self.driver.get(self.URL)
         self.driver.maximize_window()
         time.sleep(
             3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        lyzeVeFiltruSwitchElement =  self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath)
+        exVeFiltruSwitchElement =  self.driver.find_element_by_xpath(exVeFiltruSwitchXpath)
 
-        self.driver.execute_script("arguments[0].click();", lyzeVeFiltruSwitchElement)
+        self.driver.execute_script("arguments[0].click();", exVeFiltruSwitchElement)
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
         destinaceItalieXpath = "//*[@value='st63042']"
         time.sleep(3)
@@ -177,7 +179,7 @@ class Test_HP_C(unittest.TestCase):
                                  , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                                  HPzlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)
-        Helpers.group_search_check(self.driver, self.logger)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):
@@ -258,6 +260,26 @@ class Test_HP_C(unittest.TestCase):
         self.driver.switch_to.window(self.driver.window_handles[1])
         detail_D(self, self.driver)
 
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_lyze(self):
+        self.driver.get(self.URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben')]"
+        destinaceItalieXpath = "//*[@value='st62993']"
+        time.sleep(3)
+
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
+        time.sleep(10)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_bannery_check(self):

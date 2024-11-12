@@ -220,6 +220,7 @@ def suite_FW_full(url, run_number):
     # suite.addTest(TestPoznavacky_D('test_poznavacky_zazitky_C', URL=url, run_number=run_number)) ## Experiences are no longer on the web, tests always fail
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky', URL=url, run_number=run_number))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_exotika', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky', URL=url, run_number=run_number))

@@ -22,7 +22,7 @@ jmenoInputXpath = "//*[@id='input-text-1']"
 prijmeniInputXpath = "//*[@id='input-text-2']"
 telefonInputXpath = "//*[@id='input-phoneNumber-3']"
 emailInputXpath = "//*[@id='input-email-4']"
-checkboxAgreementXpath = "//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[--formInput-checkboxRounding] transition-all bg-white border-neutral-300 text-white undefined peer-focus:ring-[length:--formElement-focusRingWidth] peer-focus:ring-[--formElement-focusRingColor]']"
+checkboxAgreementXpath = "//label[@class='relative select-none cursor-pointer flex gap-2 mx-auto']//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[--formInput-checkboxRounding] transition-all bg-white border-neutral-300 text-white undefined peer-focus:ring-[length:--formElement-focusRingWidth] peer-focus:ring-[--formElement-focusRingColor]']"
 objednatXpath = "//div[@class='whitespace-nowrap']"
 
 platebniKartouXpath = "//*[@class='flex flex-col gap-1 grow items-start']"

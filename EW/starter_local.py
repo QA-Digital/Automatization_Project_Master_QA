@@ -55,10 +55,11 @@ def suite_EW_full(url, run_number):
     suite.addTest(Test_HP_C('test_HP_top_nabidka_status', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_pobyt', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky', URL=url, run_number=run_number))
-    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze', URL=url, run_number=run_number))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_exotika', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_pobyt', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky', URL=url, run_number=run_number))
     # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze'))  ## Currently not included
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze', URL=url, run_number=run_number))
     suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check'))  ## Not included
     suite.addTest(Test_SRL_C('test_SRL_kuba_srl_D_R', URL=url, run_number=run_number))
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url, run_number=run_number))
