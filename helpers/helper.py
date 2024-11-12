@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 # sorting_utilities.py
 import time
 from selenium.webdriver.support import expected_conditions as EC
@@ -53,12 +54,12 @@ class Helpers:
             print(f"Starting filtering process with filter type: {filterType}")
 
         # Open the terminy a ceny tab
-        terminyAcenyTabElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyTabElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].click();", terminyAcenyTabElement)
         time.sleep(2.5)
 
         # Open the filter box
-        boxElement = driver.find_element_by_xpath(boxFiltrXpath)
+        boxElement = driver.find_element(By.XPATH, boxFiltrXpath)
         driver.execute_script("arguments[0].click();", boxElement)
         time.sleep(3.5)
 
@@ -69,7 +70,7 @@ class Helpers:
                 print("Filter type is 'airport'. Executing airport filter logic.")
 
             # Scroll and click the airport value
-            valueToFilterElement = driver.find_element_by_xpath(valueToFilterXpath)
+            valueToFilterElement = driver.find_element(By.XPATH, valueToFilterXpath)
             driver.execute_script("arguments[0].scrollIntoView();", valueToFilterElement)
             time.sleep(0.5)
             valueToFilterElement.click()
@@ -84,7 +85,7 @@ class Helpers:
             # Scroll and click the meal value
             time.sleep(5)
             driver.execute_script("arguments[0].scrollIntoView();", boxElement)
-            valueToFilterElement = driver.find_element_by_xpath(valueToFilterXpath)
+            valueToFilterElement = driver.find_element(By.XPATH, valueToFilterXpath)
             driver.execute_script("arguments[0].scrollIntoView();", valueToFilterElement)
             time.sleep(0.5)
             valueToFilterElement.click()
@@ -121,7 +122,7 @@ class Helpers:
             print("Starting departure check.")
 
         try:
-            pocetZobrazenychTerminu = driver.find_elements_by_xpath(pocetZobrazenychTerminuXpath)
+            pocetZobrazenychTerminu = driver.find_elements(By.XPATH, pocetZobrazenychTerminuXpath)
             if logger:
                 logger.info(f"Found {len(pocetZobrazenychTerminu)} visible departure terms.")
         except NoSuchElementException:
@@ -134,7 +135,7 @@ class Helpers:
             return
 
         try:
-            odletyTerminy = driver.find_elements_by_xpath(odletyTerminyXpath)
+            odletyTerminy = driver.find_elements(By.XPATH, odletyTerminyXpath)
             if logger:
                 logger.info(f"Found {len(odletyTerminy)} departure terms.")
         except NoSuchElementException:
@@ -195,7 +196,7 @@ class Helpers:
 
         try:
             # Find and click the "expand" button for FM/LM tours
-            rozbal = driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
+            rozbal = driver.find_element(By.XPATH, "//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
             driver.execute_script("arguments[0].click();", rozbal)
             time.sleep(2)
@@ -216,8 +217,8 @@ class Helpers:
 
         try:
             # Verify if the expanded tour is displayed
-            rozbalenyZajezd = driver.find_element_by_xpath("//*[@class='page-tour-hotel-name']")
-            rozbalenyZajezdAll = driver.find_elements_by_xpath("//*[@class='page-tour-hotel-name']")
+            rozbalenyZajezd = driver.find_element(By.XPATH, "//*[@class='page-tour-hotel-name']")
+            rozbalenyZajezdAll = driver.find_elements(By.XPATH, "//*[@class='page-tour-hotel-name']")
             wait.until(EC.visibility_of(rozbalenyZajezd))
 
             if rozbalenyZajezd.is_displayed():
@@ -274,7 +275,7 @@ class Helpers:
         time.sleep(2)
 
         # Find the group search teaser items
-        teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+        teaserItems = driver.find_elements(By.XPATH, groupSearchDlazdiceXpath)
         wait.until(EC.visibility_of(teaserItems[0]))
 
         try:
@@ -301,7 +302,7 @@ class Helpers:
 
         # XPath for search result items
         srlItemsXpath = "//*[@class='f_searchResult' and not(@style='display: none;')]"
-        srlItems = driver.find_elements_by_xpath(srlItemsXpath)
+        srlItems = driver.find_elements(By.XPATH, srlItemsXpath)
 
         try:
             logger.info(f"Found {len(srlItems)} Groupsearch items.") if logger else print(
@@ -342,10 +343,10 @@ class Helpers:
 
         # Hotel card elements
         SRLhotelyKartyXpath = "//*[@class='f_searchResult-content-item relative']"  # Placeholder for the actual XPath
-        hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = driver.find_element(By.XPATH, SRLhotelyKartyXpath)
 
         try:
-            hotelyAll = driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+            hotelyAll = driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
             wait.until(EC.visibility_of(hotelySingle))
             logger.info(f"Found {len(hotelyAll)} hotel cards in the search results.") if logger else print(
                 f"Found {len(hotelyAll)} hotel cards.")
@@ -378,8 +379,8 @@ class Helpers:
 
         try:
             driver.implicitly_wait(100)
-            cenaAll = driver.find_elements_by_xpath(SRLcenyHoteluXpath)
-            cenaSingle = driver.find_element_by_xpath(SRLcenyHoteluXpath)
+            cenaAll = driver.find_elements(By.XPATH, SRLcenyHoteluXpath)
+            cenaSingle = driver.find_element(By.XPATH, SRLcenyHoteluXpath)
             wait.until(EC.visibility_of(cenaSingle))
 
             if cenaSingle.is_displayed():
@@ -439,7 +440,7 @@ class Helpers:
             time.sleep(5)
 
             # Image elements
-            imgs = driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+            imgs = driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
             logger.info(f"Found {len(imgs)} images to check.") if logger else print(
                 f"Found {len(imgs)} images to check.")
 
@@ -456,7 +457,7 @@ class Helpers:
                 assert imgsDisplayed is True, f"Image {index + 1} is not displayed."
 
             # Grid items
-            gridItems = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+            gridItems = driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
             driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
             assert gridItems[0].is_displayed() is True, "The first grid item is not displayed."
             logger.info(f"First grid item is displayed correctly.") if logger else print(
@@ -471,7 +472,7 @@ class Helpers:
                 assert gridItemDisplayed is True, f"Grid item {index + 1} is not displayed."
 
             # Big grid elements
-            gridBig = driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+            gridBig = driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
             assert gridBig[0].is_displayed() is True, "The main grid is not displayed."
             logger.info(f"Main grid is displayed correctly.") if logger else print(f"Main grid is displayed correctly.")
 
@@ -493,16 +494,16 @@ class Helpers:
         cenaZajezduAllListSorted = []
 
         time.sleep(3)
-        sorter_Element = driver.find_element_by_xpath(sorter_Xpath)
+        sorter_Element = driver.find_element(By.XPATH, sorter_Xpath)
         wait.until(EC.visibility_of(sorter_Element))
         sorter_Element.click()
 
         time.sleep(6)
-        hotelyKarty = driver.find_element_by_xpath(hotelyKartyXpath)
+        hotelyKarty = driver.find_element(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
 
         time.sleep(4)
-        cenaZajezduAll = driver.find_elements_by_xpath(cenaZajezduXpath)
+        cenaZajezduAll = driver.find_elements(By.XPATH, cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
 
         for webElement in cenaZajezduAll:
@@ -537,9 +538,9 @@ class Helpers:
 
             # Check if there's a missing image in the hotel bubble
             try:
-                imgMissing = driver.find_element_by_xpath("//*[@class='f_image f_image--missing']")
+                imgMissing = driver.find_element(By.XPATH, "//*[@class='f_image f_image--missing']")
                 if imgMissing.is_displayed():
-                    hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+                    hotelBubble = driver.find_element(By.XPATH, "//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
                     msg = "V mape v bublibně hotelu se nezobrazuje fotka hotelu " + hotelBubble.text
                     logger.error(msg)
                 else:
@@ -548,7 +549,7 @@ class Helpers:
                 logger.info("No missing image found, everything is OK.")
 
             time.sleep(2)
-            hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+            hotelBubble = driver.find_element(By.XPATH, "//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
             hotelBubble.click()
             logger.info("Hotel bubble clicked successfully.")
 
@@ -561,14 +562,14 @@ class Helpers:
 
         def click_on_map_circle(driver, circlexpath):
             try:
-                driver.find_element_by_xpath(circlexpath).click()
+                driver.find_element(By.XPATH, circlexpath).click()
                 logger.info(f"Clicked on circle with XPath: {circlexpath}")
             except Exception as e:
                 logger.error(f"Failed to find or click circle with XPath: {circlexpath}. Error: {e}")
             time.sleep(1.2)
 
         try:
-            zobrazitNaMape = driver.find_element_by_xpath(zobrazitNaMapeXpath)
+            zobrazitNaMape = driver.find_element(By.XPATH, zobrazitNaMapeXpath)
             zobrazitNaMape.click()
             logger.info(f"Clicked on 'Zobrazit na Mapě' element with XPath: {zobrazitNaMapeXpath}")
         except Exception as e:
@@ -621,7 +622,7 @@ class Helpers:
             list_web_elements_Position = 0
 
         logger.info(f"Initial list_web_elements_Position: {list_web_elements_Position}")
-        web_elements = driver.find_elements_by_xpath(web_elements_Xpath)
+        web_elements = driver.find_elements(By.XPATH, web_elements_Xpath)
         logger.info(f"Found {len(web_elements)} web elements with XPath: {web_elements_Xpath}")
 
         list_web_elements = []
@@ -659,21 +660,21 @@ class Helpers:
 
         # Click on Anchor Oblibene Volby
         logger.info("Clicking on the Anchor Oblibene Volby element.")
-        AnchorOblibeneVolbyElement = driver.find_element_by_xpath(AnchorOblibeneVolbyXpath)
+        AnchorOblibeneVolbyElement = driver.find_element(By.XPATH, AnchorOblibeneVolbyXpath)
         AnchorOblibeneVolbyElement.click()
         logger.info("Anchor Oblibene Volby clicked.")
         time.sleep(2)
 
         # Click on Pobocka Box
         logger.info("Clicking on the Pobocka box element.")
-        pobockaBoxElement = driver.find_element_by_xpath(pobockaBoxXpath)
+        pobockaBoxElement = driver.find_element(By.XPATH, pobockaBoxXpath)
         pobockaBoxElement.click()
         logger.info("Pobocka box clicked.")
         time.sleep(2)
 
         # Scroll to and click on Detail Pobocky
         logger.info("Scrolling to and clicking on the Detail Pobocky element.")
-        detailPobockyElement = driver.find_element_by_xpath(detailPobockyXpath)
+        detailPobockyElement = driver.find_element(By.XPATH, detailPobockyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", detailPobockyElement)
         detailPobockyElement.click()
         logger.info("Detail Pobocky clicked.")
@@ -681,14 +682,14 @@ class Helpers:
 
         # Click on 'Objednat Schuzku' button
         logger.info("Clicking on 'Objednat Schuzku' button.")
-        objednatSchuzkuBtnElement = driver.find_element_by_xpath(objednatSchuzkuBtnXpath)
+        objednatSchuzkuBtnElement = driver.find_element(By.XPATH, objednatSchuzkuBtnXpath)
         driver.execute_script("arguments[0].click();", objednatSchuzkuBtnElement)
         logger.info("'Objednat Schuzku' button clicked.")
         time.sleep(2.5)
 
         # Verify Popup for Objednavka Navstevy is displayed
         logger.info("Verifying if the popup for Objednavka Navstevy is displayed.")
-        popUpObjednavkaNavstevyElement = driver.find_element_by_xpath(popUpObjednavkaNavstevyXpath)
+        popUpObjednavkaNavstevyElement = driver.find_element(By.XPATH, popUpObjednavkaNavstevyXpath)
         is_popup_displayed = popUpObjednavkaNavstevyElement.is_displayed()
         logger.info(f"Popup visibility: {is_popup_displayed}")
 
@@ -701,7 +702,7 @@ class Helpers:
 
         # Scroll to the Kostka Poznavacka element and click
         logger.info("Scrolling to Kostka Poznavacka element.")
-        element = driver.find_elements_by_xpath(kostkaPoznavackaXpath)[3]
+        element = driver.find_elements(By.XPATH, kostkaPoznavackaXpath)[3]
         driver.execute_script("arguments[0].scrollIntoView();", element)
         time.sleep(2)
 
@@ -720,7 +721,7 @@ class Helpers:
 
         # Check the Sedivka element
         logger.info("Checking the Sedivka element.")
-        sedivka = driver.find_element_by_xpath(sedivkaXpath)
+        sedivka = driver.find_element(By.XPATH, sedivkaXpath)
         print(sedivka.is_displayed())
         assert 1 == 1
         logger.info("Sedivka element check completed.")
@@ -736,40 +737,40 @@ class Helpers:
 
         # Step 1: Click on 'Kam Pojedete'
         logger.info("Clicking on 'Kam Pojedete'.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedeteXpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, kamPojedeteXpath))).click()
 
         # Step 2: Select 'Destinace'
         logger.info("Selecting the destination.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(destinaceXpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, destinaceXpath))).click()
 
         # Step 3: Click on first 'Pokracovat' button
         logger.info("Clicking on the first 'Pokracovat' button.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn1Xpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn1Xpath))).click()
         time.sleep(generalTimeSleep)
 
         # Step 4: Click on second 'Pokracovat' button
         logger.info("Clicking on the second 'Pokracovat' button.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn2Xpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn2Xpath))).click()
         time.sleep(generalTimeSleep)
 
         # Step 5: Select the 'Termin'
         logger.info("Selecting the 'Termin'.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(terminXpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, terminXpath))).click()
         time.sleep(generalTimeSleep)
 
         # Step 6: Click on third 'Pokracovat' button
         logger.info("Clicking on the third 'Pokracovat' button.")
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn3Xpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn3Xpath))).click()
 
         # Optional: Handle 'Obsazenost' setting if not skipped
         if not skipObsazenostSetting:
             logger.info("Handling 'Obsazenost' setting.")
-            wait.until(EC.visibility_of(driver.find_element_by_xpath(obsazenostXpath))).click()
+            wait.until(EC.visibility_of(driver.find_element(By.XPATH, obsazenostXpath))).click()
 
         # Step 7: Click on 'Potvrdit a Vyhledat'
         logger.info("Clicking on 'Potvrdit a Vyhledat'.")
         time.sleep(generalTimeSleep)
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledatXpath))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, potvrditAvyhledatXpath))).click()
 
         logger.info("Search completed, waiting for the results.")
         time.sleep(4)  # Ensure enough time for the results to load.
@@ -779,7 +780,7 @@ class Helpers:
         logger.info("Starting SRL letenky results verification process.")
 
         # Find SRL letenky result elements
-        letenkySRLresultsElements = driver.find_elements_by_xpath(SRLresultsLetenkyXpath)
+        letenkySRLresultsElements = driver.find_elements(By.XPATH, SRLresultsLetenkyXpath)
         logger.info(f"Found {len(letenkySRLresultsElements)} elements for letenky SRL results.")
 
         pozice = 0

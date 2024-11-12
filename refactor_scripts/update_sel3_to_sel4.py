@@ -1,7 +1,7 @@
 import os
 import re
 
-FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\FW"
+FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\helpers"
 
 def refactor_selenium_commands(file_path):
     """
