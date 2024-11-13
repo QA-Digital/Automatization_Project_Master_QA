@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from DERRO.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown, generalDriverWaitImplicit
@@ -27,10 +28,10 @@ class TestHP_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
-        bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
+        bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
         try:
-            bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
-            bannerAll = self.driver.find_elements_by_xpath(HPbanneryXpath)
+            bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
+            bannerAll = self.driver.find_elements(By.XPATH, HPbanneryXpath)
             #wait.until(EC.visibility_of(bannerSingle))
             if bannerSingle.is_displayed():
                 for WebElement in bannerAll:
@@ -59,10 +60,10 @@ class TestHP_D(unittest.TestCase):
         generalDriverWaitImplicit(self.driver)
 
         try:
-            nejnabidkyLMsingle = self.driver.find_element_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
+            nejnabidkyLMsingle = self.driver.find_element(By.XPATH, "(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
             self.driver.execute_script("arguments[0].scrollIntoView();", nejnabidkyLMsingle)
             time.sleep(3)
-            nejnabidkyLMall = self.driver.find_elements_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
+            nejnabidkyLMall = self.driver.find_elements(By.XPATH, "(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
             wait.until(EC.visibility_of(nejnabidkyLMsingle))
             if nejnabidkyLMsingle.is_displayed():
                 for WebElement in nejnabidkyLMall:
@@ -80,7 +81,7 @@ class TestHP_D(unittest.TestCase):
             msg = "Problem na HP s nej. nabidky LM " + url
             sendEmail(msg)
 
-        nejnabidkyLMsingle = self.driver.find_element_by_xpath("(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
+        nejnabidkyLMsingle = self.driver.find_element(By.XPATH, "(//*[@class='f_content-item page-widget js-filteredWidget'])[1]")
         assert nejnabidkyLMsingle.is_displayed() == True
 
         self.test_passed = True

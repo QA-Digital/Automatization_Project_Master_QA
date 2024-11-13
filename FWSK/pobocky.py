@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from FWSK.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -25,13 +26,13 @@ class TestPobocky_D(unittest.TestCase):
         URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
         self.driver.get(URL_pobocky_lp)
         acceptConsent(self.driver)
-        mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
+        mapa = self.driver.find_element(By.XPATH, "//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
 
         mapaDisplayed = mapa.is_displayed()
         assert mapaDisplayed == True
 
 
-        mapaKolecka = self.driver.find_elements_by_xpath("//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
+        mapaKolecka = self.driver.find_elements(By.XPATH, "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
         y=0
         for _ in mapaKolecka:
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
@@ -41,7 +42,7 @@ class TestPobocky_D(unittest.TestCase):
             assert mapaKoleckaDisplayed == True
 
         generalDriverWaitImplicit(self.driver)
-        pobockaBoxiky = self.driver.find_elements_by_xpath("//*[@class='f_branch-header f_anchor']")
+        pobockaBoxiky = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-header f_anchor']")
         x=0
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()
@@ -52,7 +53,7 @@ class TestPobocky_D(unittest.TestCase):
 
 
         assert pobockaBoxiky[0].is_displayed() == True
-        basicInfo = self.driver.find_elements_by_xpath("//*[@class='f_branch-basicInfo']")
+        basicInfo = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-basicInfo']")
         a=0
         assert basicInfo[0].is_displayed() == True
         for _ in basicInfo:

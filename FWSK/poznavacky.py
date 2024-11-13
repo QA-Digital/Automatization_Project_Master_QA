@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from FWSK.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown, generalDriverWaitImplicit
 import unittest
@@ -12,7 +13,7 @@ def poznavacky_check_D(self, driver):
     generalDriverWaitImplicit(self.driver)
     generalDriverWaitImplicit(self.driver)
     time.sleep(7)
-    imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+    imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
     #self.driver.execute_script("arguments[0].scrollIntoView();", kartyHoteluBottom)
     print(imgs)
     x = 0
@@ -24,7 +25,7 @@ def poznavacky_check_D(self, driver):
         assert imgsDisplayed == True
         print("true imgdisplay")
 
-    gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+    gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
     self.driver.execute_script("arguments[0].scrollIntoView();", gridItems[0])
     assert gridItems[0].is_displayed() == True
     y = 0
@@ -34,7 +35,7 @@ def poznavacky_check_D(self, driver):
         y = y + 1
         print("grid true")
 
-    gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+    gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
     a = 0
     assert gridBig[0].is_displayed() == True
     for _ in gridBig:

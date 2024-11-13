@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 
 from FWSK.pobocky import *
 from FWSK.Detail_D import *

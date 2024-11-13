@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGSK.to_import import acceptConsent, URL_groupsearch, setUp, tearDown, generalDriverWaitImplicit
@@ -27,7 +28,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         URL_groupsearch_lp = f"{self.URL}{URL_groupsearch}"
         self.driver.get(URL_groupsearch_lp)
         acceptConsent(self.driver)
-        #teaserItems = driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        #teaserItems = driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         self.driver.maximize_window()
         groupSearch_D(self, driver)
         self.test_passed = True

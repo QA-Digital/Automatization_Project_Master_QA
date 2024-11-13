@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -152,7 +153,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
         time.sleep(3)
         SRL_H1textPocetNalezenychZajezduXpath = "//h1"
 
-        pocetNalezenychZajezduElement = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+        pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
         pocet_vysledku_list_default.append(pocetNalezenychZajezduElement)
 
         checked_URLs_list_default.append(linkActualUrl)
@@ -170,7 +171,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
         driver.get(linkActualUrl)
         SRL_H1textPocetNalezenychZajezduXpath = "//h1"
 
-        pocetNalezenychZajezduElement = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+        pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
         pocet_vysledku_list_dev.append(pocetNalezenychZajezduElement)
 
         checked_URLs_list_dev.append(linkActualUrl)
@@ -272,7 +273,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 #     time.sleep(3)
 #     driver.get(linkActualUrl)
 #     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-#     pocetNalezenychZajezduElement_PROD = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+#     pocetNalezenychZajezduElement_PROD = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
 #     print(pocetNalezenychZajezduElement_PROD)
 #     print(linkActualUrl)
 #     windowHandle = windowHandle + 1
@@ -286,7 +287,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 #     time.sleep(3)
 #     driver.get(linkActualUrl)
 #     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-#     pocetNalezenychZajezduElement_DEV = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+#     pocetNalezenychZajezduElement_DEV = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
 #     print(pocetNalezenychZajezduElement_DEV)
 #     print(linkActualUrl)
 #     windowHandle = windowHandle + 1

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from DERRO.to_import import acceptConsent,URL_detail, sendEmail, setUp, tearDown
@@ -12,7 +13,7 @@ def detail_D(self, driver):
     driver.implicitly_wait(10)
     detailWrapperXpath = "//div[contains(@class,'grayBox')]"
     try:
-        detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
+        detailWrapper = self.driver.find_element(By.XPATH, detailWrapperXpath)
         wait.until(EC.visibility_of(detailWrapper))
         if detailWrapper.is_displayed():
             pass
@@ -22,7 +23,7 @@ def detail_D(self, driver):
         url = self.driver.current_url
         msg = "Problem se sedivkou na detailu hotelu " + url
         sendEmail(msg)
-    detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
+    detailWrapper = self.driver.find_element(By.XPATH, detailWrapperXpath)
     assert detailWrapper.is_displayed() == True
 from DERRO.to_import import URL_local
 class TestDetailHotelu_D(unittest.TestCase):

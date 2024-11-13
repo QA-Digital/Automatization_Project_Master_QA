@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from ND.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
@@ -38,9 +39,9 @@ class Test_Fulltext_C(unittest.TestCase):
             else:
                 pass
 
-            FTlupa = self.driver.find_element_by_xpath("//*[@class='f_anchor f_icon f_icon--magnifier']")
+            FTlupa = self.driver.find_element(By.XPATH, "//*[@class='f_anchor f_icon f_icon--magnifier']")
             FTlupa.click()
-            inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
+            inputBox = self.driver.find_element(By.XPATH, "//*[@class='f_input-item j_input']")
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(4)
             print(queryList[poziceQueryItem].upper())
@@ -48,10 +49,10 @@ class Test_Fulltext_C(unittest.TestCase):
 
 
             try:
-                wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")))
+                wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")))
                 try:
 
-                    hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")
+                    hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--tour']")
                     hotelDlazdice.click()
                     currentUrl = self.driver.current_url
                     time.sleep(2)
@@ -70,7 +71,7 @@ class Test_Fulltext_C(unittest.TestCase):
 
             if testOK_asserted == False:
                 try:
-                    wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
+                    wait.until(EC.visibility_of(self.driver.find_elements(By.XPATH, "//*[@class='f_item']")[0])).click()
                     print("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != "https://nev-dama.uat.dtweb.cz/"
@@ -105,7 +106,7 @@ class Test_Fulltext_C(unittest.TestCase):
             linksToCheckList = []
 
             try:
-                vysledkyDlazdiceHotelu = driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
+                vysledkyDlazdiceHotelu = driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']/a")
                # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
@@ -113,8 +114,8 @@ class Test_Fulltext_C(unittest.TestCase):
                     x = x + 1
             except NoSuchElementException:
                 pass
-            vysledkyTextItems = driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            vysledkyTextItemsSingle = driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItems = driver.find_elements(By.XPATH, "//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItemsSingle = driver.find_element(By.XPATH, "//*[@class='f_fulltextResults-item']/a")
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0
             for _ in vysledkyTextItems:

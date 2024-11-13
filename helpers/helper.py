@@ -530,8 +530,7 @@ class Helpers:
 
         try:
             # Locate and click the hotel pin on the map
-            actualHotelPin = driver.find_element_by_xpath(
-                "//*[@class='leaflet-marker-icon leaflet-zoom-animated leaflet-interactive']")
+            actualHotelPin = driver.find_element(By.XPATH, "//*[@class='leaflet-marker-icon leaflet-zoom-animated leaflet-interactive']")
             driver.execute_script("arguments[0].click();", actualHotelPin)
             logger.info("Hotel pin clicked successfully.")
 
@@ -822,8 +821,7 @@ class Helpers:
             driver.get(linkActualUrl)
             time.sleep(3)
             SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-            pocetNalezenychZajezduElement = driver.find_element_by_xpath(
-                SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+            pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
             pocet_vysledku_list_default.append(pocetNalezenychZajezduElement)
             checked_URLs_list_default.append(linkActualUrl)
             listPosition += 1

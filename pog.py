@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 import requests
@@ -20,8 +21,8 @@ links_to_check = []
 links_list_counter = 0
 for _ in range(7):
 #for _ in HPtopNabidkaXpath:
-        #topNabidkaElementHref = driver.find_elements_by_xpath(topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
-        topNabidkaElementHref = driver.find_elements_by_xpath(HPtopNabidkaXpath)
+        #topNabidkaElementHref = driver.find_elements(By.XPATH, topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
+        topNabidkaElementHref = driver.find_elements(By.XPATH, HPtopNabidkaXpath)
         topNabidkaLinkText = topNabidkaElementHref[links_list_counter].get_attribute("href")
         links_to_check.append(topNabidkaLinkText )
         links_list_counter = links_list_counter+1

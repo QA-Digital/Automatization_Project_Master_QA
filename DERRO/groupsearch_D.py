@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from selenium.common.exceptions import NoSuchElementException
@@ -9,8 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 def groupSearch_D(self, driver):
     wait = WebDriverWait(self.driver, 200)
     generalDriverWaitImplicit(driver)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath("(//div[@class= 'f_teaser f_teaser--grid'])[1]")))
-    teaserItems = driver.find_elements_by_xpath("(//div[@class= 'f_teaser f_teaser--grid'])[1]")
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, "(//div[@class= 'f_teaser f_teaser--grid'])[1]")))
+    teaserItems = driver.find_elements(By.XPATH, "(//div[@class= 'f_teaser f_teaser--grid'])[1]")
     try:
         for WebElement in teaserItems:
             jdouvidet = WebElement.is_displayed()
@@ -26,7 +27,7 @@ def groupSearch_D(self, driver):
     driver.implicitly_wait(100)
     time.sleep(3)
 
-    srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
+    srlItems = driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
             jdouvidet = WebElement.is_displayed()
@@ -64,7 +65,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(2.5)
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
 
         groupSearch_D(self, driver)
         self.test_passed = True

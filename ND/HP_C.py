@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
@@ -51,10 +52,10 @@ class Test_HP_C(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
 
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
         groupSearch_D(self, self.driver)
         self.test_passed = True
 
@@ -65,22 +66,22 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(3)
         acceptConsent(self.driver)
         time.sleep(8)
-        self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath).click()
+        self.driver.find_element(By.XPATH, HPkamPojedeteButtonXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakChorvatskoDestinaceXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakChorvatskoDestinaceXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpath).click()
         time.sleep(5)
-        element = self.driver.find_element_by_xpath("//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']")
+        element = self.driver.find_element(By.XPATH, "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep3).click()
+        self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep3).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakStravovaniPokracovat).click()
+        self.driver.find_element(By.XPATH, HPzlutakStravovaniPokracovat).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakObsazenost2plus1Xpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakPotvrditAvyhledatXpath).click()
 
         SRL_D(self, self.driver)
         self.test_passed = True
@@ -96,8 +97,8 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1)
 
-        banneryXpath = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
-        banneryElements = self.driver.find_elements_by_xpath("//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
+        banneryXpath = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
+        banneryElements = self.driver.find_elements(By.XPATH, "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
         banneryElement = banneryElements[0]
         self.driver.execute_script("arguments[0].scrollIntoView();", banneryElement)
         time.sleep(4)
@@ -121,8 +122,8 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1)
 
-        banneryXpath = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
-        banneryElements = self.driver.find_elements_by_xpath("//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
+        banneryXpath = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
+        banneryElements = self.driver.find_elements(By.XPATH, "//*[@class='f_tile f_tile--teaserDestination js-gtm-promotionClick']")
         banneryElement = banneryElements[0]
         self.driver.execute_script("arguments[0].scrollIntoView();", banneryElement)
         time.sleep(4)
@@ -146,8 +147,8 @@ class Test_HP_C(unittest.TestCase):
 
         oblibeneDestinaceXpath = "//*[@data-id-country]"
         try:
-            oblibeneDestinace = self.driver.find_element_by_xpath(oblibeneDestinaceXpath)
-            oblibeneDestinaceAll = self.driver.find_elements_by_xpath(oblibeneDestinaceXpath)
+            oblibeneDestinace = self.driver.find_element(By.XPATH, oblibeneDestinaceXpath)
+            oblibeneDestinaceAll = self.driver.find_elements(By.XPATH, oblibeneDestinaceXpath)
             wait.until(EC.visibility_of(oblibeneDestinace))
             if oblibeneDestinace.is_displayed():
                 for WebElement in oblibeneDestinaceAll:

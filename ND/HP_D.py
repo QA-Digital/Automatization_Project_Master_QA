@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from ND.Detail_D import detail_D
@@ -32,10 +33,10 @@ class TestHP_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
-        bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
+        bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
         try:
-            bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
-            bannerAll = self.driver.find_elements_by_xpath(HPbanneryXpath)
+            bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
+            bannerAll = self.driver.find_elements(By.XPATH, HPbanneryXpath)
             #wait.until(EC.visibility_of(bannerSingle))
             if bannerSingle.is_displayed():
                 for WebElement in bannerAll:
@@ -64,7 +65,7 @@ class TestHP_D(unittest.TestCase):
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
 
-        HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
+        HPnextArrowElement = self.driver.find_element(By.XPATH, HPnextArrowXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
         time.sleep(3)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
@@ -76,11 +77,11 @@ class TestHP_D(unittest.TestCase):
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
         time.sleep(0.5)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        HPnextkartaHoteluSlider = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPnextkartaHoteluSlider = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         time.sleep(1)
         self.driver.execute_script("arguments[0].click();", HPnextkartaHoteluSlider)
         action = ActionChains(self.driver)
-        HPkartaHoteluSliderElement = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPkartaHoteluSliderElement = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPkartaHoteluSliderElement)
         action.move_to_element(HPkartaHoteluSliderElement).click().perform()
         self.driver.implicitly_wait(100)

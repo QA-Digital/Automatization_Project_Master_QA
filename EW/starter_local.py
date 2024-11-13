@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from EW.pobocky import *
 from EW.Detail_D import *
 from EW.Detail_C import *

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 
 def returnLocatorForMealHotelKarty(poziceHotelu):
     string1 = "/ html / body / div[ @ id = 'app'] / div[ @ id = 'c_page-mainSearch'] / div[ @class ='hotel-results-section'] / div[@ class ='hotel-results-content'][1] / div[@ class ='tile-hotel-section'] / div[@ class ='items'] / div[@ class ='flex']["

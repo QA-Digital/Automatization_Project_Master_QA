@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from FWSK.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown, URL_detail_new
 import time
@@ -54,7 +55,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(10)
         imageDetailXpath = "//div[@class='grid grid-cols-4 grid-rows-2 gap-2 rounded-[--galleryImageRadius] overflow-hidden']//div[1]//img[1]"
-        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)
@@ -66,7 +67,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         try:
             # time.sleep(5)
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
                 print("its ok")
@@ -90,7 +91,7 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         print(zvolenaStravaVboxuString)
 

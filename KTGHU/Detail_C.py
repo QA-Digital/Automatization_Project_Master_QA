@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -49,8 +50,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         closeExponeaBanner(self.driver)
         #imageDetailXpath = '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img'
         imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/swiper-container/swiper-slide[1]/img"
-        #imageDetail = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
-        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+        #imageDetail = self.driver.find_element(By.XPATH, "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)
@@ -61,7 +62,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             sendEmail(msg)
 
         try:
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
                 print("its ok")
@@ -96,7 +97,7 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         print(zvolenaStravaVboxuString)
 
@@ -120,14 +121,14 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         #
         # try:
-        #     terminyCeny = self.driver.find_element_by_xpath("//*[@id='terminyaceny-tab']")
+        #     terminyCeny = self.driver.find_element(By.XPATH, "//*[@id='terminyaceny-tab']")
         #     wait.until(EC.visibility_of(terminyCeny))
         #     ##terminyCeny.click()
         #     self.driver.execute_script("arguments[0].click();", terminyCeny)
         #     time.sleep(3)
         #     try:
         #         generalDriverWaitImplicit(self.driver)
-        #         potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+        #         potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
         #
         #         self.driver.execute_script("arguments[0].click();", potvrdit)
         #
@@ -150,11 +151,11 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     self.driver.execute_script("arguments[0].click();", stravovaniBox)
         #     try:
         #         # allInclusiveBox =
-        #         # driver.find_element_by_xpath("//*[contains(text(), 'All
+        #         # driver.find_element(By.XPATH, "//*[contains(text(), 'All
         #         # inclusive')]")
         #         # wait.until(EC.visibility_of(allInclusiveBox))
         #         ##allInclusiveBox.click()
-        #         stravyBox = self.driver.find_elements_by_xpath("//*[@name='detailFilterCatering']")
+        #         stravyBox = self.driver.find_elements(By.XPATH, "//*[@name='detailFilterCatering']")
         #
         #         self.driver.execute_script("arguments[0].click();", stravyBox[1])
         #
@@ -184,7 +185,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # #omlouvamese_paragraph(self)
         #
-        # zvolenaStravaVboxu = self.driver.find_element_by_xpath("//*[@class='js-subvalue f_text--highlighted']")
+        # zvolenaStravaVboxu = self.driver.find_element(By.XPATH, "//*[@class='js-subvalue f_text--highlighted']")
         # zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         #
         # print(zvolenaStravaVboxuString)
@@ -278,7 +279,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # try:
         #     generalDriverWaitImplicit(self.driver)
-        #     terminyCeny = self.driver.find_element_by_xpath(terminyAcenyTabXpath)
+        #     terminyCeny = self.driver.find_element(By.XPATH, terminyAcenyTabXpath)
         #     wait.until(EC.visibility_of(terminyCeny))
         #     ##terminyCeny.click()
         #     self.driver.execute_script("arguments[0].click();", terminyCeny)
@@ -286,7 +287,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     try:
         #         generalDriverWaitImplicit(self.driver)
         #         time.sleep(2)
-        #         potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+        #         potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
         #         ##wait.until(EC.visibility_of(potvrdit))
         #         self.driver.execute_script("arguments[0].click();", potvrdit)
         #

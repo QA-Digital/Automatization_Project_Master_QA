@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from ND.to_import import URL, closeExponeaBanner, sendEmail, setUp, tearDown, generalDriverWaitImplicit

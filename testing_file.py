@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -15,18 +16,18 @@ driver.maximize_window()
 acceptConsent(driver)
 time.sleep(15)
 terminyXpath = "//*[@class='f_termList-header']"
-terminyScrollInto = driver.find_element_by_xpath(terminyXpath)
+terminyScrollInto = driver.find_element(By.XPATH, terminyXpath)
 driver.execute_script("arguments[0].scrollIntoView();", terminyScrollInto)
 time.sleep(4)
 #driver.click(terminyScrollInto)
 terminyScrollInto.click()
-cestujiciElements = driver.find_elements_by_xpath(cestujiciXpath)
-cestujiciElement = driver.find_element_by_xpath(cestujiciXpath)
-# cestujiciElementText = driver.find_elements_by_xpath(cestujiciXpath).text
+cestujiciElements = driver.find_elements(By.XPATH, cestujiciXpath)
+cestujiciElement = driver.find_element(By.XPATH, cestujiciXpath)
+# cestujiciElementText = driver.find_elements(By.XPATH, cestujiciXpath).text
 y=1
 cestujiciSinglePriceList = []
 for _ in cestujiciElements:
-    cestujiciElementText = driver.find_elements_by_xpath(cestujiciXpath)[y].text
+    cestujiciElementText = driver.find_elements(By.XPATH, cestujiciXpath)[y].text
     cestujiciSinglePrice = cestujiciElementText[y]
     print(cestujiciSinglePrice)
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -114,7 +115,7 @@ def closeExponeaBanner(driver):
     wait = WebDriverWait(driver, 150000)
     driver.maximize_window()
     try:
-      exponeaBanner = driver.find_element_by_xpath("//*[@class='exponea-popup-banner']")
+      exponeaBanner = driver.find_element(By.XPATH, "//*[@class='exponea-popup-banner']")
       if exponeaBanner.is_displayed():
         wait.until(EC.visibility_of(exponeaBanner))
         exponeaCrossAndBanner = driver.find_element_by_xpath(

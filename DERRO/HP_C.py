@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
@@ -53,10 +54,10 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(vyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, vyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
 
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
         groupSearch_D(self, self.driver)
         self.test_passed = True
 
@@ -66,22 +67,22 @@ class Test_HP_C(unittest.TestCase):
         time.sleep( 0.3)
         acceptConsent(self.driver)
         time.sleep(3.5)
-        self.driver.find_element_by_xpath(kamPojedeteButtonXpath).click()
+        self.driver.find_element(By.XPATH, kamPojedeteButtonXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakEgiptDestinaceXpath).click()
+        self.driver.find_element(By.XPATH, zlutakEgiptDestinaceXpath).click()
         time.sleep(1.5)
-        self.driver.find_element_by_xpath(zlutakPokracovatButtonXpath).click()
+        self.driver.find_element(By.XPATH, zlutakPokracovatButtonXpath).click()
         time.sleep(0.5)
         self.driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
-        self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep2).click()
+        self.driver.find_element(By.XPATH, zlutakPokracovatButtonXpathStep2).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakVyberTerminuXpath).click()
+        self.driver.find_element(By.XPATH, zlutakVyberTerminuXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakPokracovatButtonXpathStep3).click()
+        self.driver.find_element(By.XPATH, zlutakPokracovatButtonXpathStep3).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakObsazenost2plus1Xpath).click()
+        self.driver.find_element(By.XPATH, zlutakObsazenost2plus1Xpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(zlutakPotvrditAvyhledatXpath).click()
+        self.driver.find_element(By.XPATH, zlutakPotvrditAvyhledatXpath).click()
 
         SRL_D(self, self.driver)
         self.test_passed = True
@@ -95,10 +96,10 @@ class Test_HP_C(unittest.TestCase):
         generalDriverWaitImplicit(self.driver)
 
         try:
-            topHotely = self.driver.find_element_by_xpath("//*[@class='f_tileGrid f_tileGrid--quad']")
+            topHotely = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid f_tileGrid--quad']")
             self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", topHotely)
             time.sleep(2.5)
-            topHotelyAll = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid f_tileGrid--quad']")
+            topHotelyAll = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid f_tileGrid--quad']")
             wait.until(EC.visibility_of(topHotely))
             if topHotely.is_displayed():
                 for WebElement in topHotelyAll:
@@ -131,14 +132,14 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        VyletyEgiptElement = self.driver.find_element_by_xpath(VyletyEgipt)
+        VyletyEgiptElement = self.driver.find_element(By.XPATH, VyletyEgipt)
         self.driver.execute_script("arguments[0].scrollIntoView();", VyletyEgiptElement)
         time.sleep(5)
         VyletyEgiptElement.click()
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:
@@ -153,14 +154,14 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        VyletyThailandaElement = self.driver.find_element_by_xpath(VyletyThailanda)
+        VyletyThailandaElement = self.driver.find_element(By.XPATH, VyletyThailanda)
         self.driver.execute_script("arguments[0].scrollIntoView();", VyletyThailandaElement)
         time.sleep(5)
         VyletyThailandaElement.click()
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:
@@ -176,14 +177,14 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        VyletyDubaiElement = self.driver.find_element_by_xpath(VyletyDubai)
+        VyletyDubaiElement = self.driver.find_element(By.XPATH, VyletyDubai)
         self.driver.execute_script("arguments[0].scrollIntoView();", VyletyDubaiElement)
         time.sleep(5)
         VyletyDubaiElement.click()
         time.sleep(2)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath(dlazdiceXpath)
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, dlazdiceXpath)
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:

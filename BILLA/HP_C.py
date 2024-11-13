@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from BILLA.to_import import acceptConsent, URL, setUp, tearDown, generalDriverWaitImplicit
@@ -43,7 +44,7 @@ class Test_HP_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 300)
 
         acceptConsent(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)     ##time sleep not the best not pog but it works =)
         groupSearch_D(self, self.driver)
         self.test_passed = True
@@ -56,22 +57,22 @@ class Test_HP_C(unittest.TestCase):
 
         acceptConsent(self.driver)
         time.sleep(1)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPkamPojedeteButtonXpath))).click()
         time.sleep(0.3)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakEgyptDestinaceXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakEgyptDestinaceXpath))).click()
 
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpath))).click()
         time.sleep(1.5)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep2))).click()
 
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakLetniPrazdninyXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakLetniPrazdninyXpath))).click()
         time.sleep(0.5)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep2))).click()
 
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakObsazenost2plus1Xpath))).click()
 
         time.sleep(1)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPotvrditAvyhledatXpath))).click()
         SRL_D(self, self.driver)
 
         self.test_passed = True
@@ -84,7 +85,7 @@ class Test_HP_C(unittest.TestCase):
 
         acceptConsent(self.driver)
         time.sleep(1)
-        HPstatyKartyElement=self.driver.find_element_by_xpath(HPstatyKartyXpath)
+        HPstatyKartyElement=self.driver.find_element(By.XPATH, HPstatyKartyXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPstatyKartyElement)
 
         time.sleep(0.666)

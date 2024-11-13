@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 import requests
 from selenium import webdriver
@@ -33,16 +34,16 @@ def id_creator_pobocky_xpath(idNumber):
     finalIdXpathLocator = startXpath + str(idNumber) + endXpath
     return finalIdXpathLocator
 
-print(driver.find_element_by_xpath(id_creator_pobocky_xpath(248)).text)
+print(driver.find_element(By.XPATH, id_creator_pobocky_xpath(248)).text)
 #print(stringToVerify)
-#print(driver.find_element_by_xpath(id_creator_pobocky_xpath(248)).text==stringToVerify)
+#print(driver.find_element(By.XPATH, id_creator_pobocky_xpath(248)).text==stringToVerify)
 listJmenaPobocek = []
 listMissingIDsPobocek = []
 CountPobocekStarter = 0
 for _ in listIDS:
 #
     try:
-        listJmenaPobocek.append(driver.find_element_by_xpath(id_creator_pobocky_xpath(listIDS[CountPobocekStarter])).text)
+        listJmenaPobocek.append(driver.find_element(By.XPATH, id_creator_pobocky_xpath(listIDS[CountPobocekStarter])).text)
     except NoSuchElementException:
         listMissingIDsPobocek.append(id_creator_pobocky_xpath(listIDS[CountPobocekStarter]))
 

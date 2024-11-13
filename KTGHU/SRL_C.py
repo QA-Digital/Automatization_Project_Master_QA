@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -91,7 +92,7 @@ class Test_SRL_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 30)
        #tohle je jen na stg
         # rozbalitFiltrStravyXpath = "//*[contains(text(),'Kedvenc étel')]"
-        # rozbalitFiltrStravy = self.driver.find_element_by_xpath(rozbalitFiltrStravyXpath)
+        # rozbalitFiltrStravy = self.driver.find_element(By.XPATH, rozbalitFiltrStravyXpath)
         #
         # rozbalitFiltrStravy.click()
 
@@ -116,7 +117,7 @@ class Test_SRL_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(2)
         closeExponeaBanner(self.driver)
-        hotelyAllKarty = self.driver.find_elements_by_xpath(hotelyKartyXpath)
+        hotelyAllKarty = self.driver.find_elements(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyAllKarty[1]))
         for _ in range(11):
 
@@ -132,14 +133,14 @@ class Test_SRL_C(unittest.TestCase):
             wait.until(EC.visibility_of(terminZajezduSingle))
             ##print(terminZajezdu[x].text)
 
-            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_tile-priceDetail-item']/a")
+            linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-priceDetail-item']/a")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             ##print(linkDetailActualUrl)
 
-            stravaZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
+            stravaZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--cutlery']")
             stravaZajezduString = stravaZajezdu[x].text
 
-            pokojZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--bed']")
+            pokojZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--bed']")
             pokojZajezduString = pokojZajezdu[x].text
             ##print(pokojZajezduString)
 
@@ -161,10 +162,10 @@ class Test_SRL_C(unittest.TestCase):
 
             time.sleep(1)  ##natvrdo aby se to neposralo
 
-            #detailTerminSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title']")
+            #detailTerminSedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary-title']")
             ##print(detailTerminSedivka.text)
 
-            # detailStravaSedivka = self.driver.find_elements_by_xpath("//*[@class='fshr-detail-summary-paragraph']")
+            # detailStravaSedivka = self.driver.find_elements(By.XPATH, "//*[@class='fshr-detail-summary-paragraph']")
             # detailStravaSedivkaString = detailStravaSedivka[
             #     1].text  ##gottaa be 1 cuz thats how its set up (multiple locators are attached to this locator so position 1 is always gonna be strava hopefully
 
@@ -192,11 +193,11 @@ class Test_SRL_C(unittest.TestCase):
             # detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
             # ##print(detailPokojSedivkaString)
 
-            # detailCenaAll = self.driver.find_element_by_xpath("//*[@class='fshr-tooltip-underline js-totalPrice']")
+            # detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='fshr-tooltip-underline js-totalPrice']")
             # detailCenaAllString = detailCenaAll.text
             # ##print(detailCenaAllString)
 
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='f_column-item']//*[@class='f_price']")
             detailCenaAllString = detailCenaAll.text.lower()
 
             # detailCenaAdult = self.driver.find_element_by_xpath(
@@ -205,8 +206,8 @@ class Test_SRL_C(unittest.TestCase):
             # print(detailCenaAdultString)
 
             try:
-                # detailCenaAdult = self.driver.find_element_by_xpath('//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
-                # detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between']//*[@class='text-right bold']")
+                # detailCenaAdult = self.driver.find_element(By.XPATH, '//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
+                # detailCenaAdult = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between']//*[@class='text-right bold']")
                 detailCenaAdult = self.driver.find_element_by_xpath(
                     "//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text.lower()

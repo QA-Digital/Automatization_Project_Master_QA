@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from BILLA.Detail_C import TestDetailHotelu_C
 from BILLA.FM_D import Test_FM_Exotika_D
 from BILLA.fulltext_C import Test_Fulltext_C

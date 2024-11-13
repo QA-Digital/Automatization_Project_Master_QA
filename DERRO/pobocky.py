@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from DERRO.to_import import acceptConsent, URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -31,7 +32,7 @@ class TestPobocky_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(2)
-        mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
+        mapa = self.driver.find_element(By.XPATH, "//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
         self.driver.execute_script("arguments[0].scrollIntoView();", mapa)
 
         mapaDisplayed = mapa.is_displayed()
@@ -39,7 +40,7 @@ class TestPobocky_C(unittest.TestCase):
         print("Map is displayed")
 
 
-        mapaKolecka = self.driver.find_elements_by_xpath("//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
+        mapaKolecka = self.driver.find_elements(By.XPATH, "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
         y=0
         for _ in mapaKolecka:
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
@@ -50,7 +51,7 @@ class TestPobocky_C(unittest.TestCase):
 
         generalDriverWaitImplicit(self.driver)
         time.sleep(3.5)
-        basicInfo = self.driver.find_elements_by_xpath("//*[@class='f_branch-basicInfo']")
+        basicInfo = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-basicInfo']")
         a=0
         assert basicInfo[0].is_displayed() == True
         for _ in basicInfo:
@@ -61,7 +62,7 @@ class TestPobocky_C(unittest.TestCase):
             a=a+1
 
         generalDriverWaitImplicit(self.driver)
-        pobockaBoxiky = self.driver.find_elements_by_xpath("//*[@class='f_branch-header-item']")
+        pobockaBoxiky = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-header-item']")
         x = 0
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()

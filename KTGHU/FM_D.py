@@ -33,8 +33,8 @@ class TestFM_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")))
-        teaserItems = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, "//*[@class='f_teaser-item']")))
+        teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         try:
             for WebElement in teaserItems:
                 ##print(len(teaserItems))

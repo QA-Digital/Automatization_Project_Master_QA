@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from EW.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown
 from FW.poznavacky import proklik_kostkaHotelu_toDetail_check_sedivka
@@ -32,7 +33,7 @@ class TestPoznavacky_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(8)
         gridItemXpath = "//*[@class='f_tileGrid-item']/a"
-        gridItemElements = self.driver.find_elements_by_xpath(gridItemXpath)
+        gridItemElements = self.driver.find_elements(By.XPATH, gridItemXpath)
         # self.logger.info(URL_poznavaciho_hotelu)
         linksToCheck_List = []
         pozice = 0
@@ -108,7 +109,7 @@ class TestPoznavacky_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(9)
         kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
-        element3 = self.driver.find_elements_by_xpath(kostkaPoznavackaXpath)[4] ##tady jsou ty spešl dementní zajezdy do egypta ktery neotevrou detail, musi se nekdy zmenit
+        element3 = self.driver.find_elements(By.XPATH, kostkaPoznavackaXpath)[4] ##tady jsou ty spešl dementní zajezdy do egypta ktery neotevrou detail, musi se nekdy zmenit
         self.driver.execute_script("arguments[0].scrollIntoView();", element3)
         time.sleep(2)
         element3.click()

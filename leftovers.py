@@ -1,21 +1,22 @@
+from selenium.webdriver.common.by import By
 #zlutak to srl
 
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakReckoDestinaceXpath))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakReckoDestinaceXpath))).click()
 #
 #
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpath))).click()
 # time.sleep(1.5)
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep2))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep2))).click()
 #
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakLetniPrazdninyXpath))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakLetniPrazdninyXpath))).click()
 # time.sleep(1)
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep3))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep3))).click()
 #
 #
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakObsazenost2plus1Xpath))).click()
 #
 # time.sleep(1)
-# wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath))).click()
+# wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPotvrditAvyhledatXpath))).click()
 # time.sleep(1)
 
 
@@ -44,8 +45,8 @@ time.sleep(5)
 
 acceptConsent(driver)
 y=0
-for _ in driver.find_elements_by_xpath(obrazekZajimavaMistaXpath):
-    print(driver.find_elements_by_xpath(obrazekZajimavaMistaXpath)[y].is_displayed())
+for _ in driver.find_elements(By.XPATH, obrazekZajimavaMistaXpath):
+    print(driver.find_elements(By.XPATH, obrazekZajimavaMistaXpath)[y].is_displayed())
     y=y+1
 
 time.sleep(20)

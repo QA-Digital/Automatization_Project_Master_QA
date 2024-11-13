@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from PENNY.to_import import acceptConsent, URL_detail, sendEmail, tearDown, setUp, URL_detail_all_inclusive, URL_detail_airport_praha
@@ -44,7 +45,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         acceptConsent(self.driver)
 
-        imageDetail = self.driver.find_element_by_xpath(imageDetailFirstXpath)
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailFirstXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         print( imageDetailSrc)
         try:
@@ -55,7 +56,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             msg = "Problem s fotkou src, detailhotelu,  TimeoutException " + url
             sendEmail(msg)
         try:
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
                 print("its ok")
@@ -78,7 +79,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
 
         try:
-            terminyCeny = self.driver.find_element_by_xpath(terminyAcenyScrollMenuXpath)
+            terminyCeny = self.driver.find_element(By.XPATH, terminyAcenyScrollMenuXpath)
             wait.until(EC.visibility_of(terminyCeny))
             ##terminyCeny.click()
             self.driver.execute_script("arguments[0].click();", terminyCeny)
@@ -89,7 +90,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         zvolenaStravaVboxu = "all inclusive"
 
-        stravaVterminech = self.driver.find_elements_by_xpath(stravovaniVysledkyTerminyAcenyXpath)
+        stravaVterminech = self.driver.find_elements(By.XPATH, stravovaniVysledkyTerminyAcenyXpath)
         stravaVterminechString = []
 
         ##ty for loopy se nezapnou pokud pocet vysledku bude 0
@@ -135,7 +136,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             acceptConsent(self.driver)
 
             try:
-                terminyCeny = self.driver.find_element_by_xpath(terminyAcenyScrollMenuXpath)
+                terminyCeny = self.driver.find_element(By.XPATH, terminyAcenyScrollMenuXpath)
                 wait.until(EC.visibility_of(terminyCeny))
                 ##terminyCeny.click()
                 self.driver.execute_script("arguments[0].click();", terminyCeny)
@@ -146,7 +147,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
             zvolenaAiportVboxu = "Praha"
 
-            airportVterminech = self.driver.find_elements_by_xpath(airportVysledkyTerminyAcenyXpath)
+            airportVterminech = self.driver.find_elements(By.XPATH, airportVysledkyTerminyAcenyXpath)
             airportVterminechString = []
 
             ##ty for loopy se nezapnou pokud pocet vysledku bude 0

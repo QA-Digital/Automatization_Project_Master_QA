@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
@@ -34,21 +35,21 @@ def rekapitulace_proklik_doplatek(driver, URL_rekapitulace):
     driver.get(URL_rekapitulace)
     time.sleep(2)
     acceptConsent(driver)
-    driver.find_element_by_xpath(Rekapitulace_ZaplatitNyniXpath).click()
+    driver.find_element(By.XPATH, Rekapitulace_ZaplatitNyniXpath).click()
 ##after execution of above im at doplatek
 
 rekapitulace_proklik_doplatek(driver, URL)
 time.sleep(5)
-Doplatek_AmountToPayBoxElement = driver.find_element_by_xpath(Doplatek_AmountToPayBoxXpath)
+Doplatek_AmountToPayBoxElement = driver.find_element(By.XPATH, Doplatek_AmountToPayBoxXpath)
 Doplatek_AmountToPayBoxElement.clear()
 time.sleep(0.5)
 Doplatek_AmountToPayBoxElement.send_keys(amountToPay)
 time.sleep(2)
-driver.find_element_by_xpath(Doplatek_ZaplatitButtonXpath).click()
+driver.find_element(By.XPATH, Doplatek_ZaplatitButtonXpath).click()
 time.sleep(3)
 
 
-driver.find_element_by_xpath(PaymentGateway_CSOBczCardPaymentBackToShopXpath).click()
+driver.find_element(By.XPATH, PaymentGateway_CSOBczCardPaymentBackToShopXpath).click()
 time.sleep(3)
 
-driver.find_element_by_xpath(Doplatek_CanceledStatusBackToPaymentXpath).click()
+driver.find_element(By.XPATH, Doplatek_CanceledStatusBackToPaymentXpath).click()

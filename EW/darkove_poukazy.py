@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from EW.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
     generalDriverWaitImplicit, URL_darkove_poukazy
@@ -52,7 +53,7 @@ class Test_darkove_poukazy(unittest.TestCase):
 
         acceptConsent(self.driver)
         time.sleep(5)
-        motivyElements = self.driver.find_elements_by_xpath(motivyXpath)
+        motivyElements = self.driver.find_elements(By.XPATH, motivyXpath)
         self.logger.info(motivyElements)
         pozice = 0
         for _ in motivyElements:
@@ -64,7 +65,7 @@ class Test_darkove_poukazy(unittest.TestCase):
 
         time.sleep(6)
 
-        vybranyMotivElement = self.driver.find_element_by_xpath(vybranyMotivXpath)
+        vybranyMotivElement = self.driver.find_element(By.XPATH, vybranyMotivXpath)
         assert vybranyMotivElement.is_displayed() == True
 
     def test_darkove_poukazy_castka_venovani(self):
@@ -76,7 +77,7 @@ class Test_darkove_poukazy(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
 
-        castkyElements = self.driver.find_elements_by_xpath(castkyXpath)
+        castkyElements = self.driver.find_elements(By.XPATH, castkyXpath)
         pozice = 0
         for _ in castkyElements:
             #castkyElements[pozice].click()
@@ -85,7 +86,7 @@ class Test_darkove_poukazy(unittest.TestCase):
             time.sleep(2)
             pozice = pozice + 1
 
-        vlastniCastkyElement = self.driver.find_element_by_xpath(castkaVlastniXpath)
+        vlastniCastkyElement = self.driver.find_element(By.XPATH, castkaVlastniXpath)
         number_to_write = "12345"
         #vlastniCastkyElement.click()
         #vlastniCastkyElement.send_keys(number_to_write)
@@ -99,7 +100,7 @@ class Test_darkove_poukazy(unittest.TestCase):
         time.sleep(3)
 
         text_to_write = "věnuji ti tohle neni to super ,?!*123"
-        venovaniBoxElement = self.driver.find_element_by_xpath(venovaniBoxXpath)
+        venovaniBoxElement = self.driver.find_element(By.XPATH, venovaniBoxXpath)
         self.driver.execute_script("arguments[0].value = arguments[1];", venovaniBoxElement, text_to_write)
         written_text = venovaniBoxElement.get_attribute("value")
         assert written_text == text_to_write, f"Expected: {number_to_write}, Actual: {written_text}"
@@ -116,12 +117,12 @@ class Test_darkove_poukazy(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
 
-        jmenoInputElement = self.driver.find_element_by_xpath(jmenoInputXpath)
-        prijmeniInputElement = self.driver.find_element_by_xpath(prijmeniInputXpath)
-        telefonInputElement = self.driver.find_element_by_xpath(telefonInputXpath)
-        emailInputElement = self.driver.find_element_by_xpath(emailInputXpath)
+        jmenoInputElement = self.driver.find_element(By.XPATH, jmenoInputXpath)
+        prijmeniInputElement = self.driver.find_element(By.XPATH, prijmeniInputXpath)
+        telefonInputElement = self.driver.find_element(By.XPATH, telefonInputXpath)
+        emailInputElement = self.driver.find_element(By.XPATH, emailInputXpath)
 
-        checkboxAgreementElement = self.driver.find_element_by_xpath(checkboxAgreementXpath)
+        checkboxAgreementElement = self.driver.find_element(By.XPATH, checkboxAgreementXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();",checkboxAgreementElement)
         jmenoInputElement.send_keys(jmeno)
         prijmeniInputElement.send_keys(prijmeni)
@@ -130,12 +131,12 @@ class Test_darkove_poukazy(unittest.TestCase):
 
         checkboxAgreementElement.click()
 
-        self.driver.find_element_by_xpath(objednatXpath).click()
+        self.driver.find_element(By.XPATH, objednatXpath).click()
 
         time.sleep(5)
 
-        self.driver.find_element_by_xpath(platebniKartouXpath).click()
-        zaplatitElement = self.driver.find_element_by_xpath(zaplatitXpath)
+        self.driver.find_element(By.XPATH, platebniKartouXpath).click()
+        zaplatitElement = self.driver.find_element(By.XPATH, zaplatitXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", zaplatitElement)
         zaplatitElement.click()
         time.sleep(7)

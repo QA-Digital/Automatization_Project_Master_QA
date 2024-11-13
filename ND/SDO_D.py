@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from ND.to_import import acceptConsent, sendEmail, URL_stat_zima, URL_stat_leto, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -30,10 +31,10 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
-            element = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            oblastiAll = self.driver.find_elements(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            oblastiSingle = self.driver.find_element(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
             if oblastiSingle.is_displayed():
                 for WebElement in oblastiAll:
                     jdouvidet = WebElement.is_displayed()
@@ -56,10 +57,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
-            element = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
+            strediskaAll = self.driver.find_elements(By.XPATH, "//*[@class='border border-neutral-200 flex flex-col']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='border border-neutral-200 flex flex-col']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200 flex flex-col']")
+            strediskaSingle = self.driver.find_element(By.XPATH, "//*[@class='border border-neutral-200 flex flex-col']")
             if strediskaSingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -81,10 +82,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(10)
         try:
             generalDriverWaitImplicit(self.driver)
-            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
-            element = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            oblHotelyAll = self.driver.find_elements(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            oblHotelySingle = self.driver.find_element(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             if oblHotelySingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -106,10 +107,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='flex grow']")
-            element = self.driver.find_element_by_xpath("//*[@class='flex grow']")
+            fotkyAll = self.driver.find_elements(By.XPATH, "//*[@class='flex grow']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='flex grow']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='flex grow']")
+            fotkySingle = self.driver.find_element(By.XPATH, "//*[@class='flex grow']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()
@@ -139,10 +140,10 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblastiAll = self.driver.find_elements_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
-            element = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            oblastiAll = self.driver.find_elements(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            oblastiSingle = self.driver.find_element_by_xpath("//*[@class='group h-[250px] block relative overflow-hidden']")
+            oblastiSingle = self.driver.find_element(By.XPATH, "//*[@class='group h-[250px] block relative overflow-hidden']")
             if oblastiSingle.is_displayed():
                 for WebElement in oblastiAll:
                     jdouvidet = WebElement.is_displayed()
@@ -165,10 +166,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            strediskaAll = self.driver.find_elements_by_xpath("//*[@class='border border-neutral-200']")
-            element = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200']")
+            strediskaAll = self.driver.find_elements(By.XPATH, "//*[@class='border border-neutral-200']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='border border-neutral-200']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            strediskaSingle = self.driver.find_element_by_xpath("//*[@class='border border-neutral-200']")
+            strediskaSingle = self.driver.find_element(By.XPATH, "//*[@class='border border-neutral-200']")
             if strediskaSingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -190,10 +191,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
-            element = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            oblHotelyAll = self.driver.find_elements(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
+            oblHotelySingle = self.driver.find_element(By.XPATH, "//*[@class='flex flex-col group no-underline p-4 w-full box-border']")
             if oblHotelySingle.is_displayed():
                 for WebElement in strediskaAll:
                     jdouvidet = WebElement.is_displayed()
@@ -215,10 +216,10 @@ class TestSDO_D(unittest.TestCase):
         time.sleep(5)
         try:
             generalDriverWaitImplicit(self.driver)
-            fotkyAll = self.driver.find_elements_by_xpath("//*[@class='flex grow']")
-            element = self.driver.find_element_by_xpath("//*[@class='flex grow']")
+            fotkyAll = self.driver.find_elements(By.XPATH, "//*[@class='flex grow']")
+            element = self.driver.find_element(By.XPATH, "//*[@class='flex grow']")
             self.driver.execute_script("arguments[0].scrollIntoView();", element)
-            fotkySingle = self.driver.find_element_by_xpath("//*[@class='flex grow']")
+            fotkySingle = self.driver.find_element(By.XPATH, "//*[@class='flex grow']")
             if fotkySingle.is_displayed():
                 for WebElement in fotkyAll:
                     jdouvidet = WebElement.is_displayed()

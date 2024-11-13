@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from DERRO.pobocky import *
 from DERRO.Detail_D import *
 from DERRO.Detail_C import *

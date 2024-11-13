@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from EW.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results
 import time
@@ -43,9 +44,9 @@ class Test_Fulltext_C(unittest.TestCase):
             else:
                 pass
 
-            FTlupa = self.driver.find_element_by_xpath("//button[@type='button']//*[name()='svg']")
+            FTlupa = self.driver.find_element(By.XPATH, "//button[@type='button']//*[name()='svg']")
             FTlupa.click()
-            inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
+            inputBox = self.driver.find_element(By.XPATH, "//*[@class='f_input-item j_input']")
             #inputBox.send_keys(queryList[poziceQueryItem])
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
@@ -54,15 +55,15 @@ class Test_Fulltext_C(unittest.TestCase):
             poziceQueryItem = poziceQueryItem+1
 
 
-            #if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
+            #if self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']").isDisplayed()==True:
             #if hotelDlazdice != 0:
 
             try:
-                wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")))
+                wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")))
                 try:
 
-                    #hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
-                    hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tile f_tile--tour']")  ##work around na EW
+                    #hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
+                    hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--tour']")  ##work around na EW
                     #wait.until(EC.visibility_of(hotelDlazdice)).click()
                     hotelDlazdice.click()
                     #hotelDlazdice.click()
@@ -81,8 +82,8 @@ class Test_Fulltext_C(unittest.TestCase):
 
             if testOK_asserted == False:
                 try:
-                    #prvniItem = self.driver.find_elements_by_xpath("//*[@class='f_item']")
-                    wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
+                    #prvniItem = self.driver.find_elements(By.XPATH, "//*[@class='f_item']")
+                    wait.until(EC.visibility_of(self.driver.find_elements(By.XPATH, "//*[@class='f_item']")[0])).click()
                     #wait.until(EC.visibility_of(prvniItem[0])).click()
                     #prvniItem[0].click()
                     self.logger.info("last no such ele except")
@@ -118,7 +119,7 @@ class Test_Fulltext_C(unittest.TestCase):
             time.sleep(0.6)
             linksToCheckList = []
             try:
-                vysledkyDlazdiceHotelu = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']/a")
+                vysledkyDlazdiceHotelu = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']/a")
                # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
@@ -126,8 +127,8 @@ class Test_Fulltext_C(unittest.TestCase):
                     x = x + 1
             except NoSuchElementException:
                 pass
-            vysledkyTextItems = self.driver.find_elements_by_xpath("//*[@class='f_fulltextResults-item']/a")
-            vysledkyTextItemsSingle = self.driver.find_element_by_xpath("//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItems = self.driver.find_elements(By.XPATH, "//*[@class='f_fulltextResults-item']/a")
+            vysledkyTextItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='f_fulltextResults-item']/a")
             #wait.until(EC.visibility_of(vysledkyTextItems[0]))
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0

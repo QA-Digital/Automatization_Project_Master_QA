@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from PENNY.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown, URL_exotika, generalDriverWaitImplicit
@@ -28,9 +29,9 @@ class Test_FM_Exotika_D(unittest.TestCase):
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
         rowKarty_imgHoteluKarty_D(self, self.driver)
-        assert (self.driver.find_element_by_xpath(imgHotelKartaXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(destinationXpath)).is_displayed() == True
-        #assert (self.driver.find_element_by_xpath(gridDestinationXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, imgHotelKartaXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, destinationXpath)).is_displayed() == True
+        #assert (self.driver.find_element(By.XPATH, gridDestinationXpath)).is_displayed() == True
         self.test_passed = True
 
 
@@ -41,6 +42,6 @@ class Test_FM_Exotika_D(unittest.TestCase):
         time.sleep(0.3)
         acceptConsent(self.driver)
         rowKarty_imgHoteluKarty_D(self, self.driver)
-        assert (self.driver.find_element_by_xpath(imgHotelKartaXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(gridDestinationXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, imgHotelKartaXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, gridDestinationXpath)).is_displayed() == True
         self.test_passed = True

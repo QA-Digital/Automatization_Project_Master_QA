@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from ND.to_import import acceptConsent, closeExponeaBanner, URL_SRL_zima, URL_SRL_leto, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -42,14 +43,14 @@ class Test_SRL_C_Zima(unittest.TestCase):
         cenaZajezduAllList = []  ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
         time.sleep(3)
-        element = self.driver.find_element_by_xpath("//*[@class='f_tabBar-item f_set--active']")
+        element = self.driver.find_element(By.XPATH, "//*[@class='f_tabBar-item f_set--active']")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(6)
-        hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
+        hotelyKarty = self.driver.find_element(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
         # time.sleep(4)
         list_web_elements_Position = 0
-        cenaZajezduAll = self.driver.find_elements_by_xpath(cenaZajezduXpath)
+        cenaZajezduAll = self.driver.find_elements(By.XPATH, cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
 
         for WebElement in cenaZajezduAll:
@@ -101,14 +102,14 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
         cenaZajezduAllList = []  ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
-        element = self.driver.find_element_by_xpath("//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]")
+        element = self.driver.find_element(By.XPATH, "//*[@class='f_tabBar-text' and contains(text(), 'od nejdražšího')]")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(6)
-        hotelyKarty = self.driver.find_element_by_xpath(hotelyKartyXpath)
+        hotelyKarty = self.driver.find_element(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
         time.sleep(4)
         list_web_elements_Position = 0
-        cenaZajezduAll = self.driver.find_elements_by_xpath(cenaZajezduXpath)
+        cenaZajezduAll = self.driver.find_elements(By.XPATH, cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
 
         for WebElement in cenaZajezduAll:
@@ -181,7 +182,7 @@ class Test_SRL_C_Zima(unittest.TestCase):
         time.sleep(1)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath("//*[@class='f_searchResult-content f_searchResult-content--grid']")
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, "//*[@class='f_searchResult-content f_searchResult-content--grid']")
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
 
         except NoSuchElementException:
@@ -196,14 +197,14 @@ class Test_SRL_C_Zima(unittest.TestCase):
             print(x + 1)
             print(x + 1)
 
-            terminZajezdu = self.driver.find_elements_by_xpath("(//span[@class='font-bold'])")
+            terminZajezdu = self.driver.find_elements(By.XPATH, "(//span[@class='font-bold'])")
             print(terminZajezdu[x].text)
 
-            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_button f_button--important']")
+            linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_button f_button--important']")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             print(linkDetailActualUrl)
 
-            cenaZajezduAll = self.driver.find_elements_by_xpath("//*[@class='whitespace-nowrap text-[--primary] font-bold']")
+            cenaZajezduAll = self.driver.find_elements(By.XPATH, "//*[@class='whitespace-nowrap text-[--primary] font-bold']")
             cenaZajezduAllString = cenaZajezduAll[x].text
             #print(cenaZajezduAllString)
 
@@ -216,7 +217,7 @@ class Test_SRL_C_Zima(unittest.TestCase):
             time.sleep(2.5)  ##natvrdo aby se to neposralo
 
 
-            detailCenaAll = self.driver.find_element_by_xpath("//span[@class='f_price']")
+            detailCenaAll = self.driver.find_element(By.XPATH, "//span[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
             print(detailCenaAllString)
 

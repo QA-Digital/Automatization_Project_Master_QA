@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver import ActionChains
@@ -32,7 +33,7 @@ class TestLM_D(unittest.TestCase):
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
 
-        HPnextArrowElement = self.driver.find_element_by_xpath(HPnextArrowXpath)
+        HPnextArrowElement = self.driver.find_element(By.XPATH, HPnextArrowXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPnextArrowElement)
         time.sleep(3)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
@@ -44,11 +45,11 @@ class TestLM_D(unittest.TestCase):
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
         time.sleep(0.5)
         self.driver.execute_script("arguments[0].click();", HPnextArrowElement)
-        HPnextkartaHoteluSlider = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPnextkartaHoteluSlider = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         time.sleep(1)
         self.driver.execute_script("arguments[0].click();", HPnextkartaHoteluSlider)
         action = ActionChains(self.driver)
-        HPkartaHoteluSliderElement = self.driver.find_element_by_xpath(HPkartaHoteluSliderXpath)
+        HPkartaHoteluSliderElement = self.driver.find_element(By.XPATH, HPkartaHoteluSliderXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", HPkartaHoteluSliderElement)
         action.move_to_element(HPkartaHoteluSliderElement).click().perform()
         self.driver.implicitly_wait(100)

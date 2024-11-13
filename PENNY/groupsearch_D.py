@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from PENNY.to_import import acceptConsent, URL_groupsearch, setUp, tearDown
@@ -10,7 +11,7 @@ destinationsHighlightXpath = "//*[@class='c_title large center']"
 
 def groupSearch_D(self, driver):
     driver.implicitly_wait(100)
-    teaserItems = driver.find_elements_by_xpath(teaserItemsXpath)
+    teaserItems = driver.find_elements(By.XPATH, teaserItemsXpath)
     wait = WebDriverWait(self.driver, 150)
     wait.until(EC.visibility_of(teaserItems[0]))
     try:
@@ -38,7 +39,7 @@ def groupSearch_D(self, driver):
     assert teaserItems[0].is_displayed() == True
 
     driver.implicitly_wait(100)
-    destinationsHL = driver.find_elements_by_xpath(destinationsHighlightXpath)
+    destinationsHL = driver.find_elements(By.XPATH, destinationsHighlightXpath)
     try:
         for WebElement in destinationsHL:
             ##print(len(srlItems))
@@ -63,9 +64,9 @@ def groupSearch_D(self, driver):
 
     emptyImgsList = []
     emptyImgsListCounter = 0
-    emptyImgs = driver.find_elements_by_xpath(emptyImgInTeaserDestinationXpath)
+    emptyImgs = driver.find_elements(By.XPATH, emptyImgInTeaserDestinationXpath)
     try:
-        emptyImgs = driver.find_elements_by_xpath(emptyImgInTeaserDestinationXpath)
+        emptyImgs = driver.find_elements(By.XPATH, emptyImgInTeaserDestinationXpath)
         for WebElement in emptyImgs:
             emptyImgsList.append(emptyImgs[emptyImgsListCounter].text)
             print(emptyImgs[emptyImgsListCounter].text)

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, URL_groupsearch, setUp, tearDown, generalDriverWaitImplicit
@@ -9,7 +10,7 @@ def groupSearch_D(self, driver):
     #driver.implicitly_wait(100)
     generalDriverWaitImplicit(driver)
     groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
-    teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+    teaserItems = driver.find_elements(By.XPATH, groupSearchDlazdiceXpath)
 
     wait.until(EC.visibility_of(teaserItems[0]))
 
@@ -39,7 +40,7 @@ def groupSearch_D(self, driver):
     assert teaserItems[0].is_displayed() == True
 
     driver.implicitly_wait(100)
-    srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
+    srlItems = driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
             ##print(len(srlItems))
@@ -82,7 +83,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         URL_groupsearch_lp = f"{self.URL}{URL_groupsearch}"
         self.driver.get(URL_groupsearch_lp)
         acceptConsent(self.driver)
-        #teaserItems = driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        #teaserItems = driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         self.driver.maximize_window()
         groupSearch_D(self, driver)
         self.test_passed = True

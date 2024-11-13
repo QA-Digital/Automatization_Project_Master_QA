@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from EW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown, generalDriverWaitImplicit
@@ -17,10 +18,10 @@ def SRL_D(self, driver):
     generalDriverWaitImplicit(self.driver)
     time.sleep(6)
     acceptConsent(self.driver)
-    hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
+    hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
-        hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)  ##
+        hotelyAll = self.driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         ##self.logger.info(hotelyAll)
         if hotelySingle.is_displayed():
@@ -43,8 +44,8 @@ def SRL_D(self, driver):
     assert hotelySingle.is_displayed() == True
     try:
         self.driver.implicitly_wait(100)
-        cenaAll = self.driver.find_elements_by_xpath(SRLcenyHoteluXpath)  ##
-        cenaSingle = self.driver.find_element_by_xpath(SRLcenyHoteluXpath)
+        cenaAll = self.driver.find_elements(By.XPATH, SRLcenyHoteluXpath)  ##
+        cenaSingle = self.driver.find_element(By.XPATH, SRLcenyHoteluXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:

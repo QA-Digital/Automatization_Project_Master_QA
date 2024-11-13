@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from KTGHU.to_import import acceptConsent,  URL_pobocky, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -25,13 +26,13 @@ class TestPobocky_D(unittest.TestCase):
         acceptConsent(self.driver)
         self.driver.maximize_window()
         time.sleep(2)
-        mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
+        mapa = self.driver.find_element(By.XPATH, "//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
 
         mapaDisplayed = mapa.is_displayed()
         assert mapaDisplayed == True
 
 
-        mapaKolecka = self.driver.find_elements_by_xpath("//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
+        mapaKolecka = self.driver.find_elements(By.XPATH, "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
         y=0
         for _ in mapaKolecka:
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
@@ -44,7 +45,7 @@ class TestPobocky_D(unittest.TestCase):
 
 
         generalDriverWaitImplicit(self.driver)
-        basicInfo = self.driver.find_elements_by_xpath("//*[@class='f_branch-basicInfo']")
+        basicInfo = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-basicInfo']")
         a=0
         assert basicInfo[0].is_displayed() == True
         for _ in basicInfo:
@@ -55,7 +56,7 @@ class TestPobocky_D(unittest.TestCase):
             a=a+1
 
         generalDriverWaitImplicit(self.driver)
-        pobockaBoxiky = self.driver.find_elements_by_xpath("//*[@class='f_branch-header-item']")
+        pobockaBoxiky = self.driver.find_elements(By.XPATH, "//*[@class='f_branch-header-item']")
         x = 0
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()

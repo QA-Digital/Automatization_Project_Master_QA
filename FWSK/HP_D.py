@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FWSK.to_import import acceptConsent,sendEmail, URL, URL_faq, setUp, tearDown
@@ -27,8 +28,8 @@ class TestHP_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         try:
-            bannerSingle = self.driver.find_element_by_xpath(bannerXpath)
-            bannerAll = self.driver.find_elements_by_xpath(bannerXpath)
+            bannerSingle = self.driver.find_element(By.XPATH, bannerXpath)
+            bannerAll = self.driver.find_elements(By.XPATH, bannerXpath)
             wait.until(EC.visibility_of(bannerSingle))
             if bannerSingle.is_displayed():
                 for WebElement in bannerAll:
@@ -51,8 +52,8 @@ class TestHP_D(unittest.TestCase):
 
         try:
             nejnabidkyLMsingleXpath = "//*[@class='f_tourTable-tour']"
-            nejnabidkyLMsingle = self.driver.find_element_by_xpath(nejnabidkyLMsingleXpath)
-            nejnabidkyLMall = self.driver.find_elements_by_xpath(nejnabidkyLMsingleXpath)
+            nejnabidkyLMsingle = self.driver.find_element(By.XPATH, nejnabidkyLMsingleXpath)
+            nejnabidkyLMall = self.driver.find_elements(By.XPATH, nejnabidkyLMsingleXpath)
             wait.until(EC.visibility_of(nejnabidkyLMsingle))
             if nejnabidkyLMsingle.is_displayed():
                 for WebElement in nejnabidkyLMall:

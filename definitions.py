@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import os
 
 # Define the root directory (Automatization_Project_Master_QA)

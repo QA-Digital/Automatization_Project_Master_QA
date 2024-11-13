@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import smtplib, ssl
 from email.mime.text import MIMEText
 from selenium import webdriver

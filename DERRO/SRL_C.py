@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from DERRO.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -34,10 +35,10 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
         time.sleep(4)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterCheapXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, sorterCheapXpath))).click()
         cenaZajezduAllList = []
         cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
+        cenaZajezduAll = self.driver.find_elements(By.XPATH, totalPriceXpath)
         poziceHotelu = 0
         for WebElement in cenaZajezduAll:
             cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
@@ -66,10 +67,10 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
         time.sleep(4)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(sorterExpensiveXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, sorterExpensiveXpath))).click()
         cenaZajezduAllList = []
         cenaZajezduAllListSorted = []
-        cenaZajezduAll = self.driver.find_elements_by_xpath(totalPriceXpath)
+        cenaZajezduAll = self.driver.find_elements(By.XPATH, totalPriceXpath)
         poziceHotelu = 0
         for WebElement in cenaZajezduAll:
             cenaZajezduAllString = cenaZajezduAll[poziceHotelu].text
@@ -141,7 +142,7 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(1)
 
         try:
-            hotelyAllKarty = self.driver.find_elements_by_xpath("//*[@class='f_searchResult-content-item relative']")
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, "//*[@class='f_searchResult-content-item relative']")
 
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
         except NoSuchElementException:
@@ -162,14 +163,14 @@ class Test_SRL_C(unittest.TestCase):
             wait.until(EC.visibility_of(terminZajezduSingle))
             ##print(terminZajezdu[x].text)
 
-            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_tile-priceDetail-item']/a")
+            linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-priceDetail-item']/a")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             ##print(linkDetailActualUrl)
 
-            stravaZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
+            stravaZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--cutlery']")
             stravaZajezduString = stravaZajezdu[x].text
 
-            pokojZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--bed']")
+            pokojZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--bed']")
             pokojZajezduString = pokojZajezdu[x].text
             ##print(pokojZajezduString)
 
@@ -209,11 +210,11 @@ class Test_SRL_C(unittest.TestCase):
             detailPokojSedivkaString = detailPokojSedivka.text
             print(detailPokojSedivkaString)
 
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='f_column-item']//*[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
             print(detailCenaAllString)
             try:
-                detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
+                detailCenaAdult = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text
                 print(detailCenaAdultString)
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from selenium.common.exceptions import NoSuchElementException
@@ -32,7 +33,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(2.5)
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
 
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True

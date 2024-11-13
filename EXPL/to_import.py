@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
@@ -104,7 +105,7 @@ def acceptLetak(driver):
   # driver.switch_to.frame(1)
   iframe = driver.find_element_by_class("bhr-ip__b")
   driver.switch_to.frame(iframe)
-  driver.find_element_by_xpath("//a[@class='bhr-ip__c__a']").click()
+  driver.find_element(By.XPATH, "//a[@class='bhr-ip__c__a']").click()
   driver.switch_to.default_content()
 
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from KTGHU.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -27,8 +28,8 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            destinaceAll = self.driver.find_elements_by_xpath("//*[@class='fshr-listTable-content-part']")
-            destinaceSingle = self.driver.find_element_by_xpath("//*[@class='fshr-listTable-content-part']")
+            destinaceAll = self.driver.find_elements(By.XPATH, "//*[@class='fshr-listTable-content-part']")
+            destinaceSingle = self.driver.find_element(By.XPATH, "//*[@class='fshr-listTable-content-part']")
             if destinaceSingle.is_displayed():
                 for WebElement in destinaceAll:
                     jdouvidet = WebElement.is_displayed()
@@ -49,8 +50,8 @@ class TestSDO_D(unittest.TestCase):
 
 
         try:
-            dlazdiceFotoSingle = driver.find_element_by_xpath("//*[@class='f_tile-image']")
-            dlazdiceFotoAll = driver.find_elements_by_xpath("//*[@class='f_tile-image']")
+            dlazdiceFotoSingle = driver.find_element(By.XPATH, "//*[@class='f_tile-image']")
+            dlazdiceFotoAll = driver.find_elements(By.XPATH, "//*[@class='f_tile-image']")
             if dlazdiceFotoSingle.is_displayed():
                 for WebElement in dlazdiceFotoAll:
                     jdouvidet = WebElement.is_displayed()
@@ -71,7 +72,7 @@ class TestSDO_D(unittest.TestCase):
         assert dlazdiceFotoSingle.is_displayed() == True
 
         try:
-            mapa = driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")
+            mapa = driver.find_element(By.XPATH, "//*[@class='leaflet-pane leaflet-tile-pane']")
             assert mapa.is_displayed() == True
             if mapa.is_displayed():
                 pass

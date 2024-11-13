@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from KTGHU.to_import import URL, setUp, tearDown
 import unittest
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results

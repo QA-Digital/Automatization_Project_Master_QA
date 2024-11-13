@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FWSK.to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
@@ -30,8 +31,8 @@ class TestLM_D(unittest.TestCase):
         acceptConsent(self.driver)
 
         # try:
-        #     zajezdyLMsingle = self.driver.find_element_by_xpath("//*[@class='page-tour']")
-        #     zajezdyLMall = self.driver.find_elements_by_xpath("//*[@class='page-tour']")
+        #     zajezdyLMsingle = self.driver.find_element(By.XPATH, "//*[@class='page-tour']")
+        #     zajezdyLMall = self.driver.find_elements(By.XPATH, "//*[@class='page-tour']")
         #     wait.until(EC.visibility_of(zajezdyLMsingle))
         #     if zajezdyLMsingle.is_displayed():
         #         for WebElement in zajezdyLMall:

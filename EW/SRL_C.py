@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from EW.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
@@ -92,7 +93,7 @@ class Test_SRL_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(2)
         stravaMenuXpath = "//*[@class='f_input-label']//*[contains(text(), 'All Inclusive')]"
-        stravaMenu = self.driver.find_element_by_xpath(stravaMenuXpath)
+        stravaMenu = self.driver.find_element(By.XPATH, stravaMenuXpath)
         stravaMenu.click()
         stravaZajezduSrlXpath = "//*[@class='f_list-item f_icon f_icon--cutlery']"
         assertion_strava = "all inclusive"
@@ -112,8 +113,8 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(1)
 
         try:
-            # hotelyAllKarty = self.driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_searchResult-content-item']")
-            hotelyAllKarty = self.driver.find_elements_by_xpath("//*[@class='f_searchResult-content-item relative']")
+            # hotelyAllKarty = self.driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_searchResult-content-item']")
+            hotelyAllKarty = self.driver.find_elements(By.XPATH, "//*[@class='f_searchResult-content-item relative']")
 
             wait.until(EC.visibility_of(hotelyAllKarty[0]))
         except NoSuchElementException:
@@ -136,14 +137,14 @@ class Test_SRL_C(unittest.TestCase):
             wait.until(EC.visibility_of(terminZajezduSingle))
             ##self.logger.info(terminZajezdu[x].text)
 
-            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_tile-priceDetail-item']/a")
+            linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-priceDetail-item']/a")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             ##self.logger.info(linkDetailActualUrl)
 
-            stravaZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
+            stravaZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--cutlery']")
             stravaZajezduString = stravaZajezdu[x].text
 
-            pokojZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--bed']")
+            pokojZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--bed']")
             pokojZajezduString = pokojZajezdu[x].text
             ##self.logger.info(pokojZajezduString)
 
@@ -165,7 +166,7 @@ class Test_SRL_C(unittest.TestCase):
 
             time.sleep(2.5)  ##natvrdo aby se to neposralo
 
-            # detailTerminSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title']")
+            # detailTerminSedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary-title']")
             ##self.logger.info(detailTerminSedivka.text)
             try:
                 detailStravaSedivka = self.driver.find_element_by_xpath(
@@ -181,21 +182,21 @@ class Test_SRL_C(unittest.TestCase):
             detailStravaSedivkaString = detailStravaSedivka.text
             self.logger.info(detailStravaSedivkaString)
 
-            # detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
+            # detailPokojSedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
             detailPokojSedivka = self.driver.find_element_by_xpath(
                 "//*[@class='f_box-item f_icon f_icon--bed']//strong")
             detailPokojSedivkaString = detailPokojSedivka.text
             # detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
             self.logger.info(detailPokojSedivkaString)
 
-            # detailCenaAll = self.driver.find_element_by_xpath("//*[@class='fshr-tooltip-underline js-totalPrice']")
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            # detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='fshr-tooltip-underline js-totalPrice']")
+            detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='f_column-item']//*[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
             self.logger.info(detailCenaAllString)
             try:
-                # detailCenaAdult = self.driver.find_element_by_xpath('//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
-               # detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between']//*[@class='text-right bold']")
-                detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
+                # detailCenaAdult = self.driver.find_element(By.XPATH, '//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
+               # detailCenaAdult = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between']//*[@class='text-right bold']")
+                detailCenaAdult = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text
                 self.logger.info(detailCenaAdultString)
 

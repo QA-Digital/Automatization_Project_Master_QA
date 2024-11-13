@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from EXPL.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -27,10 +28,10 @@ class TestSDO_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
 
-        Offer1 = self.driver.find_elements_by_xpath("(//a)[59]")[0].get_attribute('href')
-        Offer2 = self.driver.find_elements_by_xpath("(//a)[60]")
-        Offer3 = self.driver.find_elements_by_xpath("(//a)[61]")
-        Offer4 = self.driver.find_elements_by_xpath("(//a)[62]")
+        Offer1 = self.driver.find_elements(By.XPATH, "(//a)[59]")[0].get_attribute('href')
+        Offer2 = self.driver.find_elements(By.XPATH, "(//a)[60]")
+        Offer3 = self.driver.find_elements(By.XPATH, "(//a)[61]")
+        Offer4 = self.driver.find_elements(By.XPATH, "(//a)[62]")
 
         HPtopNabidkaElements = [Offer1, Offer2, Offer3, Offer4]
         print(HPtopNabidkaElements)
@@ -49,14 +50,14 @@ class TestSDO_D(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(1.5)
 
-        NejHotelyElement = self.driver.find_element_by_xpath(NejHotely)
+        NejHotelyElement = self.driver.find_element(By.XPATH, NejHotely)
         self.driver.execute_script("arguments[0].scrollIntoView();", NejHotelyElement)
         time.sleep(5)
         NejHotelyElement.click()
 
         try:
-            NejHotelyS = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
-            NejHotelyAll = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+            NejHotelyS = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
+            NejHotelyAll = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
             if NejHotelyS.is_displayed():
                 for WebElement in NejHotelyAll:
                     jdouvidet = WebElement.is_displayed()

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 
 from KTGSK.pobocky import *
 from KTGSK.Detail_D import *

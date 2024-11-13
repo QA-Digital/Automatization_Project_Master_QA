@@ -29,7 +29,7 @@ class Test_FM(unittest.TestCase):
 
         strankaFM_letoXpath = "//*[@class='grd-row']"
         try:
-            stranka = self.driver.find_elements_by_xpath(strankaFM_letoXpath)
+            stranka = self.driver.find_elements(By.XPATH, strankaFM_letoXpath)
             wait.until(EC.visibility_of(stranka[0]))
             pozice = 0
             for i in stranka:
@@ -57,7 +57,7 @@ class Test_FM(unittest.TestCase):
 
         strankaFM_zimaXpath = "//*[@class='grd-row']"
         try:
-            stranka = self.driver.find_elements_by_xpath(strankaFM_zimaXpath)
+            stranka = self.driver.find_elements(By.XPATH, strankaFM_zimaXpath)
             wait.until(EC.visibility_of(stranka[0]))
             pozice = 0
             for i in stranka:

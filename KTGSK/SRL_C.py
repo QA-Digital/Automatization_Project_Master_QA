@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGSK.to_import import acceptConsent, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -110,7 +111,7 @@ class Test_SRL_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(2)
         closeExponeaBanner(self.driver)
-        hotelyAllKarty = self.driver.find_elements_by_xpath(hotelyKartyXpath)
+        hotelyAllKarty = self.driver.find_elements(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyAllKarty[1]))
         for _ in range(5):
 
@@ -126,14 +127,14 @@ class Test_SRL_C(unittest.TestCase):
             wait.until(EC.visibility_of(terminZajezduSingle))
             ##print(terminZajezdu[x].text)
 
-            linkDetail = self.driver.find_elements_by_xpath("//*[@class='f_tile-priceDetail-item']/a")
+            linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-priceDetail-item']/a")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
             ##print(linkDetailActualUrl)
 
-            stravaZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--cutlery']")
+            stravaZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--cutlery']")
             stravaZajezduString = stravaZajezdu[x].text
 
-            pokojZajezdu = self.driver.find_elements_by_xpath("//*[@class='f_list-item f_icon f_icon--bed']")
+            pokojZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--bed']")
             pokojZajezduString = pokojZajezdu[x].text
             ##print(pokojZajezduString)
 
@@ -155,7 +156,7 @@ class Test_SRL_C(unittest.TestCase):
 
             time.sleep(1)  ##natvrdo aby se to neposralo
 
-            #detailTerminSedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary-title']")
+            #detailTerminSedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary-title']")
             ##print(detailTerminSedivka.text)
 
             # try:
@@ -169,20 +170,20 @@ class Test_SRL_C(unittest.TestCase):
             #         pass
 
             detailStravaSedivkaXpath = "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']"
-            detailStravaSedivka = self.driver.find_element_by_xpath(detailStravaSedivkaXpath)
+            detailStravaSedivka = self.driver.find_element(By.XPATH, detailStravaSedivkaXpath)
             detailStravaSedivkaString = detailStravaSedivka.text
 
-            detailPokojSedivka = self.driver.find_element_by_xpath("//*[@class='f_box-item f_icon f_icon--bed']//strong")
+            detailPokojSedivka = self.driver.find_element(By.XPATH, "//*[@class='f_box-item f_icon f_icon--bed']//strong")
             detailPokojSedivkaString = detailPokojSedivka.text
 
 
-            detailCenaAll = self.driver.find_element_by_xpath("//*[@class='f_column-item']//*[@class='f_price']")
+            detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='f_column-item']//*[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
             ##print(detailCenaAllString)
 
             try:
-                # detailCenaAdult = self.driver.find_element_by_xpath('//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
-                # detailCenaAdult = self.driver.find_element_by_xpath("//*[@class='flex justify-between']//*[@class='text-right bold']")
+                # detailCenaAdult = self.driver.find_element(By.XPATH, '//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
+                # detailCenaAdult = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between']//*[@class='text-right bold']")
                 detailCenaAdult = self.driver.find_element_by_xpath(
                     "//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text

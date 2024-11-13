@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from EW.to_import import acceptConsent, URL_kluby, setUp, tearDown
@@ -31,7 +32,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(3)
-        benefitItem = self.driver.find_elements_by_xpath("//*[@class='f_benefit-item splide__slide']")
+        benefitItem = self.driver.find_elements(By.XPATH, "//*[@class='f_benefit-item splide__slide']")
 
         a=0
         for _ in benefitItem:
@@ -42,7 +43,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         assert benefitItem[0].is_displayed() == True
 
         p.press("pagedown", presses=3)
-        gridContainer = self.driver.find_elements_by_xpath("//*[@class='grd-container']")
+        gridContainer = self.driver.find_elements(By.XPATH, "//*[@class='grd-container']")
         b=0
 
         for _ in gridContainer:
@@ -54,7 +55,7 @@ class TestDetskeKluby_D(unittest.TestCase):
         assert gridContainer[0].is_displayed() == True
         ##aktualne nejsou karty hotelu
         # p.press("pagedown", presses=2)
-        # tileImg = self.driver.find_elements_by_xpath("//*[@class='f_tile-image']")
+        # tileImg = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image']")
         # c=0
         #
         # for _ in tileImg:

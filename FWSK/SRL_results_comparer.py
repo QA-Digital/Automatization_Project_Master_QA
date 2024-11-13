@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from FWSK.to_import import URL, setUp, tearDown
 import unittest
 

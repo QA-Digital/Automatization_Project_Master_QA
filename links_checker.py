@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 import requests
 from selenium import webdriver
@@ -28,9 +29,9 @@ tree = etree.HTML(html)
 # Use XPath to get all link URLs
 link_urls = tree.xpath("//a/@href")
 print(link_urls)
-# for _ in driver.find_elements_by_xpath(xpath123):
-#         #topNabidkaElementHref = driver.find_elements_by_xpath(topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
-#         ElementHref = driver.find_elements_by_xpath(xpath123)
+# for _ in driver.find_elements(By.XPATH, xpath123):
+#         #topNabidkaElementHref = driver.find_elements(By.XPATH, topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
+#         ElementHref = driver.find_elements(By.XPATH, xpath123)
 #         topNabidkaLinkText = ElementHref[links_list_counter].get_attribute("href")
 #         links_to_check.append(topNabidkaLinkText )
 #         links_list_counter = links_list_counter+1
