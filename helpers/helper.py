@@ -408,8 +408,7 @@ class Helpers:
         # Checking for loading images (bad state if found)
         try:
             driver.implicitly_wait(5)
-            loadingImgSingle = driver.find_element_by_xpath(
-                "//*[@class='splide__spinner']")  # Spinner for loading images
+            loadingImgSingle = driver.find_element(By.XPATH, "//*[@class='splide__spinner']")  # Spinner for loading images
 
             if loadingImgSingle.is_displayed():
                 url = driver.current_url
