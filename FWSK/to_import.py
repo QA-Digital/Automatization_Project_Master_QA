@@ -33,7 +33,9 @@ desired_cap = {
 
 }
 def setUp(self):
-  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
 
   #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -42,8 +44,8 @@ def setUp(self):
   self.test_passed = False
 
 
-URL_local =  "https://fischersk.web1.dtweb.cz/"
-URL = "https://fischersk.web1.dtweb.cz/"
+URL_local =  "https://fischersk.stg.dtweb.cz/"
+URL = "https://fischersk.stg.dtweb.cz/"
 URL_poznavacky = "poznavacie-zajazdy/okruhy-a-kombinovane"
 URL_poznavacky_vikendy = "poznavacie-zajazdy/predlzene-vikendy"
 URL_poznavacky_rodiny = "poznavacie-zajazdy/pre-rodiny"

@@ -6,6 +6,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
+from definitions import EDGE_DRIVER_PATH
+
 URL = "https://kartagohu.stg.dtweb.cz/"
 URL_local = "https://kartagohu.stg.dtweb.cz/"
 URL_pobocky = "irodaink"
@@ -50,8 +52,9 @@ desired_cap = desired_cap_Branded("KTGHU", "Optimized - Web Monitor V2")
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
   self.test_passed = False
 
 

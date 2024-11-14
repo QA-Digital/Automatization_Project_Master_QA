@@ -32,7 +32,9 @@ desired_cap = {
 
 }
 def setUp(self):
-  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
   self.test_passed = False
 
 

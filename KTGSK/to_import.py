@@ -9,8 +9,8 @@ from webdriver_manager.opera import OperaDriverManager
 #URL_local = "https://www.kartago.sk/"
 from definitions import EDGE_DRIVER_PATH
 
-URL_local =  "https://kartagosk.web1.dtweb.cz/"
-URL = "https://kartagosk.web1.dtweb.cz/"
+URL_local =  "https://kartagosk.stg.dtweb.cz/"
+URL = "https://kartagosk.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
@@ -58,7 +58,9 @@ desired_cap = desired_cap_Branded("KTGSK", "Optimized - Web Monitor V2")
 def setUp(self):
   #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
   self.test_passed = False
 
 

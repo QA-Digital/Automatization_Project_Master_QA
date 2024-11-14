@@ -36,7 +36,9 @@ def setUp(self):
   from selenium import webdriver
 
   # Set up the Edge driver with the path from definitions.py
-  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
 
   self.test_passed = False
 

@@ -40,7 +40,9 @@ from selenium import webdriver
 
 
 def setUp(self):
-  self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  from selenium.webdriver.edge.service import Service
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
 
   # Dynamically get the folder name (assuming folder is two levels up from the test file)
   test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
