@@ -5,6 +5,8 @@ from FWSK.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
+from helpers.helper import Helpers
+
 SRLhotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 #SRLfotkyKartyXpath = "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_tileGallery']"
 SRLfotkyKartyXpath = "//*[@class='f_searchResult-content'and not(@style='display: none;')]//*[@class='f_tileGallery']"
@@ -123,6 +125,6 @@ class TestSRL_D(unittest.TestCase):
         self.driver.get(URL_SRL_lp)
 
         acceptConsent(self.driver)
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
 
         self.test_passed = True

@@ -7,6 +7,7 @@ from FWSK.groupsearch_D import groupSearch_D
 from FWSK.SRL_D import SRL_D
 import time
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
+from helpers.helper import Helpers
 
 banneryXpath_FWSK = "//*[@class='f_teaser-item']/a"
 URL_prod_public = "https://www.fischer.sk/"
@@ -84,7 +85,7 @@ class Test_HP_C(unittest.TestCase):
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath, HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
                          ,HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath, HPzlutakPotvrditAvyhledatXpath )
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_bannery_check(self):

@@ -7,6 +7,7 @@ from KTGSK.groupsearch_D import groupSearch_D
 import time
 from KTGSK.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
+from helpers.helper import Helpers
 
 URL_deploying_web = URL
 URL_prod_public = "https://www.kartago.sk/"
@@ -75,7 +76,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(1)
         wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPzlutakPotvrditAvyhledatXpath))).click()
         time.sleep(2.789)
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
 
         self.test_passed = True
 
