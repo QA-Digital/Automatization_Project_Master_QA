@@ -9,8 +9,8 @@ from webdriver_manager.opera import OperaDriverManager
 #URL_local = "https://www.kartago.sk/"
 from definitions import EDGE_DRIVER_PATH
 
-URL_local =  "https://kartagosk.stg.dtweb.cz/"
-URL = "https://kartagosk.stg.dtweb.cz/"
+URL_local =  "https://kartagosk.web1.dtweb.cz/"
+URL = "https://kartagosk.web1.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
