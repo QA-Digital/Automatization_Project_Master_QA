@@ -39,7 +39,8 @@ URL_SRLs_list_KTGSK = [URL_SRL_KTGSK1, URL_SRL_KTGSK2, URL_SRL_KTGSK3, URL_SRL_K
 from KTGSK.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
