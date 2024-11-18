@@ -20,7 +20,8 @@ queryList = ["Grécko", "Turecko", "Egypt", "Kapverdy", "White Gold", "poistenie
 from FWSK.to_import import URL_local
 class Test_Fulltext_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
