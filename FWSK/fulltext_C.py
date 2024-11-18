@@ -51,7 +51,7 @@ class Test_Fulltext_C(unittest.TestCase):
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
             # inputBox.send_keys(Keys.ENTER)
-            print(queryList[poziceQueryItem].upper())
+            self.logger.info(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem + 1
 
             # if self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']").isDisplayed()==True:
@@ -68,11 +68,11 @@ class Test_Fulltext_C(unittest.TestCase):
                     hotelDlazdice.click()
                     # hotelDlazdice.click()
                     currentUrl = self.driver.current_url
-                    print("hote dlazdice klik")
+                    self.logger.info("hote dlazdice klik")
                     assert currentUrl != URL
                     testOK_asserted = True
                 except NoSuchElementException:
-                    print("first no such ele except")
+                    self.logger.info("first no such ele except")
                     testOK_asserted = False
                     pass
             except NoSuchElementException:
@@ -84,14 +84,14 @@ class Test_Fulltext_C(unittest.TestCase):
                     #prvniItem =
                     wait.until(EC.visibility_of(self.driver.find_elements(By.XPATH, "//*[@class='f_item']")[0])).click()
                     # prvniItem[0].click()
-                    print("last no such ele except")
+                    self.logger.info("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != URL
                     response = requests.get(currentUrl)
                     assert response.status_code == 200
 
                 except NoSuchElementException:
-                    print("first no such ele except")
+                    self.logger.info("first no such ele except")
                     pass
                 currentUrl = self.driver.current_url
                 assert currentUrl != URL

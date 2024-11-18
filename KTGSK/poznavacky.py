@@ -28,7 +28,7 @@ class TestPoznavacky_D(unittest.TestCase):
             #time.sleep(6)
             self.driver.implicitly_wait(100)
             imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
-            print(imgs)
+            self.logger.info(imgs)
             x=0
             assert imgs[0].is_displayed() == True
             for _ in imgs:
@@ -36,7 +36,7 @@ class TestPoznavacky_D(unittest.TestCase):
                 x=x+1
 
                 assert imgsDisplayed == True
-                print("true imgdisplay")
+                self.logger.info("true imgdisplay")
 
             gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
             assert gridItems[0].is_displayed() == True
@@ -46,7 +46,7 @@ class TestPoznavacky_D(unittest.TestCase):
                 gridItemDisplayed = gridItems[y].is_displayed()
                 assert gridItemDisplayed == True
                 y=y+1
-                print("grid true")
+                self.logger.info("grid true")
 
             gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
             a=0
@@ -55,7 +55,7 @@ class TestPoznavacky_D(unittest.TestCase):
                 gridBigDisplayed = gridBig[a].is_displayed()
                 assert gridBigDisplayed == True
                 a=a+1
-                print("big grid ture")
+                self.logger.info("big grid ture")
 
             self.test_passed = True
 
@@ -70,7 +70,7 @@ class TestPoznavacky_D(unittest.TestCase):
         #time.sleep(6)
         self.driver.implicitly_wait(100)
         imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
-        print(imgs)
+        self.logger.info(imgs)
         x = 0
         assert imgs[0].is_displayed() == True
         for _ in imgs:
@@ -78,7 +78,7 @@ class TestPoznavacky_D(unittest.TestCase):
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
         gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         assert gridItems[0].is_displayed() == True
@@ -87,7 +87,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
         gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         assert gridBig[0].is_displayed() == True
@@ -96,7 +96,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True
 
@@ -112,14 +112,14 @@ class TestPoznavacky_D(unittest.TestCase):
         time.sleep(6)
         imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
         assert imgs[0].is_displayed() == True
-        print(imgs)
+        self.logger.info(imgs)
         x = 0
         for _ in imgs:
             imgsDisplayed = imgs[x].is_displayed()
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
         gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         y = 0
@@ -128,7 +128,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
         gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         assert gridBig[0].is_displayed() == True
@@ -137,7 +137,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True
 
@@ -153,14 +153,14 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.implicitly_wait(100)
         imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
         assert imgs[0].is_displayed() == True
-        print(imgs)
+        self.logger.info(imgs)
         x = 0
         for _ in imgs:
             imgsDisplayed = imgs[x].is_displayed()
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
         gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         y = 0
@@ -169,7 +169,7 @@ class TestPoznavacky_D(unittest.TestCase):
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
         gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         a = 0
@@ -178,6 +178,6 @@ class TestPoznavacky_D(unittest.TestCase):
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True

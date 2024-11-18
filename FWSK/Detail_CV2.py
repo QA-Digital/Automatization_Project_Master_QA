@@ -105,7 +105,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         #cheap = "expensive"
@@ -153,7 +153,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
@@ -176,21 +176,21 @@ class TestDetailHotelu_C(unittest.TestCase):
         cestujiciElement = self.driver.find_element(By.XPATH, cestujiciXpath)
 
         cestujiciElementText = self.driver.find_element(By.XPATH, cestujiciXpath).text
-        print(cestujiciElement.text)
-        print("priting 1St")
-        print(cestujiciElement.text)
-        print(cestujiciElementText)
-        print(cestujiciElements[0].text)
-        #print(cestujiciElements[1].text)
+        self.logger.info(cestujiciElement.text)
+        self.logger.info("priting 1St")
+        self.logger.info(cestujiciElement.text)
+        self.logger.info(cestujiciElementText)
+        self.logger.info(cestujiciElements[0].text)
+        #self.logger.info(cestujiciElements[1].text)
         time.sleep(15)
         ##cestujici elements = pocet cestujiich,
         y=1
         for _ in cestujiciElements:
             cestujiciSinglePrice = cestujiciElements[y].text()
-            print(cestujiciSinglePrice)
+            self.logger.info(cestujiciSinglePrice)
             cestujiciSinglePriceList = []
             cestujiciSinglePriceList.append(cestujiciSinglePrice)
-            print(cestujiciSinglePriceList)
+            self.logger.info(cestujiciSinglePriceList)
             y = y + 2
 
         self.test_passed = True
@@ -217,7 +217,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -236,7 +236,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True

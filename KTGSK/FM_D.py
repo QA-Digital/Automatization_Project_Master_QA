@@ -63,22 +63,22 @@ class TestFM_D(unittest.TestCase):
     #
     #     try:
     #         for WebElement in teaserItems:
-    #             ##print(len(teaserItems))
+    #             ##self.logger.info(len(teaserItems))
     #             jdouvidet = WebElement.is_displayed()
-    #             ##print(jdouvidet)
+    #             ##self.logger.info(jdouvidet)
     #             if jdouvidet == True:
-    #                 ##print(jdouvidet)
-    #                 ##print(WebElement)
+    #                 ##self.logger.info(jdouvidet)
+    #                 ##self.logger.info(WebElement)
     #                 pass
     #
     #             else:
     #                 pass
-    #                 ##print("Else")
+    #                 ##self.logger.info("Else")
     #                 ##emailfunciton
     #
     #     except NoSuchElementException:
     #         pass
-    #         ##print("no such")
+    #         ##self.logger.info("no such")
     #         ##email fnction
     #
     #     assert teaserItems[0].is_displayed() == True
@@ -95,7 +95,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("gridy jdou videt")
+    #                 self.logger.info("gridy jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s gridy cocid info wholeGridsAll " + url
@@ -117,7 +117,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("content jdou videt")
+    #                 self.logger.info("content jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s content vocid info " + url
@@ -141,22 +141,22 @@ class TestFM_D(unittest.TestCase):
     #
     #     try:
     #         for WebElement in teaserItems:
-    #             ##print(len(teaserItems))
+    #             ##self.logger.info(len(teaserItems))
     #             jdouvidet = WebElement.is_displayed()
-    #             ##print(jdouvidet)
+    #             ##self.logger.info(jdouvidet)
     #             if jdouvidet == True:
-    #                 ##print(jdouvidet)
-    #                 ##print(WebElement)
+    #                 ##self.logger.info(jdouvidet)
+    #                 ##self.logger.info(WebElement)
     #                 pass
     #
     #             else:
     #                 pass
-    #                 ##print("Else")
+    #                 ##self.logger.info("Else")
     #                 ##emailfunciton
     #
     #     except NoSuchElementException:
     #         pass
-    #         ##print("no such")
+    #         ##self.logger.info("no such")
     #         ##email fnction
     #
     #     assert teaserItems[0].is_displayed() == True
@@ -173,7 +173,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("gridy jdou videt")
+    #                 self.logger.info("gridy jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s gridy cocid info wholeGridsAll " + url
@@ -195,7 +195,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("content jdou videt")
+    #                 self.logger.info("content jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s content vocid info " + url
@@ -247,22 +247,22 @@ class TestFM_D(unittest.TestCase):
 
         try:
             for WebElement in teaserItems:
-                ##print(len(teaserItems))
+                ##self.logger.info(len(teaserItems))
                 jdouvidet = WebElement.is_displayed()
-                ##print(jdouvidet)
+                ##self.logger.info(jdouvidet)
                 if jdouvidet == True:
-                    ##print(jdouvidet)
-                    ##print(WebElement)
+                    ##self.logger.info(jdouvidet)
+                    ##self.logger.info(WebElement)
                     pass
 
                 else:
                     pass
-                    ##print("Else")
+                    ##self.logger.info("Else")
                     ##emailfunciton
 
         except NoSuchElementException:
             pass
-            ##print("no such")
+            ##self.logger.info("no such")
             ##email fnction
 
         assert teaserItems[0].is_displayed() == True
@@ -280,7 +280,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("benefit items jdou videt")
+        #             self.logger.info("benefit items jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s benefit items    benefitItemsAll " + url
@@ -302,7 +302,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("content jdou videt")
+        #             self.logger.info("content jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s content vocid info " + url
@@ -326,22 +326,22 @@ class TestFM_D(unittest.TestCase):
         #
         # try:
         #     for WebElement in teaserItems:
-        #         ##print(len(teaserItems))
+        #         ##self.logger.info(len(teaserItems))
         #         jdouvidet = WebElement.is_displayed()
-        #         ##print(jdouvidet)
+        #         ##self.logger.info(jdouvidet)
         #         if jdouvidet == True:
-        #             ##print(jdouvidet)
-        #             ##print(WebElement)
+        #             ##self.logger.info(jdouvidet)
+        #             ##self.logger.info(WebElement)
         #             pass
         #
         #         else:
         #             pass
-        #             ##print("Else")
+        #             ##self.logger.info("Else")
         #             ##emailfunciton
         #
         # except NoSuchElementException:
         #     pass
-        #     ##print("no such")
+        #     ##self.logger.info("no such")
         #     ##email fnction
         #
         # assert teaserItems[0].is_displayed() == True
@@ -359,7 +359,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("content jdou videt")
+        #             self.logger.info("content jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s content vocid info " + url

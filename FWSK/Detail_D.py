@@ -37,7 +37,7 @@ def detail_D2(self, driver):
         # detailFotka = self.driver.find_element(By.XPATH, "//*[@id='divHotelDetailWrapper']")
 
         wait.until(EC.visibility_of(detailFotka))
-        print(detailFotka.is_displayed)
+        self.logger.info(detailFotka.is_displayed)
 
         if detailFotka.is_displayed():
             pass

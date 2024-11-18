@@ -18,11 +18,11 @@ def SRL_D(self, driver):
         hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)  ##
         hotelyAll = self.driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
-        ##print(hotelyAll)
+        ##self.logger.info(hotelyAll)
         if hotelySingle.is_displayed():
             for WebElement in hotelyAll:
                 jdouvidet = WebElement.is_displayed()
-                print(jdouvidet)
+                self.logger.info(jdouvidet)
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
@@ -43,11 +43,11 @@ def SRL_D(self, driver):
     #     #     fotkyAll = self.driver.find_elements(By.XPATH, SRLfotkaHoteluXpath)  ##
     #     #     fotkaSingle = self.driver.find_element(By.XPATH, SRLfotkaHoteluXpath)
     #     #     wait.until(EC.visibility_of(fotkaSingle))
-    #     #     ##print(fotkaSingle)
+    #     #     ##self.logger.info(fotkaSingle)
     #     #     if fotkaSingle.is_displayed():
     #     #         for WebElement in fotkyAll:
     #     #             jdouvidet = WebElement.is_displayed()
-    #     #             print(jdouvidet)
+    #     #             self.logger.info(jdouvidet)
     #     #             assert jdouvidet == True
     #     #             if jdouvidet == True:
     #     #                 pass
@@ -71,7 +71,7 @@ def SRL_D(self, driver):
                 jdouvidet = WebElement.is_displayed()
                 assert jdouvidet == True
                 if jdouvidet == True:
-                    print("ceny")
+                    self.logger.info("ceny")
                     pass
 
                 else:
