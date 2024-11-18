@@ -55,7 +55,9 @@ desired_cap2 = {
 }
 
 desired_cap = desired_cap_Branded("KTGSK", "Optimized - Web Monitor V2")
-
+import logging
+import sys
+import os
 
 def setUp(self):
   # self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
@@ -139,9 +141,10 @@ def acceptConsent(driver):
     generalDriverWaitImplicit(driver)
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    self.logger.info(element)
+   # self.logger.info(element)
   except NoSuchElementException:
-    self.logger.info("NOSUCH")
+    pass
+  #  self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -149,7 +152,7 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    self.logger.info("consent pass")
+    #self.logger.info("consent pass")
     pass
 
 
@@ -169,22 +172,6 @@ def acceptConsent5(driver):
     pass
   except NoSuchElementException:
     return
-
-def closeExponeaBanner(driver):
-    time.sleep(1.5)
-    wait = WebDriverWait(driver, 150000)
-    driver.maximize_window()
-    try:
-      exponeaBanner = driver.find_element(By.XPATH, "//*[@class='exponea-popup-banner']")
-      if exponeaBanner.is_displayed():
-        wait.until(EC.visibility_of(exponeaBanner))
-        exponeaCrossAndBanner = driver.find_element_by_xpath(
-          "//*[@class='exponea-popup-banner']//*[@class='exponea-close']")
-        exponeaCrossAndBanner.click()
-        time.sleep(2)
-
-    except NoSuchElementException:
-      self.logger.info("nenasle se exponea banner")
 
 def acceptConsent3(driver):
   time.sleep(2)

@@ -11,6 +11,10 @@ from selenium.common.exceptions import NoSuchElementException
 import smtplib, ssl
 from email.mime.text import MIMEText
 
+import logging
+import sys
+import os
+
 from definitions import EDGE_DRIVER_PATH
 from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
@@ -138,9 +142,10 @@ def acceptConsent(driver):
   try:
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    self.logger.info(element)
+   # self.logger.info(element)
   except NoSuchElementException:
-    self.logger.info("NOSUCH")
+   pass
+   # self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -148,7 +153,7 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    self.logger.info("consent pass")
+   # self.logger.info("consent pass")
     pass
 
 def closeExponeaBanner(driver):
@@ -165,7 +170,8 @@ def closeExponeaBanner(driver):
         time.sleep(2)
 
     except NoSuchElementException:
-      self.logger.info("nenasle se exponea banner")
+     pass
+     # self.logger.info("nenasle se exponea banner")
 
 def acceptConsent3(driver):
   time.sleep(2)
