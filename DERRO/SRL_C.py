@@ -67,8 +67,9 @@ class Test_SRL_C(unittest.TestCase):
         self.driver.get(URL_SRL_lp)
         time.sleep(5)
         acceptConsent(self.driver)
-        time.sleep(4)
-        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, sorterExpensiveXpath))).click()
+        time.sleep(6)
+        expensiveSorterXpath = "//span[contains(text(),'de la cele mai scumpe')]"
+        self.driver.find_element(By.XPATH, expensiveSorterXpath).click()
         cenaZajezduAllList = []
         cenaZajezduAllListSorted = []
         cenaZajezduAll = self.driver.find_elements(By.XPATH, totalPriceXpath)

@@ -10,18 +10,20 @@ from DERRO.groupsearch_D import groupSearch_D
 import time
 from DERRO.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
+from helpers.helper import Helpers
 
 URL_deploying_web = URL
 URL_prod_public = "https://www.dertour.ro/"
 banneryXpath = "//*[@class='f_teaser-item']/a"
 
-vyhledatZajezdyButtonXpath = "(//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Cauta acum'])[1]"
-kamPojedeteButtonXpath = "//div[@class='f_button-title' and contains(text(), 'Destinatie')]"
-zlutakEgiptDestinaceXpath= "//body[1]/header[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]/label[1]/span[2]/span[1]"
+vyhledatZajezdyButtonXpath = "//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][normalize-space()='Gaseste o vacanta']"
+kamPojedeteButtonXpath = "//div[normalize-space()='Unde mergi?']"
+#zlutakEgiptDestinaceXpath= "//body[1]/header[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]/div[1]/span[1]/label[1]/span[2]/span[1]"
+zlutakEgiptDestinaceXpath= "//*[@value='st63042']"
 zlutakPokracovatButtonXpath = "(//span[contains(text(),'Continua')])[1]"
 zlutakPokracovatButtonXpathStep2 ="(//a[@class='f_button f_button--common'])[2]"
-zlutakVyberTerminuXpath = "//*[contains(text(),'Paste 2024')]"
-zlutakZima2024Xpath = "//span[contains(text(), 'calatorie de iarna 2024')]"
+zlutakVyberTerminuXpath = "//span[contains(text(), 'Craciun si Revelion')]"
+zlutakZima2024Xpath = "//span[contains(text(), 'Vara 2025')]"
 zlutakPokracovatButtonXpathStep3 ="(//span[contains(text(),'Continua')])[3]"
 zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Familie 2+1')]"
 zlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Confirma si cauta')]"
@@ -52,20 +54,19 @@ class Test_HP_C(unittest.TestCase):
         self.driver.get(URL)
         wait = WebDriverWait(self.driver, 300)
         self.driver.maximize_window()
-        time.sleep(
-            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        time.sleep(3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, vyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
 
         self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
-        groupSearch_D(self, self.driver)
+        Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_zlutak_to_SRL_pobyt(self):
         self.driver.get(URL)
         self.driver.maximize_window()
-        time.sleep( 0.3)
+        time.sleep( 3.3)
         acceptConsent(self.driver)
         time.sleep(3.5)
         self.driver.find_element(By.XPATH, kamPojedeteButtonXpath).click()
@@ -85,7 +86,7 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.5)
         self.driver.find_element(By.XPATH, zlutakPotvrditAvyhledatXpath).click()
 
-        SRL_D(self, self.driver)
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_top_hotely(self):
@@ -147,6 +148,7 @@ class Test_HP_C(unittest.TestCase):
             url = self.driver.current_url
             msg = " Problem SRL hotelyAllKarty" + url
             sendEmail(msg)
+
     def test_HP_vyletyThajsko(self):
         self.driver.maximize_window()
         self.driver.get(URL)

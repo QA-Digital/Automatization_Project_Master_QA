@@ -7,6 +7,9 @@ from DERRO.to_import import acceptConsent, URL_groupsearch, setUp, tearDown, gen
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 
+from helpers.helper import Helpers
+
+
 def groupSearch_D(self, driver):
     wait = WebDriverWait(self.driver, 200)
     generalDriverWaitImplicit(driver)
@@ -59,7 +62,6 @@ class Test_Groupsearch_D(unittest.TestCase):
         tearDown(self)
 
     def test_groupsearch_D(self):
-        driver = self.driver
         self.driver.maximize_window()
         URL_groupsearch_lp = f"{self.URL}{URL_groupsearch}"
         self.driver.get(URL_groupsearch_lp)
@@ -68,5 +70,5 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2.5)
         self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
 
-        groupSearch_D(self, driver)
+        Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True

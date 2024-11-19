@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
-from DERRO.to_import import acceptConsent,URL_detail, sendEmail, setUp, tearDown
+from DERRO.to_import import acceptConsent, URL_detail, sendEmail, setUp, tearDown, URL_detail_new
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
