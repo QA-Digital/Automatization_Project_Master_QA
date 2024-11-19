@@ -11,7 +11,8 @@ detailPobockyXpath = pobockaBoxXpath + "(//span[@class='f_button-text f_icon f_i
 from DERRO.to_import import URL_local
 class TestPobocky_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -37,7 +38,7 @@ class TestPobocky_C(unittest.TestCase):
 
         mapaDisplayed = mapa.is_displayed()
         assert mapaDisplayed == True
-        print("Map is displayed")
+        self.logger.info("Map is displayed")
 
 
         mapaKolecka = self.driver.find_elements(By.XPATH, "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']")
@@ -46,7 +47,7 @@ class TestPobocky_C(unittest.TestCase):
             mapaKoleckaDisplayed = mapaKolecka[y].is_displayed()
 
             y=y+1
-            print("mapa kolecka")
+            self.logger.info("mapa kolecka")
             assert mapaKoleckaDisplayed == True
 
         generalDriverWaitImplicit(self.driver)
@@ -57,7 +58,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in basicInfo:
             basicInfoDisplay = basicInfo[a].is_displayed()
 
-            print("basic info ")
+            self.logger.info("basic info ")
             assert basicInfoDisplay == True
             a=a+1
 
@@ -67,7 +68,7 @@ class TestPobocky_C(unittest.TestCase):
         for _ in pobockaBoxiky:
             pobockaBoxikyDisplay = pobockaBoxiky[x].is_displayed()
 
-            print("boxiky")
+            self.logger.info("boxiky")
             assert pobockaBoxikyDisplay == True
             x = x + 1
 

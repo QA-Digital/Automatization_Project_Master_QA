@@ -34,7 +34,8 @@ URL_SRL_list_DERRO = [URL_SRL_DERRO1, URL_SRL_DERRO2, URL_SRL_DERRO3, URL_SRL_DE
 from DERRO.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
