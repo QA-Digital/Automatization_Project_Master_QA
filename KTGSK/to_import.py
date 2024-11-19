@@ -156,6 +156,9 @@ def acceptConsent(driver):
     pass
 
 
+def closeExponeaBanner():
+  pass
+
 def acceptConsent5(driver):
   time.sleep(2)
   try:
