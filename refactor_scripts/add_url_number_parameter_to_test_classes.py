@@ -3,7 +3,7 @@ import os
 import re
 
 # Explicit path to the FW folder
-FW_FOLDER = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\DERRO'
+FW_FOLDER = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EXPL'
 
 # Regex pattern to match the __init__ method definitions
 init_method_pattern = re.compile(r"(def __init__\(self, methodName=.*?)(\):)")

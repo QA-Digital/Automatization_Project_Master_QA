@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 import os
 import re
 
-FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\DERRO"
+FW_FOLDER = r"C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EXPL"
 
 def refactor_print_statements(file_path):
     """

@@ -30,7 +30,8 @@ celkoveCenaVterminechXpath = "//span[@class='f_anchor f_icon f_icon_set--right f
 from EXPL.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -80,7 +81,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(float(celkovaCena))
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         # cheap = "expensive"
@@ -130,7 +131,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             celkovaCenaVterminechINT = int(float(celkovaCena))
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
@@ -161,7 +162,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -184,7 +185,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True

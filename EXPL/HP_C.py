@@ -53,7 +53,8 @@ class Test_HP_C(unittest.TestCase):
     URL = URL_local
     # Default value
 
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
 
         if URL:
@@ -169,7 +170,7 @@ class Test_HP_C(unittest.TestCase):
                     assert jdouvidet == True
 
                     if jdouvidet == True:
-                        print("Destinace jdou videt")
+                        self.logger.info("Destinace jdou videt")
                     else:
                         url = self.driver.current_url
                         msg = "Problem, destinace se nezobrazuji " + url
@@ -203,7 +204,7 @@ class Test_HP_C(unittest.TestCase):
                     assert jdouvidet == True
 
                     if jdouvidet == True:
-                        print("Destinace jdou videt")
+                        self.logger.info("Destinace jdou videt")
                     else:
                         url = self.driver.current_url
                         msg = "Problem, destinace se nezobrazuji " + url
@@ -237,7 +238,7 @@ class Test_HP_C(unittest.TestCase):
                     assert jdouvidet == True
 
                     if jdouvidet == True:
-                        print("Destinace jdou videt")
+                        self.logger.info("Destinace jdou videt")
                     else:
                         url = self.driver.current_url
                         msg = "Problem, destinace se nezobrazuji " + url
@@ -397,7 +398,7 @@ class Test_HP_C(unittest.TestCase):
 #         nejlepsiNabidkyTextList.append(nejlepsiNabidkyTextDefault)
 #         positionOfCurrentElement = positionOfCurrentElement + 1
 #
-#     print(nejlepsiNabidkyTextList)
+#     self.logger.info(nejlepsiNabidkyTextList)
 #
 #     self.test_passed = True
 

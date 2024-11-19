@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
-import logging
-import sys
+
 
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
@@ -33,11 +32,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
 
-import os
+
 from definitions import EDGE_DRIVER_PATH
 from selenium import webdriver
 
-
+import logging
+import sys
+import os
 def setUp(self):
     #self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
     service = Service(EDGE_DRIVER_PATH)

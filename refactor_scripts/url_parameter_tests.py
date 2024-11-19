@@ -3,7 +3,7 @@ import os
 import re
 
 # Explicit path to the FW folder
-FW_FOLDER = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\FW'
+FW_FOLDER = r'C:\Users\KDK\Desktop\DTCZ\kod\Automatization_Project_Master_QA\EXPL'
 
 # Regex pattern to match test method definitions (i.e., def test_method(self))
 test_method_pattern = re.compile(r"(def\s+test_\w+\(self)")

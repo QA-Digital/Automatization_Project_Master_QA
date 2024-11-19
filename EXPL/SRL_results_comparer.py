@@ -34,7 +34,8 @@ URL_SRL_list_EXPL = [URL_SRL_EXPL1, URL_SRL_EXPL2, URL_SRL_EXPL3, URL_SRL_EXPL4,
 from EXPL.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL

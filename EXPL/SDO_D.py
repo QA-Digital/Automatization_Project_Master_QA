@@ -8,7 +8,8 @@ NejHotely = "//*[@class='f_tileGrid-item']"
 from EXPL.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -34,13 +35,13 @@ class TestSDO_D(unittest.TestCase):
         Offer4 = self.driver.find_elements(By.XPATH, "(//a)[62]")
 
         HPtopNabidkaElements = [Offer1, Offer2, Offer3, Offer4]
-        print(HPtopNabidkaElements)
+        self.logger.info(HPtopNabidkaElements)
         time.sleep(4)
         linksToCheck_List = []
         for _ in HPtopNabidkaElements:
            odkazLink = HPtopNabidkaElements
            linksToCheck_List.append(odkazLink)
-           print(odkazLink)
+           self.logger.info(odkazLink)
 
     def test_SDO_NejHotely(self):
         self.driver.maximize_window()
@@ -64,7 +65,7 @@ class TestSDO_D(unittest.TestCase):
                     assert jdouvidet == True
 
                     if jdouvidet == True:
-                        print("Hotely jdou videt")
+                        self.logger.info("Hotely jdou videt")
                     else:
                         url = self.driver.current_url
                         msg = "Problem, hotely se nezobrazuji " + url

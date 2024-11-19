@@ -94,6 +94,6 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2)
         self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
 
-        groupSearch_D(self, driver)
+        #groupSearch_D(self, driver)
         Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
