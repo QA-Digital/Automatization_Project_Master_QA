@@ -148,7 +148,7 @@ class Test_HP_C(unittest.TestCase):
             0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        destinaceEgyptXpath = "//*[@value='st63125']"
+        destinaceEgyptXpath = "//*[@value='st63042']"
         self.driver.find_element(By.XPATH, poznavackyVeFiltruSwitchXpath).click()
         HPzlutakBrezenDubenXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
         time.sleep(3)

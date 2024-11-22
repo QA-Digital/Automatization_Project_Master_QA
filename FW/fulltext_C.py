@@ -66,8 +66,7 @@ class Test_Fulltext_C(unittest.TestCase):
                 try:
 
                     # hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
-                    hotelDlazdice = self.driver.find_element_by_xpath(
-                        "//*[@class='f_tile f_tile--tour']")  ##work around na EW
+                    hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tile f_tile--tour']") ##work around na EW
                     # wait.until(EC.visibility_of(hotelDlazdice)).click()
                     hotelDlazdice.click()
                     # hotelDlazdice.click()

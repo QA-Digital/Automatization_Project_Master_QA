@@ -85,6 +85,9 @@ class TestPobocky_C(unittest.TestCase):
         self.driver.maximize_window()
         URL_pobocky_lp = f"{self.URL}{URL_pobocky}"
         self.driver.get(URL_pobocky_lp)
+        time.sleep(3.5)
+
+
         acceptConsent(self.driver)
 
         time.sleep(3.5)
