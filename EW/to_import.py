@@ -91,9 +91,9 @@ def setUp(self):
 
   self.test_passed = False
 
-URL = "https://exim.stg.dtweb.cz/"
+URL = "https://exim.web11.dtweb.cz/"
 #URL_local = "https://www.eximtours.cz/"
-URL_local =  "https://exim.stg.dtweb.cz/"
+URL_local =  "https://exim.web11.dtweb.cz/"
 #URL_local = "https://exim.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"

@@ -102,10 +102,10 @@ class TestSRL_D(unittest.TestCase):
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
 
-        time.sleep(0.44)
+        time.sleep(2.44)
         acceptConsent(self.driver)
 
-        self.driver.implicitly_wait(100)
+        time.sleep(4)
         #SRL_D(self, self.driver)
         Helpers.search_results_list_check(self.driver, self.logger)
 

@@ -332,7 +332,7 @@ class Test_HP_C(unittest.TestCase):
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                          HPzlutakPotvrditAvyhledatXpath, self.logger)
 
-
+        time.sleep(4)
         Helpers.SRL_D_letenky(self.driver, letenkySrlResultsXpath, self.logger)
         self.test_passed = True
 
