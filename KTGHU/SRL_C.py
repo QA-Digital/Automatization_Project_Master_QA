@@ -15,7 +15,8 @@ sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'Rendez�
 from KTGHU.to_import import URL_local
 class Test_SRL_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -75,8 +76,8 @@ class Test_SRL_C(unittest.TestCase):
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
         currentUrl = self.driver.current_url
-        print(currentUrl)
-        print(URL_SRL)
+        self.logger.info(currentUrl)
+        self.logger.info(URL_SRL)
         assert currentUrl != URL_SRL
 
         self.test_passed = True
@@ -121,38 +122,38 @@ class Test_SRL_C(unittest.TestCase):
         wait.until(EC.visibility_of(hotelyAllKarty[1]))
         for _ in range(11):
 
-            print("|||||HOTEL CISLO|||||||" )
-            print(x+1)
-            print(x + 1)
-            print(x + 1)
+            self.logger.info("|||||HOTEL CISLO|||||||" )
+            self.logger.info(x+1)
+            self.logger.info(x + 1)
+            self.logger.info(x + 1)
             terminZajezdu = self.driver.find_elements_by_xpath(
                 "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
             terminZajezduSingle = self.driver.find_element_by_xpath(
                 "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
 
             wait.until(EC.visibility_of(terminZajezduSingle))
-            ##print(terminZajezdu[x].text)
+            ##self.logger.info(terminZajezdu[x].text)
 
             linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-priceDetail-item']/a")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
-            ##print(linkDetailActualUrl)
+            ##self.logger.info(linkDetailActualUrl)
 
             stravaZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--cutlery']")
             stravaZajezduString = stravaZajezdu[x].text
 
             pokojZajezdu = self.driver.find_elements(By.XPATH, "//*[@class='f_list-item f_icon f_icon--bed']")
             pokojZajezduString = pokojZajezdu[x].text
-            ##print(pokojZajezduString)
+            ##self.logger.info(pokojZajezduString)
 
             cenaZajezduAll = self.driver.find_elements_by_xpath(
                 "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']")
             cenaZajezduAllString = cenaZajezduAll[x].text.lower()
-            ##print(cenaZajezduAllString)
+            ##self.logger.info(cenaZajezduAllString)
 
             cenaZajezduAdult = self.driver.find_elements_by_xpath(
                 "//*[@class='f_tile-priceDetail-item']//*[@class='f_tile-priceDetail-note'] //*[@class='f_price']")
             cenaZajezduAdultString = cenaZajezduAdult[x].text.lower()
-            print(cenaZajezduAdultString)
+            self.logger.info(cenaZajezduAdultString)
 
             self.driver.execute_script("window.open("");")
             self.driver.switch_to.window(self.driver.window_handles[1])
@@ -163,7 +164,7 @@ class Test_SRL_C(unittest.TestCase):
             time.sleep(1)  ##natvrdo aby se to neposralo
 
             #detailTerminSedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary-title']")
-            ##print(detailTerminSedivka.text)
+            ##self.logger.info(detailTerminSedivka.text)
 
             # detailStravaSedivka = self.driver.find_elements(By.XPATH, "//*[@class='fshr-detail-summary-paragraph']")
             # detailStravaSedivkaString = detailStravaSedivka[
@@ -181,7 +182,7 @@ class Test_SRL_C(unittest.TestCase):
 
                 # detailStravaSedivkaString = detailStravaSedivka[1].text  ##gottaa be 1 cuz thats how its set up (multiple locators are attached to this locator so position 1 is always gonna be strava hopefully
             detailStravaSedivkaString = detailStravaSedivka.text
-            print(detailStravaSedivkaString)
+            self.logger.info(detailStravaSedivkaString)
 
             detailPokojSedivka = self.driver.find_element_by_xpath(
                 "//*[@class='f_box-item f_icon f_icon--bed']//strong")
@@ -191,11 +192,11 @@ class Test_SRL_C(unittest.TestCase):
             #     "//*[@class='fshr-detail-summary-title fshr-icon fshr-icon--bed']")
             # detailPokojSedivkaString = detailPokojSedivka.text
             # detailPokojSedivkaString = detailPokojSedivkaString[:-3]  ##need to be edited cuz there is random spaces and "?" in the element
-            # ##print(detailPokojSedivkaString)
+            # ##self.logger.info(detailPokojSedivkaString)
 
             # detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='fshr-tooltip-underline js-totalPrice']")
             # detailCenaAllString = detailCenaAll.text
-            # ##print(detailCenaAllString)
+            # ##self.logger.info(detailCenaAllString)
 
             detailCenaAll = self.driver.find_element(By.XPATH, "//*[@class='f_column-item']//*[@class='f_price']")
             detailCenaAllString = detailCenaAll.text.lower()
@@ -203,7 +204,7 @@ class Test_SRL_C(unittest.TestCase):
             # detailCenaAdult = self.driver.find_element_by_xpath(
             #         '//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
             # detailCenaAdultString = detailCenaAdult.text.lower()
-            # print(detailCenaAdultString)
+            # self.logger.info(detailCenaAdultString)
 
             try:
                 # detailCenaAdult = self.driver.find_element(By.XPATH, '//*[contains(concat(" ", normalize-space(@class), " "), " fshr-detail-summary-price-header ")]//*[contains(concat(" ", normalize-space(@class), " "), " fshr-price ")]')
@@ -211,7 +212,7 @@ class Test_SRL_C(unittest.TestCase):
                 detailCenaAdult = self.driver.find_element_by_xpath(
                     "//*[@class='flex justify-between mb-2']//*[@class='text-right bold']")
                 detailCenaAdultString = detailCenaAdult.text.lower()
-                print(detailCenaAdultString)
+                self.logger.info(detailCenaAdultString)
 
             except NoSuchElementException:
                 pass
@@ -221,38 +222,38 @@ class Test_SRL_C(unittest.TestCase):
             self.driver.close()
 
             if detailPokojSedivkaString == pokojZajezduString:
-                print("pokoje sedi srl vs detail")
+                self.logger.info("pokoje sedi srl vs detail")
             else:
-                print(" NESEDÍ pokoj SRL vs sedivka")
+                self.logger.info(" NESEDÍ pokoj SRL vs sedivka")
 
             assert detailStravaSedivkaString == stravaZajezduString
             if detailStravaSedivkaString == stravaZajezduString:
-                print("stravy sedi srl vs detail")
+                self.logger.info("stravy sedi srl vs detail")
 
             else:
-                print("NESEDÍ strava srl vs ssedika")
+                self.logger.info("NESEDÍ strava srl vs ssedika")
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
-                print("ceny all sedi srl vs detail")
+                self.logger.info("ceny all sedi srl vs detail")
 
             else:
-                print("ceny all NESEDÍ srl vs detail")
+                self.logger.info("ceny all NESEDÍ srl vs detail")
 
             assert detailCenaAdultString == cenaZajezduAdultString
 
             if detailCenaAdultString == cenaZajezduAdultString:
-                print(" cena adult sedi srl vs detail")
+                self.logger.info(" cena adult sedi srl vs detail")
 
             else:
-                print("cena adult NESEDÍ srl vs detail")
+                self.logger.info("cena adult NESEDÍ srl vs detail")
 
             self.driver.switch_to.window(
                 self.driver.window_handles[0])  ##this gotta be adjusted based on what test is executed
             ##for daily test needs to be set on 1 so it gets on the SRL
 
             x = x + 1
-            print(x)
+            self.logger.info(x)
             windowHandle = windowHandle + 1
-            print(windowHandle)
+            self.logger.info(windowHandle)
 
             self.test_passed = True

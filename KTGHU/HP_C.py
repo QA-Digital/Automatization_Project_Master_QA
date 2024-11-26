@@ -33,7 +33,8 @@ HPzlutakPokracovatVyberTerminuXpath =HPzlutakPokracovatButtonXpathStep2
 from KTGHU.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -111,11 +112,11 @@ class Test_HP_C(unittest.TestCase):
         for _ in nejlepsiNabidkyElement:
             nejlepsiNabidkyTextDefault = nejlepsiNabidkyElement[positionOfCurrentElement2].text
             nejlepsiNabidkyTextList2.append(nejlepsiNabidkyTextDefault)
-            # print(nejlepsiNabidkyTextList)
+            # self.logger.info(nejlepsiNabidkyTextList)
             positionOfCurrentElement2 = positionOfCurrentElement2 + 1
 
-        print(nejlepsiNabidkyTextList)
-        print(nejlepsiNabidkyTextList2)
+        self.logger.info(nejlepsiNabidkyTextList)
+        self.logger.info(nejlepsiNabidkyTextList2)
         assert nejlepsiNabidkyTextList != nejlepsiNabidkyTextList2
 
         self.test_passed = True

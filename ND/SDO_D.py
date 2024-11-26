@@ -9,7 +9,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from ND.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -52,7 +53,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se oblasti " + url
             sendEmail(msg)
         assert oblastiAll[0].is_displayed() == True
-        print("Oblasti se zobrazuji")
+        self.logger.info("Oblasti se zobrazuji")
 
         time.sleep(5)
         try:
@@ -77,7 +78,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se strediska " + url
             sendEmail(msg)
         assert strediskaAll[0].is_displayed() == True
-        print("Strediska se zobrazuji")
+        self.logger.info("Strediska se zobrazuji")
 
         time.sleep(10)
         try:
@@ -102,7 +103,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se oblibene hotely " + url
             sendEmail(msg)
         assert oblHotelyAll[0].is_displayed() == True
-        print("Oblibene hotely se zobrazuji")
+        self.logger.info("Oblibene hotely se zobrazuji")
 
         time.sleep(5)
         try:
@@ -127,7 +128,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se fotky v galerii " + url
             sendEmail(msg)
         assert fotkyAll[0].is_displayed() == True
-        print("Fotky v galerii se zobrazuji")
+        self.logger.info("Fotky v galerii se zobrazuji")
 
     def test_SDO_D_leto(self):
         driver = self.driver
@@ -161,7 +162,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se oblasti " + url
             sendEmail(msg)
         assert oblastiAll[0].is_displayed() == True
-        print("Oblasti se zobrazuji")
+        self.logger.info("Oblasti se zobrazuji")
 
         time.sleep(5)
         try:
@@ -186,7 +187,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se strediska " + url
             sendEmail(msg)
         assert strediskaAll[0].is_displayed() == True
-        print("Strediska se zobrazuji")
+        self.logger.info("Strediska se zobrazuji")
 
         time.sleep(5)
         try:
@@ -211,7 +212,7 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se oblibene hotely " + url
             sendEmail(msg)
         assert oblHotelyAll[0].is_displayed() == True
-        print("Oblibene hotely se zobrazuji")
+        self.logger.info("Oblibene hotely se zobrazuji")
 
         time.sleep(5)
         try:
@@ -236,4 +237,4 @@ class TestSDO_D(unittest.TestCase):
             msg = "Nenasli se fotky v galerii " + url
             sendEmail(msg)
         assert fotkyAll[0].is_displayed() == True
-        print("Fotky v galerii se zobrazuji")
+        self.logger.info("Fotky v galerii se zobrazuji")

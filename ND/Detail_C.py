@@ -15,7 +15,8 @@ potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 from ND.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -95,7 +96,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url

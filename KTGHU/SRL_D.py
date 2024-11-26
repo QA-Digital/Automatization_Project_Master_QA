@@ -18,11 +18,11 @@ def SRL_D(self, driver):
         hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)  ##
         hotelyAll = self.driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
-        ##print(hotelyAll)
+        ##self.logger.info(hotelyAll)
         if hotelySingle.is_displayed():
             for WebElement in hotelyAll:
                 jdouvidet = WebElement.is_displayed()
-                print(jdouvidet)
+                self.logger.info(jdouvidet)
                 assert jdouvidet == True
                 if jdouvidet == True:
                     pass
@@ -43,11 +43,11 @@ def SRL_D(self, driver):
     #     fotkyAll = self.driver.find_elements(By.XPATH, SRLfotkaHoteluXpath)  ##
     #     fotkaSingle = self.driver.find_element(By.XPATH, SRLfotkaHoteluXpath)
     #     wait.until(EC.visibility_of(fotkaSingle))
-    #     ##print(fotkaSingle)
+    #     ##self.logger.info(fotkaSingle)
     #     if fotkaSingle.is_displayed():
     #         for WebElement in fotkyAll:
     #             jdouvidet = WebElement.is_displayed()
-    #             print(jdouvidet)
+    #             self.logger.info(jdouvidet)
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
@@ -71,7 +71,7 @@ def SRL_D(self, driver):
                 jdouvidet = WebElement.is_displayed()
                 assert jdouvidet == True
                 if jdouvidet == True:
-                    print("ceny")
+                    self.logger.info("ceny")
                     pass
 
                 else:
@@ -104,7 +104,8 @@ def SRL_D(self, driver):
 from KTGHU.to_import import URL_local
 class TestSRL_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL

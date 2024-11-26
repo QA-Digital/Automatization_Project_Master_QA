@@ -17,7 +17,8 @@ potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 from KTGHU.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -65,7 +66,7 @@ class TestDetailHotelu_C(unittest.TestCase):
             image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -99,7 +100,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True
@@ -188,7 +189,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         # zvolenaStravaVboxu = self.driver.find_element(By.XPATH, "//*[@class='js-subvalue f_text--highlighted']")
         # zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         #
-        # print(zvolenaStravaVboxuString)
+        # self.logger.info(zvolenaStravaVboxuString)
         #
         # stravaVterminech = self.driver.find_elements_by_xpath(
         #     "//*[@class='fshr-termin-catering js-tooltip js-tooltip--onlyDesktop']")
@@ -206,13 +207,13 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # time.sleep(1)  ###eroror element is not attached ?  tak chvilku cekacka mozna to solvne
         #
-        # print(stravaVterminechString)
+        # self.logger.info(stravaVterminechString)
         # y = 0
         # for _ in stravaVterminechString:
         #     assert zvolenaStravaVboxuString in stravaVterminechString[y]
         #     if zvolenaStravaVboxuString in stravaVterminechString[y]:
-        #         print("ok")
-        #         ##print(y)
+        #         self.logger.info("ok")
+        #         ##self.logger.info(y)
         #         y = y + 1
         #     else:
         #         url = self.driver.current_url
@@ -220,8 +221,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         #         sendEmail(msg)
         #         y = y + 1
         # time.sleep(1)
-        # ##print(stravaVterminech)
-        # ##print(stravaVterminechString)
+        # ##self.logger.info(stravaVterminech)
+        # ##self.logger.info(stravaVterminechString)
         #
         # self.test_passed = True
 
@@ -366,11 +367,11 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     assert odletyTerminy[y].text == "Budapest"
         #     if odletyTerminy[y].text == "Budapest":  ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
         #         ##je "odlet"), kazdy sudy cislo je mezera/blank space for some reason
-        #         ##print(odletyTerminy[y].text)
+        #         ##self.logger.info(odletyTerminy[y].text)
         #         y = y + 2
         #     else:
         #         url = self.driver.current_url
-        #         ##print(odletyTerminy[y].text)
+        #         ##self.logger.info(odletyTerminy[y].text)
         #         msg = "na detailu jsem vyfiltroval odlet na Budapest ale pry to nesedi říká python " + url
         #         sendEmail(msg)
         #         y = y + 2

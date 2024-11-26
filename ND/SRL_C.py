@@ -17,7 +17,8 @@ sorterExpensiveXpath = "//*[@class='f_tabBar-text' and contains(text(), 'od nejd
 from ND.to_import import URL_local
 class Test_SRL_C_Zima(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -66,22 +67,22 @@ class Test_SRL_C_Zima(unittest.TestCase):
             cenaZajezduAllListSorted.sort()  ##sorting second list low to high
 
             if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
-                print("Cheap sorter is OK")
+                self.logger.info("Cheap sorter is OK")
             else:
-                print("Cheap sorter is NOT OK")
+                self.logger.info("Cheap sorter is NOT OK")
 
         if typeOfSort == "expensive":
             cenaZajezduAllListSorted.sort(reverse=True)
 
             if cenaZajezduAllListSorted == cenaZajezduAllList:
-                print("Expensive sorter is OK")
+                self.logger.info("Expensive sorter is OK")
             else:
-                print("Expensive sorter is NOT OK")
+                self.logger.info("Expensive sorter is NOT OK")
 
-        print("LIST FROM WEB:")
-        print(cenaZajezduAllList)
-        print("CORRECTLY SORTED LIST")
-        print(cenaZajezduAllListSorted)
+        self.logger.info("LIST FROM WEB:")
+        self.logger.info(cenaZajezduAllList)
+        self.logger.info("CORRECTLY SORTED LIST")
+        self.logger.info(cenaZajezduAllListSorted)
 
         assert cenaZajezduAllListSorted == cenaZajezduAllList
 
@@ -125,22 +126,22 @@ class Test_SRL_C_Zima(unittest.TestCase):
             cenaZajezduAllListSorted.sort()  ##sorting second list low to high
 
             if cenaZajezduAllListSorted == cenaZajezduAllList:  ##compare first list to second list, if is equal = good
-                print("Cheap sorter is OK")
+                self.logger.info("Cheap sorter is OK")
             else:
-                print("Cheap sorter is NOT OK")
+                self.logger.info("Cheap sorter is NOT OK")
 
         if typeOfSort == "expensive":
             cenaZajezduAllListSorted.sort(reverse=True)
 
             if cenaZajezduAllListSorted == cenaZajezduAllList:
-                print("Expensive sorter is OK")
+                self.logger.info("Expensive sorter is OK")
             else:
-                print("Expensive sorter is NOT OK")
+                self.logger.info("Expensive sorter is NOT OK")
 
-        print("LIST FROM WEB:")
-        print(cenaZajezduAllList)
-        print("CORRECTLY SORTED LIST")
-        print(cenaZajezduAllListSorted)
+        self.logger.info("LIST FROM WEB:")
+        self.logger.info(cenaZajezduAllList)
+        self.logger.info("CORRECTLY SORTED LIST")
+        self.logger.info(cenaZajezduAllListSorted)
 
         assert cenaZajezduAllListSorted == cenaZajezduAllList
 
@@ -164,8 +165,8 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window
         currentUrl = self.driver.current_url
-        print(currentUrl)
-        print(URL_SRL_zima)
+        self.logger.info(currentUrl)
+        self.logger.info(URL_SRL_zima)
         assert currentUrl != URL_SRL_zima
 
         self.test_passed = True
@@ -192,21 +193,21 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
         # for WebElement in hotelyAllKarty:
         for _ in range(6):
-            print("|||||HOTEL CISLO|||||||")
-            print(x + 1)
-            print(x + 1)
-            print(x + 1)
+            self.logger.info("|||||HOTEL CISLO|||||||")
+            self.logger.info(x + 1)
+            self.logger.info(x + 1)
+            self.logger.info(x + 1)
 
             terminZajezdu = self.driver.find_elements(By.XPATH, "(//span[@class='font-bold'])")
-            print(terminZajezdu[x].text)
+            self.logger.info(terminZajezdu[x].text)
 
             linkDetail = self.driver.find_elements(By.XPATH, "//*[@class='f_button f_button--important']")
             linkDetailActualUrl = linkDetail[x].get_attribute("href")
-            print(linkDetailActualUrl)
+            self.logger.info(linkDetailActualUrl)
 
             cenaZajezduAll = self.driver.find_elements(By.XPATH, "//*[@class='whitespace-nowrap text-[--primary] font-bold']")
             cenaZajezduAllString = cenaZajezduAll[x].text
-            #print(cenaZajezduAllString)
+            #self.logger.info(cenaZajezduAllString)
 
             self.driver.execute_script("window.open("");")
             self.driver.switch_to.window(self.driver.window_handles[1])
@@ -219,21 +220,21 @@ class Test_SRL_C_Zima(unittest.TestCase):
 
             detailCenaAll = self.driver.find_element(By.XPATH, "//span[@class='f_price']")
             detailCenaAllString = detailCenaAll.text
-            print(detailCenaAllString)
+            self.logger.info(detailCenaAllString)
 
             assert detailCenaAllString == cenaZajezduAllString
             if detailCenaAllString == cenaZajezduAllString:
-                print("ceny all sedi srl vs detail")
+                self.logger.info("ceny all sedi srl vs detail")
             else:
-                print("ceny all NESEDÍ srl vs detail")
+                self.logger.info("ceny all NESEDÍ srl vs detail")
 
             self.driver.switch_to.window(
                 self.driver.window_handles[0])  ##this gotta be adjusted based on what test is executed
             ##for daily test needs to be set on 1 so it gets on the SRL
 
             x = x + 1
-            print(x)
+            self.logger.info(x)
             windowHandle = windowHandle + 1
-            print(windowHandle)
+            self.logger.info(windowHandle)
 
             self.test_passed = True

@@ -35,7 +35,8 @@ HPkartaHoteluSliderXpath = "//*[@class='f_carousel-item slick-slide slick-active
 from ND.to_import import URL_local
 class Test_HP_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -107,7 +108,7 @@ class Test_HP_C(unittest.TestCase):
         for _ in banneryElements:
             odkazLink = banneryElements[pozice].get_attribute("href")
             linksToCheck_List.append(odkazLink)
-            print(odkazLink)
+            self.logger.info(odkazLink)
             pozice = pozice + 1
 
         generalized_list_of_url_checker(linksToCheck_List)
@@ -132,7 +133,7 @@ class Test_HP_C(unittest.TestCase):
         for _ in banneryElements:
             odkazLink = banneryElements[pozice].get_attribute("href")
             linksToCheck_List.append(odkazLink)
-            print(odkazLink)
+            self.logger.info(odkazLink)
             pozice = pozice + 1
 
         generalized_list_of_url_checker(linksToCheck_List)

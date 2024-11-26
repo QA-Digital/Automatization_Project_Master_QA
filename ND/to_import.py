@@ -9,6 +9,7 @@ from email.mime.text import MIMEText
 
 from webdriver_manager.chrome import ChromeDriverManager
 
+from definitions import EDGE_DRIVER_PATH
 from to_import_secret_master import emailPass, comandExecutor
 from selenium import webdriver
 
@@ -30,17 +31,61 @@ desired_cap = {
 "browserstack.selenium_version" : "3.5.2"
 
 }
-def setUp(self):
-  #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
-  from definitions import EDGE_DRIVER_PATH
-  from selenium import webdriver
 
-  # Set up the Edge driver with the path from definitions.py
-  from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.service import Service
+import logging
+import sys
+import os
+def setUp(self):
+  # self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
   service = Service(EDGE_DRIVER_PATH)
   self.driver = webdriver.Edge(service=service)
+  # Dynamically get the folder name (assuming folder is two levels up from the test file)
+  test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+  # Get the current test method name (used in unique logger and log file naming)
+  test_method = self._testMethodName
+  if self.run_number is None:
+    self.run_number = 0
+  # Generate a unique logger name using folder, class name, run number, and test method
+  logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
+
+  # Get the logger (will create a new one if it doesn't exist)
+  self.logger = logging.getLogger(logger_name)
+
+  # Remove any existing handlers to avoid log mixing
+  if self.logger.hasHandlers():
+    self.logger.handlers.clear()
+
+  # Set log level
+  self.logger.setLevel(logging.INFO)
+
+  # Create a unique log file for this specific test
+  log_filename = f'{test_folder}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log'
+
+  # Create file handler for logging to file
+  file_handler = logging.FileHandler(log_filename, mode='w')
+  file_handler.setLevel(logging.INFO)
+
+  # Create stream handler for console output
+  stream_handler = logging.StreamHandler(sys.stdout)
+  stream_handler.setLevel(logging.INFO)
+
+  # Create a simple log format
+  formatter = logging.Formatter('%(levelname)s - %(message)s')
+  file_handler.setFormatter(formatter)
+  stream_handler.setFormatter(formatter)
+
+  # Add handlers to the logger
+  self.logger.addHandler(file_handler)
+  self.logger.addHandler(stream_handler)
+
+  # Ensure logs are flushed to the file immediately
+  file_handler.flush()
 
   self.test_passed = False
+
+
 
 
 
@@ -76,7 +121,7 @@ URL_groupsearch_leto = URL_leto + "/vysledky-vyhledavani?ac1=2&dd=2024-08-31&nn=
 
 
 def tearDown(self):
-  print(self.driver.current_url)
+  self.logger.info(self.driver.current_url)
   self.driver.quit()
   #if not self.test_passed:self.driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
@@ -102,9 +147,10 @@ def acceptConsent(driver):
     generalDriverWaitImplicit(driver)
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    print(element)
+    #self.logger.info(element)
   except NoSuchElementException:
-    print("NOSUCH")
+    pass
+    # self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -112,7 +158,6 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    print("consent pass")
     pass
 
 

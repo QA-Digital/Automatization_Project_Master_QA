@@ -13,7 +13,8 @@ import unittest
 from KTGHU.to_import import URL_local
 class TestFM_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -37,22 +38,22 @@ class TestFM_D(unittest.TestCase):
         teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         try:
             for WebElement in teaserItems:
-                ##print(len(teaserItems))
+                ##self.logger.info(len(teaserItems))
                 jdouvidet = WebElement.is_displayed()
-                ##print(jdouvidet)
+                ##self.logger.info(jdouvidet)
                 if jdouvidet == True:
-                    ##print(jdouvidet)
-                    ##print(WebElement)
+                    ##self.logger.info(jdouvidet)
+                    ##self.logger.info(WebElement)
                     pass
 
                 else:
                     pass
-                    ##print("Else")
+                    ##self.logger.info("Else")
                     ##emailfunciton
 
         except NoSuchElementException:
             pass
-            ##print("no such")
+            ##self.logger.info("no such")
             ##email fnction
 
         assert teaserItems[0].is_displayed() == True
