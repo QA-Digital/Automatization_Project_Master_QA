@@ -119,10 +119,13 @@ class Test_SRL_C(unittest.TestCase):
             self.logger.info(x + 1)
             self.logger.info(x + 1)
             self.logger.info(x + 1)
-            terminZajezdu = self.driver.find_elements_by_xpath(
-                "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
-            terminZajezduSingle = self.driver.find_element_by_xpath(
-                "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
+            # Find multiple elements
+            terminZajezdu = self.driver.find_elements(By.XPATH,
+                                                      "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
+
+            # Find a single element
+            terminZajezduSingle = self.driver.find_element(By.XPATH,
+                                                           "//*[@class='f_tile f_tile--searchResultTour']//*[@class='f_list-item']")
 
             wait.until(EC.visibility_of(terminZajezduSingle))
             ##self.logger.info(terminZajezdu[x].text)
@@ -138,13 +141,15 @@ class Test_SRL_C(unittest.TestCase):
             pokojZajezduString = pokojZajezdu[x].text
             ##self.logger.info(pokojZajezduString)
 
-            cenaZajezduAll = self.driver.find_elements_by_xpath(
-                "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']")
+            # Find all elements for `cenaZajezduAll`
+            cenaZajezduAll = self.driver.find_elements(By.XPATH,
+                                                       "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']")
             cenaZajezduAllString = cenaZajezduAll[x].text
-            ##self.logger.info(cenaZajezduAllString)
+            # self.logger.info(cenaZajezduAllString)
 
-            cenaZajezduAdult = self.driver.find_elements_by_xpath(
-                "//*[@class='f_tile-priceDetail-item']//*[@class='f_tile-priceDetail-note'] //*[@class='f_price']")
+            # Find all elements for `cenaZajezduAdult`
+            cenaZajezduAdult = self.driver.find_elements(By.XPATH,
+                                                         "//*[@class='f_tile-priceDetail-item']//*[@class='f_tile-priceDetail-note']//*[@class='f_price']")
             cenaZajezduAdultString = cenaZajezduAdult[x].text
             # self.logger.info(cenaZajezduAdultString)
 
@@ -157,20 +162,23 @@ class Test_SRL_C(unittest.TestCase):
             time.sleep(2.5)  ##natvrdo aby se to neposralo
 
             try:
-                detailStravaSedivka = self.driver.find_element_by_xpath(
-                    "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
+                detailStravaSedivka = self.driver.find_element(By.XPATH,
+                                                               "//*[@class='f_icon f_icon--cutlery before:mr-1 before:text-neutral-400']")
             except NoSuchElementException:
                 try:
-                    detailStravaSedivka = self.driver.find_element_by_xpath(
-                        "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
+                    detailStravaSedivka = self.driver.find_element(By.XPATH,
+                                                                   "/html/body/section/div/div/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span")
                 except NoSuchElementException:
-                    pass
+                    detailStravaSedivka = None  # Handle case where element is not found
 
-            detailStravaSedivkaString = detailStravaSedivka.text
-            self.logger.info(detailStravaSedivkaString)
+            # Only process `detailStravaSedivka` if it was successfully found
+            if detailStravaSedivka:
+                detailStravaSedivkaString = detailStravaSedivka.text
+                self.logger.info(detailStravaSedivkaString)
 
-            detailPokojSedivka = self.driver.find_element_by_xpath(
-                "//*[@class='f_box-item f_icon f_icon--bed']//strong")
+            # Find `detailPokojSedivka` element
+            detailPokojSedivka = self.driver.find_element(By.XPATH,
+                                                          "//*[@class='f_box-item f_icon f_icon--bed']//strong")
             detailPokojSedivkaString = detailPokojSedivka.text
             self.logger.info(detailPokojSedivkaString)
 

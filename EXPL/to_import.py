@@ -86,9 +86,9 @@ def setUp(self):
     self.test_passed = False
 
 
-URL_local = "https://eximpl.stg.dtweb.cz/"
+URL_local = "https://eximpl.web12.dtweb.cz/"
 #URL = "https://eximpl.stg.dtweb.cz/"
-URL = "http://eximpl.stg.dtweb.cz/"
+URL = "http://eximpl.web12.dtweb.cz/"
 URL_pobocky = "punkty-sprzedazy"
 URL_detail = "/kierunki/egipt/hurghada/safaga/sentido-caribbean-world-soma-bay?AC1=2&D=64419|64420|64425&DD=2025-06-03&DI=GT06-AI&DP=298&DPR=EXIM+TOURS+POLAND&DS=1024&GIATA=79878&HID=161716&IC1=0&IFM=0&ILM=0&KC1=0&KEY=MTQ2NDEzM3wxNDYzNTU4ODc4fDgxOTE2Nw%3D%3D&MNN=7&MT=5&NN=7&PID=405138&RD=2025-06-10&RT=0&acm1=2&df=2025-06-01|2025-07-31&nnm=6|7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tom=298&tt=1&ttm=1#/prehled"
 URL_leto = "lato"

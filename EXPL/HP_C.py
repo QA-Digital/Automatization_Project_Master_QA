@@ -42,7 +42,7 @@ zlutakPolskoDestinaceXpath= "(//span[@class='font-bold'][normalize-space()='Pols
 zlutakPokracovatButtonXpath = "(//span[contains(text(),'Kontynuuj')])[1]"
 zlutakPokracovatButtonXpathStep2 ="(//span[contains(text(),'Kontynuuj')])[2]"
 zlutakPokracovatVyberTerminuXpath = "//div[contains(text(),'Termin')]"
-HPzlutakLetniPrazdninyXpath = "//span[contains(text(), 'Wakacje 2024')]"
+HPzlutakLetniPrazdninyXpath = "//span[contains(text(), 'Wakacje 2025')]"
 zlutakPokracovatButtonXpathStep3 ="(//span[contains(text(),'Kontynuuj')])[3]"
 zlutakObsazenost2plus1Xpath = "//div[contains(text(), 'Rodzina 2+1')]"
 zlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potwierdź i wyszukaj')]"
