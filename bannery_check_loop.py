@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -38,7 +39,7 @@ def check_banners_have_SRL_results(URL, banneryXpath, nenasliCoJsteHledaliString
     acceptConsent(driver)
     time.sleep(15)
 
-    banneryAll = driver.find_elements_by_xpath(banneryXpath)
+    banneryAll = driver.find_elements(By.XPATH, banneryXpath)
     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
     x = 0
     pocetNalezenychZajezduElementList_PROD = []

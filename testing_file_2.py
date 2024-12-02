@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 import requests
 from selenium import webdriver
@@ -13,7 +14,7 @@ driver.maximize_window()
 acceptConsent(driver)
 time.sleep(15)
 gridItemXpath = "//*[@class='f_tileGrid-item']/a"
-gridItemElements = driver.find_elements_by_xpath(gridItemXpath)
+gridItemElements = driver.find_elements(By.XPATH, gridItemXpath)
 #print(URL_poznavaciho_hotelu)
 linksToCheck_List = []
 pozice=0

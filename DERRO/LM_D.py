@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from DERRO.to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
@@ -8,7 +9,8 @@ import unittest
 from DERRO.to_import import URL_local
 class TestLM_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -28,10 +30,10 @@ class TestLM_D(unittest.TestCase):
         acceptConsent(self.driver)
 
         try:
-            destinationLM = self.driver.find_element_by_xpath("(//*[@class='f_teaser f_teaser--hp'])[1]")
+            destinationLM = self.driver.find_element(By.XPATH, "(//*[@class='f_teaser f_teaser--hp'])[1]")
             self.driver.execute_script("arguments[0].scrollIntoView();", destinationLM)
             time.sleep(3)
-            destinationLMall = self.driver.find_elements_by_xpath("(//*[@class='f_teaser f_teaser--hp'])[1]")
+            destinationLMall = self.driver.find_elements(By.XPATH, "(//*[@class='f_teaser f_teaser--hp'])[1]")
             wait.until(EC.visibility_of(destinationLM))
             if destinationLM.is_displayed():
                 for WebElement in destinationLMall:

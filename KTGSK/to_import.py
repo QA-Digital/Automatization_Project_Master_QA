@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -6,15 +7,18 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.opera import OperaDriverManager
 
 #URL_local = "https://www.kartago.sk/"
-URL_local =  "https://kartagosk.stg.dtweb.cz/"
-URL = "https://kartagosk.web3.dtweb.cz/"
+from definitions import EDGE_DRIVER_PATH
+
+URL_local =  "https://kartagosk.web1.dtweb.cz/"
+URL = "https://kartagosk.web1.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
 URL_poznavacky_zazitky = "poznavaci-zajezdy#rodiny"
 URL_pobocky = "kontakty/nase-predajne"
 URL_kluby = "uzitocne-informacie/mango-club"
-URL_detail = "/egypt/hurghada/makadi-bay/xanadu-makadi-bay?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-13&DP=483&DPR=KARTAGO-SK-ATCOM&DS=65536&GIATA=1311753&HID=143982&IC1=0&IFM=0&ILM=0&KA1=8&KC1=1&MNN=7&MT=5&NN=7&PID=HRG00500&RC=DR01&RD=2024-10-20&TO=483|1837|3437&acm1=2&df=2024-10-07|2024-10-31&icm1=0&kam1=8&kcm1=1&nnm=7|8|9|10|11|12|13&ptm=0&tt=1&ttm=1#/prehľad"
+URL_detail = "/egypt/hurghada/hurghada/hatsepsut-4?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2025-06-04&DI=IT&DP=4312&DPR=EXIM+TOURS+ATCOM&DS=8192&GIATA=0&HID=9182&IC1=0&IFC=95609728%2F369282&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=95609053%2F358469&PC=6235798%2F2%2F1981%2F7&PID=EGR00007&RC=DR01&RCS=DR01&RD=2025-06-11&acm1=2&dd=2024-11-06&df=2024-11-06|2025-09-06&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-09-06&sortby=Departure&tt=1&ttm=1#/prehľad"
+URL_detail_new = "/egypt/hurghada/makadi-bay/prima-life-makadi-resort-a-spa?DS=65536&GIATA=77592&D=64419%7C64420%7C64422%7C64423%7C64424%7C64425&HID=9193&MT=5&DI=AE&RC=DR01&RCS=DR01&NN=7&DF=2025-05-01%7C2025-07-02&RD=2025-05-29&DD=2025-05-22&ERM=0&AC1=2&KC1=0&IC1=0&DP=1837&TO=1837&TOM=1837&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=HRG20068&DPR=KARTAGO-SK-ATCOM&ILM=0&IFM=0&PC=5335723%2F2%2F1968%2F7&IFC=99810632%2F382846&OFC=99809645%2F382845"
 URL_SRL = "/vysledky-vyhladavania?ac1=2&d=64419|64420|64423|64425&dd=2023-07-01&ka1=8&kc1=1&nn=7|8|9|10|11|12|13&rd=2023-08-31&to=483|1837|2933|3437&tt=1"
 URL_covidInfo = "covid-info"
 URL_FM = "first-minute/leto"
@@ -51,16 +55,62 @@ desired_cap2 = {
 }
 
 desired_cap = desired_cap_Branded("KTGSK", "Optimized - Web Monitor V2")
+import logging
+import sys
+import os
+
 def setUp(self):
-  #self.driver = webdriver.Remote(command_executor=comandExecutor, desired_capabilities=desired_cap)
-  #self.driver = webdriver.Chrome(ChromeDriverManager().install())
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path)
+  # self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+  service = Service(EDGE_DRIVER_PATH)
+  self.driver = webdriver.Edge(service=service)
+  # Dynamically get the folder name (assuming folder is two levels up from the test file)
+  test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+  # Get the current test method name (used in unique logger and log file naming)
+  test_method = self._testMethodName
+  if self.run_number is None:
+    self.run_number = 0
+  # Generate a unique logger name using folder, class name, run number, and test method
+  logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
+
+  # Get the logger (will create a new one if it doesn't exist)
+  self.logger = logging.getLogger(logger_name)
+
+  # Remove any existing handlers to avoid log mixing
+  if self.logger.hasHandlers():
+    self.logger.handlers.clear()
+
+  # Set log level
+  self.logger.setLevel(logging.INFO)
+
+  # Create a unique log file for this specific test
+  log_filename = f'{test_folder}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log'
+
+  # Create file handler for logging to file
+  file_handler = logging.FileHandler(log_filename, mode='w')
+  file_handler.setLevel(logging.INFO)
+
+  # Create stream handler for console output
+  stream_handler = logging.StreamHandler(sys.stdout)
+  stream_handler.setLevel(logging.INFO)
+
+  # Create a simple log format
+  formatter = logging.Formatter('%(levelname)s - %(message)s')
+  file_handler.setFormatter(formatter)
+  stream_handler.setFormatter(formatter)
+
+  # Add handlers to the logger
+  self.logger.addHandler(file_handler)
+  self.logger.addHandler(stream_handler)
+
+  # Ensure logs are flushed to the file immediately
+  file_handler.flush()
+
   self.test_passed = False
 
 
 def tearDown(self):
-  print(self.driver.current_url)
+  self.logger.info(self.driver.current_url)
   self.driver.quit()
   if not self.test_passed:
     self.driver.execute_script(
@@ -91,9 +141,10 @@ def acceptConsent(driver):
     generalDriverWaitImplicit(driver)
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    print(element)
+   # self.logger.info(element)
   except NoSuchElementException:
-    print("NOSUCH")
+    pass
+  #  self.logger.info("NOSUCH")
   except TimeoutException:
     pass
 
@@ -101,9 +152,12 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    print("consent pass")
+    #self.logger.info("consent pass")
     pass
 
+
+def closeExponeaBanner():
+  pass
 
 def acceptConsent5(driver):
   time.sleep(2)
@@ -121,22 +175,6 @@ def acceptConsent5(driver):
     pass
   except NoSuchElementException:
     return
-
-def closeExponeaBanner(driver):
-    time.sleep(1.5)
-    wait = WebDriverWait(driver, 150000)
-    driver.maximize_window()
-    try:
-      exponeaBanner = driver.find_element_by_xpath("//*[@class='exponea-popup-banner']")
-      if exponeaBanner.is_displayed():
-        wait.until(EC.visibility_of(exponeaBanner))
-        exponeaCrossAndBanner = driver.find_element_by_xpath(
-          "//*[@class='exponea-popup-banner']//*[@class='exponea-close']")
-        exponeaCrossAndBanner.click()
-        time.sleep(2)
-
-    except NoSuchElementException:
-      print("nenasle se exponea banner")
 
 def acceptConsent3(driver):
   time.sleep(2)

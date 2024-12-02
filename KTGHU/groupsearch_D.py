@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, URL_groupsearch, setUp, tearDown, generalDriverWaitImplicit
@@ -9,56 +10,56 @@ def groupSearch_D(self, driver):
     #driver.implicitly_wait(100)
     generalDriverWaitImplicit(driver)
     groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
-    teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+    teaserItems = driver.find_elements(By.XPATH, groupSearchDlazdiceXpath)
 
     wait.until(EC.visibility_of(teaserItems[0]))
 
 
     try:
         for WebElement in teaserItems:
-            ##print(len(teaserItems))
+            ##self.logger.info(len(teaserItems))
             jdouvidet = WebElement.is_displayed()
-            ##print(jdouvidet)
+            ##self.logger.info(jdouvidet)
             if jdouvidet == True:
-                ##print(jdouvidet)
-                ##print(WebElement)
+                ##self.logger.info(jdouvidet)
+                ##self.logger.info(WebElement)
                 pass
 
             else:
                 pass
-                ##print("Else")
+                ##self.logger.info("Else")
                 ##emailfunciton
 
 
 
     except NoSuchElementException:
         pass
-        ##print("no such")
+        ##self.logger.info("no such")
         ##email fnction
 
     assert teaserItems[0].is_displayed() == True
 
     driver.implicitly_wait(100)
-    srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
+    srlItems = driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
-            ##print(len(srlItems))
+            ##self.logger.info(len(srlItems))
             jdouvidet = WebElement.is_displayed()
-            ##print(jdouvidet)
+            ##self.logger.info(jdouvidet)
             if jdouvidet == True:
-                ##print(jdouvidet)
-                ##print(WebElement)
+                ##self.logger.info(jdouvidet)
+                ##self.logger.info(WebElement)
                 pass
 
             else:
                 pass
-                print("Else")
+                self.logger.info("Else")
 
 
 
     except NoSuchElementException:
         pass
-        print("no such")
+        self.logger.info("no such")
     assert srlItems[0].is_displayed() == True
 
 
@@ -66,7 +67,8 @@ def groupSearch_D(self, driver):
 from KTGHU.to_import import URL_local
 class Test_Groupsearch_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -82,7 +84,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         URL_groupsearch_lp = f"{self.URL}{URL_groupsearch}"
         self.driver.get(URL_groupsearch_lp)
         acceptConsent(self.driver)
-        #teaserItems = driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        #teaserItems = driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         self.driver.maximize_window()
         groupSearch_D(self, driver)
         self.test_passed = True

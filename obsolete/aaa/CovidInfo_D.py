@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, closeExponeaBanner, URL_covidInfo, sendEmail, setUp, tearDown
@@ -28,8 +29,8 @@ class TestCovidInfo_D(unittest.TestCase):
         time.sleep(1)
         closeExponeaBanner(self.driver)
 
-        wholeGridsAll = self.driver.find_elements_by_xpath("//*[@class='flex justify-between shadow-lg box-border text-sm bg-white p-4 flex-col']")
-        wholeGridsSingle = self.driver.find_element_by_xpath("//*[@class='flex justify-between shadow-lg box-border text-sm bg-white p-4 flex-col']")
+        wholeGridsAll = self.driver.find_elements(By.XPATH, "//*[@class='flex justify-between shadow-lg box-border text-sm bg-white p-4 flex-col']")
+        wholeGridsSingle = self.driver.find_element(By.XPATH, "//*[@class='flex justify-between shadow-lg box-border text-sm bg-white p-4 flex-col']")
         try:
             wait.until(EC.visibility_of(wholeGridsSingle))
             for WebElement in wholeGridsAll:
@@ -48,8 +49,8 @@ class TestCovidInfo_D(unittest.TestCase):
             msg = "Problem s gridy covid info wholeGridsAll " + url
             sendEmail(msg)
 
-        contentItemsAll = self.driver.find_elements_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
-        contentItemsSingle = self.driver.find_element_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
+        contentItemsAll = self.driver.find_elements(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
+        contentItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
 
         try:
             wait.until(EC.visibility_of(contentItemsSingle))

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from FW.starter_local import *
 
 if __name__ == '__main__':

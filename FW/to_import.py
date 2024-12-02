@@ -1,3 +1,6 @@
+from selenium.webdriver.common.by import By
+
+
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -28,8 +31,64 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 
+
+
+from definitions import EDGE_DRIVER_PATH
+from selenium import webdriver
+
+import logging
+import sys
+import os
 def setUp(self):
-  #self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
+    #self.driver = webdriver.Edge(executable_path=EDGE_DRIVER_PATH)
+    service = Service(EDGE_DRIVER_PATH)
+    self.driver = webdriver.Edge(service=service)
+    # Dynamically get the folder name (assuming folder is two levels up from the test file)
+    test_folder = os.path.basename(os.path.dirname(os.path.abspath(__file__)))
+
+    # Get the current test method name (used in unique logger and log file naming)
+    test_method = self._testMethodName
+    if self.run_number is None:
+        self.run_number = 0
+    # Generate a unique logger name using folder, class name, run number, and test method
+    logger_name = f'{test_folder}_{self.__class__.__name__}_{test_method}_{self.run_number:04d}'
+
+    # Get the logger (will create a new one if it doesn't exist)
+    self.logger = logging.getLogger(logger_name)
+
+    # Remove any existing handlers to avoid log mixing
+    if self.logger.hasHandlers():
+        self.logger.handlers.clear()
+
+
+    # Set log level
+    self.logger.setLevel(logging.INFO)
+
+    # Create a unique log file for this specific test
+    log_filename = f'{test_folder}_{self.__class__.__name__}_{test_method}_test_{self.run_number:04d}.log'
+
+    # Create file handler for logging to file
+    file_handler = logging.FileHandler(log_filename, mode='w')
+    file_handler.setLevel(logging.INFO)
+
+    # Create stream handler for console output
+    stream_handler = logging.StreamHandler(sys.stdout)
+    stream_handler.setLevel(logging.INFO)
+
+    # Create a simple log format
+    formatter = logging.Formatter('%(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    stream_handler.setFormatter(formatter)
+
+    # Add handlers to the logger
+    self.logger.addHandler(file_handler)
+    self.logger.addHandler(stream_handler)
+
+    # Ensure logs are flushed to the file immediately
+    file_handler.flush()
+
+    self.test_passed = False
+#self.driver = webdriver.Remote(command_executor=comandExecutor,desired_capabilities=desired_cap)
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
   #self. driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
   #options = webdriver.ChromeOptions()
@@ -40,18 +99,7 @@ def setUp(self):
   #self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
 
-  chrome_driver_path = 'C:/Users/KADOUN/Desktop/Python_utils/chromedriver.exe'
 
-  chrome_options = Options()
-
-  # Add options to ChromeOptions
-  chrome_options.add_argument("--disable-infobars")  # Disable the infobar
-  chrome_options.add_argument("--disable-popup-blocking")  # Disable popups
-  chrome_options.add_argument("--disable-default-apps")  # Disable default apps
-  chrome_options.add_argument("--start-maximized")  # Start maximized
-  chrome_options.add_argument("--disable-extensions")  # Disable extensions
-  chrome_options.add_argument("--disable-features=FirstRunUI")  # Disable the first run UI
-  self.driver = webdriver.Chrome(executable_path=chrome_driver_path, options=chrome_options)
 
 
 
@@ -78,15 +126,15 @@ def setUp(self):
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
  #
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
-  self.test_passed = False
+
 
 
 #URL = "https://www.fischer.cz/"
 #URL = "https://fischer.web1.dtweb.cz/"
 
 #URL_local = "https://fischer.stg.dtweb.cz/"
-URL_local = "https://fischer.stg.dtweb.cz/"
-URL = "https://www.fischer.cz/"
+URL_local = "https://fischer.web1.dtweb.cz/"
+URL = "https://fischer.web1.dtweb.cz/"
 
 
 
@@ -98,6 +146,7 @@ URL_poznavacky_rodiny = "poznavaci-zajezdy/pro-rodiny"
 URL_poznavacky_zazitky = "poznavaci-zajezdy/zazitkove"
 URL_pobocky = "kontakty/seznam-pobocek"
 URL_detail = "/hotely/spanelsko/andalusie-costa-del-sol/benalmadena/globales-gardenia?AC1=2&D=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&DD=2024-10-19&DI=AI&DP=4312&DPR=Hotelbeds&DS=2&GIATA=37867&HID=162&IC1=1&IFM=0&ILM=0&KC1=0&MMT=5&MNN=7&MT=5&NN=7&PID=4195&RC=DBT-BL&RCS=DBT-BL&RD=2024-10-27&RT=15&TO=4312&acm1=2&df=2024-10-07|2024-10-31&icm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&sortby=Departure&tt=1&ttm=1#/prehled"
+URL_detail_old = "/velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=69799|63219|63226|63229|64222|63265|63288|63493|63343|63674|63349|63385|63406|64220|64388|63237&DD=2024-09-12&DI=BB&DP=4312&DPR=FISCHER+ATCOM&DS=256&GIATA=0&HID=142358&IC1=0&IFC=47416084%2F216539&KC1=0&MNN=3&MT=1&NN=3&OFC=47416077%2F216538&PC=11829377%2F2%2F1716%2F3&PID=GBR00002&RC=DR01&RCS=DR01&RD=2024-09-15&TO=4312|4305|2682|4308&acm1=2&dd=2024-09-11&df=2024-09-11|2025-07-11&nnm=2|3|4&ptm=0&rd=2025-07-11&sortby=Departure&tt=1&ttm=1#/prehled"
 URL_SRL = "/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1"
 URL_covidInfo = "covid-info"
 URL_kluby = "/kluby/funtazie-leto"
@@ -121,7 +170,7 @@ from to_import_secret_master import emailPass, comandExecutor
 from webdriver_manager.chrome import ChromeDriverManager
 
 def tearDown(self):
-  print(self.driver.current_url)
+  self.logger.info(self.driver.current_url)
   self.driver.quit()
   #if not self.test_passed:self.driver.execute_script('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
@@ -134,9 +183,9 @@ def acceptConsent(driver):
   try:
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
-    # print(element)
+    # self.logger.info(element)
   except NoSuchElementException:
-    # print("NOSUCH")
+    # self.logger.info("NOSUCH")
     pass
 
   except TimeoutException:
@@ -146,7 +195,7 @@ def acceptConsent(driver):
     element.click()
 
   else:
-    # print("consent pass")
+    # self.logger.info("consent pass")
     pass
 
 #'ondrej.kadoun@fischer.cz'
@@ -187,7 +236,7 @@ def closeExponeaBanner(driver):
     wait = WebDriverWait(driver, 150000)
     driver.maximize_window()
     try:
-      exponeaBanner = driver.find_element_by_xpath("//*[@class='exponea-popup-banner']")
+      exponeaBanner = driver.find_element(By.XPATH, "//*[@class='exponea-popup-banner']")
       if exponeaBanner.is_displayed():
         wait.until(EC.visibility_of(exponeaBanner))
         exponeaCrossAndBanner = driver.find_element_by_xpath(
@@ -196,7 +245,8 @@ def closeExponeaBanner(driver):
         time.sleep(2)
 
     except NoSuchElementException:
-      print("nenasle se exponea banner")
+      pass
+     # self.logger.info("nenasle se exponea banner")
 
 def acceptConsent3(driver):
   time.sleep(2)

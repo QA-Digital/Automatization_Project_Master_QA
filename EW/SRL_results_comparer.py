@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from EW.to_import import URL, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit, URL_SRL_kuba_regres
@@ -7,6 +8,7 @@ import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
 from EW.SRL_D import SRL_D
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
+from helpers.helper import Helpers
 
 URL_public_prod = "https://eximtours.cz"
 from datetime import datetime
@@ -83,7 +85,8 @@ URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_
 from EW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -97,6 +100,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
+        Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW, self.logger)
         list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW)
 
 

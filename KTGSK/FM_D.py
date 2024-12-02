@@ -11,7 +11,8 @@ import unittest
 from KTGSK.to_import import URL_local
 class TestFM_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -34,7 +35,7 @@ class TestFM_D(unittest.TestCase):
     #
     #     try:
     #         self.driver.implicitly_wait(100)
-    #         bannerItems = self.driver.find_elements_by_xpath("//*[@class='f_tile f_tile--simple']")
+    #         bannerItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tile f_tile--simple']")
     #         wait.until(EC.visibility_of(bannerItems[0]))
     #         if bannerItems[0].is_displayed():
     #             for WebElement in bannerItems:
@@ -59,26 +60,26 @@ class TestFM_D(unittest.TestCase):
     #     #time.sleep(1.5)
     #     assert self.driver.current_url != URL_FM
     #     self.driver.implicitly_wait(100)
-    #     teaserItems = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+    #     teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
     #
     #     try:
     #         for WebElement in teaserItems:
-    #             ##print(len(teaserItems))
+    #             ##self.logger.info(len(teaserItems))
     #             jdouvidet = WebElement.is_displayed()
-    #             ##print(jdouvidet)
+    #             ##self.logger.info(jdouvidet)
     #             if jdouvidet == True:
-    #                 ##print(jdouvidet)
-    #                 ##print(WebElement)
+    #                 ##self.logger.info(jdouvidet)
+    #                 ##self.logger.info(WebElement)
     #                 pass
     #
     #             else:
     #                 pass
-    #                 ##print("Else")
+    #                 ##self.logger.info("Else")
     #                 ##emailfunciton
     #
     #     except NoSuchElementException:
     #         pass
-    #         ##print("no such")
+    #         ##self.logger.info("no such")
     #         ##email fnction
     #
     #     assert teaserItems[0].is_displayed() == True
@@ -95,7 +96,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("gridy jdou videt")
+    #                 self.logger.info("gridy jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s gridy cocid info wholeGridsAll " + url
@@ -107,8 +108,8 @@ class TestFM_D(unittest.TestCase):
     #         sendEmail(msg)
     #
     #     self.driver.implicitly_wait(100)
-    #     contentItemsAll = self.driver.find_elements_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
-    #     contentItemsSingle = self.driver.find_element_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
+    #     contentItemsAll = self.driver.find_elements(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
+    #     contentItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
     #
     #     try:
     #         wait.until(EC.visibility_of(contentItemsSingle))
@@ -117,7 +118,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("content jdou videt")
+    #                 self.logger.info("content jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s content vocid info " + url
@@ -131,32 +132,32 @@ class TestFM_D(unittest.TestCase):
     #
     #     self.driver.get(URL_FM)
     #     time.sleep(1.5)
-    #     bannerItemsDiffLocator = self.driver.find_elements_by_xpath("//*[@class='f_tile-footer']")
+    #     bannerItemsDiffLocator = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-footer']")
     #     wait.until(EC.visibility_of(bannerItemsDiffLocator[1])).click()
     #
     #
     #     assert self.driver.current_url != URL_FM
     #     self.driver.implicitly_wait(100)
-    #     teaserItems = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+    #     teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
     #
     #     try:
     #         for WebElement in teaserItems:
-    #             ##print(len(teaserItems))
+    #             ##self.logger.info(len(teaserItems))
     #             jdouvidet = WebElement.is_displayed()
-    #             ##print(jdouvidet)
+    #             ##self.logger.info(jdouvidet)
     #             if jdouvidet == True:
-    #                 ##print(jdouvidet)
-    #                 ##print(WebElement)
+    #                 ##self.logger.info(jdouvidet)
+    #                 ##self.logger.info(WebElement)
     #                 pass
     #
     #             else:
     #                 pass
-    #                 ##print("Else")
+    #                 ##self.logger.info("Else")
     #                 ##emailfunciton
     #
     #     except NoSuchElementException:
     #         pass
-    #         ##print("no such")
+    #         ##self.logger.info("no such")
     #         ##email fnction
     #
     #     assert teaserItems[0].is_displayed() == True
@@ -173,7 +174,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("gridy jdou videt")
+    #                 self.logger.info("gridy jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s gridy cocid info wholeGridsAll " + url
@@ -185,8 +186,8 @@ class TestFM_D(unittest.TestCase):
     #         sendEmail(msg)
     #
     #     self.driver.implicitly_wait(100)
-    #     contentItemsAll = self.driver.find_elements_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
-    #     contentItemsSingle = self.driver.find_element_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
+    #     contentItemsAll = self.driver.find_elements(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
+    #     contentItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
     #
     #     try:
     #         wait.until(EC.visibility_of(contentItemsSingle))
@@ -195,7 +196,7 @@ class TestFM_D(unittest.TestCase):
     #             assert jdouvidet == True
     #             if jdouvidet == True:
     #                 pass
-    #                 print("content jdou videt")
+    #                 self.logger.info("content jdou videt")
     #             else:
     #                 url = self.driver.current_url
     #                 msg = " Problem s content vocid info " + url
@@ -218,7 +219,7 @@ class TestFM_D(unittest.TestCase):
 
         # try:
         #     self.driver.implicitly_wait(100)
-        #     bannerItems = self.driver.find_elements_by_xpath("//*[@class='f_tile f_tile--simple']")
+        #     bannerItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tile f_tile--simple']")
         #     wait.until(EC.visibility_of(bannerItems[0]))
         #     if bannerItems[0].is_displayed():
         #         for WebElement in bannerItems:
@@ -243,26 +244,26 @@ class TestFM_D(unittest.TestCase):
         # time.sleep(1.5)
         # assert self.driver.current_url != URL_FM
         # self.driver.implicitly_wait(100)
-        teaserItems = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
 
         try:
             for WebElement in teaserItems:
-                ##print(len(teaserItems))
+                ##self.logger.info(len(teaserItems))
                 jdouvidet = WebElement.is_displayed()
-                ##print(jdouvidet)
+                ##self.logger.info(jdouvidet)
                 if jdouvidet == True:
-                    ##print(jdouvidet)
-                    ##print(WebElement)
+                    ##self.logger.info(jdouvidet)
+                    ##self.logger.info(WebElement)
                     pass
 
                 else:
                     pass
-                    ##print("Else")
+                    ##self.logger.info("Else")
                     ##emailfunciton
 
         except NoSuchElementException:
             pass
-            ##print("no such")
+            ##self.logger.info("no such")
             ##email fnction
 
         assert teaserItems[0].is_displayed() == True
@@ -280,7 +281,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("benefit items jdou videt")
+        #             self.logger.info("benefit items jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s benefit items    benefitItemsAll " + url
@@ -292,8 +293,8 @@ class TestFM_D(unittest.TestCase):
         #     sendEmail(msg)
 
         # self.driver.implicitly_wait(100)
-        # contentItemsAll = self.driver.find_elements_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
-        # contentItemsSingle = self.driver.find_element_by_xpath("//*[@class='mt-3 mb-4 -mx-4 h-full']")
+        # contentItemsAll = self.driver.find_elements(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
+        # contentItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='mt-3 mb-4 -mx-4 h-full']")
         #
         # try:
         #     wait.until(EC.visibility_of(contentItemsSingle))
@@ -302,7 +303,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("content jdou videt")
+        #             self.logger.info("content jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s content vocid info " + url
@@ -316,32 +317,32 @@ class TestFM_D(unittest.TestCase):
         #
         # self.driver.get(URL_FM)
         # time.sleep(1.5)
-        # bannerItemsDiffLocator = self.driver.find_elements_by_xpath("//*[@class='f_tile-footer']")
+        # bannerItemsDiffLocator = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-footer']")
         # wait.until(EC.visibility_of(bannerItemsDiffLocator[1])).click()
         #
         #
         # assert self.driver.current_url != URL_FM
         # self.driver.implicitly_wait(100)
-        # teaserItems = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+        # teaserItems = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
         #
         # try:
         #     for WebElement in teaserItems:
-        #         ##print(len(teaserItems))
+        #         ##self.logger.info(len(teaserItems))
         #         jdouvidet = WebElement.is_displayed()
-        #         ##print(jdouvidet)
+        #         ##self.logger.info(jdouvidet)
         #         if jdouvidet == True:
-        #             ##print(jdouvidet)
-        #             ##print(WebElement)
+        #             ##self.logger.info(jdouvidet)
+        #             ##self.logger.info(WebElement)
         #             pass
         #
         #         else:
         #             pass
-        #             ##print("Else")
+        #             ##self.logger.info("Else")
         #             ##emailfunciton
         #
         # except NoSuchElementException:
         #     pass
-        #     ##print("no such")
+        #     ##self.logger.info("no such")
         #     ##email fnction
         #
         # assert teaserItems[0].is_displayed() == True
@@ -349,8 +350,8 @@ class TestFM_D(unittest.TestCase):
         #
         # self.driver.implicitly_wait(100)
         ##benefit items
-        # contentItemsAll = self.driver.find_elements_by_xpath("//*[@class='f_benefit-item']")
-        # contentItemsSingle = self.driver.find_element_by_xpath("//*[@class='f_benefit-item']")
+        # contentItemsAll = self.driver.find_elements(By.XPATH, "//*[@class='f_benefit-item']")
+        # contentItemsSingle = self.driver.find_element(By.XPATH, "//*[@class='f_benefit-item']")
         #
         # try:
         #     wait.until(EC.visibility_of(contentItemsSingle))
@@ -359,7 +360,7 @@ class TestFM_D(unittest.TestCase):
         #         assert jdouvidet == True
         #         if jdouvidet == True:
         #             pass
-        #             print("content jdou videt")
+        #             self.logger.info("content jdou videt")
         #         else:
         #             url = self.driver.current_url
         #             msg = " Problem s content vocid info " + url

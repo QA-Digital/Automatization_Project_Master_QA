@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from KTGHU.to_import import URL, setUp, tearDown
 import unittest
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
@@ -41,7 +42,8 @@ URL_SRLs_list_KTGHU = [URL_SRL_KTGHU1, URL_SRL_KTGHU2, URL_SRL_KTGHU3, URL_SRL_K
 from KTGHU.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL

@@ -1,12 +1,16 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from EW.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from EW.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, \
+    generalDriverWaitImplicit, URL_detail_old
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import *
 
 ##global
+from helpers.helper import Helpers
+
 terminyAcenyTabXpath_V1 = "//*[@id='terminyaceny-tab']"
 terminyAcenyTabXpath_old = "//*[@class='f_bar-item f_tabBar']//*[contains(text(),'Termíny a ceny')]"
 terminyAcenyTabXpath = "//*[@class='f_menu f_menu--inline f_menu--sticky']//*[contains(text(),'Termíny a ceny')]"
@@ -38,7 +42,8 @@ celkoveCenaVterminechXpath = "//*[@class='f_termList-header-item f_termList-head
 from EW.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -49,44 +54,33 @@ class TestDetailHotelu_C(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def omlouvamese_paragraph(self):
-        time.sleep(1)
-        try:
-            omlouvameParagraph = self.driver.find_element_by_xpath(
-                "//*[@class='fshr-paragraph fshr-paragraph--centered']")
-            if omlouvameParagraph.is_displayed():
-                return
-
-        except NoSuchElementException:
-            pass
-
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
         acceptConsent(driver)
 
 
-        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
         terminyAcenyElement.click()
         boxTerminyXpath = "//*[@class='f_holder']"
-        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        boxTerminyElement = driver.find_element(By.XPATH, boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
         celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
-        celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
+        celkovaCenaSorterElement = driver.find_element(By.XPATH, celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
 
         celkovaCenaSorterElement.click()
         time.sleep(4)
         celkovaCenaSorterAfterOneClickXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
-        celkovaCenaSorterAfterOneClickElement = driver.find_element_by_xpath(celkovaCenaSorterAfterOneClickXpath)
+        celkovaCenaSorterAfterOneClickElement = driver.find_element(By.XPATH, celkovaCenaSorterAfterOneClickXpath)
 
         celkovaCenaSorterAfterOneClickElement.click()
         time.sleep(5)
@@ -97,43 +91,43 @@ class TestDetailHotelu_C(unittest.TestCase):
         "38 764 Kč"
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
-        pocetTerminuElements = driver.find_elements_by_xpath(pocetTerminuXpath)
+        pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
 
-            celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
         # cheap = "expensive"
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive", self.logger)
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
         driver = self.driver
         time.sleep(4)
         acceptConsent(driver)
 
 
-        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
         terminyAcenyElement.click()
         boxTerminyXpath = "//*[@class='f_holder']"
-        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        boxTerminyElement = driver.find_element(By.XPATH, boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(4)
 
         celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
-        celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
+        celkovaCenaSorterElement = driver.find_element(By.XPATH, celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
 
@@ -147,25 +141,25 @@ class TestDetailHotelu_C(unittest.TestCase):
         "38 764 Kč"
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
-        pocetTerminuElements = driver.find_elements_by_xpath(pocetTerminuXpath)
+        pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
 
-            celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
             celkoveCenyList.append(celkovaCenaVterminechINT)
             poziceTerminu = poziceTerminu + 1
-        print(celkoveCenyList)
+        self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
     def test_detail_fotka(self):
 
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         time.sleep(1.5)
@@ -173,10 +167,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(5)
-       # imageDetailXpath =  '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div[2]/div[3]/swiper-container/swiper-slide[1]/img'
         imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img"
-        #imageDetail = self.driver.find_element_by_xpath( "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
-        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
 
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
@@ -189,10 +181,10 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         try:
             # time.sleep(5)
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -203,7 +195,7 @@ class TestDetailHotelu_C(unittest.TestCase):
     def test_detail_terminy_filtr_meal(self):
         self.driver.maximize_window()
         time.sleep(1)
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         time.sleep(5)
@@ -213,16 +205,16 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True
 
     def test_detail_terminy_filtr_airport(self):
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_old}"
         self.driver.get(URL_detail_lp)
 
         time.sleep(1)

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from BILLA.to_import import acceptConsent, setUp, tearDown, URL
 from selenium.webdriver.support import expected_conditions as EC
@@ -30,11 +31,11 @@ class Test_HP_D(unittest.TestCase):
         self.driver.maximize_window()
         acceptConsent(self.driver)
         wait = WebDriverWait(self.driver, 25)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(hlavickaMenuXpath)))
-        assert (self.driver.find_element_by_xpath(hlavickaMenuXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(zlutakHPXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(teaserFotkaMainXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(itemsHPXpath)).is_displayed() == True
-        assert (self.driver.find_element_by_xpath(footerXpath)).is_displayed() == True
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, hlavickaMenuXpath)))
+        assert (self.driver.find_element(By.XPATH, hlavickaMenuXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, zlutakHPXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, teaserFotkaMainXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, itemsHPXpath)).is_displayed() == True
+        assert (self.driver.find_element(By.XPATH, footerXpath)).is_displayed() == True
         #assert(1==2)
         self.test_passed = True

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from selenium.common.exceptions import NoSuchElementException
@@ -5,6 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL_groupsearch, setUp, tearDown,generalDriverWaitImplicit
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
+from helpers.helper import Helpers
 
 
 def groupSearch_D(self, driver):
@@ -12,56 +14,56 @@ def groupSearch_D(self, driver):
     #driver.implicitly_wait(100)
     generalDriverWaitImplicit(driver)
     groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
-    teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+    teaserItems = driver.find_elements(By.XPATH, groupSearchDlazdiceXpath)
 
     wait.until(EC.visibility_of(teaserItems[0]))
 
 
     try:
         for WebElement in teaserItems:
-            ##print(len(teaserItems))
+            ##self.logger.info(len(teaserItems))
             jdouvidet = WebElement.is_displayed()
-            ##print(jdouvidet)
+            ##self.logger.info(jdouvidet)
             if jdouvidet == True:
-                ##print(jdouvidet)
-                ##print(WebElement)
+                ##self.logger.info(jdouvidet)
+                ##self.logger.info(WebElement)
                 pass
 
             else:
                 pass
-                ##print("Else")
+                ##self.logger.info("Else")
                 ##emailfunciton
 
 
 
     except NoSuchElementException:
         pass
-        ##print("no such")
+        ##self.logger.info("no such")
         ##email fnction
 
     assert teaserItems[0].is_displayed() == True
 
     driver.implicitly_wait(100)
-    srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
+    srlItems = driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
-            ##print(len(srlItems))
+            ##self.logger.info(len(srlItems))
             jdouvidet = WebElement.is_displayed()
-            ##print(jdouvidet)
+            ##self.logger.info(jdouvidet)
             if jdouvidet == True:
-                ##print(jdouvidet)
-                ##print(WebElement)
+                ##self.logger.info(jdouvidet)
+                ##self.logger.info(WebElement)
                 pass
 
             else:
                 pass
-                print("Else")
+                self.logger.info("Else")
 
 
 
     except NoSuchElementException:
         pass
-        print("no such")
+        self.logger.info("no such")
     assert srlItems[0].is_displayed() == True
 
 
@@ -70,7 +72,8 @@ from FW.to_import import URL_local
 class Test_Groupsearch_D(unittest.TestCase):
 
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -89,7 +92,8 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2)
         acceptConsent(self.driver)
         time.sleep(2)
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
 
-        groupSearch_D(self, driver)
+        #groupSearch_D(self, driver)
+        Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True

@@ -1,6 +1,8 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
-from KTGSK.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
+from KTGSK.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, \
+    generalDriverWaitImplicit, URL_detail_new
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
@@ -29,13 +31,14 @@ stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 dopravaBoxXpath_V1 = "//*[@class='fshr-button-content fshr-icon fshr-icon--plane js-selector--travel']"
 dopravaBrnoXpath_V1 = "//*[@data-value='4305']"
 ##dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@class='f_input--checkbox f_input']"
-dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='483']"
+dopravaBrnoXpath = "//*[@class='f_filterHolder f_set--active']//*[@value='4312']"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
 from KTGSK.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -46,29 +49,17 @@ class TestDetailHotelu_C(unittest.TestCase):
     def tearDown(self):
         tearDown(self)
 
-    def omlouvamese_paragraph(self):
-        time.sleep(1)
-        try:
-            omlouvameParagraph = self.driver.find_element_by_xpath(
-                "//*[@class='fshr-paragraph fshr-paragraph--centered']")
-            if omlouvameParagraph.is_displayed():
-                return
-
-        except NoSuchElementException:
-            pass
-
-
     def test_detail_fotka(self):
 
         self.driver.maximize_window()
-        URL_detail_lp = f"{self.URL}{URL_detail}"
+        URL_detail_lp = f"{self.URL}{URL_detail_new}"
         self.driver.get(URL_detail_lp)
 
         acceptConsent(self.driver)
 
-        time.sleep(5)
-        imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img"
-        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+        time.sleep(10)
+        imageDetailXpath = "//div[@class='grid grid-cols-4 grid-rows-2 gap-2 rounded-[--galleryImageRadius] overflow-hidden']//div[1]//img[1]"
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)
@@ -80,10 +71,10 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         try:
             # time.sleep(5)
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -104,9 +95,9 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True
@@ -124,7 +115,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         pocetZobrazenychTerminuXpath = "//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "bratislava"
+        departureToCompareTo = "praha"
 
         time.sleep(5)
         generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath,

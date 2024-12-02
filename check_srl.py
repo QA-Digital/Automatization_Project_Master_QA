@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, sendEmail, URL_SRL, setUp, tearDown
@@ -36,10 +37,10 @@ ondraOsobniMail = "ooo.kadoun@gmail.com"
 def SRL_D(driver):
     wait = WebDriverWait(driver, 15)
     driver.implicitly_wait(100)
-    hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
+    hotelySingle = driver.find_element(By.XPATH, SRLhotelyKartyXpath)
     try:
-        hotelySingle = driver.find_element_by_xpath(SRLhotelyKartyXpath)
-        hotelyAll = driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = driver.find_element(By.XPATH, SRLhotelyKartyXpath)
+        hotelyAll = driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         if hotelySingle.is_displayed():
             for WebElement in hotelyAll:
@@ -63,8 +64,8 @@ def SRL_D(driver):
 
     try:
         driver.implicitly_wait(15)
-        fotkyAll = driver.find_elements_by_xpath(SRLfotkyKartyXpath)
-        fotkaSingle = driver.find_element_by_xpath(SRLfotkyKartyXpath)
+        fotkyAll = driver.find_elements(By.XPATH, SRLfotkyKartyXpath)
+        fotkaSingle = driver.find_element(By.XPATH, SRLfotkyKartyXpath)
         wait.until(EC.visibility_of(fotkaSingle))
         if fotkaSingle.is_displayed():
             for WebElement in fotkyAll:
@@ -87,8 +88,8 @@ def SRL_D(driver):
 
     try:
         driver.implicitly_wait(100)
-        cenaAll = driver.find_elements_by_xpath(SRLcenaKartyXpath)
-        cenaSingle = driver.find_element_by_xpath(SRLcenaKartyXpath)
+        cenaAll = driver.find_elements(By.XPATH, SRLcenaKartyXpath)
+        cenaSingle = driver.find_element(By.XPATH, SRLcenaKartyXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:
@@ -114,7 +115,7 @@ def SRL_D(driver):
     verticalFilterXpath = "//*[@class='f_additionalFilter']"
     try:
         driver.implicitly_wait(100)
-        verticalFilterElement = driver.find_element_by_xpath(verticalFilterXpath)
+        verticalFilterElement = driver.find_element(By.XPATH, verticalFilterXpath)
         wait.until(EC.visibility_of(verticalFilterElement))
         assert verticalFilterElement.is_displayed() == True
 
@@ -165,7 +166,7 @@ time.sleep(1)
 driver.maximize_window()
 acceptConsent(driver)
 time.sleep(15)
-tourTablesElement = driver.find_element_by_xpath(tourTableXpath)
+tourTablesElement = driver.find_element(By.XPATH, tourTableXpath)
 
 driver.execute_script("arguments[0].scrollIntoView(true);", tourTablesElement)
 #tourTablesElement.click()

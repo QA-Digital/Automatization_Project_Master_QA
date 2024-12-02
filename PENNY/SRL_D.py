@@ -17,10 +17,10 @@ def SRL_D(self, driver):
     self.driver.implicitly_wait(100)
     generalDriverWaitImplicit(self.driver)
     wait = WebDriverWait(self.driver, 150)
-    hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
+    hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)
     try:
-        hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)  ##
-        hotelyAll = self.driver.find_elements_by_xpath(SRLhotelyKartyXpath)
+        hotelySingle = self.driver.find_element(By.XPATH, SRLhotelyKartyXpath)  ##
+        hotelyAll = self.driver.find_elements(By.XPATH, SRLhotelyKartyXpath)
         wait.until(EC.visibility_of(hotelySingle))
         ##print(hotelyAll)
         if hotelySingle.is_displayed():
@@ -44,8 +44,8 @@ def SRL_D(self, driver):
 
     try:
         self.driver.implicitly_wait(100)
-        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkaHoteluXpath)  ##
-        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkaHoteluXpath)
+        fotkyAll = self.driver.find_elements(By.XPATH, SRLfotkaHoteluXpath)  ##
+        fotkaSingle = self.driver.find_element(By.XPATH, SRLfotkaHoteluXpath)
         wait.until(EC.visibility_of(fotkaSingle))
         ##print(fotkaSingle)
         if fotkaSingle.is_displayed():
@@ -67,8 +67,8 @@ def SRL_D(self, driver):
 
     try:
         self.driver.implicitly_wait(100)
-        cenaAll = self.driver.find_elements_by_xpath(totalPriceXpath)  ##
-        cenaSingle = self.driver.find_element_by_xpath(totalPriceXpath)
+        cenaAll = self.driver.find_elements(By.XPATH, totalPriceXpath)  ##
+        cenaSingle = self.driver.find_element(By.XPATH, totalPriceXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:

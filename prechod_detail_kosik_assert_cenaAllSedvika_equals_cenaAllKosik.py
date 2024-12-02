@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -21,19 +22,19 @@ def prechod_detail_kosik_assert_cenaAllSedvika_equals_cenaAllKosik(URL_detail, s
     time.sleep(5)
     acceptConsent(driver)
 
-    detailSedivkaCenaAll = driver.find_element_by_xpath(sedivkaCenaAllXpath)
+    detailSedivkaCenaAll = driver.find_element(By.XPATH, sedivkaCenaAllXpath)
     detailSedivkaCenaAllString = detailSedivkaCenaAll.text
     # print("CENA NA DETAILU V SEDIVCE:  ")
     # print(detailSedivkaCenaAllString)
 
     ##proklik do kosiku
     time.sleep(15)
-    mamZajemDetailElement = driver.find_element_by_xpath(mamZajemDetailXpath)
+    mamZajemDetailElement = driver.find_element(By.XPATH, mamZajemDetailXpath)
     mamZajemDetailElement.click()
 
     ##tento locator alokuje 2x elementy ktere se sami sobe rovnaji
     kosikCenaAllXpath = "//*[@class='f_box f_box--price']//*[@class='f_price']"
-    kosikCenaAllElement = driver.find_element_by_xpath(kosikCenaAllXpath)
+    kosikCenaAllElement = driver.find_element(By.XPATH, kosikCenaAllXpath)
     kosikCenaAllString = kosikCenaAllElement.text
     # print("             ")
     # print("CENA V KOSIKU:")

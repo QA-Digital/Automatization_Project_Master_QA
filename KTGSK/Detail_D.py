@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGSK.to_import import acceptConsent,URL_detail, sendEmail, setUp, tearDown
@@ -11,7 +12,8 @@ import unittest
 from KTGSK.to_import import URL_local
 class TestDetailHotelu_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -31,9 +33,9 @@ class TestDetailHotelu_D(unittest.TestCase):
         wait = WebDriverWait(self.driver, 150000)
         # try:
         #
-        #     detailFotka = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']")
-        #     #detailFotka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-content grd-col grd-col--9 grd-col--lg-8 grd-col--slg-12']")
-        #     #detailFotka = self.driver.find_element_by_xpath("//*[@id='divHotelDetailWrapper']")
+        #     detailFotka = self.driver.find_element(By.XPATH, "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']")
+        #     #detailFotka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-content grd-col grd-col--9 grd-col--lg-8 grd-col--slg-12']")
+        #     #detailFotka = self.driver.find_element(By.XPATH, "//*[@id='divHotelDetailWrapper']")
         #
         #     wait.until(EC.visibility_of(detailFotka))
         #     print (detailFotka.is_displayed)
@@ -44,12 +46,12 @@ class TestDetailHotelu_D(unittest.TestCase):
         #     url = self.driver.current_url
         #     msg = "Problem s fotkami na detailu hotelu " + url
         #     sendEmail(msg)
-        # #detailFotka = self.driver.find_element_by_xpath("//*[@id='gallery01Trigger']")
+        # #detailFotka = self.driver.find_element(By.XPATH, "//*[@id='gallery01Trigger']")
         #
         # assert detailFotka.is_displayed() == True
 
         try:
-            sedivka = self.driver.find_element_by_xpath("//*[@class='grd-row']")
+            sedivka = self.driver.find_element(By.XPATH, "//*[@class='grd-row']")
             wait.until(EC.visibility_of(sedivka))
             if sedivka.is_displayed():
                 pass
@@ -61,11 +63,11 @@ class TestDetailHotelu_D(unittest.TestCase):
             sendEmail(msg)
 
         # try:
-        #     terminyCeny = self.driver.find_element_by_xpath("//*[@id='terminyaceny-tab']")
+        #     terminyCeny = self.driver.find_element(By.XPATH, "//*[@id='terminyaceny-tab']")
         #     wait.until(EC.visibility_of(terminyCeny))
         #     self.driver.execute_script("arguments[0].click();", terminyCeny)
         #     try:
-        #         potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+        #         potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
         #         self.driver.execute_script("arguments[0].click();", potvrdit)
         #
         #     except NoSuchElementException:
@@ -78,7 +80,7 @@ class TestDetailHotelu_D(unittest.TestCase):
         #     sendEmail(msg)
         #
         # try:
-        #     terminySingle = self.driver.find_element_by_xpath("//*[@data-hotel]")
+        #     terminySingle = self.driver.find_element(By.XPATH, "//*[@data-hotel]")
         #     wait.until(EC.visibility_of(terminySingle))
         #
         #

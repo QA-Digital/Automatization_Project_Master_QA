@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from FW.to_import import acceptConsent, sendEmail, URL, setUp, tearDown, \
     generalDriverWaitImplicit, URL_darkove_poukazy
@@ -22,7 +23,7 @@ jmenoInputXpath = "//*[@id='input-text-1']"
 prijmeniInputXpath = "//*[@id='input-text-2']"
 telefonInputXpath = "//*[@id='input-phoneNumber-3']"
 emailInputXpath = "//*[@id='input-email-4']"
-checkboxAgreementXpath = "//label[@class='relative select-none cursor-pointer flex gap-2 mx-auto']//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[var(--input-checkbox-rounding)] transition-all bg-white border-[var(--neutral-300)] text-[var(--white)] undefined peer-focus:ring-[length:var(--form-element-focus-ring-width)] peer-focus:ring-[var(--form-element-focus-ring-color)]']"
+checkboxAgreementXpath = "//label[@class='relative select-none cursor-pointer flex gap-2 mx-auto']//span[@class='inline-block shrink-0 box-border w-4 h-4 relative border rounded-[--formInput-checkboxRounding] transition-all bg-white border-neutral-300 text-white undefined peer-focus:ring-[length:--formElement-focusRingWidth] peer-focus:ring-[--formElement-focusRingColor]']"
 objednatXpath = "//div[@class='whitespace-nowrap']"
 
 platebniKartouXpath = "//*[@class='flex flex-col gap-1 grow items-start']"
@@ -36,7 +37,8 @@ from FW.to_import import URL_local
 class Test_darkove_poukazy(unittest.TestCase):
 
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -59,19 +61,19 @@ class Test_darkove_poukazy(unittest.TestCase):
 
         acceptConsent(self.driver)
         time.sleep(5)
-        motivyElements = self.driver.find_elements_by_xpath(motivyXpath)
-        print(motivyElements)
+        motivyElements = self.driver.find_elements(By.XPATH, motivyXpath)
+        self.logger.info(motivyElements)
         pozice = 0
         for _ in motivyElements:
            # motivyElements[pozice].click()
             self.driver.execute_script("arguments[0].click();", motivyElements[pozice])
-            print(pozice)
+            self.logger.info(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
         time.sleep(6)
 
-        vybranyMotivElement = self.driver.find_element_by_xpath(vybranyMotivXpath)
+        vybranyMotivElement = self.driver.find_element(By.XPATH, vybranyMotivXpath)
         assert vybranyMotivElement.is_displayed() == True
 
     def test_darkove_poukazy_castka_venovani(self):
@@ -83,16 +85,16 @@ class Test_darkove_poukazy(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
 
-        castkyElements = self.driver.find_elements_by_xpath(castkyXpath)
+        castkyElements = self.driver.find_elements(By.XPATH, castkyXpath)
         pozice = 0
         for _ in castkyElements:
             #castkyElements[pozice].click()
             self.driver.execute_script("arguments[0].click();", castkyElements[pozice])
-            print(pozice)
+            self.logger.info(pozice)
             time.sleep(2)
             pozice = pozice + 1
 
-        vlastniCastkyElement = self.driver.find_element_by_xpath(castkaVlastniXpath)
+        vlastniCastkyElement = self.driver.find_element(By.XPATH, castkaVlastniXpath)
         number_to_write = "12345"
         #vlastniCastkyElement.click()
         #vlastniCastkyElement.send_keys(number_to_write)
@@ -106,7 +108,7 @@ class Test_darkove_poukazy(unittest.TestCase):
         time.sleep(3)
 
         text_to_write = "věnuji ti tohle neni to super ,?!*123"
-        venovaniBoxElement = self.driver.find_element_by_xpath(venovaniBoxXpath)
+        venovaniBoxElement = self.driver.find_element(By.XPATH, venovaniBoxXpath)
         self.driver.execute_script("arguments[0].value = arguments[1];", venovaniBoxElement, text_to_write)
         written_text = venovaniBoxElement.get_attribute("value")
         assert written_text == text_to_write, f"Expected: {number_to_write}, Actual: {written_text}"
@@ -123,12 +125,12 @@ class Test_darkove_poukazy(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(5)
 
-        jmenoInputElement = self.driver.find_element_by_xpath(jmenoInputXpath)
-        prijmeniInputElement = self.driver.find_element_by_xpath(prijmeniInputXpath)
-        telefonInputElement = self.driver.find_element_by_xpath(telefonInputXpath)
-        emailInputElement = self.driver.find_element_by_xpath(emailInputXpath)
+        jmenoInputElement = self.driver.find_element(By.XPATH, jmenoInputXpath)
+        prijmeniInputElement = self.driver.find_element(By.XPATH, prijmeniInputXpath)
+        telefonInputElement = self.driver.find_element(By.XPATH, telefonInputXpath)
+        emailInputElement = self.driver.find_element(By.XPATH, emailInputXpath)
 
-        checkboxAgreementElement = self.driver.find_element_by_xpath(checkboxAgreementXpath)
+        checkboxAgreementElement = self.driver.find_element(By.XPATH, checkboxAgreementXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();",checkboxAgreementElement)
         jmenoInputElement.send_keys(jmeno)
         prijmeniInputElement.send_keys(prijmeni)
@@ -137,12 +139,12 @@ class Test_darkove_poukazy(unittest.TestCase):
 
         checkboxAgreementElement.click()
 
-        self.driver.find_element_by_xpath(objednatXpath).click()
+        self.driver.find_element(By.XPATH, objednatXpath).click()
 
         time.sleep(5)
 
-        self.driver.find_element_by_xpath(platebniKartouXpath).click()
-        zaplatitElement = self.driver.find_element_by_xpath(zaplatitXpath)
+        self.driver.find_element(By.XPATH, platebniKartouXpath).click()
+        zaplatitElement = self.driver.find_element(By.XPATH, zaplatitXpath)
         self.driver.execute_script("arguments[0].scrollIntoView();", zaplatitElement)
         zaplatitElement.click()
         time.sleep(7)

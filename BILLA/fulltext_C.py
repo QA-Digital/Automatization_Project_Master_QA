@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from BILLA.to_import import acceptConsent, URL, setUp, tearDown, URL_FT_results, generalDriverWaitImplicit
 import time
@@ -55,31 +56,31 @@ class Test_Fulltext_C(unittest.TestCase):
             else:
                 pass
 
-            FTlupa = self.driver.find_element_by_xpath(HPLupaFullTextXpath)
+            FTlupa = self.driver.find_element(By.XPATH, HPLupaFullTextXpath)
             wait.until(EC.visibility_of(FTlupa)).click()
             #inputBox =
             # inputBox.send_keys(queryList[poziceQueryItem])
             time.sleep(0.7)
             generalDriverWaitImplicit(self.driver)
-            #wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPinputBoxFullTextXpath))).send_keys(queryList[poziceQueryItem])
-            self.driver.find_element_by_xpath(HPinputBoxFullTextXpath).send_keys(queryList[poziceQueryItem])
+            #wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPinputBoxFullTextXpath))).send_keys(queryList[poziceQueryItem])
+            self.driver.find_element(By.XPATH, HPinputBoxFullTextXpath).send_keys(queryList[poziceQueryItem])
             time.sleep(0.7)
             # inputBox.send_keys(Keys.ENTER)
             print(queryList[poziceQueryItem].upper())
             poziceQueryItem = poziceQueryItem + 1
 
-            # if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
+            # if self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']").isDisplayed()==True:
             # if hotelDlazdice != 0:
 
             try:
-                wait.until(EC.visibility_of(self.driver.find_element_by_xpath(fullTextNaseptavacKartaHoteluXpath)))
+                wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, fullTextNaseptavacKartaHoteluXpath)))
                 try:
 
-                    # hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
+                    # hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
 
 
                     # hotelDlazdice.click()
-                    self.driver.find_element_by_xpath(fullTextNaseptavacKartaHoteluXpath).click()
+                    self.driver.find_element(By.XPATH, fullTextNaseptavacKartaHoteluXpath).click()
                     currentUrl = self.driver.current_url
                     print("hote dlazdice klik")
                     assert currentUrl != URL
@@ -95,7 +96,7 @@ class Test_Fulltext_C(unittest.TestCase):
             if testOK_asserted == False:
                 try:
                     #prvniItem =
-                    wait.until(EC.visibility_of(self.driver.find_elements_by_xpath(fullTextNaseptavacTextResultsXpath)[0])).click()
+                    wait.until(EC.visibility_of(self.driver.find_elements(By.XPATH, fullTextNaseptavacTextResultsXpath)[0])).click()
                     # prvniItem[0].click()
                     print("last no such ele except")
                     currentUrl = self.driver.current_url
@@ -127,7 +128,7 @@ class Test_Fulltext_C(unittest.TestCase):
             print(queryList[poziceQueryItem].upper())
             linksToCheckList = []
             try:
-                vysledkyDlazdiceHotelu = driver.find_elements_by_xpath(fullTextResultsKartaHoteluHrefXpath)
+                vysledkyDlazdiceHotelu = driver.find_elements(By.XPATH, fullTextResultsKartaHoteluHrefXpath)
                # wait.until(EC.visibility_of(vysledkyDlazdiceHotelu[0]))
                 x = 0
                 for _ in vysledkyDlazdiceHotelu:
@@ -136,8 +137,8 @@ class Test_Fulltext_C(unittest.TestCase):
             except NoSuchElementException:
                 pass
             #print(linksToCheckList)
-            vysledkyTextItems = driver.find_elements_by_xpath(fullTextResultsTextHrefXpath)
-            vysledkyTextItemsSingle = driver.find_element_by_xpath(fullTextResultsTextHrefXpath)
+            vysledkyTextItems = driver.find_elements(By.XPATH, fullTextResultsTextHrefXpath)
+            vysledkyTextItemsSingle = driver.find_element(By.XPATH, fullTextResultsTextHrefXpath)
             #wait.until(EC.visibility_of(vysledkyTextItems[0]))
             wait.until(EC.visibility_of(vysledkyTextItemsSingle))
             z = 0

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from selenium.common.exceptions import TimeoutException

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import NoSuchElementException
@@ -41,24 +42,24 @@ def hp_zlutak_to_SRL(driver, kamPojedete, destinace, pokracovatBtn1, pokracovatB
                      potvrditAvyhledat, generalTimeSleep=1.5, skipObsazenostSetting=False):
     wait = WebDriverWait(driver, 300)
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(kamPojedete))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, kamPojedete))).click()
 
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(destinace))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, destinace))).click()
 
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn1))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn1))).click()
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn2))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn2))).click()
 
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(termin))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, termin))).click()
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(pokracovatBtn3))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, pokracovatBtn3))).click()
 
     if skipObsazenostSetting == False:
-        wait.until(EC.visibility_of(driver.find_element_by_xpath(obsazenost))).click()
+        wait.until(EC.visibility_of(driver.find_element(By.XPATH, obsazenost))).click()
 
 
     time.sleep(generalTimeSleep)
-    wait.until(EC.visibility_of(driver.find_element_by_xpath(potvrditAvyhledat))).click()
+    wait.until(EC.visibility_of(driver.find_element(By.XPATH, potvrditAvyhledat))).click()
     time.sleep(4)
 
 from ET.to_import import URL_local
@@ -81,10 +82,10 @@ class Test_HP_C(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(5)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
-        wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPvyhledatZajezdyButtonXpath))).click()
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, HPvyhledatZajezdyButtonXpath))).click()
         time.sleep(2.5)  ##time sleep not the best not pog but it works =)
 
-        self.driver.find_element_by_xpath('//*[@data-testid="popup-closeButton"]').click()
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
         groupSearch_D(self, self.driver)
         self.test_passed = True
 
@@ -96,20 +97,20 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
         time.sleep(8)
-        self.driver.find_element_by_xpath(HPkamPojedeteButtonXpath).click()
+        self.driver.find_element(By.XPATH, HPkamPojedeteButtonXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakEgyptDestinaceXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakEgyptDestinaceXpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpath).click()
         time.sleep(5)
-        element = self.driver.find_element_by_xpath("//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']")
+        element = self.driver.find_element(By.XPATH, "//div[@class='f_filterHolder js_filterHolder f_set--active']//a[@class='f_button f_button--common']")
         self.driver.execute_script("arguments[0].click();", element)
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPokracovatButtonXpathStep3).click()
+        self.driver.find_element(By.XPATH, HPzlutakPokracovatButtonXpathStep3).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakObsazenost2plus1Xpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakObsazenost2plus1Xpath).click()
         time.sleep(0.5)
-        self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath).click()
+        self.driver.find_element(By.XPATH, HPzlutakPotvrditAvyhledatXpath).click()
 
         SRL_D(self, self.driver)
         self.test_passed = True
@@ -129,8 +130,8 @@ class Test_HP_C(unittest.TestCase):
 
         LMzajezdyXpath= "//*[@class='f_tileGrid-item']"
         try:
-            LMzajezdy = self.driver.find_element_by_xpath(LMzajezdyXpath)
-            LMzajezdyAll = self.driver.find_elements_by_xpath(LMzajezdyXpath)
+            LMzajezdy = self.driver.find_element(By.XPATH, LMzajezdyXpath)
+            LMzajezdyAll = self.driver.find_elements(By.XPATH, LMzajezdyXpath)
             wait.until(EC.visibility_of(LMzajezdy))
             if LMzajezdy.is_displayed():
                 for WebElement in LMzajezdyAll:
@@ -160,8 +161,8 @@ class Test_HP_C(unittest.TestCase):
 
         oblibeneDestinaceXpath = "//*[@data-id-country]"
         try:
-            oblibeneDestinace = self.driver.find_element_by_xpath(oblibeneDestinaceXpath)
-            oblibeneDestinaceAll = self.driver.find_elements_by_xpath(oblibeneDestinaceXpath)
+            oblibeneDestinace = self.driver.find_element(By.XPATH, oblibeneDestinaceXpath)
+            oblibeneDestinaceAll = self.driver.find_elements(By.XPATH, oblibeneDestinaceXpath)
             wait.until(EC.visibility_of(oblibeneDestinace))
             if oblibeneDestinace.is_displayed():
                 for WebElement in oblibeneDestinaceAll:
@@ -190,7 +191,7 @@ class Test_HP_C(unittest.TestCase):
 
         destinaceReckoXpath = "(//span[@class='font-bold'])[10]"
 
-        self.driver.find_element_by_xpath(poznavackyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, poznavackyVeFiltruSwitchXpath).click()
 
         time.sleep(3)
 
@@ -210,7 +211,7 @@ class Test_HP_C(unittest.TestCase):
 
         destinaceFrancieXpath = "(//label)[21]"
 
-        self.driver.find_element_by_xpath(mestaVikendyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, mestaVikendyVeFiltruSwitchXpath).click()
 
         time.sleep(3)
 
@@ -229,7 +230,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
 
-        self.driver.find_element_by_xpath(lyzeVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, lyzeVeFiltruSwitchXpath).click()
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Březen / Duben 2024')]"
         destinaceItalieXpath = "(//label)[18]"
         time.sleep(3)
@@ -250,7 +251,7 @@ class Test_HP_C(unittest.TestCase):
 
         destinaceItalieXpath = "//span[@class='font-bold'][normalize-space()='Itálie']"
 
-        self.driver.find_element_by_xpath(plavbyVeFiltruSwitchXpath).click()
+        self.driver.find_element(By.XPATH, plavbyVeFiltruSwitchXpath).click()
 
         time.sleep(3)
 

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -132,7 +133,6 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
     listPosition = 0
 
     ##default pocitejme jako PROD
-
     global pocet_vysledku_list_default
     pocet_vysledku_list_default = []
 
@@ -146,18 +146,14 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
     global checked_URLs_list_dev
     checked_URLs_list_dev = []
 
-
-    #print(len(URL_parameters_list))
     for _ in URL_parameters_list:
-        #driver.execute_script("window.open("");")
-        #driver.switch_to.window(driver.window_handles[windowHandle])
         linkActualUrl = URL_default + URL_parameters_list[listPosition]
         time.sleep(3)
         driver.get(linkActualUrl)
         time.sleep(3)
         SRL_H1textPocetNalezenychZajezduXpath = "//h1"
 
-        pocetNalezenychZajezduElement = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+        pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
         pocet_vysledku_list_default.append(pocetNalezenychZajezduElement)
 
         checked_URLs_list_default.append(linkActualUrl)
@@ -170,15 +166,12 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
     windowHandle = 1
     listPosition = 0
     for _ in URL_parameters_list:
-        #driver.execute_script("window.open("");")
-        #driver.switch_to.window(driver.window_handles[windowHandle])
         linkActualUrl = URL_dev + URL_parameters_list[listPosition]
-        #driver.get(URL_dev + "/vysledky-vyhledavani?ac1=2&d=680%7C953%7C1108%7C592%7C611%7C610%7C612%7C590%7C726%7C609%7C621%7C1009%7C622%7C669%7C1086%7C1194%7C670%7C978%7C594%7C675%7C1010%7C683&dd=2023-02-01&nn=7&rd=2023-03-28&to=4312%7C4305%7C2682%7C4308&tt=1")
         time.sleep(3)
         driver.get(linkActualUrl)
         SRL_H1textPocetNalezenychZajezduXpath = "//h1"
 
-        pocetNalezenychZajezduElement = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+        pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
         pocet_vysledku_list_dev.append(pocetNalezenychZajezduElement)
 
         checked_URLs_list_dev.append(linkActualUrl)
@@ -217,7 +210,6 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 
         print("URL cislo  " + str(url_point))
         url_point = url_point + 1
-        #print(starterPosition)
         starterPosition = starterPosition + 1
 
 
@@ -281,7 +273,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 #     time.sleep(3)
 #     driver.get(linkActualUrl)
 #     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-#     pocetNalezenychZajezduElement_PROD = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+#     pocetNalezenychZajezduElement_PROD = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
 #     print(pocetNalezenychZajezduElement_PROD)
 #     print(linkActualUrl)
 #     windowHandle = windowHandle + 1
@@ -295,7 +287,7 @@ def list_SRL_number_of_results(driver, URL_default, URL_dev ,URL_parameters_list
 #     time.sleep(3)
 #     driver.get(linkActualUrl)
 #     SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-#     pocetNalezenychZajezduElement_DEV = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+#     pocetNalezenychZajezduElement_DEV = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
 #     print(pocetNalezenychZajezduElement_DEV)
 #     print(linkActualUrl)
 #     windowHandle = windowHandle + 1

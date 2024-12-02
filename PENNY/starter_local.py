@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from PENNY.Detail_C import TestDetailHotelu_C
 from PENNY.FM_Exotika_D import Test_FM_Exotika_D
 from PENNY.fulltext_C import Test_Fulltext_C

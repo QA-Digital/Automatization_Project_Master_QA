@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 env = "dev"
 checked_URLs_list = []
 

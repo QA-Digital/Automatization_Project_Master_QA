@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from EXPL.to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
@@ -8,7 +9,8 @@ import unittest
 from EXPL.to_import import URL_local
 class TestLM_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -28,9 +30,9 @@ class TestLM_D(unittest.TestCase):
         acceptConsent(self.driver)
 
         try:
-            zajezdyLMsingle = self.driver.find_element_by_xpath("//*[@class='page-tour']")
+            zajezdyLMsingle = self.driver.find_element(By.XPATH, "//*[@class='page-tour']")
             self.driver.execute_script("arguments[0].scrollIntoView();", zajezdyLMsingle)
-            zajezdyLMall = self.driver.find_elements_by_xpath("//*[@class='page-tour']")
+            zajezdyLMall = self.driver.find_elements(By.XPATH, "//*[@class='page-tour']")
             wait.until(EC.visibility_of(zajezdyLMsingle))
             if zajezdyLMsingle.is_displayed():
                 for WebElement in zajezdyLMall:
@@ -52,7 +54,7 @@ class TestLM_D(unittest.TestCase):
         assert zajezdyLMsingle.is_displayed() == True
 
         try:
-            rozbal = self.driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
+            rozbal = self.driver.find_element(By.XPATH, "//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
             self.driver.execute_script("arguments[0].click();", rozbal)
             time.sleep(2)
@@ -63,8 +65,8 @@ class TestLM_D(unittest.TestCase):
             sendEmail(msg)
 
         try:
-            rozbalenyZajezd = self.driver.find_element_by_xpath("//*[@class='page-tour-hotel-name']")
-            rozbalenyZajezdAll = self.driver.find_elements_by_xpath("//*[@class='page-tour-hotel-name']")
+            rozbalenyZajezd = self.driver.find_element(By.XPATH, "//*[@class='page-tour-hotel-name']")
+            rozbalenyZajezdAll = self.driver.find_elements(By.XPATH, "//*[@class='page-tour-hotel-name']")
             wait.until(EC.visibility_of(rozbalenyZajezd))
             if rozbalenyZajezd.is_displayed():
                 for WebElement in rozbalenyZajezdAll:
@@ -80,9 +82,9 @@ class TestLM_D(unittest.TestCase):
         assert rozbalenyZajezd.is_displayed() == True
 
         try:
-            destinationLM = self.driver.find_element_by_xpath("//*[@class='f_teaser-item']")
+            destinationLM = self.driver.find_element(By.XPATH, "//*[@class='f_teaser-item']")
             self.driver.execute_script("arguments[0].scrollIntoView();", destinationLM)
-            destinationLMall = self.driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
+            destinationLMall = self.driver.find_elements(By.XPATH, "//*[@class='f_teaser-item']")
             wait.until(EC.visibility_of(destinationLM))
             if destinationLM.is_displayed():
                 for WebElement in destinationLMall:

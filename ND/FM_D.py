@@ -9,7 +9,8 @@ import unittest
 from ND.to_import import URL_local
 class Test_FM(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -29,7 +30,7 @@ class Test_FM(unittest.TestCase):
 
         strankaFM_letoXpath = "//*[@class='grd-row']"
         try:
-            stranka = self.driver.find_elements_by_xpath(strankaFM_letoXpath)
+            stranka = self.driver.find_elements(By.XPATH, strankaFM_letoXpath)
             wait.until(EC.visibility_of(stranka[0]))
             pozice = 0
             for i in stranka:
@@ -57,7 +58,7 @@ class Test_FM(unittest.TestCase):
 
         strankaFM_zimaXpath = "//*[@class='grd-row']"
         try:
-            stranka = self.driver.find_elements_by_xpath(strankaFM_zimaXpath)
+            stranka = self.driver.find_elements(By.XPATH, strankaFM_zimaXpath)
             wait.until(EC.visibility_of(stranka[0]))
             pozice = 0
             for i in stranka:

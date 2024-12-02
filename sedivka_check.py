@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -14,13 +15,13 @@ from selenium.common.exceptions import NoSuchElementException
 # acceptConsent(driver)
 # time.sleep(10)
 # kostkaPoznavackaXpath = "//*[@class='f_tile f_tile--tour']"
-# element3=driver.find_elements_by_xpath(kostkaPoznavackaXpath)[6]
+# element3=driver.find_elements(By.XPATH, kostkaPoznavackaXpath)[6]
 # driver.execute_script("arguments[0].scrollIntoView();", element3)
 # time.sleep(2)
 # element3.click()
 def sedivka_check_assert(driver,sedivkaXpath):
     try:
-        sedivka = driver.find_element_by_xpath(sedivkaXpath)
+        sedivka = driver.find_element(By.XPATH, sedivkaXpath)
         print(sedivka.is_displayed())
         assert 1==1
         return
@@ -29,5 +30,5 @@ def sedivka_check_assert(driver,sedivkaXpath):
         assert 1==2
     return
 
-# sedivka = driver.find_element_by_xpath(sedivkaXpathFw)
+# sedivka = driver.find_element(By.XPATH, sedivkaXpathFw)
 # print(sedivka.is_displayed())

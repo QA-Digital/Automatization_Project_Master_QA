@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from ET.to_import import acceptConsent, URL_FM, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -18,12 +19,12 @@ def rowKarty_imgHoteluKarty_D(self, driver):
     wait = WebDriverWait(self.driver, 25)
     time.sleep(10)
     driver.implicitly_wait(150)
-    wait.until(EC.visibility_of(self.driver.find_element_by_xpath(rowKartyHoteluXpath)))
+    wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, rowKartyHoteluXpath)))
     print("wait done")
     try:
         print("TRY block start")
         generalDriverWaitImplicit(self.driver)
-        rowKartyHoteluElement = self.driver.find_elements_by_xpath(rowKartyHoteluXpath)
+        rowKartyHoteluElement = self.driver.find_elements(By.XPATH, rowKartyHoteluXpath)
         #if rowKartyHoteluElement[2].is_displayed():
         x=0
         if rowKartyHoteluElement[0].is_displayed():
@@ -49,12 +50,12 @@ def rowKarty_imgHoteluKarty_D(self, driver):
     assert rowKartyHoteluElement[0].is_displayed() == True
 
     driver.implicitly_wait(150)
-    wait.until(EC.visibility_of(self.driver.find_element_by_xpath(imgHotelKartaXpath)))
+    wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, imgHotelKartaXpath)))
     print("wait done")
     try:
         print("TRY block start")
         generalDriverWaitImplicit(self.driver)
-        imgHoteluElement = self.driver.find_elements_by_xpath(imgHotelKartaXpath)
+        imgHoteluElement = self.driver.find_elements(By.XPATH, imgHotelKartaXpath)
         if imgHoteluElement[3].is_displayed():
             for WebElement in imgHoteluElement:
                 jdouvidet = WebElement.is_displayed()

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from ET.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -53,16 +54,16 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         acceptConsent(driver)
 
-        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
         terminyAcenyElement.click()
         boxTerminyXpath = "//*[@class='f_holder']"
-        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        boxTerminyElement = driver.find_element(By.XPATH, boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
-        zobrazeneTerminy = driver.find_elements_by_xpath("//*[@class='f_termList-header-item f_termList-header-item--dateRange']")
+        zobrazeneTerminy = driver.find_elements(By.XPATH, "//*[@class='f_termList-header-item f_termList-header-item--dateRange']")
 
         try:
             for WebElement in zobrazeneTerminy:
@@ -85,27 +86,27 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         acceptConsent(driver)
 
-        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
         terminyAcenyElement.click()
         boxTerminyXpath = "//*[@class='f_holder']"
-        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        boxTerminyElement = driver.find_element(By.XPATH, boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
         celkovaCenaSorterXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
-        celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
+        celkovaCenaSorterElement = driver.find_element(By.XPATH, celkovaCenaSorterXpath)
 
         celkovaCenaSorterElement.click()
         time.sleep(4)
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
-        pocetTerminuElements = driver.find_elements_by_xpath(pocetTerminuXpath)
+        pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
@@ -123,27 +124,27 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         acceptConsent(driver)
 
-        terminyAcenyElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
         driver.execute_script("arguments[0].scrollIntoView();", terminyAcenyElement)
         time.sleep(2)
         terminyAcenyElement.click()
         boxTerminyXpath = "//*[@class='f_holder']"
-        boxTerminyElement = driver.find_element_by_xpath(boxTerminyXpath)
+        boxTerminyElement = driver.find_element(By.XPATH, boxTerminyXpath)
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
         celkovaCenaSorterXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
-        celkovaCenaSorterElement = driver.find_element_by_xpath(celkovaCenaSorterXpath)
+        celkovaCenaSorterElement = driver.find_element(By.XPATH, celkovaCenaSorterXpath)
 
         #celkovaCenaSorterElement.click()
         time.sleep(5)
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
-        pocetTerminuElements = driver.find_elements_by_xpath(pocetTerminuXpath)
+        pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
         poziceTerminu = 0
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechElements = driver.find_elements_by_xpath(celkoveCenaVterminechXpath)
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
             kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCenaVterminechINT = int(celkovaCenaVterminechINT)
@@ -174,7 +175,7 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         try:
             # time.sleep(5)
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
                 print("its ok")
@@ -197,7 +198,7 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         print(zvolenaStravaVboxuString)
 
@@ -211,34 +212,34 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(5)
         acceptConsent(self.driver)
 
-        terminyAcenyTabElement = self.driver.find_element_by_xpath(terminyAcenyTabXpath)
+        terminyAcenyTabElement = self.driver.find_element(By.XPATH, terminyAcenyTabXpath)
         self.driver.execute_script("arguments[0].click();", terminyAcenyTabElement)
         time.sleep(2.5)
 
         dopravaBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
-        boxElement = self.driver.find_element_by_xpath(dopravaBoxXpath)
+        boxElement = self.driver.find_element(By.XPATH, dopravaBoxXpath)
         self.driver.execute_script("arguments[0].click();", boxElement)
         time.sleep(2)
 
         boxCrOdskrtnout = "(//label[@class='relative select-none cursor-pointer flex items-center gap-2'])[740]"
-        boxElement2 = self.driver.find_element_by_xpath(boxCrOdskrtnout)
+        boxElement2 = self.driver.find_element(By.XPATH, boxCrOdskrtnout)
         self.driver.execute_script("arguments[0].click();", boxElement2)
         time.sleep(2)
 
         boxPrahaZaskrtnout = "(//label)[756]"
-        boxElement3 = self.driver.find_element_by_xpath(boxPrahaZaskrtnout)
+        boxElement3 = self.driver.find_element(By.XPATH, boxPrahaZaskrtnout)
         self.driver.execute_script("arguments[0].click();", boxElement3)
         time.sleep(2)
 
         buttonVyhledat = "(//span[@class='f_button-text'][normalize-space()='Potvrdit a vyhledat'])[2]"
-        buttonVyhledatKlik = self.driver.find_element_by_xpath(buttonVyhledat)
+        buttonVyhledatKlik = self.driver.find_element(By.XPATH, buttonVyhledat)
         self.driver.execute_script("arguments[0].click();", buttonVyhledatKlik)
         time.sleep(2)
 
         zvolenaDoprava = "Praha"
         dopravaBoxXpath = "//*[@class='f_icon f_icon--plane']"
 
-        dopravaVterminech = self.driver.find_elements_by_xpath(dopravaBoxXpath)
+        dopravaVterminech = self.driver.find_elements(By.XPATH, dopravaBoxXpath)
         dopravaVterminechString = []
 
         x = 0

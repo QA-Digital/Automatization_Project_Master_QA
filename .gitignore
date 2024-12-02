@@ -12,3 +12,6 @@ workspace.xml
 .idea/workspace.xml
 __pycache__/
 .idea/
+*.log
+*.txt
+*.txt

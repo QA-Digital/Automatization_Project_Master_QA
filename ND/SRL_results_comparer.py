@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from ND.to_import import URL, closeExponeaBanner, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -43,7 +44,8 @@ URL_SRLs_list_ND = [URL_SRL_ND1, URL_SRL_ND2, URL_SRL_ND3, URL_SRL_ND4, URL_SRL_
 from ND.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL

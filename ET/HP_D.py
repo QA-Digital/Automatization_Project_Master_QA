@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import ActionChains
 from ET.Detail_D import detail_D
@@ -32,10 +33,10 @@ class TestHP_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         generalDriverWaitImplicit(self.driver)
-        bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
+        bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
         try:
-            bannerSingle = self.driver.find_element_by_xpath(HPbanneryXpath)
-            bannerAll = self.driver.find_elements_by_xpath(HPbanneryXpath)
+            bannerSingle = self.driver.find_element(By.XPATH, HPbanneryXpath)
+            bannerAll = self.driver.find_elements(By.XPATH, HPbanneryXpath)
             #wait.until(EC.visibility_of(bannerSingle))
             if bannerSingle.is_displayed():
                 for WebElement in bannerAll:
@@ -64,8 +65,8 @@ class TestHP_D(unittest.TestCase):
         generalDriverWaitImplicit(self.driver)
 
         try:
-            nejnabidkyLMsingle = self.driver.find_element_by_xpath("//*[@class='page-tour']")
-            nejnabidkyLMall = self.driver.find_elements_by_xpath("//*[@class='page-tour']")
+            nejnabidkyLMsingle = self.driver.find_element(By.XPATH, "//*[@class='page-tour']")
+            nejnabidkyLMall = self.driver.find_elements(By.XPATH, "//*[@class='page-tour']")
             wait.until(EC.visibility_of(nejnabidkyLMsingle))
             if nejnabidkyLMsingle.is_displayed():
                 for WebElement in nejnabidkyLMall:

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 #brand_name = "ETRAVEL"
 #build_name = "custom build"
 

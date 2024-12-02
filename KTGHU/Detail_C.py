@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from KTGHU.to_import import acceptConsent, closeExponeaBanner, URL_detail, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -16,7 +17,8 @@ potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 from KTGHU.to_import import URL_local
 class TestDetailHotelu_C(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -49,8 +51,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         closeExponeaBanner(self.driver)
         #imageDetailXpath = '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img'
         imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/swiper-container/swiper-slide[1]/img"
-        #imageDetail = self.driver.find_element_by_xpath("//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
-        imageDetail = self.driver.find_element_by_xpath(imageDetailXpath)
+        #imageDetail = self.driver.find_element(By.XPATH, "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:
             self.driver.set_page_load_timeout(5)
@@ -61,10 +63,10 @@ class TestDetailHotelu_C(unittest.TestCase):
             sendEmail(msg)
 
         try:
-            image = self.driver.find_element_by_xpath("/html/body/img")
+            image = self.driver.find_element(By.XPATH, "/html/body/img")
             assert image.is_displayed() == True
             if image.is_displayed():
-                print("its ok")
+                self.logger.info("its ok")
         except NoSuchElementException:
             url = self.driver.current_url
             msg = "Problem s fotkou src, detailhotelu,  NoSuchElementException " + url
@@ -96,9 +98,9 @@ class TestDetailHotelu_C(unittest.TestCase):
                                                                         valueToFilterStravaAllIncXpath, False)
         time.sleep(1.2)
 
-        zvolenaStravaVboxu = self.driver.find_element_by_xpath(zvolenaStravaVboxuXpath)
+        zvolenaStravaVboxu = self.driver.find_element(By.XPATH, zvolenaStravaVboxuXpath)
         zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
-        print(zvolenaStravaVboxuString)
+        self.logger.info(zvolenaStravaVboxuString)
 
         generalized_list_string_sorter(self.driver, stravaVterminechXpath, zvolenaStravaVboxuString)
         self.test_passed = True
@@ -120,14 +122,14 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         #
         # try:
-        #     terminyCeny = self.driver.find_element_by_xpath("//*[@id='terminyaceny-tab']")
+        #     terminyCeny = self.driver.find_element(By.XPATH, "//*[@id='terminyaceny-tab']")
         #     wait.until(EC.visibility_of(terminyCeny))
         #     ##terminyCeny.click()
         #     self.driver.execute_script("arguments[0].click();", terminyCeny)
         #     time.sleep(3)
         #     try:
         #         generalDriverWaitImplicit(self.driver)
-        #         potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+        #         potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
         #
         #         self.driver.execute_script("arguments[0].click();", potvrdit)
         #
@@ -150,11 +152,11 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     self.driver.execute_script("arguments[0].click();", stravovaniBox)
         #     try:
         #         # allInclusiveBox =
-        #         # driver.find_element_by_xpath("//*[contains(text(), 'All
+        #         # driver.find_element(By.XPATH, "//*[contains(text(), 'All
         #         # inclusive')]")
         #         # wait.until(EC.visibility_of(allInclusiveBox))
         #         ##allInclusiveBox.click()
-        #         stravyBox = self.driver.find_elements_by_xpath("//*[@name='detailFilterCatering']")
+        #         stravyBox = self.driver.find_elements(By.XPATH, "//*[@name='detailFilterCatering']")
         #
         #         self.driver.execute_script("arguments[0].click();", stravyBox[1])
         #
@@ -184,10 +186,10 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # #omlouvamese_paragraph(self)
         #
-        # zvolenaStravaVboxu = self.driver.find_element_by_xpath("//*[@class='js-subvalue f_text--highlighted']")
+        # zvolenaStravaVboxu = self.driver.find_element(By.XPATH, "//*[@class='js-subvalue f_text--highlighted']")
         # zvolenaStravaVboxuString = zvolenaStravaVboxu.text.lower()
         #
-        # print(zvolenaStravaVboxuString)
+        # self.logger.info(zvolenaStravaVboxuString)
         #
         # stravaVterminech = self.driver.find_elements_by_xpath(
         #     "//*[@class='fshr-termin-catering js-tooltip js-tooltip--onlyDesktop']")
@@ -205,13 +207,13 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # time.sleep(1)  ###eroror element is not attached ?  tak chvilku cekacka mozna to solvne
         #
-        # print(stravaVterminechString)
+        # self.logger.info(stravaVterminechString)
         # y = 0
         # for _ in stravaVterminechString:
         #     assert zvolenaStravaVboxuString in stravaVterminechString[y]
         #     if zvolenaStravaVboxuString in stravaVterminechString[y]:
-        #         print("ok")
-        #         ##print(y)
+        #         self.logger.info("ok")
+        #         ##self.logger.info(y)
         #         y = y + 1
         #     else:
         #         url = self.driver.current_url
@@ -219,8 +221,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         #         sendEmail(msg)
         #         y = y + 1
         # time.sleep(1)
-        # ##print(stravaVterminech)
-        # ##print(stravaVterminechString)
+        # ##self.logger.info(stravaVterminech)
+        # ##self.logger.info(stravaVterminechString)
         #
         # self.test_passed = True
 
@@ -278,7 +280,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         #
         # try:
         #     generalDriverWaitImplicit(self.driver)
-        #     terminyCeny = self.driver.find_element_by_xpath(terminyAcenyTabXpath)
+        #     terminyCeny = self.driver.find_element(By.XPATH, terminyAcenyTabXpath)
         #     wait.until(EC.visibility_of(terminyCeny))
         #     ##terminyCeny.click()
         #     self.driver.execute_script("arguments[0].click();", terminyCeny)
@@ -286,7 +288,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     try:
         #         generalDriverWaitImplicit(self.driver)
         #         time.sleep(2)
-        #         potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+        #         potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
         #         ##wait.until(EC.visibility_of(potvrdit))
         #         self.driver.execute_script("arguments[0].click();", potvrdit)
         #
@@ -365,11 +367,11 @@ class TestDetailHotelu_C(unittest.TestCase):
         #     assert odletyTerminy[y].text == "Budapest"
         #     if odletyTerminy[y].text == "Budapest":  ##tady je nutny pricitat +2 protoze je tam 41 results (s tim ze jeden
         #         ##je "odlet"), kazdy sudy cislo je mezera/blank space for some reason
-        #         ##print(odletyTerminy[y].text)
+        #         ##self.logger.info(odletyTerminy[y].text)
         #         y = y + 2
         #     else:
         #         url = self.driver.current_url
-        #         ##print(odletyTerminy[y].text)
+        #         ##self.logger.info(odletyTerminy[y].text)
         #         msg = "na detailu jsem vyfiltroval odlet na Budapest ale pry to nesedi říká python " + url
         #         sendEmail(msg)
         #         y = y + 2

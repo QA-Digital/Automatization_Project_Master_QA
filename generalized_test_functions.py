@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import requests
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
@@ -24,7 +25,7 @@ def generalized_list_of_url_checker(inputListOfURLStoCheck):
 
     if test_passed == False:
         assert 1 == 2
-def generalized_price_sorter_expensive_cheap_assert(inputList, typeOfSort):
+def generalized_price_sorter_expensive_cheap_assert2(inputList, typeOfSort):
     #print(inputList)
     if typeOfSort == "cheap":
         inputListSorted = inputList.copy()
@@ -57,13 +58,13 @@ def generalized_price_sorter_expensive_cheap_assert(inputList, typeOfSort):
 def generalized_map_test_click_through_circles(driver, zobrazitNaMapeXpath):
     def click_on_map_circle(driver, circlexpath):
         try:
-            driver.find_element_by_xpath(circlexpath).click()
+            driver.find_element(By.XPATH, circlexpath).click()
         except:
             print("nenasel se kolecko" +circlexpath)
             pass
         time.sleep(1.2)
 
-    zobrazitNaMape = driver.find_element_by_xpath(zobrazitNaMapeXpath)
+    zobrazitNaMape = driver.find_element(By.XPATH, zobrazitNaMapeXpath)
     zobrazitNaMape.click()
     largeCircleXpath = "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-large leaflet-zoom-animated leaflet-interactive']"
     mediumCircleXpath = "//*[@class='leaflet-marker-icon marker-cluster marker-cluster-medium leaflet-zoom-animated leaflet-interactive']"
@@ -91,7 +92,7 @@ def generalized_map_test_click_on_pin_and_hotel_bubble(driver):
         imgMissing = driver.find_element_by_xpath(
             "//*[@class='f_image f_image--missing']")  ##when theres no photo on the detail on map theres actually class that says it is missing
         if imgMissing.is_displayed():  ##so if I dont find this class = good
-            hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+            hotelBubble = driver.find_element(By.XPATH, "//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
             msg = "V mape v bublibně hotelu se nezobrazuje fotka hotelu " + hotelBubble.text
             sendEmail(msg)
 
@@ -100,20 +101,20 @@ def generalized_map_test_click_on_pin_and_hotel_bubble(driver):
 
     time.sleep(2)
 
-    hotelBubble = driver.find_element_by_xpath("//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
+    hotelBubble = driver.find_element(By.XPATH, "//*[@class='leaflet-popup-content'] //*[@class='f_bubble']")
     hotelBubble.click()
 def generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuXpath):
-    stravaMenu = driver.find_element_by_xpath(stravaMenuXpath)
+    stravaMenu = driver.find_element(By.XPATH, stravaMenuXpath)
     stravaMenu.click()
     time.sleep(2)
 def generalized_SRL_choose_meal_filter_FW_like(driver, stravaMenuXpath, stravaMenuAllInclusiveXpath, potvrditMenuXpath):
-    #stravaMenu = driver.find_element_by_xpath("//*[@class='f_menu-item']//*[contains(text(), 'Strava')]")
-    stravaMenuBox = driver.find_element_by_xpath(stravaMenuXpath)
+    #stravaMenu = driver.find_element(By.XPATH, "//*[@class='f_menu-item']//*[contains(text(), 'Strava')]")
+    stravaMenuBox = driver.find_element(By.XPATH, stravaMenuXpath)
 
     stravaMenuBox.click()
     generalized_SRL_choose_meal_filter_EW_like(driver, stravaMenuAllInclusiveXpath)
 
-    potvrditMenu = driver.find_element_by_xpath(potvrditMenuXpath)
+    potvrditMenu = driver.find_element(By.XPATH, potvrditMenuXpath)
     potvrditMenu.click()
 ##variable_to_assert_to == .lower should be on default
 def generalized_list_string_sorter(driver, web_elements_Xpath, variable_to_assert_to, plusPozice=None, list_web_element_starter=None):
@@ -137,7 +138,7 @@ def generalized_list_string_sorter(driver, web_elements_Xpath, variable_to_asser
         list_web_elements_Position = 0
 
     print(list_web_elements_Position)
-    web_elements = driver.find_elements_by_xpath(web_elements_Xpath)
+    web_elements = driver.find_elements(By.XPATH, web_elements_Xpath)
 
     list_web_elements = []
 
@@ -176,15 +177,15 @@ def generalized_SRL_price_sorter(driver, sorter_Xpath, hotelyKartyXpath, cenaZaj
         cenaZajezduAllList = []                     ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []               ##second list takes the values too, then sorts it low to high
         time.sleep(3)
-        sorter_Element = driver.find_element_by_xpath(sorter_Xpath)
+        sorter_Element = driver.find_element(By.XPATH, sorter_Xpath)
         wait.until(EC.visibility_of(sorter_Element))
         sorter_Element.click()
         time.sleep(6)
-        hotelyKarty = driver.find_element_by_xpath(hotelyKartyXpath)
+        hotelyKarty = driver.find_element(By.XPATH, hotelyKartyXpath)
         wait.until(EC.visibility_of(hotelyKarty))
         time.sleep(4)
         list_web_elements_Position = 0
-        cenaZajezduAll = driver.find_elements_by_xpath(cenaZajezduXpath)
+        cenaZajezduAll = driver.find_elements(By.XPATH, cenaZajezduXpath)
         wait.until(EC.visibility_of(cenaZajezduAll[0]))
 
         for WebElement in cenaZajezduAll:
@@ -240,14 +241,14 @@ def generalized_SRL_price_sorter(driver, sorter_Xpath, hotelyKartyXpath, cenaZaj
 def generalized_detail_departure_check(driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, v2 ):
 
         try:
-            pocetZobrazenychTerminu = driver.find_elements_by_xpath(pocetZobrazenychTerminuXpath)  ##locator jen na pocet odletu alokuje vic veci nez je actual terminu tak
+            pocetZobrazenychTerminu = driver.find_elements(By.XPATH, pocetZobrazenychTerminuXpath)  ##locator jen na pocet odletu alokuje vic veci nez je actual terminu tak
         except NoSuchElementException:
             url = driver.current_url
             msg = "pocetZobrazenychTerminu, filtrovani dle letu detail hotelu, mozna jen nema odlety na X, NoSuchElementException " + url
             sendEmail(msg)
 
         try:
-            odletyTerminy = driver.find_elements_by_xpath(odletyTerminyXpath)  ##prvni locator je "odlet" takze zacnu na pozici jedna, vyloopuje se to podle
+            odletyTerminy = driver.find_elements(By.XPATH, odletyTerminyXpath)  ##prvni locator je "odlet" takze zacnu na pozici jedna, vyloopuje se to podle
             ##poctu terminu, should be ok
         except NoSuchElementException:
             url = driver.current_url
@@ -300,11 +301,11 @@ def generalized_EW_like_top_nabidka_URL_status_check(driver, topNabidkaLinkXpath
 
     links_to_check = []
     links_list_counter = 0
-    topNabidkaElementLists = driver.find_elements_by_xpath(topNabidkaLinkXpath)
+    topNabidkaElementLists = driver.find_elements(By.XPATH, topNabidkaLinkXpath)
     for _ in topNabidkaElementLists:
-        #topNabidkaElementHref = driver.find_elements_by_xpath(topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
-        #topNabidkaElementHref = driver.find_elements_by_xpath(topNabidkaLinkXpath[links_list_counter]).text
-        topNabidkaElementHref = driver.find_elements_by_xpath(topNabidkaElementLists[links_list_counter]).text
+        #topNabidkaElementHref = driver.find_elements(By.XPATH, topNabidkaLinkXpath[links_list_counter]).get_attribute("href")
+        #topNabidkaElementHref = driver.find_elements(By.XPATH, topNabidkaLinkXpath[links_list_counter]).text
+        topNabidkaElementHref = driver.find_elements(By.XPATH, topNabidkaElementLists[links_list_counter]).text
         links_to_check.append(topNabidkaElementHref)
         links_list_counter = links_list_counter+1
         print(topNabidkaElementHref)
@@ -312,7 +313,7 @@ def generalized_EW_like_top_nabidka_URL_status_check(driver, topNabidkaLinkXpath
 def generalized_Detail_terminyAceny_potvrdit_chooseFiltr(driver, terminyAcenyTabXpath, potvrditPopupXpath, boxFiltrXpath, valueToFilterXpath):
 
     V2 = "test"
-    terminyAcenyTabElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+    terminyAcenyTabElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
     driver.execute_script("arguments[0].click();", terminyAcenyTabElement)
 
 
@@ -322,17 +323,17 @@ def generalized_Detail_terminyAceny_potvrdit_chooseFiltr(driver, terminyAcenyTab
         pass
     else:
 
-        potvrditPopupElement = driver.find_element_by_xpath(potvrditPopupXpath)
+        potvrditPopupElement = driver.find_element(By.XPATH, potvrditPopupXpath)
         driver.execute_script("arguments[0].click();", potvrditPopupElement)
 
     time.sleep(1)
 
-    boxElement = driver.find_element_by_xpath(boxFiltrXpath)
+    boxElement = driver.find_element(By.XPATH, boxFiltrXpath)
     driver.execute_script("arguments[0].click();", boxElement)
     time.sleep(1.5)
 
     if V2==True:
-        valueToFilterElement = driver.find_elements_by_xpath(valueToFilterXpath)
+        valueToFilterElement = driver.find_elements(By.XPATH, valueToFilterXpath)
         valueToClickElement = valueToFilterElement[2]
         driver.execute_script("arguments[0].scrollIntoView();", valueToClickElement)
         time.sleep(0.5)
@@ -342,7 +343,7 @@ def generalized_Detail_terminyAceny_potvrdit_chooseFiltr(driver, terminyAcenyTab
 
     else:
 
-        valueToFilterElement = driver.find_element_by_xpath(valueToFilterXpath)
+        valueToFilterElement = driver.find_element(By.XPATH, valueToFilterXpath)
         driver.execute_script("arguments[0].scrollIntoView();", valueToFilterElement)
         time.sleep(0.5)
 
@@ -354,21 +355,17 @@ def generalized_Detail_terminyAceny_potvrdit_chooseFiltr(driver, terminyAcenyTab
     time.sleep(1)
 def generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(driver, terminyAcenyTabXpath, boxFiltrXpath, valueToFilterXpath, departure):
 
-    terminyAcenyTabElement = driver.find_element_by_xpath(terminyAcenyTabXpath)
+    terminyAcenyTabElement = driver.find_element(By.XPATH, terminyAcenyTabXpath)
     driver.execute_script("arguments[0].click();", terminyAcenyTabElement)
     time.sleep(2.5)
 
-    boxElement = driver.find_element_by_xpath(boxFiltrXpath)
+    boxElement = driver.find_element(By.XPATH, boxFiltrXpath)
     driver.execute_script("arguments[0].click();", boxElement)
     time.sleep(3.5)
 
     if departure==True:
         print("if departure==True")
-        #valueToFilterElement = driver.find_elements_by_xpath(valueToFilterXpath)
-        # valueToClickElement = valueToFilterElement[2]
-        ##na novy filtrovani pouzit to coje podtimto, na stary staci odkomentovat dva radky nad timhle a zakomentovat ty dva dole
-
-        valueToFilterElement = driver.find_element_by_xpath(valueToFilterXpath)
+        valueToFilterElement = driver.find_element(By.XPATH, valueToFilterXpath)
         valueToClickElement = valueToFilterElement
 
         driver.execute_script("arguments[0].scrollIntoView();", valueToClickElement)
@@ -379,7 +376,7 @@ def generalized_Detail_terminyAceny_potvrdit_chooseFiltr_new_detail(driver, term
         print("else departure not true")
         time.sleep(5)
         driver.execute_script("arguments[0].scrollIntoView();", boxElement)
-        valueToFilterElement = driver.find_element_by_xpath(valueToFilterXpath)
+        valueToFilterElement = driver.find_element(By.XPATH, valueToFilterXpath)
         driver.execute_script("arguments[0].scrollIntoView();", valueToFilterElement)
         time.sleep(0.5)
 

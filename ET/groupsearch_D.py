@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 
 from selenium.common.exceptions import NoSuchElementException
@@ -11,7 +12,7 @@ def groupSearch_D(self, driver):
     #driver.implicitly_wait(100)
     generalDriverWaitImplicit(driver)
     groupSearchDlazdiceXpath = "//*[@class='box-border relative pt-[100%]']"
-    teaserItems = driver.find_elements_by_xpath(groupSearchDlazdiceXpath)
+    teaserItems = driver.find_elements(By.XPATH, groupSearchDlazdiceXpath)
 
     wait.until(EC.visibility_of(teaserItems[0]))
 
@@ -38,7 +39,7 @@ def groupSearch_D(self, driver):
     assert teaserItems[0].is_displayed() == True
 
     driver.implicitly_wait(100)
-    srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
+    srlItems = driver.find_elements(By.XPATH, "//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
             ##print(len(srlItems))
@@ -82,7 +83,7 @@ class Test_Groupsearch_D(unittest.TestCase):
         time.sleep(2.5)
         acceptConsent(self.driver)
         time.sleep(2.5)
-        self.driver.find_element_by_xpath('//span[@class="f_button-text"]').click()
+        self.driver.find_element(By.XPATH, '//span[@class="f_button-text"]').click()
 
         groupSearch_D(self, driver)
         self.test_passed = True

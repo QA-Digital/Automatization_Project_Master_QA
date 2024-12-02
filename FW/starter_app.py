@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import logging
 from flask import Flask, request, jsonify
 # Import the necessary modules and test suite functions from your script

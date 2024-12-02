@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import acceptConsent, URL_local, URL_detail, sendEmail, setUp, tearDown
@@ -12,7 +13,7 @@ def detail_D(self, driver):
     driver.implicitly_wait(10)
     detailWrapperXpath = "//*[@class='grd-row']"
     try:
-        detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
+        detailWrapper = self.driver.find_element(By.XPATH, detailWrapperXpath)
         wait.until(EC.visibility_of(detailWrapper))
         if detailWrapper.is_displayed():
             pass
@@ -22,7 +23,7 @@ def detail_D(self, driver):
         url = self.driver.current_url
         msg = "Problem se sedivkou na detailu hotelu " + url
         sendEmail(msg)
-    detailWrapper = self.driver.find_element_by_xpath(detailWrapperXpath)
+    detailWrapper = self.driver.find_element(By.XPATH, detailWrapperXpath)
     assert detailWrapper.is_displayed() == True
 
 
@@ -31,7 +32,7 @@ def detail_D2(self, driver):
     wait = WebDriverWait(self.driver, 150)
     driver.implicitly_wait(50)
     try:
-        sedivka = self.driver.find_element_by_xpath("//*[@class='fshr-detail-summary js-detailSummary']")
+        sedivka = self.driver.find_element(By.XPATH, "//*[@class='fshr-detail-summary js-detailSummary']")
         wait.until(EC.visibility_of(sedivka))
         if sedivka.is_displayed():
             pass
@@ -43,11 +44,11 @@ def detail_D2(self, driver):
         sendEmail(msg)
 
     try:
-        terminyCeny = self.driver.find_element_by_xpath("//*[@id='terminyaceny-tab']")
+        terminyCeny = self.driver.find_element(By.XPATH, "//*[@id='terminyaceny-tab']")
         wait.until(EC.visibility_of(terminyCeny))
         self.driver.execute_script("arguments[0].click();", terminyCeny)
         try:
-            potvrdit = self.driver.find_element_by_xpath("//*[@data-testid='popup-closeButton']")
+            potvrdit = self.driver.find_element(By.XPATH, "//*[@data-testid='popup-closeButton']")
             self.driver.execute_script("arguments[0].click();", potvrdit)
 
         except NoSuchElementException:
@@ -60,7 +61,7 @@ def detail_D2(self, driver):
         sendEmail(msg)
 
     try:
-        terminySingle = self.driver.find_element_by_xpath("//*[@data-hotel]")
+        terminySingle = self.driver.find_element(By.XPATH, "//*[@data-hotel]")
         wait.until(EC.visibility_of(terminySingle))
 
         if terminySingle.is_displayed():
@@ -76,7 +77,7 @@ def detail_D2(self, driver):
         msg = "Problem s terminy a ceny na detailu hotelu " + url
         sendEmail(msg)
 
-    terminySingle = self.driver.find_element_by_xpath("//*[@data-hotel]")
+    terminySingle = self.driver.find_element(By.XPATH, "//*[@data-hotel]")
     assert terminySingle.is_displayed() == True
 
 
@@ -85,7 +86,8 @@ from FW.to_import import URL_local
 class TestDetailHotelu_D(unittest.TestCase):
 
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL

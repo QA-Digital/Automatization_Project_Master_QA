@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from FWSK.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown
 import time
@@ -6,7 +7,8 @@ import unittest
 from FWSK.to_import import URL_local
 class TestSDO_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -26,8 +28,8 @@ class TestSDO_D(unittest.TestCase):
         acceptConsent(self.driver)
         destinaceXpath = "//*[@class='fshr-listTable-item']"
         try:
-            destinaceAll = self.driver.find_elements_by_xpath(destinaceXpath)
-            destinaceSingle = self.driver.find_element_by_xpath(destinaceXpath)
+            destinaceAll = self.driver.find_elements(By.XPATH, destinaceXpath)
+            destinaceSingle = self.driver.find_element(By.XPATH, destinaceXpath)
             if destinaceSingle.is_displayed():
                 for WebElement in destinaceAll:
                     jdouvidet = WebElement.is_displayed()
@@ -48,8 +50,8 @@ class TestSDO_D(unittest.TestCase):
 
 
         try:
-            dlazdiceFotoSingle = driver.find_element_by_xpath("//*[@class='f_tile-image']")
-            dlazdiceFotoAll = driver.find_elements_by_xpath("//*[@class='f_tile-image']")
+            dlazdiceFotoSingle = driver.find_element(By.XPATH, "//*[@class='f_tile-image']")
+            dlazdiceFotoAll = driver.find_elements(By.XPATH, "//*[@class='f_tile-image']")
             if dlazdiceFotoSingle.is_displayed():
                 for WebElement in dlazdiceFotoAll:
                     jdouvidet = WebElement.is_displayed()
@@ -70,7 +72,7 @@ class TestSDO_D(unittest.TestCase):
         assert dlazdiceFotoSingle.is_displayed() == True
 
         try:
-            mapa = driver.find_element_by_xpath("//*[@class='fshr-map']")
+            mapa = driver.find_element(By.XPATH, "//*[@class='fshr-map']")
             assert mapa.is_displayed() == True
             if mapa.is_displayed():
                 pass

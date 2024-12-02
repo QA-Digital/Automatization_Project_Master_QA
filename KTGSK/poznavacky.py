@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 import time
 from KTGSK.to_import import acceptConsent, URL_poznavacky, URL_poznavacky_vikendy, URL_poznavacky_rodiny, URL_poznavacky_zazitky, setUp, tearDown
 import unittest
@@ -5,7 +6,8 @@ import unittest
 from KTGSK.to_import import URL_local
 class TestPoznavacky_D(unittest.TestCase):
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -26,8 +28,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
             #time.sleep(6)
             self.driver.implicitly_wait(100)
-            imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
-            print(imgs)
+            imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
+            self.logger.info(imgs)
             x=0
             assert imgs[0].is_displayed() == True
             for _ in imgs:
@@ -35,9 +37,9 @@ class TestPoznavacky_D(unittest.TestCase):
                 x=x+1
 
                 assert imgsDisplayed == True
-                print("true imgdisplay")
+                self.logger.info("true imgdisplay")
 
-            gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+            gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
             assert gridItems[0].is_displayed() == True
             y=0
             for _ in gridItems:
@@ -45,16 +47,16 @@ class TestPoznavacky_D(unittest.TestCase):
                 gridItemDisplayed = gridItems[y].is_displayed()
                 assert gridItemDisplayed == True
                 y=y+1
-                print("grid true")
+                self.logger.info("grid true")
 
-            gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+            gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
             a=0
             assert gridBig[0].is_displayed() == True
             for _ in gridBig:
                 gridBigDisplayed = gridBig[a].is_displayed()
                 assert gridBigDisplayed == True
                 a=a+1
-                print("big grid ture")
+                self.logger.info("big grid ture")
 
             self.test_passed = True
 
@@ -68,8 +70,8 @@ class TestPoznavacky_D(unittest.TestCase):
 
         #time.sleep(6)
         self.driver.implicitly_wait(100)
-        imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
-        print(imgs)
+        imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
+        self.logger.info(imgs)
         x = 0
         assert imgs[0].is_displayed() == True
         for _ in imgs:
@@ -77,25 +79,25 @@ class TestPoznavacky_D(unittest.TestCase):
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+        gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         assert gridItems[0].is_displayed() == True
         y = 0
         for _ in gridItems:
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+        gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         assert gridBig[0].is_displayed() == True
         a = 0
         for _ in gridBig:
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True
 
@@ -109,34 +111,34 @@ class TestPoznavacky_D(unittest.TestCase):
         self.driver.execute_script("window.scrollTo(0, 1080);")
 
         time.sleep(6)
-        imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+        imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
         assert imgs[0].is_displayed() == True
-        print(imgs)
+        self.logger.info(imgs)
         x = 0
         for _ in imgs:
             imgsDisplayed = imgs[x].is_displayed()
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+        gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         y = 0
         assert gridItems[0].is_displayed() == True
         for _ in gridItems:
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+        gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         assert gridBig[0].is_displayed() == True
         a = 0
         for _ in gridBig:
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True
 
@@ -150,33 +152,33 @@ class TestPoznavacky_D(unittest.TestCase):
 
         #time.sleep(6)
         self.driver.implicitly_wait(100)
-        imgs = self.driver.find_elements_by_xpath("//*[@class='f_tile-image-content']")
+        imgs = self.driver.find_elements(By.XPATH, "//*[@class='f_tile-image-content']")
         assert imgs[0].is_displayed() == True
-        print(imgs)
+        self.logger.info(imgs)
         x = 0
         for _ in imgs:
             imgsDisplayed = imgs[x].is_displayed()
             x = x + 1
 
             assert imgsDisplayed == True
-            print("true imgdisplay")
+            self.logger.info("true imgdisplay")
 
-        gridItems = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
+        gridItems = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
         y = 0
         assert gridItems[0].is_displayed() == True
         for _ in gridItems:
             gridItemDisplayed = gridItems[y].is_displayed()
             assert gridItemDisplayed == True
             y = y + 1
-            print("grid true")
+            self.logger.info("grid true")
 
-        gridBig = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid']")
+        gridBig = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid']")
         a = 0
         assert gridBig[0].is_displayed() == True
         for _ in gridBig:
             gridBigDisplayed = gridBig[a].is_displayed()
             assert gridBigDisplayed == True
             a = a + 1
-            print("big grid ture")
+            self.logger.info("big grid ture")
 
         self.test_passed = True

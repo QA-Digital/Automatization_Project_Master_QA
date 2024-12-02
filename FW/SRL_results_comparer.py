@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from FW.to_import import URL, closeExponeaBanner, URL_SRL, sendEmail, setUp, tearDown, generalDriverWaitImplicit
@@ -6,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
+from helpers.helper import Helpers
 
 URL_public_prod = "https://fischer.cz"
 import re
@@ -13,7 +15,7 @@ from datetime import datetime
 
 current_date = datetime.now().strftime('%Y-%m-%d')
 # Define the new value for the "rd" parameter
-new_rd_value = "2024-10-30"
+new_rd_value = "2024-11-30"
 
 URL_SRL_FW1 = "/vysledky-vyhledavani?ac1=2&d=621|1009|680|622|1108|953|669|1086|1194|670|978|594|611|610|592|675|612|1010|590|726|683|609&dd=" + current_date + "&ds=0&ic1=1&ifm=0&ilm=0&nn=7|8|9|10|11|12|13&rd=" + new_rd_value + "&sc=residential&to=4312|4305|2682|4308&tt=1"
 
@@ -84,7 +86,8 @@ from FW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
 
     URL = URL_local  # Default value
-    def __init__(self, methodName="runTest", URL=None):
+    def __init__(self, methodName="runTest", URL=None, run_number=None):
+        self.run_number = run_number
         super().__init__(methodName)
         if URL:
             self.URL = URL
@@ -98,7 +101,9 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FW)
+        Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FW, self.logger)
+
+        #list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FW)
 
 
 

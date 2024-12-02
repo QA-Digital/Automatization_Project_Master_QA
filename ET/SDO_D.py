@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from ET.to_import import acceptConsent, sendEmail, URL_stat, setUp, tearDown, generalDriverWaitImplicit
 import time
@@ -28,8 +29,8 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblastiAll = self.driver.find_elements_by_xpath("//*[contains(@class,'grd-col grd-col--3 grd-col--md-6 grd-col--sm-12')]")
-            oblastiSingle = self.driver.find_element_by_xpath("//*[contains(@class,'grd-col grd-col--3 grd-col--md-6 grd-col--sm-12')]")
+            oblastiAll = self.driver.find_elements(By.XPATH, "//*[contains(@class,'grd-col grd-col--3 grd-col--md-6 grd-col--sm-12')]")
+            oblastiSingle = self.driver.find_element(By.XPATH, "//*[contains(@class,'grd-col grd-col--3 grd-col--md-6 grd-col--sm-12')]")
             if oblastiSingle.is_displayed():
                 for WebElement in oblastiAll:
                     jdouvidet = WebElement.is_displayed()
@@ -52,8 +53,8 @@ class TestSDO_D(unittest.TestCase):
 
         try:
             generalDriverWaitImplicit(self.driver)
-            oblHotelyAll = self.driver.find_elements_by_xpath("//*[@class='f_tileGrid-item']")
-            oblHotelySingle = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
+            oblHotelyAll = self.driver.find_elements(By.XPATH, "//*[@class='f_tileGrid-item']")
+            oblHotelySingle = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
             if oblHotelySingle.is_displayed():
                 for WebElement in oblHotelyAll:
                     jdouvidet = WebElement.is_displayed()

@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from starter_master_browserstack import runner_tests_generalized
 from ET.starter_local import *
 import unittest

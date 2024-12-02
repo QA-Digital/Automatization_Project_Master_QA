@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from webdriver_manager.chrome import ChromeDriverManager
@@ -22,7 +23,7 @@ def banner_check_public_prod_VS_deployed_web(driver, URL_prod_public, URL_deploy
     time.sleep(2)
     acceptConsent(driver)
 
-    banneryAll = driver.find_elements_by_xpath(banneryXpath)
+    banneryAll = driver.find_elements(By.XPATH, banneryXpath)
 
     x=0
     pocetNalezenychZajezduElementList_PROD = []
@@ -37,7 +38,7 @@ def banner_check_public_prod_VS_deployed_web(driver, URL_prod_public, URL_deploy
         driver.get(bannerHref)
         #time.sleep(10)
         try:
-            pocetNalezenychZajezduElement_PROD = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+            pocetNalezenychZajezduElement_PROD = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
             pocetNalezenychZajezduElementList_PROD.append(pocetNalezenychZajezduElement_PROD)
             bannerLinks_PROD = driver.current_url
             bannerLinksList_PROD.append(bannerLinks_PROD)
@@ -55,7 +56,7 @@ def banner_check_public_prod_VS_deployed_web(driver, URL_prod_public, URL_deploy
     x = 0
     pocetNalezenychZajezduElementList_DEPLOY = []
     bannerLinksList_DEPLOY = []
-    banneryAll = driver.find_elements_by_xpath(banneryXpath)
+    banneryAll = driver.find_elements(By.XPATH, banneryXpath)
     for _ in banneryAll:
         bannerHref = banneryAll[x].get_attribute("href")
         #print(bannerHref)
@@ -65,7 +66,7 @@ def banner_check_public_prod_VS_deployed_web(driver, URL_prod_public, URL_deploy
         driver.switch_to.window(driver.window_handles[1])
         driver.get(bannerHref)
         try:
-            pocetNalezenychZajezduElement_DEPLOY = driver.find_element_by_xpath(SRL_H1textPocetNalezenychZajezduXpath).text.lower()
+            pocetNalezenychZajezduElement_DEPLOY = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
             pocetNalezenychZajezduElementList_DEPLOY.append(pocetNalezenychZajezduElement_DEPLOY)
             bannerLinks_DEPLOY = driver.current_url
             bannerLinksList_DEPLOY.append(bannerLinks_DEPLOY)
