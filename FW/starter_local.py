@@ -5,6 +5,7 @@ import os
 
 from HTMLTestRunner import HTMLTestRunner
 
+from FW.Detail_HDP import TestDetailHotelu_HDP
 from FW.pobocky import *
 from FW.Detail_D import *
 from FW.Detail_C import *
@@ -235,6 +236,8 @@ def suite_FW_full(url, run_number):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url, run_number=run_number))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani', URL=url, run_number=run_number))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url, run_number=run_number))
+
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url, run_number=run_number))
 
     return suite
 

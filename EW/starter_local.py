@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+
+from EW.Detail_HDP import TestDetailHotelu_HDP
 from EW.pobocky import *
 from EW.Detail_D import *
 from EW.Detail_C import *
@@ -69,6 +71,9 @@ def suite_EW_full(url, run_number):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_motivy', URL=url, run_number=run_number))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_castka_venovani', URL=url, run_number=run_number))
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url, run_number=run_number))
+
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url, run_number=run_number))
+
     return suite
 
 
