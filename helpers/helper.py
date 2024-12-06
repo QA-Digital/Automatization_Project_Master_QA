@@ -857,3 +857,105 @@ class Helpers:
             starterPosition += 1
 
         logger.info("SRL number of results collection completed.")
+
+    @staticmethod
+    def detail_HDP_display_check(driver, sedivkaXpath, logger=None):
+        """
+        Validates the visibility of critical elements on the Hotel Detail Page (HDP) and checks the visibility of the Sedivka element.
+
+        Args:
+            driver: Selenium WebDriver instance.
+            sedivkaXpath: XPath of the Sedivka element to be checked.
+            logger: Optional logger instance for logging actions.
+        """
+
+        # XPaths for the other elements
+        filterStartXpath = "//*[@id='hotelDetailFilterStart']"
+        placeXpath = "//*[@id='hotelDetailPlace']"
+
+        # List of elements and their descriptions
+        elements = [
+            (filterStartXpath, "Filter Start"),
+            (placeXpath, "Place"),
+        ]
+
+        if logger:
+            logger.info(
+                "Starting detail_HDP_display_check to validate the visibility of key elements and the absence of the Sedivka element."
+            )
+        else:
+            print(
+                "Starting detail_HDP_display_check to validate the visibility of key elements and the absence of the Sedivka element.")
+
+        # Loop through elements to check visibility
+        for xpath, description in elements:
+            try:
+                element = driver.find_element(By.XPATH, xpath)
+                driver.execute_script("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", element)
+
+                # Assert that the element is displayed
+                is_displayed = element.is_displayed()
+                assert is_displayed == True, f"Element '{description}' is not displayed on the page."
+
+                # Log the result
+                if logger:
+                    logger.info(f"Assertion passed: The element '{description}' is displayed.")
+                else:
+                    print(f"Assertion passed: The element '{description}' is displayed.")
+
+            except AssertionError as e:
+                if logger:
+                    logger.error(f"Assertion failed: {str(e)}")
+                else:
+                    print(f"Assertion failed: {str(e)}")
+                raise
+            except Exception as e:
+                error_message = f"Error while checking '{description}': {str(e)}"
+                if logger:
+                    logger.error(error_message)
+                else:
+                    print(error_message)
+                raise
+
+        # Check for Sedivka element (should not be displayed)
+        # Check for Sedivka element (should not be displayed)
+        try:
+            sedivka_element = driver.find_element(By.XPATH, sedivkaXpath)
+            is_displayed = sedivka_element.is_displayed()
+
+            # Assert that the Sedivka element is not displayed
+            assert not is_displayed, f"Vyprodana Sedivka element is displayed, which is incorrect."
+
+            # Log the result
+            if logger:
+                logger.info("Assertion passed: Vyprodana Sedivka element is not displayed.")
+            else:
+                print("Assertion passed:Vyprodana  Sedivka element is not displayed.")
+
+        except NoSuchElementException:
+            # Element not found is a good thing in this case
+            if logger:
+                logger.info("Assertion passed: Vyprodana Sedivka element is not present on the page.")
+            else:
+                print("Assertion passed: Vyprodana  Sedivka element is not present on the page.")
+
+        except AssertionError as e:
+            if logger:
+                logger.error(f"Assertion failed: {str(e)}")
+            else:
+                print(f"Assertion failed: {str(e)}")
+            raise
+        except Exception as e:
+            error_message = f"Error while checking Vyprodana Sedivka element: {str(e)}"
+            if logger:
+                logger.error(error_message)
+            else:
+                print(error_message)
+            raise
+
+        # Final log for the function result
+        final_message = "All elements were successfully validated as displayed, and Vyprodana Sedivka element passed the visibility check."
+        if logger:
+            logger.info(final_message)
+        else:
+            print(final_message)
