@@ -229,7 +229,7 @@ def suite_FW_full(url, run_number):
     # suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_lyze', URL=url, run_number=run_number))
     suite.addTest(TestSDO_C('test_SDO_zlutak_to_SRL_R', URL=url, run_number=run_number))
     suite.addTest(TestPobocky_C('test_pobocky_C_click_to_detail_popup_check', URL=url, run_number=run_number))
-    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url, run_number=run_number))
+   # suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky', URL=url, run_number=run_number))
     suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky', URL=url, run_number=run_number))
 

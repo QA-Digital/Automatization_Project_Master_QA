@@ -83,8 +83,9 @@ def setUp(self):
 
   self.test_passed = False
 
-URL = "https://www.exim.cz/"
-URL_local = "https://www.exim.cz/"
+
+URL = "https://exim.web11.dtweb.cz/"
+URL_local = "https://exim.web11.dtweb.cz/"
 #URL_local =  "https://exim.web11.dtweb.cz/"
 #URL_local = "https://exim.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
