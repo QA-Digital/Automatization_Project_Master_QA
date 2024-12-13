@@ -84,8 +84,8 @@ def setUp(self):
   self.test_passed = False
 
 
-URL = "https://exim.web11.dtweb.cz/"
-URL_local = "https://exim.web11.dtweb.cz/"
+URL = "https://www.eximtours.cz/"
+URL_local = "https://www.eximtours.cz/"
 #URL_local =  "https://exim.web11.dtweb.cz/"
 #URL_local = "https://exim.stg.dtweb.cz/"
 URL_poznavacky = "poznavaci-zajezdy"
@@ -99,6 +99,8 @@ URL_detail_old = "/egypt/hurghada/hurghada/egypt-plavba-po-nilu-s-pobytem-u-rude
 URL_detail_HDP = "/kapverdske-ostrovy/sal/santa-maria-sal/royal-horizon-ponta-sino?DS=8192&GIATA=0&D=63715%7C63716%7C63717%7C63718%7C63719%7C63720%7C63721%7C63722%7C63723%7C63724&HID=150197&MT=5&DI=AI&RC=DR01&RCS=DR01&NN=7&DF=2025-10-01%7C2025-10-26&RD=2025-10-22&DD=2025-10-14&ERM=0&AC1=2&KC1=1&KA1=2&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=SID90013&DPR=EXIM+TOURS+ATCOM&ILM=0&IFM=0&PC=39123379%2F2%2F2113%2F7&IFC=89742296%2F342641&OFC=89741414%2F342640"
 URL_detail_HDP_no_parameters = "/tunisko/pevnina/mahdia/nour-palace"
 URL_detail_HDP_DX_two_rooms = "/hotely/egypt/egypt-hurghada/hurghada/minamark?DS=2&GIATA=17487&D=64419&HID=145043&MT=5&DI=GT06-AI&RC=RMCLDB0000&RCS=RMCLDB0000%7CRMCLDB0000&RT=0&NN=7&DF=2025-07-01%7C2025-08-31&RD=2025-08-31&DD=2025-08-24&ERM=0&AC1=2&KC1=0&IC1=0&AC2=2&KC2=0&IC2=0&DP=3789&TO=3789&TOM=3789&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=AEGHRG10SU&DPR=OTSCKF&ILM=0&IFM=0&PC=7-RMCLDB0000-GT06-AI-RMCLDB0000-GT06-AI&IFC=0-HRGVIE-7101-DT31-08-07-20-F&OFC=0-VIEHRG-7102-DT24-08-11-35-F"
+URL_detail_HDP_DX_no_parameters = "/hotely/spojene-arabske-emiraty/dubaj/dubaj/four-points-by-sheraton-downtown?DS=2&GIATA=90281&D=64087%7C64094%7C64089%7C64090%7C64091%7C64086%7C64092&HID=141883&MT=6&DI=GT06-AO&RC=RMCSK10000&RCS=RMCSK10000&RT=0&NN=7&DF=2025-09-30%7C2025-10-31&RD=2025-10-07&DD=2025-09-30&ERM=0&AC1=1&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=AAEDXB1WIG&DPR=OTSCKF&ILM=0&IFM=0&PC=7-RMCSK10000-GT06-AO&IFC=1-DXBPRG-631-DXB-DT07-10-00-50-K-LH-1392-FRA-DT07-10-00-50-K-LH&OFC=1-PRGDXB-1395-PRG-DT30-09-11-40-L-LH-630-FRA-DT30-09-11-40-L-LH"
+URL_detail_HDP_DS256_no_parameters = "/tunisko/pevnina/port-el-kantaoui/el-mouradi-selima"
 URL_SRL = "/vysledky-vyhledavani?ac1=2&d=64419|64420|64423|64425&dd=2025-03-01&nn=7|8|9|10|11|12|13|14&rd=2025-04-30&to=4312|4305|2682|4308&tt=1"
 URL_covidInfo = "covid-info"
 URL_FM = "first-minute"

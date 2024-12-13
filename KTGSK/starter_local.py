@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+from KTGSK.Detail_HDP import TestDetailHotelu_HDP
 from KTGSK.pobocky import *
 from KTGSK.Detail_D import *
 from KTGSK.Detail_C import *
@@ -50,6 +51,13 @@ def suite_KTGSK_full(url):
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
     #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_DX_two_rooms_change_one_not_available_gg', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_default', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DX', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DS256', URL=url))
+
     return suite
 
 

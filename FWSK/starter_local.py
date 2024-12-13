@@ -18,6 +18,8 @@ from FWSK.HP_C import *
 import HtmlTestRunner
 import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
 from FWSK.SRL_results_comparer import *
+from KTGSK.Detail_HDP import TestDetailHotelu_HDP
+
 
 def suite_FWSK_full(url):
     suite = unittest.TestSuite()
@@ -53,6 +55,13 @@ def suite_FWSK_full(url):
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
     #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_DX_two_rooms_change_one_not_available_gg', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_default', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DX', URL=url))
+    suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DS65536', URL=url))
+
     return suite
 
 

@@ -134,8 +134,8 @@ def setUp(self):
 
 #URL_local = "https://fischer.stg.dtweb.cz/"
 
-URL_local = "https://fischer.web1.dtweb.cz/"
-URL = "https://fischer.web1.dtweb.cz/"
+URL_local = "https://www.fischer.cz"
+URL = "https://www.fischer.cz"
 
 
 
@@ -151,8 +151,8 @@ URL_detail_old = "/velka-britanie/anglie/londyn/londyn-letecke-vikendy?AC1=2&D=6
 URL_detail_HDP = "/kapverdy/kapverdy/boa-vista/oasis-white-hotel?DS=256&GIATA=0&D=63715%7C63716%7C63717%7C63718%7C63719%7C63720%7C63721%7C63722%7C63723%7C63724&HID=157738&MT=1&DI=BB&RC=DR01&RCS=DR01&NN=7&DF=2025-10-06%7C2025-10-31&RD=2025-10-22&DD=2025-10-14&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=BVC90007&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=32313568%2F2%2F2113%2F7&IFC=84728266%2F320636&OFC=84727642%2F320635"
 URL_detail_HDP_no_parameters = "/egypt/egypt-hurghada/makadi-bay/siva-golden-bay-makadi"
 URL_detail_HDP_DX_two_rooms = "/hotely/egypt/egypt-hurghada/makadi-bay/lemon-a-soul-makadi-garden?DS=2&GIATA=391231&D=64419&HID=160277&MT=5&DI=GT06-AI&RC=RMSD00GV00&RCS=RMSD00GV00%7CRMSD00GV00&RT=0&NN=7&DF=2025-07-01%7C2025-08-31&RD=2025-08-31&DD=2025-08-31&ERM=0&AC1=2&KC1=0&IC1=0&AC2=2&KC2=0&IC2=0&DP=3789&TO=3789&TOM=3789&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=AEGHRG4HOI&DPR=OTSCKF&ILM=0&IFM=0&PC=7-RMSD00GV00-GT06-AI-RMSD00GV00-GT06-AI&IFC=0-HRGVIE-7101-DT07-09-07-20-F&OFC=0-VIEHRG-7102-DT31-08-11-35-F"
-
-
+URL_detail_HDP_DX_no_parameters = "/hotely/recko/kreta/chersonisos/agrabella-hotel"
+URL_detail_HDP_DS8192_no_parameters = "/egypt/egypt-hurghada/soma-bay/coral-sun"
 URL_SRL = "/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1"
 URL_covidInfo = "covid-info"
 URL_kluby = "/kluby/funtazie-leto"

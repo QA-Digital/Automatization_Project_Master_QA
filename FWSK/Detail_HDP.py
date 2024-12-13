@@ -1,4 +1,5 @@
-from FWSK.to_import import acceptConsent, setUp, tearDown, URL_local, URL_detail_HDP
+from FWSK.to_import import acceptConsent, setUp, tearDown, URL_local, URL_detail_HDP, \
+    URL_detail_HDP_DS65536_no_parameters, URL_detail_HDP_DX_no_parameters, URL_detail_HDP_no_parameters
 import time
 import unittest
 
@@ -82,3 +83,29 @@ class TestDetailHotelu_HDP(unittest.TestCase):
 
         Helpers.detail_HDP_display_check(self.driver, vyprodanoSedivkaXpath, self.logger)
 
+    def test_HDP_URL_no_parameters_default(self):
+        self.driver.maximize_window()
+        URL_detail_nopara = f"{self.URL}{URL_detail_HDP_no_parameters}"
+        self.driver.get(URL_detail_nopara)
+        time.sleep(3.33)
+        acceptConsent(self.driver)
+        time.sleep(4)
+        Helpers.detail_HDP_display_check(self.driver, vyprodanoSedivkaXpath, self.logger)
+
+    def test_HDP_URL_no_parameters_DX(self):
+        self.driver.maximize_window()
+        URL_detail_nopara_DX = f"{self.URL}{URL_detail_HDP_DX_no_parameters}"
+        self.driver.get(URL_detail_nopara_DX)
+        time.sleep(3.33)
+        acceptConsent(self.driver)
+        time.sleep(4)
+        Helpers.detail_HDP_display_check(self.driver, vyprodanoSedivkaXpath, self.logger)
+
+    def test_HDP_URL_no_parameters_DS65536(self):
+        self.driver.maximize_window()
+        URL_detail_nopara_DX = f"{self.URL}{URL_detail_HDP_DS65536_no_parameters}"
+        self.driver.get(URL_detail_nopara_DX)
+        time.sleep(3.33)
+        acceptConsent(self.driver)
+        time.sleep(4)
+        Helpers.detail_HDP_display_check(self.driver, vyprodanoSedivkaXpath, self.logger)
