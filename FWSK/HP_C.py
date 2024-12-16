@@ -19,9 +19,9 @@ HPkamPojedeteButtonXpath = "//*[contains(text(), 'Kam cestujete?')]"
 HPzlutakReckoDestinaceXpath = "//*[@value='st67']"
 #HPzlutakReckoDestinaceXpath = "/html/body[@id='homepage']/header[@class='f_pageHeader js_header f_set--filterOpened']/div[@class='f_pageHeader-content']/div[@class='f_pageHeader-item f_pageHeader-item--holder']/div/div[@class='f_filterMainSearch']/div/div[2]/span/div[@class='f_filterHolder f_set--active']/div[@class='f_filterHolder-content']/div[@class='f_filter f_filter--destination']/div[@class='f_customScroll js_destinationsContent']/div[1]/div[@class='f_column']/div[@class='f_column-item'][1]/div[@class='f_list']/div[@class='f_list-item'][1]/div[@class='f_input-wrapper']/label[@class='f_input f_input--checkbox']/span[@class='f_input-content']"
 HPzlutakPokracovatButtonXpath = "//*[contains(text(), 'Pokračovať')]"
-HPzlutakPokracovatButtonXpathStep2 = "/html/body/header/div/div[2]/div/div/div/div/div[3]/div[2]/div[3]/div[2]/a/span"
-HPzlutakLetniPrazdninyXpath = "//*[@class='f_filter-item']//*[contains(text(), 'September')]"
-HPzlutakPokracovatButtonXpathStep3 ="/html/body/header/div/div[2]/div/div/div/div/div[3]/div[3]/div[3]/div[2]/a/span"
+HPzlutakPokracovatButtonXpathStep2 = "//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovať')]"
+HPzlutakLetniPrazdninyXpath = "//*[@class='f_filter-item']//*[contains(text(), 'Leto 2025')]"
+HPzlutakPokracovatButtonXpathStep3 ="//div[@class='f_filterHolder js_filterHolder f_set--active']//span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right'][contains(text(),'Pokračovať')]"
 HPzlutakPridatPokojXpath = "//*[contains(text(), 'přidat pokoj')]"
 HPzlutakObsazenost2plus1Xpath = "//*[contains(text(), 'Rodina 2+1')]"
 HPzlutakPotvrditAvyhledatXpath = "//*[@class='f_button f_button--common'] //*[contains(text(), 'Potvrdiť a vyhľadať')]"
@@ -81,8 +81,6 @@ class Test_HP_C(unittest.TestCase):
         time.sleep(0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-
-        #HPzlutakPokracovatButtonXpathStep3 = "/html/body/header/div/div[2]/div/div/div/div[2]/div[3]/div[3]/div[2]/a/span"
 
         hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath, HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
                          ,HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath, HPzlutakPotvrditAvyhledatXpath )

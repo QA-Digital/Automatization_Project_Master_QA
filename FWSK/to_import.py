@@ -87,12 +87,11 @@ def setUp(self):
 
   self.test_passed = False
 
+URL_local =  "https://fischersk.web2.dtweb.cz/"
+URL = "https://fischersk.web2.dtweb.cz/"
 
-# URL_local =  "https://fischersk.stg.dtweb.cz/"
-# URL = "https://fischersk.stg.dtweb.cz/"
-
-URL_local =  "https://fischer.sk/"
-URL = "https://fischer.sk/"
+#URL_local =  "https://fischer.sk/"
+#URL = "https://fischer.sk/"
 
 URL_poznavacky = "poznavacie-zajazdy/okruhy-a-kombinovane"
 URL_poznavacky_vikendy = "poznavacie-zajazdy/predlzene-vikendy"

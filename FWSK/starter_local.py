@@ -18,7 +18,7 @@ from FWSK.HP_C import *
 import HtmlTestRunner
 import HTMLTestRunner   as   HtmlTestRunner  ##at office PC gotta be set up like that (???)
 from FWSK.SRL_results_comparer import *
-from KTGSK.Detail_HDP import TestDetailHotelu_HDP
+from FWSK.Detail_HDP import TestDetailHotelu_HDP
 
 
 def suite_FWSK_full(url):
