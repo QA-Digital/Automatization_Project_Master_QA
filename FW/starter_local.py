@@ -238,8 +238,8 @@ def suite_FW_full(url, run_number):
     suite.addTest(Test_darkove_poukazy('test_darkove_poukazy_purchase', URL=url, run_number=run_number))
 
     suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url, run_number=run_number))
-    suite.addTest(
-        TestDetailHotelu_HDP('test_HDP_DX_two_rooms_change_one_not_available_gg', URL=url, run_number=run_number))
+    #suite.addTest(
+     #   TestDetailHotelu_HDP('test_HDP_DX_two_rooms_change_one_not_available_gg', URL=url, run_number=run_number)) #neni detail
     suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_default', URL=url, run_number=run_number))
     suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DX', URL=url, run_number=run_number))
     suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DS8192', URL=url, run_number=run_number))
