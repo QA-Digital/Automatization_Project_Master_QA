@@ -146,7 +146,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(6.5)
         HPzlutakBrezenDubenXpath = "//*[contains(text(), 'Březen / Duben 2025')]"
-        destinacetXpath = "//*[@value='st63178']"
+        destinacetXpath = "//*[@value='st63147']"
         HPzlutakObsazenost2Xpath = "//*[contains(text(), 'Pár')]"
         self.driver.find_element(By.XPATH, poznavackyVeFiltruSwitchXpath).click()
 
