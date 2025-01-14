@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from selenium import webdriver
 from to_import_secret_master import comandExecutor, emailPass
 
-queryListOptimizedMonitor = ["Zanzibar", "Řecko", "Turecko", "Egypt", "Kapverdy", "Oman" , "Kefalonia","Dominikánská republika" , "Porto Skala 7", "Doubletree"]
+queryListOptimizedMonitor = ["Zanzibar", "Řecko", "Turecko", "Egypt", "Kapverdy", "Oman" , "Kefalonia","Dominikánská republika" , "letenky", "Doubletree"]
 
 def sendEmail(msg):
   fromx = 'alertserverproblem@gmail.com'
