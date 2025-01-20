@@ -128,10 +128,10 @@ def setUp(self):
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
 
 
-#URL_local = "https://www.fischer.cz/"
-#URL = "https://www.fischer.cz/"
-URL = "https://fischer.web2.dtweb.cz/"
-URL_local = "https://fischer.web2.dtweb.cz/"
+URL_local = "https://www.fischer.cz/"
+URL = "https://www.fischer.cz/"
+# URL = "https://fischer.web2.dtweb.cz/"
+# URL_local = "https://fischer.web2.dtweb.cz/"
 
 
 #URL = "https://www.fischer.cz/"
@@ -152,7 +152,7 @@ URL_detail_HDP_no_parameters = "/egypt/egypt-hurghada/makadi-bay/siva-golden-bay
 URL_detail_HDP_DX_two_rooms = "/hotely/egypt/egypt-hurghada/makadi-bay/lemon-a-soul-makadi-garden?DS=2&GIATA=391231&D=64419&HID=160277&DI=GT06-AI&RCS=RMSD00GV00%7CRMSD00GV00&DF=2025-01-07%7C2025-11-07&RD=2025-02-18&DD=2025-02-18&ERM=0&AC1=2&KC1=0&IC1=0&AC2=2&KC2=0&IC2=0&TO=1091&TOM=1091&MNN=7&NNM=7&TT=0&PID=AEGHRG4HOI&DPR=OTSCKF&PC=7-RMSD00GV00-GT06-AI-RMSD00GV00-GT06-AI&IFC=0-HRGFRA-2942-DT25-02-10-00-&OFC=0-FRAHRG-2943-DT18-02-14-50-"
 URL_detail_HDP_DX_no_parameters = "/hotely/recko/kreta/chersonisos/agrabella-hotel"
 URL_detail_HDP_DS8192_no_parameters = "/egypt/egypt-hurghada/soma-bay/coral-sun"
-URL_SRL = "/vysledky-vyhledavani?ac1=2&d=622|1086|590|726|670|680|621|669|1009|1010|1108|611|610|609|953|612&dd=2024-06-11&ic1=1&nn=7|8|9|10|11|12|13|14&rd=2024-07-31&to=4312|4305|2682|4308&tt=1"
+URL_SRL = "/vysledky-vyhledavani?ac1=3&d=64086|64087|64089|64090|64091|64092|64093|64094|64095|64096&dd=2025-08-02&ds=0&ifm=0&ilm=0&ka1=10|6&kc1=2&nn=7|8|9|10|11|12|13|14&rd=2025-09-30&sc=residential&to=4312|4305|2682|4308|4392|4309&tt=1"
 URL_covidInfo = "covid-info"
 URL_kluby = "/kluby/funtazie-leto"
 URL_fmExotika = "first-minute/exotika-zima"

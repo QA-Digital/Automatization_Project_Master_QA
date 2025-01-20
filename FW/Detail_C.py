@@ -156,8 +156,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(10)
-        imageDetailXpath = '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img'
-        # imageDetail = self.driver.find_element(By.XPATH,  "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
+        imageDetailXpath = '/html[1]/body[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/swiper-container[1]/swiper-slide[1]/img[1]'
         imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
         try:

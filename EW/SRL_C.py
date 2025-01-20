@@ -53,7 +53,7 @@ class Test_SRL_C(unittest.TestCase):
         self.driver.get(URL_SRL_lp)
         time.sleep(2)
         acceptConsent(self.driver)
-        time.sleep(2)
+        time.sleep(3.5)
 
 
         typeOfSort = "expensive"
@@ -67,7 +67,7 @@ class Test_SRL_C(unittest.TestCase):
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
         acceptConsent(self.driver)
-        time.sleep(2)
+        time.sleep(3.5)
         generalDriverWaitImplicit(self.driver)
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
         #zobrazitNaMape.click()
