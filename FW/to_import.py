@@ -128,12 +128,12 @@ def setUp(self):
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
 
 
-
-#URL = "https://www.fischer.cz/"
-URL = "https://fischer.stg.dtweb.cz/"
-URL_local = "https://fischer.stg.dtweb.cz/"
-
 #URL_local = "https://www.fischer.cz/"
+#URL = "https://www.fischer.cz/"
+URL = "https://fischer.web2.dtweb.cz/"
+URL_local = "https://fischer.web2.dtweb.cz/"
+
+
 #URL = "https://www.fischer.cz/"
 
 
