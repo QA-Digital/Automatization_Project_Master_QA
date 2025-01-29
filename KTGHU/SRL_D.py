@@ -6,6 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 import time
 
+from helpers.helper import Helpers
+
 SRLhotelyKartyXpath = "//*[@class='f_searchResult-content-item relative']"
 SRLcenyHoteluXpath = "//*[@class='f_price']"
 SRLfotkaHoteluXpath = "//*[@class='f_tileGallery']"
@@ -117,15 +119,10 @@ class TestSRL_D(unittest.TestCase):
         tearDown(self)
 
     def test_SRL_D(self):
-        wait = WebDriverWait(self.driver, 150000)
         self.driver.maximize_window()
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
-
-        time.sleep(0.44)
+        time.sleep(0.4)
         acceptConsent(self.driver)
-
-        self.driver.implicitly_wait(100)
-        SRL_D(self, self.driver)
-
+        Helpers.search_results_list_check(self.driver, self.logger)
         self.test_passed = True

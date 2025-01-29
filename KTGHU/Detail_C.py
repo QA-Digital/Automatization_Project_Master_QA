@@ -50,7 +50,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(1)
         closeExponeaBanner(self.driver)
         #imageDetailXpath = '//*[@id="pageContent"]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[3]/swiper-container/swiper-slide[1]/img'
-        imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/swiper-container/swiper-slide[1]/img"
+        imageDetailXpath = "//swiper-slide[@aria-label='1 / 48']//img"
         #imageDetail = self.driver.find_element(By.XPATH, "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)
         imageDetailSrc = imageDetail.get_attribute("src")
@@ -79,7 +79,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         self.driver.maximize_window()
         time.sleep(1)
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         stravovaniBoxXpath = "//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--cutlery']"
 
@@ -231,7 +232,8 @@ class TestDetailHotelu_C(unittest.TestCase):
     def test_detail_terminy_filtr_airport(self):
 
         self.driver.maximize_window()
-        self.driver.get(URL_detail)
+        URL_detail_lp = f"{self.URL}{URL_detail}"
+        self.driver.get(URL_detail_lp)
 
         time.sleep(1)
         acceptConsent(self.driver)

@@ -8,10 +8,10 @@ from webdriver_manager.opera import OperaDriverManager
 
 from definitions import EDGE_DRIVER_PATH
 
-URL = "https://kartagohu.stg.dtweb.cz/"
-URL_local = "https://kartagohu.stg.dtweb.cz/"
+URL = "https://kartagohu.web1.dtweb.cz/"
+URL_local = "https://kartagohu.web1.dtweb.cz/"
 URL_pobocky = "irodaink"
-URL_detail = "/egyiptom/hurghada/makadi-bay/prima-life-makadi-resort-and-spa?AC1=2&D=64419|64420|64421|64422|64423|64424|64425|64426&DD=2024-10-02&DI=AE&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=77592&HID=9193&IC1=1&IFC=45774792%2F207929&IFM=0&ILM=0&KA1=11&KC1=1&MNN=7&MT=5&NN=7&OFC=45774461%2F207928&PC=10525827%2F2%2F1736%2F7&PID=HRG20068&RC=DR01&RD=2024-10-09&TO=489|4371&acm1=2&df=2024-10-01|2024-10-31&icm1=0&kam1=11&kcm1=1&nnm=7|8|9|10&ptm=0&tt=1&ttm=1#/prehled"
+URL_detail = "/egyiptom/hurghada/makadi-bay/prima-life-makadi-resort-and-spa?AC1=2&D=64423|64419|64420|64425&DD=2025-06-11&DI=AE&DP=489&DPR=KARTAGO-HU-ATCOM&DS=65536&GIATA=77592&HID=9193&IC1=1&IFC=100161496%2F386465&IFM=0&ILM=0&KA1=6&KC1=1&MNN=7&MT=5&NN=7&OFC=100161133%2F386464&PC=10525827%2F2%2F1988%2F7&PID=HRG20068&RC=DR01&RCS=DR01&RD=2025-06-18&TO=489|4371&acm1=2&df=2025-06-01|2025-07-31&icm1=1&kam1=6&kcm1=1&nnm=7|8|9|10|11|12|13|14&ptm=0&tt=1&ttm=1#/prehled"
 URL_SRL = "/keresesi-eredmenyek?ac1=2&d=64419|64420|64421|64422|64423|64424|64425|64426&dd=2024-10-01&ic1=1&ka1=11&kc1=1&nn=7|8|9|10&rd=2024-10-31&to=489|4371&tt=1"
 URL_covidInfo = "covid-info"
 URL_FM = "first-minute"
@@ -19,7 +19,7 @@ URL_faq = "faq"
 URL_lm = "last-minute"
 URL_stat = "egyiptom"
 URL_groupsearch = "keresesi-eredmenyek?tt=1&to=489&dd=2022-09-01&rd=2022-10-31"
-URL_FT_results = "hledani-vysledky?q="
+URL_FT_results = "/kereses?q="
 
 
 import time
