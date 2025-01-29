@@ -102,7 +102,7 @@ class TestSRL_D(unittest.TestCase):
         URL_SRL_lp = f"{self.URL}{URL_SRL}"
         self.driver.get(URL_SRL_lp)
 
-        time.sleep(2.44)
+        time.sleep(3.44)
         acceptConsent(self.driver)
 
         time.sleep(4)
