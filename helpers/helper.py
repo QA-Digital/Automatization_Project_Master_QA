@@ -804,59 +804,48 @@ class Helpers:
 
         global pocet_vysledku_list_default
         pocet_vysledku_list_default = []
-
         global checked_URLs_list_default
         checked_URLs_list_default = []
 
         global pocet_vysledku_list_dev
         pocet_vysledku_list_dev = []
-
         global checked_URLs_list_dev
         checked_URLs_list_dev = []
 
-        listPosition = 0
-        for _ in URL_parameters_list:
-            linkActualUrl = URL_default + URL_parameters_list[listPosition]
-            time.sleep(3)
-            driver.get(linkActualUrl)
-            time.sleep(3)
-            SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-            pocetNalezenychZajezduElement = driver.find_element(By.XPATH, SRL_H1textPocetNalezenychZajezduXpath).text.lower()
-            pocet_vysledku_list_default.append(pocetNalezenychZajezduElement)
-            checked_URLs_list_default.append(linkActualUrl)
-            listPosition += 1
+        SRL_H1_XPATH = "//h1"
 
-        listPosition = 0
-        for _ in URL_parameters_list:
-            linkActualUrl = URL_dev + URL_parameters_list[listPosition]
+        def get_results_count(url):
+            """Fetches the number of results from the given URL."""
+            driver.get(url)
             time.sleep(3)
-            driver.get(linkActualUrl)
-            SRL_H1textPocetNalezenychZajezduXpath = "//h1"
-            pocetNalezenychZajezduElement = driver.find_element_by_xpath(
-                SRL_H1textPocetNalezenychZajezduXpath).text.lower()
-            pocet_vysledku_list_dev.append(pocetNalezenychZajezduElement)
-            checked_URLs_list_dev.append(linkActualUrl)
-            listPosition += 1
+            try:
+                return driver.find_element(By.XPATH, SRL_H1_XPATH).text.lower()
+            except NoSuchElementException:
+                return "0"
 
-        starterPosition = 0
-        url_point = 2
-        for _ in pocet_vysledku_list_default:
-            if pocet_vysledku_list_default[starterPosition] == pocet_vysledku_list_dev[starterPosition]:
-                logger.info(pocet_vysledku_list_default[starterPosition])
-                logger.info(pocet_vysledku_list_dev[starterPosition])
-                logger.info(checked_URLs_list_default[starterPosition])
-                logger.info(checked_URLs_list_dev[starterPosition])
+        for param in URL_parameters_list:
+            url_default = URL_default + param
+            url_dev = URL_dev + param
+
+            checked_URLs_list_default.append(url_default)
+            checked_URLs_list_dev.append(url_dev)
+
+            pocet_vysledku_list_default.append(get_results_count(url_default))
+            pocet_vysledku_list_dev.append(get_results_count(url_dev))
+
+        for index, (default_result, dev_result) in enumerate(zip(pocet_vysledku_list_default, pocet_vysledku_list_dev),
+                                                             start=2):
+            if default_result == dev_result:
+                logger.info(
+                    f"{default_result}\n{dev_result}\n{checked_URLs_list_default[index - 2]}\n{checked_URLs_list_dev[index - 2]}")
             else:
-                logger.warning(pocet_vysledku_list_default[starterPosition])
-                logger.warning(pocet_vysledku_list_dev[starterPosition])
-                logger.warning(checked_URLs_list_default[starterPosition])
-                logger.warning(checked_URLs_list_dev[starterPosition])
+                logger.warning(
+                    f"{default_result}\n{dev_result}\n{checked_URLs_list_default[index - 2]}\n{checked_URLs_list_dev[index - 2]}")
 
-            logger.info("URL number " + str(url_point))
-            url_point += 1
-            starterPosition += 1
+            logger.info(f"URL number {index}")
 
-        logger.info("SRL number of results collection completed.")
+        (logger.info("SRL number of results collection completed."))
+
 
     @staticmethod
     def detail_HDP_display_check(driver, sedivkaXpath, logger=None):

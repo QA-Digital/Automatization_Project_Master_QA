@@ -10,6 +10,8 @@ from EW.SRL_D import SRL_D
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 from helpers.helper import Helpers
 
+from FW.SRL_results_comparer import destinations, airports, generate_srl_urls
+
 URL_public_prod = "https://eximtours.cz"
 from datetime import datetime
 current_date = datetime.now().strftime('%Y-%m-%d')
@@ -78,10 +80,10 @@ URL_SRL_EW31 = "/vysledky-vyhledavani?ac1=3&ac2=4&d=63484|63483|64419|64420|6442
 
 URL_SRL_EW32 = "/vysledky-vyhledavani?ac1=1&ac2=4&d=64419|64420|64425|63252|63447|211801|211814|63260|63448&dd=2024-09-15&ic1=1&ic2=1&ka1=5|16&ka2=7|11&kc1=2&kc2=2&nn=7|8|9|10|11|12|13|14&rd=2024-10-31&to=4312|4305|2682|4308|4392|4309|298|874|892|983|1091|1293|1956|2397|2563|3352|483|1837|2933|3437|3248&tt=1"
 
-URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_EW5, URL_SRL_EW6, URL_SRL_EW7, URL_SRL_EW8, URL_SRL_EW9, URL_SRL_EW10, URL_SRL_EW11, URL_SRL_EW12, URL_SRL_EW13, URL_SRL_EW14, URL_SRL_EW15, URL_SRL_EW16, URL_SRL_EW17, URL_SRL_EW18, URL_SRL_EW19, URL_SRL_EW20, URL_SRL_EW21, URL_SRL_EW22, URL_SRL_EW23,
-                    URL_SRL_EW24, URL_SRL_EW25, URL_SRL_EW26, URL_SRL_EW27, URL_SRL_EW28, URL_SRL_EW29, URL_SRL_EW30, URL_SRL_EW31, URL_SRL_EW32 ]
+# URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_EW5, URL_SRL_EW6, URL_SRL_EW7, URL_SRL_EW8, URL_SRL_EW9, URL_SRL_EW10, URL_SRL_EW11, URL_SRL_EW12, URL_SRL_EW13, URL_SRL_EW14, URL_SRL_EW15, URL_SRL_EW16, URL_SRL_EW17, URL_SRL_EW18, URL_SRL_EW19, URL_SRL_EW20, URL_SRL_EW21, URL_SRL_EW22, URL_SRL_EW23,
+#                     URL_SRL_EW24, URL_SRL_EW25, URL_SRL_EW26, URL_SRL_EW27, URL_SRL_EW28, URL_SRL_EW29, URL_SRL_EW30, URL_SRL_EW31, URL_SRL_EW32 ]
 
-
+URL_SRLs_list_EW = generate_srl_urls(destinations,airports, 25)
 from EW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
