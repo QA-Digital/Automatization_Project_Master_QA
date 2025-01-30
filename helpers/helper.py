@@ -199,7 +199,7 @@ class Helpers:
             rozbal = driver.find_element(By.XPATH, "//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
             driver.execute_script("arguments[0].click();", rozbal)
-            time.sleep(2)
+            time.sleep(5)
 
             if logger:
                 logger.info("Successfully clicked to expand FM/LM tour section.")
