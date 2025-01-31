@@ -180,8 +180,8 @@ class Test_HP_C(unittest.TestCase):
                                  , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                                  HPzlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)
-        #Helpers.search_results_list_check(self.driver, self.logger)
-        Helpers.group_search_check(self.driver, self.logger)
+        Helpers.search_results_list_check(self.driver, self.logger)
+        #Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):

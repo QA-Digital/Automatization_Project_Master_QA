@@ -187,7 +187,7 @@ class Helpers:
 
         wait = WebDriverWait(driver, 150)  # Adjusted wait time to a more reasonable limit (seconds).
         driver.implicitly_wait(10)
-
+        time.sleep(2.5)
         # Log start of FM/LM tour expansion check
         if logger:
             logger.info("Starting FM/LM tour expansion check.")
@@ -196,6 +196,7 @@ class Helpers:
 
         try:
             # Find and click the "expand" button for FM/LM tours
+            time.sleep(5)
             rozbal = driver.find_element(By.XPATH, "//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
             driver.execute_script("arguments[0].click();", rozbal)

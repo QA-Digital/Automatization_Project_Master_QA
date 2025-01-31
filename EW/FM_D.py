@@ -28,7 +28,7 @@ class TestFM_D(unittest.TestCase):
         self.driver.get(URL_FM_lp)
         wait = WebDriverWait(self.driver, 150)
         self.driver.maximize_window()
-        time.sleep(2)
+        time.sleep(3.5)
         acceptConsent(self.driver)
         time.sleep(1.5)
 
