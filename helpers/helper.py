@@ -1,3 +1,6 @@
+import random
+from datetime import datetime, timedelta
+
 from selenium.webdriver.common.by import By
 # sorting_utilities.py
 import time
@@ -949,3 +952,92 @@ class Helpers:
             logger.info(final_message)
         else:
             print(final_message)
+
+    @staticmethod
+    def generate_srl_urls(base_url, destinations, airports, num_urls, logger=None):
+        """
+        Generate a specified number of SRL URLs with randomly selected parameters, including room occupancies.
+
+        Args:
+            base_url (str): The base URL for search results.
+            destinations (list): List of available destination codes.
+            airports (list): List of available airport codes.
+            num_urls (int): Number of URLs to generate.
+            logger (logging.Logger, optional): Logger instance for logging the process.
+
+        Returns:
+            list: Generated URLs.
+        """
+        # Fixed static airport choices
+        ##destinations a aiports vyvozene z cz webu
+
+        static_airports = ["4312", "4305", "2682", "4308", "4392", "430"]
+
+        urls = []
+
+        for index in range(num_urls):
+            # Select 13 random destinations
+            selected_destinations = random.sample(destinations, 13)
+
+            # Select 3-5 random airports
+            selected_airports = random.sample(airports, random.randint(3, 5))
+
+            # Select 2 random static airports and add them to the selected list
+            selected_static_airports = random.sample(static_airports, 2)
+            selected_airports.extend(selected_static_airports)
+
+            # Get the current date
+            current_date = datetime.now().strftime('%Y-%m-%d')
+
+            # Select a random departure date between 1 to 8 months from now
+            start_date = datetime.now() + timedelta(days=random.randint(30, 240))
+            start_date_str = start_date.strftime('%Y-%m-%d')
+
+            # Select a return date at least 3 weeks and at most 2 months after the start date
+            end_date = start_date + timedelta(days=random.randint(21, 60))
+            end_date_str = end_date.strftime('%Y-%m-%d')
+
+            # Decide the number of rooms (1 or 2)
+            num_rooms = random.randint(1, 2)
+
+            # Generate room occupancy details
+            room_params = []
+            for i in range(1, num_rooms + 1):
+                adults = random.randint(1, 4)  # Max 4 adults per room
+                total_kids = random.randint(0, 6 - adults)  # Remaining capacity for kids
+
+                infants = random.randint(0, min(total_kids, 2))  # Max 2 infants
+                kids = total_kids - infants  # Remaining are normal kids
+
+                # Generate age groups for kids (3-14 years old)
+                kids_ages = [random.randint(3, 14) for _ in range(kids)]
+
+                # Construct room parameters
+                room_param = f"ac{i}={adults}"
+                if infants > 0:
+                    room_param += f"&ic{i}={infants}"
+                if kids > 0:
+                    room_param += f"&ka{i}=" + "|".join(map(str, kids_ages))
+                    room_param += f"&kc{i}={kids}"
+
+                room_params.append(room_param)
+
+            # Construct the final URL
+            url = (f"{base_url}?d=" + "|".join(map(str, selected_destinations)) +
+                   f"&dd={start_date_str}&nn=7|8|9|10|11|12|13|14&rd={end_date_str}" +
+                   f"&to=" + "|".join(map(str, selected_airports)) + "&tt=1" +
+                   "&" + "&".join(room_params))  # Append room details
+
+            urls.append(url)
+
+            # Logging the generated parameters
+            if logger:
+                logger.info(f"Generated URL {index + 1}: {url}")
+                logger.info(f"Destinations: {selected_destinations}")
+                logger.info(f"Selected Airports: {selected_airports}")
+                logger.info(f"Departure Date: {start_date_str}, Return Date: {end_date_str}")
+                logger.info(f"Room Parameters: {room_params}")
+
+        return urls
+
+
