@@ -10,7 +10,7 @@ from EW.SRL_D import SRL_D
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
 from helpers.helper import Helpers
 
-from FW.SRL_results_comparer import destinations, airports, generate_srl_urls
+from FW.SRL_results_comparer import destinations, airports
 
 URL_public_prod = "https://eximtours.cz"
 from datetime import datetime
@@ -83,7 +83,9 @@ URL_SRL_EW32 = "/vysledky-vyhledavani?ac1=1&ac2=4&d=64419|64420|64425|63252|6344
 # URL_SRLs_list_EW = [URL_SRL_EW1, URL_SRL_EW2, URL_SRL_EW3, URL_SRL_EW4, URL_SRL_EW5, URL_SRL_EW6, URL_SRL_EW7, URL_SRL_EW8, URL_SRL_EW9, URL_SRL_EW10, URL_SRL_EW11, URL_SRL_EW12, URL_SRL_EW13, URL_SRL_EW14, URL_SRL_EW15, URL_SRL_EW16, URL_SRL_EW17, URL_SRL_EW18, URL_SRL_EW19, URL_SRL_EW20, URL_SRL_EW21, URL_SRL_EW22, URL_SRL_EW23,
 #                     URL_SRL_EW24, URL_SRL_EW25, URL_SRL_EW26, URL_SRL_EW27, URL_SRL_EW28, URL_SRL_EW29, URL_SRL_EW30, URL_SRL_EW31, URL_SRL_EW32 ]
 
-URL_SRLs_list_EW = generate_srl_urls(destinations,airports, 25)
+
+base_url = "/vysledky-vyhledavani/"
+URL_SRLs_list_EW = Helpers.generate_srl_urls(base_url, destinations,airports, 25)
 from EW.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
     URL = URL_local  # Default value
@@ -103,7 +105,7 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
     def test_SRL_number_of_results_comparer(self):
         Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW, self.logger)
-        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW)
+        #list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_EW)
 
 
 

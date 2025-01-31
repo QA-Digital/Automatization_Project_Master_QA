@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from KTGSK.to_import import URL, setUp, tearDown
 import unittest
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
+from helpers.helper import Helpers
 
 URL_public_prod = "https://kartago.sk"
 
@@ -33,7 +34,9 @@ URL_SRL_KTGSK12 = "/vysledky-vyhladavania?ac1=4&d=64419|64420|64421|64422|64423|
 
 URL_SRLs_list_KTGSK = [URL_SRL_KTGSK1, URL_SRL_KTGSK2, URL_SRL_KTGSK3, URL_SRL_KTGSK4, URL_SRL_KTGSK5, URL_SRL_KTGSK6, URL_SRL_KTGSK7, URL_SRL_KTGSK8, URL_SRL_KTGSK9, URL_SRL_KTGSK10, URL_SRL_KTGSK11, URL_SRL_KTGSK12]
 
-
+from FW.SRL_results_comparer import destinations, airports
+base_url = "/vysledky-vyhladavania/"
+URL_SRLs_list_KTGSK = Helpers.generate_srl_urls(base_url, destinations,airports, 25)
 
 
 from KTGSK.to_import import URL_local
@@ -54,8 +57,8 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_KTGSK)
+       # list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_KTGSK)
 
-
+        Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_KTGSK, self.logger)
 
         self.test_passed = True

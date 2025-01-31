@@ -40,82 +40,83 @@ destinations = [
     63328, 64430, 63360, 63363, 63455, 64144, 64140, 64128, 64141, 64133, 64143
 ]
 
-# List of available airports (example values)
+
 airports = [
     2033, 3418, 3789, 483, 1837, 3437, 1862, 1825, 3850, 298, 874, 892, 983, 1091, 1293, 1956, 2397, 2563, 3352, 489
 ]
+base_url = "/vysledky-vyhledavani/"
+# def generate_srl_urls(destinations, airports, num_urls):
+#     """
+#     Generate a specified number of SRL URLs with randomly selected parameters, including room occupancies.
+#
+#     :param destinations: List of available destination codes.
+#     :param airports: List of available airport codes.
+#     :param num_urls: Number of URLs to generate.
+#     :return: List of generated URLs.
+#     """
+#
+#     static_airports = ["4312", "4305", "2682", "4308", "4392", "430"]  # Fixed static airport choices
+#     urls = []
+#
+#     for _ in range(num_urls):
+#         # Select 13 random destinations
+#         selected_destinations = random.sample(destinations, 13)
+#
+#         # Select 3-5 random airports from the provided list
+#         selected_airports = random.sample(airports, random.randint(3, 5))
+#
+#         # Select 2 random static airports and add them to the selected airports
+#         selected_static_airports = random.sample(static_airports, 2)
+#         selected_airports.extend(selected_static_airports)
+#
+#         # Get the current date
+#         current_date = datetime.now().strftime('%Y-%m-%d')
+#
+#         # Select a random departure date between 1 to 8 months from now
+#         start_date = datetime.now() + timedelta(days=random.randint(30, 240))
+#         start_date_str = start_date.strftime('%Y-%m-%d')
+#
+#         # Select a return date at least 3 weeks and at most 2 months after the start date
+#         end_date = start_date + timedelta(days=random.randint(21, 60))
+#         end_date_str = end_date.strftime('%Y-%m-%d')
+#
+#         # Decide number of rooms (1 or 2)
+#         num_rooms = random.randint(1, 2)
+#
+#         # Generate occupancy details
+#         room_params = []
+#         for i in range(1, num_rooms + 1):
+#             adults = random.randint(1, 4)  # Max 4 adults per room
+#             total_kids = random.randint(0, 6 - adults)  # Remaining capacity for kids
+#
+#             infants = random.randint(0, min(total_kids, 2))  # Max 2 infants (IC)
+#             kids = total_kids - infants  # Remaining are normal kids
+#
+#             # Generate age groups for kids (3-14 years old)
+#             kids_ages = [random.randint(3, 14) for _ in range(kids)]
+#
+#             # Construct room parameters
+#             room_param = f"ac{i}={adults}"
+#             if infants > 0:
+#                 room_param += f"&ic{i}={infants}"
+#             if kids > 0:
+#                 room_param += f"&ka{i}=" + "|".join(map(str, kids_ages))
+#                 room_param += f"&kc{i}={kids}"
+#
+#             room_params.append(room_param)
+#
+#         # Construct the URL
+#         url = (f"{base_url}?d=" + "|".join(map(str, selected_destinations)) +
+#                f"&dd={start_date_str}&nn=7|8|9|10|11|12|13|14&rd={end_date_str}" +
+#                f"&to=" + "|".join(map(str, selected_airports)) + "&tt=1" +
+#                "&" + "&".join(room_params))  # Append room details
+#
+#         urls.append(url)
+#
+#     return urls
 
 
-def generate_srl_urls(destinations, airports, num_urls):
-    """
-    Generate a specified number of SRL URLs with randomly selected parameters, including room occupancies.
-
-    :param destinations: List of available destination codes.
-    :param airports: List of available airport codes.
-    :param num_urls: Number of URLs to generate.
-    :return: List of generated URLs.
-    """
-    base_url = "/vysledky-vyhledavani/"
-    static_airports = ["4312", "4305", "2682", "4308", "4392", "430"]  # Fixed static airport choices
-    urls = []
-
-    for _ in range(num_urls):
-        # Select 13 random destinations
-        selected_destinations = random.sample(destinations, 13)
-
-        # Select 3-5 random airports from the provided list
-        selected_airports = random.sample(airports, random.randint(3, 5))
-
-        # Select 2 random static airports and add them to the selected airports
-        selected_static_airports = random.sample(static_airports, 2)
-        selected_airports.extend(selected_static_airports)
-
-        # Get the current date
-        current_date = datetime.now().strftime('%Y-%m-%d')
-
-        # Select a random departure date between 1 to 8 months from now
-        start_date = datetime.now() + timedelta(days=random.randint(30, 240))
-        start_date_str = start_date.strftime('%Y-%m-%d')
-
-        # Select a return date at least 3 weeks and at most 2 months after the start date
-        end_date = start_date + timedelta(days=random.randint(21, 60))
-        end_date_str = end_date.strftime('%Y-%m-%d')
-
-        # Decide number of rooms (1 or 2)
-        num_rooms = random.randint(1, 2)
-
-        # Generate occupancy details
-        room_params = []
-        for i in range(1, num_rooms + 1):
-            adults = random.randint(1, 4)  # Max 4 adults per room
-            total_kids = random.randint(0, 6 - adults)  # Remaining capacity for kids
-
-            infants = random.randint(0, min(total_kids, 2))  # Max 2 infants (IC)
-            kids = total_kids - infants  # Remaining are normal kids
-
-            # Generate age groups for kids (3-14 years old)
-            kids_ages = [random.randint(3, 14) for _ in range(kids)]
-
-            # Construct room parameters
-            room_param = f"ac{i}={adults}"
-            if infants > 0:
-                room_param += f"&ic{i}={infants}"
-            if kids > 0:
-                room_param += f"&ka{i}=" + "|".join(map(str, kids_ages))
-                room_param += f"&kc{i}={kids}"
-
-            room_params.append(room_param)
-
-        # Construct the URL
-        url = (f"{base_url}?d=" + "|".join(map(str, selected_destinations)) +
-               f"&dd={start_date_str}&nn=7|8|9|10|11|12|13|14&rd={end_date_str}" +
-               f"&to=" + "|".join(map(str, selected_airports)) + "&tt=1" +
-               "&" + "&".join(room_params))  # Append room details
-
-        urls.append(url)
-
-    return urls
-
+URL_SRLs_list_FW = Helpers.generate_srl_urls(base_url, destinations,airports, 25)
 
 URL_public_prod = "https://fischer.cz"
 import re
@@ -191,7 +192,7 @@ URL_SRL_FW30 = "/vysledky-vyhledavani?ac1=3&ac2=4&d=653|819|724|650|651|649|876|
 #                     URL_SRL_FW24, URL_SRL_FW25, URL_SRL_FW26, URL_SRL_FW27,URL_SRL_FW28, URL_SRL_FW29,URL_SRL_FW30    ]
 
 
-URL_SRLs_list_FW = generate_srl_urls(destinations,airports, 25)
+
 
 from FW.to_import import URL_local
 

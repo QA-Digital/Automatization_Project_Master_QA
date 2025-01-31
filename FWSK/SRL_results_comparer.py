@@ -3,6 +3,7 @@ from FWSK.to_import import URL, setUp, tearDown
 import unittest
 
 from compare_SRL_results_DEV_vs_PROD import list_SRL_number_of_results
+from helpers.helper import Helpers
 
 URL_public_prod = "https://fischer.sk"
 
@@ -30,9 +31,10 @@ URL_SRL_FWSK11 = "/vysledky-vyhladavania?ac1=2&d=621|1009|680|622|1108|953|669|1
 
 URL_SRL_FWSK12 = "/poznavacie-zajazdy/vysledky-vyhladavania?ac1=2&d=653|819|1235|724|826|1225|623|1059|741|735|618|619|624|973|1132|709|711|603|1116|993|595|614|648|972|1093|1198|1114|620|746|1074|1075|698|953|621|1009|680|622|1108|669|1086|978|594|611|610|592|675|612|1010|590|726|683|609|627|974|712|684|955|596&dd=2024-07-01&ka1=10&kc1=1&nn=7|8|9|10|11|12|13|14&rd=2024-08-31&to=4305|2682|4308|4312|1837|2933|3437|483&tt=1"
 
-URL_SRLs_list_FWSK = [URL_SRL_FWSK1, URL_SRL_FWSK2, URL_SRL_FWSK3, URL_SRL_FWSK4, URL_SRL_FWSK5, URL_SRL_FWSK6, URL_SRL_FWSK7, URL_SRL_FWSK8, URL_SRL_FWSK9, URL_SRL_FWSK10, URL_SRL_FWSK11, URL_SRL_FWSK12]
 
-
+from FW.SRL_results_comparer import destinations, airports
+base_url = "/vysledky-vyhladavania/"
+URL_SRLs_list_FWSK = Helpers.generate_srl_urls(base_url, destinations,airports, 25)
 
 from FWSK.to_import import URL_local
 class Test_SRL_C_comparer(unittest.TestCase):
@@ -52,8 +54,8 @@ class Test_SRL_C_comparer(unittest.TestCase):
 
 
     def test_SRL_number_of_results_comparer(self):
-        list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FWSK)
+       # list_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FWSK)
 
-
+        Helpers.compare_SRL_number_of_results(self.driver, self.URL, URL_public_prod, URL_SRLs_list_FWSK, self.logger)
 
         self.test_passed = True
