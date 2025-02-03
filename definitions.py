@@ -6,3 +6,4 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Define the path to the Edge driver
 EDGE_DRIVER_PATH = os.path.join(ROOT_DIR, 'msedgedriver.exe')
+CHROME_DRIVER_PATH = os.path.join(ROOT_DIR, 'chromedriver.exe')

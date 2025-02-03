@@ -11,6 +11,8 @@ from definitions import EDGE_DRIVER_PATH
 
 URL_local =  "https://kartagosk.stg.dtweb.cz/"
 URL = "https://kartagosk.stg.dtweb.cz/"
+# URL = "https://www.kartago.sk/"
+# URL_local = "https://www.kartago.sk/"
 URL_poznavacky = "poznavaci-zajezdy"
 URL_poznavacky_vikendy = "poznavaci-zajezdy#vikendy"
 URL_poznavacky_rodiny = "poznavaci-zajezdy#rodiny"
