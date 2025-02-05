@@ -195,24 +195,23 @@ class Test_HP_C(unittest.TestCase):
             msg = " Problem SRL hotelyAllKarty" + url
             sendEmail(msg)
 
-    def test_HP_zlutak_to_SRL_exotika(self):
+    def test_HP_zlutak_to_SRL_circuite(self):
         self.driver.get(self.URL)
         self.driver.maximize_window()
         time.sleep(
             3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
         acceptConsent(self.driver)
         time.sleep(3.5)
-        circuitXpath = "//a[@class='active segmentation-list-anchor']//*[name()='svg']"
+        circuitXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Circuite')]"
         circuitSwitchElement =  self.driver.find_element(By.XPATH, circuitXpath)
 
         self.driver.execute_script("arguments[0].click();", circuitSwitchElement)
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
         destinaceItalieXpath = "//*[@value='st63081']"
         time.sleep(3)
 
         Helpers.hp_zlutak_to_SRL(self.driver, kamPojedeteButtonXpath, destinaceItalieXpath,
                                  zlutakPokracovatButtonXpath, zlutakPokracovatButtonXpathStep2,
-                                 HPzlutakJarniPrazdninyXpath
+                                 zlutakVyberTerminuXpath
                                  , zlutakPokracovatButtonXpathStep3, zlutakObsazenost2plus1Xpath,
                                  zlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)

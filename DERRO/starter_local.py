@@ -54,6 +54,8 @@ def suite_DERRO_full(url):
 
     #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
 
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_circuite', URL=url))
+
     return suite
 
 
