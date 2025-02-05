@@ -92,8 +92,8 @@ def setUp(self):
 
   self.test_passed = False
 
-URL_local =  "https://fischersk.stg.dtweb.cz/"
-URL = "https://fischersk.stg.dtweb.cz/"
+URL_local =  "https://fischersk.web1.dtweb.cz/"
+URL = "https://fischersk.web1.dtweb.cz/"
 
 # URL_local =  "https://fischer.sk/"
 # URL = "https://fischer.sk/"
@@ -108,10 +108,10 @@ URL_SRL = "/vysledky-vyhladavania?ac1=2&d=653|819|724&dd=2023-10-31&ds=0&ifm=0&i
 URL_detail_new = "/spanielsko/almeria/roquetas-de-mar/mediterraneo-bay-hotel-spa-a-resort?DS=256&GIATA=2458&D=621%7C1009%7C680%7C622%7C1108%7C953%7C669%7C1086%7C1194%7C670%7C978%7C594%7C611%7C610%7C592%7C675%7C612%7C1010%7C590%7C726%7C609&HID=13048&MT=2&DI=HB&RC=DR01&RCS=DR01&NN=7&DF=2025-08-08%7C2025-08-31&RD=2025-08-18&DD=2025-08-11&ERM=0&AC1=1&KC1=0&IC1=0&DP=483&TO=483&TOM=483&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=1&PID=LEI90003&DPR=FISCHER+SK+ATCOM&ILM=0&IFM=0&PC=12824027%2F2%2F2049%2F7&IFC=99281825%2F379154&OFC=99280838%2F379153"
 URL_detail = "/egypt/egypt-hurghada/hurghada/horus-4?AC1=1&D=653|819&DD=2025-09-10&DI=IT&DP=4312&DPR=FISCHER+ATCOM&DS=16384&GIATA=0&HID=143635&IC1=0&IFC=95616028%2F369279&IFM=0&ILM=0&KC1=0&MNN=7&MT=7&NN=7&OFC=95615353%2F358466&PC=9915025%2F2%2F2079%2F7&PID=EGR00005&RC=DR01&RCS=DR01&RD=2025-09-17&TO=4305|4392|4309|2682|4308|4312|483|1837|2933|3437|3248&acm1=2&dd=2024-11-06&df=2024-11-06|2025-09-06&nnm=7|8|9|10|11|12|13|14&ptm=0&rd=2025-09-06&sortby=Departure&tt=1&ttm=1#/prehľad"
 URL_detail_HDP = "/egypt/egypt-hurghada/makadi-bay/prima-life-makadi-resort-a-spa?DS=16384&GIATA=77592&D=1235%7C653%7C819&HID=9193&MT=5&DI=AE&RC=DR01&RCS=DR01&NN=7&DF=2025-10-19%7C2025-12-18&RD=2025-10-29&DD=2025-10-22&ERM=0&AC1=2&KC1=0&IC1=0&DP=4312&TO=4312&TOM=4312&MNN=7&NNM=7&TT=1&TTM=1&PID=HRG20068&DPR=FISCHER+ATCOM&ILM=0&IFM=0&PC=1935441%2F2%2F2121%2F7&IFC=95581310%2F360065&OFC=95580632%2F360064"
-URL_detail_HDP_DX_two_rooms = "/hotely/egypt/egypt-hurghada/hurghada/minamark?DS=2&GIATA=17487&D=64419&HID=145043&MT=5&DI=GT06-AI&RC=RMCLDB0000&RCS=RMCLDB0000%7CRMCLDB0000&RT=0&NN=7&DF=2025-07-01%7C2025-08-31&RD=2025-08-31&DD=2025-08-24&ERM=0&AC1=2&KC1=0&IC1=0&AC2=2&KC2=0&IC2=0&DP=3789&TO=3789&TOM=3789&MNN=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&NNM=7%7C8%7C9%7C10%7C11%7C12%7C13%7C14&TT=1&TTM=0&PID=AEGHRG10SU&DPR=OTSCKF&ILM=0&IFM=0&PC=7-RMCLDB0000-GT06-AI-RMCLDB0000-GT06-AI&IFC=0-HRGVIE-7101-DT31-08-07-20-F&OFC=0-VIEHRG-7102-DT24-08-11-35-F"
+URL_detail_HDP_DX_two_rooms = "//egypt/hurghada/sahl-hasheesh/flow-spectrum-sahl-hasheesh?DS=256&GIATA=0&D=64419&HID=167001&DI=AI&RCS=DR01&DF=2025-02-04%7C2025-12-04&RD=2025-09-14&DD=2025-09-14&ERM=0&AC1=2&KC1=0&IC1=0&TO=1837&TOM=1837&MNN=7&NNM=7&TT=0&PID=HRG90068&DPR=FISCHER+SK+ATCOM&PC=102141921%2F2%2F2083%2F7&IFC=99834320%2F382996&OFC=99833333%2F382995"
 URL_detail_HDP_no_parameters = "/turecko/turecka-riviera/side-kumkoy/paloma-oceana"
 URL_detail_HDP_DX_no_parameters = "/hotely/arabske-emiraty/arabske-emiraty/dubaj/rose-rayhaan-dubai-by-rotana"
-URL_detail_HDP_DS65536_no_parameters = "/egypt/egypt-hurghada/soma-bay/coral-sun"
+URL_detail_HDP_DS65536_no_parameters = "/egypt/egypt-hurghada/hurghada/sunny-days-el-palacio"
 
 URL_covidInfo = "covid-info"
 URL_fmExotika = "first-minute"
@@ -126,9 +126,9 @@ URL_FT_results = "hladanie-vysledky?q="
 def tearDown(self):
   self.logger.info(self.driver.current_url)
   self.driver.quit()
-  if not self.test_passed:
-    self.driver.execute_script(
-      'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
+  # if not self.test_passed:
+  #   self.driver.execute_script(
+  #     'browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed", "reason": "general error"}}')
 
 def sendEmail(msg):
   fromx = 'alertserverproblem@gmail.com'

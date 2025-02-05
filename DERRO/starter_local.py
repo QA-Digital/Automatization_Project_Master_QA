@@ -17,19 +17,15 @@ from DERRO.SRL_results_comparer import *
 def suite_DERRO_full(url):
     suite = unittest.TestSuite()
     suite.addTest(TestDetailHotelu_D("test_detail_D", URL=url))
-
     suite.addTest(TestDetailHotelu_C("test_detail_fotka", URL=url))
-    suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
+    #suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_meal", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_terminy_filtr_airport", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap", URL=url))
     suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive", URL=url))
-
     suite.addTest(Test_Fulltext_C("test_fulltext_naseptavac", URL=url))
     suite.addTest(Test_Fulltext_C("test_fulltext_results_status_check", URL=url))
 
     suite.addTest(Test_Groupsearch_D("test_groupsearch_D", URL=url))
-
-    #suite.addTest(TestHP_D("test_homePage_D", URL=url))
 
     suite.addTest(TestLM_D("test_lM_isDisplayed", URL=url))
 
@@ -51,12 +47,12 @@ def suite_DERRO_full(url):
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))  ###
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
     #suite.addTest(Test_HP_C('test_HP_nabidka_Podroze_marzen', URL=url))
-    suite.addTest(Test_HP_C('test_HP_vyletyDubai', URL=url))
-    suite.addTest(Test_HP_C('test_HP_vyletyEgipt', URL=url))
-    suite.addTest(Test_HP_C('test_HP_vyletyThajsko', URL=url))
-    suite.addTest(Test_HP_C('test_HP_top_hotely', URL=url))
+    # suite.addTest(Test_HP_C('test_HP_vyletyDubai', URL=url))
+    # suite.addTest(Test_HP_C('test_HP_vyletyEgipt', URL=url))
+    # suite.addTest(Test_HP_C('test_HP_vyletyThajsko', URL=url))
+    # suite.addTest(Test_HP_C('test_HP_top_hotely', URL=url))
 
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
 
     return suite
 

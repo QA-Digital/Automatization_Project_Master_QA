@@ -36,8 +36,6 @@ class TestLM_D(unittest.TestCase):
         time.sleep(10)
         Helpers.LM_FM_vypis_rozbalit_zajezd_check(self.driver, self.logger)
 
-      #  assert rozbalenyZajezd.is_displayed() == True
-
         self.test_passed = True
 
 

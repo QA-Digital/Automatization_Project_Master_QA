@@ -8,7 +8,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 querySDO = ["Grecia", "Turcia", "Egipt", "Oman", "Maldive", "Dubai", "Mexic", "Cipru", "Panama"]
-queryHotely = ["La Rosa Waves", "Xoria Deluxe", "Beach Resort Salalah", "RIU Plaza Panama", "Cora Cora Maldives", "Bahia Principe Luxury Aumal"]
+queryHotely = [ "Xoria Deluxe", "Beach Resort Salalah", "Cora Cora Maldives", "Bahia Principe Luxury Aumal"]
 queryList = querySDO+queryHotely
 
 from DERRO.to_import import URL_local

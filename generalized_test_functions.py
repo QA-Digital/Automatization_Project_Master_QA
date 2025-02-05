@@ -277,9 +277,11 @@ def generalized_detail_departure_check(driver, pocetZobrazenychTerminuXpath, odl
                     msg = "na detailu jsem vyfiltroval odlet na brno ale pry to nesedi říká python " + url
                     sendEmail(msg)
                     #poziceTerminu = poziceTerminu + 1
+                    print(odletyTerminy[poziceTerminu].text.lower())
+                    print(departureToCompareTo)
                     print("else trigger")
-                    assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
-                assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo
+                    assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo.lower()
+                assert odletyTerminy[poziceTerminu].text.lower() == departureToCompareTo.lower()
 
 
 

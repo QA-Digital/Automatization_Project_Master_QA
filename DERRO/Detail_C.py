@@ -23,7 +23,7 @@ zvolenaStravaVboxuXpath = "//*[@class='f_button-content f_icon f_icon--cutlery']
 stravaVterminechXpath = "//*[@class='f_icon f_icon--cutlery']"
 
 #airport filter
-dopravaSibiuXpath = "(//span)[2437]"
+dopravaSibiuXpath = "//body/section/div/div[@data-component-name='hotelDetail']/div/div/div[@hotel-detail-info='[object Object]']/div/div/div/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/span[1]/label[1]/span[1]"
 dopravaBoxXpath ="//*[@class='f_holder']//*[@class='f_button-content f_icon f_icon--plane']"
 
 from DERRO.to_import import URL_local
@@ -40,17 +40,6 @@ class TestDetailHotelu_C(unittest.TestCase):
 
     def tearDown(self):
         tearDown(self)
-
-    def omlouvamese_paragraph(self):
-        time.sleep(1)
-        try:
-            omlouvameParagraph = self.driver.find_element_by_xpath(
-                "//*[@class='fshr-paragraph fshr-paragraph--centered']")
-            if omlouvameParagraph.is_displayed():
-                return
-
-        except NoSuchElementException:
-            pass
 
     def test_detail_price_sorter_terminy_expensive(self):
         self.driver.maximize_window()
@@ -219,7 +208,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         time.sleep(4)
         pocetZobrazenychTerminuXpath = "//*[@class='f_termList-header-item f_termList-header-item--dateRange']"
         odletyTerminyXpath = "//*[@class='f_termList-header-item f_termList-header-item--transport']"
-        departureToCompareTo = "Sibiu"
+        departureToCompareTo = "Bucharest, Otopeni Int."
 
         time.sleep(5)
         generalized_detail_departure_check(self.driver, pocetZobrazenychTerminuXpath, odletyTerminyXpath, departureToCompareTo, True)
