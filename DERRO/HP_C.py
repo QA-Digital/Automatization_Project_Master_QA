@@ -263,6 +263,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         destinaceSAEXpath = "//*[@value='st62984']"
+        letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Bilete avion')]"
 
         self.driver.find_element(By.XPATH, letenkyVeFiltruSwitchXpath).click()
 
