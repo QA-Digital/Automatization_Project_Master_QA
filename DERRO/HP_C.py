@@ -203,18 +203,18 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         circuitXpath = "//a[@class='active segmentation-list-anchor']//*[name()='svg']"
-        exVeFiltruSwitchElement =  self.driver.find_element(By.XPATH, circuitXpath)
+        circuitSwitchElement =  self.driver.find_element(By.XPATH, circuitXpath)
 
-        self.driver.execute_script("arguments[0].click();", exVeFiltruSwitchElement)
+        self.driver.execute_script("arguments[0].click();", circuitSwitchElement)
         HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
-        destinaceItalieXpath = "//*[@value='st63042']"
+        destinaceItalieXpath = "//*[@value='st63081']"
         time.sleep(3)
 
-        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
-                                 HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2,
+        Helpers.hp_zlutak_to_SRL(self.driver, kamPojedeteButtonXpath, destinaceItalieXpath,
+                                 zlutakPokracovatButtonXpath, zlutakPokracovatButtonXpathStep2,
                                  HPzlutakJarniPrazdninyXpath
-                                 , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
-                                 HPzlutakPotvrditAvyhledatXpath, self.logger)
+                                 , zlutakPokracovatButtonXpathStep3, zlutakObsazenost2plus1Xpath,
+                                 zlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)
         Helpers.search_results_list_check(self.driver, self.logger)
         #Helpers.group_search_check(self.driver, self.logger)
