@@ -9,6 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from DERRO.groupsearch_D import groupSearch_D
 import time
 from DERRO.SRL_D import SRL_D
+from EW.HP_C import letenkyVeFiltruSwitchXpath
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 from helpers.helper import Helpers
 
@@ -219,6 +220,61 @@ class Test_HP_C(unittest.TestCase):
         #Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
 
+    def test_HP_zlutak_to_groupsearch_circuite(self):
+        self.driver.maximize_window()
+        self.driver.get(self.URL)
+        wait = WebDriverWait(self.driver, 300)
 
+        time.sleep(
+            3.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        circuitXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Circuite')]"
+        circuitSwitchElement =  self.driver.find_element(By.XPATH, circuitXpath)
 
+        self.driver.execute_script("arguments[0].click();", circuitSwitchElement)
+        time.sleep(2.5)
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, vyhledatZajezdyButtonXpath))).click()
+        time.sleep(2.5)  ##time sleep not the best not pog but it works =)
+
+        self.driver.find_element(By.XPATH, '//*[@data-testid="popup-closeButton"]').click()
+        Helpers.group_search_check(self.driver, self.logger)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_groupsearch_letenky(self):
+        self.driver.get(self.URL)
+        wait = WebDriverWait(self.driver, 300)
+        self.driver.maximize_window()
+        time.sleep(3.3) ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.3)
+        letenkyVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Bilete avion')]"
+        self.driver.find_element(By.XPATH, letenkyVeFiltruSwitchXpath).click()
+
+        wait.until(EC.visibility_of(self.driver.find_element(By.XPATH, vyhledatZajezdyButtonXpath))).click()
+        time.sleep(2.5)     ##time sleep not the best not pog but it works =)
+        Helpers.group_search_check(self.driver, self.logger)
+        self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_letenky(self):
+        self.driver.get(self.URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        destinaceSAEXpath = "//*[@value='st62984']"
+
+        self.driver.find_element(By.XPATH, letenkyVeFiltruSwitchXpath).click()
+
+        time.sleep(3)
+        letenkySrlResultsXpath = "//*[@class='f_searchResult-content-item relative']"
+        Helpers.hp_zlutak_to_SRL(self.driver, kamPojedeteButtonXpath, destinaceSAEXpath,
+                                 zlutakPokracovatButtonXpath, zlutakPokracovatButtonXpathStep2,
+                                 zlutakVyberTerminuXpath
+                                 , zlutakPokracovatButtonXpathStep3, zlutakObsazenost2plus1Xpath,
+                                 zlutakPotvrditAvyhledatXpath, self.logger)
+
+        time.sleep(4)
+        Helpers.SRL_D_letenky(self.driver, letenkySrlResultsXpath, self.logger)
+        self.test_passed = True
 
