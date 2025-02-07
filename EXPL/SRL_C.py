@@ -6,6 +6,7 @@ import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
 from generalized_test_functions import generalized_map_test_click_through_circles, generalized_map_test_click_on_pin_and_hotel_bubble, generalized_SRL_choose_meal_filter_EW_like, generalized_list_string_sorter, generalized_SRL_price_sorter
+from helpers.helper import Helpers
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 cenaZajezduXpath = "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']"
@@ -64,10 +65,10 @@ class Test_SRL_C(unittest.TestCase):
         time.sleep(2)
         generalDriverWaitImplicit(self.driver)
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
+        Helpers.generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath, self.logger)
         time.sleep(2.5)
 
-        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
+        Helpers.generalized_map_test_click_on_pin_and_hotel_bubble(self.driver, self.logger)
         time.sleep(3)
 
         self.driver.switch_to.window(self.driver.window_handles[1])  ##gotta switch to new window

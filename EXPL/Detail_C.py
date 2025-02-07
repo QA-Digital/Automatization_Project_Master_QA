@@ -8,6 +8,8 @@ import unittest
 from generalized_test_functions import *
 
 ##global
+from helpers.helper import Helpers
+
 terminyAcenyTabXpath = "//span[@class='f_anchor' and contains(text(), 'Terminy i ceny')]"
 potvrditPopupXpath = "//*[@data-testid='popup-closeButton']"
 
@@ -59,7 +61,8 @@ class TestDetailHotelu_C(unittest.TestCase):
         driver.execute_script("arguments[0].scrollIntoView();", boxTerminyElement)
         time.sleep(3.5)
 
-        celkovaCenaSorterXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
+        #celkovaCenaSorterXpath = "//span[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor f_set--active f_icon--sortUp']"
+        celkovaCenaSorterXpath = "//*[@class='f_termList-header-item f_termList-header-item--price']//*[@class='f_anchor f_icon f_icon_set--right f_icon_set--inheritColor']"
         celkovaCenaSorterElement = driver.find_element(By.XPATH, celkovaCenaSorterXpath)
         ##2x click = od nejrdazshi
         ##1x click = od nejlevnejsiho
@@ -71,11 +74,12 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
         pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
-        poziceTerminu = 0
+        poziceTerminu = 1
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
-            kcIndex = 3
+            celkoveCenaVterminechXpath2 = "//*[@class='f_termList-header-item f_termList-header-item--price']"
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath2)
+            kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
             celkovaCenaVterminechINT = int(float(celkovaCena))
@@ -85,7 +89,8 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         time.sleep(3)
         # cheap = "expensive"
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        #generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "expensive", self.logger)
 
     def test_detail_price_sorter_terminy_cheap(self):
         self.driver.maximize_window()
@@ -121,11 +126,12 @@ class TestDetailHotelu_C(unittest.TestCase):
 
         pocetTerminuXpath = "//*[@class='f_termList-header-item']"
         pocetTerminuElements = driver.find_elements(By.XPATH, pocetTerminuXpath)
-        poziceTerminu = 0
+        poziceTerminu = 1
         celkoveCenyList = []
         for _ in pocetTerminuElements:
-            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath)
-            kcIndex = 3
+            celkoveCenaVterminechXpath2 = "//*[@class='f_termList-header-item f_termList-header-item--price']"
+            celkoveCenaVterminechElements = driver.find_elements(By.XPATH, celkoveCenaVterminechXpath2)
+            kcIndex = 2
             celkovaCenaVterminechINT = celkoveCenaVterminechElements[poziceTerminu].text[:-kcIndex].replace(" ", "")
             celkovaCena = celkovaCenaVterminechINT.replace(",", ".")
             celkovaCenaVterminechINT = int(float(celkovaCena))
@@ -134,7 +140,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         self.logger.info(celkoveCenyList)
 
         time.sleep(3)
-        generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap")
+        Helpers.generalized_price_sorter_expensive_cheap_assert(celkoveCenyList, "cheap", self.logger)
     def test_detail_fotka(self):
 
         URL_detail_lp = f"{self.URL}{URL_detail}"
@@ -144,7 +150,7 @@ class TestDetailHotelu_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         #imageDetailXpath = "//*[@class='f_tileGallery min-[901px]:overflow-hidden min-[901px]:rounded-[--rounding] box-border min-h-full h-full']//img"
-        imageDetailXpath = "/html/body/section/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/div[2]/swiper-container/swiper-slide[1]/img"
+        imageDetailXpath = "//swiper-slide[@aria-label='1 / 33']//img"
         # imageDetail = self.driver.find_element_by_xpath(
         #     "//*[@aria-roledescription='carousel']//*[@class='splide__slide is-active is-visible']//img")
         imageDetail = self.driver.find_element(By.XPATH, imageDetailXpath)

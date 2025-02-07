@@ -12,7 +12,7 @@ from EXPL.SRL_D import SRL_D
 from generalized_banners_compare_to_deploy_web import banner_check_public_prod_VS_deployed_web
 #from generalized_test_functions import generalized_EW_like_top_nabidka_URL_status_check, generalized_list_of_url_checker
 from EXPL.to_import import acceptConsent,URL_detail, sendEmail
-
+from helpers.helper import Helpers
 
 URL_prod_public = "https://www.exim.pl/"
 banneryXpath_EWPL = "//*[@class='f_teaser-item']/a"
@@ -92,14 +92,12 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
 
         time.sleep(8.5)
-        hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath,
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, HPzlutakReckoDestinaceXpath,
                          HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakLetniPrazdninyXpath
                          , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
-                         HPzlutakPotvrditAvyhledatXpath)
-        SRL_D(self, self.driver)
-        self.test_passed = True
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
+        Helpers.search_results_list_check(self.driver, self.logger)
 
-        SRL_D(self, self.driver)
         self.test_passed = True
 
     def test_HP_slider_NasiKlienci(self):

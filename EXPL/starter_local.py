@@ -59,6 +59,8 @@ def suite_EXPL_full(url):
     suite.addTest(Test_HP_C('test_allInclusiveDestination_D', URL=url))
 
     suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_cheap", URL=url))
+    suite.addTest(TestDetailHotelu_C("test_detail_price_sorter_terminy_expensive", URL=url))
 
     return suite
 
