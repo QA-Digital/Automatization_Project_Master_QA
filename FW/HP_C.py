@@ -169,7 +169,7 @@ class Test_HP_C(unittest.TestCase):
         acceptConsent(self.driver)
         time.sleep(3.5)
         self.driver.find_element(By.XPATH, exVeFiltruSwitchXpath).click()
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2025')]"
         destinaceItalieXpath = "//*[@value='st63139']"
         time.sleep(3)
 

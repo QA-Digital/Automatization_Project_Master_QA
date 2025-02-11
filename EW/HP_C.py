@@ -170,7 +170,7 @@ class Test_HP_C(unittest.TestCase):
         exVeFiltruSwitchElement =  self.driver.find_element(By.XPATH, exVeFiltruSwitchXpath)
 
         self.driver.execute_script("arguments[0].click();", exVeFiltruSwitchElement)
-        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Leden / Únor 2025')]"
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Květen / Červen 2025')]"
         destinaceItalieXpath = "//*[@value='st63042']"
         time.sleep(3)
 
@@ -180,8 +180,8 @@ class Test_HP_C(unittest.TestCase):
                                  , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
                                  HPzlutakPotvrditAvyhledatXpath, self.logger)
         time.sleep(3)
-        Helpers.search_results_list_check(self.driver, self.logger)
-        #Helpers.group_search_check(self.driver, self.logger)
+        #Helpers.search_results_list_check(self.driver, self.logger)
+        Helpers.group_search_check(self.driver, self.logger)
         self.test_passed = True
 
     def test_HP_nejlepsi_nabidky_vypis_btn_switch(self):

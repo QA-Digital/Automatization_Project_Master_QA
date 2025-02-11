@@ -92,8 +92,8 @@ def setUp(self):
 
   self.test_passed = False
 
-URL_local =  "https://fischersk.web1.dtweb.cz/"
-URL = "https://fischersk.web1.dtweb.cz/"
+URL_local =  "https://fischersk2.stg.dtweb.cz/"
+URL = "https://fischersk2.stg.dtweb.cz/"
 
 # URL_local =  "https://fischer.sk/"
 # URL = "https://fischer.sk/"
