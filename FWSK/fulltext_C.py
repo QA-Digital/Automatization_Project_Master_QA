@@ -36,14 +36,15 @@ class Test_Fulltext_C(unittest.TestCase):
         wait = WebDriverWait(self.driver, 35)
         poziceQueryItem = 0
         for _ in queryList:
+
             self.driver.get(self.URL)
 
             if poziceQueryItem == 0:
+                time.sleep(3)
                 acceptConsent(self.driver)
                 self.driver.maximize_window()
             else:
                 pass
-
             ftLupaXpath = '//*[@class="block outline-0 border-none bg-transparent p-0 m-0 cursor-pointer"]'
             FTlupa = self.driver.find_element(By.XPATH, ftLupaXpath)
             FTlupa.click()
@@ -63,8 +64,8 @@ class Test_Fulltext_C(unittest.TestCase):
                 try:
 
                     # hotelDlazdice = self.driver.find_element(By.XPATH, "//*[@class='f_tileGrid-item']")
-                    hotelDlazdice = self.driver.find_element_by_xpath(
-                        "//*[@class='f_tile f_tile--tour']")  ##work around na EW
+                    hotelDlazdice = self.driver.find_element(By.XPATH,
+                                                             "//*[@class='f_tile f_tile--tour']")  ##work around na EW
                     # wait.until(EC.visibility_of(hotelDlazdice)).click()
                     hotelDlazdice.click()
                     # hotelDlazdice.click()
@@ -82,7 +83,7 @@ class Test_Fulltext_C(unittest.TestCase):
 
             if testOK_asserted == False:
                 try:
-                    #prvniItem =
+                    # prvniItem =
                     wait.until(EC.visibility_of(self.driver.find_elements(By.XPATH, "//*[@class='f_item']")[0])).click()
                     # prvniItem[0].click()
                     self.logger.info("last no such ele except")
@@ -98,7 +99,9 @@ class Test_Fulltext_C(unittest.TestCase):
                 assert currentUrl != URL
             else:
                 pass
+
         self.test_passed = True
+
     def test_fulltext_results_status_check(self):
 
 

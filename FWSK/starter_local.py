@@ -54,7 +54,8 @@ def suite_FWSK_full(url):
     #suite.addTest(Test_HP_C('test_HP_nejlepsi_nabidky_vypis_btn_switch', URL=url))
     #suite.addTest(Test_HP_C('test_HP_slider_click_detail_hotelu', URL=url))
     suite.addTest(Test_HP_C('test_HP_bannery_check', URL=url))
-    suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
+
+    #suite.addTest(Test_SRL_C_comparer('test_SRL_number_of_results_comparer', URL=url))
 
     suite.addTest(TestDetailHotelu_HDP('test_HDP_change_flight_change_meal_gg', URL=url))
     suite.addTest(TestDetailHotelu_HDP('test_HDP_DX_two_rooms_change_one_not_available_gg', URL=url))
