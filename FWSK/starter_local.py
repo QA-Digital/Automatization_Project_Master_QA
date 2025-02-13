@@ -63,6 +63,12 @@ def suite_FWSK_full(url):
     suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DX', URL=url))
     suite.addTest(TestDetailHotelu_HDP('test_HDP_URL_no_parameters_DS65536', URL=url))
 
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_lyze', URL=url))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_poznavacky', URL=url))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_poznavacky', URL=url))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_SRL_letenky', URL=url))
+    suite.addTest(Test_HP_C('test_HP_zlutak_to_groupsearch_letenky', URL=url))
+
     return suite
 
 
