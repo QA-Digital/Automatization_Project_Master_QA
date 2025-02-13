@@ -150,3 +150,24 @@ class Test_HP_C(unittest.TestCase):
         banner_check_public_prod_VS_deployed_web(self.driver, URL_prod_public, self.URL, banneryXpath_KTGSK)
 
         self.test_passed = True
+
+    def test_HP_zlutak_to_SRL_lyze(self):
+        self.driver.get(self.URL)
+        self.driver.maximize_window()
+        time.sleep(
+            0.3)  ##this is to workaround accept consent since in maximizes and then selenium gets confused with clickin on the element
+        acceptConsent(self.driver)
+        time.sleep(3.5)
+        lyzeVeFiltruSwitchXpath = "//*[@class='segmentation-list-text' and contains(text(), 'Lyžovanie')]"
+        self.driver.find_element(By.XPATH, lyzeVeFiltruSwitchXpath).click()
+        HPzlutakJarniPrazdninyXpath = "//*[contains(text(), 'Marec a apríl')]"
+        destinaceItalieXpath = "//*[@value='st63081']"
+        time.sleep(3)
+
+        Helpers.hp_zlutak_to_SRL(self.driver, HPkamPojedeteButtonXpath, destinaceItalieXpath,
+                         HPzlutakPokracovatButtonXpath, HPzlutakPokracovatButtonXpathStep2, HPzlutakJarniPrazdninyXpath
+                         , HPzlutakPokracovatButtonXpathStep3, HPzlutakObsazenost2plus1Xpath,
+                         HPzlutakPotvrditAvyhledatXpath, self.logger)
+        time.sleep(10)
+        Helpers.search_results_list_check(self.driver, self.logger)
+        self.test_passed = True

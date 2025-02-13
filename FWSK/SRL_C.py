@@ -5,6 +5,7 @@ import time
 import unittest
 from FW.Detail_D import detail_D
 from generalized_test_functions import *
+from helpers.helper import Helpers
 
 hotelyKartyXpath = "//*[@class='f_tile-item f_tile-item--content']"
 cenaZajezduXpath = "//*[@class='f_tile-priceDetail-content']//*[@class='f_price']"
@@ -68,9 +69,9 @@ class Test_SRL_C(unittest.TestCase):
         # zobrazitNaMape = driver.find_element(By.XPATH, "//*[@class='f_bar-item f_bar-map']")
         # zobrazitNaMape.click()
         zobrazitNaMapeXpath = "//*[@class='f_bar-item f_bar-map']"
-        generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath)
+        Helpers.generalized_map_test_click_through_circles(self.driver, zobrazitNaMapeXpath, self.logger)
         time.sleep(2)
-        generalized_map_test_click_on_pin_and_hotel_bubble(self.driver)
+        Helpers.generalized_map_test_click_on_pin_and_hotel_bubble(self.driver, self.logger)
         time.sleep(2)
 
         ###EXECUTION DISPLAY TEST NA DETAIL HOTELU -> pokud se vyassertuje že jsem na detailu a vše je ok můžu předpokládat že mapka je OK
